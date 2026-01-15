@@ -1,0 +1,48 @@
+{
+  "exams": [
+    {
+      "id": "hssc-cet-01",
+      "title": "HSSC CET Group C - Mock Test 1",
+      "category": "haryana-special",
+      "tags": ["HSSC", "CET", "Haryana GK"],
+      "totalQuestions": 100,
+      "timeLimit": "90 Mins",
+      "description": "Full-length mock test based on the latest HSSC pattern with Haryana GK focus.",
+      "status": "New",
+      "link": "quiz.html?id=hssc-cet-01"
+    },
+    {
+      "id": "haryana-gk-pro",
+      "title": "Haryana GK Special - Practice Set",
+      "category": "haryana-special",
+      "tags": ["GK", "Haryana", "Culture"],
+      "totalQuestions": 25,
+      "timeLimit": "15 Mins",
+      "description": "Improve your score in Haryana GK with these high-yield questions.",
+      "status": "Live",
+      "link": "quiz.html?id=haryana-gk-pro"
+    },
+    {
+      "id": "ssc-cgl-quant",
+      "title": "SSC CGL - Quantitative Aptitude",
+      "category": "ssc",
+      "tags": ["SSC", "Maths", "CGL"],
+      "totalQuestions": 25,
+      "timeLimit": "20 Mins",
+      "description": "Topic-wise practice for SSC CGL Tier 1 and Tier 2 Exams.",
+      "status": "Live",
+      "link": "quiz.html?id=ssc-cgl-quant"
+    },
+    {
+      "id": "current-affairs-daily",
+      "title": "Daily Current Affairs - Jan 2026",
+      "category": "general",
+      "tags": ["Daily", "News", "CA"],
+      "totalQuestions": 10,
+      "timeLimit": "5 Mins",
+      "description": "Stay updated with the latest national and international news.",
+      "status": "Live",
+      "link": "quiz.html?id=current-affairs-daily"
+    }
+  ]
+}
