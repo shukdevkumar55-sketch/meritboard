@@ -10,12 +10,22 @@
 </head>
 <body class="quiz-body">
 
-    <!-- Top Header -->
+    <!-- Top Header Updated with Language Selector -->
     <header class="quiz-header">
         <div class="quiz-nav-top">
             <div id="quizTitle" class="quiz-title">HSSC Exam</div>
-            <div class="timer-box">
-                <span id="timerDisplay" class="timer">00:00</span>
+            
+            <div class="header-controls">
+                <!-- Language Selector -->
+                <select id="langSelect" class="lang-select">
+                    <option value="hi">हिन्दी</option>
+                    <option value="en">English</option>
+                </select>
+                
+                <!-- Timer -->
+                <div class="timer-box">
+                    <span id="timerDisplay" class="timer">00:00</span>
+                </div>
             </div>
         </div>
     </header>
