@@ -1,0 +1,323 @@
+/* 
+    MeritBoard - Professional Exam Portal CSS (Final Version)
+    Update: Scrollable Scorecard, Professional Palette UI & Legend Shapes
+*/
+
+:root {
+    --primary-color: #1A237E;
+    --secondary-color: #03A9F4;
+    --success-color: #27ae60;
+    --text-dark: #2d3436;
+    --white: #ffffff;
+}
+
+/* 1. Layout & Body */
+.quiz-body { 
+    background: #f0f3f7; 
+    margin: 0; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    overflow: hidden; 
+}
+
+/* 2. Top Header */
+.quiz-header {
+    background: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.quiz-nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.quiz-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 0.9rem;
+    max-width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timer {
+    background: #f8f9fa;
+    border: 1px solid #cbd5e0;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* 3. Section Bar (Subject Tabs) */
+.section-bar {
+    background: #34495e;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.section-tab {
+    padding: 12px 18px;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.section-tab.active {
+    background: #ffffff;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+/* 4. Main Question Area */
+.quiz-main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    padding-bottom: 100px; /* Space for footer */
+}
+
+.question-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.q-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.q-number { font-weight: 700; color: var(--primary-color); }
+
+.question-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Options */
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.option-btn.selected { 
+    background: #ebf8ff; 
+    border: 2px solid var(--secondary-color);
+    font-weight: 600;
+}
+
+/* 5. Question Palette Section */
+.palette-container {
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Professional Palette Toggle Button */
+.btn-palette-toggle {
+    width: 100%;
+    padding: 12px;
+    background: #f8fafc;
+    border: 1px dashed #cbd5e0;
+    border-radius: 8px;
+    color: #4a5568;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.palette-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Palette Button Shapes */
+.p-btn {
+    height: 40px;
+    border: 1px solid #cbd5e0;
+    background: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.p-btn.answered { 
+    background: var(--success-color) !important; 
+    color: white; 
+    border-radius: 0 0 15px 15px; /* Bottom rounded */
+    border: none;
+}
+.p-btn.not-answered { 
+    background: #e74c3c !important; 
+    color: white; 
+    border-radius: 15px 15px 0 0; /* Top rounded */
+    border: none;
+}
+.p-btn.marked { 
+    background: #8e44ad !important; 
+    color: white; 
+    border-radius: 50%; /* Perfect circle */
+    border: none;
+}
+.p-btn.current { border: 2px solid #2b6cb0; }
+
+/* Palette Legend Summary */
+.legend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    font-size: 0.8rem;
+}
+
+.leg-item { display: flex; align-items: center; gap: 10px; color: #666; }
+.leg-box { width: 20px; height: 20px; border: 1px solid #ccc; }
+
+/* Sync Legend Box Shapes with Palette Buttons */
+.leg-box.answered { border-radius: 0 0 8px 8px; background: var(--success-color); border: none; }
+.leg-box.marked { border-radius: 50%; background: #8e44ad; border: none; }
+.leg-box.not-answered { border-radius: 8px 8px 0 0; background: #e74c3c; border: none; }
+.leg-box.current { border: 2px solid #2b6cb0; }
+
+/* 6. Footer Fixed Controls */
+.quiz-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 12px 15px;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    z-index: 2000;
+}
+
+.btn-ctrl {
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border: 1px solid #cbd5e0;
+    cursor: pointer;
+}
+
+.footer-right { display: flex; gap: 8px; flex: 1; justify-content: flex-end; }
+
+.btn-save { background: var(--secondary-color); color: white; border: none; padding: 10px 20px; }
+.btn-submit { background: var(--primary-color); color: white; border: none; padding: 10px 20px; }
+.btn-review { background: #f39c12; color: white; border: none; }
+.btn-clear { background: #f1f2f6; color: #57606f; }
+
+/* 7. Result Modal & Scorecard (Scroll Fix) */
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Important for scrolling */
+    z-index: 9999;
+    overflow-y: auto; /* Enable scroll if content is long */
+    padding: 20px 0;
+}
+
+.scorecard {
+    background: white;
+    width: 92%;
+    max-width: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp { from { transform: translateY(100px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+.scorecard-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.score-main { font-size: 4.5rem; font-weight: 800; line-height: 1; margin: 10px 0; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 15px;
+    background: #fff;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.stat-item { text-align: center; border-right: 1px solid #edf2f7; }
+.stat-item:last-child { border-right: none; }
+.stat-item .val { display: block; font-size: 1.2rem; font-weight: 700; color: var(--primary-color); }
+.stat-item .lbl { font-size: 0.65rem; color: #718096; text-transform: uppercase; font-weight: 700; }
+
+.modal-footer {
+    padding: 25px;
+    background: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-footer .btn-save {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.modal-footer .btn-clear {
+    background: #e2e8f0;
+    color: #4a5568;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.hidden { display: none !important; }
+
+/* Analysis Review Mode (Correct/Wrong Highlights) */
+.option-btn.correct { background: #d4edda; border: 2px solid #28a745; }
+.option-btn.wrong { background: #f8d7da; border: 2px solid #dc3545; }
