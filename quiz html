@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Exam Portal | MeritBoard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body class="quiz-body">
+
+    <!-- Top Header -->
+    <header class="quiz-header">
+        <div class="quiz-nav-top">
+            <div id="quizTitle" class="quiz-title">HSSC Exam</div>
+            <div class="timer-box">
+                <span id="timerDisplay" class="timer">00:00</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subject Section Bar (Testbook Style) -->
+    <nav class="section-bar" id="sectionBar">
+        <div class="section-tab active">General Awareness</div>
+        <div class="section-tab">Haryana GK</div>
+        <div class="section-tab">Maths</div>
+    </nav>
+
+    <main class="quiz-main">
+        <div class="container">
+            <!-- Question Card -->
+            <section class="question-card">
+                <div class="q-header">
+                    <span class="q-number" id="qNum">Question 1</span>
+                    <span class="q-marks">Marks <span class="pos">+1</span> <span class="neg">-0</span></span>
+                </div>
+                
+                <h2 id="qText" class="question-text">Loading question...</h2>
+                
+                <div id="optionsGrid" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </section>
+
+            <!-- Palette Area -->
+            <div class="palette-container">
+                <button id="togglePalette" class="btn-palette-toggle">View Question Palette</button>
+                <div id="questionPalette" class="palette-grid hidden"></div>
+                
+                <!-- Legend Summary -->
+                <div class="legend-grid" id="paletteLegend">
+                    <div class="leg-item"><span class="leg-box answered"></span> Answered</div>
+                    <div class="leg-item"><span class="leg-box marked"></span> Marked</div>
+                    <div class="leg-item"><span class="leg-box not-answered"></span> Not Answered</div>
+                    <div class="leg-item"><span class="leg-box current"></span> Current</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Professional Footer Controls -->
+    <footer class="quiz-footer">
+        <button id="markReviewBtn" class="btn-ctrl btn-review">Review</button>
+        <button id="clearResponseBtn" class="btn-ctrl btn-clear">Clear</button>
+        <div class="footer-right">
+            <button id="prevBtn" class="btn-ctrl btn-prev">Prev</button>
+            <button id="nextBtn" class="btn-ctrl btn-save">Save & Next</button>
+        </div>
+        <button id="submitBtn" class="btn-ctrl btn-submit hidden">Submit</button>
+    </footer>
+
+    <!-- Full Screen Result Scorecard -->
+    <div id="resultModal" class="modal hidden">
+        <div class="scorecard">
+            <div class="scorecard-header">
+                <h3>Test Completed</h3>
+                <div class="score-main" id="finalScore">0</div>
+                <p>Your Total Score</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item"><span class="val" id="totalAttempted">0</span><span class="lbl">Attempted</span></div>
+                <div class="stat-item"><span class="val" id="accuracyVal">0%</span><span class="lbl">Accuracy</span></div>
+                <div class="stat-item"><span class="val" id="timeTaken">0m</span><span class="lbl">Time</span></div>
+            </div>
+            <div style="padding: 20px; display: flex; gap: 10px;">
+                <button id="viewAnalysisBtn" class="btn-save" style="flex:1; border:none; padding:12px; border-radius:5px;">Review Answers</button>
+                <button onclick="location.href='index.html'" class="btn-clear" style="flex:1; padding:12px; border-radius:5px;">Home</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js" type="module"></script>
+</body>
+</html>
