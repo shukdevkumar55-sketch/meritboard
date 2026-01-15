@@ -1,0 +1,409 @@
+{
+  "testTitle": "Haryana Police Constable - Full Mock Test 01 (Questions 31-50)",
+  "timeMinutes": 100,
+  "totalQuestions": 100,
+  "sections": ["Maths", "Computer", "Reasoning", "Haryana GK", "General Science"],
+  "questions": [
+    {
+      "id": 31,
+      "section": "Maths",
+      "q_en": "A sum of money amounts to Rs. 4840 in 2 years and to Rs. 5324 in 3 years at compound interest. The rate of interest per annum is:",
+      "q_hi": "चक्रवृद्धि ब्याज पर कोई धनराशि 2 वर्षों में 4840 रुपये और 3 वर्षों में 5324 रुपये हो जाती है। प्रति वर्ष ब्याज की दर है:",
+      "options_en": ["10%", "9%", "11%", "12%"],
+      "options_hi": ["10%", "9%", "11%", "12%"],
+      "answer": 0,
+      "explanation": "Difference = 5324 - 4840 = 484. Rate = (484 / 4840) * 100 = 10%."
+    },
+    {
+      "id": 32,
+      "section": "Computer",
+      "q_en": "Which protocol provides e-mail facility among different hosts?",
+      "q_hi": "विभिन्न होस्ट के बीच ई-मेल सुविधा कौन सा प्रोटोकॉल प्रदान करता है?",
+      "options_en": ["FTP", "SMTP", "TELNET", "SNMP"],
+      "options_hi": ["FTP", "SMTP", "TELNET", "SNMP"],
+      "answer": 1,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails."
+    },
+    {
+      "id": 33,
+      "section": "Haryana GK",
+      "q_en": "Which river enters Haryana near Kaleasar forest?",
+      "q_hi": "कौन सी नदी कालेसर वन के पास हरियाणा में प्रवेश करती है?",
+      "options_en": ["Ghaggar", "Markanda", "Yamuna", "Sahibi"],
+      "options_hi": ["घग्गर", "मारकंडा", "यमुना", "साहिबी"],
+      "answer": 2,
+      "explanation": "The Yamuna river enters Haryana near Kaleasar in Yamunanagar district."
+    },
+    {
+      "id": 34,
+      "section": "Reasoning",
+      "q_en": "A clock shows 3:30. If the minute hand points towards East, in which direction will the hour hand point?",
+      "q_hi": "एक घड़ी 3:30 दिखा रही है। यदि मिनट की सुई पूर्व की ओर इंगित करती है, तो घंटे की सुई किस दिशा में इंगित करेगी?",
+      "options_en": ["South-East", "North-East", "South-West", "North-West"],
+      "options_hi": ["दक्षिण-पूर्व", "उत्तर-पूर्व", "दक्षिण-पश्चिम", "उत्तर-पश्चिम"],
+      "answer": 1,
+      "explanation": "At 3:30, minute hand is at 6 (South normally, but here East). It shifted +90 deg anti-clockwise. Hour hand is between 3 and 4 (SE normally), shift +90 anti-clockwise = North-East."
+    },
+    {
+      "id": 35,
+      "section": "Maths",
+      "q_en": "If x + (1/x) = 5, then the value of x^3 + (1/x^3) is:",
+      "q_hi": "यदि x + (1/x) = 5, तो x^3 + (1/x^3) का मान है:",
+      "options_en": ["110", "125", "140", "115"],
+      "options_hi": ["110", "125", "140", "115"],
+      "answer": 0,
+      "explanation": "Formula: a^3 - 3a. Here a=5. So, 5^3 - 3(5) = 125 - 15 = 110."
+    },
+    {
+      "id": 36,
+      "section": "Computer",
+      "q_en": "What is the full form of 'USB' in computer terminology?",
+      "q_hi": "कंप्यूटर शब्दावली में 'USB' का पूर्ण रूप क्या है?",
+      "options_en": ["Universal Serial Bus", "Unique Serial Bus", "Universal System Bus", "Unified Serial Bus"],
+      "options_hi": ["यूनिवर्सल सीरियल बस", "यूनिक सीरियल बस", "यूनिवर्सल सिस्टम बस", "यूनिफाइड सीरियल बस"],
+      "answer": 0,
+      "explanation": "USB stands for Universal Serial Bus."
+    },
+    {
+      "id": 37,
+      "section": "Haryana GK",
+      "q_en": "Who led the revolt of 1857 from Rewari?",
+      "q_hi": "रेवाड़ी से 1857 के विद्रोह का नेतृत्व किसने किया था?",
+      "options_en": ["Nahar Singh", "Rao Tula Ram", "Abdul Rahman Khan", "Hukum Singh"],
+      "options_hi": ["नाहर सिंह", "राव तुला राम", "अब्दुल रहमान खान", "हुकम सिंह"],
+      "answer": 1,
+      "explanation": "Rao Tula Ram was the hero of the 1857 revolution from Rewari/Ahirwal region."
+    },
+    {
+      "id": 38,
+      "section": "General Science",
+      "q_en": "Which part of the human brain controls body temperature?",
+      "q_hi": "मानव मस्तिष्क का कौन सा भाग शरीर के तापमान को नियंत्रित करता है?",
+      "options_en": ["Cerebrum", "Cerebellum", "Hypothalamus", "Medulla"],
+      "options_hi": ["प्रमस्तिष्क", "अनुमस्तिष्क", "हाइपोथैलेमस", "मेड्यूला"],
+      "answer": 2,
+      "explanation": "The Hypothalamus regulates body temperature, hunger, and thirst."
+    },
+    {
+      "id": 39,
+      "section": "Maths",
+      "q_en": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. If A, B and C work together, they will complete the work in:",
+      "q_hi": "A और B एक काम को 12 दिनों में, B और C 15 दिनों में, और C और A 20 दिनों में कर सकते हैं। यदि A, B और C मिलकर काम करते हैं, तो वे काम को कितने समय में पूरा करेंगे?",
+      "options_en": ["5 days", "10 days", "15 days", "20 days"],
+      "options_hi": ["5 दिन", "10 दिन", "15 दिन", "20 दिन"],
+      "answer": 1,
+      "explanation": "2(A+B+C) efficiency = 5+4+3 = 12 units/day. (A+B+C) = 6 units/day. Total work 60. Time = 60/6 = 10 days."
+    },
+    {
+      "id": 40,
+      "section": "Reasoning",
+      "q_en": "Select the related word: Virology : Virus :: Pathology : ?",
+      "q_hi": "संबंधित शब्द का चयन करें: वायरोलॉजी : वायरस :: पैथोलॉजी : ?",
+      "options_en": ["Diseases", "Bacteria", "Medicines", "Cells"],
+      "options_hi": ["रोग", "बैक्टीरिया", "दवाइयां", "कोशिकाएं"],
+      "answer": 0,
+      "explanation": "Virology is the study of viruses; Pathology is the study of diseases."
+    },
+    {
+      "id": 41,
+      "section": "Haryana GK",
+      "q_en": "Which of the following dance forms is performed by men only?",
+      "q_hi": "निम्नलिखित में से कौन सा नृत्य केवल पुरुषों द्वारा किया जाता है?",
+      "options_en": ["Loor", "Ghoomar", "Dhamal", "Khoria"],
+      "options_hi": ["लूर", "घूमर", "धमाल", "खोरिया"],
+      "answer": 2,
+      "explanation": "Dhamal dance is performed by men, typically in the Ahirwal region during moonlight."
+    },
+    {
+      "id": 42,
+      "section": "Computer",
+      "q_en": "In binary system, 1 KB (Kilobyte) is equal to:",
+      "q_hi": "बाइनरी सिस्टम में, 1 KB (किलोबाइट) किसके बराबर है?",
+      "options_en": ["1000 bytes", "1024 bytes", "1024 bits", "1000 bits"],
+      "options_hi": ["1000 बाइट्स", "1024 बाइट्स", "1024 बिट्स", "1000 बिट्स"],
+      "answer": 1,
+      "explanation": "1 KB = 2^10 bytes = 1024 bytes."
+    },
+    {
+      "id": 43,
+      "section": "Maths",
+      "q_en": "The ratio of the ages of A and B is 3:4. Four years ago, the ratio was 5:7. What is the present age of B?",
+      "q_hi": "A और B की आयु का अनुपात 3:4 है। चार वर्ष पूर्व, अनुपात 5:7 था। B की वर्तमान आयु क्या है?",
+      "options_en": ["16 years", "20 years", "24 years", "32 years"],
+      "options_hi": ["16 वर्ष", "20 वर्ष", "24 वर्ष", "32 वर्ष"],
+      "answer": 3,
+      "explanation": "(3x-4)/(4x-4) = 5/7 => 21x - 28 = 20x - 20 => x=8. B's age = 4x = 32 years."
+    },
+    {
+      "id": 44,
+      "section": "Haryana GK",
+      "q_en": "Where is the 'Central Buffalo Research Institute' located?",
+      "q_hi": "'केंद्रीय भैंस अनुसंधान संस्थान' (CIRB) कहाँ स्थित है?",
+      "options_en": ["Karnal", "Hisar", "Rohtak", "Bhiwani"],
+      "options_hi": ["करनाल", "हिसार", "रोहतक", "भिवानी"],
+      "answer": 1,
+      "explanation": "CIRB is located in Hisar, established in 1985."
+    },
+    {
+      "id": 45,
+      "section": "General Science",
+      "q_en": "pH value of pure water is:",
+      "q_hi": "शुद्ध जल का pH मान है:",
+      "options_en": ["0", "14", "7", "1"],
+      "options_hi": ["0", "14", "7", "1"],
+      "answer": 2,
+      "explanation": "Pure water is neutral, so its pH is 7."
+    },
+    {
+      "id": 46,
+      "section": "Reasoning",
+      "q_en": "Find the missing number in the matrix.",
+      "q_hi": "मैट्रिक्स में लुप्त संख्या ज्ञात कीजिए।\n5   6   12\n4   3   4\n2   3   ?\n18  27  96",
+      "options_en": ["3", "4", "5", "6"],
+      "options_hi": ["3", "4", "5", "6"],
+      "answer": 3,
+      "explanation": "(5 * 4) - 2 = 18; (6 * 3) + (3^2) is not pattern. Correct logic: Column wise (5+4)*2 = 18; (6+3)*3 = 27; (12+4)*? = 96. So 16*? = 96 => ? = 6."
+    },
+    {
+      "id": 47,
+      "section": "Haryana GK",
+      "q_en": "Who is the author of the Haryanvi novel 'Jhadu Phiri'?",
+      "q_hi": "हरियाणवी उपन्यास 'झाडू फिरी' के लेखक कौन हैं?",
+      "options_en": ["Rajarami Shastri", "Mohan Chopra", "Uday Bhanu Hans", "Dhanpat Singh"],
+      "options_hi": ["राजाराम शास्त्री", "मोहन चोपड़ा", "उदय भानु हंस", "धनपत सिंह"],
+      "answer": 0,
+      "explanation": "Rajarami Shastri wrote 'Jhadu Phiri', often considered the first Haryanvi novel."
+    },
+    {
+      "id": 48,
+      "section": "Computer",
+      "q_en": "Which of the following is NOT an input device?",
+      "q_hi": "निम्नलिखित में से कौन सा इनपुट डिवाइस नहीं है?",
+      "options_en": ["Scanner", "Mouse", "Plotter", "Keyboard"],
+      "options_hi": ["स्कैनर", "माउस", "प्लॉटर", "कीबोर्ड"],
+      "answer": 2,
+      "explanation": "Plotter is an output device used for printing high-quality vector graphics."
+    },
+    {
+      "id": 49,
+      "section": "Maths",
+      "q_en": "The perimeter of a rectangle is 28 cm and its area is 48 cm². Find the length of its diagonal.",
+      "q_hi": "एक आयत का परिमाप 28 सेमी और उसका क्षेत्रफल 48 सेमी² है। इसके विकर्ण की लंबाई ज्ञात कीजिए।",
+      "options_en": ["5 cm", "10 cm", "12 cm", "8 cm"],
+      "options_hi": ["5 सेमी", "10 सेमी", "12 सेमी", "8 सेमी"],
+      "answer": 1,
+      "explanation": "2(l+b)=28 => l+b=14. lb=48. Diagonal = sqrt(l^2+b^2) = sqrt((l+b)^2 - 2lb) = sqrt(196 - 96) = sqrt(100) = 10."
+    },
+    {
+      "id": 50,
+      "section": "Haryana GK",
+      "q_en": "Which amendment of the Indian Constitution gave constitutional status to Panchayati Raj institutions?",
+      "q_hi": "भारतीय संविधान के किस संशोधन ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया?",
+      "options_en": ["71st", "72nd", "73rd", "74th"],
+      "options_hi": ["71वां", "72वां", "73वां", "74वां"],
+      "answer": 2,
+      "explanation": "73rd Amendment Act, 1992 gave constitutional status to Panchayati Raj."
+    },
+    {
+      "id": 51,
+      "section": "Agriculture",
+      "q_en": "Which soil in Haryana is locally known as 'Rausli'?",
+      "q_hi": "हरियाणा में किस मिट्टी को स्थानीय रूप से 'रौसली' कहा जाता है?",
+      "options_en": ["Sandy Soil", "Clayey Soil", "Sandy Loam Soil", "Rocky Soil"],
+      "options_hi": ["रेतीली मिट्टी", "चिकनी मिट्टी", "रेतीली दोमट मिट्टी", "पथरीली मिट्टी"],
+      "answer": 2,
+      "explanation": "Sandy Loam Soil (Retili Domat) is locally called Rausli. It is good for crops like wheat and mustard."
+    },
+    {
+      "id": 52,
+      "section": "General Science",
+      "q_en": "Optical fibers work on the principle of:",
+      "q_hi": "ऑप्टिकल फाइबर किस सिद्धांत पर कार्य करते हैं?",
+      "options_en": ["Refraction", "Interference", "Total Internal Reflection", "Diffraction"],
+      "options_hi": ["अपवर्तन", "व्यतिकरण", "पूर्ण आंतरिक परावर्तन", "विवर्तन"],
+      "answer": 2,
+      "explanation": "Optical fibers transmit data using Total Internal Reflection (TIR) of light."
+    },
+    {
+      "id": 53,
+      "section": "Haryana GK",
+      "q_en": "Who was the first Chief Minister of Haryana?",
+      "q_hi": "हरियाणा के पहले मुख्यमंत्री कौन थे?",
+      "options_en": ["Rao Birender Singh", "Bhagwat Dayal Sharma", "Bansi Lal", "Bhajan Lal"],
+      "options_hi": ["राव बीरेंद्र सिंह", "भगवत दयाल शर्मा", "बंसी लाल", "भजन लाल"],
+      "answer": 1,
+      "explanation": "Pt. Bhagwat Dayal Sharma was the first CM (Nov 1, 1966). He belonged to the Congress party."
+    },
+    {
+      "id": 54,
+      "section": "Maths",
+      "q_en": "By selling an article for Rs. 450, a man loses 10%. At what price should he sell it to gain 10%?",
+      "q_hi": "एक वस्तु को 450 रुपये में बेचने पर, एक आदमी को 10% की हानि होती है। 10% लाभ प्राप्त करने के लिए उसे इसे किस कीमत पर बेचना चाहिए?",
+      "options_en": ["Rs. 500", "Rs. 540", "Rs. 550", "Rs. 600"],
+      "options_hi": ["500 रुपये", "540 रुपये", "550 रुपये", "600 रुपये"],
+      "answer": 2,
+      "explanation": "CP = 450 * (100/90) = 500. New SP = 500 * (110/100) = 550."
+    },
+    {
+      "id": 55,
+      "section": "Haryana GK",
+      "q_en": "In which district is the 'Sultanpur National Park' located?",
+      "q_hi": "'सुल्तानपुर राष्ट्रीय उद्यान' किस जिले में स्थित है?",
+      "options_en": ["Gurugram", "Faridabad", "Jhajjar", "Rewari"],
+      "options_hi": ["गुरुग्राम", "फरीदाबाद", "झज्जर", "रेवाड़ी"],
+      "answer": 0,
+      "explanation": "Sultanpur Bird Sanctuary/National Park is in Farrukhnagar, Gurugram."
+    },
+    {
+      "id": 56,
+      "section": "Computer",
+      "q_en": "Which of the following is a non-volatile memory?",
+      "q_hi": "निम्नलिखित में से कौन सी एक नॉन-वोलाटाइल (स्थायी) मेमोरी है?",
+      "options_en": ["RAM", "Cache", "ROM", "Register"],
+      "options_hi": ["RAM", "Cache", "ROM", "Register"],
+      "answer": 2,
+      "explanation": "ROM (Read Only Memory) retains data even when power is switched off."
+    },
+    {
+      "id": 57,
+      "section": "Reasoning",
+      "q_en": "If A=1, FAT=27, then FAITH = ?",
+      "q_hi": "यदि A=1, FAT=27, तो FAITH = ?",
+      "options_en": ["44", "42", "40", "45"],
+      "options_hi": ["44", "42", "40", "45"],
+      "answer": 0,
+      "explanation": "F(6)+A(1)+T(20)=27. F(6)+A(1)+I(9)+T(20)+H(8) = 44."
+    },
+    {
+      "id": 58,
+      "section": "General Science",
+      "q_en": "Which acid is present in Ant Sting?",
+      "q_hi": "चींटी के डंक में कौन सा अम्ल (Acid) होता है?",
+      "options_en": ["Acetic Acid", "Citric Acid", "Methanoic/Formic Acid", "Lactic Acid"],
+      "options_hi": ["एसिटिक अम्ल", "साइट्रिक अम्ल", "मेथानोइक/फॉर्मिक अम्ल", "लैक्टिक अम्ल"],
+      "answer": 2,
+      "explanation": "Methanoic acid (Formic acid) causes the burning sensation in ant stings."
+    },
+    {
+      "id": 59,
+      "section": "Haryana GK",
+      "q_en": "Who is known as 'Haryana Hurricane'?",
+      "q_hi": "'हरियाणा हरिकेन' (तूफान) के नाम से किसे जाना जाता है?",
+      "options_en": ["Vijender Singh", "Sushil Kumar", "Kapil Dev", "Nawab Pataudi"],
+      "options_hi": ["विजेंदर सिंह", "सुशील कुमार", "कपिल देव", "नवाब पटौदी"],
+      "answer": 2,
+      "explanation": "Legendary cricketer Kapil Dev is nicknamed the Haryana Hurricane."
+    },
+    {
+      "id": 60,
+      "section": "Agriculture",
+      "q_en": "What is the gestation period of a buffalo approximately?",
+      "q_hi": "भैंस का गर्भकाल (Gestation period) लगभग कितना होता है?",
+      "options_en": ["280 days", "310 days", "365 days", "250 days"],
+      "options_hi": ["280 दिन", "310 दिन", "365 दिन", "250 दिन"],
+      "answer": 1,
+      "explanation": "The average gestation period for a buffalo is about 300-310 days (approx 10 months)."
+    },
+    {
+      "id": 61,
+      "section": "Maths",
+      "q_en": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is:",
+      "q_hi": "दो संख्याएँ 3:5 के अनुपात में हैं। यदि प्रत्येक में से 9 घटा दिया जाए, तो नई संख्याएँ 12:23 के अनुपात में होती हैं। छोटी संख्या है:",
+      "options_en": ["27", "33", "49", "55"],
+      "options_hi": ["27", "33", "49", "55"],
+      "answer": 1,
+      "explanation": "(3x-9)/(5x-9) = 12/23. 69x - 207 = 60x - 108. 9x = 99, x=11. Small no = 3*11 = 33."
+    },
+    {
+      "id": 62,
+      "section": "Haryana GK",
+      "q_en": "Which district was the last one to be formed in Haryana?",
+      "q_hi": "हरियाणा में गठित होने वाला अंतिम (22वां) जिला कौन सा था?",
+      "options_en": ["Palwal", "Nuh", "Charkhi Dadri", "Panchkula"],
+      "options_hi": ["पलवल", "नूंह", "चरखी दादरी", "पंचकूला"],
+      "answer": 2,
+      "explanation": "Charkhi Dadri was carved out of Bhiwani in 2016."
+    },
+    {
+      "id": 63,
+      "section": "General Science",
+      "q_en": "The chemical name of Baking Soda is:",
+      "q_hi": "बेकिंग सोडा का रासायनिक नाम क्या है?",
+      "options_en": ["Sodium Carbonate", "Sodium Bicarbonate", "Calcium Carbonate", "Sodium Chloride"],
+      "options_hi": ["सोडियम कार्बोनेट", "सोडियम बाइकार्बोनेट", "कैल्शियम कार्बोनेट", "सोडियम क्लोराइड"],
+      "answer": 1,
+      "explanation": "Sodium Bicarbonate (NaHCO3) is commonly known as Baking Soda."
+    },
+    {
+      "id": 64,
+      "section": "Haryana GK",
+      "q_en": "The famous 'Phag Dance' is performed in which month?",
+      "q_hi": "प्रसिद्ध 'फाग नृत्य' किस महीने में किया जाता है?",
+      "options_en": ["Shravan", "Bhadrapad", "Phalguna", "Kartik"],
+      "options_hi": ["श्रावण", "भाद्रपद", "फाल्गुन", "कार्तिक"],
+      "answer": 2,
+      "explanation": "Phag dance is performed in the month of Phalguna (Feb-March) to celebrate Holi."
+    },
+    {
+      "id": 65,
+      "section": "Reasoning",
+      "q_en": "Choose the correct alternative: Bird : Wings :: Fish : ?",
+      "q_hi": "सही विकल्प चुनें: पक्षी : पंख :: मछली : ?",
+      "options_en": ["Gills", "Head", "Fins", "Water"],
+      "options_hi": ["गलफड़े (Gills)", "सिर", "पंख (Fins)", "पानी"],
+      "answer": 2,
+      "explanation": "Birds use wings to fly/move; Fish use fins to swim/move. (Gills are for breathing, not movement)."
+    },
+    {
+      "id": 66,
+      "section": "Current Affairs",
+      "q_en": "Who is the current Governor of Haryana (as of 2024)?",
+      "q_hi": "हरियाणा के वर्तमान राज्यपाल (2024 तक) कौन हैं?",
+      "options_en": ["Satyadev Narayan Arya", "Bandaru Dattatreya", "Kaptan Singh Solanki", "Jagannath Pahadia"],
+      "options_hi": ["सत्यदेव नारायण आर्य", "बंडारू दत्तात्रेय", "कप्तान सिंह सोलंकी", "जगन्नाथ पहाड़िया"],
+      "answer": 1,
+      "explanation": "Bandaru Dattatreya is serving as the Governor of Haryana."
+    },
+    {
+      "id": 67,
+      "section": "Computer",
+      "q_en": "Which of the following is a Web Browser?",
+      "q_hi": "निम्नलिखित में से कौन सा एक वेब ब्राउज़र है?",
+      "options_en": ["Google", "Windows", "Safari", "Facebook"],
+      "options_hi": ["गूगल", "विंडोज", "सफारी", "फेसबुक"],
+      "answer": 2,
+      "explanation": "Safari (by Apple) is a web browser. Google is a search engine, Windows is an OS."
+    },
+    {
+      "id": 68,
+      "section": "Haryana GK",
+      "q_en": "Where is the 'Motilal Nehru Sports School' situated in Haryana?",
+      "q_hi": "हरियाणा में 'मोतीलाल नेहरू स्पोर्ट्स स्कूल' कहाँ स्थित है?",
+      "options_en": ["Rai (Sonipat)", "Nilokheri (Karnal)", "Kalka (Panchkula)", "Pataudi (Gurugram)"],
+      "options_hi": ["राई (सोनीपत)", "नीलोखेड़ी (करनाल)", "कालका (पंचकूला)", "पटौदी (गुरुग्राम)"],
+      "answer": 0,
+      "explanation": "It is located at Rai in Sonipat district and is a famous sports boarding school."
+    },
+    {
+      "id": 69,
+      "section": "General Science",
+      "q_en": "Which blood group is known as the 'Universal Donor'?",
+      "q_hi": "किस रक्त समूह को 'सार्वभौमिक दाता' (Universal Donor) कहा जाता है?",
+      "options_en": ["A+", "AB+", "O-", "B+"],
+      "options_hi": ["A+", "AB+", "O-", "B+"],
+      "answer": 2,
+      "explanation": "O Negative (O-) is the universal donor type."
+    },
+    {
+      "id": 70,
+      "section": "Maths",
+      "q_en": "The Simple Interest on a sum for 5 years is 2/5 of the sum. The rate percent per annum is:",
+      "q_hi": "किसी राशि पर 5 वर्षों के लिए साधारण ब्याज उस राशि का 2/5 है। प्रति वर्ष ब्याज दर प्रतिशत है:",
+      "options_en": ["8%", "10%", "12%", "6%"],
+      "options_hi": ["8%", "10%", "12%", "6%"],
+      "answer": 0,
+      "explanation": "Let Sum(P) = 100. SI = 40 (2/5 of 100). Time=5. Rate = (100*SI)/(P*T) = (100*40)/(100*5) = 8%."
+    }
+  ]
+}
+
