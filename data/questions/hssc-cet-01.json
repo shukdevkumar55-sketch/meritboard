@@ -1,0 +1,107 @@
+{
+  "testTitle": "HSSC CET Group C - Mock Test 1",
+  "timeMinutes": 10,
+  "sections": ["Haryana GK", "General Knowledge"],
+  "questions": [
+    {
+      "id": 1,
+      "section": "Haryana GK",
+      "q_en": "In which year was the state of Haryana formed?",
+      "q_hi": "हरियाणा राज्य का गठन किस वर्ष किया गया था?",
+      "options_en": ["1964", "1965", "1966", "1967"],
+      "options_hi": ["1964", "1965", "1966", "1967"],
+      "answer": 2,
+      "explanation": "Haryana was formed on 1st November 1966 after being separated from Punjab."
+    },
+    {
+      "id": 2,
+      "section": "Haryana GK",
+      "q_en": "Which city is known as the 'Science City' of Haryana?",
+      "q_hi": "हरियाणा के किस शहर को 'विज्ञान नगरी' के रूप में जाना जाता है?",
+      "options_en": ["Gurugram", "Panchkula", "Ambala", "Faridabad"],
+      "options_hi": ["गुरुग्राम", "पंचकूला", "अंबाला", "फरीदाबाद"],
+      "answer": 2,
+      "explanation": "Ambala is called the Science City because it is a major hub for scientific instruments."
+    },
+    {
+      "id": 3,
+      "section": "General Knowledge",
+      "q_en": "Who is the first Prime Minister of India?",
+      "q_hi": "भारत के पहले प्रधानमंत्री कौन थे?",
+      "options_en": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Dr. Rajendra Prasad"],
+      "options_hi": ["महात्मा गांधी", "जवाहरलाल नेहरू", "सरदार पटेल", "डॉ. राजेंद्र प्रसाद"],
+      "answer": 1,
+      "explanation": "Pandit Jawaharlal Nehru was the first Prime Minister of independent India."
+    },
+    {
+      "id": 4,
+      "section": "Haryana GK",
+      "q_en": "Which is the largest district of Haryana by area?",
+      "q_hi": "क्षेत्रफल की दृष्टि से हरियाणा का सबसे बड़ा जिला कौन सा है?",
+      "options_en": ["Bhiwani", "Sirsa", "Hisar", "Sirsa"],
+      "options_hi": ["भिवानी", "सिरसा", "हिसार", "जींद"],
+      "answer": 1,
+      "explanation": "Sirsa is currently the largest district of Haryana by area."
+    },
+    {
+      "id": 5,
+      "section": "General Knowledge",
+      "q_en": "Which planet is known as the 'Red Planet'?",
+      "q_hi": "किस ग्रह को 'लाल ग्रह' के रूप में जाना जाता है?",
+      "options_en": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "options_hi": ["शुक्र", "मंगल", "बृहस्पति", "शनि"],
+      "answer": 1,
+      "explanation": "Mars is known as the Red Planet due to iron oxide on its surface."
+    },
+    {
+      "id": 6,
+      "section": "Haryana GK",
+      "q_en": "Where is the headquarters of Haryana Police?",
+      "q_hi": "हरियाणा पुलिस का मुख्यालय कहाँ स्थित है?",
+      "options_en": ["Chandigarh", "Panchkula", "Karnal", "Gurugram"],
+      "options_hi": ["चंडीगढ़", "पंचकूला", "करनाल", "गुरुग्राम"],
+      "answer": 1,
+      "explanation": "The headquarters of Haryana Police is located in Sector 6, Panchkula."
+    },
+    {
+      "id": 7,
+      "section": "General Knowledge",
+      "q_en": "What is the capital of France?",
+      "q_hi": "फ्रांस की राजधानी क्या है?",
+      "options_en": ["Berlin", "Madrid", "Paris", "Rome"],
+      "options_hi": ["बर्लिन", "मैड्रिड", "पेरिस", "रोम"],
+      "answer": 2,
+      "explanation": "Paris is the capital and largest city of France."
+    },
+    {
+      "id": 8,
+      "section": "Haryana GK",
+      "q_en": "Which city is known as the 'City of Weavers' in Haryana?",
+      "q_hi": "हरियाणा के किस शहर को 'बुनकरों का शहर' कहा जाता है?",
+      "options_en": ["Sonipat", "Panipat", "Rohtak", "Hisar"],
+      "options_hi": ["सोनीपत", "पानीपत", "रोहतक", "हिसार"],
+      "answer": 1,
+      "explanation": "Panipat is known as the 'City of Weavers' for its famous handloom products."
+    },
+    {
+      "id": 9,
+      "section": "General Knowledge",
+      "q_en": "Who wrote the national anthem of India?",
+      "q_hi": "भारत का राष्ट्रगान किसने लिखा था?",
+      "options_en": ["Bankim Chandra", "Rabindranath Tagore", "Sarojini Naidu", "Bhagat Singh"],
+      "options_hi": ["बंकिम चंद्र", "रवींद्रनाथ टैगोर", "सरोजिनी नायडू", "भगत सिंह"],
+      "answer": 1,
+      "explanation": "Jana Gana Mana was composed by Rabindranath Tagore."
+    },
+    {
+      "id": 10,
+      "section": "Haryana GK",
+      "q_en": "What is the state bird of Haryana?",
+      "q_hi": "हरियाणा का राजकीय पक्षी क्या है?",
+      "options_en": ["Peacock", "Black Francolin", "Sparrow", "Pigeon"],
+      "options_hi": ["मोर", "काला तीतर (Black Francolin)", "गौरैया", "कबूतर"],
+      "answer": 1,
+      "explanation": "The Black Francolin is the official state bird of Haryana."
+    }
+  ]
+}
