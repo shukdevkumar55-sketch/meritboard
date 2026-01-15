@@ -1,6 +1,17 @@
 {
   "exams": [
     {
+      "id": "haryana-police-01", 
+      "title": "Haryana Police Constable - Special Mock",
+      "category": "haryana-special",
+      "tags": ["Police", "HSSC", "New"],
+      "totalQuestions": 100,
+      "timeLimit": "100 Mins",
+      "description": "Special mock test for Haryana Police aspirants.",
+      "status": "New",
+      "link": "quiz.html?id=haryana-police-01" 
+    },
+    {
       "id": "hssc-cet-01",
       "title": "HSSC CET Group C - Mock Test 1",
       "category": "haryana-special",
