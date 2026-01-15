@@ -321,3 +321,36 @@
 /* Analysis Review Mode (Correct/Wrong Highlights) */
 .option-btn.correct { background: #d4edda; border: 2px solid #28a745; }
 .option-btn.wrong { background: #f8d7da; border: 2px solid #dc3545; }
+/* Language Selector Styling */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* गैप टाइमर और भाषा के बीच */
+}
+
+.lang-select {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #cbd5e0;
+    background: #f8f9fa;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    outline: none;
+    cursor: pointer;
+}
+
+.lang-select:focus {
+    border-color: var(--secondary-color);
+}
+
+/* मोबाइल के लिए एडजस्टमेंट */
+@media (max-width: 480px) {
+    .quiz-title {
+        display: none; /* मोबाइल पर जगह कम होने की वजह से टाइटल छुपा सकते हैं */
+    }
+    .quiz-nav-top {
+        justify-content: flex-end; /* भाषा और टाइमर को दाईं तरफ रखें */
+        width: 100%;
+    }
+}
