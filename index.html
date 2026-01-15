@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO & Google Indexing -->
     <title>MeritBoard - Prepare. Test. Lead. | Free Mock Tests for Haryana Exams</title>
     <meta name="description" content="MeritBoard offers free online mock tests, interactive quizzes, and real-time leaderboards for HSSC, HPSC, SSC, and Banking exams. Specially focused on Haryana Competitive Exams.">
@@ -21,7 +21,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -43,21 +43,25 @@
 </head>
 <body>
 
-    <!-- Header Section with Dynamic Logo -->
     <header class="header">
-        <nav class="nav-container">
-            <div class="logo-area">
-                <a href="index.html" class="logo-link">
-                    <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
-                </a>
-            </div>
-            <div class="nav-links">
-                <button id="searchBtn" aria-label="Search"><i class="icon-search"></i>🔍</button>
-            </div>
-        </nav>
-    </header>
-
+    <nav class="nav-container">
+        <div class="logo-area">
+            <a href="index.html" class="logo-link">
+                <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
+            </a>
+        </div>
+        <div class="header-actions">
+            <!-- Professional SVG Search Icon -->
+            <button id="searchBtn" class="search-icon-btn" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+</header>
     <main>
         <!-- Motivational Hero Section -->
         <section class="hero-section">
@@ -81,6 +85,15 @@
         </section>
 
         <!-- Exam Categories (Fetches from exams.json) -->
+                <!-- Haryana Special Section (Fixed Scalability) -->
+        <section id="haryanaSpecial" class="special-section">
+            <div class="container">
+                <h2 class="section-title">Haryana Special 💎</h2>
+                <div id="haryanaExamsGrid" class="exams-grid">
+                    <!-- Specific Haryana content -->
+                </div>
+            </div>
+        </section>
         <section id="exams" class="exams-section">
             <div class="container">
                 <h2 class="section-title">Popular Exam Quizzes</h2>
@@ -91,15 +104,6 @@
             </div>
         </section>
 
-        <!-- Haryana Special Section (Fixed Scalability) -->
-        <section id="haryanaSpecial" class="special-section">
-            <div class="container">
-                <h2 class="section-title">Haryana Special 💎</h2>
-                <div id="haryanaExamsGrid" class="exams-grid">
-                    <!-- Specific Haryana content -->
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
