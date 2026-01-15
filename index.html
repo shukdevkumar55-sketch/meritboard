@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Google Indexing -->
+    <title>MeritBoard - Prepare. Test. Lead. | Free Mock Tests for Haryana Exams</title>
+    <meta name="description" content="MeritBoard offers free online mock tests, interactive quizzes, and real-time leaderboards for HSSC, HPSC, SSC, and Banking exams. Specially focused on Haryana Competitive Exams.">
+    <meta name="keywords" content="Free Online Mock Test, Haryana GK Quiz, HSSC CET Mock Test, MeritBoard, Sukhdev Dahiya, Competitive Exam Quiz, Daily Current Affairs">
+    <meta name="author" content="Sukhdev Dahiya">
+    <link rel="canonical" href="https://yourusername.github.io/meritboard/">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph for Social Media & Google Discover -->
+    <meta property="og:title" content="MeritBoard - Prepare. Test. Lead.">
+    <meta property="og:description" content="Join India's most interactive mock test platform. Track your rank in HSSC, SSC, and Railway exams.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:url" content="https://yourusername.github.io/meritboard/">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JSON-LD Structured Data for Google Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "MeritBoard",
+      "url": "https://yourusername.github.io/meritboard/",
+      "logo": "assets/logo.png",
+      "description": "Educational platform for competitive exam preparation and mock tests.",
+      "founder": {
+        "@type": "Person",
+        "name": "Sukhdev Dahiya"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header Section with Dynamic Logo -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo-area">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <button id="searchBtn" aria-label="Search"><i class="icon-search"></i>🔍</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Motivational Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="motivational-quote" id="dailyQuote">Loading daily inspiration...</h1>
+                <p class="hero-subtext">Targeting Haryana State Exams? Let's check your rank today!</p>
+                <div class="cta-buttons">
+                    <a href="#exams" class="btn btn-primary">Start Free Test</a>
+                    <a href="#rankings" class="btn btn-secondary">View Leaderboard</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Notice Board (Fetches from notices.json) -->
+        <section class="notices-section">
+            <div class="container">
+                <div id="noticesContainer" class="notice-slider">
+                    <!-- Data will be injected here via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Exam Categories (Fetches from exams.json) -->
+        <section id="exams" class="exams-section">
+            <div class="container">
+                <h2 class="section-title">Popular Exam Quizzes</h2>
+                <div id="examsGrid" class="exams-grid">
+                    <!-- Exam cards will be injected here via JS -->
+                    <p class="loading">Loading available tests...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Haryana Special Section (Fixed Scalability) -->
+        <section id="haryanaSpecial" class="special-section">
+            <div class="container">
+                <h2 class="section-title">Haryana Special 💎</h2>
+                <div id="haryanaExamsGrid" class="exams-grid">
+                    <!-- Specific Haryana content -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 MeritBoard. Designed by Sukhdev Dahiya.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/vionn.official">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- main.js will handle the data fetching and rendering -->
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
