@@ -1,102 +1,106 @@
 /**
  * Project: MeritBoard
- * Engine: main.js
- * Function: Fetch data, Render Exam Cards, and Manage UI Logic
+ * Engine: main.js (Version 2.0 - High Accuracy)
  */
 
-// 1. Motivational Quotes Array (Accuracy & Inspiration)
+// 1. Motivational Quotes (Bright & Motivational Theme)
 const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     "The secret of getting ahead is getting started.",
-    "Hard work beats talent when talent doesn't work hard.",
     "Haryana's next top ranker is reading this. Keep going!",
-    "Believe in yourself and all that you are. Your Merit awaits.",
-    "Your preparation today determines your rank tomorrow."
+    "Your preparation today determines your rank tomorrow.",
+    "Focus on your goal, the MeritBoard will show your name soon.",
+    "Hard work beats talent when talent doesn't work hard."
 ];
 
-// 2. Main Initialization
+// 2. Initialize Website
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("MeritBoard Engine Started...");
     displayDailyQuote();
-    fetchExams();
+    loadExamsData();
 });
 
-// 3. Display Random Quote
+// 3. Display Random Quote (Hero Section)
 function displayDailyQuote() {
     const quoteElement = document.getElementById('dailyQuote');
     if (quoteElement) {
         const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteElement.innerText = `"${quotes[randomIndex]}"`;
+        quoteElement.style.opacity = 0; // Fade effect start
+        setTimeout(() => {
+            quoteElement.innerText = `"${quotes[randomIndex]}"`;
+            quoteElement.style.opacity = 1; // Fade effect end
+        }, 300);
     }
 }
 
-// 4. Fetch Exam Data from JSON
-async function fetchExams() {
+// 4. Fetch and Render Data (The Core Logic)
+async function loadExamsData() {
+    // Relative path works better on GitHub Pages
+    const jsonPath = 'data/exams.json'; 
+    
     const examsGrid = document.getElementById('examsGrid');
     const haryanaGrid = document.getElementById('haryanaExamsGrid');
 
     try {
-        const response = await fetch('data/exams.json');
-        if (!response.ok) throw new Error('Network response was not ok');
+        const response = await fetch(jsonPath);
+        if (!response.ok) throw new Error('Failed to load exams database');
         
         const data = await response.json();
-        renderExams(data.exams);
+        const allExams = data.exams;
+
+        // Clear "Loading..." messages
+        if (examsGrid) examsGrid.innerHTML = '';
+        if (haryanaGrid) haryanaGrid.innerHTML = '';
+
+        // Distribute Exams into Categories
+        allExams.forEach(exam => {
+            const cardHTML = generateExamCard(exam);
+
+            if (exam.category === 'haryana-special' && haryanaGrid) {
+                haryanaGrid.insertAdjacentHTML('beforeend', cardHTML);
+            } else if (examsGrid) {
+                examsGrid.insertAdjacentHTML('beforeend', cardHTML);
+            }
+        });
+
     } catch (error) {
-        console.error('Error fetching exams:', error);
-        if (examsGrid) examsGrid.innerHTML = `<p class="error">Unable to load exams. Please try again later.</p>`;
+        console.error('Fetch Error:', error);
+        const errorMsg = `<p style="color: red; padding: 20px;">⚠️ Error loading tests. Please check your internet or path.</p>`;
+        if (examsGrid) examsGrid.innerHTML = errorMsg;
     }
 }
 
-// 5. Render Exams to Grid
-function renderExams(exams) {
-    const examsGrid = document.getElementById('examsGrid');
-    const haryanaGrid = document.getElementById('haryanaExamsGrid');
-
-    // Clear loading messages
-    if (examsGrid) examsGrid.innerHTML = '';
-    if (haryanaGrid) haryanaGrid.innerHTML = '';
-
-    exams.forEach(exam => {
-        const cardHTML = createExamCard(exam);
-
-        // Logic: Separate Haryana exams from general exams
-        if (exam.category === 'haryana-special' && haryanaGrid) {
-            haryanaGrid.innerHTML += cardHTML;
-        } else if (examsGrid) {
-            examsGrid.innerHTML += cardHTML;
-        }
-    });
-}
-
-// 6. Create HTML Card Template (Scalability)
-function createExamCard(exam) {
-    // Generate Tags HTML
-    const tagsHTML = exam.tags.map(tag => `<span class="tag">#${tag}</span>`).join(' ');
+// 5. Card Template (Matching your Professional CSS)
+function generateExamCard(exam) {
+    // Create tags string
+    const tags = exam.tags.map(tag => `<span class="tag">#${tag}</span>`).join('');
 
     return `
         <div class="exam-card">
             <div class="card-badge">${exam.status}</div>
             <h3>${exam.title}</h3>
-            <div class="tags-container">${tagsHTML}</div>
-            <p class="exam-info">
-                <span>📊 ${exam.totalQuestions} Qs</span> | 
+            <div class="tags-container">
+                ${tags}
+            </div>
+            <div class="exam-info">
+                <span>📊 ${exam.totalQuestions} Questions</span> | 
                 <span>⏱️ ${exam.timeLimit}</span>
-            </p>
+            </div>
             <p class="exam-desc">${exam.description}</p>
-            <a href="${exam.link}" class="btn btn-primary" style="width: 100%; text-align: center; margin-top: 10px;">
-                Start Test
+            <a href="${exam.link}" class="btn btn-primary" style="display: block; width: 100%; text-align: center;">
+                Start Free Test
             </a>
         </div>
     `;
 }
 
-// 7. Search Feature (Placeholder for future expansion)
-// Isse website ka code future-proof rehta hai
+// 6. Search Interaction (Sleek UI)
 const searchBtn = document.getElementById('searchBtn');
 if (searchBtn) {
     searchBtn.addEventListener('click', () => {
-        const query = prompt("Which exam are you looking for?");
+        const query = prompt("Which Haryana Exam are you preparing for?");
         if (query) {
-            alert(`Searching for "${query}"... This feature will be live soon!`);
+            alert(`Looking for "${query}" tests... We are adding more tests daily!`);
         }
     });
 }
