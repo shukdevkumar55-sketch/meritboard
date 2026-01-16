@@ -6,11 +6,1054 @@
   "questions": [
   {
     "id": 1,
+    "section": "Haryana GK (Polity/Current)",
+    "q_en": "Who is the current Chief Minister of Haryana (as of 2024) and from which assembly constituency does he belong?",
+    "q_hi": "हरियाणा के वर्तमान मुख्यमंत्री (2024 तक) कौन हैं और वे किस विधानसभा क्षेत्र से संबंधित हैं?",
+    "options_en": ["Manohar Lal Khattar (Karnal)", "Nayab Singh Saini (Karnal)", "Nayab Singh Saini (Ladwa)", "Bhupinder Singh Hooda (Garhi Sampla)"],
+    "options_hi": ["मनोहर लाल खट्टर (करनाल)", "नायब सिंह सैनी (करनाल)", "नायब सिंह सैनी (लाडवा)", "भूपेंद्र सिंह हुड्डा (गढ़ी सांपला)"],
+    "answer": 3,
+    "explanation": "Sh. Nayab Singh Saini is the Chief Minister. He won the by-election from Karnal earlier, but in the 2024 Assembly General Elections, he contested and won from the 'Ladwa' constituency."
+  },
+  {
+    "id": 2,
     "section": "Haryana GK (Economy)",
-    "q_en": "As per Haryana Economic Survey 2024-25, what is the estimated Per Capita Income of Haryana at current prices?",
-    "q_hi": "हरियाणा आर्थिक सर्वेक्षण 2024-25 के अनुसार, मौजूदा कीमतों पर हरियाणा की अनुमानित प्रति व्यक्ति आय (Per Capita Income) क्या है?",
-    "options_en": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
-    "options_hi": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
+    "q_en": "According to the Haryana Economic Survey 2023-24, what is the share of the 'Tertiary (Service) Sector' in Haryana's GSVA at constant prices?",
+    "q_hi": "हरियाणा आर्थिक सर्वेक्षण 2023-24 के अनुसार, स्थिर कीमतों पर हरियाणा के जीएसवीए (GSVA) में 'तृतीयक (सेवा) क्षेत्र' का योगदान कितना है?",
+    "options_en": ["46.5%", "52.6%", "49.6%", "54.3%"],
+    "options_hi": ["46.5%", "52.6%", "49.6%", "54.3%"],
     "answer": 2,
-    "explanation": "As per the latest Economic Survey 2024-25, Haryana's Per Capita Income has risen to ₹3,53,182."
+    "explanation": "As per the 2023-24 survey, the Service sector contributes approximately 52.6% to the State's economy, followed by Industry and Agriculture."
+  },
+  {
+    "id": 3,
+    "section": "Haryana GK (Schemes)",
+    "q_en": "What is the full form of the 'HAPPY' scheme launched by the Haryana Government for transport facilities?",
+    "q_hi": "हरियाणा सरकार द्वारा परिवहन सुविधाओं के लिए शुरू की गई 'HAPPY' (हैप्पी) योजना का पूर्ण रूप क्या है?",
+    "options_en": ["Haryana Antyodaya Parivar Parivahan Yojana", "Haryana Aam Parivar Parivahan Yojana", "Haryana Antyodaya Public Parivahan Yojana", "Happy Antyodaya People Parivahan Yojana"],
+    "options_hi": ["हरियाणा अंत्योदय परिवार परिवहन योजना", "हरियाणा आम परिवार परिवहन योजना", "हरियाणा अंत्योदय पब्लिक परिवहन योजना", "हैप्पी अंत्योदय पीपल परिवहन योजना"],
+    "answer": 1,
+    "explanation": "HAPPY stands for 'Haryana Antyodaya Parivar Parivahan Yojana'. It provides free travel of up to 1000 km per year in Haryana Roadways buses to poor families."
+  },
+  {
+    "id": 4,
+    "section": "Haryana GK (Geography)",
+    "q_en": "Which canal in Haryana is known as the 'Lifeline of Haryana'?",
+    "q_hi": "हरियाणा की किस नहर को 'हरियाणा की जीवन रेखा' (Lifeline of Haryana) कहा जाता है?",
+    "options_en": ["Western Yamuna Canal", "Bhakra Canal", "SYL Canal", "Avardhan Canal"],
+    "options_hi": ["पश्चिमी यमुना नहर", "भाखड़ा नहर", "एसवाईएल (SYL) नहर", "आवर्धन नहर"],
+    "answer": 2,
+    "explanation": "While Western Yamuna is the oldest, the Bhakra Canal is often referred to as the lifeline because it irrigates a vast major portion of the dry regions in Hisar, Fatehabad, and Sirsa."
+  },
+  {
+    "id": 5,
+    "section": "Haryana GK (History)",
+    "q_en": "In the Revolt of 1857, who led the revolution from the 'Rewari' region?",
+    "q_hi": "1857 की क्रांति में, 'रेवाड़ी' क्षेत्र से क्रांति का नेतृत्व किसने किया था?",
+    "options_en": ["Nahar Singh", "Rao Tula Ram", "Abdur Rahman Khan", "Hukam Singh"],
+    "options_hi": ["नाहर सिंह", "राव तुला राम", "अब्दुल रहमान खान", "हुकम सिंह"],
+    "answer": 2,
+    "explanation": "Rao Tula Ram led the revolt in Rewari. Nahar Singh led in Ballabhgarh, and Abdur Rahman Khan led in Jhajjar."
+  },
+  {
+    "id": 6,
+    "section": "Haryana GK (Geography)",
+    "q_en": "How many 'Police Ranges' are currently there in Haryana (excluding Police Commissionerates)?",
+    "q_hi": "हरियाणा में वर्तमान में कितनी 'पुलिस रेंज' (Police Ranges) हैं (पुलिस कमिश्नरेट को छोड़कर)?",
+    "options_en": ["4", "5", "6", "3"],
+    "options_hi": ["4", "5", "6", "3"],
+    "answer": 2,
+    "explanation": "There are 5 Police Ranges in Haryana: Ambala, Karnal, Hisar, Rohtak, and South Range (Rewari). Note: Dabwali is a new police district, not a range."
+  },
+  {
+    "id": 7,
+    "section": "Haryana GK (Culture)",
+    "q_en": "Which traditional jewellery is worn by Haryanvi women on the 'Forehead'?",
+    "q_hi": "हरियाणवी महिलाओं द्वारा 'माथे' पर पहना जाने वाला पारंपरिक आभूषण कौन सा है?",
+    "options_en": ["Purli", "Borla", "Kanthi", "Arsi"],
+    "options_hi": ["पुरली", "बोरला", "कंठी", "आरसी"],
+    "answer": 2,
+    "explanation": "Borla is worn on the forehead. Purli is for the nose, Kanthi for the neck, and Arsi contains a mirror and is worn on the thumb/finger."
+  },
+  {
+    "id": 8,
+    "section": "Haryana GK (Literature)",
+    "q_en": "Who among the following was the 'Rajkavi' (State Poet) of Haryana?",
+    "q_hi": "निम्नलिखित में से कौन हरियाणा के 'राजकवि' थे?",
+    "options_en": ["Lakhmi Chand", "Uday Bhanu Hans", "Daya Chand Mayna", "Surender Sharma"],
+    "options_hi": ["लखमी चंद", "उदय भानु हंस", "दया चंद मायना", "सुरेंद्र शर्मा"],
+    "answer": 2,
+    "explanation": "Uday Bhanu Hans was declared the first State Poet (Rajkavi) of Haryana. He is famous for his Rubaiyat."
+  },
+  {
+    "id": 9,
+    "section": "Haryana GK (Sports)",
+    "q_en": "Where is the 'Motilal Nehru School of Sports' located in Haryana?",
+    "q_hi": "हरियाणा में 'मोतीलाल नेहरू स्कूल ऑफ स्पोर्ट्स' कहाँ स्थित है?",
+    "options_en": ["Sonipat (Rai)", "Kurukshetra", "Bhiwani", "Rohtak"],
+    "options_hi": ["सोनीपत (राई)", "कुरुक्षेत्र", "भिवानी", "रोहतक"],
+    "answer": 1,
+    "explanation": "It is located at Rai, Sonipat. The government is also upgrading it to a Sports University level."
+  },
+  {
+    "id": 10,
+    "section": "Haryana GK (Wild Life)",
+    "q_en": "In which district is the 'Chhilchhila Wildlife Sanctuary' located?",
+    "q_hi": "'छिलछिला वन्यजीव अभयारण्य' किस जिले में स्थित है?",
+    "options_en": ["Jhajjar", "Kurukshetra", "Yamunanagar", "Panchkula"],
+    "options_hi": ["झज्जर", "कुरुक्षेत्र", "यमुनानगर", "पंचकुला"],
+    "answer": 2,
+    "explanation": "Chhilchhila Wildlife Sanctuary is located in Kurukshetra. It is one of the smallest sanctuaries in Haryana."
+  },
+  {
+    "id": 11,
+    "section": "Haryana GK (Budget)",
+    "q_en": "In the Haryana Budget 2024-25, which sector received the highest allocation?",
+    "q_hi": "हरियाणा बजट 2024-25 में, किस क्षेत्र को सबसे अधिक आवंटन (Allocation) प्राप्त हुआ?",
+    "options_en": ["Health", "Agriculture", "Education", "Social Welfare"],
+    "options_hi": ["स्वास्थ्य", "कृषि", "शिक्षा", "समाज कल्याण"],
+    "answer": 3,
+    "explanation": "Education usually receives the highest share alongside repayment of debts. In the 2024-25 budget context, Education remains a top priority sector with over ₹20,000 crore allocation."
+  },
+  {
+    "id": 12,
+    "section": "Haryana GK (History)",
+    "q_en": "The famous 'Battle of Karnal' (1739) was fought between whom?",
+    "q_hi": "प्रसिद्ध 'करनाल का युद्ध' (1739) किनके बीच लड़ा गया था?",
+    "options_en": ["Nadir Shah and Muhammad Shah Rangeela", "Ahmad Shah Abdali and Marathas", "Babar and Ibrahim Lodi", "Akbar and Hemu"],
+    "options_hi": ["नादिर शाह और मुहम्मद शाह रंगीला", "अहमद शाह अब्दाली और मराठा", "बाबर और इब्राहिम लोदी", "अकबर और हेमू"],
+    "answer": 1,
+    "explanation": "Nadir Shah of Persia defeated the Mughal Emperor Muhammad Shah Rangeela in 1739 in Karnal and took away the Peacock Throne and Kohinoor diamond."
+  },
+  {
+    "id": 13,
+    "section": "Haryana GK (Static)",
+    "q_en": "Which district of Haryana is known as 'Chhoti Kashi' due to the presence of Navagraha Kunds?",
+    "q_hi": "नवग्रह कुंडों की उपस्थिति के कारण हरियाणा के किस जिले को 'छोटी काशी' के रूप में जाना जाता है?",
+    "options_en": ["Bhiwani", "Kaithal", "Kurukshetra", "Varanasi"],
+    "options_hi": ["भिवानी", "कैथल", "कुरुक्षेत्र", "वाराणसी"],
+    "answer": 2,
+    "explanation": "Kaithal is called Chhoti Kashi due to 'Navagraha Kunds'. Bhiwani is also called Chhoti Kashi but due to the high number of temples."
+  },
+  {
+    "id": 14,
+    "section": "Haryana GK (Agriculture)",
+    "q_en": "Haryana produces approximately what percentage of India's total wheat production?",
+    "q_hi": "हरियाणा भारत के कुल गेहूं उत्पादन का लगभग कितना प्रतिशत उत्पादन करता है?",
+    "options_en": ["8%", "12%", "17%", "25%"],
+    "options_hi": ["8%", "12%", "17%", "25%"],
+    "answer": 2,
+    "explanation": "Haryana contributes approximately 12-13% to the national wheat basket, despite having only about 1.4% of the geographical area."
+  },
+  {
+    "id": 15,
+    "section": "Haryana GK (Census)",
+    "q_en": "As per Census 2011, which district of Haryana had the lowest sex ratio?",
+    "q_hi": "जनगणना 2011 के अनुसार, हरियाणा के किस जिले का लिंगानुपात (Sex Ratio) सबसे कम था?",
+    "options_en": ["Sonipat", "Gurugram", "Fatehabad", "Mewat"],
+    "options_hi": ["सोनीपत", "गुरुग्राम", "फतेहाबाद", "मेवात"],
+    "answer": 2,
+    "explanation": "Gurugram had the lowest sex ratio (854) in 2011. Mewat had the highest (907). Current data has improved but HSSC asks 2011 Census data specifically."
+  },
+  {
+    "id": 16,
+    "section": "Haryana GK (Awards)",
+    "q_en": "What is the cash prize given under the 'Bhim Award', the highest sports award of Haryana?",
+    "q_hi": "हरियाणा के सर्वोच्च खेल पुरस्कार 'भीम पुरस्कार' के तहत कितनी नकद राशि दी जाती है?",
+    "options_en": ["₹2 Lakh", "₹3 Lakh", "₹5 Lakh", "₹7 Lakh"],
+    "options_hi": ["₹2 लाख", "₹3 लाख", "₹5 लाख", "₹7 लाख"],
+    "answer": 3,
+    "explanation": "The Bhim Awardees receive a cash prize of ₹5 Lakh, a blazer, a scroll of honour, and a monthly pension (honorarium)."
+  },
+  {
+    "id": 17,
+    "section": "Haryana GK (Places)",
+    "q_en": "The 'Gujari Mahal' built by Firoz Shah Tughlaq is located in which city?",
+    "q_hi": "फिरोज शाह तुगलक द्वारा बनवाया गया 'गुजरी महल' किस शहर में स्थित है?",
+    "options_en": ["Fatehabad", "Hisar", "Hansi", "Sirsa"],
+    "options_hi": ["फतेहाबाद", "हिसार", "हांसी", "सिरसा"],
+    "answer": 2,
+    "explanation": "Gujari Mahal is located in Hisar. It was built by Firoz Shah Tughlaq for his beloved Gujari."
+  },
+  {
+    "id": 18,
+    "section": "Haryana GK (Electricity)",
+    "q_en": "Under the 'Mhara Gaon Jagmag Gaon' scheme, how many hours of power supply is targeted for rural feeders?",
+    "q_hi": "'म्हारा गाँव जगमग गाँव' योजना के तहत, ग्रामीण फीडरों के लिए कितने घंटे बिजली आपूर्ति का लक्ष्य है?",
+    "options_en": ["18 Hours", "20 Hours", "22 Hours", "24 Hours"],
+    "options_hi": ["18 घंटे", "20 घंटे", "22 घंटे", "24 घंटे"],
+    "answer": 4,
+    "explanation": "The scheme aims to provide 24-hour uninterrupted power supply to villages while reducing line losses."
+  },
+  {
+    "id": 19,
+    "section": "Haryana GK (Admin)",
+    "q_en": "Which is the 22nd district formed in Haryana?",
+    "q_hi": "हरियाणा में गठित 22वां जिला कौन सा है?",
+    "options_en": ["Palwal", "Nuh", "Charkhi Dadri", "Panchkula"],
+    "options_hi": ["पलवल", "नूंह", "चरखी दादरी", "पंचकुला"],
+    "answer": 3,
+    "explanation": "Charkhi Dadri was carved out of Bhiwani and became the 22nd district in late 2016."
+  },
+  {
+    "id": 20,
+    "section": "Haryana GK (Current Affairs)",
+    "q_en": "Which Haryanvi wrestler won the Bronze medal at the Paris Olympics 2024 (Scenario Question for Upcoming Exam)?",
+    "q_hi": "पेरिस ओलंपिक 2024 में किस हरियाणवी पहलवान ने कांस्य पदक जीता? (Note: प्रश्न अमन सहरावत के संदर्भ में)",
+    "options_en": ["Bajrang Punia", "Ravi Dahiya", "Aman Sehrawat", "Vinesh Phogat"],
+    "options_hi": ["बजरंग पुनिया", "रवि दहिया", "अमन सहरावत", "विनेश फोगाट"],
+    "answer": 3,
+    "explanation": "Aman Sehrawat won the Bronze medal in the 57kg freestyle wrestling category at the Paris Olympics 2024, becoming India's youngest Olympic medalist."
+  },
+  {
+    "id": 21,
+    "section": "Computer (Python)",
+    "q_en": "In Python, which symbol is used to insert a single-line comment?",
+    "q_hi": "पायथन (Python) भाषा में, सिंगल-लाइन कमेंट (टिप्पणी) डालने के लिए किस प्रतीक (Symbol) का उपयोग किया जाता है?",
+    "options_en": ["//", "/*", "#", "--"],
+    "options_hi": ["//", "/*", "#", "--"],
+    "answer": 3,
+    "explanation": "In Python, the hash symbol (#) is used for single-line comments. '//' is used in C++/Java, and '--' is often used in SQL."
+  },
+  {
+    "id": 22,
+    "section": "Computer (Memory)",
+    "q_en": "Which of the following is a 'Non-Volatile' memory?",
+    "q_hi": "निम्नलिखित में से कौन सी 'नॉन-वोलाटाइल' (अस्थिर नहीं / स्थायी) मेमोरी है?",
+    "options_en": ["RAM", "Cache Memory", "ROM", "Register"],
+    "options_hi": ["RAM", "Cache Memory", "ROM", "Register"],
+    "answer": 3,
+    "explanation": "ROM (Read Only Memory) is non-volatile, meaning it retains data even when power is turned off. RAM and Cache are volatile."
+  },
+  {
+    "id": 23,
+    "section": "Computer (MS Excel)",
+    "q_en": "In MS Excel, which function key is used to 'Edit' the content of a selected cell?",
+    "q_hi": "MS Excel में, चयनित सेल की सामग्री को 'संपादित' (Edit) करने के लिए किस फ़ंक्शन कुंजी (Key) का उपयोग किया जाता है?",
+    "options_en": ["F4", "F2", "F5", "F11"],
+    "options_hi": ["F4", "F2", "F5", "F11"],
+    "answer": 2,
+    "explanation": "F2 allows you to edit the cell directly. F4 repeats the last action, and F11 creates a chart."
+  },
+  {
+    "id": 24,
+    "section": "Computer (Networking)",
+    "q_en": "IPv4 address is a ______ bit numeric address.",
+    "q_hi": "IPv4 एड्रेस एक ______ बिट का न्यूमेरिक एड्रेस होता है।",
+    "options_en": ["16 bit", "32 bit", "64 bit", "128 bit"],
+    "options_hi": ["16 बिट", "32 बिट", "64 बिट", "128 बिट"],
+    "answer": 2,
+    "explanation": "IPv4 uses 32-bit addresses (e.g., 192.168.1.1). IPv6 uses 128-bit addresses."
+  },
+  {
+    "id": 25,
+    "section": "Computer (Software)",
+    "q_en": "Which of the following is NOT an example of an Operating System?",
+    "q_hi": "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम (OS) का उदाहरण नहीं है?",
+    "options_en": ["Linux", "Android", "Oracle", "Windows"],
+    "options_hi": ["Linux", "Android", "Oracle", "Windows"],
+    "answer": 3,
+    "explanation": "Oracle is a Database Management System (DBMS/RDBMS), not an Operating System. Linux, Android, and Windows are OS."
+  },
+  {
+    "id": 26,
+    "section": "Computer (DBMS)",
+    "q_en": "In a database table, the column that uniquely identifies each record is called?",
+    "q_hi": "डाटाबेस टेबल में, वह कॉलम जो प्रत्येक रिकॉर्ड की विशिष्ट रूप से (Uniquely) पहचान करता है, क्या कहलाता है?",
+    "options_en": ["Foreign Key", "Primary Key", "Super Key", "Candidate Key"],
+    "options_hi": ["फॉरेन की (Foreign Key)", "प्राइमरी की (Primary Key)", "सुपर की (Super Key)", "कैंडिडेट की (Candidate Key)"],
+    "answer": 2,
+    "explanation": "The Primary Key must contain unique values and cannot be NULL. It is used to identify each row uniquely."
+  },
+  {
+    "id": 27,
+    "section": "Computer (Shortcuts)",
+    "q_en": "What is the keyboard shortcut to insert a 'Hyperlink' in MS Word?",
+    "q_hi": "MS Word में 'हाइपरलिंक' डालने के लिए कीबोर्ड शॉर्टकट क्या है?",
+    "options_en": ["Ctrl + H", "Ctrl + K", "Ctrl + L", "Ctrl + M"],
+    "options_hi": ["Ctrl + H", "Ctrl + K", "Ctrl + L", "Ctrl + M"],
+    "answer": 2,
+    "explanation": "Ctrl + K opens the Insert Hyperlink dialog box. Ctrl + H is for Replace, Ctrl + L is for Left Align."
+  },
+  {
+    "id": 28,
+    "section": "Computer (Internet)",
+    "q_en": "What does 'URL' stand for in internet terminology?",
+    "q_hi": "इंटरनेट शब्दावली में 'URL' का पूर्ण रूप क्या है?",
+    "options_en": ["Uniform Resource Locator", "Universal Resource Locator", "Uniform Reference Line", "Universal Resource Line"],
+    "options_hi": ["यूनिफ़ॉर्म रिसोर्स लोकेटर", "यूनिवर्सल रिसोर्स लोकेटर", "यूनिफ़ॉर्म रेफरेंस लाइन", "यूनिवर्सल रिसोर्स लाइन"],
+    "answer": 1,
+    "explanation": "URL stands for Uniform Resource Locator. It is the address of a given unique resource on the Web."
+  },
+  {
+    "id": 29,
+    "section": "Computer (Hardware)",
+    "q_en": "Which device converts digital signals to analog signals and vice-versa for telephone lines?",
+    "q_hi": "कौन सा उपकरण टेलीफोन लाइनों के लिए डिजिटल संकेतों को एनालॉग संकेतों में और इसके विपरीत (vice-versa) परिवर्तित करता है?",
+    "options_en": ["Router", "Switch", "Modem", "Hub"],
+    "options_hi": ["राउटर", "स्विच", "मोडेम", "हब"],
+    "answer": 3,
+    "explanation": "Modem stands for MOdulator-DEModulator. It converts digital data from a computer into analog signals for transmission over phone lines and vice versa."
+  },
+  {
+    "id": 30,
+    "section": "Computer (Number System)",
+    "q_en": "What is the binary equivalent of the decimal number 10?",
+    "q_hi": "दशमलव संख्या (Decimal Number) 10 का बाइनरी (Binary) समतुल्य क्या है?",
+    "options_en": ["1010", "1001", "1100", "1011"],
+    "options_hi": ["1010", "1001", "1100", "1011"],
+    "answer": 1,
+    "explanation": "10 in decimal = 8 + 2. In binary (8 4 2 1 format), it is 1010."
+  },
+  {
+    "id": 31,
+    "section": "Science (Physics)",
+    "q_en": "Which type of mirror is used as a rear-view mirror in vehicles?",
+    "q_hi": "वाहनों में 'रियर-व्यू मिरर' (पीछे देखने वाले दर्पण) के रूप में किस प्रकार के दर्पण का उपयोग किया जाता है?",
+    "options_en": ["Concave Mirror", "Convex Mirror", "Plane Mirror", "Cylindrical Mirror"],
+    "options_hi": ["अवतल दर्पण (Concave)", "उत्तल दर्पण (Convex)", "समतल दर्पण (Plane)", "बेलनाकार दर्पण"],
+    "answer": 2,
+    "explanation": "Convex mirrors are used because they always give an erect (upright) image and have a wider field of view compared to plane mirrors."
+  },
+  {
+    "id": 2,
+    "section": "Science (Biology)",
+    "q_en": "Which blood group is known as the 'Universal Donor'?",
+    "q_hi": "किस रक्त समूह (Blood Group) को 'सर्वदाता' (Universal Donor) कहा जाता है?",
+    "options_en": ["Group AB+", "Group O+", "Group O-", "Group AB-"],
+    "options_hi": ["समूह AB+", "समूह O+", "समूह O-", "समूह AB-"],
+    "answer": 3,
+    "explanation": "Blood Group O- (O Negative) is the universal donor because it has no antigens (A, B, or Rh) on the red blood cells."
+  },
+  {
+    "id": 33,
+    "section": "Science (Chemistry)",
+    "q_en": "What is the common name of 'Sodium Bicarbonate'?",
+    "q_hi": "'सोडियम बाइकार्बोनेट' का सामान्य नाम क्या है?",
+    "options_en": ["Washing Soda", "Baking Soda", "Bleaching Powder", "Plaster of Paris"],
+    "options_hi": ["धावन सोडा (Washing Soda)", "बेकिंग सोडा (Baking Soda)", "ब्लीचिंग पाउडर", "प्लास्टर ऑफ पेरिस"],
+    "answer": 2,
+    "explanation": "Sodium Bicarbonate (NaHCO3) is commonly known as Baking Soda. Washing Soda is Sodium Carbonate."
+  },
+  {
+    "id": 34,
+    "section": "Science (Biology)",
+    "q_en": "Deficiency of Vitamin C causes which disease?",
+    "q_hi": "विटामिन C की कमी से कौन सा रोग होता है?",
+    "options_en": ["Rickets", "Beriberi", "Scurvy", "Night Blindness"],
+    "options_hi": ["रिकेट्स (सुखा रोग)", "बेरीबेरी", "स्कर्वी", "रतौंधी"],
+    "answer": 3,
+    "explanation": "Scurvy (bleeding gums) is caused by the deficiency of Vitamin C (Ascorbic Acid). Night Blindness is due to Vitamin A."
+  },
+  {
+    "id": 35,
+    "section": "Science (Physics)",
+    "q_en": "The SI unit of power of a lens is:",
+    "q_hi": "लेंस की शक्ति (Power of Lens) की SI इकाई क्या है?",
+    "options_en": ["Watt", "Dioptre", "Lumen", "Candela"],
+    "options_hi": ["वाट (Watt)", "डायोप्टर (Dioptre)", "ल्यूमेन (Lumen)", "कैंडेला (Candela)"],
+    "answer": 2,
+    "explanation": "The power of a lens is measured in Dioptres (D). Watt is the unit of electric power."
+  },
+  {
+    "id": 36,
+    "section": "Science (Chemistry)",
+    "q_en": "Which non-metal remains liquid at room temperature?",
+    "q_hi": "कौन सी अधातु (Non-metal) कमरे के तापमान पर तरल अवस्था में रहती है?",
+    "options_en": ["Mercury", "Bromine", "Iodine", "Chlorine"],
+    "options_hi": ["पारा (Mercury)", "ब्रोमीन (Bromine)", "आयोडीन (Iodine)", "क्लोरिन (Chlorine)"],
+    "answer": 2,
+    "explanation": "Bromine is the only non-metal that is liquid at room temperature. Mercury is a metal that is liquid at room temperature."
+  },
+  {
+    "id": 37,
+    "section": "Science (Biology)",
+    "q_en": "In plants, which tissue is responsible for the transport of water and minerals from roots?",
+    "q_hi": "पौधों में, जड़ों से पानी और खनिजों के परिवहन के लिए कौन सा ऊतक (Tissue) जिम्मेदार है?",
+    "options_en": ["Phloem", "Xylem", "Parenchyma", "Stomata"],
+    "options_hi": ["फ्लोएम (Phloem)", "जाइलम (Xylem)", "पेरेन्काइमा", "स्टomata"],
+    "answer": 2,
+    "explanation": "Xylem transports water and minerals (Upward flow). Phloem transports food prepared by leaves to other parts."
+  },
+  {
+    "id": 38,
+    "section": "Science (Physics)",
+    "q_en": "Sound waves cannot travel through:",
+    "q_hi": "ध्वनि तरंगें (Sound waves) किसमें से यात्रा नहीं कर सकतीं?",
+    "options_en": ["Solids", "Liquids", "Gases", "Vacuum"],
+    "options_hi": ["ठोस", "द्रव", "गैस", "निर्वात (Vacuum)"],
+    "answer": 4,
+    "explanation": "Sound requires a medium (solid, liquid, or gas) to travel. It cannot propagate through a vacuum."
+  },
+  {
+    "id": 39,
+    "section": "Science (Chemistry)",
+    "q_en": "Which acid is present in an ant's sting?",
+    "q_hi": "चींटी के डंक (Ant's sting) में कौन सा अम्ल मौजूद होता है?",
+    "options_en": ["Lactic Acid", "Citric Acid", "Methanoic Acid", "Oxalic Acid"],
+    "options_hi": ["लैक्टिक एसिड", "साइट्रिक एसिड", "मेथानोइक एसिड (Formic Acid)", "ऑक्सालिक एसिड"],
+    "answer": 3,
+    "explanation": "Ant sting contains Methanoic acid (commonly called Formic acid), which causes pain and irritation."
+  },
+  {
+    "id": 40,
+    "section": "Science (Biology)",
+    "q_en": "Dengue fever is spread by which mosquito vector?",
+    "q_hi": "डेंगू बुखार किस मच्छर वाहक (Vector) द्वारा फैलता है?",
+    "options_en": ["Anopheles", "Culex", "Aedes", "Mansonides"],
+    "options_hi": ["एनोफिलीज", "क्यूलेक्स", "एडीज (Aedes)", "मैन्सोनाइड्स"],
+    "answer": 3,
+    "explanation": "Dengue is spread by the female Aedes aegypti mosquito. Malaria is spread by female Anopheles."
+  },
+  {
+    "id": 41,
+    "section": "Science (Physics)",
+    "q_en": "The sky appears blue due to which phenomenon of light?",
+    "q_hi": "प्रकाश की किस घटना के कारण आकाश नीला दिखाई देता है?",
+    "options_en": ["Reflection", "Refraction", "Scattering", "Dispersion"],
+    "options_hi": ["परावर्तन (Reflection)", "अपवर्तन (Refraction)", "प्रकीर्णन (Scattering)", "विक्षेपण (Dispersion)"],
+    "answer": 3,
+    "explanation": "The blue color of the sky is due to the scattering of light by small particles in the atmosphere (Rayleigh scattering)."
+  },
+  {
+    "id": 42,
+    "section": "Science (Chemistry)",
+    "q_en": "Galvanization is a method of protecting iron from rusting by coating it with a thin layer of:",
+    "q_hi": "गैल्वनाइजेशन (Galvanization) लोहे को जंग लगने से बचाने की एक विधि है, जिसमें उस पर किसकी पतली परत चढ़ाई जाती है?",
+    "options_en": ["Copper", "Zinc", "Silver", "Aluminum"],
+    "options_hi": ["तांबा (Copper)", "जस्ता (Zinc)", "चांदी (Silver)", "एल्युमिनियम"],
+    "answer": 2,
+    "explanation": "Zinc is used in galvanization because it is more reactive than iron and protects it from corrosion."
+  },
+  {
+    "id": 43,
+    "section": "Science (Biology)",
+    "q_en": "Which organelle is called the 'Powerhouse' of the cell?",
+    "q_hi": "कोशिका का 'पावरहाउस' (Powerhouse) किस अंगक (Organelle) को कहा जाता है?",
+    "options_en": ["Nucleus", "Ribosome", "Mitochondria", "Lysosome"],
+    "options_hi": ["केंद्रक (Nucleus)", "राइबोसोम", "माइटोकॉन्ड्रिया", "lysosome"],
+    "answer": 3,
+    "explanation": "Mitochondria is called the powerhouse of the cell because it produces energy in the form of ATP."
+  },
+  {
+    "id": 44,
+    "section": "Science (Physics)",
+    "q_en": "Fuse wire used in electric circuits must have:",
+    "q_hi": "विद्युत परिपथों में प्रयुक्त फ्यूज तार (Fuse wire) में क्या होना चाहिए?",
+    "options_en": ["High melting point, High resistance", "Low melting point, High resistance", "Low melting point, Low resistance", "High melting point, Low resistance"],
+    "options_hi": ["उच्च गलनांक, उच्च प्रतिरोध", "निम्न गलनांक, उच्च प्रतिरोध", "निम्न गलनांक, निम्न प्रतिरोध", "उच्च गलनांक, निम्न प्रतिरोध"],
+    "answer": 2,
+    "explanation": "A fuse wire must have a high resistance (to generate heat quickly) and a low melting point (to break the circuit immediately when current exceeds limit)."
+  },
+  {
+    "id": 45,
+    "section": "Science (Chemistry)",
+    "q_en": "Which gas is evolved when an acid reacts with a metal?",
+    "q_hi": "जब कोई अम्ल किसी धातु के साथ अभिक्रिया करता है तो कौन सी गैस निकलती है?",
+    "options_en": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+    "options_hi": ["ऑक्सीजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन", "नाइट्रोजन"],
+    "answer": 3,
+    "explanation": "Acids react with active metals to produce a salt and Hydrogen gas (which burns with a pop sound)."
+  },
+  {
+    "id": 46,
+    "section": "Mathematics (Percentage)",
+    "q_en": "If A's salary is 25% more than B's salary, then by what percentage is B's salary less than A's salary?",
+    "q_hi": "यदि A का वेतन B के वेतन से 25% अधिक है, तो B का वेतन A के वेतन से कितने प्रतिशत कम है?",
+    "options_en": ["25%", "20%", "16.66%", "33.33%"],
+    "options_hi": ["25%", "20%", "16.66%", "33.33%"],
+    "answer": 2,
+    "explanation": "Let B = 100, then A = 125. \nDifference = 25. \nRequired % = (25 / 125) × 100 = 20%."
+  },
+  {
+    "id": 47,
+    "section": "Mathematics (Profit & Loss)",
+    "q_en": "By selling an article for ₹720, a shopkeeper incurs a loss of 10%. At what price should he sell it to gain 5%?",
+    "q_hi": "एक वस्तु को ₹720 में बेचने पर एक दुकानदार को 10% की हानि होती है। 5% का लाभ प्राप्त करने के लिए उसे इसे किस कीमत पर बेचना चाहिए?",
+    "options_en": ["₹800", "₹820", "₹840", "₹850"],
+    "options_hi": ["₹800", "₹820", "₹840", "₹850"],
+    "answer": 3,
+    "explanation": "CP = (720 / 90) × 100 = ₹800. \nNew SP for 5% gain = 800 × (105 / 100) = ₹840."
+  },
+  {
+    "id": 48,
+    "section": "Mathematics (Time & Work)",
+    "q_en": "A can do a piece of work in 10 days and B in 15 days. If they work together, in how many days will the work be completed?",
+    "q_hi": "A किसी कार्य को 10 दिनों में और B 15 दिनों में कर सकता है। यदि वे एक साथ कार्य करते हैं, तो कार्य कितने दिनों में पूरा होगा?",
+    "options_en": ["5 days", "6 days", "8 days", "9 days"],
+    "options_hi": ["5 दिन", "6 दिन", "8 दिन", "9 दिन"],
+    "answer": 2,
+    "explanation": "Total Work (LCM of 10, 15) = 30 units. \nEfficiency: A = 3, B = 2. Total Eff = 5. \nTime = 30 / 5 = 6 days."
+  },
+  {
+    "id": 49,
+    "section": "Mathematics (Average)",
+    "q_en": "The average of 5 consecutive odd numbers is 61. What is the difference between the highest and lowest numbers?",
+    "q_hi": "5 लगातार विषम संख्याओं (consecutive odd numbers) का औसत 61 है। सबसे बड़ी और सबसे छोटी संख्या के बीच का अंतर क्या है?",
+    "options_en": ["4", "8", "12", "16"],
+    "options_hi": ["4", "8", "12", "16"],
+    "answer": 2,
+    "explanation": "If average is 61, the numbers are 57, 59, 61, 63, 65. \nDifference = 65 - 57 = 8. \n(Shortcut: Diff = (n-1) × 2 = 4 × 2 = 8)."
+  },
+  {
+    "id": 50,
+    "section": "Mathematics (Simple Interest)",
+    "q_en": "A sum of money becomes 3 times of itself in 8 years at Simple Interest. Find the rate of interest per annum.",
+    "q_hi": "साधारण ब्याज पर कोई धनराशि 8 वर्षों में स्वयं की 3 गुना हो जाती है। वार्षिक ब्याज दर ज्ञात कीजिए।",
+    "options_en": ["15%", "20%", "25%", "30%"],
+    "options_hi": ["15%", "20%", "25%", "30%"],
+    "answer": 3,
+    "explanation": "Let Principal = P. Amount = 3P. Interest = 2P. \nRate = (SI × 100) / (P × T) = (2P × 100) / (P × 8) = 200 / 8 = 25%."
+  },
+  {
+    "id": 51,
+    "section": "Mathematics (Compound Interest)",
+    "q_en": "The difference between CI and SI on a certain sum for 2 years at 10% per annum is ₹20. Find the sum.",
+    "q_hi": "किसी धनराशि पर 10% वार्षिक दर से 2 वर्षों के लिए चक्रवृद्धि ब्याज (CI) और साधारण ब्याज (SI) का अंतर ₹20 है। वह धनराशि ज्ञात कीजिए।",
+    "options_en": ["₹1000", "₹1500", "₹2000", "₹2500"],
+    "options_hi": ["₹1000", "₹1500", "₹2000", "₹2500"],
+    "answer": 3,
+    "explanation": "For 2 years, Difference = P(R/100)². \n20 = P(10/100)² => 20 = P(1/100) => P = 2000."
+  },
+  {
+    "id": 52,
+    "section": "Mathematics (Time Speed Distance)",
+    "q_en": "A train 100 meters long is running at a speed of 72 km/hr. How much time will it take to cross a pole?",
+    "q_hi": "100 मीटर लंबी एक ट्रेन 72 किमी/घंटा की गति से चल रही है। एक खंभे को पार करने में उसे कितना समय लगेगा?",
+    "options_en": ["4 seconds", "5 seconds", "6 seconds", "7 seconds"],
+    "options_hi": ["4 सेकंड", "5 सेकंड", "6 सेकंड", "7 सेकंड"],
+    "answer": 2,
+    "explanation": "Speed = 72 × (5/18) = 20 m/sec. \nTime = Distance / Speed = 100 / 20 = 5 seconds."
+  },
+  {
+    "id": 53,
+    "section": "Mathematics (Mensuration 2D)",
+    "q_en": "The length of a rectangle is increased by 20% and breadth is decreased by 10%. What is the percentage change in its area?",
+    "q_hi": "एक आयत की लंबाई 20% बढ़ाई जाती है और चौड़ाई 10% कम की जाती है। इसके क्षेत्रफल में प्रतिशत परिवर्तन क्या है?",
+    "options_en": ["8% increase", "10% increase", "8% decrease", "10% decrease"],
+    "options_hi": ["8% वृद्धि", "10% वृद्धि", "8% कमी", "10% कमी"],
+    "answer": 1,
+    "explanation": "Use formula: x + y + (xy/100). \n+20 - 10 + (20 × -10)/100 = 10 - 2 = 8% increase."
+  },
+  {
+    "id": 54,
+    "section": "Mathematics (Mensuration 3D)",
+    "q_en": "Two cubes each of volume 64 cm³ are joined end to end. What is the surface area of the resulting cuboid?",
+    "q_hi": "64 घन सेमी आयतन वाले दो घनों (cubes) को सिरों से जोड़ा जाता है। परिणामी घनाभ (cuboid) का पृष्ठीय क्षेत्रफल क्या है?",
+    "options_en": ["144 cm²", "160 cm²", "180 cm²", "128 cm²"],
+    "options_hi": ["144 cm²", "160 cm²", "180 cm²", "128 cm²"],
+    "answer": 2,
+    "explanation": "Volume = a³ = 64 => side a = 4 cm. \nNew Length = 4+4=8, Breadth=4, Height=4. \nSurface Area = 2(lb+bh+hl) = 2(32+16+32) = 2(80) = 160 cm²."
+  },
+  {
+    "id": 55,
+    "section": "Mathematics (Ratio)",
+    "q_en": "If A:B = 2:3 and B:C = 4:5, then find A:B:C.",
+    "q_hi": "यदि A:B = 2:3 और B:C = 4:5 है, तो A:B:C ज्ञात कीजिए।",
+    "options_en": ["8:12:15", "6:9:15", "8:15:20", "2:3:5"],
+    "options_hi": ["8:12:15", "6:9:15", "8:15:20", "2:3:5"],
+    "answer": 1,
+    "explanation": "A:B = 2:3 and B:C = 4:5. Multiply first ratio by 4 and second by 3 to equate B. \nA:B = 8:12, B:C = 12:15. Result = 8:12:15."
+  },
+  {
+    "id": 56,
+    "section": "Mathematics (Mixture)",
+    "q_en": "In a 40 liter mixture of milk and water, the ratio of milk to water is 3:1. How much water must be added to make the ratio 2:1?",
+    "q_hi": "दूध और पानी के 40 लीटर मिश्रण में, दूध और पानी का अनुपात 3:1 है। अनुपात को 2:1 बनाने के लिए इसमें कितना पानी मिलाया जाना चाहिए?",
+    "options_en": ["4 liters", "5 liters", "6 liters", "8 liters"],
+    "options_hi": ["4 लीटर", "5 लीटर", "6 लीटर", "8 लीटर"],
+    "answer": 2,
+    "explanation": "Milk = 30L, Water = 10L. \nAdd x water: 30/(10+x) = 2/1. \n30 = 20 + 2x => 2x = 10 => x = 5 liters."
+  },
+  {
+    "id": 57,
+    "section": "Mathematics (Age Problem)",
+    "q_en": "The ratio of ages of A and B is 3:4. Five years ago, their ages were in the ratio 5:7. What is the present age of A?",
+    "q_hi": "A और B की आयु का अनुपात 3:4 है। पाँच वर्ष पूर्व, उनकी आयु का अनुपात 5:7 था। A की वर्तमान आयु क्या है?",
+    "options_en": ["20 years", "25 years", "30 years", "40 years"],
+    "options_hi": ["20 वर्ष", "25 वर्ष", "30 वर्ष", "40 वर्ष"],
+    "answer": 3,
+    "explanation": "Let ages be 3x and 4x. \n(3x - 5)/(4x - 5) = 5/7 \n21x - 35 = 20x - 25 => x = 10. \nA's age = 3x = 30 years."
+  },
+  {
+    "id": 58,
+    "section": "Mathematics (Algebra)",
+    "q_en": "If x + (1/x) = 4, then find the value of x² + (1/x²).",
+    "q_hi": "यदि x + (1/x) = 4 है, तो x² + (1/x²) का मान ज्ञात कीजिए।",
+    "options_en": ["14", "16", "12", "18"],
+    "options_hi": ["14", "16", "12", "18"],
+    "answer": 1,
+    "explanation": "Square both sides: (x + 1/x)² = 4² \nx² + 1/x² + 2 = 16 \nx² + 1/x² = 16 - 2 = 14."
+  },
+  {
+    "id": 59,
+    "section": "Mathematics (Trigonometry)",
+    "q_en": "What is the value of (tan 45° + cot 45°)?",
+    "q_hi": "(tan 45° + cot 45°) का मान क्या है?",
+    "options_en": ["0", "1", "2", "√2"],
+    "options_hi": ["0", "1", "2", "√2"],
+    "answer": 3,
+    "explanation": "tan 45° = 1 and cot 45° = 1. \nSo, 1 + 1 = 2."
   }
+{
+    "id": 60,
+    "section": "Mathematics (Number System)",
+    "q_en": "The HCF of two numbers is 11 and their LCM is 7700. If one of the numbers is 275, find the other number.",
+    "q_hi": "दो संख्याओं का म.स.प. (HCF) 11 है और उनका ल.स.प. (LCM) 7700 है। यदि उनमें से एक संख्या 275 है, तो दूसरी संख्या ज्ञात कीजिए।",
+    "options_en": ["279", "283", "308", "318"],
+    "options_hi": ["279", "283", "308", "318"],
+    "answer": 3,
+    "explanation": "Formula: Product of two numbers = HCF × LCM. \nLet the other number be x. \n275 × x = 11 × 7700 \nx = (11 × 7700) / 275 = 308."
+  },
+  {
+    "id": 61,
+    "section": "Reasoning (Coding-Decoding)",
+    "q_en": "In a certain code language, 'MONKEY' is written as 'XDJMNL'. How is 'TIGER' written in that code?",
+    "q_hi": "एक निश्चित कूट भाषा में, 'MONKEY' को 'XDJMNL' लिखा जाता है। उसी कूट भाषा में 'TIGER' कैसे लिखा जाएगा?",
+    "options_en": ["QDFHS", "SDFHS", "QDHJS", "SHFDQ"],
+    "options_hi": ["QDFHS", "SDFHS", "QDHJS", "SHFDQ"],
+    "answer": 1,
+    "explanation": "Logic: Reverse the word and subtract 1 from each letter. \nMONKEY -> YEKNOM -> (-1) -> XDJMNL. \nTIGER -> REGIT -> (-1) -> QDFHS."
+  },
+  {
+    "id": 62,
+    "section": "Reasoning (Analogy)",
+    "q_en": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nBacteria : Illness :: Carelessness : ?",
+    "q_hi": "उस विकल्प का चयन करें जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है।\nजीवाणु (Bacteria) : बीमारी :: लापरवाही (Carelessness) : ?",
+    "options_en": ["Failure", "Doctor", "Medicine", "Errors"],
+    "options_hi": ["विफलता", "डॉक्टर", "दवा", "त्रुटियां (Errors)"],
+    "answer": 4,
+    "explanation": "Bacteria causes Illness. Similarly, Carelessness causes Errors/Accidents."
+  },
+  {
+    "id": 63,
+    "section": "Reasoning (Blood Relation)",
+    "q_en": "Pointing to a photograph of a boy, Suresh said, \"He is the son of the only son of my mother.\" How is Suresh related to that boy?",
+    "q_hi": "एक लड़के की तस्वीर की ओर इशारा करते हुए, सुरेश ने कहा, \"वह मेरी माँ के इकलौते बेटे का बेटा है।\" सुरेश उस लड़के से कैसे संबंधित है?",
+    "options_en": ["Brother", "Uncle", "Father", "Grandfather"],
+    "options_hi": ["भाई", "चाचा/मामा", "पिता", "दादा"],
+    "answer": 3,
+    "explanation": "\"Only son of my mother\" means Suresh himself. So, the boy is the son of Suresh. Thus, Suresh is the Father of the boy."
+  },
+  {
+    "id": 64,
+    "section": "Reasoning (Direction Sense)",
+    "q_en": "Arjun walks 10 km towards North. From there he walks 6 km towards South. Then, he walks 3 km towards East. How far is he from his starting point?",
+    "q_hi": "अर्जुन उत्तर की ओर 10 किमी चलता है। वहां से वह दक्षिण की ओर 6 किमी चलता है। फिर, वह पूर्व की ओर 3 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूर है?",
+    "options_en": ["5 km", "7 km", "8 km", "4 km"],
+    "options_hi": ["5 किमी", "7 किमी", "8 किमी", "4 किमी"],
+    "answer": 1,
+    "explanation": "He went 10 North, then came back 6 South (Net North = 4 km). Then 3 East. \nDistance = √(4² + 3²) = √(16+9) = √25 = 5 km."
+  },
+  {
+    "id": 65,
+    "section": "Reasoning (Ranking)",
+    "q_en": "In a row of students, Ravi is 15th from the left and 12th from the right. How many total students are there in the row?",
+    "q_hi": "छात्रों की एक पंक्ति में, रवि बाएं से 15वें और दाएं से 12वें स्थान पर है। पंक्ति में कुल कितने छात्र हैं?",
+    "options_en": ["26", "27", "28", "25"],
+    "options_hi": ["26", "27", "28", "25"],
+    "answer": 1,
+    "explanation": "Total = (Left + Right) - 1. \nTotal = (15 + 12) - 1 = 27 - 1 = 26."
+  },
+  {
+    "id": 66,
+    "section": "Reasoning (Odd One Out)",
+    "q_en": "Find the odd one out from the given alternatives.",
+    "q_hi": "दिए गए विकल्पों में से विषम (Odd one out) चुनें।",
+    "options_en": ["Carrot", "Potato", "Ginger", "Tomato"],
+    "options_hi": ["गाजर", "आलू", "अदरक", "टमाटर"],
+    "answer": 4,
+    "explanation": "Carrot, Potato, and Ginger grow underground (roots/stems modification), whereas Tomato grows above the ground."
+  },
+  {
+    "id": 67,
+    "section": "Reasoning (Venn Diagram)",
+    "q_en": "Identify the diagram that best represents the relationship among: Furniture, Chair, Table.",
+    "q_hi": "उस आरेख की पहचान करें जो निम्नलिखित के बीच संबंध को सबसे अच्छा दर्शाता है: फर्नीचर, कुर्सी, मेज।",
+    "options_en": ["Three separate circles", "One big circle containing two separate small circles", "Two intersecting circles", "Concentric circles"],
+    "options_hi": ["तीन अलग-अलग वृत्त", "एक बड़ा वृत्त जिसमें दो अलग-अलग छोटे वृत्त हों", "दो प्रतिच्छेदी वृत्त", "संकेंद्रित वृत्त"],
+    "answer": 2,
+    "explanation": "Chair and Table are both items of Furniture, but a Chair is not a Table. So, one big circle (Furniture) with two non-intersecting smaller circles inside."
+  },
+  {
+    "id": 68,
+    "section": "Reasoning (Dictionary Order)",
+    "q_en": "Arrange the following words according to the English dictionary: 1. Select 2. Seldom 3. Send 4. Selfish",
+    "q_hi": "निम्नलिखित शब्दों को अंग्रेजी शब्दकोश के अनुसार व्यवस्थित करें: 1. Select 2. Seldom 3. Send 4. Selfish",
+    "options_en": ["2, 1, 4, 3", "2, 1, 3, 4", "1, 2, 4, 3", "2, 4, 1, 3"],
+    "options_hi": ["2, 1, 4, 3", "2, 1, 3, 4", "1, 2, 4, 3", "2, 4, 1, 3"],
+    "answer": 1,
+    "explanation": "Order: Seldom (2) -> Select (1) -> Selfish (4) -> Send (3). \nCorrect sequence: 2, 1, 4, 3."
+  },
+  {
+    "id": 69,
+    "section": "Reasoning (Calendar)",
+    "q_en": "If 1st January 2024 was a Monday, then what day of the week was 1st January 2025?",
+    "q_hi": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 जनवरी 2025 को सप्ताह का कौन सा दिन था?",
+    "options_en": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+    "options_hi": ["मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार"],
+    "answer": 2,
+    "explanation": "2024 is a Leap Year. A leap year has 2 odd days. \nSo, Monday + 2 = Wednesday."
+  },
+  {
+    "id": 70,
+    "section": "Reasoning (Missing Number Matrix)",
+    "q_en": "Find the missing number: \n5  4  20 \n8  ?  24 \n6  6  36",
+    "q_hi": "लुप्त संख्या ज्ञात कीजिए: \n5  4  20 \n8  ?  24 \n6  6  36",
+    "options_en": ["3", "4", "5", "8"],
+    "options_hi": ["3", "4", "5", "8"],
+    "answer": 1,
+    "explanation": "Logic: Column 1 × Column 2 = Column 3. \n5 × 4 = 20. \n6 × 6 = 36. \nSo, 8 × ? = 24 => ? = 3."
+  },
+  {
+    "id": 71,
+    "section": "Reasoning (Syllogism)",
+    "q_en": "Statements: Some Cats are Dogs. All Dogs are Birds. \nConclusion I: Some Cats are Birds. \nConclusion II: All Birds are Dogs.",
+    "q_hi": "कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते पक्षी हैं। \nनिष्कर्ष I: कुछ बिल्लियाँ पक्षी हैं। \nनिष्कर्ष II: सभी पक्षी कुत्ते हैं।",
+    "options_en": ["Only I follows", "Only II follows", "Both follow", "Neither follows"],
+    "options_hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई अनुसरण नहीं करता"],
+    "answer": 1,
+    "explanation": "Cats overlap with Dogs, and Dogs are inside Birds. Thus, the overlap of Cats and Dogs is also inside Birds. So, 'Some Cats are Birds' is true. 'All Birds are Dogs' is false (converse of All is not true)."
+  },
+  {
+    "id": 72,
+    "section": "Reasoning (Clock)",
+    "q_en": "What is the angle between the hour hand and the minute hand at 3:30?",
+    "q_hi": "3:30 बजे घंटे की सुई और मिनट की सुई के बीच का कोण क्या है?",
+    "options_en": ["75°", "90°", "105°", "60°"],
+    "options_hi": ["75°", "90°", "105°", "60°"],
+    "answer": 1,
+    "explanation": "Formula: |(30*H) - (11/2*M)| \nH=3, M=30. \n| (30*3) - (5.5*30) | = | 90 - 165 | = 75 degrees."
+  },
+  {
+    "id": 73,
+    "section": "Reasoning (Number Analogy)",
+    "q_en": "5 : 124 :: 7 : ?",
+    "q_hi": "5 : 124 :: 7 : ?",
+    "options_en": ["342", "343", "248", "350"],
+    "options_hi": ["342", "343", "248", "350"],
+    "answer": 1,
+    "explanation": "Logic: n³ - 1. \n5³ - 1 = 125 - 1 = 124. \n7³ - 1 = 343 - 1 = 342."
+  },
+  {
+    "id": 74,
+    "section": "Reasoning (Letter Series)",
+    "q_en": "Complete the series: AZ, CX, EV, GT, ?",
+    "q_hi": "शृंखला को पूरा करें: AZ, CX, EV, GT, ?",
+    "options_en": ["HS", "IR", "JQ", "KP"],
+    "options_hi": ["HS", "IR", "JQ", "KP"],
+    "answer": 2,
+    "explanation": "First letter: A(+2) -> C(+2) -> E(+2) -> G(+2) -> I. \nSecond letter: Z(-2) -> X(-2) -> V(-2) -> T(-2) -> R. \nOr simply opposite pairs (A-Z, C-X, E-V, G-T). Next is I-R."
+  },
+{
+    "id": 75,
+    "section": "Reasoning (Number Series)",
+    "q_en": "Find the missing number in the series: 6, 12, 21, 33, ?",
+    "q_hi": "शृंखला में लुप्त संख्या ज्ञात कीजिए: 6, 12, 21, 33, ?",
+    "options_en": ["45", "48", "51", "46"],
+    "options_hi": ["45", "48", "51", "46"],
+    "answer": 2,
+    "explanation": "Pattern: Difference is increasing by 3. \n12-6 = 6 \n21-12 = 9 \n33-21 = 12 \nNext difference should be 15. So, 33 + 15 = 48."
+  },
+  {
+    "id": 76,
+    "section": "India GK (Polity)",
+    "q_en": "Which Article of the Indian Constitution deals with the 'Abolition of Untouchability'?",
+    "q_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'अस्पृश्यता के उन्मूलन' (छुआछूत का अंत) से संबंधित है?",
+    "options_en": ["Article 16", "Article 17", "Article 18", "Article 21"],
+    "options_hi": ["अनुच्छेद 16", "अनुच्छेद 17", "अनुच्छेद 18", "अनुच्छेद 21"],
+    "answer": 2,
+    "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form. Article 18 deals with the abolition of titles."
+  },
+  {
+    "id": 77,
+    "section": "India GK (History)",
+    "q_en": "In which session of the Indian National Congress was the resolution of 'Purna Swaraj' (Complete Independence) passed?",
+    "q_hi": "भारतीय राष्ट्रीय कांग्रेस के किस अधिवेशन में 'पूर्ण स्वराज्य' (पूर्ण स्वतंत्रता) का प्रस्ताव पारित किया गया था?",
+    "options_en": ["Calcutta Session (1928)", "Lahore Session (1929)", "Karachi Session (1931)", "Belgaum Session (1924)"],
+    "options_hi": ["कलकत्ता अधिवेशन (1928)", "लाहौर अधिवेशन (1929)", "कराची अधिवेशन (1931)", "बेलगाम अधिवेशन (1924)"],
+    "answer": 2,
+    "explanation": "The Lahore Session (1929) presided over by Jawaharlal Nehru passed the Purna Swaraj resolution. The tricolor was hoisted on the banks of Ravi river."
+  },
+  {
+    "id": 78,
+    "section": "India GK (Geography)",
+    "q_en": "Which is the longest river of Peninsular India (South India)?",
+    "q_hi": "प्रायद्वीपीय भारत (दक्षिण भारत) की सबसे लंबी नदी कौन सी है?",
+    "options_en": ["Krishna", "Kaveri", "Godavari", "Narmada"],
+    "options_hi": ["कृष्णा", "कावेरी", "गोदावरी", "नर्मदा"],
+    "answer": 3,
+    "explanation": "Godavari is the longest river in Peninsular India. It is also known as 'Dakshin Ganga' or 'Vridha Ganga'."
+  },
+  {
+    "id": 79,
+    "section": "India GK (Economics)",
+    "q_en": "In which year was the Reserve Bank of India (RBI) established?",
+    "q_hi": "भारतीय रिज़र्व बैंक (RBI) की स्थापना किस वर्ष की गई थी?",
+    "options_en": ["1935", "1949", "1955", "1969"],
+    "options_hi": ["1935", "1949", "1955", "1969"],
+    "answer": 1,
+    "explanation": "RBI was established on April 1, 1935, under the RBI Act, 1934. It was nationalized in 1949."
+  },
+  {
+    "id": 80,
+    "section": "India GK (History - Ancient)",
+    "q_en": "Which site of the Indus Valley Civilization had a 'Dockyard'?",
+    "q_hi": "सिंधु घाटी सभ्यता के किस स्थल पर एक 'गोदीबाड़ा' (Dockyard) पाया गया था?",
+    "options_en": ["Mohenjodaro", "Harappa", "Lothal", "Kalibangan"],
+    "options_hi": ["मोहनजोदड़ो", "हड़प्पा", "लोथल", "कालीबंगा"],
+    "answer": 3,
+    "explanation": "Lothal (in Gujarat) was a prominent trading center and had a massive artificial dockyard connected to the river Sabarmati."
+  },
+  {
+    "id": 81,
+    "section": "India GK (Polity)",
+    "q_en": "The concept of 'Fundamental Duties' in the Indian Constitution was borrowed from which country?",
+    "q_hi": "भारतीय संविधान में 'मौलिक कर्तव्यों' (Fundamental Duties) की अवधारणा किस देश से ली गई थी?",
+    "options_en": ["USA", "USSR (Russia)", "Canada", "Ireland"],
+    "options_hi": ["अमेरिका (USA)", "यूएसएसआर (रूस)", "कनाडा", "आयरलैंड"],
+    "answer": 2,
+    "explanation": "Fundamental Duties (Article 51A) were added by the 42nd Amendment (1976) on the recommendation of Swaran Singh Committee, borrowed from the USSR."
+  },
+  {
+    "id": 82,
+    "section": "India GK (Geography)",
+    "q_en": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "q_hi": "किस ग्रह को 'भोर का तारा' या 'सांझ का तारा' कहा जाता है?",
+    "options_en": ["Mars", "Jupiter", "Venus", "Mercury"],
+    "options_hi": ["मंगल (Mars)", "बृहस्पति (Jupiter)", "शुक्र (Venus)", "बुध (Mercury)"],
+    "answer": 3,
+    "explanation": "Venus is the brightest planet in the solar system and is visible before sunrise or after sunset, hence the name."
+  },
+  {
+    "id": 83,
+    "section": "India GK (Static)",
+    "q_en": "Sattriya is a classical dance form of which Indian state?",
+    "q_hi": "सत्रिया (Sattriya) किस भारतीय राज्य का शास्त्रीय नृत्य है?",
+    "options_en": ["Manipur", "Odisha", "Assam", "Kerala"],
+    "options_hi": ["मणिपुर", "ओडिशा", "असम", "केरल"],
+    "answer": 3,
+    "explanation": "Sattriya is the classical dance of Assam, introduced by the great saint Srimanta Sankardev."
+  },
+  {
+    "id": 84,
+    "section": "India GK (History - Medieval)",
+    "q_en": "The First Battle of Panipat (1526) was fought between Babur and whom?",
+    "q_hi": "पानीपत का प्रथम युद्ध (1526) बाबर और किसके बीच लड़ा गया था?",
+    "options_en": ["Rana Sanga", "Hemua", "Ibrahim Lodi", "Sikandar Lodi"],
+    "options_hi": ["राणा सांगा", "हेमू", "इब्राहिम लोदी", "सिकंदर लोदी"],
+    "answer": 3,
+    "explanation": "Babur defeated Ibrahim Lodi in 1526, marking the beginning of the Mughal Empire in India."
+  },
+  {
+    "id": 85,
+    "section": "India GK (Geography)",
+    "q_en": "Which is the only floating National Park in the world?",
+    "q_hi": "विश्व का एकमात्र तैरता हुआ राष्ट्रीय उद्यान (Floating National Park) कौन सा है?",
+    "options_en": ["Kaziranga", "Keibul Lamjao", "Manas", "Sundarbans"],
+    "options_hi": ["काजीरंगा", "केइबुल लामजाओ", "मानस", "सुंदरबन"],
+    "answer": 2,
+    "explanation": "Keibul Lamjao National Park is located on Loktak Lake in Manipur. It is famous for the Sangai deer (Dancing deer)."
+  },
+  {
+    "id": 86,
+    "section": "India GK (Polity)",
+    "q_en": "Who administers the oath of office to the President of India?",
+    "q_hi": "भारत के राष्ट्रपति को पद की शपथ कौन दिलाता है?",
+    "options_en": ["Prime Minister", "Vice President", "Chief Justice of India", "Speaker of Lok Sabha"],
+    "options_hi": ["प्रधान मंत्री", "उपराष्ट्रपति", "भारत के मुख्य न्यायाधीश (CJI)", "लोकसभा अध्यक्ष"],
+    "answer": 3,
+    "explanation": "The oath to the President is administered by the Chief Justice of India, or in his absence, the senior-most judge of the Supreme Court."
+  },
+  {
+    "id": 87,
+    "section": "India GK (Books)",
+    "q_en": "Who wrote the famous book 'Poverty and Un-British Rule in India'?",
+    "q_hi": "प्रसिद्ध पुस्तक 'पॉवर्टी एंड अन-ब्रिटिश रूल इन इंडिया' किसने लिखी थी?",
+    "options_en": ["Mahatma Gandhi", "Dadabhai Naoroji", "R.C. Dutt", "Jawaharlal Nehru"],
+    "options_hi": ["महात्मा गांधी", "दादाभाई नौरोजी", "आर.सी. दत्त", "जवाहरलाल नेहरू"],
+    "answer": 2,
+    "explanation": "Dadabhai Naoroji (Grand Old Man of India) wrote this book, presenting the 'Drain Theory' of wealth from India to Britain."
+  },
+  {
+    "id": 88,
+    "section": "India GK (Geography)",
+    "q_en": "According to Census 2011, which Indian state has the lowest literacy rate?",
+    "q_hi": "जनगणना 2011 के अनुसार, किस भारतीय राज्य की साक्षरता दर सबसे कम है?",
+    "options_en": ["Bihar", "Rajasthan", "Arunachal Pradesh", "Jharkhand"],
+    "options_hi": ["बिहार", "राजस्थान", "अरुणाचल प्रदेश", "झारखंड"],
+    "answer": 1,
+    "explanation": "As per 2011 Census, Bihar had the lowest literacy rate (approx 61.8%), while Kerala had the highest."
+  },
+  {
+    "id": 89,
+    "section": "India GK (Environment/Days)",
+    "q_en": "World Environment Day is celebrated every year on:",
+    "q_hi": "विश्व पर्यावरण दिवस हर साल कब मनाया जाता है?",
+    "options_en": ["22 April", "5 June", "16 September", "11 July"],
+    "options_hi": ["22 अप्रैल", "5 जून", "16 सितंबर", "11 जुलाई"],
+    "answer": 2,
+    "explanation": "5 June is World Environment Day. (22 April is Earth Day, 16 Sept is Ozone Day)."
+  },
+  {
+    "id": 90,
+    "section": "India GK (Geography - Mountains)",
+    "q_en": "Which mountain range separates the Vindhya and Satpura ranges?",
+    "q_hi": "कौन सी नदी घाटी विंध्य और सतपुड़ा पर्वतमाला को अलग करती है/उनके बीच बहती है?",
+    "options_en": ["Narmada", "Tapti", "Godavari", "Mahi"],
+    "options_hi": ["नर्मदा", "ताप्ती", "गोदावरी", "माही"],
+    "answer": 1,
+    "explanation": "The Narmada river flows through a rift valley between the Vindhya Range (North) and the Satpura Range (South)."
+  },
+  {
+    "id": 91,
+    "section": "Hindi (Sandhi)",
+    "q_en": "Choose the correct Sandhi-Vichchhed for the word 'Ujjwal'.",
+    "q_hi": "'उज्ज्वल' शब्द का सही संधि-विच्छेद चुनिए।",
+    "options_en": ["उत + ज्वल", "उज् + ज्वल", "उत् + ज्वल", "उद + ज्वल"],
+    "options_hi": ["उत + ज्वल", "उज् + ज्वल", "उत् + ज्वल", "उद + ज्वल"],
+    "answer": 3,
+    "explanation": "सही संधि विच्छेद 'उत् + ज्वल' है। यह व्यंजन संधि का नियम है (त के बाद ज आने पर त, ज में बदल जाता है)।"
+  },
+  {
+    "id": 92,
+    "section": "Hindi (Samas)",
+    "q_en": "Which Samas is present in the word 'Chauraha'?",
+    "q_hi": "'चौराहा' शब्द में कौन सा समास है?",
+    "options_en": ["Avyayibhav", "Digu", "Dwandva", "Bahuvrihi"],
+    "options_hi": ["अव्ययीभाव", "द्विगु", "द्वंद्व", "बहुव्रीहि"],
+    "answer": 2,
+    "explanation": "द्विगु समास (Digu Samas) में पहला पद संख्यावाचक होता है। चौराहा = चार राहों का समूह।"
+  },
+  {
+    "id": 93,
+    "section": "Hindi (Alankar)",
+    "q_en": "Identify the Alankar: 'Kanak Kanak te sau guni, madakta adhikaye'.",
+    "q_hi": "अलंकार पहचानें: 'कनक कनक ते सौ गुनी, मादकता अधिकाय' में कौन सा अलंकार है?",
+    "options_en": ["Anupras", "Yamak", "Shlesh", "Rupak"],
+    "options_hi": ["अनुप्रास", "यमक", "श्लेष", "रूपक"],
+    "answer": 2,
+    "explanation": "यहाँ 'कनक' शब्द दो बार आया है और दोनों बार अर्थ अलग है (सोना और धतूरा), इसलिए यह 'यमक अलंकार' है।"
+  },
+  {
+    "id": 94,
+    "section": "Hindi (Muhavare)",
+    "q_en": "What is the meaning of the idiom 'Gud-Gobar karna'?",
+    "q_hi": "मुहावरे 'गुड़-गोबर करना' का सही अर्थ क्या है?",
+    "options_en": ["To do good work", "To spoil the work", "To steal something", "To cook food"],
+    "options_hi": ["अच्छा काम करना", "काम बिगाड़ना", "चोरी करना", "खाना पकाना"],
+    "answer": 2,
+    "explanation": "गुड़-गोबर करना का अर्थ है: बना-बनाया काम बिगाड़ देना (To spoil the work completely)."
+  },
+  {
+    "id": 95,
+    "section": "Hindi (Vartani/Spelling)",
+    "q_en": "Choose the correctly spelled word.",
+    "q_hi": "शुद्ध वर्तनी वाला शब्द चुनिए।",
+    "options_en": ["Ashirvad", "Aashirwad", "Aashirvad", "Ashirwad"],
+    "options_hi": ["आर्शीवाद", "आशीर्वाद", "आर्शिवाद", "आशीर्बाद"],
+    "answer": 2,
+    "explanation": "शुद्ध रूप 'आशीर्वाद' है। (श के बाद 'ी' और व के ऊपर रेफ 'र्')।"
+  },
+  {
+    "id": 96,
+    "section": "Hindi (Tatsam-Tadbhav)",
+    "q_en": "Which of the following is a 'Tatsam' word?",
+    "q_hi": "निम्नलिखित में से कौन सा शब्द 'तत्सम' है?",
+    "options_en": ["Aag", "Agni", "Suraj", "Khet"],
+    "options_hi": ["आग", "अग्नि", "सूरज", "खेत"],
+    "answer": 2,
+    "explanation": "'अग्नि' तत्सम शब्द है (संस्कृत से ज्यों का त्यों)। इसका तद्भव 'आग' है। 'क्षेत्र' का तद्भव 'खेत' है।"
+  },
+  {
+    "id": 97,
+    "section": "Hindi (One Word Substitution)",
+    "q_en": "One who has no enemy is called?",
+    "q_hi": "जिसका कोई शत्रु पैदा न हुआ हो, उसे क्या कहते हैं?",
+    "options_en": ["Ajatshatru", "Shatrughna", "Mitra", "Ajay"],
+    "options_hi": ["अजातशत्रु", "शत्रुघ्न", "मित्र", "अजेय"],
+    "answer": 1,
+    "explanation": "अजातशत्रु (Ajatshatru) वह है जिसका कोई शत्रु न जन्मा हो।"
+  },
+  {
+    "id": 98,
+    "section": "English (Prepositions)",
+    "q_en": "Fill in the blank with the correct preposition: He died ______ cancer.",
+    "q_hi": "सही पूर्वसर्ग (preposition) से रिक्त स्थान भरें: He died ______ cancer.",
+    "options_en": ["from", "by", "of", "with"],
+    "options_hi": ["from", "by", "of", "with"],
+    "answer": 3,
+    "explanation": "Rule: We use 'die of' for a disease (e.g., die of cancer, die of cholera). We use 'die from' for external causes (e.g., die from a wound)."
+  },
+  {
+    "id": 99,
+    "section": "English (One Word Substitution)",
+    "q_en": "A place where birds are kept is called:",
+    "q_hi": "वह स्थान जहाँ पक्षियों को रखा जाता है, कहलाता है:",
+    "options_en": ["Zoo", "Apiary", "Aviary", "Aquarium"],
+    "options_hi": ["Zoo", "Apiary", "Aviary", "Aquarium"],
+    "answer": 3,
+    "explanation": "'Aviary' is for birds. 'Apiary' is for bees. HSSC often confuses students between Apiary and Aviary."
+  },
+  {
+    "id": 100,
+    "section": "English (Idioms)",
+    "q_en": "Choose the correct meaning of the idiom: 'A white elephant'.",
+    "q_hi": "मुहावरे 'A white elephant' का सही अर्थ चुनें।",
+    "options_en": ["A rare item", "A costly but useless possession", "A very useful item", "An elephant of white color"],
+    "options_hi": ["एक दुर्लभ वस्तु", "महंगी लेकिन बेकार वस्तु", "बहुत उपयोगी वस्तु", "सफेद रंग का हाथी"],
+    "answer": 2,
+    "explanation": "A white elephant refers to something that costs a lot of money to maintain but has no useful purpose."
+  },
+  {
+    "id": 101,
+    "section": "English (Voice)",
+    "q_en": "Change the voice: 'Who wrote this letter?'",
+    "q_hi": "वाच्य बदलें (Change the voice): 'Who wrote this letter?'",
+    "options_en": ["By whom was this letter written?", "By whom is this letter written?", "Who was written this letter?", "Whom wrote this letter?"],
+    "options_hi": ["By whom was this letter written?", "By whom is this letter written?", "Who was written this letter?", "Whom wrote this letter?"],
+    "answer": 1,
+    "explanation": "Passive structure for 'Who + V2 + Object' is 'By whom + was/were + Object + V3'. Correct: 'By whom was this letter written?'"
+  },
+  {
+    "id": 102,
+    "section": "English (Spelling)",
+    "q_en": "Select the correctly spelled word.",
+    "q_hi": "सही वर्तनी वाले शब्द का चयन करें।",
+    "options_en": ["Comittee", "Committee", "Commitee", "Comite"],
+    "options_hi": ["Comittee", "Committee", "Commitee", "Comite"],
+    "answer": 2,
+    "explanation": "Correct spelling is 'Committee' (Double m, double t, double e)."
+  },
+  {
+    "id": 103,
+    "section": "English (Tense/Conditionals)",
+    "q_en": "Fill in the blank: If I ______ a bird, I would fly in the sky.",
+    "q_hi": "रिक्त स्थान भरें: If I ______ a bird, I would fly in the sky.",
+    "options_en": ["was", "am", "were", "had"],
+    "options_hi": ["was", "am", "were", "had"],
+    "answer": 3,
+    "explanation": "This is an imaginary condition (Hypothetical situation). In such cases, we use 'were' with all subjects (If I were, If he were)."
+  },
+  {
+    "id": 104,
+    "section": "English (Antonyms)",
+    "q_en": "Choose the antonym of 'Artificial'.",
+    "q_hi": "'Artificial' (कृत्रिम) का विलोम शब्द चुनें।",
+    "options_en": ["Red", "Natural", "Truthful", "Solid"],
+    "options_hi": ["Red", "Natural", "Truthful", "Solid"],
+    "answer": 2,
+    "explanation": "Artificial means man-made. Natural means existing in nature."
+  },
+  {
+    "id": 105,
+    "section": "English (Conjunctions)",
+    "q_en": "Hardly had I reached the station ______ the train left.",
+    "q_hi": "Hardly had I reached the station ______ the train left.",
+    "options_en": ["than", "then", "when", "after"],
+    "options_hi": ["than", "then", "when", "after"],
+    "answer": 3,
+    "explanation": "The correlation is 'Hardly... when' or 'Scarcely... when'. (Note: 'No sooner... than' is another pair)."
+  }
+]
+}
+  
