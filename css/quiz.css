@@ -1,6 +1,6 @@
 /* 
-    MeritBoard - Final MASTER Quiz CSS (Subject Analysis Fixed)
-    Features: Fixed Header/Footer, Palette Shapes, Analysis Card Styling
+    MeritBoard - Final Optimized Master Quiz CSS
+    Features: Sticky Header, Inline Controls, Natural Scroll, Universal Footer
 */
 
 :root {
@@ -12,29 +12,33 @@
     --text-dark: #2d3436;
 }
 
-/* 1. Layout Fix (Fixed Header/Footer System) */
+/* 1. Global Layout Fix (Natural Scroll) */
 html, body { 
-    height: 100%; 
+    height: auto; 
     margin: 0; 
     padding: 0; 
-    overflow: hidden; 
+    overflow-x: hidden; 
+    overflow-y: auto; /* पेज को नैचुरली स्क्रॉल होने दें */
+    background: #f0f3f7;
 }
 
 .quiz-body { 
-    background: #f0f3f7; 
     display: flex; 
     flex-direction: column; 
-    height: 100%; 
+    min-height: 100vh; 
     font-family: 'Inter', sans-serif; 
 }
 
-/* 2. Professional Header (36px Uniform Height) */
+/* 2. Professional Header (Sticky - Timer visibility is important) */
 .quiz-header { 
     background: #ffffff; 
     border-bottom: 1px solid #e2e8f0; 
     padding: 10px 0; 
     flex-shrink: 0; 
-    z-index: 1000; 
+    z-index: 2000;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
 }
 
 .quiz-nav-top { 
@@ -43,67 +47,90 @@ html, body {
     align-items: center; 
     padding: 0 15px; 
     width: 100%;
+    box-sizing: border-box;
 }
 
+.header-left-group { display: flex; align-items: center; gap: 10px; max-width: 45%; }
+
+.btn-home-header {
+    width: 36px; height: 36px; background: #f1f5f9; border: 1px solid #cbd5e0;
+    border-radius: 8px; color: var(--primary-color); display: flex;
+    align-items: center; justify-content: center; text-decoration: none;
+    transition: all 0.2s ease; flex-shrink: 0;
+}
+.btn-home-header:hover { background: var(--primary-color); color: #fff; }
+
 .quiz-title { 
-    color: var(--primary-color); 
-    font-weight: 700; 
-    font-size: 0.95rem; 
-    max-width: 40%; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
+    color: var(--primary-color); font-weight: 700; font-size: 0.95rem; 
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
 .header-controls { display: flex; align-items: center; gap: 8px; }
 
 /* Unified Controls (Height: 36px) */
 .btn-icon-share, .lang-select, .timer {
-    height: 36px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    border: 1px solid #cbd5e0;
-    background: #ffffff;
+    height: 36px; box-sizing: border-box; display: flex; align-items: center;
+    justify-content: center; border-radius: 8px; border: 1px solid #cbd5e0; background: #ffffff;
 }
 
 .btn-icon-share { width: 36px; background: #f8fafc; color: var(--primary-color); cursor: pointer; padding: 0; outline: none; }
-.lang-select { padding: 0 5px; font-weight: 600; font-size: 0.8rem; color: #334155; outline: none; min-width: 65px; }
-.timer { background: #f1f5f9; padding: 0 8px; font-family: monospace; font-weight: 700; font-size: 1rem; color: #0f172a; min-width: 70px; }
+.lang-select { padding: 0 5px; font-weight: 700; font-size: 0.8rem; color: #334155; min-width: 60px; }
+.timer { background: #f1f5f9; padding: 0 8px; font-family: monospace; font-weight: 700; font-size: 1rem; color: #0f172a; min-width: 68px; }
 
 /* 3. Static Section Bar */
 .section-bar { background: #34495e; display: flex; overflow-x: auto; flex-shrink: 0; }
 .section-bar::-webkit-scrollbar { display: none; }
 .section-tab { padding: 12px 18px; color: #ffffff; font-size: 0.8rem; font-weight: 600; border-right: 1px solid rgba(255,255,255,0.1); white-space: nowrap; }
 
-/* 4. Scrollable Main Area */
-.quiz-main { 
-    flex: 1; 
-    overflow-y: auto; 
-    -webkit-overflow-scrolling: touch; 
-    padding: 15px 15px 110px; 
+/* 4. Main Quiz Content Area */
+.quiz-main { flex: 1; padding: 15px 0; }
+
+.question-card { 
+    background: white; padding: 20px; border-radius: 12px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 10px; 
 }
 
-.question-card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 20px; }
 .q-header { display: flex; justify-content: space-between; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; margin-bottom: 15px; }
 .q-number { font-weight: 700; color: var(--primary-color); }
 .question-text { font-size: 1.1rem; font-weight: 600; line-height: 1.6; margin-bottom: 25px; color: #333; }
 
-/* Options Buttons */
-.option-btn { display: block; width: 100%; padding: 15px; margin-bottom: 12px; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; font-size: 1rem; text-align: left; cursor: pointer; transition: 0.2s; }
+/* Options */
+.option-btn { 
+    display: block; width: 100%; padding: 15px; margin-bottom: 12px; 
+    border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; 
+    font-size: 1rem; text-align: left; cursor: pointer; transition: 0.2s; 
+}
 .option-btn.selected { background: #ebf8ff; border: 2px solid var(--secondary-color); font-weight: 600; }
 
-/* 5. Question Palette Section */
-.palette-container { background: white; padding: 15px; border-radius: 12px; border: 1px solid #ddd; margin-top: 10px; }
+/* 5. Inline Quiz Navigation Controls (NEW Position) */
+.quiz-controls-inline {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-ctrl { padding: 10px 14px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; border: 1px solid #cbd5e0; cursor: pointer; }
+.footer-right { display: flex; gap: 8px; }
+.btn-save { background: var(--secondary-color); color: white; border: none; }
+.btn-submit { background: var(--primary-color); color: white; border: none; }
+.btn-review { background: #f39c12; color: white; border: none; }
+.btn-clear { background: #f1f2f6; color: #57606f; }
+
+/* 6. Palette Section */
+.palette-container { background: white; padding: 15px; border-radius: 12px; border: 1px solid #ddd; margin-bottom: 20px; }
 .btn-palette-toggle { width: 100%; padding: 12px; background: #f8fafc; border: 1px dashed #ccc; border-radius: 8px; font-weight: 600; margin-bottom: 15px; cursor: pointer; }
 .palette-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 10px; margin-bottom: 20px; }
 
 .p-btn { height: 40px; border: 1px solid #cbd5e0; background: #fff; font-weight: 600; cursor: pointer; }
-.p-btn.answered { background: var(--success-color) !important; color: white; border-radius: 0 0 15px 15px; border: none; }
-.p-btn.not-answered { background: var(--error-color) !important; color: white; border-radius: 15px 15px 0 0; border: none; }
-.p-btn.marked { background: #8e44ad !important; color: white; border-radius: 50%; border: none; }
+.p-btn.answered { background: var(--success-color)!important; color: white; border-radius: 0 0 15px 15px; border: none; }
+.p-btn.not-answered { background: var(--error-color)!important; color: white; border-radius: 15px 15px 0 0; border: none; }
+.p-btn.marked { background: #8e44ad!important; color: white; border-radius: 50%; border: none; }
 .p-btn.current { border: 2.5px solid #2b6cb0; }
 
 .legend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; border-top: 1px solid #eee; padding-top: 15px; font-size: 0.8rem; }
@@ -113,21 +140,20 @@ html, body {
 .leg-box.marked { border-radius: 50%; background: #8e44ad; border: none; }
 .leg-box.not-answered { border-radius: 8px 8px 0 0; background: #e74c3c; border: none; }
 
-/* 6. Footer Controls */
-.quiz-footer { position: fixed; bottom: 0; width: 100%; background: white; padding: 12px 15px; border-top: 1px solid #dee2e6; display: flex; justify-content: space-between; gap: 10px; z-index: 2000; box-sizing: border-box; }
-.btn-ctrl { padding: 10px 15px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; border: 1px solid #cbd5e0; cursor: pointer; }
-.footer-right { display: flex; gap: 8px; flex: 1; justify-content: flex-end; }
-.btn-save { background: var(--secondary-color); color: white; border: none; }
-.btn-submit { background: var(--primary-color); color: white; border: none; }
+/* 7. Universal Footer Style */
+.footer {
+    background: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 30px;
+    flex-shrink: 0;
+}
+.footer a { color: var(--secondary-color); text-decoration: none; font-weight: bold; }
 
-/* ==========================================================
-   7. PROFESSIONAL RESULT ANALYSIS PAGE (Subject Analysis Fixed)
-   ========================================================== */
-
+/* 8. Analysis & Result Page Styling */
 #analysisPage { background: #f0f3f7; min-height: 100vh; overflow-y: auto; padding-bottom: 50px; }
 .result-container { max-width: 600px; margin: 0 auto; padding: 15px; }
-
-/* Summary Scorecard */
 .summary-card { background: var(--primary-color); color: white; padding: 30px 15px; border-radius: 20px; text-align: center; margin-bottom: 20px; }
 .main-score-box { font-size: 3.5rem; font-weight: 800; margin: 10px 0; }
 .stats-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 20px; }
@@ -135,43 +161,10 @@ html, body {
 .stat-box span { display: block; font-size: 1.1rem; font-weight: 800; color: var(--primary-color); }
 .stat-box label { font-size: 0.65rem; color: #7f8c8d; text-transform: uppercase; font-weight: 700; }
 
-/* --- Subject Analysis Styling (NEW/FIXED) --- */
-.subject-card { 
-    background: white; 
-    padding: 20px; 
-    border-radius: 15px; 
-    margin-bottom: 25px; 
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
-}
-.section-title-res { 
-    margin: 0 0 15px 0; 
-    font-size: 1.1rem; 
-    color: var(--primary-color); 
-    border-bottom: 1px solid #eee; 
-    padding-bottom: 10px; 
-    font-weight: 700;
-}
-.subject-item { 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 12px 0; 
-    border-bottom: 1px dashed #eee; 
-    font-size: 0.95rem; 
-    font-weight: 500; 
-    color: #2c3e50;
-}
-.subject-item:last-child { border-bottom: none; }
-.sub-score { 
-    font-weight: 700; 
-    color: var(--success-color); 
-    background: #eafaf1; 
-    padding: 4px 10px; 
-    border-radius: 6px; 
-    font-size: 0.9rem;
-}
+.subject-card { background: white; padding: 20px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+.subject-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px dashed #eee; font-size: 0.95rem; font-weight: 500; }
+.sub-score { font-weight: 700; color: var(--success-color); background: #eafaf1; padding: 4px 10px; border-radius: 6px; font-size: 0.9rem; }
 
-/* Solution Highlighting */
 .solution-item { background: white; padding: 20px; border-radius: 15px; margin-bottom: 20px; border: 1px solid #eee; }
 .sol-q { font-weight: 700; margin-bottom: 15px; font-size: 1rem; color: #2c3e50; }
 .sol-opt { padding: 12px; border-radius: 8px; margin: 8px 0; font-size: 0.95rem; border: 1px solid #e2e8f0; position: relative; }
@@ -179,18 +172,17 @@ html, body {
 .sol-opt.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; }
 .sol-exp { background: #e3f2fd; padding: 12px; border-radius: 10px; margin-top: 15px; font-size: 0.85rem; border-left: 4px solid var(--secondary-color); }
 
-/* Result Actions */
 .result-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 30px; }
-.btn-retake { padding: 15px; border-radius: 8px; border: none; background: var(--secondary-color); color: white; font-weight: 700; cursor: pointer; }
-.btn-home { padding: 15px; border-radius: 8px; border: 2px solid #ccc; background: white; color: #475569; font-weight: 700; cursor: pointer; }
 .btn-share-result { grid-column: span 2; background: #25D366; color: white; padding: 15px; border-radius: 10px; border: none; font-weight: 700; margin-top: 10px; cursor: pointer; }
 
-/* Utilities */
+/* Utils */
 .hidden { display: none !important; }
 
-/* 8. Responsive Fixes */
+/* 9. Responsive Adjustments */
 @media (max-width: 480px) {
     .quiz-title { display: block !important; font-size: 0.85rem; }
     .quiz-nav-top { justify-content: space-between !important; }
     .header-controls { gap: 6px; }
+    .quiz-controls-inline { flex-wrap: wrap; }
+    .footer-right { width: 100%; justify-content: space-between; margin-top: 10px; }
 }
