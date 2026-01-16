@@ -5,107 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO & Google Indexing -->
-    <title>MeritBoard - Prepare. Test. Lead. | Free Mock Tests for Haryana Exams</title>
-    <meta name="description" content="MeritBoard offers free online mock tests, interactive quizzes, and real-time leaderboards for HSSC, HPSC, SSC, and Banking exams. Specially focused on Haryana Competitive Exams.">
-    <meta name="keywords" content="Free Online Mock Test, Haryana GK Quiz, HSSC CET Mock Test, MeritBoard, Sukhdev Dahiya, Competitive Exam Quiz, Daily Current Affairs">
+    <title>MeritBoard - Prepare. Test. Lead. | Free Mock Tests</title>
+    <meta name="description" content="MeritBoard offers free online mock tests, interactive quizzes, and real-time leaderboards.">
     <meta name="author" content="Sukhdev Dahiya">
     <link rel="canonical" href="https://yourusername.github.io/meritboard/">
-    <meta name="robots" content="index, follow">
-
-    <!-- Open Graph for Social Media & Google Discover -->
-    <meta property="og:title" content="MeritBoard - Prepare. Test. Lead.">
-    <meta property="og:description" content="Join India's most interactive mock test platform. Track your rank in HSSC, SSC, and Railway exams.">
-    <meta property="og:image" content="assets/og-image.jpg">
-    <meta property="og:url" content="https://yourusername.github.io/meritboard/">
-    <meta property="og:type" content="website">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- JSON-LD Structured Data for Google Search -->
+    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
       "name": "MeritBoard",
       "url": "https://yourusername.github.io/meritboard/",
-      "logo": "assets/logo.png",
-      "description": "Educational platform for competitive exam preparation and mock tests.",
-      "founder": {
-        "@type": "Person",
-        "name": "Sukhdev Dahiya"
-      }
+      "founder": { "@type": "Person", "name": "Sukhdev Dahiya" }
     }
     </script>
 </head>
 <body>
 
+    <!-- Universal Header -->
     <header class="header">
-    <nav class="nav-container">
-        <div class="logo-area">
-            <a href="index.html" class="logo-link">
-                <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
-            </a>
-        </div>
-        <div class="header-actions">
-            <!-- Professional SVG Search Icon -->
-            <button id="searchBtn" class="search-icon-btn" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </button>
-        </div>
-    </nav>
-</header>
+        <nav class="nav-container">
+            <div class="logo-area">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
+                </a>
+            </div>
+            <div class="header-actions">
+                <button id="searchBtn" class="search-icon-btn" aria-label="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <!-- Motivational Hero Section -->
+        <!-- Hero Section -->
         <section class="hero-section">
             <div class="container">
                 <h1 class="motivational-quote" id="dailyQuote">Loading daily inspiration...</h1>
                 <p class="hero-subtext">Targeting Haryana State Exams? Let's check your rank today!</p>
                 <div class="cta-buttons">
-                    <a href="#exams" class="btn btn-primary">Start Free Test</a>
-                    <a href="#rankings" class="btn btn-secondary">View Leaderboard</a>
+                    <a href="#haryanaSpecial" class="btn btn-primary">Start Free Test</a>
+                    <a href="rankings.html" class="btn btn-secondary">View Leaderboard</a>
                 </div>
             </div>
         </section>
 
-        <!-- Dynamic Notice Board (Fetches from notices.json) -->
+        <!-- Notice Board -->
         <section class="notices-section">
             <div class="container">
                 <div id="noticesContainer" class="notice-slider">
-                    <!-- Data will be injected here via JS -->
+                    <!-- Dynamic Notices -->
                 </div>
             </div>
         </section>
 
-        <!-- Exam Categories (Fetches from exams.json) -->
-                <!-- Haryana Special Section (Fixed Scalability) -->
-        <section id="haryanaSpecial" class="special-section">
+        <!-- Category 1: Haryana Special Slider -->
+        <section id="haryanaSpecial" class="category-section">
             <div class="container">
-                <h2 class="section-title">Haryana Special 💎</h2>
-                <div id="haryanaExamsGrid" class="exams-grid">
-                    <!-- Specific Haryana content -->
+                <div class="section-header">
+                    <h2 class="section-title-main">Haryana Special 💎</h2>
+                    <a href="category.html?type=haryana-special" class="view-all-link">View All →</a>
                 </div>
-            </div>
-        </section>
-        <section id="exams" class="exams-section">
-            <div class="container">
-                <h2 class="section-title">Popular Exam Quizzes</h2>
-                <div id="examsGrid" class="exams-grid">
-                    <!-- Exam cards will be injected here via JS -->
-                    <p class="loading">Loading available tests...</p>
+                <div class="slider-wrapper">
+                    <div id="haryanaExamsGrid" class="exams-slider">
+                        <p class="loading">Loading Haryana tests...</p>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Category 2: Popular Quizzes Slider -->
+        <section id="exams" class="category-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title-main">Popular Quizzes 🔥</h2>
+                    <a href="category.html?type=general" class="view-all-link">View All →</a>
+                </div>
+                <div class="slider-wrapper">
+                    <div id="examsGrid" class="exams-slider">
+                        <p class="loading">Loading available tests...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Universal Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 MeritBoard. Designed by Sukhdev Dahiya.</p>
@@ -115,8 +112,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <!-- main.js will handle the data fetching and rendering -->
     <script src="js/main.js" type="module"></script>
 </body>
 </html>
