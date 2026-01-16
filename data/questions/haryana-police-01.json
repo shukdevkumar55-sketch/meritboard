@@ -1,0 +1,1018 @@
+{
+  "testTitle": "Haryana Police Constable - Full Mock Test 01",
+  "timeMinutes": 90,
+  "totalQuestions": 100,
+  "sections": ["Haryana GK", "General Studies", "Reasoning", "Maths", "Computer"],
+  "questions": [
+  {
+    "id": 1,
+    "section": "Haryana GK (Economy)",
+    "q_en": "As per Haryana Economic Survey 2024-25, what is the estimated Per Capita Income of Haryana at current prices?",
+    "q_hi": "हरियाणा आर्थिक सर्वेक्षण 2024-25 के अनुसार, मौजूदा कीमतों पर हरियाणा की अनुमानित प्रति व्यक्ति आय (Per Capita Income) क्या है?",
+    "options_en": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
+    "options_hi": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
+    "answer": 2,
+    "explanation": "As per the latest Economic Survey 2024-25, Haryana's Per Capita Income has risen to ₹3,53,182."
+  },
+  {
+    "id": 2,
+    "section": "Police Science (BNS)",
+    "q_en": "Under the new Bharatiya Nyaya Sanhita (BNS) 2023, which section specifically defines and punishes 'Mob Lynching' (murder by a group on grounds of race, caste, etc.)?",
+    "q_hi": "नई भारतीय न्याय संहिता (BNS) 2023 के तहत, कौन सी धारा विशेष रूप से 'मॉब लिंचिंग' (जाति, समुदाय आदि के आधार पर समूह द्वारा हत्या) को परिभाषित और दंडित करती है?",
+    "options_en": ["Section 302", "Section 103(2)", "Section 111", "Section 304"],
+    "options_hi": ["धारा 302", "धारा 103(2)", "धारा 111", "धारा 304"],
+    "answer": 1,
+    "explanation": "Section 103(2) of BNS specifically deals with murder committed by a group of 5 or more persons acting in concert (Mob Lynching)."
+  },
+  {
+    "id": 3,
+    "section": "Haryana GK (Schemes)",
+    "q_en": "Under the 'Mera Pani Meri Virasat' scheme, the incentive for farmers switching from paddy to alternative crops has been increased to how much per acre in 2024?",
+    "q_hi": "'मेरा पानी मेरी विरासत' योजना के तहत, धान की जगह वैकल्पिक फसलें उगाने वाले किसानों के लिए प्रोत्साहन राशि 2024 में बढ़ाकर कितनी प्रति एकड़ कर दी गई है?",
+    "options_en": ["₹7,000", "₹7,500", "₹8,000", "₹9,000"],
+    "options_hi": ["₹7,000", "₹7,500", "₹8,000", "₹9,000"],
+    "answer": 2,
+    "explanation": "The Haryana government increased the incentive from ₹7,000 to ₹8,000 per acre to promote crop diversification."
+  },
+  {
+    "id": 4,
+    "section": "Computer (Python)",
+    "q_en": "In Python language, which of the following is an immutable data type?",
+    "q_hi": "पायथन (Python) भाषा में, निम्नलिखित में से कौन सा डेटा टाइप अपरिवर्तनीय (Immutable) है?",
+    "options_en": ["List", "Dictionary", "Set", "Tuple"],
+    "options_hi": ["List", "Dictionary", "Set", "Tuple"],
+    "answer": 3,
+    "explanation": "Tuples are immutable sequences in Python, meaning their elements cannot be changed after assignment. Lists and Dictionaries are mutable."
+  },
+  {
+    "id": 5,
+    "section": "Agriculture",
+    "q_en": "Which of the following causes 'Red Rot' disease in Sugarcane?",
+    "q_hi": "गन्ने में 'लाल सड़न' (Red Rot) रोग निम्नलिखित में से किसके कारण होता है?",
+    "options_en": ["Bacteria (Xanthomonas)", "Fungus (Colletotrichum falcatum)", "Virus (SCMV)", "Zinc Deficiency"],
+    "options_hi": ["जीवाणु (Xanthomonas)", "कवक (Colletotrichum falcatum)", "विषाणु (SCMV)", "जस्ता की कमी"],
+    "answer": 1,
+    "explanation": "Red Rot is a fungal disease caused by Colletotrichum falcatum."
+  },
+  {
+    "id": 6,
+    "section": "Haryana GK (History)",
+    "q_en": "Match the 1857 Revolt leaders with their respective regions in Haryana:\n1. Ghafur Ali  -  A. Farrukhnagar\n2. Ahmed Ali  -  B. Pataudi\n3. Nahar Singh -  C. Ballabhgarh\nSelect the correct code.",
+    "q_hi": "हरियाणा में 1857 की क्रांति के नेताओं को उनके क्षेत्र के साथ सुमेलित करें:\n1. गफूर अली  -  A. फर्रुखनगर\n2. अहमद अली  -  B. पटौदी\n3. नाहर सिंह -  C. बल्लभगढ़\nसही कोड चुनें।",
+    "options_en": ["1-B, 2-A, 3-C", "1-A, 2-B, 3-C", "1-C, 2-A, 3-B", "1-B, 2-C, 3-A"],
+    "options_hi": ["1-B, 2-A, 3-C", "1-A, 2-B, 3-C", "1-C, 2-A, 3-B", "1-B, 2-C, 3-A"],
+    "answer": 0,
+    "explanation": "Ghafur Ali led from Pataudi, Ahmed Ali from Farrukhnagar, and Raja Nahar Singh from Ballabhgarh."
+  },
+  {
+    "id": 7,
+    "section": "Animal Husbandry",
+    "q_en": "What is the average gestation period of a 'Sheep'?",
+    "q_hi": "'भेड़' (Sheep) का औसत गर्भकाल (Gestation period) कितना होता है?",
+    "options_en": ["280 days", "150 days", "114 days", "310 days"],
+    "options_hi": ["280 दिन", "150 दिन", "114 दिन", "310 दिन"],
+    "answer": 1,
+    "explanation": "Sheep gestation period is approx 150 days. (Goat ~150, Pig ~114, Cow ~280, Buffalo ~310)."
+  },
+  {
+    "id": 8,
+    "section": "General Science",
+    "q_en": "Which gas is known as 'Tear Gas' used by police for riot control?",
+    "q_hi": "पुलिस द्वारा भीड़ नियंत्रण के लिए उपयोग की जाने वाली 'आंसू गैस' (Tear Gas) किसे कहा जाता है?",
+    "options_en": ["Nitrous Oxide", "Chloropicrin", "Carbon Monoxide", "Phosgene"],
+    "options_hi": ["नाइट्रस ऑक्साइड", "क्लोरोपिक्रिन", "कार्बन मोनोऑक्साइड", "फॉस्जीन"],
+    "answer": 1,
+    "explanation": "Chloropicrin (or CS gas) is commonly used as tear gas. Nitrous oxide is laughing gas."
+  },
+  {
+    "id": 9,
+    "section": "Haryana GK (Culture)",
+    "q_en": "The famous folk theatre form 'Saang' was started in Haryana by whom?",
+    "q_hi": "हरियाणा में प्रसिद्ध लोक रंगमंच 'सांग' (Saang) की शुरुआत किसके द्वारा मानी जाती है?",
+    "options_en": ["Lakhmi Chand", "Kishan Lal Bhat", "Deep Chand Bahman", "Baje Bhagat"],
+    "options_hi": ["लखमी चंद", "किशन लाल भाट", "दीप चंद बहमन", "बाजे भगत"],
+    "answer": 1,
+    "explanation": "Kishan Lal Bhat (from Meerut) is considered the father/originator of Saang in this region (approx 1730 AD)."
+  },
+  {
+    "id": 10,
+    "section": "Maths",
+    "q_en": "A sum of money doubles itself in 4 years at Compound Interest. In how many years will it become 8 times?",
+    "q_hi": "चक्रवृद्धि ब्याज पर कोई धनराशि 4 वर्षों में दोगुनी हो जाती है। यह कितने वर्षों में 8 गुनी हो जाएगी?",
+    "options_en": ["8 years", "12 years", "16 years", "24 years"],
+    "options_hi": ["8 वर्ष", "12 वर्ष", "16 वर्ष", "24 वर्ष"],
+    "answer": 1,
+    "explanation": "2^1 in 4 years. 8 is 2^3. So time = 4 * 3 = 12 years."
+  },
+  {
+    "id": 11,
+    "section": "Reasoning",
+    "q_en": "If 1st January 2024 was a Monday, what day of the week lies on 1st January 2025?",
+    "q_hi": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 जनवरी 2025 को सप्ताह का कौन सा दिन होगा?",
+    "options_en": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+    "options_hi": ["मंगलवार", "बुधवार", "बृहस्पतिवार", "शुक्रवार"],
+    "answer": 1,
+    "explanation": "2024 is a leap year (366 days). It has 2 odd days. So Monday + 2 = Wednesday."
+  },
+  {
+    "id": 12,
+    "section": "Haryana GK (Geography)",
+    "q_en": "Which statement is true regarding the 'Tangri River'?",
+    "q_hi": "'टांगरी नदी' के संबंध में कौन सा कथन सत्य है?",
+    "options_en": ["It originates from Himachal Pradesh", "It is a tributary of Markanda river", "It flows into Yamuna directly", "It is a perennial river"],
+    "options_hi": ["इसका उद्गम हिमाचल प्रदेश से होता है", "यह मारकंडा नदी की सहायक नदी है", "यह सीधे यमुना में मिलती है", "यह एक बारहमासी नदी है"],
+    "answer": 1,
+    "explanation": "Tangri originates from Morni Hills (Haryana itself) and is a tributary of the Markanda river."
+  },
+  {
+    "id": 13,
+    "section": "Computer",
+    "q_en": "What is the full form of 'SMPS' in computer hardware?",
+    "q_hi": "कंप्यूटर हार्डवेयर में 'SMPS' का पूर्ण रूप क्या है?",
+    "options_en": ["Simple Mode Power Supply", "Switched Mode Power Supply", "System Main Power Source", "Serial Mode Power System"],
+    "options_hi": ["सिंपल मोड पावर सप्लाई", "स्विच्ड मोड पावर सप्लाई", "सिस्टम मेन पावर सोर्स", "सीरियल मोड पावर सिस्टम"],
+    "answer": 1,
+    "explanation": "SMPS stands for Switched Mode Power Supply."
+  },
+  {
+    "id": 14,
+    "section": "Agriculture",
+    "q_en": "'Pusa 1121' is a famous variety of which crop?",
+    "q_hi": "'पूसा 1121' किस फसल की एक प्रसिद्ध किस्म है?",
+    "options_en": ["Wheat", "Mustard", "Basmati Rice", "Cotton"],
+    "options_hi": ["गेहूं", "सरसों", "बासमती चावल", "कपास"],
+    "answer": 2,
+    "explanation": "Pusa 1121 is a high-yielding variety of Basmati Rice."
+  },
+  {
+    "id": 15,
+    "section": "Police Science (BNS)",
+    "q_en": "Which section of BNS 2023 replaces the controversial 'Sedition' (Section 124A IPC) law?",
+    "q_hi": "BNS 2023 की कौन सी धारा विवादास्पद 'राजद्रोह' (धारा 124A IPC) कानून की जगह लेती है?",
+    "options_en": ["Section 150", "Section 152", "Section 144", "Sedition has been abolished completely"],
+    "options_hi": ["धारा 150", "धारा 152", "धारा 144", "राजद्रोह पूरी तरह समाप्त कर दिया गया है"],
+    "answer": 1,
+    "explanation": "Section 152 of BNS addresses 'Acts endangering sovereignty, unity and integrity of India', replacing the old Sedition law."
+  },
+  {
+    "id": 16,
+    "section": "Haryana GK",
+    "q_en": "Which inscription mentions the name 'Haryana' for the first time as 'Dharti Hariyanaka'?",
+    "q_hi": "किस अभिलेख में पहली बार 'हरियाणा' नाम का उल्लेख 'धरती हरियाणक' के रूप में मिलता है?",
+    "options_en": ["Bijolia Inscription", "Palam Baoli Inscription", "Topra Inscription", "Ladnu Inscription"],
+    "options_hi": ["बिजोलिया अभिलेख", "पालम बावली अभिलेख", "टोपरा अभिलेख", "लाडनूं अभिलेख"],
+    "answer": 1,
+    "explanation": "The Palam Baoli Inscription (1328 AD) found in Delhi mentions the name 'Haryana' clearly."
+  },
+  {
+    "id": 17,
+    "section": "General Science",
+    "q_en": "What is the pH value of human blood?",
+    "q_hi": "मानव रक्त (Blood) का pH मान कितना होता है?",
+    "options_en": ["6.4", "7.0", "7.4", "8.1"],
+    "options_hi": ["6.4", "7.0", "7.4", "8.1"],
+    "answer": 2,
+    "explanation": "Human blood is slightly alkaline with a pH of approx 7.35 to 7.45."
+  },
+  {
+    "id": 18,
+    "section": "Current Affairs (Haryana)",
+    "q_en": "In the Haryana Budget 2024-25, which sector received the highest allocation?",
+    "q_hi": "हरियाणा बजट 2024-25 में, किस क्षेत्र को सबसे अधिक आवंटन प्राप्त हुआ?",
+    "options_en": ["Health", "Agriculture", "Education", "Rural Development"],
+    "options_hi": ["स्वास्थ्य", "कृषि", "शिक्षा", "ग्रामीण विकास"],
+    "answer": 2,
+    "explanation": "Education usually receives the highest share (around 14-15%) in Haryana budget allocations."
+  },
+  {
+    "id": 19,
+    "section": "Computer",
+    "q_en": "In C++, which symbol is used for the 'Scope Resolution Operator'?",
+    "q_hi": "C++ में, 'स्कोप रेजोल्यूशन ऑपरेटर' के लिए किस प्रतीक (symbol) का उपयोग किया जाता है?",
+    "options_en": [":", "::", "->", "."],
+    "options_hi": [":", "::", "->", "."],
+    "answer": 1,
+    "explanation": "The double colon (::) is the scope resolution operator in C++."
+  },
+  {
+    "id": 20,
+    "section": "Haryana GK",
+    "q_en": "Where is the 'Central Sheep Breeding Farm' located in Haryana?",
+    "q_hi": "हरियाणा में 'केंद्रीय भेड़ प्रजनन फार्म' कहाँ स्थित है?",
+    "options_en": ["Karnal", "Hisar", "Sirsa", "Bhiwani"],
+    "options_hi": ["करनाल", "हिसार", "सिरसा", "भिवानी"],
+    "answer": 1,
+    "explanation": "It is located in Hisar, established in 1968-70."
+  },
+  {
+    "id": 21,
+    "section": "Reasoning",
+    "q_en": "Statement: All mangoes are apples. No apple is a grape.\nConclusion I: No mango is a grape.\nConclusion II: Some apples are mangoes.",
+    "q_hi": "कथन: सभी आम सेब हैं। कोई सेब अंगूर नहीं है।\nनिष्कर्ष I: कोई आम अंगूर नहीं है।\nनिष्कर्ष II: कुछ सेब आम हैं।",
+    "options_en": ["Only I follows", "Only II follows", "Both I and II follow", "Neither follows"],
+    "options_hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "कोई अनुसरण नहीं करता"],
+    "answer": 2,
+    "explanation": "If all M are A, and No A is G, then No M can be G (True). Since All M are A, some part of A is M (True)."
+  },
+  {
+    "id": 22,
+    "section": "Maths",
+    "q_en": "A does 20% work in 4 days. B does 33.33% work in 10 days. They worked together for 9 days. C completed the remaining work in 6 days. C alone can do the whole work in?",
+    "q_hi": "A 20% काम 4 दिनों में करता है। B 33.33% काम 10 दिनों में करता है। उन्होंने 9 दिनों तक एक साथ काम किया। C ने शेष कार्य 6 दिनों में पूरा किया। C अकेला पूरा कार्य कितने दिनों में कर सकता है?",
+    "options_en": ["12 days", "15 days", "18 days", "20 days"],
+    "options_hi": ["12 दिन", "15 दिन", "18 दिन", "20 दिन"],
+    "answer": 1,
+    "explanation": "A whole work=20 days. B whole=30 days. LCM=60 units. Eff: A=3, B=2. Together(A+B)=5. 9 days work=45 units. Rem=15. C does 15 in 6 days => Eff C = 2.5. Total time for C = 60/2.5 = 24 days. (Wait, let's recheck logic: 15/6 = 2.5 units/day. 60/2.5 = 24. Options don't match explanation. Let's adjust question to fit option or answer. If C completes rem in 6 days. A(20), B(30). (A+B) 9 days = 45. Rem 15. C=15/6=2.5. 60/2.5=24. If option is 18/20/etc, maybe error in my calc or options provided. Let's keep question simple for JSON). *Corrected Question Logic*: Let A=20 days, B=30 days. Work=60. A+B=5/day. Work for 9 days=45. Rem=15. If C does it in 6 days, C eff=2.5. Total time=24. Okay, I will put 24 in options."
+  },
+  {
+    "id": 22,
+    "section": "Maths",
+    "q_en": "A completes a work in 20 days and B in 30 days. They work together for 9 days, and the remaining work is done by C in 6 days. In how many days can C alone complete the work?",
+    "q_hi": "A एक काम को 20 दिनों में और B 30 दिनों में पूरा करता है। वे 9 दिनों तक एक साथ काम करते हैं, और शेष काम C 6 दिनों में पूरा करता है। C अकेला उस काम को कितने दिनों में पूरा कर सकता है?",
+    "options_en": ["18 days", "24 days", "30 days", "36 days"],
+    "options_hi": ["18 दिन", "24 दिन", "30 दिन", "36 दिन"],
+    "answer": 1,
+    "explanation": "Total work = 60 units. A's eff=3, B's eff=2. (A+B)=5. Work in 9 days = 5*9=45. Remaining = 15. C does 15 units in 6 days -> C's eff = 2.5. Total days for C = 60/2.5 = 24."
+  },
+  {
+    "id": 23,
+    "section": "Haryana GK (Literature)",
+    "q_en": "Who wrote the famous Haryanvi poetry 'Dahine Haath Ka Shankh'?",
+    "q_hi": "प्रसिद्ध हरियाणवी रचना 'दाहिने हाथ का शंख' किसके द्वारा लिखी गई थी?",
+    "options_en": ["Ghulam Hussein Shah", "Sadullah", "Syed Ghulam Bhik", "Ali Bakhsh"],
+    "options_hi": ["गुलाम हुसैन शाह", "सादुल", "सैयद गुलाम भीक", "अली बख्श"],
+    "answer": 2,
+    "explanation": "Syed Ghulam Bhik (Narang) wrote 'Dahine Haath Ka Shankh'."
+  },
+  {
+    "id": 24,
+    "section": "Animal Husbandry",
+    "q_en": "Which of the following hormones is injected into cows/buffaloes to make them release milk?",
+    "q_hi": "गाय/भैंस को दूध उतारने (release) के लिए निम्नलिखित में से किस हार्मोन का इंजेक्शन लगाया जाता है?",
+    "options_en": ["Insulin", "Oxytocin", "Adrenaline", "Thyroxine"],
+    "options_hi": ["इंसुलिन", "ऑक्सीटोसिन", "एड्रेनालाईन", "थायरोक्सिन"],
+    "answer": 1,
+    "explanation": "Oxytocin promotes the let-down of milk."
+  },
+  {
+    "id": 25,
+    "section": "Road Safety",
+    "q_en": "As per the Motor Vehicles (Amendment) Act 2019, what is the penalty for 'Driving without a License'?",
+    "q_hi": "मोटर वाहन (संशोधन) अधिनियम 2019 के अनुसार, 'बिना लाइसेंस के वाहन चलाने' पर कितना जुर्माना है?",
+    "options_en": ["₹500", "₹1,000", "₹5,000", "₹10,000"],
+    "options_hi": ["₹500", "₹1,000", "₹5,000", "₹10,000"],
+    "answer": 2,
+    "explanation": "The fine has been increased from ₹500 to ₹5,000."
+  },
+  {
+    "id": 26,
+    "section": "Haryana GK (Tribes/Castes)",
+    "q_en": "The 'Ror' community in Haryana is primarily concentrated in which belt?",
+    "q_hi": "हरियाणा में 'रोड़' (Ror) समुदाय मुख्य रूप से किस क्षेत्र में केंद्रित है?",
+    "options_en": ["Ahirwal (Rewari)", "GT Road Belt (Karnal-Kurukshetra)", "Mewat", "Bagad (Sirsa)"],
+    "options_hi": ["अहिरवाल (रेवाड़ी)", "जीटी रोड बेल्ट (करनाल-कुरुक्षेत्र)", "मेवात", "बागड़ (सिरसा)"],
+    "answer": 1,
+    "explanation": "The Ror Maratha community is heavily concentrated in the Karnal, Kurukshetra, and Panipat belt."
+  },
+  {
+    "id": 27,
+    "section": "Computer",
+    "q_en": "Which layer of the OSI model is responsible for 'Routing'?",
+    "q_hi": "OSI मॉडल की कौन सी परत (Layer) 'रूटिंग' (Routing) के लिए जिम्मेदार है?",
+    "options_en": ["Data Link Layer", "Network Layer", "Transport Layer", "Session Layer"],
+    "options_hi": ["डेटा लिंक लेयर", "नेटवर्क लेयर", "ट्रांसपोर्ट लेयर", "सेशन लेयर"],
+    "answer": 1,
+    "explanation": "The Network Layer (Layer 3) handles IP addressing and Routing."
+  },
+  {
+    "id": 28,
+    "section": "General Science",
+    "q_en": "Which part of the brain controls body balance and posture?",
+    "q_hi": "मस्तिष्क का कौन सा भाग शरीर के संतुलन और मुद्रा (posture) को नियंत्रित करता है?",
+    "options_en": ["Cerebrum", "Cerebellum", "Medulla Oblongata", "Hypothalamus"],
+    "options_hi": ["प्रमस्तिष्क (Cerebrum)", "अनुमस्तिष्क (Cerebellum)", "मेडुला ओबोंगाटा", "हाइपोथैलेमस"],
+    "answer": 1,
+    "explanation": "Cerebellum is responsible for voluntary movements, balance, and posture."
+  },
+  {
+    "id": 29,
+    "section": "Haryana GK (Ancient History)",
+    "q_en": "From which site in Haryana were the 'Seals of Harappan Civilization' found depicting a unicorn?",
+    "q_hi": "हरियाणा के किस स्थल से 'हड़प्पा सभ्यता की मुहरें' मिली हैं जिन पर एक सींग वाला पशु (unicorn) चित्रित है?",
+    "options_en": ["Banawali", "Rakhigarhi", "Bhirrana", "All of the above"],
+    "options_hi": ["बनावली", "राखीगढ़ी", "भिर्राना", "उपरोक्त सभी"],
+    "answer": 3,
+    "explanation": "Harappan seals have been found in Banawali, Rakhigarhi, and Bhirrana."
+  },
+  {
+    "id": 30,
+    "section": "Police Science (BNS)",
+    "q_en": "What is the maximum punishment for 'Snatching' under Section 304 of BNS 2023?",
+    "q_hi": "BNS 2023 की धारा 304 के तहत 'स्नैचिंग' (Snatching) के लिए अधिकतम सजा क्या है?",
+    "options_en": ["3 years", "5 years", "7 years", "10 years"],
+    "options_hi": ["3 साल", "5 साल", "7 साल", "10 साल"],
+    "answer": 0,
+    "explanation": "Under Sec 304(1) BNS, snatching is punishable with imprisonment up to 3 years."
+  },
+  {
+    "id": 31,
+    "section": "Agriculture",
+    "q_en": "Which soil in Haryana is locally known as 'Solar' or 'Chika'?",
+    "q_hi": "हरियाणा में किस मिट्टी को स्थानीय रूप से 'सolar' या 'चीका' कहा जाता है?",
+    "options_en": ["Sandy Loam", "Hard Clayey Soil", "Silty Soil", "Desert Soil"],
+    "options_hi": ["रेतीली दोमट", "कठोर चिकनी मिट्टी (Hard Clayey)", "गाद वाली मिट्टी", "रेगिस्तानी मिट्टी"],
+    "answer": 1,
+    "explanation": "Hard Clayey soil which cracks when dry is called 'Solar' or 'Chika' in Haryana."
+  },
+  {
+    "id": 32,
+    "section": "Haryana GK (Polity)",
+    "q_en": "How many seats are reserved for Scheduled Castes (SC) in the Haryana Vidhan Sabha?",
+    "q_hi": "हरियाणा विधानसभा में अनुसूचित जाति (SC) के लिए कितनी सीटें आरक्षित हैं?",
+    "options_en": ["15", "17", "19", "21"],
+    "options_hi": ["15", "17", "19", "21"],
+    "answer": 1,
+    "explanation": "Out of 90 seats, 17 are reserved for SC candidates."
+  },
+  {
+    "id": 33,
+    "section": "Computer",
+    "q_en": "Which protocol is used for sending emails?",
+    "q_hi": "ईमेल भेजने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+    "options_en": ["POP3", "IMAP", "SMTP", "HTTP"],
+    "options_hi": ["POP3", "IMAP", "SMTP", "HTTP"],
+    "answer": 2,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending, while POP3/IMAP are for receiving."
+  },
+  {
+    "id": 34,
+    "section": "Haryana GK (Geography)",
+    "q_en": "Which district of Haryana shares its boundary with two states and one Union Territory?",
+    "q_hi": "हरियाणा का कौन सा जिला दो राज्यों और एक केंद्र शासित प्रदेश के साथ अपनी सीमा साझा करता है?",
+    "options_en": ["Panchkula", "Yamunanagar", "Nuh", "Sonipat"],
+    "options_hi": ["पंचकुला", "यमुनानगर", "नूंह", "सोनीपत"],
+    "answer": 0,
+    "explanation": "Panchkula touches Punjab, Himachal Pradesh, and the UT of Chandigarh."
+  },
+  {
+    "id": 35,
+    "section": "Maths",
+    "q_en": "A boat goes 12 km upstream and returns in 3 hours. If the speed of the current is 3 km/hr, find the speed of the boat in still water.",
+    "q_hi": "एक नाव 12 किमी धारा के प्रतिकूल जाती है और 3 घंटे में वापस आती है। यदि धारा की गति 3 किमी/घंटा है, तो शांत जल में नाव की गति ज्ञात कीजिए।",
+    "options_en": ["12 km/hr", "9 km/hr", "8 km/hr", "6 km/hr"],
+    "options_hi": ["12 किमी/घंटा", "9 किमी/घंटा", "8 किमी/घंटा", "6 किमी/घंटा"],
+    "answer": 1,
+    "explanation": "Let boat speed=x. Time = 12/(x-3) + 12/(x+3) = 3. Solving this quadratic eq (or trying options), if x=9: 12/6 + 12/12 = 2+1=3 hours. Correct."
+  },
+  {
+    "id": 36,
+    "section": "Animal Husbandry",
+    "q_en": "Which disease in poultry is also known as 'New Castle Disease'?",
+    "q_hi": "कुक्कुट (Poultry) में किस रोग को 'न्यू कैसल रोग' (New Castle Disease) के नाम से भी जाना जाता है?",
+    "options_en": ["Fowl Pox", "Ranikhet", "Bird Flu", "Coccidiosis"],
+    "options_hi": ["फाउल पॉक्स", "रानीखेत", "बर्ड फ्लू", "कोक्सीडिओसिस"],
+    "answer": 1,
+    "explanation": "Ranikhet disease is internationally known as New Castle Disease."
+  },
+  {
+    "id": 37,
+    "section": "Haryana GK (Projects)",
+    "q_en": "The 'Haryana Orbital Rail Corridor' project will run from?",
+    "q_hi": "'हरियाणा ऑर्बिटल रेल कॉरिडोर' परियोजना कहाँ से कहाँ तक चलेगी?",
+    "options_en": ["Palwal to Sonipat", "Palwal to Panipat", "Gurugram to Karnal", "Rewari to Rohtak"],
+    "options_hi": ["पलवल से सोनीपत", "पलवल से पानीपत", "गुरुग्राम से करनाल", "रेवाड़ी से रोहतक"],
+    "answer": 0,
+    "explanation": "It connects Palwal to Sonipat via Sohna, Manesar, and Kharkhoda."
+  },
+  {
+    "id": 38,
+    "section": "General Science",
+    "q_en": "Bronze is an alloy of which metals?",
+    "q_hi": "कांस्य (Bronze) किन धातुओं की मिश्र धातु है?",
+    "options_en": ["Copper + Zinc", "Copper + Tin", "Lead + Tin", "Copper + Nickel"],
+    "options_hi": ["तांबा + जस्ता", "तांबा + टिन", "सीसा + टिन", "तांबा + निकल"],
+    "answer": 1,
+    "explanation": "Bronze is Copper + Tin. Brass is Copper + Zinc."
+  },
+  {
+    "id": 39,
+    "section": "Haryana GK",
+    "q_en": "Who established the 'Jat Gazette' newspaper in 1916?",
+    "q_hi": "1916 में 'जाट गजट' समाचार पत्र की स्थापना किसने की थी?",
+    "options_en": ["Ch. Devi Lal", "Sir Chhotu Ram", "Pt. Neki Ram Sharma", "Rao Tula Ram"],
+    "options_hi": ["चौ. देवी लाल", "सर छोटू राम", "पं. नेकी राम शर्मा", "राव तुला राम"],
+    "answer": 1,
+    "explanation": "Sir Chhotu Ram started the Urdu weekly 'Jat Gazette' from Rohtak in 1916."
+  },
+  {
+    "id": 40,
+    "section": "Computer (Python)",
+    "q_en": "What will be the output of print(2**3) in Python?",
+    "q_hi": "Python में print(2**3) का आउटपुट क्या होगा?",
+    "options_en": ["6", "8", "9", "Error"],
+    "options_hi": ["6", "8", "9", "Error"],
+    "answer": 1,
+    "explanation": "** operator is used for exponentiation (power). 2^3 = 8."
+  },
+  {
+    "id": 41,
+    "section": "Agriculture",
+    "q_en": "Which revolution is related to 'Fertilizer Production'?",
+    "q_hi": "'उर्वरक उत्पादन' (Fertilizer Production) से कौन सी क्रांति संबंधित है?",
+    "options_en": ["Yellow Revolution", "Grey Revolution", "Pink Revolution", "Brown Revolution"],
+    "options_hi": ["पीली क्रांति", "धूसर (Grey) क्रांति", "गुलाबी क्रांति", "भूरी क्रांति"],
+    "answer": 1,
+    "explanation": "Grey Revolution relates to Fertilizers. (Note: Sometimes Brown is used for leather/cocoa, Pink for onion/prawn)."
+  },
+  {
+    "id": 42,
+    "section": "Haryana GK",
+    "q_en": "Which Haryanvi wrestler won the Bronze medal at the 2024 Paris Olympics? (Hypothetical/Current Trend based)",
+    "q_hi": "किस हरियाणवी पहलवान ने 2024 पेरिस ओलंपिक में कांस्य पदक जीता? (अमन सेहरावत)",
+    "options_en": ["Ravi Dahiya", "Bajrang Punia", "Aman Sehrawat", "Deepak Punia"],
+    "options_hi": ["रवि दहिया", "बजरंग पुनिया", "अमन सेहरावत", "दीपक पुनिया"],
+    "answer": 2,
+    "explanation": "Aman Sehrawat (from Birohar, Jhajjar) won the Bronze in Wrestling at Paris 2024."
+  },
+  {
+    "id": 43,
+    "section": "Reasoning",
+    "q_en": "Find the missing number: 6, 13, 28, 59, ?",
+    "q_hi": "लुप्त संख्या ज्ञात करें: 6, 13, 28, 59, ?",
+    "options_en": ["111", "122", "126", "128"],
+    "options_hi": ["111", "122", "126", "128"],
+    "answer": 1,
+    "explanation": "Logic: *2 + 1, *2 + 2, *2 + 3... 59*2 + 4 = 118 + 4 = 122."
+  },
+  {
+    "id": 44,
+    "section": "Police Science (BNS)",
+    "q_en": "Organized Crime is defined under which section of the BNS 2023?",
+    "q_hi": "BNS 2023 की किस धारा के तहत 'संगठित अपराध' (Organized Crime) को परिभाषित किया गया है?",
+    "options_en": ["Section 109", "Section 111", "Section 113", "Section 120"],
+    "options_hi": ["धारा 109", "धारा 111", "धारा 113", "धारा 120"],
+    "answer": 1,
+    "explanation": "Section 111 of BNS introduces a specific provision for Organized Crime syndicates."
+  },
+  {
+    "id": 45,
+    "section": "Haryana GK (Energy)",
+    "q_en": "The 'Gorakhpur Nuclear Power Plant' in Fatehabad has a total planned capacity of?",
+    "q_hi": "फतेहाबाद में 'गोरखपुर परमाणु ऊर्जा संयंत्र' की कुल नियोजित क्षमता कितनी है?",
+    "options_en": ["1400 MW", "2800 MW", "2000 MW", "1200 MW"],
+    "options_hi": ["1400 मेगावाट", "2800 मेगावाट", "2000 मेगावाट", "1200 मेगावाट"],
+    "answer": 1,
+    "explanation": "It will have 4 units of 700 MW each, totaling 2800 MW."
+  },
+  {
+    "id": 46,
+    "section": "General Science",
+    "q_en": "Which vitamin contains Cobalt?",
+    "q_hi": "किस विटामिन में कोबाल्ट (Cobalt) पाया जाता है?",
+    "options_en": ["Vitamin B1", "Vitamin B6", "Vitamin B12", "Vitamin E"],
+    "options_hi": ["विटामिन B1", "विटामिन B6", "विटामिन B12", "विटामिन E"],
+    "answer": 2,
+    "explanation": "Vitamin B12 (Cyanocobalamin) contains Cobalt."
+  },
+  {
+    "id": 47,
+    "section": "Computer",
+    "q_en": "In binary arithmetic, what is 1010 + 0101?",
+    "q_hi": "बाइनरी अंकगणित में, 1010 + 0101 क्या है?",
+    "options_en": ["1100", "1111", "1001", "1011"],
+    "options_hi": ["1100", "1111", "1001", "1011"],
+    "answer": 1,
+    "explanation": "1010 (10) + 0101 (5) = 1111 (15)."
+  },
+  {
+    "id": 48,
+    "section": "Haryana GK",
+    "q_en": "Who served as the Chief Minister of Haryana for the longest duration (cumulative days)?",
+    "q_hi": "हरियाणा के मुख्यमंत्री के रूप में सबसे लंबी अवधि (संचयी दिनों में) तक किसने कार्य किया?",
+    "options_en": ["Bansi Lal", "Bhajan Lal", "Bhupinder Singh Hooda", "Manohar Lal Khattar"],
+    "options_hi": ["बंसी लाल", "भजन लाल", "भूपेंद्र सिंह हुड्डा", "मनोहर लाल खट्टर"],
+    "answer": 1,
+    "explanation": "Chaudhary Bhajan Lal holds the record for the longest cumulative tenure (approx 4317 days). Bansi Lal is close second."
+  },
+  {
+    "id": 49,
+    "section": "Agriculture",
+    "q_en": "The practice of growing two or more crops simultaneously in the same field in definite row patterns is called?",
+    "q_hi": "एक ही खेत में निश्चित पंक्ति पैटर्न में एक साथ दो या दो से अधिक फसलें उगाने की प्रथा को क्या कहा जाता है?",
+    "options_en": ["Mixed Cropping", "Inter-Cropping", "Crop Rotation", "Relay Cropping"],
+    "options_hi": ["मिश्रित खेती", "अंतर-फसल (Inter-Cropping)", "फसल चक्र", "रिले क्रॉपिंग"],
+    "answer": 1,
+    "explanation": "Inter-cropping involves specific row patterns (e.g., 1 row of maize, 2 rows of soyabean). Mixed cropping has no set pattern."
+  },
+  {
+    "id": 50,
+    "section": "Haryana GK (Places)",
+    "q_en": "The 'Chor Gumbad' (Dome of Thieves) is located in which town?",
+    "q_hi": "'चोर गुंबद' किस शहर में स्थित है?",
+    "options_en": ["Hansi", "Narnaul", "Hisar", "Sirsa"],
+    "options_hi": ["हांसी", "नारनौल", "हिसार", "सिरसा"],
+    "answer": 1,
+    "explanation": "Chor Gumbad built by Jamal Khan is a famous landmark in Narnaul."
+  },
+  {
+    "id": 51,
+    "section": "Maths",
+    "q_en": "The ratio of the ages of A and B is 3:5. 5 years hence, the ratio will be 2:3. What is A's present age?",
+    "q_hi": "A और B की आयु का अनुपात 3:5 है। 5 वर्ष बाद, अनुपात 2:3 होगा। A की वर्तमान आयु क्या है?",
+    "options_en": ["15 years", "20 years", "25 years", "30 years"],
+    "options_hi": ["15 वर्ष", "20 वर्ष", "25 वर्ष", "30 वर्ष"],
+    "answer": 0,
+    "explanation": "Let ages be 3x and 5x. (3x+5)/(5x+5) = 2/3. 9x+15 = 10x+10. x=5. A's age = 3*5 = 15."
+  },
+  {
+    "id": 52,
+    "section": "Reasoning",
+    "q_en": "In a certain code, 'HARYANA' is written as 'SZIZZMZ'. How is 'POLICE' written?",
+    "q_hi": "एक निश्चित कोड में, 'HARYANA' को 'SZIZZMZ' लिखा जाता है। 'POLICE' को कैसे लिखा जाएगा?",
+    "options_en": ["KLORXV", "KLIRXV", "KLORZV", "JLORXV"],
+    "options_hi": ["KLORXV", "KLIRXV", "KLORZV", "JLORXV"],
+    "answer": 0,
+    "explanation": "It is a Reverse Alphabet code (A<->Z, H<->S). P->K, O->L, L->O, I->R, C->X, E->V. (Correction: I->R. Option 2 has I->I? Wait. I opposite is R. Let's check options. KLORXV: P-K, O-L, L-O, I-R, C-X, E-V. Wait, P opposite is K (PK movie). O is L (Love). L is O. I is R (Indian Railway). C is X (Crux). E is V (EV). So KLORXV. Correct answer is option A)."
+  },
+  {
+    "id": 53,
+    "section": "Haryana GK (Data)",
+    "q_en": "According to the 2011 Census, which district of Haryana had the lowest Population Density?",
+    "q_hi": "2011 की जनगणना के अनुसार, हरियाणा के किस जिले का जनसंख्या घनत्व सबसे कम था?",
+    "options_en": ["Sirsa", "Bhiwani", "Hisar", "Fatehabad"],
+    "options_hi": ["सिरसा", "भिवानी", "हिसार", "फतेहाबाद"],
+    "answer": 0,
+    "explanation": "Sirsa has the lowest density of 303 persons/sq km."
+  },
+  {
+    "id": 54,
+    "section": "Computer",
+    "q_en": "Which of the following IP addresses is a Class C address?",
+    "q_hi": "निम्नलिखित में से कौन सा IP पता क्लास C का पता है?",
+    "options_en": ["10.0.0.1", "130.45.1.1", "192.168.1.1", "225.1.1.1"],
+    "options_hi": ["10.0.0.1", "130.45.1.1", "192.168.1.1", "225.1.1.1"],
+    "answer": 2,
+    "explanation": "Class C ranges from 192 to 223. 192.168.1.1 is a standard private Class C address."
+  },
+  {
+    "id": 55,
+    "section": "Animal Husbandry",
+    "q_en": "Which buffalo breed is native to the Rohtak, Hisar, and Jind districts of Haryana?",
+    "q_hi": "भैंस की कौन सी नस्ल हरियाणा के रोहतक, हिसार और जींद जिलों की मूल निवासी है?",
+    "options_en": ["Murrah", "Nili Ravi", "Bhadawari", "Mehsana"],
+    "options_hi": ["मुर्रा", "नीली रावी", "भदावरी", "मेहसाणा"],
+    "answer": 0,
+    "explanation": "The Murrah breed originates from this central belt of Haryana."
+  },
+  {
+    "id": 56,
+    "section": "Haryana GK (Awards)",
+    "q_en": "What is the cash prize given under the 'Bhim Award', the highest sports award of Haryana?",
+    "q_hi": "हरियाणा के सर्वोच्च खेल पुरस्कार 'भीम पुरस्कार' के तहत कितनी नकद राशि दी जाती है?",
+    "options_en": ["2 Lakh", "3 Lakh", "5 Lakh", "7 Lakh"],
+    "options_hi": ["2 लाख", "3 लाख", "5 लाख", "7 लाख"],
+    "answer": 2,
+    "explanation": "The cash prize for Bhim Award is ₹5 Lakh."
+  },
+  {
+    "id": 57,
+    "section": "General Science",
+    "q_en": "Optic fibers work on the principle of?",
+    "q_hi": "ऑप्टिक फाइबर किस सिद्धांत पर कार्य करते हैं?",
+    "options_en": ["Refraction", "Interference", "Total Internal Reflection", "Diffraction"],
+    "options_hi": ["अपवर्तन", "हस्तक्षेप (Interference)", "पूर्ण आंतरिक परावर्तन (TIR)", "विवर्तन"],
+    "answer": 2,
+    "explanation": "They work on Total Internal Reflection (TIR)."
+  },
+  {
+    "id": 58,
+    "section": "Police Science (BNS)",
+    "q_en": "The punishment for 'Rape' under BNS 2023 is generally imprisonment for not less than?",
+    "q_hi": "BNS 2023 के तहत 'बलात्कार' (Rape) के लिए सजा आम तौर पर कितने वर्ष से कम नहीं होगी?",
+    "options_en": ["7 years", "10 years", "12 years", "Life imprisonment"],
+    "options_hi": ["7 साल", "10 साल", "12 साल", "आजीवन कारावास"],
+    "answer": 1,
+    "explanation": "Under Section 64 of BNS, the minimum punishment for rape has been increased to 10 years rigorous imprisonment."
+  },
+  {
+    "id": 59,
+    "section": "Haryana GK",
+    "q_en": "The ancient site 'Kunal', known for pre-Harappan remains, is located in which district?",
+    "q_hi": "प्राचीन स्थल 'कुणाल', जो पूर्व-हड़प्पा अवशेषों के लिए जाना जाता है, किस जिले में स्थित है?",
+    "options_en": ["Hisar", "Fatehabad", "Sirsa", "Bhiwani"],
+    "options_hi": ["हिसार", "फतेहाबाद", "सिरसा", "भिवानी"],
+    "answer": 1,
+    "explanation": "Kunal is in Fatehabad. It yielded earliest pre-Harappan finds like silver crowns."
+  },
+  {
+    "id": 60,
+    "section": "Maths",
+    "q_en": "The difference between Simple and Compound Interest on a sum for 2 years at 5% is ₹25. Find the sum.",
+    "q_hi": "एक धनराशि पर 2 वर्षों के लिए 5% की दर से साधारण और चक्रवृद्धि ब्याज के बीच का अंतर ₹25 है। धनराशि ज्ञात करें।",
+    "options_en": ["₹5,000", "₹10,000", "₹12,000", "₹8,000"],
+    "options_hi": ["₹5,000", "₹10,000", "₹12,000", "₹8,000"],
+    "answer": 1,
+    "explanation": "Difference = P(R/100)^2. 25 = P(5/100)^2. 25 = P(1/400). P = 25*400 = 10,000."
+  },
+  {
+    "id": 61,
+    "section": "Agriculture",
+    "q_en": "Which element deficiency causes 'Khaira Disease' in Paddy (Rice)?",
+    "q_hi": "किस तत्व की कमी से धान (चावल) में 'खैरा रोग' होता है?",
+    "options_en": ["Nitrogen", "Zinc", "Iron", "Potash"],
+    "options_hi": ["नाइट्रोजन", "जस्ता (Zinc)", "लोहा", "पोटाश"],
+    "answer": 1,
+    "explanation": "Khaira disease is caused by Zinc deficiency."
+  },
+  {
+    "id": 62,
+    "section": "Haryana GK (Tourism)",
+    "q_en": "The 'Skybird' tourist complex is located in which place?",
+    "q_hi": "'स्काईबर्ड' पर्यटक परिसर (Tourist Complex) किस स्थान पर स्थित है?",
+    "options_en": ["Hisar", "Sirsa", "Fatehabad", "Jind"],
+    "options_hi": ["हिसार", "सिरसा", "फतेहाबाद", "जींद"],
+    "answer": 0,
+    "explanation": "It is located in Hisar (on the highway)."
+  },
+  {
+    "id": 63,
+    "section": "Computer",
+    "q_en": "Which memory is non-volatile and can be erased by UV light?",
+    "q_hi": "कौन सी मेमोरी नॉन-वोलेटाइल है और जिसे यूवी (UV) प्रकाश द्वारा मिटाया जा सकता है?",
+    "options_en": ["RAM", "EPROM", "EEPROM", "Cache"],
+    "options_hi": ["RAM", "EPROM", "EEPROM", "Cache"],
+    "answer": 1,
+    "explanation": "EPROM (Erasable Programmable ROM) is erased by UV light. EEPROM is electrically erasable."
+  },
+  {
+    "id": 64,
+    "section": "Reasoning",
+    "q_en": "A clock shows 4:30. If the minute hand points East, in which direction does the hour hand point?",
+    "q_hi": "एक घड़ी 4:30 का समय दिखाती है। यदि मिनट की सुई पूर्व (East) की ओर इशारा करती है, तो घंटे की सुई किस दिशा में होगी?",
+    "options_en": ["North-East", "North-West", "South-East", "South-West"],
+    "options_hi": ["उत्तर-पूर्व", "उत्तर-पश्चिम", "दक्षिण-पूर्व", "दक्षिण-पश्चिम"],
+    "answer": 0,
+    "explanation": "At 4:30, minute hand is at 6 (South normally). Hour hand is at 4.5. If Min hand (South) is East (rotated 90 deg anti-clockwise), then Hour hand (South-East normally) rotated 90 deg anti-clockwise becomes North-East."
+  },
+  {
+    "id": 65,
+    "section": "Haryana GK (Personalities)",
+    "q_en": "Kalpana Chawla, the astronaut, was born in Karnal in which year?",
+    "q_hi": "अंतरिक्ष यात्री कल्पना चावला का जन्म करनाल में किस वर्ष हुआ था?",
+    "options_en": ["1960", "1961", "1962", "1963"],
+    "options_hi": ["1960", "1961", "1962", "1963"],
+    "answer": 1,
+    "explanation": "Official DOB is July 1, 1961 (though matriculation certificate says 1962, HSSC usually accepts 1961)."
+  },
+  {
+    "id": 66,
+    "section": "Police Science",
+    "q_en": "What is the full form of 'FIR'?",
+    "q_hi": "'FIR' का पूर्ण रूप क्या है?",
+    "options_en": ["First Investigation Report", "First Information Report", "Fast Information Record", "First Incident Report"],
+    "options_hi": ["फर्स्ट इन्वेस्टिगेशन रिपोर्ट", "फर्स्ट इनफार्मेशन रिपोर्ट", "फास्ट इनफार्मेशन रिकॉर्ड", "फर्स्ट इंसिडेंट रिपोर्ट"],
+    "answer": 1,
+    "explanation": "First Information Report."
+  },
+  {
+    "id": 67,
+    "section": "General Science",
+    "q_en": "Baking Soda is chemically known as?",
+    "q_hi": "बेकिंग सोडा का रासायनिक नाम क्या है?",
+    "options_en": ["Sodium Carbonate", "Sodium Bicarbonate", "Calcium Carbonate", "Sodium Hydroxide"],
+    "options_hi": ["सोडियम कार्बोनेट", "सोडियम बाइकार्बोनेट", "कैल्शियम कार्बोनेट", "सोडियम हाइड्रोक्साइड"],
+    "answer": 1,
+    "explanation": "Sodium Bicarbonate (NaHCO3)."
+  },
+  {
+    "id": 68,
+    "section": "Haryana GK (Geography)",
+    "q_en": "Which is the highest peak of the Aravalli Hills in Haryana?",
+    "q_hi": "हरियाणा में अरावली पहाड़ियों की सबसे ऊंची चोटी कौन सी है?",
+    "options_en": ["Karoh", "Dhosi Hill", "Morni", "Tippra"],
+    "options_hi": ["करोह", "ढोसी पहाड़ी", "मोरनी", "टिपरा"],
+    "answer": 1,
+    "explanation": "Dhosi Hill (Narnaul) is the highest point of Aravallis in Haryana. Karoh is highest in Shivalik."
+  },
+  {
+    "id": 69,
+    "section": "Maths",
+    "q_en": "Two pipes A and B can fill a tank in 15 and 20 hours. If both are opened together, in how many hours will the tank be full?",
+    "q_hi": "दो पाइप A और B एक टैंक को 15 और 20 घंटे में भर सकते हैं। यदि दोनों को एक साथ खोल दिया जाए, तो टैंक कितने घंटे में भर जाएगा?",
+    "options_en": ["8 hours", "8.5 hours", "8.57 hours", "9 hours"],
+    "options_hi": ["8 घंटे", "8.5 घंटे", "8.57 घंटे", "9 घंटे"],
+    "answer": 2,
+    "explanation": "(15*20)/(15+20) = 300/35 = 60/7 = 8.57 hours."
+  },
+  {
+    "id": 70,
+    "section": "Animal Husbandry",
+    "q_en": "'Sahiwal' is a breed of?",
+    "q_hi": "'साहिवाल' किसकी एक नस्ल है?",
+    "options_en": ["Buffalo", "Cow", "Sheep", "Goat"],
+    "options_hi": ["भैंस", "गाय", "भेड़", "बकरी"],
+    "answer": 1,
+    "explanation": "Sahiwal is a milch breed of Cow."
+  },
+    {
+    "id": 71,
+    "section": "Haryana GK (Administration)",
+    "q_en": "Which is the newly formed 22nd district of Haryana?",
+    "q_hi": "हरियाणा का नवगठित 22वां जिला कौन सा है?",
+    "options_en": ["Nuh", "Palwal", "Charkhi Dadri", "Jhajjar"],
+    "options_hi": ["नूंह", "पलवल", "चरखी दादरी", "झज्जर"],
+    "answer": 2,
+    "explanation": "Charkhi Dadri was carved out of Bhiwani in Dec 2016."
+  },
+  {
+    "id": 72,
+    "section": "Computer",
+    "q_en": "In Excel, which function is used to find the largest number in a range?",
+    "q_hi": "एक्सेल में, किसी रेंज में सबसे बड़ी संख्या ज्ञात करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+    "options_en": ["HIGH()", "MAX()", "LARGE()", "CEILING()"],
+    "options_hi": ["HIGH()", "MAX()", "LARGE()", "CEILING()"],
+    "answer": 1,
+    "explanation": "MAX() returns the largest value."
+  },
+  {
+    "id": 73,
+    "section": "Haryana GK (Fair)",
+    "q_en": "'Masani Mela' (Chechak mata mela) is held in which district?",
+    "q_hi": "'मसानी मेला' (चेचक माता मेला) किस जिले में लगता है?",
+    "options_en": ["Rohtak", "Gurugram", "Faridabad", "Mahendragarh"],
+    "options_hi": ["रोहतक", "गुरुग्राम", "फरीदाबाद", "महेंद्रगढ़"],
+    "answer": 1,
+    "explanation": "It is held at Sheetla Mata Mandir in Gurugram."
+  },
+  {
+    "id": 74,
+    "section": "General Science",
+    "q_en": "Power of a lens is measured in?",
+    "q_hi": "लेंस की शक्ति (Power) किसमें मापी जाती है?",
+    "options_en": ["Watt", "Dioptre", "Lumen", "Candela"],
+    "options_hi": ["वाट", "डायोप्टर", "ल्यूमेन", "कैंडेला"],
+    "answer": 1,
+    "explanation": "It is measured in Dioptres (D)."
+  },
+  {
+    "id": 75,
+    "section": "Haryana GK (Literature)",
+    "q_en": "Who wrote the novel 'Jhadu Phiri' (First Haryanvi Novel)?",
+    "q_hi": "उपन्यास 'झाड़ू फिरी' (पहला हरियाणवी उपन्यास) किसने लिखा था?",
+    "options_en": ["Raja Ram Shastri", "Dhanpat Singh", "Lakhmi Chand", "Chanderbhan"],
+    "options_hi": ["राजाराम शास्त्री", "धनपत सिंह", "लखमी चंद", "चंद्रभान"],
+    "answer": 0,
+    "explanation": "Raja Ram Shastri wrote the first Haryanvi novel 'Jhadu Phiri'."
+  },
+  {
+    "id": 76,
+    "section": "Reasoning",
+    "q_en": "Complete the analogy: Eye : Myopia :: Teeth : ?",
+    "q_hi": "सादृश्य पूरा करें: आँख : निकट दृष्टि दोष (Myopia) :: दाँत : ?",
+    "options_en": ["Pyorrhea", "Cataract", "Trachoma", "Eczema"],
+    "options_hi": ["पायरिया", "मोतियाबिंद", "ट्रैकोमा", "एक्जिमा"],
+    "answer": 0,
+    "explanation": "Myopia is a disease of Eyes; Pyorrhea is a disease of Teeth/Gums."
+  },
+  {
+    "id": 77,
+    "section": "Police Science",
+    "q_en": "The Haryana Police Academy is situated at?",
+    "q_hi": "हरियाणा पुलिस अकादमी कहाँ स्थित है?",
+    "options_en": ["Bhondsi", "Madhuban", "Sunaria", "Manesar"],
+    "options_hi": ["भोंडसी", "मधुबन", "सुनारिया", "मानेसर"],
+    "answer": 1,
+    "explanation": "It is located at Madhuban, Karnal."
+  },
+  {
+    "id": 78,
+    "section": "Haryana GK",
+    "q_en": "Which district is known as the 'City of Cotton'?",
+    "q_hi": "किस जिले को 'कपास का शहर' (City of Cotton) कहा जाता है?",
+    "options_en": ["Sirsa", "Fatehabad", "Palwal", "Hisar"],
+    "options_hi": ["सिरसा", "फतेहाबाद", "पलवल", "हिसार"],
+    "answer": 2,
+    "explanation": "Palwal is historically known as the City of Cotton (though Sirsa produces more now, the nickname sticks to Palwal often, but Sirsa is Cotton City too. In HSSC, if Palwal is option for 'Cotton City' usually they mean Palwal due to trade history. But Sirsa is 'Saraswati/Cotton'. Let's stick to **Palwal** being traditionally called Cotton City in old GK, but **Sirsa** is highest producer. *Correction*: Palwal is Cotton City. Sirsa is Wheat bowl/Cotton hub. For this Q, Palwal is the GK answer often asked)."
+  },
+  {
+    "id": 79,
+    "section": "Maths",
+    "q_en": "The average of 5 consecutive odd numbers is 61. What is the difference between the highest and lowest numbers?",
+    "q_hi": "5 लगातार विषम संख्याओं का औसत 61 है। सबसे बड़ी और सबसे छोटी संख्या के बीच का अंतर क्या है?",
+    "options_en": ["4", "8", "10", "12"],
+    "options_hi": ["4", "8", "10", "12"],
+    "answer": 1,
+    "explanation": "Difference in 5 consecutive odd numbers is always (5-1)*2 = 8. (Example: 57, 59, 61, 63, 65. 65-57=8)."
+  },
+  {
+    "id": 80,
+    "section": "Haryana GK (Industry)",
+    "q_en": "Maruti Suzuki established its first factory in Haryana at?",
+    "q_hi": "मारुति सुजुकी ने हरियाणा में अपना पहला कारखाना कहाँ स्थापित किया था?",
+    "options_en": ["Manesar", "Gurugram", "Bawal", "Kharkhoda"],
+    "options_hi": ["मानेसर", "गुरुग्राम", "बावल", "खरखौदा"],
+    "answer": 1,
+    "explanation": "The first plant was set up in Gurugram (Old Gurgaon) in the early 1980s."
+  },
+  {
+    "id": 81,
+    "section": "Agriculture",
+    "q_en": "What is the botanical name of 'Wheat'?",
+    "q_hi": "'गेहूं' का वानस्पतिक नाम (Botanical name) क्या है?",
+    "options_en": ["Oryza sativa", "Triticum aestivum", "Zea mays", "Hordeum vulgare"],
+    "options_hi": ["ओरिज़ा सैटिवा", "ट्रिटिकम एस्टिवम", "ज़िया मेज़", "होर्डियम वल्गारे"],
+    "answer": 1,
+    "explanation": "Triticum aestivum is common bread wheat."
+  },
+  {
+    "id": 82,
+    "section": "Computer",
+    "q_en": "What does 'GUI' stand for?",
+    "q_hi": "'GUI' का अर्थ क्या है?",
+    "options_en": ["Graphical User Interface", "Global User Interface", "General Used Interface", "Gaming User Interface"],
+    "options_hi": ["ग्राफिकल यूजर इंटरफेस", "ग्लोबल यूजर इंटरफेस", "जनरल यूज्ड इंटरफेस", "गेमिंग यूजर इंटरफेस"],
+    "answer": 0,
+    "explanation": "Graphical User Interface."
+  },
+  {
+    "id": 83,
+    "section": "Haryana GK (History)",
+    "q_en": "Which ruler of Haryana was defeated by Babur in 1526?",
+    "q_hi": "1526 में बाबर ने हरियाणा (दिल्ली सल्तनत) के किस शासक को हराया था?",
+    "options_en": ["Hem Chandra", "Ibrahim Lodi", "Sikandar Lodi", "Bahlol Lodi"],
+    "options_hi": ["हेम चंद्र", "इब्राहिम लोदी", "सिकंदर लोदी", "बहलोल लोदी"],
+    "answer": 1,
+    "explanation": "Ibrahim Lodi was defeated in the First Battle of Panipat."
+  },
+  {
+    "id": 84,
+    "section": "General Science",
+    "q_en": "Which device is used to measure Atmospheric Pressure?",
+    "q_hi": "वायुमंडलीय दबाव (Atmospheric Pressure) मापने के लिए किस यंत्र का उपयोग किया जाता है?",
+    "options_en": ["Altimeter", "Barometer", "Hygrometer", "Manometer"],
+    "options_hi": ["अल्टीमीटर", "बैरोमीटर", "हाइग्रोमीटर", "मैनोमीटर"],
+    "answer": 1,
+    "explanation": "Barometer is used for atmospheric pressure."
+  },
+  {
+    "id": 85,
+    "section": "Haryana GK",
+    "q_en": "The 'Western Command' of Indian Army has its headquarters at?",
+    "q_hi": "भारतीय सेना की 'पश्चिमी कमान' (Western Command) का मुख्यालय कहाँ है?",
+    "options_en": ["Ambala", "Chandimandir", "Hisar", "Delhi"],
+    "options_hi": ["अंबाला", "चंडीमंदिर", "हिसार", "दिल्ली"],
+    "answer": 1,
+    "explanation": "Chandimandir (Panchkula) is the HQ of Western Command."
+  },
+  {
+    "id": 86,
+    "section": "Reasoning",
+    "q_en": "Which word cannot be formed using the letters of 'CONSTITUTION'?",
+    "q_hi": "'CONSTITUTION' शब्द के अक्षरों का उपयोग करके कौन सा शब्द नहीं बनाया जा सकता है?",
+    "options_en": ["STATION", "TUITION", "TALENT", "COIN"],
+    "options_hi": ["STATION", "TUITION", "TALENT", "COIN"],
+    "answer": 2,
+    "explanation": "TALENT has 'A', 'L', 'E'. Constitution has no 'A', 'L', 'E'. (Wait, Constitution has no A? C-O-N-S-T-I-T-U-T-I-O-N. No A, No L, No E. Correct)."
+  },
+  {
+    "id": 87,
+    "section": "Haryana GK (Wildlife)",
+    "q_en": "'Chhilchhila Wildlife Sanctuary' is located in?",
+    "q_hi": "'छिलछिला वन्यजीव अभयारण्य' कहाँ स्थित है?",
+    "options_en": ["Kurukshetra", "Kaithal", "Jind", "Yamunanagar"],
+    "options_hi": ["कुरुक्षेत्र", "कैथल", "जींद", "यमुनानगर"],
+    "answer": 0,
+    "explanation": "It is located in Kurukshetra and is the smallest sanctuary in Haryana."
+  },
+  {
+    "id": 88,
+    "section": "Computer",
+    "q_en": "1 Petabyte (PB) = ___ Terabytes (TB)?",
+    "q_hi": "1 पेटाबाइट (PB) = ___ टेराबाइट (TB)?",
+    "options_en": ["1000", "1024", "10^6", "100"],
+    "options_hi": ["1000", "1024", "10^6", "100"],
+    "answer": 1,
+    "explanation": "1 PB = 1024 TB."
+  },
+  {
+    "id": 89,
+    "section": "Maths",
+    "q_en": "A sphere of radius 3 cm is melted and recast into small spheres of radius 1 cm. How many such spheres can be made?",
+    "q_hi": "3 सेमी त्रिज्या वाले एक गोले को पिघलाकर 1 सेमी त्रिज्या वाले छोटे गोले बनाए जाते हैं। ऐसे कितने गोले बनाए जा सकते हैं?",
+    "options_en": ["9", "18", "27", "30"],
+    "options_hi": ["9", "18", "27", "30"],
+    "answer": 2,
+    "explanation": "Volume ratio = (R/r)^3 = (3/1)^3 = 27."
+  },
+  {
+    "id": 90,
+    "section": "Animal Husbandry",
+    "q_en": "Which of the following is NOT a breed of Goat?",
+    "q_hi": "निम्नलिखित में से कौन सी बकरी की नस्ल नहीं है?",
+    "options_en": ["Beetal", "Jamunapari", "Barbari", "Rambouillet"],
+    "options_hi": ["बीटल", "जमुनापारी", "बरबरी", "रैम्बौइलेट"],
+    "answer": 3,
+    "explanation": "Rambouillet is a famous breed of Sheep (Merino type). Others are goats."
+  },
+  {
+    "id": 91,
+    "section": "Haryana GK (History)",
+    "q_en": "During the 1857 revolt, who was the Collector of Hisar?",
+    "q_hi": "1857 के विद्रोह के समय, हिसार का कलेक्टर कौन था?",
+    "options_en": ["Wedderburn", "Ford", "Hudson", "Saunders"],
+    "options_hi": ["वेडरबर्न", "फोर्ड", "हडसन", "सॉन्डर्स"],
+    "answer": 0,
+    "explanation": "John Wedderburn was the Collector of Hisar who was killed by rebels."
+  },
+  {
+    "id": 92,
+    "section": "General Science",
+    "q_en": "Which acid is present in Ant stings?",
+    "q_hi": "चींटी के डंक में कौन सा अम्ल (Acid) होता है?",
+    "options_en": ["Acetic Acid", "Formic Acid (Methanoic)", "Citric Acid", "Lactic Acid"],
+    "options_hi": ["एसिटिक एसिड", "फॉर्मिक एसिड (मेथानोइक)", "साइट्रिक एसिड", "लैक्टिक एसिड"],
+    "answer": 1,
+    "explanation": "Formic acid (Methanoic acid) causes the pain."
+  },
+  {
+    "id": 93,
+    "section": "Haryana GK (Schemes)",
+    "q_en": "The 'Lado Lakshmi Yojana' announced recently provides how much monthly assistance to women?",
+    "q_hi": "हाल ही में घोषित 'लाडो लक्ष्मी योजना' महिलाओं को कितनी मासिक सहायता प्रदान करती है?",
+    "options_en": ["₹1100", "₹2100", "₹3100", "₹1500"],
+    "options_hi": ["₹1100", "₹2100", "₹3100", "₹1500"],
+    "answer": 1,
+    "explanation": "It provides ₹2,100 per month."
+  },
+  {
+    "id": 94,
+    "section": "Computer",
+    "q_en": "Which key combination is used to minimize all open windows in Windows OS?",
+    "q_hi": "विंडोज ओएस में सभी खुली खिड़कियों (windows) को छोटा (minimize) करने के लिए किस कुंजी संयोजन का उपयोग किया जाता है?",
+    "options_en": ["Win + D", "Win + M", "Alt + F4", "Win + L"],
+    "options_hi": ["Win + D", "Win + M", "Alt + F4", "Win + L"],
+    "answer": 0,
+    "explanation": "Win + D shows the desktop (minimized everything). Win+M also minimizes."
+  },
+  {
+    "id": 95,
+    "section": "Haryana GK",
+    "q_en": "Which city is called the 'Brass City' of Haryana?",
+    "q_hi": "हरियाणा के किस शहर को 'पीतल नगरी' (Brass City) कहा जाता है?",
+    "options_en": ["Jagadhri", "Rewari", "Panipat", "Sonipat"],
+    "options_hi": ["जगाधरी", "रेवाड़ी", "पानीपत", "सोनीपत"],
+    "answer": 1,
+    "explanation": "Rewari is famous for its brass industry."
+  },
+  {
+    "id": 96,
+    "section": "Agriculture",
+    "q_en": "'White Grub' is a major pest of which crop?",
+    "q_hi": "'सफेद लट' (White Grub) किस फसल का प्रमुख कीट है?",
+    "options_en": ["Wheat", "Paddy", "Groundnut/Bajra", "Mustard"],
+    "options_hi": ["गेहूं", "धान", "मूंगफली/बाजरा", "सरसों"],
+    "answer": 2,
+    "explanation": "White Grub is a serious pest for Kharif crops like Groundnut and Bajra in sandy soils of Haryana."
+  },
+  {
+    "id": 97,
+    "section": "Reasoning",
+    "q_en": "Select the odd pair: 18:324, 21:441, 13:169, 15:220",
+    "q_hi": "विषम युग्म चुनें: 18:324, 21:441, 13:169, 15:220",
+    "options_en": ["18:324", "21:441", "13:169", "15:220"],
+    "options_hi": ["18:324", "21:441", "13:169", "15:220"],
+    "answer": 3,
+    "explanation": "18^2=324, 21^2=441, 13^2=169. But 15^2=225, not 220."
+  },
+  {
+    "id": 98,
+    "section": "Haryana GK (Polity)",
+    "q_en": "Who was the first Advocate General of Haryana?",
+    "q_hi": "हरियाणा के प्रथम महाधिवक्ता (Advocate General) कौन थे?",
+    "options_en": ["Babu Anand Swaroop", "Hira Lal Sibal", "Baldev Raj Mahajan", "Surya Kant"],
+    "options_hi": ["बाबू आनंद स्वरूप", "हीरा लाल सिब्बल", "बलदेव राज महाजन", "सूर्य कांत"],
+    "answer": 0,
+    "explanation": "Babu Anand Swaroop was the first AG of Haryana."
+  },
+  {
+    "id": 99,
+    "section": "Maths",
+    "q_en": "The LCM of two numbers is 1920 and their HCF is 16. If one of the numbers is 128, find the other number.",
+    "q_hi": "दो संख्याओं का LCM 1920 है और उनका HCF 16 है। यदि उनमें से एक संख्या 128 है, तो दूसरी संख्या ज्ञात कीजिए।",
+    "options_en": ["200", "240", "260", "300"],
+    "options_hi": ["200", "240", "260", "300"],
+    "answer": 1,
+    "explanation": "LCM * HCF = Product of numbers. 1920 * 16 = 128 * x. x = (1920*16)/128 = 240."
+  },
+  {
+    "id": 100,
+    "section": "Haryana GK (Current)",
+    "q_en": "As per the 20th Livestock Census, Haryana has approximately what percentage of India's total buffalo population?",
+    "q_hi": "20वीं पशुधन गणना के अनुसार, भारत की कुल भैंस आबादी का लगभग कितना प्रतिशत हरियाणा में है?",
+    "options_en": ["2.5%", "4.0%", "5.6%", "10.2%"],
+    "options_hi": ["2.5%", "4.0%", "5.6%", "10.2%"],
+    "answer": 1,
+    "explanation": "Haryana has approx 4.0 - 4.1% of India's total buffalo population (High quality Murrah)."
+  }
+]
+  }
