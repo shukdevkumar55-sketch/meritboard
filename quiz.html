@@ -4,27 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Exam Portal | MeritBoard</title>
+    
+    <!-- Meta Tags for Social Sharing (WhatsApp/Facebook) -->
+    <meta property="og:title" content="MeritBoard - Prepare. Test. Lead.">
+    <meta property="og:description" content="Take this interactive mock test and check your rank!">
+    <meta id="ogImage" property="og:image" content="assets/default-share.jpg">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/quiz.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body class="quiz-body">
 
-    <!-- 1. Header Area (Quiz Mode) -->
-    <header class="quiz-header" id="quizHeader">
-        <div class="quiz-nav-top">
-            <div id="quizTitle" class="quiz-title">HSSC Exam</div>
-            <div class="header-controls">
-                <select id="langSelect" class="lang-select">
-                    <option value="hi">हिन्दी</option>
-                    <option value="en">English</option>
-                </select>
-                <div class="timer-box">
-                    <span id="timerDisplay" class="timer">00:00</span>
-                </div>
+<!-- 1. Header Area (Quiz Mode) - Optimized -->
+<header class="quiz-header" id="quizHeader">
+    <div class="quiz-nav-top">
+        <!-- बाईं तरफ का टाइटल -->
+        <div id="quizTitle" class="quiz-title">HSSC Exam</div>
+        
+        <div class="header-controls">
+            <!-- प्रोफेशनल शेयर बटन (Sleek Icon) -->
+            <button id="shareQuizBtn" class="btn-icon-share" title="Share Quiz">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                    <polyline points="16 6 12 2 8 6"></polyline>
+                    <line x1="12" y1="2" x2="12" y2="15"></line>
+                </svg>
+            </button>
+            
+            <!-- भाषा चुनाव (English को छोटा 'Eng' किया ताकि जगह बचे) -->
+            <select id="langSelect" class="lang-select">
+                <option value="hi">हिन्दी</option>
+                <option value="en">Eng</option>
+            </select>
+            
+            <!-- टाइमर बॉक्स -->
+            <div class="timer-box">
+                <span id="timerDisplay" class="timer">00:00</span>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
     <!-- 2. Section Bar (Quiz Mode) -->
     <nav class="section-bar" id="sectionBar">
@@ -48,6 +69,8 @@
             <div class="palette-container">
                 <button id="togglePalette" class="btn-palette-toggle">View Question Palette</button>
                 <div id="questionPalette" class="palette-grid hidden"></div>
+                
+                <!-- Legend Summary -->
                 <div class="legend-grid" id="paletteLegend">
                     <div class="leg-item"><span class="leg-box answered"></span> Answered</div>
                     <div class="leg-item"><span class="leg-box marked"></span> Marked</div>
@@ -113,11 +136,13 @@
             </div>
             
             <div id="solutionsList">
-                <!-- Detailed analysis of all 100 questions -->
+                <!-- Detailed analysis of all questions -->
             </div>
 
             <!-- Action Buttons -->
             <div class="result-actions">
+                <!-- Challenge Friend WhatsApp Button -->
+                <button id="challengeFriendBtn" class="btn-share-result">Challenge a Friend (WhatsApp)</button>
                 <button onclick="location.reload()" class="btn-retake">Retake Test</button>
                 <button onclick="location.href='index.html'" class="btn-home">Back to Home</button>
             </div>
