@@ -1,6 +1,6 @@
 /**
  * Project: MeritBoard
- * Engine: quiz.js (Full Analysis & Professional Report Update)
+ * Engine: quiz.js (Full Features: Sharing, Analysis, Bilingual, Static Bar)
  */
 
 let questions = [];
@@ -12,11 +12,13 @@ let timeLeft;
 let totalTime;
 let isAnalysisMode = false;
 let currentLang = 'hi'; 
+let shareConfig = {}; // JSON से शेयर डेटा लोड करने के लिए
 
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const quizId = urlParams.get('id') || 'hssc-cet-01';
 
+    // 1. Language Listener
     const langSelector = document.getElementById('langSelect');
     if(langSelector) {
         langSelector.addEventListener('change', (e) => {
@@ -25,6 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // 2. Header Share Listener (Invite)
+    document.getElementById('shareQuizBtn').onclick = () => shareQuiz();
+
     loadQuizData(quizId);
 });
 
@@ -32,9 +37,15 @@ async function loadQuizData(id) {
     try {
         const response = await fetch(`./data/questions/${id}.json`);
         const data = await response.json();
+        
         questions = data.questions;
         totalTime = data.timeMinutes * 60;
         timeLeft = totalTime;
+        shareConfig = data.shareConfig || { 
+            inviteText: "Prepare for your exams on MeritBoard!", 
+            challengeMsg: "I just completed the test on MeritBoard. Can you beat my score?" 
+        };
+        
         userAnswers = new Array(questions.length).fill(null);
         statusArray = new Array(questions.length).fill('not-visited');
 
@@ -53,13 +64,7 @@ async function loadQuizData(id) {
 function renderSectionBar(sections) {
     const secBar = document.getElementById('sectionBar');
     if(!secBar) return;
-    secBar.innerHTML = '';
-    sections.forEach(sec => {
-        const tab = document.createElement('div');
-        tab.className = 'section-tab'; 
-        tab.innerText = sec;
-        secBar.appendChild(tab);
-    });
+    secBar.innerHTML = sections.map(sec => `<div class="section-tab">${sec}</div>`).join('');
 }
 
 function renderQuestion() {
@@ -82,14 +87,11 @@ function renderQuestion() {
     options.forEach((opt, i) => {
         const btn = document.createElement('button');
         btn.className = `option-btn ${userAnswers[currentIdx] === i ? 'selected' : ''}`;
-        
-        // सामान्य क्विज़ मोड
         btn.onclick = () => { 
             userAnswers[currentIdx] = i; 
             statusArray[currentIdx] = 'answered';
             renderQuestion(); 
         };
-        
         btn.innerText = opt;
         grid.appendChild(btn);
     });
@@ -111,19 +113,14 @@ function startTimer() {
         let s = timeLeft % 60;
         const timerDisplay = document.getElementById('timerDisplay');
         if(timerDisplay) timerDisplay.innerText = `${m}:${s < 10 ? '0'+s : s}`;
-
-        if(timeLeft <= 0) {
-            clearInterval(timerInterval);
-            submitQuiz();
-        }
+        if(timeLeft <= 0) { clearInterval(timerInterval); submitQuiz(); }
     }, 1000);
 }
 
-// Controls
+// Button Controls
 document.getElementById('nextBtn').onclick = () => {
     if(statusArray[currentIdx] === 'not-visited') statusArray[currentIdx] = 'not-answered';
-    currentIdx++; 
-    renderQuestion();
+    currentIdx++; renderQuestion();
 };
 
 document.getElementById('prevBtn').onclick = () => { 
@@ -138,37 +135,59 @@ document.getElementById('clearResponseBtn').onclick = () => {
 
 document.getElementById('markReviewBtn').onclick = () => { 
     statusArray[currentIdx] = 'marked'; 
-    if(currentIdx < questions.length - 1) {
-        currentIdx++;
-        renderQuestion();
-    } else {
-        renderPalette();
-    }
+    if(currentIdx < questions.length - 1) { currentIdx++; renderQuestion(); } 
+    else renderPalette();
 };
 
 function renderPalette() {
     const pGrid = document.getElementById('questionPalette');
     if(!pGrid) return;
-    pGrid.innerHTML = '';
-    questions.forEach((_, i) => {
-        const b = document.createElement('button');
-        b.className = `p-btn ${statusArray[i]} ${i === currentIdx ? 'current' : ''}`;
-        b.innerText = i + 1;
-        b.onclick = () => { currentIdx = i; renderQuestion(); };
-        pGrid.appendChild(b);
-    });
+    pGrid.innerHTML = questions.map((_, i) => `
+        <button class="p-btn ${statusArray[i]} ${i === currentIdx ? 'current' : ''}" onclick="goToQuestion(${i})">
+            ${i + 1}
+        </button>
+    `).join('');
 }
 
+window.goToQuestion = (i) => { currentIdx = i; renderQuestion(); };
+
 document.getElementById('togglePalette').onclick = () => {
-    const palette = document.getElementById('questionPalette');
-    if(palette) palette.classList.toggle('hidden');
+    document.getElementById('questionPalette').classList.toggle('hidden');
 };
 
-document.getElementById('submitBtn').onclick = submitQuiz;
+// ==========================================
+// SHARING LOGIC (Invite & Result Challenge)
+// ==========================================
+
+function shareQuiz() {
+    const shareUrl = window.location.href;
+    const shareText = shareConfig.inviteText;
+
+    if (navigator.share) {
+        navigator.share({
+            title: 'MeritBoard Quiz',
+            text: shareText,
+            url: shareUrl
+        }).catch(console.error);
+    } else {
+        // Fallback for Desktop: WhatsApp
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + "\n\n" + shareUrl)}`, '_blank');
+    }
+}
+
+function shareResultChallenge(score, total) {
+    const shareUrl = window.location.href;
+    // [SCORE] टैग को रियल स्कोर से रिप्लेस करना
+    let challengeText = shareConfig.challengeMsg.replace("[SCORE]", `${score}/${total}`);
+    
+    window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(challengeText + "\n\n" + shareUrl)}`, '_blank');
+}
 
 // ==========================================
-// PROFESSIONAL SUBMIT & ANALYSIS LOGIC
+// PROFESSIONAL SUBMIT & ANALYSIS
 // ==========================================
+
+document.getElementById('submitBtn').onclick = submitQuiz;
 
 function submitQuiz() {
     clearInterval(timerInterval);
@@ -177,14 +196,10 @@ function submitQuiz() {
     let attempted = 0;
     let subjectStats = {}; 
 
-    // 1. डेटा कैलकुलेट करें
     questions.forEach((q, i) => {
         const ans = userAnswers[i];
         const sec = q.section || "General";
-
-        if (!subjectStats[sec]) {
-            subjectStats[sec] = { total: 0, correct: 0 };
-        }
+        if (!subjectStats[sec]) subjectStats[sec] = { total: 0, correct: 0 };
         subjectStats[sec].total++;
 
         if (ans !== null) {
@@ -196,14 +211,14 @@ function submitQuiz() {
         }
     });
 
-    // 2. पुराने UI को छुपाएं और Analysis Page दिखाएं
+    // Hide Quiz, Show Result Page
     document.getElementById('quizHeader').classList.add('hidden');
     document.getElementById('sectionBar').classList.add('hidden');
     document.getElementById('quizMain').classList.add('hidden');
     document.getElementById('quizFooter').classList.add('hidden');
     document.getElementById('analysisPage').classList.remove('hidden');
 
-    // 3. स्कोरकार्ड भरें
+    // Fill Stats
     document.getElementById('resFinalScore').innerText = score;
     document.getElementById('resTotalQs').innerText = questions.length;
     document.getElementById('resAttempted').innerText = attempted;
@@ -212,28 +227,19 @@ function submitQuiz() {
     const timeSpent = totalTime - timeLeft;
     document.getElementById('resTime').innerText = Math.floor(timeSpent / 60) + "m " + (timeSpent % 60) + "s";
 
-    // मोटिवेशनल टैग
-    const perfTag = document.getElementById('performanceTag');
-    const pct = (score / questions.length) * 100;
-    if(pct >= 80) perfTag.innerText = "Excellent Performance! 🏆";
-    else if(pct >= 50) perfTag.innerText = "Good Job! Keep it up. 👍";
-    else perfTag.innerText = "Keep Practicing! You can do better. 💪";
+    // Challenge Friend Button Logic
+    document.getElementById('challengeFriendBtn').onclick = () => shareResultChallenge(score, questions.length);
 
-    // 4. विषयवार स्कोर दिखाएं
+    // Subject List
     const subList = document.getElementById('subjectWiseList');
-    subList.innerHTML = '';
-    for (let sec in subjectStats) {
-        subList.innerHTML += `
-            <div class="subject-item">
-                <span>${sec}</span>
-                <span class="sub-score">${subjectStats[sec].correct} / ${subjectStats[sec].total}</span>
-            </div>`;
-    }
+    subList.innerHTML = Object.keys(subjectStats).map(sec => `
+        <div class="subject-item">
+            <span>${sec}</span>
+            <span class="sub-score">${subjectStats[sec].correct} / ${subjectStats[sec].total}</span>
+        </div>
+    `).join('');
 
-    // 5. सॉल्यूशन लिस्ट रेंडर करें (All 100 Questions)
     renderFinalSolutions();
-    
-    // एनालिसिस पेज के सबसे ऊपर स्क्रॉल करें
     window.scrollTo(0, 0);
 }
 
@@ -246,24 +252,18 @@ function renderFinalSolutions() {
         const isCorrect = userAns === q.answer;
         const options = q[`options_${currentLang}`] || q.options;
 
-        let optionsHTML = '';
-        options.forEach((opt, optIdx) => {
+        let optionsHTML = options.map((opt, optIdx) => {
             let cls = '';
-            if (optIdx === q.answer) cls = 'correct'; // हमेशा सही जवाब को हरा करें
-            else if (optIdx === userAns && !isCorrect) cls = 'wrong'; // अगर गलत चुना तो उसे लाल करें
-            
-            optionsHTML += `<div class="sol-opt ${cls}">${opt}</div>`;
-        });
+            if (optIdx === q.answer) cls = 'correct';
+            else if (optIdx === userAns && !isCorrect) cls = 'wrong';
+            return `<div class="sol-opt ${cls}">${opt}</div>`;
+        }).join('');
 
         solList.innerHTML += `
             <div class="solution-item">
                 <div class="sol-q">Q${i+1}. ${q[`q_${currentLang}`] || q.question}</div>
-                <div class="sol-options-container">
-                    ${optionsHTML}
-                </div>
-                <div class="sol-exp">
-                    <strong>Explanation:</strong> ${q.explanation || 'Solution will be updated soon.'}
-                </div>
+                <div class="sol-options-container">${optionsHTML}</div>
+                <div class="sol-exp"><strong>Explanation:</strong> ${q.explanation || 'No explanation available.'}</div>
             </div>`;
     });
 }
