@@ -1,6 +1,6 @@
 /**
  * Project: MeritBoard
- * Engine: quiz.js (Bilingual & Sectional Update)
+ * Engine: quiz.js (Bilingual & Static Section Bar Update)
  */
 
 let questions = [];
@@ -16,7 +16,7 @@ let currentLang = 'hi'; // डिफॉल्ट भाषा हिन्दी
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const quizId = urlParams.get('id') || 'hssc-cet-01';
-    
+
     // भाषा बदलने का इवेंट लिसनर
     const langSelector = document.getElementById('langSelect');
     if(langSelector) {
@@ -31,16 +31,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadQuizData(id) {
     try {
-        const response = await fetch(`data/questions/${id}.json`);
+        // Vercel/Cloudflare के लिए पाथ को सटीक बनाना
+        const response = await fetch(`./data/questions/${id}.json`);
         const data = await response.json();
         questions = data.questions;
         totalTime = data.timeMinutes * 60;
         timeLeft = totalTime;
         userAnswers = new Array(questions.length).fill(null);
         statusArray = new Array(questions.length).fill('not-visited');
-        
+
         document.getElementById('quizTitle').innerText = data.testTitle;
-        
+
+        // सेक्शन बार लोड करें (अब यह सिर्फ लेबल्स दिखाएगा)
         renderSectionBar(data.sections || []);
         renderQuestion();
         renderPalette();
@@ -51,49 +53,45 @@ async function loadQuizData(id) {
     }
 }
 
-// विषय (Sections) के टैब बनाना
+// अपडेटेड: विषय (Sections) के टैब अब सिर्फ जानकारी के लिए हैं (No Click)
 function renderSectionBar(sections) {
     const secBar = document.getElementById('sectionBar');
     if(!secBar) return;
     secBar.innerHTML = '';
-    
+
     sections.forEach(sec => {
         const tab = document.createElement('div');
-        tab.className = 'section-tab';
+        tab.className = 'section-tab'; // यहाँ से 'active' लॉजिक हटा दिया गया है
         tab.innerText = sec;
-        tab.onclick = () => jumpToSection(sec);
+        // क्लिक फंक्शन हटा दिया गया है ताकि स्विच न हो
         secBar.appendChild(tab);
     });
 }
 
-// किसी खास सेक्शन के पहले सवाल पर जाना
-function jumpToSection(sectionName) {
-    const firstIdx = questions.findIndex(q => q.section === sectionName);
-    if(firstIdx !== -1) {
-        currentIdx = firstIdx;
-        renderQuestion();
-    }
-}
+// jumpToSection फंक्शन को हटा दिया गया है क्योंकि इसकी अब ज़रूरत नहीं है
 
 function renderQuestion() {
     const q = questions[currentIdx];
     const lang = currentLang;
-    
-    document.getElementById('qNum').innerText = `Question ${currentIdx + 1}`;
-    
-    // भाषा के हिसाब से सवाल दिखाना (q_en या q_hi)
-    document.getElementById('qText').innerText = q[`q_${lang}`] || q.question;
-    
+
+    const qNumElement = document.getElementById('qNum');
+    if(qNumElement) qNumElement.innerText = `Question ${currentIdx + 1}`;
+
+    // भाषा के हिसाब से सवाल दिखाना
+    const qTextElement = document.getElementById('qText');
+    if(qTextElement) qTextElement.innerText = q[`q_${lang}`] || q.question;
+
     const grid = document.getElementById('optionsGrid');
+    if(!grid) return;
     grid.innerHTML = '';
 
-    // भाषा के हिसाब से ऑप्शंस दिखाना (options_en या options_hi)
+    // भाषा के हिसाब से ऑप्शंस दिखाना
     const options = q[`options_${lang}`] || q.options;
-    
+
     options.forEach((opt, i) => {
         const btn = document.createElement('button');
         btn.className = `option-btn ${userAnswers[currentIdx] === i ? 'selected' : ''}`;
-        
+
         if(isAnalysisMode) {
             btn.disabled = true;
             if(i === q.answer) btn.classList.add('correct');
@@ -113,6 +111,10 @@ function renderQuestion() {
     if(isAnalysisMode && q.explanation) {
         const expDiv = document.createElement('div');
         expDiv.className = 'explanation-box';
+        expDiv.style.marginTop = "15px";
+        expDiv.style.padding = "10px";
+        expDiv.style.background = "#f0f9ff";
+        expDiv.style.borderLeft = "4px solid #03A9F4";
         expDiv.innerHTML = `<strong>Explanation:</strong> ${q.explanation}`;
         grid.appendChild(expDiv);
     }
@@ -122,14 +124,13 @@ function renderQuestion() {
 
 function updateUI() {
     const isLast = currentIdx === questions.length - 1;
-    document.getElementById('submitBtn').classList.toggle('hidden', !isLast || isAnalysisMode);
-    document.getElementById('nextBtn').classList.toggle('hidden', isLast);
+    const submitBtn = document.getElementById('submitBtn');
+    const nextBtn = document.getElementById('nextBtn');
     
-    // एक्टिव सेक्शन टैब को हाईलाइट करना
-    const tabs = document.querySelectorAll('.section-tab');
-    tabs.forEach(tab => {
-        tab.classList.toggle('active', tab.innerText === questions[currentIdx].section);
-    });
+    if(submitBtn) submitBtn.classList.toggle('hidden', !isLast || isAnalysisMode);
+    if(nextBtn) nextBtn.classList.toggle('hidden', isLast);
+
+    // नोट: यहाँ से सेक्शन टैब को हाईलाइट करने वाला कोड हटा दिया गया है ताकि बार स्थिर रहे।
 
     renderPalette();
 }
@@ -139,8 +140,9 @@ function startTimer() {
         timeLeft--;
         let m = Math.floor(timeLeft / 60);
         let s = timeLeft % 60;
-        document.getElementById('timerDisplay').innerText = `${m}:${s < 10 ? '0'+s : s}`;
-        
+        const timerDisplay = document.getElementById('timerDisplay');
+        if(timerDisplay) timerDisplay.innerText = `${m}:${s < 10 ? '0'+s : s}`;
+
         if(timeLeft <= 0) {
             clearInterval(timerInterval);
             submitQuiz();
@@ -194,7 +196,8 @@ function renderPalette() {
 }
 
 document.getElementById('togglePalette').onclick = () => {
-    document.getElementById('questionPalette').classList.toggle('hidden');
+    const palette = document.getElementById('questionPalette');
+    if(palette) palette.classList.toggle('hidden');
 };
 
 document.getElementById('submitBtn').onclick = submitQuiz;
@@ -216,17 +219,24 @@ function submitQuiz() {
     const timeSpent = totalTime - timeLeft;
     const minSpent = Math.floor(timeSpent / 60);
 
-    document.getElementById('finalScore').innerText = score;
-    document.getElementById('totalAttempted').innerText = attempted;
-    document.getElementById('accuracyVal').innerText = accuracy + "%";
-    document.getElementById('timeTaken').innerText = minSpent + "m";
-    
-    document.getElementById('resultModal').classList.remove('hidden');
+    const finalScoreEl = document.getElementById('finalScore');
+    const totalAttEl = document.getElementById('totalAttempted');
+    const accValEl = document.getElementById('accuracyVal');
+    const timeTakenEl = document.getElementById('timeTaken');
+
+    if(finalScoreEl) finalScoreEl.innerText = score;
+    if(totalAttEl) totalAttEl.innerText = attempted;
+    if(accValEl) accValEl.innerText = accuracy + "%";
+    if(timeTakenEl) timeTakenEl.innerText = minSpent + "m";
+
+    const modal = document.getElementById('resultModal');
+    if(modal) modal.classList.remove('hidden');
 }
 
 document.getElementById('viewAnalysisBtn').onclick = () => {
     isAnalysisMode = true;
-    document.getElementById('resultModal').classList.add('hidden');
+    const modal = document.getElementById('resultModal');
+    if(modal) modal.classList.add('hidden');
     currentIdx = 0;
     renderQuestion();
 };
