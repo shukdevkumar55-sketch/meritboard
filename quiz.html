@@ -10,19 +10,15 @@
 </head>
 <body class="quiz-body">
 
-<!-- Top Header Updated with Language Selector -->
-    <header class="quiz-header">
+    <!-- 1. Header Area (Quiz Mode) -->
+    <header class="quiz-header" id="quizHeader">
         <div class="quiz-nav-top">
             <div id="quizTitle" class="quiz-title">HSSC Exam</div>
-            
             <div class="header-controls">
-                <!-- Language Selector -->
                 <select id="langSelect" class="lang-select">
                     <option value="hi">हिन्दी</option>
                     <option value="en">English</option>
                 </select>
-                
-                <!-- Timer -->
                 <div class="timer-box">
                     <span id="timerDisplay" class="timer">00:00</span>
                 </div>
@@ -30,14 +26,13 @@
         </div>
     </header>
 
-    <!-- Subject Section Bar (Testbook Style) -->
+    <!-- 2. Section Bar (Quiz Mode) -->
     <nav class="section-bar" id="sectionBar">
-        <div class="section-tab active">General Awareness</div>
-        <div class="section-tab">Haryana GK</div>
-        <div class="section-tab">Maths</div>
+        <!-- Subjects injected via JS -->
     </nav>
 
-    <main class="quiz-main">
+    <!-- 3. Main Quiz Area (Question & Palette) -->
+    <main class="quiz-main" id="quizMain">
         <div class="container">
             <!-- Question Card -->
             <section class="question-card">
@@ -45,20 +40,14 @@
                     <span class="q-number" id="qNum">Question 1</span>
                     <span class="q-marks">Marks <span class="pos">+1</span> <span class="neg">-0</span></span>
                 </div>
-                
                 <h2 id="qText" class="question-text">Loading question...</h2>
-                
-                <div id="optionsGrid" class="options-grid">
-                    <!-- Options injected here -->
-                </div>
+                <div id="optionsGrid" class="options-grid"></div>
             </section>
 
             <!-- Palette Area -->
             <div class="palette-container">
                 <button id="togglePalette" class="btn-palette-toggle">View Question Palette</button>
                 <div id="questionPalette" class="palette-grid hidden"></div>
-                
-                <!-- Legend Summary -->
                 <div class="legend-grid" id="paletteLegend">
                     <div class="leg-item"><span class="leg-box answered"></span> Answered</div>
                     <div class="leg-item"><span class="leg-box marked"></span> Marked</div>
@@ -69,8 +58,8 @@
         </div>
     </main>
 
-    <!-- Professional Footer Controls -->
-    <footer class="quiz-footer">
+    <!-- 4. Footer Controls (Quiz Mode) -->
+    <footer class="quiz-footer" id="quizFooter">
         <button id="markReviewBtn" class="btn-ctrl btn-review">Review</button>
         <button id="clearResponseBtn" class="btn-ctrl btn-clear">Clear</button>
         <div class="footer-right">
@@ -80,22 +69,57 @@
         <button id="submitBtn" class="btn-ctrl btn-submit hidden">Submit</button>
     </footer>
 
-    <!-- Full Screen Result Scorecard -->
-    <div id="resultModal" class="modal hidden">
-        <div class="scorecard">
-            <div class="scorecard-header">
-                <h3>Test Completed</h3>
-                <div class="score-main" id="finalScore">0</div>
-                <p>Your Total Score</p>
+    <!-- 5. Professional Result & Analysis Page (Visible after Submit) -->
+    <div id="analysisPage" class="hidden">
+        <div class="result-container">
+            <!-- Summary Scorecard -->
+            <div class="summary-card">
+                <h2 class="congrats-text">Test Report Card</h2>
+                <div class="main-score-box">
+                    <span id="resFinalScore">0</span>
+                    <small>/ <span id="resTotalQs">0</span></small>
+                </div>
+                <p id="performanceTag">Analyzing Performance...</p>
             </div>
-            <div class="stats-grid">
-                <div class="stat-item"><span class="val" id="totalAttempted">0</span><span class="lbl">Attempted</span></div>
-                <div class="stat-item"><span class="val" id="accuracyVal">0%</span><span class="lbl">Accuracy</span></div>
-                <div class="stat-item"><span class="val" id="timeTaken">0m</span><span class="lbl">Time</span></div>
+
+            <!-- Quick Stats Row -->
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span id="resAccuracy">0%</span>
+                    <label>Accuracy</label>
+                </div>
+                <div class="stat-box">
+                    <span id="resTime">0m</span>
+                    <label>Time Taken</label>
+                </div>
+                <div class="stat-box">
+                    <span id="resAttempted">0</span>
+                    <label>Attempted</label>
+                </div>
             </div>
-            <div style="padding: 20px; display: flex; gap: 10px;">
-                <button id="viewAnalysisBtn" class="btn-save" style="flex:1; border:none; padding:12px; border-radius:5px;">Review Answers</button>
-                <button onclick="location.href='index.html'" class="btn-clear" style="flex:1; padding:12px; border-radius:5px;">Home</button>
+
+            <!-- Subject-wise Analysis -->
+            <div class="subject-card">
+                <h3 class="section-title-res">Subject Analysis</h3>
+                <div id="subjectWiseList">
+                    <!-- Data injected via JS -->
+                </div>
+            </div>
+
+            <!-- Detailed Question-wise Solutions -->
+            <div class="solutions-header">
+                <h3 class="section-title-res">Question Wise Solutions</h3>
+                <p>Correct answers are highlighted in <span style="color:green; font-weight:bold;">Green</span></p>
+            </div>
+            
+            <div id="solutionsList">
+                <!-- Detailed analysis of all 100 questions -->
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="result-actions">
+                <button onclick="location.reload()" class="btn-retake">Retake Test</button>
+                <button onclick="location.href='index.html'" class="btn-home">Back to Home</button>
             </div>
         </div>
     </div>
