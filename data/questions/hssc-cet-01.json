@@ -1,6 +1,16 @@
 {
-  "testTitle": HSSC CET Group C - Mock Test 1",
+  "testTitle": "Haryana Police Constable - Full Mock Test 01",
   "timeMinutes": 90,
   "totalQuestions": 100,
   "sections": ["Haryana GK", "General Studies", "Reasoning", "Maths", "Computer"],
   "questions": [
+  {
+    "id": 1,
+    "section": "Haryana GK (Economy)",
+    "q_en": "As per Haryana Economic Survey 2024-25, what is the estimated Per Capita Income of Haryana at current prices?",
+    "q_hi": "हरियाणा आर्थिक सर्वेक्षण 2024-25 के अनुसार, मौजूदा कीमतों पर हरियाणा की अनुमानित प्रति व्यक्ति आय (Per Capita Income) क्या है?",
+    "options_en": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
+    "options_hi": ["₹2,96,685", "₹3,25,000", "₹3,53,182", "₹3,70,110"],
+    "answer": 2,
+    "explanation": "As per the latest Economic Survey 2024-25, Haryana's Per Capita Income has risen to ₹3,53,182."
+  }
