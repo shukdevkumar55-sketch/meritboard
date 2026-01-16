@@ -1,9 +1,10 @@
 /**
  * Project: MeritBoard
- * Engine: main.js (Version 2.0 - High Accuracy)
+ * Engine: main.js (Version 3.0 - Slider & Category Logic)
+ * Features: Dynamic Category Loading, Random Quotes, Search Logic
  */
 
-// 1. Motivational Quotes (Bright & Motivational Theme)
+// 1. Motivational Quotes Array
 const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     "The secret of getting ahead is getting started.",
@@ -13,94 +14,107 @@ const quotes = [
     "Hard work beats talent when talent doesn't work hard."
 ];
 
-// 2. Initialize Website
+// 2. Main Initialization
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("MeritBoard Engine Started...");
+    console.log("MeritBoard Home Engine Ready...");
     displayDailyQuote();
     loadExamsData();
+    setupSearch();
 });
 
-// 3. Display Random Quote (Hero Section)
+// 3. Display Random Quote with Smooth Transition
 function displayDailyQuote() {
     const quoteElement = document.getElementById('dailyQuote');
-    if (quoteElement) {
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteElement.style.opacity = 0; // Fade effect start
-        setTimeout(() => {
-            quoteElement.innerText = `"${quotes[randomIndex]}"`;
-            quoteElement.style.opacity = 1; // Fade effect end
-        }, 300);
-    }
+    if (!quoteElement) return;
+    
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quoteElement.style.opacity = 0;
+    
+    setTimeout(() => {
+        quoteElement.innerText = `"${quotes[randomIndex]}"`;
+        quoteElement.style.opacity = 1;
+    }, 400);
 }
 
-// 4. Fetch and Render Data (The Core Logic)
+// 4. Fetch and Render Data into Sliders
 async function loadExamsData() {
-    // Relative path works better on GitHub Pages
-    const jsonPath = 'data/exams.json'; 
+    const haryanaSlider = document.getElementById('haryanaExamsGrid');
+    const popularSlider = document.getElementById('examsGrid');
     
-    const examsGrid = document.getElementById('examsGrid');
-    const haryanaGrid = document.getElementById('haryanaExamsGrid');
-
     try {
-        const response = await fetch(jsonPath);
-        if (!response.ok) throw new Error('Failed to load exams database');
+        const response = await fetch('./data/exams.json');
+        if (!response.ok) throw new Error('Failed to fetch exams.json');
         
         const data = await response.json();
         const allExams = data.exams;
-
-        // Clear "Loading..." messages
-        if (examsGrid) examsGrid.innerHTML = '';
-        if (haryanaGrid) haryanaGrid.innerHTML = '';
-
-        // Distribute Exams into Categories
+        
+        // स्लाइडर्स को खाली करें
+        if (haryanaSlider) haryanaSlider.innerHTML = '';
+        if (popularSlider) popularSlider.innerHTML = '';
+        
+        // डेटा को फ़िल्टर और रेंडर करें
         allExams.forEach(exam => {
             const cardHTML = generateExamCard(exam);
-
-            if (exam.category === 'haryana-special' && haryanaGrid) {
-                haryanaGrid.insertAdjacentHTML('beforeend', cardHTML);
-            } else if (examsGrid) {
-                examsGrid.insertAdjacentHTML('beforeend', cardHTML);
+            
+            // हरियाणा स्पेशल स्लाइडर के लिए
+            if (exam.category === 'haryana-special' && haryanaSlider) {
+                haryanaSlider.insertAdjacentHTML('beforeend', cardHTML);
+            }
+            // पॉपुलर क्विज़ स्लाइडर के लिए
+            else if (popularSlider) {
+                popularSlider.insertAdjacentHTML('beforeend', cardHTML);
             }
         });
-
+        
+        // अगर स्लाइडर खाली है तो मैसेज दिखाएँ
+        checkEmptySlider(haryanaSlider, "No Haryana tests available yet.");
+        checkEmptySlider(popularSlider, "More tests coming soon!");
+        
     } catch (error) {
-        console.error('Fetch Error:', error);
-        const errorMsg = `<p style="color: red; padding: 20px;">⚠️ Error loading tests. Please check your internet or path.</p>`;
-        if (examsGrid) examsGrid.innerHTML = errorMsg;
+        console.error('Error:', error);
+        const errorMsg = `<p style="color:red; padding:20px;">⚠️ Unable to load tests. Check your internet.</p>`;
+        if (haryanaSlider) haryanaSlider.innerHTML = errorMsg;
     }
 }
 
-// 5. Card Template (Matching your Professional CSS)
+// 5. Generate Card HTML (Consistent with Style.css)
 function generateExamCard(exam) {
-    // Create tags string
-    const tags = exam.tags.map(tag => `<span class="tag">#${tag}</span>`).join('');
-
+    const tagsHTML = exam.tags.map(tag => `<span class="tag">#${tag}</span>`).join('');
+    
     return `
         <div class="exam-card">
-            <div class="card-badge">${exam.status}</div>
+            <div class="card-badge">${exam.status || 'Live'}</div>
             <h3>${exam.title}</h3>
             <div class="tags-container">
-                ${tags}
+                ${tagsHTML}
             </div>
             <div class="exam-info">
-                <span>📊 ${exam.totalQuestions} Questions</span> | 
-                <span>⏱️ ${exam.timeLimit}</span>
+                📊 ${exam.totalQuestions} Questions | ⏱️ ${exam.timeLimit}
             </div>
             <p class="exam-desc">${exam.description}</p>
-            <a href="${exam.link}" class="btn btn-primary" style="display: block; width: 100%; text-align: center;">
+            <a href="${exam.link}" class="btn-start-test">
                 Start Free Test
             </a>
         </div>
     `;
 }
 
-// 6. Search Interaction (Sleek UI)
-const searchBtn = document.getElementById('searchBtn');
-if (searchBtn) {
-    searchBtn.addEventListener('click', () => {
-        const query = prompt("Which Haryana Exam are you preparing for?");
-        if (query) {
-            alert(`Looking for "${query}" tests... We are adding more tests daily!`);
-        }
-    });
+// 6. Helper: Check if slider is empty
+function checkEmptySlider(slider, msg) {
+    if (slider && slider.innerHTML === '') {
+        slider.innerHTML = `<p class="loading" style="width:100%; text-align:center;">${msg}</p>`;
+    }
+}
+
+// 7. Search Feature Sync
+function setupSearch() {
+    const searchBtn = document.getElementById('searchBtn');
+    if (searchBtn) {
+        searchBtn.onclick = () => {
+            const query = prompt("Which exam are you looking for?");
+            if (query) {
+                alert(`Searching for "${query}"... Feature coming soon!`);
+            }
+        };
+    }
 }
