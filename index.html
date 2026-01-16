@@ -28,8 +28,8 @@
     </script>
 </head>
 <body>
-
-    <!-- Universal Header -->
+    
+        <!-- Universal Header -->
     <header class="header">
         <nav class="nav-container">
             <div class="logo-area">
@@ -49,58 +49,39 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="container">
-                <h1 class="motivational-quote" id="dailyQuote">Loading daily inspiration...</h1>
-                <p class="hero-subtext">Targeting Haryana State Exams? Let's check your rank today!</p>
-                <div class="cta-buttons">
-                    <a href="#haryanaSpecial" class="btn btn-primary">Start Free Test</a>
-                    <a href="rankings.html" class="btn btn-secondary">View Leaderboard</a>
-                </div>
+   <main id="homeContent">
+    <!-- 1. Hero Section (यह हमेशा फिक्स रहेगा) -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="motivational-quote" id="dailyQuote">Loading daily inspiration...</h1>
+            <p class="hero-subtext">Targeting Haryana State Exams? Let's check your rank today!</p>
+            <div class="cta-buttons">
+                <!-- Anchor link को dynamic container की तरफ मोड़ें -->
+                <a href="#dynamicSectionsContainer" class="btn btn-primary">Start Free Test</a>
+                <a href="rankings.html" class="btn btn-secondary">View Leaderboard</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Notice Board -->
-        <section class="notices-section">
-            <div class="container">
-                <div id="noticesContainer" class="notice-slider">
-                    <!-- Dynamic Notices -->
-                </div>
+    <!-- 2. Notice Board (यह भी फिक्स रहेगा) -->
+    <section class="notices-section">
+        <div class="container">
+            <div id="noticesContainer" class="notice-slider">
+                <!-- Notices will be injected via JS -->
+                Loading latest updates...
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Category 1: Haryana Special Slider -->
-        <section id="haryanaSpecial" class="category-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title-main">Haryana Special 💎</h2>
-                    <a href="category.html?type=haryana-special" class="view-all-link">View All →</a>
-                </div>
-                <div class="slider-wrapper">
-                    <div id="haryanaExamsGrid" class="exams-slider">
-                        <p class="loading">Loading Haryana tests...</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Category 2: Popular Quizzes Slider -->
-        <section id="exams" class="category-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title-main">Popular Quizzes 🔥</h2>
-                    <a href="category.html?type=general" class="view-all-link">View All →</a>
-                </div>
-                <div class="slider-wrapper">
-                    <div id="examsGrid" class="exams-slider">
-                        <p class="loading">Loading available tests...</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <!-- 3. Dynamic Sections Catch-all Container (सबसे ज़रूरी) -->
+    <!-- 
+       यहाँ JavaScript अपने आप "Haryana Special", "Popular Quizzes", 
+       और भविष्य में "PDF Notes" जैसे सेक्शन्स बना देगी। 
+    -->
+    <div id="dynamicSectionsContainer">
+        <p class="loading">Building your MeritBoard...</p>
+    </div>
+</main>
 
     <!-- Universal Footer -->
     <footer class="footer">
