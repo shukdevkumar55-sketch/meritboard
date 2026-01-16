@@ -1,7 +1,7 @@
 {
   "testTitle": "HSSC CET Group C - Mock Test 1",
   "timeMinutes": 90,
-  "totalQuestions": 100,
+  "totalQuestions": 105,
   "sections": ["Haryana GK", "General Studies", "Reasoning", "Maths", "Computer"],
   "questions": [
   {
