@@ -1,7 +1,6 @@
 /* 
-    Project: MeritBoard
-    Theme: Professional, Bright & Motivational
-    Colors: Navy Blue (#1A237E) & Sky Blue (#03A9F4)
+    Project: MeritBoard - Home Styles
+    Update: Horizontal Sliders, View All Links & Professional UI Sync
     Author: Sukhdev Dahiya
 */
 
@@ -28,208 +27,245 @@ body {
     background-color: var(--bg-light);
     color: var(--text-dark);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
-h1, h2, h3, .logo-text {
-    font-family: 'Poppins', sans-serif;
-}
+h1, h2, h3, .logo-text { font-family: 'Poppins', sans-serif; }
 
 .container {
-    width: 90%;
+    width: 92%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* --- HEADER & NAVIGATION (Improved & Professional) --- */
+/* --- UNIVERSAL HEADER FIX (Home Page) --- */
 .header {
     background: var(--white);
+    border-bottom: 1px solid #e2e8f0;
     padding: 10px 0;
     position: sticky;
     top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    z-index: 2000;
+    height: 60px; /* फिक्स्ड हाइट ताकि अलाइनमेंट न बिगड़े */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* लोगो बाएं और सर्च दाएं */
     align-items: center;
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
-/* Original Logo Style Restored */
+/* Logo Area Alignment */
 .logo-link {
     text-decoration: none;
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    height: 32px; /* क्विज़ पेज के लोगो से मैच करता हुआ */
+    width: auto;
 }
 
 .logo-text {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     font-weight: 700;
-    color: var(--primary-color); /* Merit in Navy Blue */
+    color: var(--primary-color);
     letter-spacing: -0.5px;
+    margin: 0;
+    line-height: 1;
 }
 
 .logo-text span {
-    color: var(--secondary-color); /* Board in Sky Blue */
+    color: var(--secondary-color);
 }
 
-/* Professional Search Icon (No Borders) */
+/* Search Button - Premium Look (36px Height) */
 .search-icon-btn {
-    background: none;
-    border: none;
+    background: #f8fafc; /* हल्का सॉफ्ट बैकग्राउंड */
+    border: 1px solid #cbd5e0;
     color: var(--primary-color);
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px; /* मॉडर्न हल्का राउंडेड */
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: var(--transition);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
     outline: none;
 }
 
 .search-icon-btn:hover {
-    background-color: rgba(3, 169, 244, 0.1);
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.search-icon-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* मोबाइल के लिए छोटे फिक्स */
+@media (max-width: 480px) {
+    .header { height: 56px; }
+    .logo-text { font-size: 1.25rem; }
+    .nav-container { padding: 0 12px; }
 }
 
 /* --- HERO SECTION --- */
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: var(--white);
-    padding: 60px 0 80px;
+    padding: 50px 0 70px;
     text-align: center;
-    border-radius: 0 0 40px 40px;
+    border-radius: 0 0 35px 35px;
 }
 
-.motivational-quote {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.hero-subtext {
-    font-size: 1rem;
-    opacity: 0.9;
-    margin-bottom: 30px;
-}
+.motivational-quote { font-size: 1.6rem; font-weight: 600; margin-bottom: 12px; transition: opacity 0.3s; }
+.hero-subtext { font-size: 0.95rem; opacity: 0.9; margin-bottom: 25px; }
 
 .cta-buttons .btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 22px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    margin: 8px;
+    margin: 6px;
     transition: var(--transition);
 }
+.btn-primary { background: var(--success-color); color: var(--white); box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3); }
+.btn-secondary { background: rgba(255, 255, 255, 0.15); border: 1px solid var(--white); color: var(--white); }
 
-.btn-primary {
-    background: var(--success-color);
-    color: var(--white);
-    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+/* --- SECTION HEADER & VIEW ALL --- */
+.category-section { padding: 30px 0; }
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.btn-secondary {
-    background: transparent;
-    border: 2px solid var(--white);
-    color: var(--white);
-}
-
-.btn-primary:hover { transform: translateY(-3px); }
-
-/* --- EXAM CARDS & GRID --- */
-.section-title {
-    margin: 40px 0 20px;
-    font-size: 1.5rem;
+.section-title-main {
+    font-size: 1.25rem;
     color: var(--primary-color);
-    border-left: 6px solid var(--secondary-color);
-    padding-left: 15px;
-}
-
-.exams-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.exam-card {
-    background: var(--white);
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
     position: relative;
-    border: 1px solid rgba(0,0,0,0.03);
+    padding-left: 12px;
+}
+.section-title-main::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 4px; bottom: 4px;
+    width: 4px;
+    background: var(--secondary-color);
+    border-radius: 2px;
 }
 
-.exam-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+.view-all-link {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-decoration: none;
+    background: #e1f5fe;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: var(--transition);
+}
+.view-all-link:active { transform: scale(0.95); }
+
+/* --- HORIZONTAL SLIDER SYSTEM --- */
+.slider-wrapper {
+    margin: 0 -15px; /* मोबाइल पर किनारों तक स्लाइड करने के लिए */
+    padding: 0 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+.slider-wrapper::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+.exams-slider {
+    display: flex;
+    gap: 15px;
+    padding: 10px 5px 20px 5px; /* शैडो के लिए नीचे जगह */
+}
+
+/* --- EXAM CARD (Slider Optimized) --- */
+.exam-card {
+    min-width: 280px; /* फिक्स्ड विड्थ ताकि स्लाइडर सही काम करे */
+    background: var(--white);
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    border: 1px solid #edf2f7;
+    white-space: normal; /* टेक्स्ट को वापस नॉर्मल रैप करें */
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .card-badge {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    background: #E3F2FD;
+    top: 15px; right: 15px;
+    background: #e3f2fd;
     color: var(--secondary-color);
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 4px 12px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 6px;
+}
+
+.exam-card h3 { font-size: 1.1rem; color: var(--primary-color); margin-bottom: 10px; padding-right: 40px; }
+
+.tags-container { margin-bottom: 12px; }
+.tag { font-size: 0.75rem; color: var(--secondary-color); margin-right: 8px; font-weight: 600; }
+
+.exam-info { font-size: 0.85rem; color: #64748b; margin-bottom: 12px; font-weight: 500; }
+.exam-desc { font-size: 0.8rem; color: #7f8c8d; margin-bottom: 20px; min-height: 40px; }
+
+.btn-start-test {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
     border-radius: 10px;
-}
-
-.exam-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 12px;
-    font-size: 1.2rem;
-    padding-right: 50px;
-}
-
-.tags-container {
-    margin-bottom: 15px;
-}
-
-.tag {
-    font-size: 0.8rem;
-    color: var(--secondary-color);
-    margin-right: 8px;
-    font-weight: 500;
-}
-
-.exam-info {
+    font-weight: 700;
     font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 15px;
+    transition: var(--transition);
 }
+.btn-start-test:active { transform: scale(0.98); background: var(--secondary-color); }
 
-.exam-desc {
-    font-size: 0.85rem;
-    color: #777;
-    margin-bottom: 20px;
-}
+/* --- NOTICES --- */
+.notices-section { margin-top: -25px; margin-bottom: 10px; }
+.notice-slider { background: var(--white); padding: 12px 15px; border-radius: 12px; box-shadow: var(--shadow); border-left: 4px solid var(--secondary-color); font-size: 0.85rem; font-weight: 600; }
 
 /* --- FOOTER --- */
 .footer {
     background: var(--primary-color);
     color: var(--white);
     text-align: center;
-    padding: 50px 0;
-    margin-top: 80px;
+    padding: 40px 0;
+    margin-top: 40px;
 }
+.footer a { color: var(--secondary-color); text-decoration: none; font-weight: bold; }
 
-.footer a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-/* Responsive Fixes */
-@media (max-width: 768px) {
-    .motivational-quote { font-size: 1.4rem; }
-    .nav-container { width: 92%; }
-    .exams-grid { grid-template-columns: 1fr; }
+/* Desktop Grid Fix */
+@media (min-width: 1024px) {
+    .slider-wrapper { overflow: hidden; }
+    .exams-slider { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .exam-card { min-width: auto; }
 }
