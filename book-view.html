@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Reading Mode | MeritBoard</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/book-style.css">
+</head>
+<body class="reader-mode">
+
+    <header class="reader-header">
+        <div class="rh-left">
+            <a href="index.html" class="reader-back-btn">
+                <span class="icon-arrow">←</span> 
+                <span class="text-label">Library</span>
+            </a>
+        </div>
+        
+        <div class="rh-center" id="topBarTitle">Loading Book...</div>
+
+        <div class="rh-right">
+            <button id="shareBtn" class="tool-btn" aria-label="Share">
+                🔗 <span class="tooltip">Share</span>
+            </button>
+            <button id="toggleIndexBtn" class="tool-btn" aria-label="Table of Contents">
+                📑 <span class="tooltip">Index</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="reader-wrapper">
+        
+        <aside id="chapterSidebar" class="reader-sidebar">
+            <div class="sidebar-head">
+                <h3>Table of Contents</h3>
+                <button id="closeSidebar" class="close-sidebar-btn">&times;</button>
+            </div>
+            
+            <div class="sidebar-scroll">
+                <ul id="chapterList" class="chapter-nav-list">
+                    <li class="skeleton-list-item"></li>
+                    <li class="skeleton-list-item"></li>
+                    <li class="skeleton-list-item"></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="reading-area" id="readingArea">
+            
+            <div id="chapterHeader" class="chapter-floater">
+                <span class="skeleton-text short"></span>
+            </div>
+
+            <article id="pageContent" class="reader-paper">
+                <div class="skeleton-group">
+                    <div class="skeleton-h1"></div>
+                    <div class="skeleton-p"></div>
+                    <div class="skeleton-p"></div>
+                    <div class="skeleton-img"></div>
+                </div>
+            </article>
+
+            <div class="reader-footer-controls">
+                
+                <div class="nav-buttons-row">
+                    <button id="prevBtn" class="reader-nav-btn prev">
+                        <span>← Previous</span>
+                    </button>
+                    <button id="nextBtn" class="reader-nav-btn next">
+                        <span>Next →</span>
+                    </button>
+                </div>
+
+                <div class="pellets-wrapper">
+                    <div id="chapterPellets" class="pellets-track">
+                        </div>
+                </div>
+
+            </div>
+
+            <section class="reader-related-section">
+                <h3 class="related-title">You may also read</h3>
+                <div class="related-slider-container">
+                    <div id="relatedSlider" class="related-track">
+                        </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    </div>
+
+    <div id="shareModal" class="custom-modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Share this Book</h3>
+                <button class="close-modal" onclick="toggleShareModal()">&times;</button>
+            </div>
+            <div class="share-options">
+                <button class="share-tile whatsapp" onclick="shareSocial('whatsapp')">
+                    <span class="icon">💬</span> WhatsApp
+                </button>
+                <button class="share-tile twitter" onclick="shareSocial('twitter')">
+                    <span class="icon">🐦</span> Twitter
+                </button>
+                <button class="share-tile copy" onclick="shareSocial('copy')">
+                    <span class="icon">📋</span> Copy Link
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/book-core.js" charset="UTF-8"></script>
+</body>
+</html>
