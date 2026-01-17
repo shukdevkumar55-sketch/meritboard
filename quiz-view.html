@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mock Test | MeritBoard</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/quiz-style.css">
+</head>
+<body>
+
+    <header class="quiz-header">
+        <div class="header-main">
+            <div class="header-left">
+                <button onclick="history.back()" class="btn-icon">←</button>
+                <h1 id="quizTitle" class="quiz-title">Loading Test...</h1>
+            </div>
+                        <div class="header-right">
+                <button id="btnShareHeader" class="btn-icon" style="margin-right:5px;">🔗</button>
+                
+                <div class="timer-badge">
+                    <span>⏳</span>
+                    <span id="timerDisplay">00:00</span>
+                </div>
+                <button id="headerSubmitBtn" class="btn-submit-sm">Submit</button>
+            </div>
+
+        </div>
+
+        <div class="header-sub">
+            <div id="sectionTabs" class="tabs-container">
+                <span class="tab active">Loading...</span>
+            </div>
+            <button id="langToggle" class="lang-btn">A/अ</button>
+        </div>
+    </header>
+
+    <main class="quiz-body">
+        <div class="container">
+            <div class="question-card">
+                <div class="q-meta">
+                    <span class="q-badge" id="qNumber">Q.1</span>
+                    <div class="q-marks">
+                        <span class="plus">+1.0</span>
+                        <span class="minus">-0.25</span>
+                    </div>
+                </div>
+
+                <div class="q-content" id="questionText">
+                    <div class="skeleton-line" style="width:90%"></div>
+                    <div class="skeleton-line" style="width:70%"></div>
+                </div>
+
+                <div class="q-options" id="optionsContainer">
+                    <div class="skeleton-opt"></div>
+                    <div class="skeleton-opt"></div>
+                    <div class="skeleton-opt"></div>
+                    <div class="skeleton-opt"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="quiz-footer">
+        <button id="btnPrev" class="q-btn btn-sec">Previous</button>
+        <button id="btnReview" class="q-btn btn-warn">Review</button>
+        <button id="btnNext" class="q-btn btn-prim">Save & Next</button>
+        <button id="btnPalette" class="q-btn btn-icon">🔢</button>
+    </footer>
+
+    <div id="paletteOverlay" class="overlay hidden">
+        <div class="drawer">
+            <div class="drawer-head">
+                <h3>Question Palette</h3>
+                <button id="closePalette">✕</button>
+            </div>
+            <div class="palette-grid" id="paletteGrid">
+                </div>
+            <div class="palette-info">
+                <span><i class="dot ans"></i> Ans</span>
+                <span><i class="dot not"></i> Not Ans</span>
+                <span><i class="dot rev"></i> Rev</span>
+                <span><i class="dot skip"></i> Skip</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="submitModal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <h3>Submit Test?</h3>
+            <p>Are you sure you want to finish the test?</p>
+            <div class="modal-actions">
+                <button id="cancelSubmit" class="btn-cancel">Cancel</button>
+                <button id="confirmSubmit" class="btn-confirm-red">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultScreen" class="result-overlay hidden">
+        <div class="result-container">
+            <div class="result-card">
+                <h2>Score Summary 📊</h2>
+                <div class="score-big">
+                    <span id="scoreObtained">0</span> <small>/ <span id="scoreTotal">0</span></small>
+                </div>
+                <div class="stats-row">
+                    <div class="stat"><b id="resCorrect" style="color:green">0</b> Correct</div>
+                    <div class="stat"><b id="resWrong" style="color:red">0</b> Wrong</div>
+                    <div class="stat"><b id="resAccuracy">0%</b> Acc.</div>
+                </div>
+                            <div class="result-actions" style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
+                <button id="btnShareResult" class="btn-whatsapp">Share Score on WhatsApp 🟢</button>
+                <button onclick="window.location.href='index.html'" class="btn-home">Go Home</button>
+            </div>
+
+            </div>
+
+            <div class="analysis-box">
+                <h4>Section Performance</h4>
+                <div id="sectionAnalysis"></div>
+            </div>
+
+            <div class="solutions-box">
+                <h4>Detailed Solutions</h4>
+                <div id="solutionsList"></div>
+            </div>
+
+            <button onclick="window.location.href='index.html'" class="btn-home">Go Home</button>
+        </div>
+    </div>
+
+    <script src="js/quiz-core.js"></script>
+
+</body>
+</html>
