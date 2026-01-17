@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     
-    <title>MeritBoard | Loading...</title>
+    <title>MeritBoard | Prepare. Learn. Succeed.</title>
     <meta name="description" content="Universal learning platform for Mock Tests, Video Classes, PDF Notes, and Educational Blogs.">
     <meta name="author" content="MeritBoard Team">
     <link rel="canonical" href="https://yourusername.github.io/meritboard/">
@@ -15,7 +15,9 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="MeritBoard - Prepare. Learn. Succeed.">
     <meta property="og:description" content="Free access to high-quality quizzes, video lectures, and study notes.">
-    <meta property="og:image" content="assets/og-image.jpg"> <meta property="og:url" content="https://yourusername.github.io/meritboard/">
+    <meta property="og:image" content="assets/og-image.jpg"> 
+    <meta property="og:url" content="https://yourusername.github.io/meritboard/">
+    
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +25,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home-layout.css"> <script type="application/ld+json">
+    
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
@@ -43,57 +46,65 @@
         <div class="header-container container">
             
             <div id="brandLogo" class="brand-area">
-                <div class="skeleton-box" style="width:120px; height:30px;"></div>
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Merit<span>Board</span></span>
+                </a>
             </div>
 
             <nav id="mainNav" class="desktop-nav hidden-mobile">
-                </nav>
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="#mock-tests" class="nav-item">Mock Tests</a>
+                <a href="#library" class="nav-item">Library</a>
+            </nav>
 
-            <div class="header-actions">
-    <button id="searchTrigger" class="btn-icon">
-        🔍 </button>
+            <div class="header-actions" style="display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; align-items: center !important; gap: 10px !important;">
     
-    <button id="themeToggle" class="btn-icon">🌙</button>
+                <div class="search-wrapper">
+                    <div class="search-input-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
+                        <button id="clearSearch" class="clear-btn hidden">&times;</button>
+                    </div>
+                    
+                    <div id="liveSearchResults" class="search-dropdown">
+                        <div class="search-status">Start typing...</div>
+                    </div>
+                </div>
 
-    <button id="mobileMenuBtn" class="btn-icon mobile-menu-btn">
-        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-    </button>
-</div>
+                <button id="themeToggle" class="btn-icon">🌙</button>
+
+                <button id="mobileMenuBtn" class="btn-icon mobile-only">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+
+            </div>
 
         </div>
     </header>
-
-    <div id="searchOverlay" class="search-overlay hidden">
-        <div class="search-container">
-            <input type="text" id="globalSearchInput" placeholder="Search for quizzes, videos, notes..." autofocus>
-            <button id="closeSearch" class="close-btn">&times;</button>
-        </div>
-        <div id="searchResults" class="search-results-container container"></div>
-    </div>
 
     <section class="hero-wrapper">
         <div class="container hero-content">
             <h1 class="hero-title">Prepare. <span class="highlight">Master.</span> Succeed.</h1>
             <p class="hero-subtitle">Unlimited access to Mock Tests, Video Classes, and Study Notes.</p>
             <div class="hero-cta">
-                <a href="search.html?type=quiz" class="btn btn-primary">Start Practicing</a>
-                <a href="#homeContentFeed" class="btn btn-outline">Explore Content</a>
+                <a href="#mock-tests" class="btn btn-primary">Start Practicing</a>
+                <a href="#library" class="btn btn-outline">Explore Content</a>
             </div>
         </div>
     </section>
 
     <main id="dynamicContent" class="main-feed container">
-    
-    <div class="skeleton-section">
-        <div class="skeleton-box" style="width:200px; height:24px; margin-bottom:20px;"></div>
-        <div class="skeleton-grid">
-            <div class="skeleton-card"></div>
-            <div class="skeleton-card"></div>
-            <div class="skeleton-card"></div>
+        
+        <div class="skeleton-section">
+            <div class="skeleton-box" style="width:200px; height:24px; margin-bottom:20px; background:#e0e0e0; border-radius:4px;"></div>
+            <div class="skeleton-grid" style="display:flex; gap:15px; overflow:hidden;">
+                <div class="skeleton-card" style="width:250px; height:250px; background:#f5f5f5; border-radius:12px;"></div>
+                <div class="skeleton-card" style="width:250px; height:250px; background:#f5f5f5; border-radius:12px;"></div>
+                <div class="skeleton-card" style="width:250px; height:250px; background:#f5f5f5; border-radius:12px;"></div>
+            </div>
         </div>
-    </div>
 
-</main>
+    </main>
 
     <footer id="dynamicFooter" class="site-footer">
         <div class="container" style="text-align:center; opacity:0.6;">
@@ -102,7 +113,7 @@
     </footer>
 
     <script src="js/app-core.js"></script> 
-    <script src="js/home-loader.js" charset="UTF-8"></script>
+    <script src="js/home-loader.js"></script>
 
 </body>
 </html>
