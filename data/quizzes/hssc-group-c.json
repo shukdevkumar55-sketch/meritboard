@@ -885,6 +885,126 @@ A
 "options_hi": ["पंचकूला", "फरीदाबाद", "गुरुग्राम", "करनाल", "अनुत्तरित प्रश्न"],
 "answer": 2,
 "explanation": "The Global City is a mixed-use township being developed in Gurugram (near Dwarka Expressway) by HSIIDC to act as a central business district."
+},
+{
+"id": 89,
+"section": "Road Safety & Traffic Rules",
+"q_en": "According to the Motor Vehicles (Amendment) Act, 2019, what is the penalty for 'driving without a license'?",
+"q_hi": "मोटर वाहन (संशोधन) अधिनियम, 2019 के अनुसार, 'बिना लाइसेंस के गाड़ी चलाने' पर कितना जुर्माना है?",
+"options_en": ["₹500", "₹1,000", "₹5,000", "₹10,000", "Not Attempted"],
+"options_hi": ["₹500", "₹1,000", "₹5,000", "₹10,000", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "Under Section 181 of the MV Act, the penalty for driving without a license has been increased from ₹500 to ₹5,000."
+},
+{
+"id": 90,
+"section": "Road Safety & Traffic Rules",
+"q_en": "What does a 'Green Number Plate' with white letters indicate on a vehicle in India?",
+"q_hi": "भारत में किसी वाहन पर सफेद अक्षरों वाली 'हरी नंबर प्लेट' (Green Number Plate) क्या दर्शाती है?",
+"options_en": ["Electric Vehicle (Private)", "Electric Vehicle (Commercial)", "Diplomatic Vehicle", "Rental Vehicle", "Not Attempted"],
+"options_hi": ["इलेक्ट्रिक वाहन (निजी)", "इलेक्ट्रिक वाहन (वाणिज्यिक)", "राजनयिक वाहन", "किराए का वाहन (Rental)", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "Green plate with White letters = Private Electric Vehicle. Green plate with Yellow letters = Commercial Electric Vehicle."
+},
+{
+"id": 91,
+"section": "Environmental Studies",
+"q_en": "Which of the following wetlands in Haryana is recognized as a 'Ramsar Site'?",
+"q_hi": "हरियाणा की निम्नलिखित में से किस आर्द्रभूमि (Wetland) को 'रामसर स्थल' के रूप में मान्यता प्राप्त है?",
+"options_en": ["Bhindawas Wildlife Sanctuary", "Sultanpur National Park", "Both A and B", "Neither A nor B", "Not Attempted"],
+"options_hi": ["भिंडावास वन्यजीव अभयारण्य", "सुल्तानपुर राष्ट्रीय उद्यान", "A और B दोनों", "न तो A और न ही B", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "Both Sultanpur National Park (Gurugram) and Bhindawas Wildlife Sanctuary (Jhajjar) were declared Ramsar sites in 2021. They are crucial for bird migration."
+},
+{
+"id": 92,
+"section": "Disaster Management",
+"q_en": "Who is the ex-officio Chairman of the National Disaster Management Authority (NDMA) in India?",
+"q_hi": "भारत में राष्ट्रीय आपदा प्रबंधन प्राधिकरण (NDMA) का पदेन अध्यक्ष (Ex-officio Chairman) कौन होता है?",
+"options_en": ["Home Minister", "Prime Minister", "President", "Environment Minister", "Not Attempted"],
+"options_hi": ["गृह मंत्री", "प्रधान मंत्री", "राष्ट्रपति", "पर्यावरण मंत्री", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "The Prime Minister is the ex-officio Chairman of the NDMA. At the state level (SDMA), it is the Chief Minister."
+},
+{
+"id": 93,
+"section": "Haryana Welfare Schemes",
+"q_en": "Under the 'Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana' (Dayalu), what is the financial assistance provided for the accidental death of a person aged 25 to 40 years?",
+"q_hi": "'दीन दयाल उपाध्याय अंत्योदय परिवार सुरक्षा योजना' (दयालु) के तहत, 25 से 40 वर्ष की आयु के व्यक्ति की आकस्मिक मृत्यु के लिए कितनी वित्तीय सहायता प्रदान की जाती है?",
+"options_en": ["₹1 Lakh", "₹2 Lakh", "₹3 Lakh", "₹5 Lakh", "Not Attempted"],
+"options_hi": ["₹1 लाख", "₹2 लाख", "₹3 लाख", "₹5 लाख", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "The scheme provides assistance based on age: Age 6-12 (₹1L), 12-18 (₹2L), 18-25 (₹3L), 25-40 (₹5L), and 40-60 (₹2L)."
+},
+{
+"id": 94,
+"section": "Haryana Geography",
+"q_en": "The soil found in the 'Nardak' region (Karnal/Kurukshetra) of Haryana is locally known as:",
+"q_hi": "हरियाणा के 'नरदक' क्षेत्र (करनाल/कुरुक्षेत्र) में पाई जाने वाली मिट्टी को स्थानीय रूप से किस नाम से जाना जाता है?",
+"options_en": ["Solar", "Dakar", "Bhur", "Kandi", "Not Attempted"],
+"options_hi": ["सो सोलर (Solar)", "डाकर (Dakar)", "भूर (Bhur)", "कंडी (Kandi)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "The heavy clay soil found in Thanesar, Fatehabad, and Karnal (Nardak region) is locally called 'Dakar' or 'Roshi'. 'Solar' is hard clay."
+},
+{
+"id": 95,
+"section": "Quantitative Aptitude (Advanced)",
+"q_en": "What is the probability that a Leap Year selected at random will contain 53 Sundays?",
+"q_hi": "यादृच्छिक रूप से चुने गए एक लीप वर्ष (Leap Year) में 53 रविवार होने की प्रायिकता (Probability) क्या है?",
+"options_en": ["1/7", "2/7", "5/7", "3/7", "Not Attempted"],
+"options_hi": ["1/7", "2/7", "5/7", "3/7", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "A leap year has 366 days = 52 weeks + 2 extra days. These 2 days can be (Sat, Sun), (Sun, Mon), (Mon, Tue)... etc. Total outcomes = 7. Favorable outcomes (containing Sunday) = 2 (Sat-Sun, Sun-Mon). Probability = 2/7."
+},
+{
+"id": 96,
+"section": "Computer Awareness",
+"q_en": "In the context of Network Security, what is 'Phishing'?",
+"q_hi": "नेटवर्क सुरक्षा के संदर्भ में, 'फिशिंग' (Phishing) क्या है?",
+"options_en": ["A type of virus", "A technique to bypass firewalls", "Fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity", "Scanning for open ports", "Not Attempted"],
+"options_hi": ["एक प्रकार का वायरस", "फायरवॉल को बायपास करने की तकनीक", "किसी विश्वसनीय इकाई के रूप में भेष बदलकर संवेदनशील जानकारी प्राप्त करने का धोखाधड़ी वाला प्रयास", "खुले पोर्ट के लिए स्कैनिंग", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "Phishing involves sending fraudulent emails or messages that appear to come from a legitimate source (like a bank) to steal sensitive data like passwords or credit card numbers."
+},
+{
+"id": 97,
+"section": "Haryana Current Affairs",
+"q_en": "Which Haryanvi player won the Gold Medal in Javelin Throw at the Paris Paralympics (recently concluded)?",
+"q_hi": "हाल ही में संपन्न पेरिस पैरालिंपिक में किस हरियाणवी खिलाड़ी ने भाला फेंक (Javelin Throw) में स्वर्ण पदक जीता?",
+"options_en": ["Sumit Antil", "Neeraj Chopra", "Yogesh Kathuniya", "Devendra Jhajharia", "Not Attempted"],
+"options_hi": ["सुमित अंतिल", "नीरज चोपड़ा", "योगेश कथूनिया", "देवेंद्र झाझरिया", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "Sumit Antil (from Sonipat) won the Gold in the F64 category with a record-breaking throw. Neeraj Chopra competes in the Olympics (not Paralympics)."
+},
+{
+"id": 98,
+"section": "General Science",
+"q_en": "What is the main cause of 'Acid Rain'?",
+"q_hi": "'अम्लीय वर्षा' (Acid Rain) का मुख्य कारण क्या है?",
+"options_en": ["Excess of CO2 and CO", "Emissions of Sulfur Dioxide (SO2) and Nitrogen Oxides (NOx)", "Ozone layer depletion", "Dust particles", "Not Attempted"],
+"options_hi": ["CO2 और CO की अधिकता", "सल्फर डाइऑक्साइड (SO2) और नाइट्रोजन ऑक्साइड (NOx) का उत्सर्जन", "ओजोन परत का क्षरण", "धूल के कण", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "Acid rain is caused by chemical reactions that begin when compounds like sulfur dioxide and nitrogen oxides are released into the air and mix with water droplets to form Sulfuric and Nitric acid."
+},
+{
+"id": 99,
+"section": "Haryana Polity",
+"q_en": "How many Administrative Divisions (Mandal) are there in Haryana currently?",
+"q_hi": "वर्तमान में हरियाणा में कितने प्रशासनिक मंडल (Administrative Divisions) हैं?",
+"options_en": ["4", "5", "6", "7", "Not Attempted"],
+"options_hi": ["4", "5", "6", "7", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "There are 6 Divisions: Ambala, Rohtak, Gurugram, Hisar (Old 4) + Karnal and Faridabad (New 2). Rohtak is the largest division."
+},
+{
+"id": 100,
+"section": "General Awareness (Economy/Schemes)",
+"q_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY) covers which of the following risks?",
+"q_hi": "प्रधानमंत्री फसल बीमा योजना (PMFBY) निम्नलिखित में से किन जोखिमों को कवर करती है?",
+"options_en": ["Prevented Sowing", "Mid-season adversity", "Post-harvest losses", "All of the above", "Not Attempted"],
+"options_hi": ["बुवाई न हो पाना (Prevented Sowing)", "मध्य मौसम की प्रतिकूलता", "फसल कटाई के बाद का नुकसान", "उपरोक्त सभी", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "PMFBY provides comprehensive insurance cover against failure of the crop thus helping in stabilizing the income of the farmers. It covers prevented sowing, standing crop (sowing to harvesting), post-harvest losses, and localized calamities."
 }
 ]
 }
