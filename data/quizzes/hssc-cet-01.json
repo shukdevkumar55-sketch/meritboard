@@ -1,0 +1,34 @@
+{
+  "testTitle": "HSSC CET Group C - Mock Test 1",
+  "timeMinutes": 90,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Haryana GK",
+      "q_en": "Who is known as the 'Architect of Modern Haryana'?",
+      "q_hi": "आधुनिक हरियाणा का निर्माता किसे कहा जाता है?",
+      "options_en": ["Ch. Devi Lal", "Bansi Lal", "Bhajan Lal", "Manohar Lal"],
+      "options_hi": ["चौ. देवी लाल", "बंसी लाल", "भजन लाल", "मनोहर लाल"],
+      "answer": 1,
+      "explanation": "Ch. Bansi Lal is credited with the electrification and development of Haryana."
+    },
+    {
+      "id": 2,
+      "section": "General Studies",
+      "q_en": "Which article of the Indian Constitution deals with the Election Commission?",
+      "q_hi": "भारतीय संविधान का कौन सा अनुच्छेद चुनाव आयोग से संबंधित है?",
+      "options_en": ["Article 324", "Article 356", "Article 370", "Article 280"],
+      "options_hi": ["अनुच्छेद 324", "अनुच्छेद 356", "अनुच्छेद 370", "अनुच्छेद 280"],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "section": "Maths",
+      "q_en": "If x + 1/x = 5, find the value of x² + 1/x².",
+      "q_hi": "यदि x + 1/x = 5 है, तो x² + 1/x² का मान ज्ञात करें।",
+      "options_en": ["23", "27", "25", "10"],
+      "options_hi": ["23", "27", "25", "10"],
+      "answer": 0
+    }
+  ]
+}
