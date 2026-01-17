@@ -1,37 +1,49 @@
-/* 
-    Project: MeritBoard - Universal Home Styles
-    Update: Dynamic Sliders, Multi-content Support (Quiz/PDF/Jobs), Fixed Header
-    Author: Sukhdev Dahiya
-*/
+/* =========================================
+   Project: MeritBoard Universal
+   File: css/style.css
+   Version: 6.0 (Global Styles Only - Feed Logic Removed)
+   ========================================= */
 
+/* --- 1. GLOBAL VARIABLES --- */
 :root {
-    --primary-color: #1A237E;    /* Navy Blue */
-    --secondary-color: #03A9F4;  /* Sky Blue */
-    --success-color: #27ae60;    /* Victory Green */
-    --warning-color: #f39c12;    /* Job Alert Orange */
-    --bg-light: #F8F9FA;         /* Soft Background */
-    --white: #FFFFFF;
-    --text-dark: #212121;
-    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --primary-color: #1A237E;
+    --accent-color: #03A9F4;
+    --text-main: #212121;
+    --text-muted: #757575;
+    --bg-body: #F4F6F8;
+    --bg-card: #FFFFFF;
+    --bg-header: rgba(255, 255, 255, 0.98);
+    --border-color: #E0E0E0;
+    
+    /* Content Colors */
+    --color-quiz: #3f51b5;
+    --color-video: #c0392b;
+    --color-pdf: #009688;
+    --color-blog: #f39c12;
+
+    /* Settings */
+    --header-height: 65px;
+    --border-radius: 12px;
+    --shadow-sm: 0 4px 6px rgba(0,0,0,0.05);
+    --shadow-md: 0 8px 20px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
 }
 
-/* 1. Global Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* --- 2. RESET --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-light);
-    color: var(--text-dark);
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    padding-top: var(--header-height);
     line-height: 1.6;
     overflow-x: hidden;
 }
-
-h1, h2, h3, .logo-text { font-family: 'Poppins', sans-serif; }
+a { text-decoration: none; color: inherit; transition: var(--transition); }
+button { font-family: inherit; border: none; cursor: pointer; background: none; outline: none; }
+img { max-width: 100%; display: block; }
+ul { list-style: none; }
 
 .container {
     width: 92%;
@@ -39,216 +51,182 @@ h1, h2, h3, .logo-text { font-family: 'Poppins', sans-serif; }
     margin: 0 auto;
 }
 
-/* --- UNIVERSAL HEADER FIX (Home Page) --- */
-.header {
-    background: var(--white);
-    border-bottom: 1px solid #e2e8f0;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-    height: 60px; /* फिक्स्ड हाइट ताकि अलाइनमेंट न बिगड़े */
+/* --- 3. HEADER (FIXED ALIGNMENT) --- */
+.site-header {
+    background-color: var(--bg-header);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    height: var(--header-height);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between; /* लोगो बाएं और सर्च दाएं */
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-/* Logo Area Alignment */
-.logo-link {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.logo-img {
-    height: 32px; /* क्विज़ पेज के लोगो से मैच करता हुआ */
-    width: auto;
-}
-
-.logo-text {
-    font-size: 1.45rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    letter-spacing: -0.5px;
-    margin: 0;
-    line-height: 1;
-}
-
-.logo-text span {
-    color: var(--secondary-color);
-}
-
-/* Search Button - Premium Look (36px Height) */
-.search-icon-btn {
-    background: #f8fafc; /* हल्का सॉफ्ट बैकग्राउंड */
-    border: 1px solid #cbd5e0;
-    color: var(--primary-color);
-    width: 38px;
-    height: 38px;
-    border-radius: 10px; /* मॉडर्न हल्का राउंडेड */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 0;
-    outline: none;
-}
-
-.search-icon-btn:hover {
-    background-color: var(--primary-color);
-    color: var(--white);
-    border-color: var(--primary-color);
-    transform: translateY(-1px);
-}
-
-.search-icon-btn svg {
-    width: 20px;
-    height: 20px;
-}
-
-/* मोबाइल के लिए छोटे फिक्स */
-@media (max-width: 480px) {
-    .header { height: 56px; }
-    .logo-text { font-size: 1.25rem; }
-    .nav-container { padding: 0 12px; }
-}
-/* 3. HERO SECTION */
-.hero-section {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: var(--white);
-    padding: 50px 0 70px;
-    text-align: center;
-    border-radius: 0 0 35px 35px;
-}
-
-.motivational-quote { font-size: 1.6rem; font-weight: 600; margin-bottom: 12px; min-height: 2.5rem; transition: opacity 0.4s; }
-.hero-subtext { font-size: 0.95rem; opacity: 0.9; margin-bottom: 25px; }
-
-.cta-buttons .btn {
-    display: inline-block;
-    padding: 12px 22px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 6px;
-    transition: var(--transition);
-}
-.btn-primary { background: var(--success-color); color: var(--white); box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3); }
-.btn-secondary { background: rgba(255, 255, 255, 0.15); border: 1px solid var(--white); color: var(--white); }
-
-/* 4. DYNAMIC SECTIONS & SLIDERS */
-.category-section { padding: 30px 0; }
-
-.section-header {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
 }
 
-.section-title-main {
-    font-size: 1.25rem;
+/* LOGO */
+.brand-area { flex-shrink: 0; z-index: 1002; }
+.brand-area .logo-link { display: flex; align-items: center; gap: 8px; }
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--primary-color);
-    position: relative;
-    padding-left: 12px;
+    letter-spacing: -0.5px;
+    line-height: 1;
 }
-.section-title-main::before {
-    content: ""; position: absolute; left: 0; top: 4px; bottom: 4px; width: 4px; background: var(--secondary-color); border-radius: 2px;
-}
+.logo-text span { color: var(--accent-color); }
 
+/* DESKTOP NAV */
+.desktop-nav { display: flex; gap: 25px; align-items: center; }
+.nav-item {
+    font-weight: 500; color: var(--text-main); font-size: 0.95rem; position: relative; padding: 5px 0;
+}
+.nav-item:hover, .nav-item.active { color: var(--accent-color); }
+.nav-item::after {
+    content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px;
+    background-color: var(--accent-color); transition: var(--transition);
+}
+.nav-item:hover::after { width: 100%; }
+
+/* HEADER ACTIONS */
+.header-actions { display: flex; align-items: center; gap: 12px; }
+.btn-icon {
+    width: 38px; height: 38px; border-radius: 50%; background: #f1f3f4;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-main); transition: var(--transition);
+}
+.btn-icon:hover { background: var(--accent-color); color: white; }
+.mobile-only { display: none; }
+
+/* --- 4. SEARCH OVERLAY --- */
+.search-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+    background: rgba(255, 255, 255, 0.98); z-index: 2000;
+    display: none; flex-direction: column; padding-top: 80px;
+}
+.search-overlay.active { display: flex; animation: fadeIn 0.2s ease-in-out; }
+.search-container { width: 90%; max-width: 600px; margin: 0 auto; border-bottom: 2px solid var(--accent-color); position: relative; }
+#globalSearchInput {
+    width: 100%; font-size: 1.5rem; padding: 10px 0; border: none;
+    background: transparent; outline: none; color: var(--text-main);
+}
+.close-btn { position: absolute; right: 0; top: -40px; font-size: 2rem; color: var(--text-muted); padding: 5px; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- 5. HERO & CONTENT --- */
+.hero-wrapper {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #283593 100%);
+    color: white; padding: 60px 0 80px; text-align: center;
+    border-radius: 0 0 40px 40px; margin-bottom: 40px;
+}
+.hero-title { font-family: 'Poppins', sans-serif; font-size: 2.2rem; font-weight: 700; margin-bottom: 10px; line-height: 1.2; }
+.hero-title span { color: var(--accent-color); }
+.hero-subtitle { font-size: 1rem; opacity: 0.9; max-width: 500px; margin: 0 auto 25px; }
+
+.btn { padding: 12px 24px; border-radius: 50px; font-weight: 600; display: inline-block; }
+.btn-primary { background: var(--accent-color); color: white; box-shadow: 0 4px 10px rgba(3,169,244,0.3); }
+.btn-outline { border: 2px solid rgba(255,255,255,0.4); color: white; margin-left: 10px; }
+
+.content-section { margin-bottom: 50px; }
+
+/* SECTION HEADER */
+.section-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px; border-left: 5px solid var(--accent-color);
+    padding-left: 15px; padding-right: 5px;
+}
+.section-title { font-family: 'Poppins', sans-serif; font-size: 1.3rem; color: var(--text-main); font-weight: 700; }
 .view-all-link {
-    font-size: 0.85rem; font-weight: 700; color: var(--secondary-color); text-decoration: none;
-    background: #e1f5fe; padding: 6px 12px; border-radius: 6px; transition: var(--transition);
+    font-size: 0.9rem; font-weight: 600; color: var(--accent-color);
+    text-decoration: none; background: rgba(3, 169, 244, 0.1);
+    padding: 6px 12px; border-radius: 20px; transition: var(--transition);
 }
+.view-all-link:hover { background: var(--accent-color); color: white; transform: translateX(3px); }
 
-/* Horizontal Slider */
+/* --- 6. SLIDER LOGIC --- */
 .slider-wrapper {
-    margin: 0 -15px; padding: 0 15px;
-    overflow-x: auto; white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-slider {
+    display: flex;            
+    gap: 15px;                
+    overflow-x: auto;         
+    padding-bottom: 15px;     
+    scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-}
-.slider-wrapper::-webkit-scrollbar { display: none; }
-
-.exams-slider { display: flex; gap: 15px; padding: 10px 5px 20px 5px; }
-
-/* 5. UNIVERSAL CARD DESIGN (Quiz, PDF, Jobs) */
-.exam-card {
-    min-width: 285px; /* Mobile Friendly Width */
-    background: var(--white);
-    padding: 22px;
-    border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    border: 1px solid #edf2f7;
-    white-space: normal;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: var(--transition);
+    scroll-snap-type: x mandatory;
 }
 
-.card-badge {
-    position: absolute; top: 18px; right: 18px;
-    background: #e3f2fd; color: var(--secondary-color);
-    font-size: 0.7rem; font-weight: 800; padding: 3px 10px; border-radius: 6px;
+/* Hide Scrollbar */
+.card-slider::-webkit-scrollbar { display: none; }
+.card-slider { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* --- 7. CARDS --- */
+.content-card {
+    min-width: 260px; max-width: 260px;
+    background: var(--bg-card); border-radius: 12px;
+    box-shadow: var(--shadow-sm); border: 1px solid var(--border-color);
+    overflow: hidden; display: flex; flex-direction: column; transition: var(--transition);
+    flex-shrink: 0;           
+    scroll-snap-align: start;
+}
+.content-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.card-thumbnail-wrapper { height: 150px; background: #eee; position: relative; }
+.card-img { width: 100%; height: 100%; object-fit: cover; }
+.card-badge { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; font-size: 0.7rem; padding: 3px 8px; border-radius: 4px; }
+.card-body { padding: 15px; display: flex; flex-direction: column; flex-grow: 1; }
+.card-title { font-size: 1rem; font-weight: 700; margin-bottom: 10px; line-height: 1.4; color: var(--text-main); }
+.card-meta { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px; font-weight: 600; }
+.card-btn { display: block; text-align: center; padding: 10px; border-radius: 6px; font-size: 0.9rem; font-weight: 600; color: white; margin-top: auto; }
+
+/* Button Colors */
+.btn-quiz { background-color: var(--color-quiz); }
+.btn-video { background-color: var(--color-video); }
+.btn-pdf { background-color: var(--color-pdf); }
+.btn-blog { background-color: var(--color-blog); }
+
+/* --- 8. FOOTER --- */
+.site-footer { background-color: var(--primary-color); color: white; padding: 40px 0 20px; text-align: center; margin-top: 50px; }
+.footer-social { display: flex; justify-content: center; gap: 15px; margin: 20px 0; }
+.social-icon { width: 36px; height: 36px; border: 1px solid rgba(255,255,255,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; }
+
+/* --- 9. DARK MODE --- */
+body.dark-mode { --bg-body: #121212; --bg-card: #1E1E1E; --bg-header: rgba(18, 18, 18, 0.95); --text-main: #E0E0E0; --text-muted: #B0B0B0; --border-color: #333; }
+body.dark-mode .btn-icon { background: #333; color: white; }
+
+/* --- 10. MOBILE BREAKPOINTS --- */
+@media (max-width: 1024px) {
+    .desktop-nav { display: none !important; }
+    .mobile-only { display: flex; }
+    .header-container { padding: 0 10px; }
+    .logo-text { font-size: 1.3rem; }
+    .btn-icon { width: 34px; height: 34px; }
+    .desktop-nav.active {
+        display: flex !important; flex-direction: column; position: fixed; top: var(--header-height);
+        left: 0; width: 100%; background-color: var(--bg-card); padding: 15px;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1); border-bottom: 1px solid var(--border-color); z-index: 999;
+        animation: slideDown 0.3s ease;
+    }
+    .desktop-nav.active .nav-item { padding: 12px 10px; font-size: 1.1rem; border-bottom: 1px solid rgba(0,0,0,0.05); width: 100%; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    
+    /* View All Fix for Mobile */
+    .section-title { font-size: 1.1rem; }
+    .view-all-link { font-size: 0.8rem; padding: 5px 10px; }
 }
 
-.exam-card h3 { font-size: 1.15rem; color: var(--primary-color); margin-bottom: 10px; padding-right: 45px; line-height: 1.4; }
-
-.tags-container { margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 5px; }
-.tag { font-size: 0.7rem; color: var(--secondary-color); font-weight: 600; background: #f0f9ff; padding: 2px 8px; border-radius: 4px; }
-
-.exam-info { font-size: 0.85rem; color: #64748b; margin-bottom: 12px; font-weight: 600; }
-.exam-desc { font-size: 0.82rem; color: #7f8c8d; margin-bottom: 20px; min-height: 45px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-
-/* Universal Button Colors by Content Type */
-.btn-start-test {
-    background: var(--primary-color);
-    color: white; text-align: center; text-decoration: none;
-    padding: 12px; border-radius: 12px; font-weight: 700; font-size: 0.95rem; transition: var(--transition);
-}
-
-/* PDF Content Style */
-.exam-card a[href$=".pdf"], .btn-start-test[data-type="pdf"] {
-    background: var(--success-color);
-}
-
-/* Job Alert Style */
-.btn-start-test[data-type="jobs"] {
-    background: var(--warning-color);
-}
-
-.btn-start-test:active { transform: scale(0.97); opacity: 0.9; }
-
-/* 6. NOTICES */
-.notices-section { margin-top: -25px; margin-bottom: 15px; }
-.notice-slider { background: var(--white); padding: 15px; border-radius: 12px; box-shadow: var(--shadow); border-left: 5px solid var(--secondary-color); font-size: 0.85rem; font-weight: 600; color: var(--primary-color); }
-
-/* 7. FOOTER */
-.footer { background: var(--primary-color); color: var(--white); text-align: center; padding: 50px 0; margin-top: 50px; }
-.footer a { color: var(--secondary-color); text-decoration: none; font-weight: bold; }
-
-/* Loading States */
-.loading { text-align: center; padding: 40px; color: var(--secondary-color); font-weight: 600; width: 100%; }
-
-/* 8. Desktop Grid Adjustments */
-@media (min-width: 1024px) {
-    .slider-wrapper { overflow: hidden; }
-    .exams-slider { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
-    .exam-card { min-width: auto; }
-    .header { height: 65px; }
-}
+/* Global Utility */
+.hidden { display: none !important; visibility: hidden !important; opacity: 0 !important; }
