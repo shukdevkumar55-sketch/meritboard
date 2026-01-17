@@ -1,98 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO & Google Indexing -->
-    <title>MeritBoard - Prepare. Test. Lead. | Free Mock Tests</title>
-    <meta name="description" content="MeritBoard offers free online mock tests, interactive quizzes, and real-time leaderboards.">
-    <meta name="author" content="Sukhdev Dahiya">
+    
+    <title>MeritBoard | Loading...</title>
+    <meta name="description" content="Universal learning platform for Mock Tests, Video Classes, PDF Notes, and Educational Blogs.">
+    <meta name="author" content="MeritBoard Team">
     <link rel="canonical" href="https://yourusername.github.io/meritboard/">
+    
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MeritBoard - Prepare. Learn. Succeed.">
+    <meta property="og:description" content="Free access to high-quality quizzes, video lectures, and study notes.">
+    <meta property="og:image" content="assets/og-image.jpg"> <meta property="og:url" content="https://yourusername.github.io/meritboard/">
+    <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-
-    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
+    <link rel="stylesheet" href="css/home-layout.css"> <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
+      "@type": "WebSite",
       "name": "MeritBoard",
       "url": "https://yourusername.github.io/meritboard/",
-      "founder": { "@type": "Person", "name": "Sukhdev Dahiya" }
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourusername.github.io/meritboard/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
 </head>
 <body>
-    
-        <!-- Universal Header -->
-    <header class="header">
-        <nav class="nav-container">
-            <div class="logo-area">
-                <a href="index.html" class="logo-link">
-                    <img src="assets/logo.png" alt="MeritBoard Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <span class="logo-text" style="display:none;">Merit<span>Board</span></span>
-                </a>
+
+    <header class="site-header">
+        <div class="header-container container">
+            
+            <div id="brandLogo" class="brand-area">
+                <div class="skeleton-box" style="width:120px; height:30px;"></div>
             </div>
+
+            <nav id="mainNav" class="desktop-nav hidden-mobile">
+                </nav>
+
             <div class="header-actions">
-                <button id="searchBtn" class="search-icon-btn" aria-label="Search">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                    </svg>
-                </button>
-            </div>
-        </nav>
+    <button id="searchTrigger" class="btn-icon">
+        🔍 </button>
+    
+    <button id="themeToggle" class="btn-icon">🌙</button>
+
+    <button id="mobileMenuBtn" class="btn-icon mobile-menu-btn">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+</div>
+
+        </div>
     </header>
 
-   <main id="homeContent">
-    <!-- 1. Hero Section (यह हमेशा फिक्स रहेगा) -->
-    <section class="hero-section">
-        <div class="container">
-            <h1 class="motivational-quote" id="dailyQuote">Loading daily inspiration...</h1>
-            <p class="hero-subtext">Targeting Haryana State Exams? Let's check your rank today!</p>
-            <div class="cta-buttons">
-                <!-- Anchor link को dynamic container की तरफ मोड़ें -->
-                <a href="#dynamicSectionsContainer" class="btn btn-primary">Start Free Test</a>
-                <a href="rankings.html" class="btn btn-secondary">View Leaderboard</a>
-            </div>
+    <div id="searchOverlay" class="search-overlay hidden">
+        <div class="search-container">
+            <input type="text" id="globalSearchInput" placeholder="Search for quizzes, videos, notes..." autofocus>
+            <button id="closeSearch" class="close-btn">&times;</button>
         </div>
-    </section>
-
-    <!-- 2. Notice Board (यह भी फिक्स रहेगा) -->
-    <section class="notices-section">
-        <div class="container">
-            <div id="noticesContainer" class="notice-slider">
-                <!-- Notices will be injected via JS -->
-                Loading latest updates...
-            </div>
-        </div>
-    </section>
-
-    <!-- 3. Dynamic Sections Catch-all Container (सबसे ज़रूरी) -->
-    <!-- 
-       यहाँ JavaScript अपने आप "Haryana Special", "Popular Quizzes", 
-       और भविष्य में "PDF Notes" जैसे सेक्शन्स बना देगी। 
-    -->
-    <div id="dynamicSectionsContainer">
-        <p class="loading">Building your MeritBoard...</p>
+        <div id="searchResults" class="search-results-container container"></div>
     </div>
+
+    <section class="hero-wrapper">
+        <div class="container hero-content">
+            <h1 class="hero-title">Prepare. <span class="highlight">Master.</span> Succeed.</h1>
+            <p class="hero-subtitle">Unlimited access to Mock Tests, Video Classes, and Study Notes.</p>
+            <div class="hero-cta">
+                <a href="search.html?type=quiz" class="btn btn-primary">Start Practicing</a>
+                <a href="#homeContentFeed" class="btn btn-outline">Explore Content</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="dynamicContent" class="main-feed container">
+    
+    <div class="skeleton-section">
+        <div class="skeleton-box" style="width:200px; height:24px; margin-bottom:20px;"></div>
+        <div class="skeleton-grid">
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+        </div>
+    </div>
+
 </main>
 
-    <!-- Universal Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 MeritBoard. Designed by Sukhdev Dahiya.</p>
-            <div class="social-links">
-                <a href="https://www.instagram.com/vionn.official">Instagram</a>
-            </div>
+    <footer id="dynamicFooter" class="site-footer">
+        <div class="container" style="text-align:center; opacity:0.6;">
+            Loading Footer...
         </div>
     </footer>
 
-    <script src="js/main.js" type="module"></script>
+    <script src="js/app-core.js"></script> 
+    <script src="js/home-loader.js" charset="UTF-8"></script>
+
 </body>
 </html>
