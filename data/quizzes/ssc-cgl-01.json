@@ -1,0 +1,36 @@
+{
+  "testTitle": "SSC CGL Tier-1 Mock Test (Advanced)",
+  "timeMinutes": 60,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General Intelligence",
+      "q_en": "Select the related word from the given alternatives:\n<b>Lion : Roar :: Horse : ?</b>",
+      "q_hi": "दिए गए विकल्पों में से संबंधित शब्द का चयन करें:\n<b>शेर : दहाड़ :: घोड़ा : ?</b>",
+      "options_en": ["Bark", "Neigh", "Bray", "Grunt"],
+      "options_hi": ["भौंकना", "हिनहिनाना", "रेंकना", "गुर्राना"],
+      "answer": 1,
+      "explanation": "Lion roars, similarly Horse neighs. (शेर दहाड़ता है, उसी प्रकार घोड़ा हिनहिनाता है।)"
+    },
+    {
+      "id": 2,
+      "section": "Quantitative Aptitude",
+      "q_en": "If a + b = 5 and ab = 6, find the value of a² + b².",
+      "q_hi": "यदि a + b = 5 और ab = 6 है, तो a² + b² का मान ज्ञात करें।",
+      "options_en": ["13", "12", "19", "25"],
+      "options_hi": ["13", "12", "19", "25"],
+      "answer": 0,
+      "explanation": "(a+b)² = a² + b² + 2ab \n => 5² = a² + b² + 2(6) \n => 25 = a² + b² + 12 \n => a² + b² = 13"
+    },
+    {
+      "id": 3,
+      "section": "General Awareness",
+      "q_en": "Who wrote the book <i>'Discovery of India'</i>?",
+      "q_hi": "<i>'डिस्कवरी ऑफ इंडिया'</i> पुस्तक किसने लिखी?",
+      "options_en": ["M.K. Gandhi", "J.L. Nehru", "S.C. Bose", "S.V. Patel"],
+      "options_hi": ["एम.के. गांधी", "जे.एल. नेहरू", "एस.सी. बोस", "एस.वी. पटेल"],
+      "answer": 1,
+      "explanation": "The Discovery of India was written by Pandit Jawaharlal Nehru during his imprisonment in 1942–1946."
+    }
+  ]
+}
