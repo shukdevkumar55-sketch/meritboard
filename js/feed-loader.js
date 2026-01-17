@@ -1,76 +1,82 @@
 /**
  * Project: MeritBoard Universal
  * File: js/feed-loader.js
- * Feature: Advanced Feed with Tabs, Search, Sort & Dynamic Linking
- * Status: FINAL (Features Added)
+ * Feature: Advanced Feed (Search Removed, Sorting & Tabs Active)
+ * Status: FINAL OPTIMIZED
  */
 
 const DATA_URL = './data/content.json';
 
-// DOM Elements
+// --- 1. DOM ELEMENTS ---
 const GRID_CONTAINER = document.getElementById('feedGrid');
 const EMPTY_STATE = document.getElementById('emptyState');
 const PAGE_TITLE = document.getElementById('feedTitle');
 const PAGE_SUBTITLE = document.getElementById('feedSubtitle');
 const BREADCRUMB_CURRENT = document.getElementById('breadCrumbCurrent');
 
-// New Controls
+// Controls
 const TABS_CONTAINER = document.getElementById('categoryTabs');
-const SEARCH_INPUT = document.getElementById('localSearch');
 const SORT_SELECT = document.getElementById('sortBy');
 
 // State Variables
-let allItems = [];      // Raw data from JSON
-let filteredItems = []; // Data specific to current Type (e.g. all Videos)
-let currentType = '';   
+let allItems = [];      // Store all data for current type
+let currentType = '';   // 'video', 'quiz', 'book', etc.
 let activeCategory = 'All';
 
+// --- 2. INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', initFeed);
 
 async function initFeed() {
     try {
-        // 1. Get URL Parameters
+        // A. Get Type from URL
         const params = new URLSearchParams(window.location.search);
-        currentType = params.get('type'); // 'video', 'quiz', 'book', 'blog'
+        currentType = params.get('type');
 
+        // Redirect if no type specified
         if (!currentType) {
             window.location.href = 'index.html';
             return;
         }
 
-        // 2. Set Page Headers
+        // B. Update Page Headers (Title/Subtitle)
         updateHeaders(currentType);
 
-        // 3. Fetch Data
+        // C. Fetch Data
         const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error("Failed to load data");
+        if (!response.ok) throw new Error("Failed to load content data");
         const data = await response.json();
 
-        // 4. Initial Filter by TYPE (Crucial)
-        filteredItems = data.filter(item => item.type === currentType);
-        
-        // Save initial state for local filtering
-        allItems = [...filteredItems];
+        // D. Initial Filter by Type
+        // Sirf wahi items rakhenge jo URL type se match karein
+        allItems = data.filter(item => item.type === currentType);
 
-        if (filteredItems.length === 0) {
+        // Check if items exist
+        if (allItems.length === 0) {
             showEmptyState(true);
+            // Hide tabs if no content
+            if (TABS_CONTAINER) TABS_CONTAINER.innerHTML = ''; 
             return;
         }
 
-        // 5. Setup UI Components
+        // E. Render Interface
         renderCategoryTabs();
         setupEventListeners();
 
-        // 6. Initial Render
+        // F. Initial Render (Show All)
         applyFilters();
 
     } catch (error) {
         console.error("Feed Error:", error);
-        GRID_CONTAINER.innerHTML = `<div style="text-align:center; padding:20px; color:red;">⚠️ Error loading content.</div>`;
+        if (GRID_CONTAINER) {
+            GRID_CONTAINER.innerHTML = `<div style="text-align:center; padding:30px; color:#ef5350; grid-column: 1/-1;">
+                <h3>⚠️ Unable to load content</h3>
+                <p>Please check your internet connection or try again later.</p>
+            </div>`;
+        }
     }
 }
 
-// --- 1. UI SETUP & HEADERS ---
+// --- 3. UI UPDATES ---
 
 function updateHeaders(type) {
     const config = {
@@ -91,8 +97,8 @@ function updateHeaders(type) {
 function renderCategoryTabs() {
     if (!TABS_CONTAINER) return;
 
-    // Extract unique categories dynamically
-    const categories = ['All', ...new Set(filteredItems.map(item => item.category))];
+    // Get unique categories from data
+    const categories = ['All', ...new Set(allItems.map(item => item.category))];
 
     TABS_CONTAINER.innerHTML = categories.map(cat => `
         <button class="tab-btn ${cat === 'All' ? 'active' : ''}" 
@@ -103,61 +109,52 @@ function renderCategoryTabs() {
 }
 
 function setupEventListeners() {
-    // Local Search Listener
-    if (SEARCH_INPUT) {
-        SEARCH_INPUT.addEventListener('input', () => applyFilters());
-    }
-    // Sort Listener
+    // Sort Change Listener
     if (SORT_SELECT) {
         SORT_SELECT.addEventListener('change', () => applyFilters());
     }
 }
 
-// --- 2. CORE FILTERING ENGINE ---
+// --- 4. FILTERING LOGIC ---
 
+// Global function for Tab Clicks
 window.handleCategoryClick = (category, btn) => {
     activeCategory = category;
 
-    // Update UI
+    // Update Tab Styles
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
+    // Re-apply Filters
     applyFilters();
 };
 
 function applyFilters() {
-    let results = [...allItems]; // Start with all items of current type
+    // 1. Start with copy of all items
+    let results = [...allItems];
 
-    // A. Category Filter
+    // 2. Filter by Category
     if (activeCategory !== 'All') {
         results = results.filter(item => item.category === activeCategory);
     }
 
-    // B. Search Text Filter
-    const searchTerm = SEARCH_INPUT ? SEARCH_INPUT.value.toLowerCase().trim() : '';
-    if (searchTerm) {
-        results = results.filter(item => 
-            item.title.toLowerCase().includes(searchTerm) || 
-            (item.tags && item.tags.some(t => t.toLowerCase().includes(searchTerm)))
-        );
-    }
-
-    // C. Sorting
+    // 3. Apply Sorting
     const sortMode = SORT_SELECT ? SORT_SELECT.value : 'newest';
+    
     if (sortMode === 'newest') {
-        // Assuming higher ID/Index is newer, or you can add a date field later
+        // Assuming newer items are at the bottom of JSON, reverse them
         results.reverse(); 
-    } else if (sortMode === 'oldest') {
-        // Default order
     } else if (sortMode === 'az') {
+        // Sort Alphabetically
         results.sort((a, b) => a.title.localeCompare(b.title));
     }
+    // 'oldest' needs no change if JSON is naturally chronological
 
-    // D. Render
+    // 4. Render Final List
     renderGrid(results);
 }
 
-// --- 3. RENDER LOGIC ---
+// --- 5. RENDER GRID ---
 
 function renderGrid(items) {
     if (items.length === 0) {
@@ -178,20 +175,22 @@ function showEmptyState(show) {
     }
 }
 
+// --- 6. CARD HTML GENERATOR ---
+
 function createFeedCard(item) {
-    // --- LINKING LOGIC (Updated for Books/Articles) ---
-    let targetPage = 'view.html'; // Default
+    // Determine Target Page based on Type
+    let targetPage = 'view.html'; // Fallback
     
     if (item.type === 'quiz') {
         targetPage = 'quiz-view.html';
     } 
-    else if (item.type === 'blog' || item.type === 'article' || item.type === 'book') {
-        targetPage = 'article-view.html'; // New Reader Page
+    else if (['blog', 'article', 'book', 'pdf', 'video'].includes(item.type)) {
+        targetPage = 'article-view.html';
     }
 
     const link = `${targetPage}?id=${item.id}&type=${item.type}`;
 
-    // --- VISUAL CONFIG ---
+    // Styling Config
     let config = { icon: '📄', btn: 'View', cls: 'btn-outline', col: '#607d8b' };
     
     if (item.type === 'quiz') config = { icon: '⏱️', btn: 'Start Test', cls: 'btn-quiz', col: '#1A237E' };
@@ -200,19 +199,17 @@ function createFeedCard(item) {
     if (item.type === 'blog') config = { icon: '📰', btn: 'Read', cls: 'btn-blog', col: '#e67e22' };
     if (item.type === 'book') config = { icon: '📚', btn: 'Read Book', cls: 'btn-blog', col: '#8e44ad' };
 
+    // Return HTML
     return `
         <article class="content-card">
             <div class="card-thumbnail-wrapper">
                 <span class="card-badge" style="background:${config.col}">${item.category}</span>
                 <img src="${item.thumbnail}" class="card-img" loading="lazy" 
-                     onerror="this.src='assets/default-thumb.jpg'">
+                     onerror="this.src='assets/default-thumb.jpg'" alt="${item.title}">
             </div>
             <div class="card-body">
                 <div class="card-meta"><span>${config.icon} ${item.type.toUpperCase()}</span></div>
                 <h3 class="card-title"><a href="${link}">${item.title}</a></h3>
-                <div class="card-tags">
-                    ${item.tags ? item.tags.slice(0,3).map(t=>`#${t}`).join(' ') : ''}
-                </div>
                 <a href="${link}" class="card-btn ${config.cls}">${config.btn}</a>
             </div>
         </article>
