@@ -9,6 +9,8 @@
     "date": "2026-01-16",
     "tags": ["UPSC", "SSC", "Ancient India"]
   },
+
+
   {
     "id": "ssc-math-01",
     "type": "video",
@@ -18,6 +20,8 @@
     "tags": ["Maths", "Guide"],
     "date": "2026-01-15"
   },
+
+
   {
     "id": "art-01",
     "type": "blog",
@@ -27,19 +31,33 @@
     "tags": ["Motivation", "Tips"],
     "date": "2026-01-14"
   },
-  {
-    "id": "hssc-group-c",
-    "type": "quiz",
-    "title": "HSSC CET Group C - Full Mock Test",
-    "thumbnail": "/assets/1766037383049.jpg",
-    "category": "Competitive Exams",
-    "tags": ["Haryana", "HSSC", "Mock Test"],
-    "date_added": "2026-01-15",
-    "author": "Sukhdev Dahiya",
-    "is_featured": true,
-    "meta_info": "100 Qs • 90 Mins",
-    "source_url": "data/quizzes/hssc-group-c.json"
-  },
+
+
+    {
+  "id": "hssc-group-c",
+  "type": "quiz",
+  "title": "HSSC CET Group C Mains 2026 - Full Mock Test (New Pattern)",
+  "thumbnail": "/assets/1766037383049.jpg",
+  "category": "Haryana State Exams",
+  "tags": [
+    "HSSC CET 2026",
+    "Group C Mains",
+    "Haryana GK",
+    "HSSC Mock Test",
+    "Haryana Police",
+    "Gram Sachiv",
+    "Patwari",
+    "Previous Year Questions",
+    "NTA Pattern"
+  ],
+  "date_added": "2026-01-17",
+  "author": "Sukhdev Dahiya",
+  "is_featured": true,
+  "meta_info": "100 Qs • 105 Mins • 5 Options Pattern",
+  "source_url": "data/quizzes/hssc-group-c.json"
+},
+
+
   {
     "id": "physics-law-motion",
     "type": "video",
@@ -54,6 +72,8 @@
     "description": "Complete explanation of Newton's laws with real-life examples.",
     "source_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
+
+
   {
     "id": "haryana-history-notes",
     "type": "pdf",
