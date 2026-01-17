@@ -1,0 +1,256 @@
+{
+  "testTitle": "Haryana CET Group C Exam oriented Quiz",
+  "timeMinutes": 100,
+  "questions": [
+  {
+    "id": 1,
+    "section": "Haryana GK",
+    "q_en": "From which of the following archaeological sites in Haryana has evidence of a 'Bead making factory' been found?",
+    "q_hi": "हरियाणा के निम्नलिखित में से किस पुरातात्विक स्थल से 'मनके बनाने का कारखाना' (Bead making factory) के प्रमाण मिले हैं?",
+    "options_en": ["Rakhigarhi", "Banawali", "Kunal", "Bhagwanpur", "Not Attempted"],
+    "options_hi": ["राखीगढ़ी", "बनावली", "कुणाल", "भगवानपुर", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Banawali (Fatehabad) revealed evidence of a bead making factory, clay plough, and barley. Rakhigarhi is the largest site, and Kunal yielded royal crowns."
+  },
+  {
+    "id": 2,
+    "section": "Haryana GK",
+    "q_en": "According to 'Haryana Economic Survey 2024-25', which sector contributes the most to the Gross State Domestic Product (GSDP) in the state?",
+    "q_hi": "'हरियाणा आर्थिक सर्वेक्षण 2024-25' के अनुसार, राज्य में सकल राज्य घरेलू उत्पाद (GSDP) में किस क्षेत्र का योगदान सर्वाधिक है?",
+    "options_en": ["Agriculture & Allied", "Industry Sector", "Service Sector", "Construction Sector", "Not Attempted"],
+    "options_hi": ["कृषि एवं संबद्ध क्षेत्र", "उद्योग क्षेत्र", "सेवा क्षेत्र (Service Sector)", "निर्माण क्षेत्र", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "The Service Sector contributes the highest (more than 50%) to the GSDP of Haryana, followed by Industry and Agriculture."
+  },
+  {
+    "id": 3,
+    "section": "Haryana GK",
+    "q_en": "Consider the following statements: 1. 'Sur Samman' is given in the field of literature. 2. Its name has been changed to 'Sur Lakhmi Chand Samman'. Which is correct?",
+    "q_hi": "निम्नलिखित कथनों पर विचार करें: 1. 'सूर सम्मान' साहित्य के क्षेत्र में दिया जाता है। 2. इसका नाम बदलकर 'सूर लखमी चंद सम्मान' कर दिया गया है। सही विकल्प चुनें:",
+    "options_en": ["Only 1 is correct", "Only 2 is correct", "Both 1 and 2 are correct", "Neither 1 nor 2", "Not Attempted"],
+    "options_hi": ["केवल 1 सही है", "केवल 2 सही है", "1 और 2 दोनों सही हैं", "न तो 1 और न ही 2", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Statement 1 is correct. Statement 2 is incorrect because the name remains 'Sur Samman', though the prize money has been increased. Lakhmi Chand Samman is a separate award."
+  },
+  {
+    "id": 4,
+    "section": "Haryana GK",
+    "q_en": "What was the main objective of the 'Aravali Project' in Haryana?",
+    "q_hi": "हरियाणा में 'अरावली परियोजना' (Aravali Project) का मुख्य उद्देश्य क्या था?",
+    "options_en": ["Promote tourism in Aravali", "Development of wasteland and afforestation", "Promote mining in Aravali", "Road construction", "Not Attempted"],
+    "options_hi": ["अरावली क्षेत्र में पर्यटन बढ़ाना", "बंजर भूमि का विकास और वृक्षारोपण", "अरावली में खनन को बढ़ावा देना", "सड़कों का निर्माण", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Started in the 1990s with EU assistance, its main goal was eco-restoration and afforestation of the Aravali hills."
+  },
+  {
+    "id": 5,
+    "section": "Haryana GK",
+    "q_en": "What was the main reason for the defeat of Haryana's heroes in the Revolt of 1857?",
+    "q_hi": "1857 की क्रांति में हरियाणा के वीरों की पराजय का मुख्य कारण क्या था?",
+    "options_en": ["Lack of leadership", "Lack of sufficient weapons", "Support of other princely states to British", "All of the above", "Not Attempted"],
+    "options_hi": ["नेतृत्व का अभाव", "पर्याप्त शस्त्रों की कमी", "अन्य रियासतों का अंग्रेजों को सहयोग", "उपरोक्त सभी", "अनुत्तरित प्रश्न"],
+    "answer": 3,
+    "explanation": "The defeat was due to a combination of lack of central leadership, outdated weapons, and the support given to the British by princely states like Nabha, Jind, and Patiala."
+  },
+  {
+    "id": 6,
+    "section": "Haryana GK",
+    "q_en": "Under 'Mhara Gaon, Jagmag Gaon' scheme, approximately what percentage of villages in Haryana are currently getting 24-hour electricity?",
+    "q_hi": "'म्हारा गाँव, जगमग गाँव' योजना के तहत वर्तमान में हरियाणा के लगभग कितने प्रतिशत गाँवों को 24 घंटे बिजली मिल रही है?",
+    "options_en": ["Less than 50%", "60-70%", "More than 90%", "100%", "Not Attempted"],
+    "options_hi": ["50% से कम", "60-70%", "90% से अधिक", "100%", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "More than 6000 villages (over 90%) are now receiving 24x7 electricity under this scheme launched in 2015 from Kurukshetra."
+  },
+  {
+    "id": 7,
+    "section": "Haryana GK",
+    "q_en": "Which district of Haryana is known as 'Mini Cuba of India'?",
+    "q_hi": "हरियाणा के किस जिले को 'भारत का मिनी क्यूबा' (Mini Cuba) कहा जाता है?",
+    "options_en": ["Bhiwani", "Sonipat", "Rohtak", "Panipat", "Not Attempted"],
+    "options_hi": ["भिवानी", "सोनीपत", "रोहतक", "पानीपत", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Bhiwani is called 'Mini Cuba' due to the large number of boxers it produces. It is also known as the 'Powerhouse of Boxing'."
+  },
+  {
+    "id": 8,
+    "section": "Haryana GK",
+    "q_en": "Match List-I with List-II: (a) Birbal's Chhatta (b) Stupa of Chaneti (c) Gujri Mahal (d) Sheikh Chilli's Tomb",
+    "q_hi": "सूची-I को सूची-II से सुमेलित कीजिए: (a) बीरबल का छत्ता (b) चेनेटी का स्तूप (c) गुजरी महल (d) शेख चिल्ली का मकबरा",
+    "options_en": ["a-1, b-2, c-3, d-4", "a-2, b-1, c-3, d-4", "a-1, b-3, c-2, d-4", "a-4, b-2, c-3, d-1", "Not Attempted"],
+    "options_hi": ["a-1, b-2, c-3, d-4", "a-2, b-1, c-3, d-4", "a-1, b-3, c-2, d-4", "a-4, b-2, c-3, d-1", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Birbal's Chhatta is in Narnaul (1), Chaneti Stupa in Jagadhri (2), Gujri Mahal in Hisar (3), and Sheikh Chilli's Tomb in Thanesar (4)."
+  },
+  {
+    "id": 9,
+    "section": "Haryana GK",
+    "q_en": "Who is credited with the establishment/propagation of the 'Chishti Order' in Haryana?",
+    "q_hi": "हरियाणा में 'चिश्ती संप्रदाय' की स्थापना/प्रचार का श्रेय किसे जाता है?",
+    "options_en": ["Bu Ali Shah Qalandar", "Sheikh Farid (Baba Farid)", "Altaf Hussain Hali", "Sant Surdas", "Not Attempted"],
+    "options_hi": ["बू अली शाह कलंदर", "शेख फरीद (बाबा फरीद)", "अल्ताफ हुसैन हाली", "संत सूरदास", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Baba Farid (Sheikh Farid) popularized the Chishti Order in Hansi and surrounding areas in the 12th century. Faridabad is named after him."
+  },
+  {
+    "id": 10,
+    "section": "Haryana GK",
+    "q_en": "The only 'Deer Park' of Haryana located in Hisar is spread over what area?",
+    "q_hi": "हरियाणा का एकमात्र 'हिरण उद्यान' (Deer Park) जो हिसार में स्थित है, कितने क्षेत्रफल में फैला है?",
+    "options_en": ["42 acres", "48 acres", "100 acres", "5 acres", "Not Attempted"],
+    "options_hi": ["42 एकड़", "48 एकड़", "100 एकड़", "5 एकड़", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "The Deer Park in Hisar covers approximately 42 to 48 acres (HSSC accepts 42 acres in previous keys), established around 1970-71."
+  },
+  {
+    "id": 11,
+    "section": "Haryana GK",
+    "q_en": "In which district of Haryana is 'Pratapgarh Farms' located, which is famous for Agro-Tourism?",
+    "q_hi": "'प्रतापगढ़ फार्म' (Pratapgarh Farms) हरियाणा के किस जिले में स्थित है, जो एग्रो-टूरिज्म के लिए प्रसिद्ध है?",
+    "options_en": ["Gurugram", "Faridabad", "Jhajjar", "Karnal", "Not Attempted"],
+    "options_hi": ["गुरुग्राम", "फरीदाबाद", "झज्जर", "करनाल", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Pratapgarh Farms is located in Jhajjar district and is a hub for experiencing Haryanvi rural culture and food."
+  },
+  {
+    "id": 12,
+    "section": "Haryana GK",
+    "q_en": "In which year was the Haryana State Human Rights Commission (HHRC) constituted?",
+    "q_hi": "हरियाणा राज्य मानवाधिकार आयोग (HHRC) का गठन किस वर्ष हुआ था?",
+    "options_en": ["2010", "2012", "2014", "2005", "Not Attempted"],
+    "options_hi": ["2010", "2012", "2014", "2005", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "HHRC was constituted in the year 2012."
+  },
+  {
+    "id": 13,
+    "section": "Haryana GK",
+    "q_en": "What is the government's objective under the 'Parivar Pehchan Patra' (PPP) scheme?",
+    "q_hi": "'परिवार पहचान पत्र' (PPP) योजना के तहत, सरकार का लक्ष्य क्या है?",
+    "options_en": ["To provide only government jobs", "Paperless and faceless delivery of schemes", "To conduct census", "None of the above", "Not Attempted"],
+    "options_hi": ["केवल सरकारी नौकरी देना", "पेपरलेस और फेसलेस तरीके से योजनाओं का लाभ", "जनगणना करना", "उपरोक्त में से कोई नहीं", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "The main goal of PPP is the 'Paperless and Faceless' proactive delivery of government services and schemes to eligible citizens."
+  },
+  {
+    "id": 14,
+    "section": "Haryana GK",
+    "q_en": "Which fair of Haryana is known as the 'Kumbh of Craftsmen'?",
+    "q_hi": "हरियाणा के किस मेले को 'कारीगरों का कुंभ' (Kumbh of Craftsmen) कहा जाता है?",
+    "options_en": ["Kapal Mochan Mela", "Surajkund International Crafts Mela", "Mango Mela", "Phalgu Mela", "Not Attempted"],
+    "options_hi": ["कपाल मोचन मेला", "सूरजकुंड अंतर्राष्ट्रीय शिल्प मेला", "आम मेला (मैंगो मेला)", "फल्गु मेला", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Surajkund International Crafts Mela (Faridabad) is world-famous and known as the Kumbh of Craftsmen."
+  },
+  {
+    "id": 15,
+    "section": "Haryana GK",
+    "q_en": "Which river forms a long natural boundary between Haryana and Uttar Pradesh?",
+    "q_hi": "निम्नलिखित में से कौन सी नदी हरियाणा और उत्तर प्रदेश के बीच एक लंबी प्राकृतिक सीमा बनाती है?",
+    "options_en": ["Ghaggar", "Markanda", "Yamuna", "Sahibi", "Not Attempted"],
+    "options_hi": ["घग्घर", "मार्कंडा", "यमुना", "साहिबी", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "The Yamuna river flows along the eastern boundary of Haryana, separating it from Uttar Pradesh for about 320 km."
+  },
+  {
+    "id": 16,
+    "section": "Haryana GK",
+    "q_en": "'Panjokhra Sahib' Gurudwara (Ambala) is dedicated to the memory of which Guru?",
+    "q_hi": "हरियाणा में 'पंजोखरा साहिब' गुरुद्वारा (अंबाला) किसकी स्मृति में समर्पित है?",
+    "options_en": ["Guru Gobind Singh Ji", "Guru Harkrishan Sahib Ji", "Guru Tegh Bahadur Ji", "Guru Nanak Dev Ji", "Not Attempted"],
+    "options_hi": ["गुरु गोबिंद सिंह जी", "गुरु हरकृष्ण साहिब जी", "गुरु तेग बहादुर जी", "गुरु नानक देव जी", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "It is dedicated to the 8th Sikh Guru, Guru Harkrishan Sahib Ji, who stayed here while on his way to Delhi."
+  },
+  {
+    "id": 17,
+    "section": "Haryana GK",
+    "q_en": "'Hali Award' is given by which Academy?",
+    "q_hi": "'हाली पुरस्कार' किस अकादमी द्वारा दिया जाता है?",
+    "options_en": ["Haryana Sahitya Academy", "Haryana Urdu Academy", "Haryana Sanskrit Academy", "Haryana Punjabi Academy", "Not Attempted"],
+    "options_hi": ["हरियाणा साहित्य अकादमी", "हरियाणा उर्दू अकादमी", "हरियाणा संस्कृत अकादमी", "हरियाणा पंजाबी अकादमी", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "The award is given by the Haryana Urdu Academy in memory of the famous poet Altaf Hussain Hali of Panipat."
+  },
+  {
+    "id": 18,
+    "section": "Haryana GK",
+    "q_en": "What is the number of Police Commissionerates in Haryana (as of Jan 2026)?",
+    "q_hi": "हरियाणा में पुलिस कमिश्नरी की संख्या कितनी है (Jan 2026 तक)?",
+    "options_en": ["3", "4", "5", "2", "Not Attempted"],
+    "options_hi": ["3", "4", "5", "2", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "There are now 4 Police Commissionerates: Gurugram, Faridabad, Panchkula, and the newly formed Sonipat."
+  },
+  {
+    "id": 19,
+    "section": "Haryana GK",
+    "q_en": "Who is known as the 'Gandhi of Haryana'?",
+    "q_hi": "'हरियाणा का गांधी' किसे कहा जाता है?",
+    "options_en": ["Sir Chhotu Ram", "Mool Chand Jain", "Pt. Neki Ram Sharma", "Banarsi Das Gupta", "Not Attempted"],
+    "options_hi": ["सर छोटूराम", "मूलचंद जैन", "पंडित नेकीराम शर्मा", "बनारसी दास गुप्ता", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Mool Chand Jain is called the Gandhi of Haryana for his Gandhian ideology and contribution to the freedom struggle."
+  },
+  {
+    "id": 20,
+    "section": "Haryana GK",
+    "q_en": "What is the winter rain in Haryana due to Western Disturbance called in local language?",
+    "q_hi": "पश्चिमी विक्षोभ (Western Disturbance) के कारण हरियाणा में सर्दियों में होने वाली बारिश को स्थानीय भाषा में क्या कहते हैं?",
+    "options_en": ["Mawat", "Mango Showers", "Kaal Baisakhi", "Loo", "Not Attempted"],
+    "options_hi": ["मावठ (Mawat)", "आम्र वर्षा", "काल बैसाखी", "लू", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "It is called 'Mawat'. It is beneficial for Rabi crops, especially Wheat."
+  },
+  {
+    "id": 21,
+    "section": "Haryana GK",
+    "q_en": "Where is the 'Sarai Aliwardi Khan' mosque located?",
+    "q_hi": "'सराय अलीवर्दी खाँ' की मस्जिद कहाँ स्थित है?",
+    "options_en": ["Gurugram", "Rewari", "Panipat", "Kaithal", "Not Attempted"],
+    "options_hi": ["गुरुग्राम", "रेवाड़ी", "पानीपत", "कैथल", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "This mosque dates back to the time of Alauddin Khilji and is located in Gurugram."
+  },
+  {
+    "id": 22,
+    "section": "Haryana GK",
+    "q_en": "Which district of Haryana has the maximum 'Forest Area' in terms of percentage?",
+    "q_hi": "हरियाणा के किस जिले में सर्वाधिक 'वन क्षेत्र' (Forest Area) प्रतिशत के हिसाब से है?",
+    "options_en": ["Yamunanagar", "Panchkula", "Gurugram", "Faridabad", "Not Attempted"],
+    "options_hi": ["यमुनानगर", "पंचकूला", "गुरुग्राम", "फरीदाबाद", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Panchkula has the highest forest cover in Haryana, both in terms of percentage and area."
+  },
+  {
+    "id": 23,
+    "section": "Haryana GK",
+    "q_en": "Which edition of 'Khelo India Youth Games' (KIYG) was hosted by Haryana, where it topped the medal tally?",
+    "q_hi": "'खेले इंडिया यूथ गेम्स' (KIYG) के किस संस्करण की मेजबानी हरियाणा ने की थी, जिसमें वह पदक तालिका में शीर्ष पर रहा था?",
+    "options_en": ["Second", "Third", "Fourth", "Fifth", "Not Attempted"],
+    "options_hi": ["दूसरा", "तीसरा", "चौथा", "पांचवां", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Haryana hosted the 4th edition of KIYG in Panchkula and topped the medal tally with 137 medals."
+  },
+  {
+    "id": 24,
+    "section": "Haryana GK",
+    "q_en": "Who appoints the Chairman of Haryana Public Service Commission (HPSC)?",
+    "q_hi": "हरियाणा लोक सेवा आयोग (HPSC) के अध्यक्ष की नियुक्ति कौन करता है?",
+    "options_en": ["President", "Chief Minister", "Governor", "Chief Justice", "Not Attempted"],
+    "options_hi": ["राष्ट्रपति", "मुख्यमंत्री", "राज्यपाल", "मुख्य न्यायाधीश", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "The Chairman and members of the State Public Service Commission are appointed by the Governor."
+  },
+  {
+    "id": 25,
+    "section": "Haryana GK",
+    "q_en": "Who started the publication of the weekly magazine named 'Sandesh'?",
+    "q_hi": "'संदेश' नामक साप्ताहिक पत्रिका का प्रकाशन किसने शुरू किया था?",
+    "options_en": ["Pt. Neki Ram Sharma", "Shri Ram Sharma", "Chhotu Ram", "Vijayanand", "Not Attempted"],
+    "options_hi": ["पंडित नेकीराम शर्मा", "श्रीराम शर्मा", "छोटूराम", "विजयानंद", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Pt. Neki Ram Sharma started the Hindi weekly 'Sandesh' from Bhiwani in 1930."
+  }
+]
+}
