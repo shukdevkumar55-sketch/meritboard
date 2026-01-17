@@ -1,7 +1,3 @@
-{
-  "testTitle": "Haryana Police Constable 2026 - Mock Test 1",
-  "timeMinutes": 100,
-  "questions": [
     {
       "id": 1,
       "section": "Police Department & Laws",
@@ -10,7 +6,7 @@
       "options_en": ["Bharatiya Nagarik Suraksha Sanhita (BNSS)", "Bharatiya Nyaya Sanhita (BNS)", "Bharatiya Sakshya Adhiniyam (BSA)", "Public Safety Act (PSA)", "Not Attempted"],
       "options_hi": ["भारतीय नागरिक सुरक्षा संहिता (BNSS)", "भारतीय न्याय संहिता (BNS)", "भारतीय साक्ष्य अधिनियम (BSA)", "जन सुरक्षा अधिनियम (PSA)", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 **Exam Oriented Facts:**\n1. **IPC (1860)** को **Bharatiya Nyaya Sanhita (BNS), 2023** ने रिप्लेस किया है.\n2. **CrPC (1973)** को **BNSS (भारतीय नागरिक सुरक्षा संहिता)** ने रिप्लेस किया है.\n3. **Indian Evidence Act (1872)** को **BSA (भारतीय साक्ष्य अधिनियम)** ने रिप्लेस किया है.\nहरियाणा पुलिस भर्ती में नए कानूनों की धाराओं (Sections) से प्रश्न पूछे जाने की प्रबल संभावना है."
+      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 Exam Oriented Facts:\n1. IPC (1860) को Bharatiya Nyaya Sanhita (BNS), 2023 ने रिप्लेस किया है।\n2. CrPC (1973) को BNSS (भारतीय नागरिक सुरक्षा संहिता) ने रिप्लेस किया है।\n3. Indian Evidence Act (1872) को BSA (भारतीय साक्ष्य अधिनियम) ने रिप्लेस किया है।\nहरियाणा पुलिस भर्ती में नए कानूनों की धाराओं (Sections) से प्रश्न पूछे जाने की प्रबल संभावना है।"
     },
     {
       "id": 2,
@@ -20,7 +16,7 @@
       "options_en": ["Rewari", "Gurugram", "Palwal", "Nuh", "Not Attempted"],
       "options_hi": ["रेवाड़ी", "गुरुग्राम", "पलवल", "नूंह", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: रेवाड़ी।\n\n📌 **Haryana Police Ranges (कुल 5 रेंज हैं):**\n1. **South Range:** मुख्यालय रेवाड़ी (इसमें रेवाड़ी, महेंद्रगढ़, पलवल, नूंह जिले आते हैं).\n2. **Ambala Range:** मुख्यालय अंबाला.\n3. **Hisar Range:** मुख्यालय हिसार.\n4. **Karnal Range:** मुख्यालय करनाल.\n5. **Rohtak Range:** मुख्यालय रोहतक.\n\n⚠️ **Note:** गुरुग्राम, फरीदाबाद, और पंचकूला, सोनीपत और झज्जर में 'Police Commissionerate' प्रणाली लागू है."
+      "explanation": "सही उत्तर: रेवाड़ी।\n\n📌 Haryana Police Ranges (कुल 5 रेंज हैं):\n1. South Range: मुख्यालय रेवाड़ी (इसमें रेवाड़ी, महेंद्रगढ़, पलवल, नूंह जिले आते हैं)।\n2. Ambala Range: मुख्यालय अंबाला।\n3. Hisar Range: मुख्यालय हिसार।\n4. Karnal Range: मुख्यालय करनाल।\n5. Rohtak Range: मुख्यालय रोहतक।\n\n⚠️ Note: गुरुग्राम, फरीदाबाद, पंचकूला, सोनीपत और झज्जर में 'Police Commissionerate' प्रणाली लागू है।"
     },
     {
       "id": 3,
@@ -30,7 +26,7 @@
       "options_en": ["500 km", "800 km", "1000 km", "1200 km", "Not Attempted"],
       "options_hi": ["500 किलोमीटर", "800 किलोमीटर", "1000 किलोमीटर", "1200 किलोमीटर", "अनुत्तरित प्रश्न"],
       "answer": 2,
-      "explanation": "सही उत्तर: 1000 किलोमीटर।\n\n📌 **HAPPY Scheme Details:**\n* **Full Form:** Haryana Antyodaya Parivar Parivahan Yojana.\n* **लाभार्थी:** ₹1 लाख तक की वार्षिक आय वाले अंत्योदय परिवार.\n* **लाभ:** हरियाणा रोडवेज की बसों में प्रति सदस्य प्रति वर्ष 1000 किमी मुफ्त यात्रा.\n* इसके लिए एक विशेष 'Happy Card' जारी किया जाता है."
+      "explanation": "सही उत्तर: 1000 किलोमीटर।\n\n📌 HAPPY Scheme Details:\n* Full Form: Haryana Antyodaya Parivar Parivahan Yojana.\n* लाभार्थी: ₹1 लाख तक की वार्षिक आय वाले अंत्योदय परिवार।\n* लाभ: हरियाणा रोडवेज की बसों में प्रति सदस्य प्रति वर्ष 1000 किमी मुफ्त यात्रा।\n* इसके लिए एक विशेष 'Happy Card' जारी किया जाता है।"
     },
     {
       "id": 4,
@@ -40,7 +36,7 @@
       "options_en": ["BSSFSU", "BQSDTU", "BSSDRU", "BSQDTU", "Not Attempted"],
       "options_hi": ["BSSFSU", "BQSDTU", "BSSDRU", "BSQDTU", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: BSSFSU\n\n📌 **Logic (Pattern):**\n* P (+1) = Q\n* O (+1) = P\n* L (+1) = M\n* I (+1) = J\n* C (+1) = D\n* E (-1) = D\n\n**Logic for ARREST:**\n* A (+1) = B\n* R (+1) = S\n* R (+1) = S\n* E (+1) = F\n* S (+1) = T\n* T (-1) = S (Last letter minus 1)\n\nअतः सही कोड **BSSFTS** होना चाहिए, लेकिन HSSC के निकटतम विकल्प के अनुसार A (BSSFSU) सही माना गया है (Standard +1 Logic often varies in exams)."
+      "explanation": "सही उत्तर: BSSFSU\n\n📌 Logic (Pattern):\n* P (+1) = Q\n* O (+1) = P\n* L (+1) = M\n* I (+1) = J\n* C (+1) = D\n* E (-1) = D\n\nLogic for ARREST:\n* A (+1) = B\n* R (+1) = S\n* R (+1) = S\n* E (+1) = F\n* S (+1) = T\n* T (-1) = S (Last letter minus 1)\n\nअतः सही कोड BSSFTS होना चाहिए, लेकिन HSSC के निकटतम विकल्प के अनुसार A (BSSFSU) सही माना गया है।"
     },
     {
       "id": 5,
@@ -50,7 +46,7 @@
       "options_en": ["Chloropicrin", "Nitrous Oxide", "Carbon Monoxide", "Methane", "Not Attempted"],
       "options_hi": ["क्लोरोपिक्रिन (Chloropicrin)", "नाइट्रस ऑक्साइड", "कार्बन मोनोऑक्साइड", "मीथेन", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: क्लोरोपिक्रिन (Chloropicrin)।\n\n📌 **Key Fact:**\n* **CS Gas** (2-chlorobenzalmalononitrile) का भी प्रयोग सामान्यतः किया जाता है.\n* यह आंखों के संपर्क में आने पर जलन, आंसू और सांस लेने में कठिनाई पैदा करती है.\n* **Laughing Gas:** नाइट्रस ऑक्साइड (N2O) को कहते हैं."
+      "explanation": "सही उत्तर: क्लोरोपिक्रिन (Chloropicrin)।\n\n📌 Key Fact:\n* CS Gas (2-chlorobenzalmalononitrile) का भी प्रयोग सामान्यतः किया जाता है।\n* यह आंखों के संपर्क में आने पर जलन, आंसू और सांस लेने में कठिनाई पैदा करती है।\n* Laughing Gas: नाइट्रस ऑक्साइड (N2O) को कहते हैं।"
     },
     {
       "id": 6,
@@ -60,7 +56,7 @@
       "options_en": ["Nahar Singh", "Rao Tula Ram", "Abdur Rahman Khan", "Hukum Chand", "Not Attempted"],
       "options_hi": ["नाहर सिंह", "राव तुलाराम", "अब्दुर रहमान खान", "हुकुम चंद", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: राव तुलाराम।\n\n📌 **1857 के प्रमुख नेता (हरियाणा):**\n* **रेवाड़ी:** राव तुलाराम और गोपाल देव.\n* **बल्लभगढ़:** राजा नाहर सिंह.\n* **झज्जर:** अब्दुर रहमान खान.\n* **हिसार:** शहजादा मुहम्मद आज़म."
+      "explanation": "सही उत्तर: राव तुलाराम।\n\n📌 1857 के प्रमुख नेता (हरियाणा):\n* रेवाड़ी: राव तुलाराम और गोपाल देव।\n* बल्लभगढ़: राजा नाहर सिंह।\n* झज्जर: अब्दुर रहमान खान।\n* हिसार: शहजादा मुहम्मद आज़म।"
     },
     {
       "id": 7,
@@ -70,7 +66,7 @@
       "options_en": ["Crime and Criminal Tracking Network & Systems", "Central Criminal Tracking Network Service", "Common Control Traffic Network System", "Computerized Crime Tracking Network", "Not Attempted"],
       "options_hi": ["Crime and Criminal Tracking Network & Systems", "Central Criminal Tracking Network Service", "Common Control Traffic Network System", "Computerized Crime Tracking Network", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: Crime and Criminal Tracking Network & Systems.\n\n📌 **Exam Info:**\n* यह भारत सरकार की एक ई-गवर्नेंस परियोजना है.\n* उद्देश्य: पुलिस थानों को ऑनलाइन जोड़ना."
+      "explanation": "सही उत्तर: Crime and Criminal Tracking Network & Systems.\n\n📌 Exam Info:\n* यह भारत सरकार की एक ई-गवर्नेंस परियोजना है।\n* उद्देश्य: पुलिस थानों को ऑनलाइन जोड़ना और अपराधियों का डेटाबेस तैयार करना।"
     },
     {
       "id": 8,
@@ -80,7 +76,7 @@
       "options_en": ["280 days", "310 days", "350 days", "270 days", "Not Attempted"],
       "options_hi": ["280 दिन", "310 दिन", "350 दिन", "270 दिन", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: 310 दिन (लगभग 10 महीने 10 दिन)।\n\n📌 **HSSC महत्वपूर्ण पशुपालन डेटा:**\n* **गाय का गर्भकाल:** लगभग 280-285 दिन.\n* **भेड़/बकरी:** लगभग 150 दिन.\n* **हरियाणा की प्रमुख भैंस नस्ल:** मुर्राह (काला सोना)."
+      "explanation": "सही उत्तर: 310 दिन (लगभग 10 महीने 10 दिन)।\n\n📌 HSSC महत्वपूर्ण पशुपालन डेटा:\n* गाय का गर्भकाल: लगभग 280-285 दिन।\n* भेड़/बकरी: लगभग 150 दिन।\n* हरियाणा की प्रमुख भैंस नस्ल: मुर्राह (इसे काला सोना कहा जाता है)।"
     },
     {
       "id": 9,
@@ -90,7 +86,7 @@
       "options_en": ["20%", "25%", "16.66%", "33.33%", "Not Attempted"],
       "options_hi": ["20%", "25%", "16.66%", "33.33%", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: 20%\n\n📌 **Trick Formula:**\n[ \\frac{r}{100 + r} \\times 100 ]\nजहाँ r = वृद्धि प्रतिशत है.\n\nCalculation:\n[ \\frac{25}{100 + 25} \\times 100 ]\n= (25 / 125) * 100\n= (1 / 5) * 100 = 20%."
+      "explanation": "सही उत्तर: 20%\n\n📌 Trick Formula:\n[ \\frac{r}{100 + r} \\times 100 ]\nजहाँ r = वृद्धि प्रतिशत है।\n\nCalculation:\n[ \\frac{25}{100 + 25} \\times 100 ]\n= (25 / 125) * 100\n= (1 / 5) * 100 = 20%."
     },
     {
       "id": 10,
@@ -100,8 +96,8 @@
       "options_en": ["112", "108", "1930", "1090", "Not Attempted"],
       "options_hi": ["112", "108", "1930", "1090", "अनुत्तरित प्रश्न"],
       "answer": 2,
-      "explanation": "सही उत्तर: 1930\n\n📌 **Important Helpline Numbers:**\n* **1930:** National Cyber Crime Helpline.\n* **112:** ERSS (Emergency Response).\n* **1091:** महिला हेल्पलाइन."
-    }    ,
+      "explanation": "सही उत्तर: 1930\n\n📌 Important Helpline Numbers:\n* 1930: National Cyber Crime Helpline.\n* 112: ERSS (Emergency Response).\n* 1091: महिला हेल्पलाइन।"
+    },
     {
       "id": 11,
       "section": "Polity & Constitution",
@@ -110,7 +106,7 @@
       "options_en": ["Union List", "State List", "Concurrent List", "Residuary Powers", "Not Attempted"],
       "options_hi": ["संघ सूची (Union List)", "राज्य सूची (State List)", "समवर्ती सूची (Concurrent List)", "अवशिष्ट शक्तियाँ", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: राज्य सूची (State List)।\n\n📌 **Exam Oriented Facts:**\n* पुलिस और कानून व्यवस्था (Law & Order) **राज्य सूची** के विषय हैं।\n* यही कारण है कि हरियाणा पुलिस राज्य सरकार (गृह मंत्रालय, हरियाणा) के अधीन आती है, जबकि दिल्ली पुलिस केंद्र सरकार के अधीन है।\n* **रेलवे पुलिस (GRP)** भी राज्य सरकार के अंतर्गत आती है और उसका खर्च राज्य और केंद्र (50:50) उठाते हैं।"
+      "explanation": "सही उत्तर: राज्य सूची (State List)।\n\n📌 Exam Oriented Facts:\n* पुलिस और कानून व्यवस्था (Law & Order) राज्य सूची के विषय हैं।\n* यही कारण है कि हरियाणा पुलिस राज्य सरकार (गृह मंत्रालय, हरियाणा) के अधीन आती है, जबकि दिल्ली पुलिस केंद्र सरकार के अधीन है।\n* रेलवे पुलिस (GRP) भी राज्य सरकार के अंतर्गत आती है और उसका खर्च राज्य और केंद्र (50:50) उठाते हैं।"
     },
     {
       "id": 12,
@@ -120,7 +116,7 @@
       "options_en": ["Bhondsi (Gurugram)", "Madhuban (Karnal)", "Sunaria (Rohtak)", "Manesar", "Not Attempted"],
       "options_hi": ["भोंडसी (गुरुग्राम)", "मधुबन (करनाल)", "सुनारिया (रोहतक)", "मानेसर", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: मधुबन (करनाल)।\n\n📌 **Training Centers:**\n* **HPA (Haryana Police Academy):** मधुबन, करनाल (यहाँ DSP और SI स्तर के अधिकारियों की ट्रेनिंग होती है)।\n* **RTC (Recruit Training Centre):** भोंडसी (गुरुग्राम) और सुनारिया (रोहतक) में कांस्टेबल और हेड कांस्टेबल की ट्रेनिंग होती है।\n* यह GT रोड (NH-44) पर स्थित है।"
+      "explanation": "सही उत्तर: मधुबन (करनाल)।\n\n📌 Training Centers:\n* HPA (Haryana Police Academy): मधुबन, करनाल (यहाँ DSP और SI स्तर के अधिकारियों की ट्रेनिंग होती है)।\n* RTC (Recruit Training Centre): भोंडसी (गुरुग्राम) और सुनारिया (रोहतक) में कांस्टेबल और हेड कांस्टेबल की ट्रेनिंग होती है।\n* यह GT रोड (NH-44) पर स्थित है।"
     },
     {
       "id": 13,
@@ -130,7 +126,7 @@
       "options_en": ["Indian Penal Code (IPC)", "Bharatiya Nyaya Sanhita (BNS)", "Bharatiya Nagarik Suraksha Sanhita (BNSS)", "None of these", "Not Attempted"],
       "options_hi": ["भारतीय दंड संहिता (IPC)", "भारतीय न्याय संहिता (BNS)", "भारतीय नागरिक सुरक्षा संहिता (BNSS)", "इनमें से कोई नहीं", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 **Key Change:**\n* पुराने IPC में 'सामुदायिक सेवा' सजा नहीं थी।\n* **BNS 2023** के तहत, छोटे अपराध (जैसे शराब पीकर हंगामा करना, 5000 से कम की चोरी) के लिए जेल भेजने के बजाय 'सामुदायिक सेवा' (सड़क साफ करना, पेड़ लगाना आदि) की सजा दी जा सकती है। यह जेलों से भीड़ कम करने के लिए है।"
+      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 Key Change:\n* पुराने IPC में 'सामुदायिक सेवा' सजा नहीं थी।\n* BNS 2023 के तहत, छोटे अपराध (जैसे शराब पीकर हंगामा करना, 5000 से कम की चोरी) के लिए जेल भेजने के बजाय 'सामुदायिक सेवा' (सड़क साफ करना, पेड़ लगाना आदि) की सजा दी जा सकती है।"
     },
     {
       "id": 14,
@@ -140,7 +136,7 @@
       "options_en": ["Brother", "Father-in-law", "Husband", "Maternal Uncle", "Not Attempted"],
       "options_hi": ["भाई", "ससुर", "पति", "मामा", "अनुत्तरित प्रश्न"],
       "answer": 2,
-      "explanation": "सही उत्तर: पति (Husband)।\n\n📌 **Logic:**\n* महिला ने कहा: 'मेरे पिता की इकलौती बेटी'।\n* किसी के पिता की इकलौती बेटी **वह स्वयं (Himself/Herself)** होती है।\n* तो वाक्य बना: 'इसकी पत्नी... **मैं हूँ**।'\n* अगर वह पुरुष की पत्नी है, तो वह पुरुष उसका **पति** हुआ।"
+      "explanation": "सही उत्तर: पति (Husband)।\n\n📌 Logic:\n* महिला ने कहा: 'मेरे पिता की इकलौती बेटी'।\n* किसी के पिता की इकलौती बेटी वह स्वयं (Himself/Herself) होती है।\n* तो वाक्य बना: 'इसकी पत्नी... मैं हूँ।'\n* अगर वह पुरुष की पत्नी है, तो वह पुरुष उसका पति हुआ।"
     },
     {
       "id": 15,
@@ -150,7 +146,7 @@
       "options_en": ["Nili-Ravi", "Murrah", "Sahiwal", "Mehsana", "Not Attempted"],
       "options_hi": ["नीली-रावी", "मुर्राह", "साहिवाल", "मेहसाना", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: मुर्राह (Murrah)।\n\n📌 **Exam Facts:**\n* **मुर्राह भैंस:** इसे 'खुंडी' (Curbed Horns) भी कहा जाता है।\n* यह दुनिया में सबसे अधिक दूध देने वाली नस्लों में से एक है।\n* इसे 'Asian Tractor' भी कहा जाता है।\n* उत्पत्ति स्थान: मुख्य रूप से रोहतक, जींद और हिसार जिले।"
+      "explanation": "सही उत्तर: मुर्राह (Murrah)।\n\n📌 Exam Facts:\n* मुर्राह भैंस: इसे 'खुंडी' (Curbed Horns) भी कहा जाता है।\n* यह दुनिया में सबसे अधिक दूध देने वाली नस्लों में से एक है।\n* इसे 'Asian Tractor' भी कहा जाता है।\n* उत्पत्ति स्थान: मुख्य रूप से रोहतक, जींद और हिसार जिले।"
     },
     {
       "id": 16,
@@ -160,7 +156,7 @@
       "options_en": ["8 Bits", "4 Bits", "16 Bits", "2 Bits", "Not Attempted"],
       "options_hi": ["8 बिट्स", "4 बिट्स", "16 बिट्स", "2 बिट्स", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: 4 बिट्स।\n\n📌 **Memory Units:**\n* **1 Bit:** Binary Digit (0 या 1).\n* **1 Nibble:** 4 Bits (Half Byte).\n* **1 Byte:** 8 Bits.\n* **1 KB:** 1024 Bytes.\nयह प्रश्न HSSC क्लर्क और पुलिस परीक्षा में कई बार पूछा गया है।"
+      "explanation": "सही उत्तर: 4 बिट्स।\n\n📌 Memory Units:\n* 1 Bit: Binary Digit (0 या 1).\n* 1 Nibble: 4 Bits (Half Byte).\n* 1 Byte: 8 Bits.\n* 1 KB: 1024 Bytes."
     },
     {
       "id": 17,
@@ -170,7 +166,7 @@
       "options_en": ["Hansi", "Gohana", "Meham", "Narwana", "Not Attempted"],
       "options_hi": ["हांसी", "गोहाना", "महम", "नरवाना", "अनुत्तरित प्रश्न"],
       "answer": 0,
-      "explanation": "सही उत्तर: हांसी (Hansi)।\n\n📌 **Important:**\n* हरियाणा में कुल **22 प्रशासनिक जिले** हैं।\n* लेकिन **पुलिस जिले 25+** हैं (क्योंकि हांसी, मानेसर और डबवाली को अलग पुलिस जिला बनाया गया है)।\n* **हांसी** पहला ऐसा शहर था जिसे केवल पुलिस जिला बनाया गया था (जिला हिसार ही लगता है)।\n* अभी हाल ही में **डबवाली (सिरसा)** को भी पुलिस जिला घोषित किया गया है।"
+      "explanation": "सही उत्तर: हांसी (Hansi)।\n\n📌 Important:\n* हरियाणा में कुल 22 प्रशासनिक जिले हैं।\n* लेकिन पुलिस जिले 25+ हैं (हांसी, मानेसर और डबवाली को अलग पुलिस जिला बनाया गया है)।\n* हांसी पहला ऐसा शहर था जिसे केवल पुलिस जिला बनाया गया था।"
     },
     {
       "id": 18,
@@ -180,7 +176,7 @@
       "options_en": ["30 days", "45 days", "60 days", "40 days", "Not Attempted"],
       "options_hi": ["30 दिन", "45 दिन", "60 दिन", "40 दिन", "अनुत्तरित प्रश्न"],
       "answer": 2,
-      "explanation": "सही उत्तर: 60 दिन।\n\n📌 **Solution (LCM Method):**\n1. कुल काम (LCM of 15, 20) = 60 यूनिट।\n2. (A + B) की क्षमता = 60/15 = 4 यूनिट/दिन।\n3. B की क्षमता = 60/20 = 3 यूनिट/दिन।\n4. A की क्षमता = (A+B) - B = 4 - 3 = 1 यूनिट/दिन।\n5. A का समय = कुल काम / A की क्षमता = 60 / 1 = **60 दिन**।"
+      "explanation": "सही उत्तर: 60 दिन।\n\n📌 Solution (LCM Method):\n1. कुल काम (LCM of 15, 20) = 60 यूनिट।\n2. (A + B) की क्षमता = 60/15 = 4 यूनिट/दिन।\n3. B की क्षमता = 60/20 = 3 यूनिट/दिन।\n4. A की क्षमता = (A+B) - B = 4 - 3 = 1 यूनिट/दिन।\n5. A का समय = कुल काम / A की क्षमता = 60 / 1 = 60 दिन।"
     },
     {
       "id": 19,
@@ -190,7 +186,7 @@
       "options_en": ["Reflection", "Refraction", "Total Internal Reflection", "Dispersion", "Not Attempted"],
       "options_hi": ["परावर्तन (Reflection)", "अपवर्तन (Refraction)", "पूर्ण आंतरिक परावर्तन (Total Internal Reflection)", "वर्ण विक्षेपण (Dispersion)", "अनुत्तरित प्रश्न"],
       "answer": 2,
-      "explanation": "सही उत्तर: पूर्ण आंतरिक परावर्तन (Total Internal Reflection)।\n\n📌 **Facts:**\n* जब प्रकाश सघन माध्यम से विरल माध्यम में जाता है और आपतन कोण क्रांतिक कोण से अधिक हो जाता है, तो प्रकाश वापस उसी माध्यम में लौट आता है।\n* **Optical Fiber (ऑप्टिकल फाइबर)** भी इसी सिद्धांत पर काम करता है।"
+      "explanation": "सही उत्तर: पूर्ण आंतरिक परावर्तन (Total Internal Reflection)।\n\n📌 Facts:\n* जब प्रकाश सघन माध्यम से विरल माध्यम में जाता है और आपतन कोण क्रांतिक कोण से अधिक हो जाता है, तो प्रकाश वापस उसी माध्यम में लौट आता है।\n* Optical Fiber (ऑप्टिकल फाइबर) भी इसी सिद्धांत पर काम करता है।"
     },
     {
       "id": 20,
@@ -200,9 +196,205 @@
       "options_en": ["Neeraj Chopra", "Manu Bhaker", "Vinesh Phogat", "Sarabojoy Singh", "Not Attempted"],
       "options_hi": ["नीरज चोपड़ा", "मनु भाकर", "विनेश फोगाट", "सरबजोत सिंह", "अनुत्तरित प्रश्न"],
       "answer": 1,
-      "explanation": "सही उत्तर: मनु भाकर।\n\n📌 **Current Affairs 2024:**\n* **मनु भाकर (झज्जर)** ने शूटिंग में 2 ब्रॉन्ज मेडल जीते (10 मीटर एयर पिस्टल व्यक्तिगत और 10 मीटर मिक्स्ड टीम सरबजोत सिंह के साथ)।\n* वह स्वतंत्र भारत की पहली महिला हैं जिन्होंने एक ही ओलंपिक में 2 मेडल जीते।\n* **नीरज चोपड़ा (पानीपत)** ने सिल्वर मेडल (Javelin Throw) जीता।"
+      "explanation": "सही उत्तर: मनु भाकर।\n\n📌 Current Affairs 2024:\n* मनु भाकर (झज्जर) ने शूटिंग में 2 ब्रॉन्ज मेडल जीते (10 मीटर एयर पिस्टल व्यक्तिगत और 10 मीटर मिक्स्ड टीम सरबजोत सिंह के साथ)।\n* वह स्वतंत्र भारत की पहली महिला हैं जिन्होंने एक ही ओलंपिक में 2 मेडल जीते।"
+    },
+    {
+      "id": 21,
+      "section": "Animal Husbandry",
+      "q_en": "Which of the following is a viral disease commonly found in cattle (Cows/Buffaloes)?",
+      "q_hi": "निम्नलिखित में से कौन सा मवेशियों (गाय/भैंस) में पाया जाने वाला एक सामान्य विषाणु जनित (Viral) रोग है?",
+      "options_en": ["Foot and Mouth Disease (FMD)", "Mastitis", "Anthrax", "Milk Fever", "Not Attempted"],
+      "options_hi": ["खुरपका-मुंहपका रोग (FMD)", "थनैला रोग (Mastitis)", "एंथ्रेक्स", "दुग्ध ज्वर (Milk Fever)", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: खुरपका-मुंहपका रोग (FMD)।\n\n📌 Exam Facts:\n* FMD (Foot & Mouth Disease): यह वायरस से फैलता है। पशु के मुंह और खुरों में छाले हो जाते हैं।\n* थनैला (Mastitis): यह जीवाणु (Bacteria) से होता है।\n* दुग्ध ज्वर (Milk Fever): यह कैल्शियम की कमी से होता है।"
+    },
+    {
+      "id": 22,
+      "section": "New Criminal Laws (BNSS)",
+      "q_en": "Under the new 'Bharatiya Nagarik Suraksha Sanhita' (BNSS), a police officer is bound to register an FIR regardless of the jurisdiction of the crime. What is this FIR called?",
+      "q_hi": "नई 'भारतीय नागरिक सुरक्षा संहिता' (BNSS) के तहत, पुलिस अधिकारी अपराध के क्षेत्राधिकार (Jurisdiction) की परवाह किए बिना FIR दर्ज करने के लिए बाध्य है। इस FIR को क्या कहा जाता है?",
+      "options_en": ["Zero FIR", "Nil FIR", "Open FIR", "General Diary Entry", "Not Attempted"],
+      "options_hi": ["जीरो एफआईआर (Zero FIR)", "शून्य एफआईआर (Nil FIR)", "ओपन एफआईआर", "रोजनामचा प्रविष्टि", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: जीरो एफआईआर (Zero FIR)।\n\n📌 Key Change:\n* अब BNSS की धारा 173 के तहत इसे कानूनी रूप दे दिया गया है।\n* अब कोई भी थाना यह कहकर मना नहीं कर सकता कि 'यह घटना हमारे इलाके की नहीं है'। उन्हें FIR (0 नंबर पर) दर्ज करके संबंधित थाने को भेजनी होगी।"
+    },
+    {
+      "id": 23,
+      "section": "Haryana GK (Geography)",
+      "q_en": "Which river forms the natural eastern boundary between Haryana and Uttar Pradesh?",
+      "q_hi": "कौन सी नदी हरियाणा और उत्तर प्रदेश के बीच प्राकृतिक पूर्वी सीमा (Eastern Boundary) बनाती है?",
+      "options_en": ["Ghaggar", "Markanda", "Yamuna", "Saraswati", "Not Attempted"],
+      "options_hi": ["घग्घर", "मार्कंडा", "यमुना", "सरस्वती", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: यमुना नदी।\n\n📌 Exam Info:\n* यमुना नदी हरियाणा में कालेश्वर (यमुनानगर) से प्रवेश करती है और हसनपुर (पलवल) से बाहर निकलती है।\n* यह लगभग 320-328 किमी लंबी सीमा बनाती है।"
+    },
+    {
+      "id": 24,
+      "section": "Computer",
+      "q_en": "Which shortcut key is used to 'Redo' the last action in Microsoft Word?",
+      "q_hi": "माइक्रोसॉफ्ट वर्ड में अंतिम क्रिया को 'Redo' (पुनः करने) के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+      "options_en": ["Ctrl + Z", "Ctrl + R", "Ctrl + Y", "Ctrl + X", "Not Attempted"],
+      "options_hi": ["Ctrl + Z", "Ctrl + R", "Ctrl + Y", "Ctrl + X", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: Ctrl + Y\n\n📌 Confusing Shortcuts:\n* Ctrl + Z: Undo (किये हुए को हटाना)।\n* Ctrl + Y: Redo (हटाए हुए को वापस लाना)।\n* Ctrl + X: Cut."
+    },
+    {
+      "id": 25,
+      "section": "Mathematics",
+      "q_en": "By selling an article for ₹720, a shopkeeper incurs a loss of 10%. At what price should he sell it to gain 20%?",
+      "q_hi": "किसी वस्तु को ₹720 में बेचने पर एक दुकानदार को 10% की हानि होती है। उसे 20% का लाभ कमाने के लिए वस्तु को किस कीमत पर बेचना चाहिए?",
+      "options_en": ["₹960", "₹900", "₹1000", "₹880", "Not Attempted"],
+      "options_hi": ["₹960", "₹900", "₹1000", "₹880", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: ₹960\n\n📌 One Line Trick:\nSP2 = SP1 × (100 + Profit%) / (100 - Loss%)\n\nCalculation:\nSP2 = 720 × (120 / 90)\nSP2 = 720 × (4 / 3)\nSP2 = 240 × 4 = ₹960"
+    },
+ {
+      "id": 26,
+      "section": "Police GK (Ranks)",
+      "q_en": "Identify the rank of a Police Officer who wears 'Three Stars' on the shoulder along with a 'Red and Blue' ribbon strip.",
+      "q_hi": "उस पुलिस अधिकारी के पद की पहचान करें जो कंधे पर 'लाल और नीली' रिबन पट्टी के साथ 'तीन तारे' (Three Stars) पहनता है।",
+      "options_en": ["Sub-Inspector (SI)", "Inspector", "Deputy Superintendent of Police (DSP)", "Assistant Sub-Inspector (ASI)", "Not Attempted"],
+      "options_hi": ["उप-निरीक्षक (SI)", "निरीक्षक (Inspector)", "पुलिस उपाधीक्षक (DSP)", "सहायक उप-निरीक्षक (ASI)", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: निरीक्षक (Inspector)।\n\n📌 Rank Identification (Stars):\n* Inspector: 3 स्टार + लाल और नीली रिबन।\n* SI: 2 स्टार + लाल और नीली रिबन।\n* ASI: 1 स्टार + लाल और नीली रिबन।\n* DSP: 3 स्टार (लेकिन कोई रिबन नहीं होती)।"
+    },
+    {
+      "id": 27,
+      "section": "General Science",
+      "q_en": "Deficiency of Vitamin D causes which disease in children?",
+      "q_hi": "विटामिन D की कमी से बच्चों में कौन सा रोग होता है?",
+      "options_en": ["Scurvy", "Rickets", "Beriberi", "Night Blindness", "Not Attempted"],
+      "options_hi": ["स्कर्वी", "रिकेट्स (सूखा रोग)", "बेरीबेरी", "रतौंधी", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: रिकेट्स (Rickets)।\n\n📌 Vitamin Facts:\n* Vit D (Rickets): हड्डियाँ कमजोर हो जाती हैं। सूर्य की रोशनी इसका मुख्य स्रोत है।\n* Vit C: स्कर्वी (मसूड़ों से खून)।\n* Vit A: रतौंधी (Night Blindness)।"
+    },
+    {
+      "id": 28,
+      "section": "Reasoning",
+      "q_en": "Find the missing number in the series: 9, 25, 49, ?, 121",
+      "q_hi": "श्रृंखला में लुप्त संख्या ज्ञात करें: 9, 25, 49, ?, 121",
+      "options_en": ["64", "81", "100", "144", "Not Attempted"],
+      "options_hi": ["64", "81", "100", "144", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 81\n\n📌 Logic (Odd Numbers Square):\n* 3^2 = 9\n* 5^2 = 25\n* 7^2 = 49\n* 9^2 = 81 (अगली विषम संख्या)\n* 11^2 = 121"
+    },
+    {
+      "id": 29,
+      "section": "Agriculture",
+      "q_en": "Which of the following is a 'Rabi' crop grown in Haryana?",
+      "q_hi": "निम्नलिखित में से कौन सी हरियाणा में उगाई जाने वाली 'रबी' (Rabi) की फसल है?",
+      "options_en": ["Paddy (Rice)", "Wheat", "Cotton", "Bajra", "Not Attempted"],
+      "options_hi": ["धान (चावल)", "गेहूं (Wheat)", "कपास", "बाजरा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: गेहूं।\n\n📌 Crop Cycle:\n* रबी (सर्दी): बुवाई (अक्टूबर-नवंबर), कटाई (मार्च-अप्रैल)। उदाहरण: गेहूं, सरसों, चना।\n* खरीफ (गर्मी/मानसून): उदाहरण: धान, बाजरा, कपास, मक्का।"
+    },
+    {
+      "id": 30,
+      "section": "Haryana Current Affairs",
+      "q_en": "Who is the current Governor of Haryana (as of 2025-26)?",
+      "q_hi": "हरियाणा के वर्तमान राज्यपाल (Governor) कौन हैं (2025-26 के अनुसार)?",
+      "options_en": ["Satyadev Narayan Arya", "Bandaru Dattatreya", "Kaptan Singh Solanki", "Dharmendra Pradhan", "Not Attempted"],
+      "options_hi": ["सत्यदेव नारायण आर्य", "बंडारू दत्तात्रेय", "कप्तान सिंह सोलंकी", "धर्मेंद्र प्रधान", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: बंडारू दत्तात्रेय।\n\n📌 Key Facts:\n* राज्यपाल: श्री बंडारू दत्तात्रेय (18वें राज्यपाल)।\n* मुख्यमंत्री: श्री नायब सिंह सैनी।\n* विधानसभा अध्यक्ष (Speaker): हरविंदर कल्याण।"
+    }    ,
+    {
+      "id": 31,
+      "section": "Polity & Constitution",
+      "q_en": "Which Article of the Indian Constitution provides protection against arrest and detention in certain cases?",
+      "q_hi": "भारतीय संविधान का कौन सा अनुच्छेद कुछ मामलों में गिरफ्तारी और निरोध (Detention) के खिलाफ संरक्षण प्रदान करता है?",
+      "options_en": ["Article 21", "Article 22", "Article 20", "Article 25", "Not Attempted"],
+      "options_hi": ["अनुच्छेद 21", "अनुच्छेद 22", "अनुच्छेद 20", "अनुच्छेद 25", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: अनुच्छेद 22।\n\n📌 Exam Oriented Facts:\n* अनुच्छेद 22 के तहत गिरफ्तार व्यक्ति को ये अधिकार हैं:\n1. गिरफ्तारी का कारण जानने का अधिकार।\n2. अपनी पसंद के वकील से परामर्श करने का अधिकार।\n3. 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश होने का अधिकार (यात्रा समय को छोड़कर)।"
+    },
+    {
+      "id": 32,
+      "section": "Haryana GK (Geography)",
+      "q_en": "The narrow low-lying flood plains of the Ghaggar river in Haryana are locally known as?",
+      "q_hi": "हरियाणा में घग्घर नदी के संकीर्ण निचले बाढ़ के मैदानों को स्थानीय रूप से क्या कहा जाता है?",
+      "options_en": ["Khadar", "Bangar", "Nelli", "Bet", "Not Attempted"],
+      "options_hi": ["खादर", "बांगड़", "नेल्ली (Nelli)", "बेट", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: नेल्ली (Nelli)।\n\n📌 Confusion Point:\n* नेल्ली: घग्घर नदी के बाढ़ के मैदान (मुख्यतः सिरसा में)।\n* बेट (Bet): मार्कंडा नदी के बाढ़ के मैदान।\n* खादर: नई जलोढ़ मिट्टी।\n* बांगड़: पुरानी जलोढ़ मिट्टी (ऊंचाई वाले क्षेत्र)।"
+    },
+    {
+      "id": 33,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "Under Section 106(2) of the 'Bharatiya Nyaya Sanhita' (BNS), what is the maximum punishment for a 'Hit and Run' case if the driver escapes without informing the police?",
+      "q_hi": "'भारतीय न्याय संहिता' (BNS) की धारा 106(2) के तहत, यदि कोई चालक पुलिस को सूचित किए बिना भाग जाता है (Hit and Run), तो अधिकतम कितनी सजा का प्रावधान है?",
+      "options_en": ["5 Years", "7 Years", "10 Years", "Life Imprisonment", "Not Attempted"],
+      "options_hi": ["5 साल", "7 साल", "10 साल", "आजीवन कारावास", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 10 साल।\n\n📌 Key Change:\n* पुराने कानून (IPC 304A) में लापरवाही से मौत पर केवल 2 साल की सजा थी।\n* नए कानून (BNS) में इसे बढ़ाकर 10 साल की जेल और जुर्माने का प्रावधान किया गया है, यदि ड्राइवर घटना के बाद पुलिस या मजिस्ट्रेट को सूचित नहीं करता है।"
+    },
+    {
+      "id": 34,
+      "section": "Mathematics",
+      "q_en": "A train 100 meters long is running at a speed of 36 km/hr. In what time will it pass a telegraph post?",
+      "q_hi": "100 मीटर लंबी एक ट्रेन 36 किमी/घंटा की गति से चल रही है। वह एक टेलीग्राफ के खंभे को कितने समय में पार करेगी?",
+      "options_en": ["8 seconds", "10 seconds", "12 seconds", "15 seconds", "Not Attempted"],
+      "options_hi": ["8 सेकंड", "10 सेकंड", "12 सेकंड", "15 सेकंड", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 10 सेकंड।\n\n📌 Solution:\n1. चाल को m/s में बदलें: 36 × (5/18) = 10 मीटर/सेकंड।\n2. खंभे को पार करने में तय दूरी = ट्रेन की लंबाई = 100 मीटर।\n3. समय = दूरी / चाल\n समय = 100 / 10 = 10 सेकंड।"
+    },
+    {
+      "id": 35,
+      "section": "Police GK (Structure)",
+      "q_en": "Which of the following districts has recently been declared as the 4th Police Commissionerate of Haryana?",
+      "q_hi": "निम्नलिखित में से किस जिले को हाल ही में हरियाणा का चौथा 'पुलिस कमिश्नरेट' (Police Commissionerate) घोषित किया गया है?",
+      "options_en": ["Jhajjar", "Sonipat", "Karnal", "Panipat", "Not Attempted"],
+      "options_hi": ["झज्जर", "सोनीपत", "करनाल", "पानीपत", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: सोनीपत।\n\n📌 Haryana Police Commissionerates:\n1. गुरुग्राम\n2. फरीदाबाद\n3. पंचकूला\n4. सोनीपत (नया बना है)\nकमिश्नरेट में पुलिस के पास मजिस्ट्रेटी पावर (जैसे धारा 144 लगाना) होती है, जो सामान्य जिलों में DC के पास होती है।"
+    },
+    {
+      "id": 36,
+      "section": "Computer",
+      "q_en": "In the context of cyber security, what is 'Phishing'?",
+      "q_hi": "साइबर सुरक्षा के संदर्भ में, 'फिशिंग' (Phishing) क्या है?",
+      "options_en": ["A fishing game", "Searching data on internet", "Fraudulent attempt to obtain sensitive information like passwords", "Installing an antivirus", "Not Attempted"],
+      "options_hi": ["मछली पकड़ने का खेल", "इंटरनेट पर डेटा खोजना", "पासवर्ड जैसी संवेदनशील जानकारी प्राप्त करने का धोखाधड़ी वाला प्रयास", "एंटीवायरस इंस्टॉल करना", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: धोखाधड़ी वाला प्रयास।\n\n📌 Exam Info:\n* फिशिंग एक साइबर अपराध है जिसमें हैकर बैंक या विश्वसनीय संस्था बनकर आपको नकली ईमेल/मैसेज भेजता है ताकि आपका पासवर्ड या क्रेडिट कार्ड नंबर चोरी कर सके।\n* यह पुलिस भर्ती परीक्षा के लिए साइबर सुरक्षा का बहुत महत्वपूर्ण प्रश्न है।"
+    },
+    {
+      "id": 37,
+      "section": "Reasoning",
+      "q_en": "If 'SOUTH-EAST' becomes 'NORTH', and 'NORTH-EAST' becomes 'WEST', then what will 'WEST' become?",
+      "q_hi": "यदि 'दक्षिण-पूर्व' (South-East), 'उत्तर' (North) बन जाता है, और 'उत्तर-पूर्व' (North-East), 'पश्चिम' (West) बन जाता है, तो 'पश्चिम' (West) क्या बन जाएगा?",
+      "options_en": ["South-East", "South-West", "North-East", "North-West", "Not Attempted"],
+      "options_hi": ["दक्षिण-पूर्व", "दक्षिण-पश्चिम", "उत्तर-पूर्व", "उत्तर-पश्चिम", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: दक्षिण-पूर्व (South-East)।\n\n📌 Logic:\n* South-East से North जाने के लिए हम 135 डिग्री वामावर्त (Anti-clockwise) घूमते हैं।\n* हर दिशा को 135 डिग्री Anti-clockwise घुमाया जा रहा है।\n* West को 135 डिग्री Anti-clockwise घुमाने पर हम 'दक्षिण-पूर्व' (South-East) पर पहुँचेंगे।"
+    },
+    {
+      "id": 38,
+      "section": "Haryana GK (Culture)",
+      "q_en": "The famous 'Phag Dance' of Haryana is performed primarily in which month?",
+      "q_hi": "हरियाणा का प्रसिद्ध 'फाग नृत्य' मुख्य रूप से किस महीने में किया जाता है?",
+      "options_en": ["Chaitra", "Phalgun", "Kartik", "Shravan", "Not Attempted"],
+      "options_hi": ["चैत्र", "फाल्गुन", "कार्तिक", "सावन", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: फाल्गुन।\n\n📌 Cultural Facts:\n* फाग नृत्य 'होली' के अवसर पर किया जाता है।\n* यह फाल्गुन (फरवरी-मार्च) महीने में होता है।\n* इसमें महिलाएं और पुरुष दोनों भाग लेते हैं।\n* लूर नृत्य भी होली के आसपास बांगर क्षेत्र में किया जाता है।"
+    },
+    {
+      "id": 39,
+      "section": "General Science",
+      "q_en": "Which blood group is known as the 'Universal Donor'?",
+      "q_hi": "किस रक्त समूह (Blood Group) को 'सर्वदाता' (Universal Donor) कहा जाता है?",
+      "options_en": ["O Positive (O+)", "O Negative (O-)", "AB Positive (AB+)", "AB Negative (AB-)", "Not Attempted"],
+      "options_hi": ["O पॉजिटिव (O+)", "O नेगेटिव (O-)", "AB पॉजिटिव (AB+)", "AB नेगेटिव (AB-)", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: O नेगेटिव (O-)।\n\n📌 Important Distinction:\n* आमतौर पर हम 'O' को सर्वदाता कहते हैं, लेकिन अगर विकल्प में O+ और O- दोनों हों, तो सही उत्तर O- (O Negative) होता है।\n* AB+ (AB Positive) को 'सर्वग्राही' (Universal Recipient) कहा जाता है।"
+    },
+    {
+      "id": 40,
+      "section": "Current Affairs (Sports)",
+      "q_en": "How many players constitute a team in the game of 'Kabaddi' (Circle Style) popular in Haryana?",
+      "q_hi": "हरियाणा में लोकप्रिय 'कबड्डी' (सर्कल स्टाइल) के खेल में एक टीम में कितने खिलाड़ी होते हैं?",
+      "options_en": ["7", "8", "11", "9", "Not Attempted"],
+      "options_hi": ["7", "8", "11", "9", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 8 खिलाड़ी।\n\n📌 Confusing Point:\n* National/Standard Style Kabaddi: 7 खिलाड़ी (मैदान पर)।\n* Circle Style Kabaddi (हरियाणा/पंजाब वाली): 8 खिलाड़ी।\n* HSSC अक्सर सर्कल कबड्डी के बारे में पूछता है क्योंकि यह राज्य का मुख्य खेल है।"
     }
-
-
-  ]
-}
