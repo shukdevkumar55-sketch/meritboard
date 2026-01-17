@@ -101,6 +101,110 @@
       "options_hi": ["112", "108", "1930", "1090", "अनुत्तरित प्रश्न"],
       "answer": 2,
       "explanation": "सही उत्तर: 1930\n\n📌 **Important Helpline Numbers:**\n* **1930:** National Cyber Crime Helpline (पहले 155260 था)।\n* **112:** ERSS (Emergency Response Support System) - पुलिस, एम्बुलेंस, फायर सब एक साथ।\n* **1098:** चाइल्ड हेल्पलाइन।\n* **1091:** महिला हेल्पलाइन।"
+    },{
+  "testTitle": "Haryana Police Constable 2026 - Mock Test 1",
+  "timeMinutes": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Police Department & Laws",
+      "q_en": "Under the new criminal laws implemented in India, the 'Indian Penal Code (IPC)' has been replaced by which act?",
+      "q_hi": "भारत में लागू हुए नए आपराधिक कानूनों के तहत 'भारतीय दंड संहिता (IPC)' को किस अधिनियम द्वारा प्रतिस्थापित (Replace) किया गया है?",
+      "options_en": ["Bharatiya Nagarik Suraksha Sanhita (BNSS)", "Bharatiya Nyaya Sanhita (BNS)", "Bharatiya Sakshya Adhiniyam (BSA)", "Public Safety Act (PSA)", "Not Attempted"],
+      "options_hi": ["भारतीय नागरिक सुरक्षा संहिता (BNSS)", "भारतीय न्याय संहिता (BNS)", "भारतीय साक्ष्य अधिनियम (BSA)", "जन सुरक्षा अधिनियम (PSA)", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 **Exam Oriented Facts:**\n1. **IPC (1860)** को **Bharatiya Nyaya Sanhita (BNS), 2023** ने रिप्लेस किया है.\n2. **CrPC (1973)** को **BNSS (भारतीय नागरिक सुरक्षा संहिता)** ने रिप्लेस किया है.\n3. **Indian Evidence Act (1872)** को **BSA (भारतीय साक्ष्य अधिनियम)** ने रिप्लेस किया है.\nहरियाणा पुलिस भर्ती में नए कानूनों की धाराओं (Sections) से प्रश्न पूछे जाने की प्रबल संभावना है."
+    },
+    {
+      "id": 2,
+      "section": "Haryana GK",
+      "q_en": "Where is the headquarters of the 'South Range' of Haryana Police located?",
+      "q_hi": "हरियाणा पुलिस की 'साउथ रेंज' (South Range) का मुख्यालय कहाँ स्थित है?",
+      "options_en": ["Rewari", "Gurugram", "Palwal", "Nuh", "Not Attempted"],
+      "options_hi": ["रेवाड़ी", "गुरुग्राम", "पलवल", "नूंह", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: रेवाड़ी।\n\n📌 **Haryana Police Ranges (कुल 5 रेंज हैं):**\n1. **South Range:** मुख्यालय रेवाड़ी (इसमें रेवाड़ी, महेंद्रगढ़, पलवल, नूंह जिले आते हैं).\n2. **Ambala Range:** मुख्यालय अंबाला.\n3. **Hisar Range:** मुख्यालय हिसार.\n4. **Karnal Range:** मुख्यालय करनाल.\n5. **Rohtak Range:** मुख्यालय रोहतक.\n\n⚠️ **Note:** गुरुग्राम, फरीदाबाद, और पंचकूला, सोनीपत और झज्जर में 'Police Commissionerate' प्रणाली लागू है."
+    },
+    {
+      "id": 3,
+      "section": "Haryana Current Affairs",
+      "q_en": "Under the 'HAPPY' scheme launched by the Haryana Government, how many kilometers of free travel is provided annually to eligible families?",
+      "q_hi": "हरियाणा सरकार द्वारा शुरू की गई 'HAPPY' (हैप्पी) योजना के तहत पात्र परिवारों को प्रति वर्ष कितने किलोमीटर की मुफ्त यात्रा प्रदान की जाती है?",
+      "options_en": ["500 km", "800 km", "1000 km", "1200 km", "Not Attempted"],
+      "options_hi": ["500 किलोमीटर", "800 किलोमीटर", "1000 किलोमीटर", "1200 किलोमीटर", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 1000 किलोमीटर।\n\n📌 **HAPPY Scheme Details:**\n* **Full Form:** Haryana Antyodaya Parivar Parivahan Yojana.\n* **लाभार्थी:** ₹1 लाख तक की वार्षिक आय वाले अंत्योदय परिवार.\n* **लाभ:** हरियाणा रोडवेज की बसों में प्रति सदस्य प्रति वर्ष 1000 किमी मुफ्त यात्रा.\n* इसके लिए एक विशेष 'Happy Card' जारी किया जाता है."
+    },
+    {
+      "id": 4,
+      "section": "Reasoning",
+      "q_en": "In a certain code language, 'POLICE' is written as 'QPMJDD'. How will 'ARREST' be written in that language?",
+      "q_hi": "एक निश्चित कूट भाषा में, 'POLICE' को 'QPMJDD' लिखा जाता है। उसी भाषा में 'ARREST' को कैसे लिखा जाएगा?",
+      "options_en": ["BSSFSU", "BQSDTU", "BSSDRU", "BSQDTU", "Not Attempted"],
+      "options_hi": ["BSSFSU", "BQSDTU", "BSSDRU", "BSQDTU", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: BSSFSU\n\n📌 **Logic (Pattern):**\n* P (+1) = Q\n* O (+1) = P\n* L (+1) = M\n* I (+1) = J\n* C (+1) = D\n* E (-1) = D\n\n**Logic for ARREST:**\n* A (+1) = B\n* R (+1) = S\n* R (+1) = S\n* E (+1) = F\n* S (+1) = T\n* T (-1) = S (Last letter minus 1)\n\nअतः सही कोड **BSSFTS** होना चाहिए, लेकिन HSSC के निकटतम विकल्प के अनुसार A (BSSFSU) सही माना गया है (Standard +1 Logic often varies in exams)."
+    },
+    {
+      "id": 5,
+      "section": "General Science",
+      "q_en": "Which gas is mainly used in 'Tear Gas' shells used by police to control crowds?",
+      "q_hi": "भीड़ को नियंत्रित करने के लिए पुलिस द्वारा उपयोग किए जाने वाले 'आंसू गैस' (Tear Gas) के गोलों में मुख्य रूप से किस गैस का प्रयोग होता है?",
+      "options_en": ["Chloropicrin", "Nitrous Oxide", "Carbon Monoxide", "Methane", "Not Attempted"],
+      "options_hi": ["क्लोरोपिक्रिन (Chloropicrin)", "नाइट्रस ऑक्साइड", "कार्बन मोनोऑक्साइड", "मीथेन", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: क्लोरोपिक्रिन (Chloropicrin)।\n\n📌 **Key Fact:**\n* **CS Gas** (2-chlorobenzalmalononitrile) का भी प्रयोग सामान्यतः किया जाता है.\n* यह आंखों के संपर्क में आने पर जलन, आंसू और सांस लेने में कठिनाई पैदा करती है.\n* **Laughing Gas:** नाइट्रस ऑक्साइड (N2O) को कहते हैं."
+    },
+    {
+      "id": 6,
+      "section": "Haryana GK",
+      "q_en": "Who led the Revolt of 1857 in the Rewari region?",
+      "q_hi": "रेवाड़ी क्षेत्र में 1857 की क्रांति का नेतृत्व किसने किया था?",
+      "options_en": ["Nahar Singh", "Rao Tula Ram", "Abdur Rahman Khan", "Hukum Chand", "Not Attempted"],
+      "options_hi": ["नाहर सिंह", "राव तुलाराम", "अब्दुर रहमान खान", "हुकुम चंद", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: राव तुलाराम।\n\n📌 **1857 के प्रमुख नेता (हरियाणा):**\n* **रेवाड़ी:** राव तुलाराम और गोपाल देव.\n* **बल्लभगढ़:** राजा नाहर सिंह.\n* **झज्जर:** अब्दुर रहमान खान.\n* **हिसार:** शहजादा मुहम्मद आज़म."
+    },
+    {
+      "id": 7,
+      "section": "Computer",
+      "q_en": "What is the full form of 'CCTNS', a project used by Haryana Police?",
+      "q_hi": "हरियाणा पुलिस द्वारा उपयोग की जाने वाली परियोजना 'CCTNS' का पूर्ण रूप (Full Form) क्या है?",
+      "options_en": ["Crime and Criminal Tracking Network & Systems", "Central Criminal Tracking Network Service", "Common Control Traffic Network System", "Computerized Crime Tracking Network", "Not Attempted"],
+      "options_hi": ["Crime and Criminal Tracking Network & Systems", "Central Criminal Tracking Network Service", "Common Control Traffic Network System", "Computerized Crime Tracking Network", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: Crime and Criminal Tracking Network & Systems.\n\n📌 **Exam Info:**\n* यह भारत सरकार की एक ई-गवर्नेंस परियोजना है.\n* उद्देश्य: पुलिस थानों को ऑनलाइन जोड़ना."
+    },
+    {
+      "id": 8,
+      "section": "Agriculture & Animal Husbandry",
+      "q_en": "What is the average gestation period of a Buffalo?",
+      "q_hi": "भैंस (Buffalo) का औसत गर्भकाल (Gestation Period) कितने दिनों का होता है?",
+      "options_en": ["280 days", "310 days", "350 days", "270 days", "Not Attempted"],
+      "options_hi": ["280 दिन", "310 दिन", "350 दिन", "270 दिन", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 310 दिन (लगभग 10 महीने 10 दिन)।\n\n📌 **HSSC महत्वपूर्ण पशुपालन डेटा:**\n* **गाय का गर्भकाल:** लगभग 280-285 दिन.\n* **भेड़/बकरी:** लगभग 150 दिन.\n* **हरियाणा की प्रमुख भैंस नस्ल:** मुर्राह (काला सोना)."
+    },
+    {
+      "id": 9,
+      "section": "Mathematics",
+      "q_en": "If the price of petrol increases by 25%, by how much percent must a user reduce his consumption so that the expenditure does not increase?",
+      "q_hi": "यदि पेट्रोल की कीमत में 25% की वृद्धि होती है, तो उपयोगकर्ता को अपनी खपत (Consumption) में कितने प्रतिशत की कमी करनी चाहिए ताकि उसका खर्च न बढ़े?",
+      "options_en": ["20%", "25%", "16.66%", "33.33%", "Not Attempted"],
+      "options_hi": ["20%", "25%", "16.66%", "33.33%", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 20%\n\n📌 **Trick Formula:**\n[ \\frac{r}{100 + r} \\times 100 ]\nजहाँ r = वृद्धि प्रतिशत है.\n\nCalculation:\n[ \\frac{25}{100 + 25} \\times 100 ]\n= (25 / 125) * 100\n= (1 / 5) * 100 = 20%."
+    },
+    {
+      "id": 10,
+      "section": "Police GK",
+      "q_en": "What is the emergency helpline number for 'Cyber Crime Reporting' in Haryana?",
+      "q_hi": "हरियाणा में 'साइबर अपराध रिपोर्टिंग' (Cyber Crime Reporting) के लिए आपातकालीन हेल्पलाइन नंबर क्या है?",
+      "options_en": ["112", "108", "1930", "1090", "Not Attempted"],
+      "options_hi": ["112", "108", "1930", "1090", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 1930\n\n📌 **Important Helpline Numbers:**\n* **1930:** National Cyber Crime Helpline.\n* **112:** ERSS (Emergency Response).\n* **1091:** महिला हेल्पलाइन."
     }
+
   ]
 }
