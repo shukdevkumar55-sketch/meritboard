@@ -1,0 +1,148 @@
+/* =========================================
+   File: css/feed-style.css
+   Purpose: Specific styles for the Advanced Feed Page
+   ========================================= */
+
+/* 1. FEED SPECIFIC HEADER */
+.feed-header { 
+    background: var(--primary-color); 
+    color: white; 
+    padding: 30px 0; 
+    margin-bottom: 0; 
+    text-align: center; 
+}
+.feed-header h1 { font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: 700; margin: 0; }
+.feed-header p { opacity: 0.9; font-size: 0.95rem; margin-top: 5px; }
+
+/* 2. STICKY CONTROLS CONTAINER */
+.sticky-controls {
+    position: sticky;
+    top: var(--header-height);
+    background: var(--bg-body);
+    z-index: 800;
+    padding-top: 10px;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+}
+
+/* 3. CATEGORY TABS (Scrollable) */
+.category-tabs-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+.category-tabs-wrapper::-webkit-scrollbar { display: none; }
+
+.category-tabs {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+/* 4. TAB BUTTONS DESIGN */
+.tab-btn {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.tab-btn:hover {
+    background-color: #f1f3f4;
+    color: var(--text-main);
+    border-color: #ccc;
+}
+
+.tab-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(26, 35, 126, 0.25);
+    font-weight: 600;
+}
+
+/* 5. TOOLBAR (Search & Sort) */
+.feed-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 15px 0;
+    gap: 10px;
+}
+
+.local-search {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: #fff;
+    color: var(--text-main);
+}
+.local-search:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(3, 169, 244, 0.1);
+}
+
+.sort-select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: #fff;
+    color: var(--text-main);
+    cursor: pointer;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+/* 6. GRID OVERRIDES FOR FEED */
+.content-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 25px; 
+    padding-bottom: 50px; 
+}
+.content-grid .content-card { 
+    width: 100%; 
+    max-width: 100%; 
+    min-width: 0; 
+}
+
+/* 7. EMPTY STATE */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    background: white;
+    border-radius: 12px;
+    border: 1px dashed var(--border-color);
+    margin-top: 20px;
+}
+.empty-state-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+/* 8. BREADCRUMB */
+.breadcrumb {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 8px;
+}
+.breadcrumb a { color: white; font-weight: 500; }
+.breadcrumb span { margin: 0 5px; }
