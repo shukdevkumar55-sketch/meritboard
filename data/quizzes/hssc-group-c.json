@@ -641,7 +641,250 @@
 "options_hi": ["548", "532", "540", "544", "अनुत्तरित प्रश्न"],
 "answer": 0,
 "explanation": "LCM of 12, 15, 20, 54.\nFactors: 12=4×3, 15=5×3, 20=5×4, 54=27×2.\nLCM = 27 × 4 × 5 = 540.\nRequired Number = LCM + Remainder = 540 + 8 = 548."
+},
+{
+"id": 65,
+"section": "English Language",
+"q_en": "Change the Voice: 'People speak English all over the world.'",
+"q_hi": "वाच्य बदलें (Change the Voice): 'People speak English all over the world.'",
+"options_en": ["English is spoken all over the world.", "English was spoken all over the world.", "English is being spoken all over the world.", "English has been spoken all over the world.", "Not Attempted"],
+"options_hi": ["English is spoken all over the world.", "English was spoken all over the world.", "English is being spoken all over the world.", "English has been spoken all over the world.", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "When the subject is vague (like 'People', 'Someone', 'They'), it is often omitted in the Passive voice. Structure: Object + is/am/are + V3. Correct: 'English is spoken all over the world.'"
+},
+{
+"id": 66,
+"section": "English Language",
+"q_en": "Spot the error in the sentence: 'No sooner did I reach the station / then the train left. / No error.'",
+"q_hi": "वाक्य में त्रुटि ज्ञात करें: 'No sooner did I reach the station / then the train left. / No error.'",
+"options_en": ["No sooner did I reach the station", "then the train left", "No error", "the station", "Not Attempted"],
+"options_hi": ["No sooner did I reach the station", "then the train left", "No error", "the station", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "The correct conjunction pair is 'No sooner... than', not 'then'. The sentence should be: 'No sooner did I reach the station than the train left.'"
+},
+{
+"id": 67,
+"section": "English Language",
+"q_en": "Choose the correct meaning of the idiom: 'To flog a dead horse'.",
+"q_hi": "मुहावरे का सही अर्थ चुनें: 'To flog a dead horse'.",
+"options_en": ["To attempt to do the impossible", "To waste energy on an unalterable situation", "To take advantage of a weakness", "To beat a horse that is dead", "Not Attempted"],
+"options_hi": ["To attempt to do the impossible", "To waste energy on an unalterable situation", "To take advantage of a weakness", "To beat a horse that is dead", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "'To flog a dead horse' means to waste effort on something that has no chance of succeeding or is already over."
+},
+{
+"id": 68,
+"section": "English Language",
+"q_en": "Select the correct Preposition: 'He prefers tea ____ coffee.'",
+"q_hi": "सही पूर्वसर्ग (Preposition) चुनें: 'He prefers tea ____ coffee.'",
+"options_en": ["than", "over", "to", "for", "Not Attempted"],
+"options_hi": ["than", "over", "to", "for", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "With the word 'prefer' or 'preferable', we always use the preposition 'to', not 'than'. Correct: 'prefers tea to coffee'."
+},
+{
+"id": 69,
+"section": "English Language",
+"q_en": "One Word Substitution: 'One who collects coins'.",
+"q_hi": "एक शब्द प्रतिस्थापन: 'One who collects coins'.",
+"options_en": ["Philatelist", "Numismatist", "Archaeologist", "Connoisseur", "Not Attempted"],
+"options_hi": ["Philatelist", "Numismatist", "Archaeologist", "Connoisseur", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "A 'Numismatist' collects coins. A 'Philatelist' collects stamps. A 'Connoisseur' is an expert judge in matters of taste."
+},
+{
+"id": 70,
+"section": "English Language",
+"q_en": "Select the correct Antonym of the word: 'DILIGENT'.",
+"q_hi": "'DILIGENT' शब्द का सही विलोम (Antonym) चुनें।",
+"options_en": ["Hardworking", "Lazy", "Intelligent", "Energetic", "Not Attempted"],
+"options_hi": ["Hardworking", "Lazy", "Intelligent", "Energetic", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "Diligent means showing care and conscientious work (hardworking). Its opposite is 'Lazy' or 'Lethargic'."
+},
+{
+"id": 71,
+"section": "Hindi Language",
+"q_en": "In which of the following words 'Gun Swar Sandhi' (गुण स्वर संधि) is present?",
+"q_hi": "निम्नलिखित में से किस शब्द में 'गुण स्वर संधि' है?",
+"options_en": ["Vidyalaya", "Ravindra", "Devendra", "Yadyapi", "Not Attempted"],
+"options_hi": ["विद्यालय", "रवीन्द्र", "देवेन्द्र", "यद्यपि", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "देवेन्द्र = देव + इन्द्र (अ + इ = ए)। यह गुण संधि का नियम है। (विद्यालय = दीर्घ, यद्यपि = यण)।"
+},
+{
+"id": 72,
+"section": "Hindi Language",
+"q_en": "Which Samas (Compound) is in the word 'Nilkanth' (if referring to Lord Shiva)?",
+"q_hi": "'नीलकंठ' शब्द में कौन सा समास है (यदि यह भगवान शिव के लिए प्रयुक्त हो)?",
+"options_en": ["Tatpurush", "Karmadharaya", "Bahuvrihi", "Dvigu", "Not Attempted"],
+"options_hi": ["तत्पुरुष", "कर्मधारय", "बहुव्रीहि", "द्विगु", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "नीला है कंठ जिसका = अर्थात शिव। जब दो पद मिलकर किसी तीसरे पद की ओर संकेत करते हैं, तो वहां 'बहुव्रीहि समास' होता है। (नोट: यदि विकल्प में बहुव्रीहि न हो, तो यह कर्मधारय हो सकता है, पर HSSC में बहुव्रीहि को प्राथमिकता दी जाती है)।"
+},
+{
+"id": 73,
+"section": "Hindi Language",
+"q_en": "Identify the Alankar: 'Kanak Kanak te sau guni, madakta adhikaye'.",
+"q_hi": "अलंकार पहचानें: 'कनक कनक ते सौ गुनी, मादकता अधिकाय' में कौन सा अलंकार है?",
+"options_en": ["Anupras", "Yamak", "Shlesh", "Rupak", "Not Attempted"],
+"options_hi": ["अनुप्रास", "यमक", "श्लेष", "रूपक", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "जब एक शब्द (कनक) एक से अधिक बार आए और हर बार उसका अर्थ अलग हो (पहला कनक = सोना, दूसरा कनक = धतूरा), तो वहां 'यमक अलंकार' होता है।"
+},
+{
+"id": 74,
+"section": "Hindi Language",
+"q_en": "Which of the following sentences is grammatically PURE (Shuddh)?",
+"q_hi": "निम्नलिखित में से कौन सा वाक्य शुद्ध है?",
+"options_en": ["Mere ko ghar jana hai.", "Mujhe ghar jana hai.", "Maine ghar jana hai.", "Mujhko ghar jana hai.", "Not Attempted"],
+"options_hi": ["मेरे को घर जाना है।", "मुझे घर जाना है।", "मैंने घर जाना है।", "मुझको घर जाना है।", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "'मेरे को' और 'मैंने' (इस संदर्भ में) व्याकरण की दृष्टि से अशुद्ध सर्वनाम प्रयोग हैं। सही वाक्य 'मुझे घर जाना है' है।"
+},
+{
+"id": 75,
+"section": "Hindi Language",
+"q_en": "Who is the author of the famous epic 'Kamayani'?",
+"q_hi": "प्रसिद्ध महाकाव्य 'कामायनी' के रचयिता कौन हैं?",
+"options_en": ["Sumitranandan Pant", "Suryakant Tripathi Nirala", "Jaishankar Prasad", "Mahadevi Verma", "Not Attempted"],
+"options_hi": ["सुमित्रानंदन पंत", "सूर्यकांत त्रिपाठी 'निराला'", "जयशंकर प्रसाद", "महादेवी वर्मा", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "'कामायनी' जयशंकर प्रसाद की कालजयी रचना है, जो छायावादी युग का सर्वश्रेष्ठ महाकाव्य मानी जाती है।"
+},
+{
+"id": 76,
+"section": "Hindi Language",
+"q_en": "Identify the word which is 'Tadbhav' (Modified from Sanskrit).",
+"q_hi": "उस शब्द की पहचान करें जो 'तद्भव' है।",
+"options_en": ["Agni", "Hast", "Khet", "Karn", "Not Attempted"],
+"options_hi": ["अग्नि", "हस्त", "खेत", "कर्ण", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "'खेत' एक तद्भव शब्द है जिसका तत्सम 'क्षेत्र' होता है। बाकी तीनों (अग्नि, हस्त, कर्ण) तत्सम शब्द हैं।"
 }
-
+,
+{
+"id": 77,
+"section": "Computer Awareness",
+"q_en": "In Python programming language, which of the following data types is 'Immutable' (cannot be changed after creation)?",
+"q_hi": "Python प्रोग्रामिंग भाषा में, निम्नलिखित में से कौन सा डेटा प्रकार 'Immutable' (निर्माण के बाद बदला नहीं जा सकता) है?",
+"options_en": ["List", "Dictionary", "Set", "Tuple", "Not Attempted"],
+"options_hi": ["लिस्ट (List)", "डिक्शनरी (Dictionary)", "सेट (Set)", "ट्यूपल (Tuple)", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "In Python, Lists, Dictionaries, and Sets are Mutable (changeable). Tuples, Strings, and Numbers are Immutable. HSSC frequently asks the difference between List [ ] and Tuple ( )."
+},
+{
+"id": 78,
+"section": "Computer Awareness",
+"q_en": "Which symbol is used in MS-Excel to create an 'Absolute Cell Reference' (fixing the cell address)?",
+"q_hi": "MS-Excel में 'एब्सोल्यूट सेल रेफरेंस' (सेल का पता फिक्स करने के लिए) बनाने के लिए किस प्रतीक का उपयोग किया जाता है?",
+"options_en": ["#", "&", "
+", "%", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "The Dollar sign ($) is used for absolute referencing (e.g., 
+𝐴
+A
+1). It ensures that the cell reference does not change when the formula is copied to other cells."
+},
+{
+"id": 79,
+"section": "Computer Awareness",
+"q_en": "Which of the following is the fastest memory in a computer system that acts as a buffer between the CPU and the Main Memory (RAM)?",
+"q_hi": "निम्नलिखित में से कौन कंप्यूटर सिस्टम में सबसे तेज मेमोरी है जो सीपीयू (CPU) और मुख्य मेमोरी (RAM) के बीच बफर के रूप में कार्य करती है?",
+"options_en": ["Hard Disk", "Cache Memory", "Virtual Memory", "Flash Memory", "Not Attempted"],
+"options_hi": ["हार्ड डिस्क", "कैश मेमोरी (Cache Memory)", "वर्चुअल मेमोरी", "फ्लैश मेमोरी", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "Cache Memory is a high-speed semiconductor memory which can speed up the CPU. It holds frequently used data and instructions."
+},
+{
+"id": 80,
+"section": "Computer Awareness",
+"q_en": "What is the full form of 'SQL' used in database management?",
+"q_hi": "डेटाबेस प्रबंधन में प्रयुक्त 'SQL' का पूर्ण रूप क्या है?",
+"options_en": ["Structured Question List", "Structured Query Language", "Simple Query Language", "System Query Logic", "Not Attempted"],
+"options_hi": ["Structured Question List", "Structured Query Language", "Simple Query Language", "System Query Logic", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "SQL stands for Structured Query Language. It is the standard language for dealing with Relational Databases (RDBMS)."
+},
+{
+"id": 81,
+"section": "Computer Awareness",
+"q_en": "In the context of C++ language, which feature allows a class to derive properties and characteristics from another class?",
+"q_hi": "C++ भाषा के संदर्भ में, कौन सी विशेषता एक क्लास (Class) को दूसरी क्लास से गुण और विशेषताएँ प्राप्त करने की अनुमति देती है?",
+"options_en": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction", "Not Attempted"],
+"options_hi": ["बहुरूपता (Polymorphism)", "एनकैप्सुलेशन (Encapsulation)", "वंशानुक्रम (Inheritance)", "एब्सट्रैक्शन (Abstraction)", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "Inheritance is the mechanism in Object-Oriented Programming (OOP) where a new class (derived class) acquires the properties of an existing class (base class)."
+},
+{
+"id": 82,
+"section": "Computer Awareness",
+"q_en": "Which of the following IP address classes is reserved for Multicasting?",
+"q_hi": "निम्नलिखित में से कौन सा IP एड्रेस क्लास 'मल्टीकास्टिंग' (Multicasting) के लिए आरक्षित है?",
+"options_en": ["Class A", "Class B", "Class C", "Class D", "Not Attempted"],
+"options_hi": ["क्लास A", "क्लास B", "क्लास C", "क्लास D", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "Class D (Range: 224.0.0.0 to 239.255.255.255) is reserved for Multicasting. Class E is reserved for research/experimental purposes."
+},
+{
+"id": 83,
+"section": "Computer Awareness",
+"q_en": "Which shortcut key is used to open the 'Task Manager' directly in Windows?",
+"q_hi": "विंडोज में 'टास्क मैनेजर' (Task Manager) को सीधे खोलने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+"options_en": ["Alt + Ctrl + Delete", "Ctrl + Shift + Esc", "Alt + F4", "Win + T", "Not Attempted"],
+"options_hi": ["Alt + Ctrl + Delete", "Ctrl + Shift + Esc", "Alt + F4", "Win + T", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "While 'Alt + Ctrl + Del' opens a security screen from where you can choose Task Manager, 'Ctrl + Shift + Esc' opens the Task Manager directly."
+},
+{
+"id": 84,
+"section": "Computer Awareness",
+"q_en": "Which of the following is an example of an Output Device that produces a hard copy of graphics and drawings?",
+"q_hi": "निम्नलिखित में से कौन एक आउटपुट डिवाइस का उदाहरण है जो ग्राफिक्स और ड्राइंग की हार्ड कॉपी (कागज पर) तैयार करता है?",
+"options_en": ["Scanner", "Plotter", "Joystick", "Light Pen", "Not Attempted"],
+"options_hi": ["स्कैनर", "प्लॉटर (Plotter)", "जॉयस्टिक", "लाइट पेन", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "A Plotter is a printer designed for printing vector graphics like architectural blueprints and engineering designs. Scanners and Joysticks are Input devices."
+},
+{
+"id": 85,
+"section": "Computer Awareness",
+"q_en": "In computer terminology, what does 'firmware' refer to?",
+"q_hi": "कंप्यूटर शब्दावली में, 'फर्मवेयर' (Firmware) का क्या अर्थ है?",
+"options_en": ["Software that manages memory", "Physical components of a computer", "Software permanently programmed into a hardware device", "An antivirus program", "Not Attempted"],
+"options_hi": ["सॉफ्टवेयर जो मेमोरी का प्रबंधन करता है", "कंप्यूटर के भौतिक घटक", "हार्डवेयर डिवाइस में स्थायी रूप से प्रोग्राम किया गया सॉफ्टवेयर", "एक एंटीवायरस प्रोग्राम", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "Firmware is a specific class of computer software that provides the low-level control for the device's specific hardware (e.g., BIOS/UEFI on a motherboard). It is 'firm' because it rarely changes."
+},
+{
+"id": 86,
+"section": "Computer Awareness",
+"q_en": "What is the function of the 'Compiler'?",
+"q_hi": "'कम्पाइलर' (Compiler) का कार्य क्या है?",
+"options_en": ["To execute the program line by line", "To convert High-Level Language code into Machine Code at once", "To debug the code", "To manage the operating system", "Not Attempted"],
+"options_hi": ["प्रोग्राम को लाइन दर लाइन निष्पादित करना", "हाई-लेवल लैंग्वेज कोड को एक बार में मशीन कोड में बदलना", "कोड को डिबग करना", "ऑपरेटिंग सिस्टम का प्रबंधन करना", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "A Compiler translates the entire source code (High-Level) into machine code (Object code) in one go. An Interpreter translates line by line (like in Python)."
+},
+{
+"id": 87,
+"section": "Haryana Current Affairs (Latest)",
+"q_en": "Under the 'PADMA' scheme of Haryana government, what is the main objective?",
+"q_hi": "हरियाणा सरकार की 'पद्मा' (PADMA) योजना के तहत मुख्य उद्देश्य क्या है?",
+"options_en": ["Providing loans to farmers", "Program to Accelerate Development for MSME Advancement", "Pension for old age artists", "Free education for girls", "Not Attempted"],
+"options_hi": ["किसानों को ऋण प्रदान करना", "MSME उन्नति के लिए विकास में तेजी लाने का कार्यक्रम", "वृद्ध कलाकारों के लिए पेंशन", "लड़कियों के लिए मुफ्त शिक्षा", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "PADMA stands for 'Program to Accelerate Development for MSME Advancement'. It aims to promote the 'One Block One Product' initiative to boost industrialization at the block level."
+},
+{
+"id": 88,
+"section": "Haryana Current Affairs (Latest)",
+"q_en": "Recently, the 'Global City' project is being developed in which district of Haryana?",
+"q_hi": "हाल ही में, हरियाणा के किस जिले में 'ग्लोबल सिटी' (Global City) परियोजना विकसित की जा रही है?",
+"options_en": ["Panchkula", "Faridabad", "Gurugram", "Karnal", "Not Attempted"],
+"options_hi": ["पंचकूला", "फरीदाबाद", "गुरुग्राम", "करनाल", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "The Global City is a mixed-use township being developed in Gurugram (near Dwarka Expressway) by HSIIDC to act as a central business district."
+}
 ]
 }
