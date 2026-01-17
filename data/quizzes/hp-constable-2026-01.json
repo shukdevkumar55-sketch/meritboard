@@ -397,4 +397,608 @@
       "options_hi": ["7", "8", "11", "9", "अनुत्तरित प्रश्न"],
       "answer": 1,
       "explanation": "सही उत्तर: 8 खिलाड़ी।\n\n📌 Confusing Point:\n* National/Standard Style Kabaddi: 7 खिलाड़ी (मैदान पर)।\n* Circle Style Kabaddi (हरियाणा/पंजाब वाली): 8 खिलाड़ी।\n* HSSC अक्सर सर्कल कबड्डी के बारे में पूछता है क्योंकि यह राज्य का मुख्य खेल है।"
+    }    ,
+    {
+      "id": 41,
+      "section": "Haryana GK (History)",
+      "q_en": "Sir Chhotu Ram is known as the architect of which major project in India?",
+      "q_hi": "सर छोटू राम को भारत में किस प्रमुख परियोजना का वास्तुकार (Architect) माना जाता है?",
+      "options_en": ["Bhakra Nangal Dam", "Western Yamuna Canal", "Indira Gandhi Canal", "SYL Canal", "Not Attempted"],
+      "options_hi": ["भाखड़ा नांगल बांध", "पश्चिमी यमुना नहर", "इंदिरा गांधी नहर", "SYL नहर", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: भाखड़ा नांगल बांध।\n\n📌 Exam Facts:\n* सर छोटू राम को 'किसानों का मसीहा' और 'रहबर-ए-आज़म' कहा जाता है।\n* उन्होंने बिलासपुर के राजा के साथ समझौते पर हस्ताक्षर किए थे, जिससे भाखड़ा बांध का निर्माण संभव हुआ।\n* उनका जन्म गढ़ी सांपला (रोहतक) में हुआ था।"
+    },
+    {
+      "id": 42,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "Under the 'Bharatiya Nyaya Sanhita' (BNS), what is the punishment prescribed for 'Mob Lynching' (murder by a group of 5 or more on grounds of race, caste, etc.)?",
+      "q_hi": "'भारतीय न्याय संहिता' (BNS) के तहत, 'मॉब लिंचिंग' (5 या अधिक लोगों के समूह द्वारा जाति, नस्ल आदि के आधार पर हत्या) के लिए क्या सजा निर्धारित की गई है?",
+      "options_en": ["Life Imprisonment or Death Penalty", "7 Years Imprisonment", "10 Years Imprisonment", "Only Fine", "Not Attempted"],
+      "options_hi": ["आजीवन कारावास या मृत्युदंड (फांसी)", "7 साल की कैद", "10 साल की कैद", "केवल जुर्माना", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: आजीवन कारावास या मृत्युदंड।\n\n📌 Key Change:\n* पुराने IPC में मॉब लिंचिंग के लिए कोई अलग से विशिष्ट धारा नहीं थी।\n* BNS की धारा 103(2) के तहत अब इसे एक अलग अपराध माना गया है और इसके लिए न्यूनतम सजा आजीवन कारावास और अधिकतम मृत्युदंड (Capital Punishment) है।"
+    },
+    {
+      "id": 43,
+      "section": "Haryana GK (Police)",
+      "q_en": "When was the first 'All Women Police Station' (Mahila Thana) inaugurated in Haryana?",
+      "q_hi": "हरियाणा में पहले 'महिला पुलिस थाने' (Mahila Thana) का उद्घाटन कब किया गया था?",
+      "options_en": ["29 August 2015 (Raksha Bandhan)", "1 November 1966", "26 January 2010", "15 August 2014", "Not Attempted"],
+      "options_hi": ["29 अगस्त 2015 (रक्षाबंधन)", "1 नवंबर 1966", "26 जनवरी 2010", "15 अगस्त 2014", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 29 अगस्त 2015।\n\n📌 Exam Info:\n* रक्षाबंधन के अवसर पर हरियाणा के सभी जिलों में एक साथ महिला पुलिस थाने खोले गए थे।\n* इनका उद्देश्य महिलाओं के खिलाफ अपराधों को रोकना और उन्हें शिकायत दर्ज कराने में सहज महसूस कराना है।\n* इसका मुख्यालय पंचकूला में है।"
+    },
+    {
+      "id": 44,
+      "section": "Reasoning",
+      "q_en": "Statements: All Pens are Books. Some Books are Mobiles.\nConclusion I: Some Pens are Mobiles.\nConclusion II: Some Mobiles are Books.",
+      "q_hi": "कथन: सभी पेन, किताबें हैं। कुछ किताबें, मोबाइल हैं।\nनिष्कर्ष I: कुछ पेन, मोबाइल हैं।\nनिष्कर्ष II: कुछ मोबाइल, किताबें हैं।",
+      "options_en": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows", "Not Attempted"],
+      "options_hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: केवल II अनुसरण करता है।\n\n📌 Logic (Venn Diagram):\n1. 'सभी पेन किताबें हैं' -> पेन का सर्कल किताब के अंदर है।\n2. 'कुछ किताबें मोबाइल हैं' -> किताब और मोबाइल का सर्कल आपस में कट रहा है।\n\nनिष्कर्ष जांच:\nI. 'कुछ पेन मोबाइल हैं' -> पेन और मोबाइल में कोई सीधा संबंध (Direct Relation) नहीं दिया गया है। (गलत/Uncertain)\nII. 'कुछ मोबाइल किताबें हैं' -> चूंकि कुछ किताबें मोबाइल हैं, तो कुछ मोबाइल भी किताबें होंगी। (सही)"
+    },
+    {
+      "id": 45,
+      "section": "Animal Husbandry",
+      "q_en": "Where is the 'Central Institute for Research on Buffaloes' (CIRB) established?",
+      "q_hi": "'केंद्रीय भैंस अनुसंधान संस्थान' (CIRB) कहाँ स्थापित है?",
+      "options_en": ["Karnal", "Hisar", "Rohtak", "Bhiwani", "Not Attempted"],
+      "options_hi": ["करनाल", "हिसार", "रोहतक", "भिवानी", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: हिसार।\n\n📌 Important Institutes:\n* CIRB (Central Institute for Research on Buffaloes): हिसार (स्थापना 1985)।\n* NRCE (National Research Centre on Equines/घोड़ा): हिसार (स्थापना 1986)।\n* NDRI (National Dairy Research Institute): करनाल।"
+    },
+    {
+      "id": 46,
+      "section": "Computer",
+      "q_en": "Which protocol is used to browse websites on the internet?",
+      "q_hi": "इंटरनेट पर वेबसाइटों को ब्राउज़ करने के लिए किस प्रोटोकॉल (Protocol) का उपयोग किया जाता है?",
+      "options_en": ["SMTP", "HTTP", "FTP", "POP3", "Not Attempted"],
+      "options_hi": ["SMTP", "HTTP", "FTP", "POP3", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: HTTP\n\n📌 Full Forms:\n* HTTP: HyperText Transfer Protocol (वेब पेज देखने के लिए)।\n* FTP: File Transfer Protocol (फाइल अपलोड/डाउनलोड के लिए)।\n* SMTP: Simple Mail Transfer Protocol (ईमेल भेजने के लिए)।"
+    },
+    {
+      "id": 47,
+      "section": "Mathematics",
+      "q_en": "The difference between Simple Interest and Compound Interest on a sum of money for 2 years at 10% per annum is ₹50. Find the sum.",
+      "q_hi": "किसी धनराशि पर 2 वर्ष के लिए 10% वार्षिक दर से साधारण ब्याज और चक्रवृद्धि ब्याज का अंतर ₹50 है। वह धनराशि ज्ञात करें।",
+      "options_en": ["₹4000", "₹5000", "₹6000", "₹2500", "Not Attempted"],
+      "options_hi": ["₹4000", "₹5000", "₹6000", "₹2500", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: ₹5000\n\n📌 Trick Formula (For 2 Years):\nDifference (D) = P * (R/100)^2\n\nCalculation:\n50 = P * (10/100)^2\n50 = P * (1/10)^2\n50 = P * (1/100)\nP = 50 * 100 = ₹5000"
+    },
+    {
+      "id": 48,
+      "section": "General Science",
+      "q_en": "What is the average lifespan of Red Blood Cells (RBC) in the human body?",
+      "q_hi": "मानव शरीर में लाल रक्त कोशिकाओं (RBC) का औसत जीवनकाल कितना होता है?",
+      "options_en": ["120 days", "60 days", "90 days", "150 days", "Not Attempted"],
+      "options_hi": ["120 दिन", "60 दिन", "90 दिन", "150 दिन", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 120 दिन।\n\n📌 Facts:\n* RBC का निर्माण: अस्थि मज्जा (Bone Marrow) में होता है।\n* RBC की मृत्यु: प्लीहा (Spleen) में होती है, इसलिए प्लीहा को 'RBC का कब्रिस्तान' (Graveyard of RBC) कहा जाता है।\n* कार्य: ऑक्सीजन का परिवहन करना।"
+    },
+    {
+      "id": 49,
+      "section": "Haryana GK (Geography)",
+      "q_en": "Which is the highest mountain peak of Haryana located in the Morni Hills?",
+      "q_hi": "मोरनी पहाड़ियों में स्थित हरियाणा की सबसे ऊंची पर्वत चोटी कौन सी है?",
+      "options_en": ["Karoh Peak", "Dhosi Hill", "Tohana", "Kalesar", "Not Attempted"],
+      "options_hi": ["करोह चोटी (Karoh Peak)", "ढोसी की पहाड़ी", "टोहाना", "कालेश्वर", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: करोह चोटी (Karoh Peak)।\n\n📌 Exam Info:\n* स्थान: मोरनी हिल्स, पंचकूला।\n* ऊंचाई: लगभग 1467 मीटर (HSSC के अनुसार 1514 मीटर भी कई बार माना गया है)।\n* यह शिवालिक पर्वत श्रृंखला का हिस्सा है।\n* ढोसी की पहाड़ी (महेंद्रगढ़) अरावली रेंज की सबसे ऊंची चोटी है।"
+    },
+    {
+      "id": 50,
+      "section": "Current Affairs (Scheme)",
+      "q_en": "The scheme 'Mera Pani Meri Virasat' is related to which of the following?",
+      "q_hi": "'मेरा पानी मेरी विरासत' योजना का संबंध निम्नलिखित में से किससे है?",
+      "options_en": ["Water Conservation / Crop Diversification", "River Cleaning", "Canal Construction", "Fish Farming", "Not Attempted"],
+      "options_hi": ["जल संरक्षण / फसल विविधीकरण", "नदी सफाई", "नहर निर्माण", "मछली पालन", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: जल संरक्षण / फसल विविधीकरण।\n\n📌 Scheme Details:\n* उद्देश्य: किसानों को धान (Paddy) की जगह कम पानी वाली फसलें (मक्का, कपास, दलहन) उगाने के लिए प्रोत्साहित करना।\n* प्रोत्साहन राशि: ₹7000 प्रति एकड़।\n* ब्रांड एंबेसडर: मनिका श्योकंद।"
+    }    ,
+    {
+      "id": 51,
+      "section": "Haryana GK (Administration)",
+      "q_en": "How many Administrative Divisions (Mandal) are there in Haryana?",
+      "q_hi": "हरियाणा में कितने प्रशासनिक मंडल (Administrative Divisions) हैं?",
+      "options_en": ["4", "5", "6", "7", "Not Attempted"],
+      "options_hi": ["4", "5", "6", "7", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 6 मंडल।\n\n📌 Exam Facts:\n* हरियाणा में कुल 6 मंडल हैं: अंबाला, रोहतक, हिसार, गुरुग्राम, करनाल और फरीदाबाद।\n* करनाल और फरीदाबाद नए बनाए गए मंडल हैं (2017 में)।\n* सबसे बड़ा मंडल (जिलों की संख्या के आधार पर): रोहतक (5 जिले)।\n* सबसे छोटा मंडल: फरीदाबाद।"
+    },
+    {
+      "id": 52,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "In the new 'Bharatiya Nyaya Sanhita' (BNS), the offense of 'Sedition' (Rajdroh) has been abolished and replaced by a new section dealing with 'Acts endangering sovereignty'. Which section is it?",
+      "q_hi": "नई 'भारतीय न्याय संहिता' (BNS) में, 'राजद्रोह' (Sedition) के अपराध को समाप्त कर दिया गया है और इसकी जगह 'संप्रभुता को खतरे में डालने वाले कृत्यों' से संबंधित एक नई धारा जोड़ी गई है। वह धारा कौन सी है?",
+      "options_en": ["Section 124A", "Section 150", "Section 152", "Section 302", "Not Attempted"],
+      "options_hi": ["धारा 124A", "धारा 150", "धारा 152", "धारा 302", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: धारा 152।\n\n📌 Key Change:\n* पुराने IPC की धारा 124A (राजद्रोह) को हटा दिया गया है क्योंकि यह अंग्रेजों का कानून था।\n* अब BNS की धारा 152 के तहत 'देशद्रोह' (Acts endangering sovereignty, unity and integrity of India) को अपराध माना गया है।\n* सजा: आजीवन कारावास या 7 साल तक की कैद।"
+    },
+    {
+      "id": 53,
+      "section": "Mathematics",
+      "q_en": "In a mixture of 60 liters, the ratio of milk and water is 2:1. How much water must be added to make the ratio 1:2?",
+      "q_hi": "60 लीटर के मिश्रण में दूध और पानी का अनुपात 2:1 है। इसमें कितना पानी और मिलाया जाए कि अनुपात 1:2 हो जाए?",
+      "options_en": ["20 Liters", "30 Liters", "40 Liters", "60 Liters", "Not Attempted"],
+      "options_hi": ["20 लीटर", "30 लीटर", "40 लीटर", "60 लीटर", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 60 लीटर।\n\n📌 Solution:\n1. प्रारंभिक मात्रा:\nदूध = (2/3) * 60 = 40 लीटर\nपानी = (1/3) * 60 = 20 लीटर\n\n2. नई स्थिति:\nहमे केवल पानी मिलाना है, दूध 40 लीटर ही रहेगा।\nनया अनुपात 1:2 है।\nयदि 1 भाग (दूध) = 40 लीटर है।\nतो 2 भाग (पानी) = 40 * 2 = 80 लीटर होना चाहिए।\n\n3. पानी मिलाया:\nपहले पानी 20 था, अब 80 चाहिए।\nमिलाया गया पानी = 80 - 20 = 60 लीटर।"
+    },
+    {
+      "id": 54,
+      "section": "Agriculture",
+      "q_en": "'Yellow Rust' (Peela Ratua) is a disease related to which crop in Haryana?",
+      "q_hi": "'यलो रस्ट' (पीला रतुआ) हरियाणा में किस फसल से संबंधित एक बीमारी है?",
+      "options_en": ["Paddy", "Wheat", "Mustard", "Sugarcane", "Not Attempted"],
+      "options_hi": ["धान", "गेहूं", "सरसों", "गन्ना", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: गेहूं (Wheat)।\n\n📌 Exam Facts:\n* यलो रस्ट एक फंगल बीमारी है जो गेहूं की पत्तियों को पीला कर देती है।\n* यह मुख्य रूप से ठंडे और नम मौसम में फैलती है।\n* हरियाणा में यह बीमारी अक्सर पंचकूला, अंबाला और यमुनानगर (उत्तरी हरियाणा) के क्षेत्रों में देखी जाती है।"
+    },
+    {
+      "id": 55,
+      "section": "General Science",
+      "q_en": "Where is the image formed in a healthy human eye?",
+      "q_hi": "स्वस्थ मानव आँख में किसी वस्तु का प्रतिबिंब (Image) कहाँ बनता है?",
+      "options_en": ["Cornea", "Iris", "Pupil", "Retina", "Not Attempted"],
+      "options_hi": ["कॉर्निया", "आइरिस", "पुतली", "रेटिना (दृष्टिपटल)", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: रेटिना (Retina)।\n\n📌 Facts:\n* मानव आँख में रेटिना पर बनने वाला प्रतिबिंब 'वास्तविक और उल्टा' (Real and Inverted) होता है।\n* इसे मस्तिष्क सीधा करके समझता है।\n* नेत्रदान (Eye Donation) में आँख का 'कॉर्निया' वाला भाग दान किया जाता है।"
+    },
+    {
+      "id": 56,
+      "section": "Police GK (Hierarchy)",
+      "q_en": "Who is the highest ranking officer in the State Police Force?",
+      "q_hi": "राज्य पुलिस बल में सर्वोच्च रैंकिंग वाला अधिकारी कौन होता है?",
+      "options_en": ["Inspector General (IG)", "Director General of Police (DGP)", "Superintendent of Police (SP)", "Commissioner", "Not Attempted"],
+      "options_hi": ["पुलिस महानिरीक्षक (IG)", "पुलिस महानिदेशक (DGP)", "पुलिस अधीक्षक (SP)", "कमिश्नर", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: पुलिस महानिदेशक (DGP)।\n\n📌 Hierarchy (Top to Bottom):\n1. DGP (Director General of Police) - पूरे राज्य का मुखिया।\n2. ADGP (Addl. DGP)\n3. IG (Inspector General) - रेंज का मुखिया।\n4. DIG (Deputy IG)\n5. SP (Superintendent of Police) - जिले का मुखिया।"
+    },
+    {
+      "id": 57,
+      "section": "Haryana GK (Parks)",
+      "q_en": "Sultanpur National Park is located in which district of Haryana?",
+      "q_hi": "सुल्तानपुर राष्ट्रीय उद्यान हरियाणा के किस जिले में स्थित है?",
+      "options_en": ["Jhajjar", "Gurugram", "Rohtak", "Faridabad", "Not Attempted"],
+      "options_hi": ["झज्जर", "गुरुग्राम", "रोहतक", "फरीदाबाद", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: गुरुग्राम।\n\n📌 Exam Info:\n* सुल्तानपुर नेशनल पार्क गुरुग्राम के फर्रुखनगर में है।\n* यह प्रवासी पक्षियों (Migratory Birds), विशेषकर 'साइबेरियन सारस' के लिए प्रसिद्ध है।\n* इसे 1991 में राष्ट्रीय उद्यान का दर्जा मिला।\n* हरियाणा में केवल 2 नेशनल पार्क हैं: सुल्तानपुर (गुरुग्राम) और कालेसर (यमुनानगर)।"
+    },
+    {
+      "id": 58,
+      "section": "Computer",
+      "q_en": "Which of the following is NOT an input device?",
+      "q_hi": "निम्नलिखित में से कौन सा एक 'इनपुट डिवाइस' नहीं है?",
+      "options_en": ["Scanner", "Keyboard", "Mouse", "Plotter", "Not Attempted"],
+      "options_hi": ["स्कैनर", "कीबोर्ड", "माउस", "प्लॉटर (Plotter)", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: प्लॉटर (Plotter)।\n\n📌 Confusion Point:\n* प्लॉटर एक 'आउटपुट डिवाइस' है। इसका उपयोग बड़े नक्शे और बैनर प्रिंट करने के लिए किया जाता है (जैसे प्रिंटर)।\n* इनपुट डिवाइस: कीबोर्ड, माउस, स्कैनर, माइक्रोफोन, जॉयस्टिक।"
+    },
+    {
+      "id": 59,
+      "section": "Reasoning",
+      "q_en": "In a row of students, Ravi is 10th from the left and Suresh is 15th from the right. When they interchange their positions, Ravi becomes 20th from the left. What is the total number of students?",
+      "q_hi": "छात्रों की एक पंक्ति में, रवि बाएं से 10वें और सुरेश दाएं से 15वें स्थान पर है। जब वे अपना स्थान आपस में बदल लेते हैं, तो रवि बाएं से 20वें स्थान पर आ जाता है। पंक्ति में कुल कितने छात्र हैं?",
+      "options_en": ["30", "34", "35", "33", "Not Attempted"],
+      "options_hi": ["30", "34", "35", "33", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 34\n\n📌 Solution Trick:\nTotal = (New Position of Ravi + Old Position of Suresh) - 1\n\nCalculation:\n* रवि का नया स्थान (बाएं से): 20\n* सुरेश का पुराना स्थान (दाएं से): 15 (क्योंकि रवि अब सुरेश की सीट पर बैठा है)\nTotal = (20 + 15) - 1\nTotal = 35 - 1 = 34"
+    },
+    {
+      "id": 60,
+      "section": "Animal Husbandry",
+      "q_en": "What is the most scientific method to determine the age of cattle (Cow/Buffalo)?",
+      "q_hi": "मवेशियों (गाय/भैंस) की उम्र निर्धारित करने का सबसे वैज्ञानिक तरीका क्या है?",
+      "options_en": ["By Horn rings", "By Teeth (Dentition)", "By Body size", "By Hooves", "Not Attempted"],
+      "options_hi": ["सींगों के छल्लों द्वारा", "दांतों द्वारा (Dentition)", "शरीर के आकार द्वारा", "खुरों द्वारा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: दांतों द्वारा (Dentition)।\n\n📌 Exam Facts:\n* पशुओं की उम्र पता लगाने का सबसे सटीक तरीका उनके 'Incisor Teeth' (सामने के दांत) को गिनना है।\n* सींगों के छल्ले (Horn Rings) गिनकर भी उम्र पता की जाती है (सूत्र: छल्लों की संख्या + 2), लेकिन दांत वाला तरीका ज्यादा विश्वसनीय माना जाता है।"
+    }    ,
+    {
+      "id": 61,
+      "section": "Haryana GK (History)",
+      "q_en": "Which of the following sites in Haryana is considered the largest site of the Indus Valley Civilization?",
+      "q_hi": "हरियाणा में स्थित निम्नलिखित में से किस स्थल को सिंधु घाटी सभ्यता का सबसे बड़ा स्थल माना जाता है?",
+      "options_en": ["Banawali", "Rakhigarhi", "Mithathal", "Kunal", "Not Attempted"],
+      "options_hi": ["बनावली", "राखीगढ़ी", "मिथाथल", "कुणाल", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: राखीगढ़ी (हिसार)।\n\n📌 Exam Facts:\n* राखीगढ़ी (हिसार) सिंधु घाटी सभ्यता का सबसे बड़ा भारतीय स्थल है।\n* यहाँ हाल ही में 5000 साल पुरानी ज्वेलरी फैक्ट्री के प्रमाण मिले हैं।\n* यहाँ एक विशाल म्यूजियम (संग्रहालय) बनाया जा रहा है।\n* बनावली (फतेहाबाद) से 'मिट्टी का हल' और 'जौ' के साक्ष्य मिले थे।"
+    },
+    {
+      "id": 62,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "For the first time, 'Organized Crime' (e.g., kidnapping, contract killing, land grabbing) has been specifically defined and punished under which section of the Bharatiya Nyaya Sanhita (BNS)?",
+      "q_hi": "भारतीय न्याय संहिता (BNS) की किस धारा के तहत पहली बार 'संगठित अपराध' (Organized Crime - जैसे अपहरण, सुपारी किलिंग, भूमि कब्जा) को विशेष रूप से परिभाषित और दंडित किया गया है?",
+      "options_en": ["Section 111", "Section 302", "Section 420", "Section 100", "Not Attempted"],
+      "options_hi": ["धारा 111", "धारा 302", "धारा 420", "धारा 100", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: धारा 111 (Section 111)।\n\n📌 Key Change:\n* पुराने IPC में 'संगठित अपराध' के लिए कोई विशिष्ट केंद्रीय धारा नहीं थी (राज्यों के अपने कानून जैसे MCOCA थे)।\n* अब BNS की धारा 111 में सिंडिकेट या गैंग द्वारा किए गए अपराधों के लिए कठोर सजा (मृत्युदंड या आजीवन कारावास) का प्रावधान है।"
+    },
+    {
+      "id": 63,
+      "section": "Mathematics",
+      "q_en": "A boat goes 20 km downstream in 2 hours and comes back 10 km upstream in 2 hours. What is the speed of the boat in still water?",
+      "q_hi": "एक नाव धारा के अनुकूल (Downstream) 2 घंटे में 20 किमी जाती है और धारा के प्रतिकूल (Upstream) 2 घंटे में 10 किमी वापस आती है। शांत जल में नाव की गति ज्ञात कीजिए।",
+      "options_en": ["5 km/hr", "7.5 km/hr", "10 km/hr", "15 km/hr", "Not Attempted"],
+      "options_hi": ["5 किमी/घंटा", "7.5 किमी/घंटा", "10 किमी/घंटा", "15 किमी/घंटा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 7.5 किमी/घंटा।\n\n📌 Solution:\n1. धारा के अनुकूल चाल (u) = दूरी/समय = 20/2 = 10 किमी/घंटा।\n2. धारा के प्रतिकूल चाल (v) = दूरी/समय = 10/2 = 5 किमी/घंटा।\n3. शांत जल में नाव की चाल = (u + v) / 2\n= (10 + 5) / 2\n= 15 / 2 = 7.5 किमी/घंटा।"
+    },
+    {
+      "id": 64,
+      "section": "Reasoning",
+      "q_en": "If CAT = 24 and DOG = 26, then RAT = ?",
+      "q_hi": "यदि CAT = 24 और DOG = 26 है, तो RAT = ?",
+      "options_en": ["38", "39", "40", "42", "Not Attempted"],
+      "options_hi": ["38", "39", "40", "42", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 39\n\n📌 Logic (Position Sum):\n* C(3) + A(1) + T(20) = 24\n* D(4) + O(15) + G(7) = 26\n* R(18) + A(1) + T(20) = 39"
+    },
+    {
+      "id": 65,
+      "section": "Animal Husbandry",
+      "q_en": "What is the standard lactation period (days of milk giving) for a cow?",
+      "q_hi": "गाय के लिए मानक दुग्ध काल (Lactation Period) कितने दिनों का होता है?",
+      "options_en": ["200 days", "305 days", "365 days", "280 days", "Not Attempted"],
+      "options_hi": ["200 दिन", "305 दिन", "365 दिन", "280 दिन", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 305 दिन।\n\n📌 Exam Facts:\n* एक अच्छी नस्ल की गाय या भैंस ब्याने के बाद लगभग 10 महीने (305 दिन) तक दूध देती है।\n* बाकी 60 दिन (2 महीने) उसे 'Dry Period' (सूखा काल) में रखा जाता है ताकि अगले ब्यात के लिए शरीर तैयार हो सके।"
+    },
+    {
+      "id": 66,
+      "section": "Computer",
+      "q_en": "An IPv4 address consists of how many bits?",
+      "q_hi": "एक IPv4 एड्रेस (Internet Protocol version 4) कितने बिट्स का होता है?",
+      "options_en": ["16 bits", "32 bits", "64 bits", "128 bits", "Not Attempted"],
+      "options_hi": ["16 बिट्स", "32 बिट्स", "64 बिट्स", "128 बिट्स", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 32 बिट्स।\n\n📌 Important Distinction:\n* IPv4: 32 बिट्स का होता है (जैसे 192.168.1.1)।\n* IPv6: 128 बिट्स का होता है (यह नया वर्जन है)।\n* MAC Address: 48 बिट्स का होता है।"
+    },
+    {
+      "id": 67,
+      "section": "General Science",
+      "q_en": "Sound waves cannot travel through which of the following?",
+      "q_hi": "ध्वनि तरंगें (Sound Waves) निम्नलिखित में से किसमें यात्रा नहीं कर सकतीं?",
+      "options_en": ["Solids", "Liquids", "Gases", "Vacuum", "Not Attempted"],
+      "options_hi": ["ठोस", "द्रव", "गैस", "निर्वात (Vacuum)", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: निर्वात (Vacuum)।\n\n📌 Scientific Reason:\n* ध्वनि एक यांत्रिक तरंग (Mechanical Wave) है, जिसे चलने के लिए माध्यम (हवा, पानी, लोहा) की जरूरत होती है।\n* निर्वात (जैसे अंतरिक्ष) में कोई माध्यम नहीं होता, इसलिए वहां आवाज नहीं सुनाई देती।\n* प्रकाश (Light) निर्वात में चल सकता है।"
+    },
+    {
+      "id": 68,
+      "section": "Haryana GK (Awards)",
+      "q_en": "Which is the highest sports award given by the Haryana Government?",
+      "q_hi": "हरियाणा सरकार द्वारा दिया जाने वाला सर्वोच्च खेल पुरस्कार कौन सा है?",
+      "options_en": ["Ekalavya Award", "Bhim Award", "Rani Laxmi Bai Award", "Vikramaditya Award", "Not Attempted"],
+      "options_hi": ["एकलव्य अवार्ड", "भीम अवार्ड", "रानी लक्ष्मी बाई अवार्ड", "विक्रमादित्य अवार्ड", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: भीम अवार्ड।\n\n📌 Exam Facts:\n* यह हरियाणा का खेल रत्न है।\n* पुरस्कार राशि: ₹5 लाख।\n* इसके प्राप्तकर्ता को हरियाणा रोडवेज की बसों में आजीवन मुफ्त यात्रा की सुविधा मिलती है।\n* यह प्रति वर्ष अधिकतम 11 खिलाड़ियों को दिया जाता है।"
+    },
+    {
+      "id": 69,
+      "section": "Police GK",
+      "q_en": "What are the primary colors present in the flag/logo of Haryana Police?",
+      "q_hi": "हरियाणा पुलिस के ध्वज/लोगो में कौन से प्राथमिक रंग मौजूद हैं?",
+      "options_en": ["Red and Green", "Red and Blue", "Blue and Yellow", "Khaki and Red", "Not Attempted"],
+      "options_hi": ["लाल और हरा", "लाल और नीला", "नीला और पीला", "खाकी और लाल", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: लाल और नीला।\n\n📌 Visual Detail:\n* हरियाणा पुलिस के झंडे का ऊपरी आधा हिस्सा लाल (Red) और निचला आधा हिस्सा नीला (Blue) है।\n* इसके बीच में 'अशोक स्तंभ' का चिन्ह और हरियाणा पुलिस का आदर्श वाक्य 'सेवा, सुरक्षा, सहयोग' लिखा होता है।"
+    },
+    {
+      "id": 70,
+      "section": "Polity & Constitution",
+      "q_en": "Fundamental Duties were added to the Indian Constitution by which Amendment?",
+      "q_hi": "भारतीय संविधान में 'मौलिक कर्तव्यों' (Fundamental Duties) को किस संशोधन द्वारा जोड़ा गया था?",
+      "options_en": ["42nd Amendment", "44th Amendment", "86th Amendment", "61st Amendment", "Not Attempted"],
+      "options_hi": ["42वां संशोधन", "44वां संशोधन", "86वां संशोधन", "61वां संशोधन", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 42वां संशोधन (1976)।\n\n📌 Exam Facts:\n* इसे 'लघु संविधान' (Mini Constitution) भी कहा जाता है।\n* समिति: सरदार स्वर्ण सिंह समिति की सिफारिश पर।\n* अनुच्छेद: 51A (भाग IV-A)।\n* वर्तमान में कुल 11 मौलिक कर्तव्य हैं (11वां शिक्षा का अधिकार 86वें संशोधन से जुड़ा)।"
+    }    ,
+    {
+      "id": 71,
+      "section": "Haryana GK (History)",
+      "q_en": "The 'Anagpur Dam', believed to be the oldest hydraulic structure in Haryana, is located in which district?",
+      "q_hi": "हरियाणा की सबसे पुरानी हाइड्रोलिक संरचना माना जाने वाला 'अनंगपुर बांध' (Anagpur Dam) किस जिले में स्थित है?",
+      "options_en": ["Faridabad", "Palwal", "Gurugram", "Rewari", "Not Attempted"],
+      "options_hi": ["फरीदाबाद", "पलवल", "गुरुग्राम", "रेवाड़ी", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: फरीदाबाद।\n\n📌 Exam Facts:\n* अनंगपुर बांध (ग्रेविटी डैम) का निर्माण 8वीं शताब्दी में तोमर वंश के राजा अनंगपाल ने करवाया था।\n* यह फरीदाबाद के सूरजकुंड क्षेत्र के पास स्थित है।\n* इसे 'ग्रेविटी डैम' (Gravity Dam) भी कहा जाता है।"
+    },
+    {
+      "id": 72,
+      "section": "New Criminal Laws (BNSS)",
+      "q_en": "Under Section 43 of the BNSS, a police officer is permitted to use 'Handcuffs' only in specific cases. Which of the following is NOT a ground for handcuffing?",
+      "q_hi": "BNSS की धारा 43 के तहत, एक पुलिस अधिकारी को केवल विशिष्ट मामलों में 'हथकड़ी' (Handcuffs) का उपयोग करने की अनुमति है। निम्नलिखित में से कौन सा हथकड़ी लगाने का आधार नहीं है?",
+      "options_en": ["Terrorist Acts", "Murder", "Defamation", "Sexual Offences", "Not Attempted"],
+      "options_hi": ["आतंकवादी कृत्य", "हत्या", "मानहानि (Defamation)", "यौन अपराध", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: मानहानि (Defamation)।\n\n📌 Key Change:\n* सुप्रीम कोर्ट ने पहले हथकड़ी लगाने पर रोक लगाई थी, लेकिन नए कानून (BNSS) की धारा 43 ने पुलिस को जघन्य अपराधों (Heinous Crimes) जैसे आतंकवाद, हत्या, बलात्कार, और संगठित अपराध में गिरफ्तारी के दौरान हथकड़ी लगाने का स्पष्ट अधिकार दिया है।\n* मानहानि (Defamation) एक छोटा अपराध है, इसमें हथकड़ी नहीं लगाई जा सकती।"
+    },
+    {
+      "id": 73,
+      "section": "Computer",
+      "q_en": "Which memory is known as 'Volatile Memory' (loses data when power is turned off)?",
+      "q_hi": "किस मेमोरी को 'अस्थिर मेमोरी' (Volatile Memory) कहा जाता है (बिजली बंद होने पर डेटा खो जाता है)?",
+      "options_en": ["ROM", "Hard Disk", "RAM", "Pendrive", "Not Attempted"],
+      "options_hi": ["ROM", "हार्ड डिस्क", "RAM", "पेनड्राइव", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: RAM (Random Access Memory)।\n\n📌 Fact:\n* RAM में डेटा केवल तब तक रहता है जब तक कंप्यूटर चालू है। इसे 'Read/Write Memory' भी कहते हैं।\n* ROM (Read Only Memory) 'Non-Volatile' होती है, इसमें डेटा हमेशा सुरक्षित रहता है (जैसे BIOS)।"
+    },
+    {
+      "id": 74,
+      "section": "Mathematics",
+      "q_en": "The age of a father is 3 times the age of his son. After 10 years, the father's age will be 2 times the age of his son. What is the present age of the son?",
+      "q_hi": "पिता की आयु पुत्र की आयु की 3 गुना है। 10 वर्ष बाद, पिता की आयु पुत्र की आयु की 2 गुना होगी। पुत्र की वर्तमान आयु क्या है?",
+      "options_en": ["10 years", "15 years", "20 years", "30 years", "Not Attempted"],
+      "options_hi": ["10 वर्ष", "15 वर्ष", "20 वर्ष", "30 वर्ष", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 10 वर्ष।\n\n📌 Solution:\n1. माना पुत्र की वर्तमान आयु = x\n2. पिता की वर्तमान आयु = 3x\n3. 10 साल बाद:\n(3x + 10) = 2 * (x + 10)\n3x + 10 = 2x + 20\n3x - 2x = 20 - 10\nx = 10\nअतः पुत्र की आयु 10 वर्ष है।"
+    },
+    {
+      "id": 75,
+      "section": "Haryana GK (Police Initiative)",
+      "q_en": "'Durga Shakti App' launched by Haryana Police is primarily related to?",
+      "q_hi": "हरियाणा पुलिस द्वारा लॉन्च किया गया 'दुर्गा शक्ति ऐप' मुख्य रूप से किससे संबंधित है?",
+      "options_en": ["Cyber Crime", "Traffic Control", "Women Safety", "Drug Control", "Not Attempted"],
+      "options_hi": ["साइबर अपराध", "यातायात नियंत्रण", "महिला सुरक्षा", "नशा नियंत्रण", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: महिला सुरक्षा।\n\n📌 Exam Info:\n* दुर्गा शक्ति ऐप और 'दुर्गा शक्ति रैपिड एक्शन फोर्स' (वाहिनी) का गठन महिलाओं की सुरक्षा के लिए किया गया है।\n* आपात स्थिति में ऐप पर बटन दबाते ही पुलिस लोकेशन ट्रेस कर लेती है।\n* लॉन्च वर्ष: 2018।"
+    },
+    {
+      "id": 76,
+      "section": "Animal Husbandry",
+      "q_en": "'Nali' is a famous breed of which animal found in Haryana?",
+      "q_hi": "'नाली' (Nali) हरियाणा में पाए जाने वाले किस जानवर की एक प्रसिद्ध नस्ल है?",
+      "options_en": ["Goat", "Sheep", "Buffalo", "Horse", "Not Attempted"],
+      "options_hi": ["बकरी", "भेड़", "भैंस", "घोड़ा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: भेड़ (Sheep)।\n\n📌 Exam Facts:\n* नाली नस्ल की भेड़ें मुख्य रूप से हिसार, रोहतक और भिवानी जिलों में पाई जाती हैं।\n* इनकी ऊन (Wool) काफी अच्छी मानी जाती है, जिसका उपयोग गलीचे (Carpet) बनाने में होता है।"
+    },
+    {
+      "id": 77,
+      "section": "Reasoning",
+      "q_en": "If today is Friday, what day will it be after 60 days?",
+      "q_hi": "यदि आज शुक्रवार है, तो 60 दिनों के बाद कौन सा दिन होगा?",
+      "options_en": ["Sunday", "Monday", "Tuesday", "Wednesday", "Not Attempted"],
+      "options_hi": ["रविवार", "सोमवार", "मंगलवार", "बुधवार", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: मंगलवार (Tuesday)।\n\n📌 Trick:\n1. दिनों की संख्या को 7 से भाग दें।\n2. 60 / 7 = 8 सप्ताह और शेषफल (Remainder) = 4 दिन।\n3. शुक्रवार + 4 दिन = ?\nशुक्र -> शनि(1), रवि(2), सोम(3), मंगल(4)।\nउत्तर: मंगलवार।"
+    },
+    {
+      "id": 78,
+      "section": "Polity (Haryana)",
+      "q_en": "How many times has 'President's Rule' (Article 356) been imposed in Haryana so far?",
+      "q_hi": "हरियाणा में अब तक कितनी बार 'राष्ट्रपति शासन' (अनुच्छेद 356) लगाया गया है?",
+      "options_en": ["2 times", "3 times", "4 times", "1 time", "Not Attempted"],
+      "options_hi": ["2 बार", "3 बार", "4 बार", "1 बार", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 3 बार।\n\n📌 Details:\n1. पहली बार: 1967 (राव बीरेंद्र सिंह की सरकार गिरने पर)। यह भारत में किसी राज्य में लगा सबसे लंबा राष्ट्रपति शासन था।\n2. दूसरी बार: 1977 (बनारसी दास गुप्ता की सरकार)।\n3. तीसरी बार: 1991 (ओम प्रकाश चौटाला की सरकार)।"
+    },
+    {
+      "id": 79,
+      "section": "General Science",
+      "q_en": "What is the normal pH value of Human Blood?",
+      "q_hi": "मानव रक्त (Human Blood) का सामान्य pH मान कितना होता है?",
+      "options_en": ["6.4", "7.0", "7.4", "8.2", "Not Attempted"],
+      "options_hi": ["6.4", "7.0", "7.4", "8.2", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 7.4\n\n📌 Facts:\n* pH 7.4 का मतलब है कि मानव रक्त 'हल्का क्षारीय' (Slightly Alkaline) होता है।\n* pH 7 से कम = अम्लीय (Acidic)।\n* pH 7 = उदासीन (Neutral)।\n* pH 7 से अधिक = क्षारीय (Basic)।"
+    },
+    {
+      "id": 80,
+      "section": "Haryana GK (Industry)",
+      "q_en": "The manufacturing plant of 'Hero MotoCorp' (formerly Hero Honda) is located in which town of Haryana?",
+      "q_hi": "'हीरो मोटोकॉर्प' (पूर्व में हीरो होंडा) का निर्माण संयंत्र हरियाणा के किस कस्बे में स्थित है?",
+      "options_en": ["Manesar", "Dharuhera", "Bawal", "Samalkha", "Not Attempted"],
+      "options_hi": ["मानेसर", "धारूहेड़ा", "बावल", "समालखा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: धारूहेड़ा (रेवाड़ी)।\n\n📌 Industry Facts:\n* धारूहेड़ा (रेवाड़ी) औद्योगिक क्षेत्र है जो दिल्ली-जयपुर हाईवे पर स्थित है।\n* यहाँ हीरो मोटोकॉर्प का बहुत बड़ा प्लांट है।\n* गुरुग्राम (मानेसर) में मारुति सुजुकी का प्लांट है।"
+    }    ,
+    {
+      "id": 81,
+      "section": "Haryana GK (Geography)",
+      "q_en": "Saline and Alkaline soil in Haryana is locally known as?",
+      "q_hi": "हरियाणा में लवणीय और क्षारीय मृदा (Saline and Alkaline soil) को स्थानीय रूप से क्या कहा जाता है?",
+      "options_en": ["Khadar", "Reh or Kallar", "Bangar", "Rosli", "Not Attempted"],
+      "options_hi": ["खादर", "रेह या कल्लर", "बांगड़", "रोसली", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: रेह या कल्लर।\n\n📌 Exam Facts:\n* जब मिट्टी में नमक की मात्रा बढ़ जाती है, तो उसे 'रेह' या 'कल्लर' कहते हैं।\n* यह खेती के लिए अच्छी नहीं होती।\n* इसे सुधारने के लिए 'जिप्सम' (Gypsum) का प्रयोग किया जाता है।"
+    },
+    {
+      "id": 82,
+      "section": "Police GK (Important Days)",
+      "q_en": "On which date is 'Police Commemoration Day' observed in India every year?",
+      "q_hi": "भारत में प्रति वर्ष 'पुलिस स्मृति दिवस' (Police Commemoration Day) किस तारीख को मनाया जाता है?",
+      "options_en": ["15 August", "26 January", "21 October", "1 November", "Not Attempted"],
+      "options_hi": ["15 अगस्त", "26 जनवरी", "21 अक्टूबर", "1 नवंबर", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 21 अक्टूबर।\n\n📌 Exam Facts:\n* यह दिवस 1959 में लद्दाख के हॉट स्प्रिंग्स में चीनी सैनिकों के साथ लड़ते हुए शहीद हुए 10 पुलिसकर्मियों (CRPF) के बलिदान की याद में मनाया जाता है।\n* इस दिन सभी पुलिस लाइनों में शहीदों को श्रद्धांजलि दी जाती है।"
+    },
+    {
+      "id": 83,
+      "section": "New Criminal Laws (BNSS)",
+      "q_en": "Under Section 53 of the BNSS, who can request the medical examination of an accused person?",
+      "q_hi": "BNSS की धारा 53 के तहत, आरोपी व्यक्ति की चिकित्सा जांच (Medical Examination) का अनुरोध कौन कर सकता है?",
+      "options_en": ["Only the Magistrate", "Only the Police Officer", "Only the Accused himself", "Any of the above", "Not Attempted"],
+      "options_hi": ["केवल मजिस्ट्रेट", "केवल पुलिस अधिकारी", "स्वयं आरोपी (Accused)", "उपरोक्त में से कोई भी", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: केवल पुलिस अधिकारी।\n\n📌 Correction/Nuance:\n* धारा 53 (अब BNSS की संगत धारा) के तहत, यदि पुलिस अधिकारी (Sub-Inspector या उससे ऊपर) को लगता है कि मेडिकल जांच से अपराध के सबूत मिल सकते हैं, तो वह डॉक्टर से जांच करवा सकता है।\n* धारा 54 के तहत आरोपी खुद भी अपनी मेडिकल जांच की मांग कर सकता है ताकि यह साबित हो सके कि उसके साथ हिरासत में मारपीट नहीं हुई है।"
+    },
+    {
+      "id": 84,
+      "section": "Mathematics",
+      "q_en": "A car covers a certain distance at 60 km/hr and returns at 40 km/hr. What is the average speed for the whole journey?",
+      "q_hi": "एक कार एक निश्चित दूरी 60 किमी/घंटा की गति से तय करती है और 40 किमी/घंटा की गति से वापस आती है। पूरी यात्रा के लिए औसत गति क्या है?",
+      "options_en": ["50 km/hr", "48 km/hr", "55 km/hr", "45 km/hr", "Not Attempted"],
+      "options_hi": ["50 किमी/घंटा", "48 किमी/घंटा", "55 किमी/घंटा", "45 किमी/घंटा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 48 किमी/घंटा।\n\n📌 Trick Formula:\nAverage Speed = (2xy) / (x + y)\nजहाँ x = जाने की गति, y = आने की गति।\n\nCalculation:\nAvg Speed = (2 * 60 * 40) / (60 + 40)\n= (4800) / 100\n= 48 km/hr.\n(नोट: 50 km/hr गलत उत्तर है क्योंकि औसत गति, गतियों का अंकगणितीय माध्य नहीं होती।)"
+    },
+    {
+      "id": 85,
+      "section": "Computer",
+      "q_en": "In a website address (URL), what does '.com' stand for?",
+      "q_hi": "किसी वेबसाइट के पते (URL) में, '.com' का क्या अर्थ होता है?",
+      "options_en": ["Communication", "Commercial", "Computer", "Community", "Not Attempted"],
+      "options_hi": ["कम्युनिकेशन", "कमर्शियल (व्यावसायिक)", "कंप्यूटर", "कम्युनिटी", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: कमर्शियल (Commercial)।\n\n📌 Domain Extensions:\n* .com: Commercial (व्यापारिक साइटें)।\n* .org: Organization (संगठन)।\n* .gov: Government (सरकार)।\n* .edu: Education (शिक्षा)।\n* .in: India (भारत)।"
+    },
+    {
+      "id": 86,
+      "section": "Polity (Panchayat)",
+      "q_en": "Which Constitutional Amendment Act gave constitutional status to Panchayati Raj Institutions?",
+      "q_hi": "किस संविधान संशोधन अधिनियम ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया?",
+      "options_en": ["71st Amendment", "72nd Amendment", "73rd Amendment", "74th Amendment", "Not Attempted"],
+      "options_hi": ["71वां संशोधन", "72वां संशोधन", "73वां संशोधन", "74वां संशोधन", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 73वां संशोधन (1992)।\n\n📌 Exam Facts:\n* 73वां संशोधन: ग्रामीण पंचायती राज (ग्राम पंचायत) से संबंधित है।\n* 74वां संशोधन: शहरी स्थानीय निकाय (नगर पालिका) से संबंधित है।\n* हरियाणा में नई पंचायती राज नियमावली 1994 में लागू हुई थी।\n* शैक्षणिक योग्यता लागू करने वाला हरियाणा दूसरा राज्य था (पहला राजस्थान)।"
+    },
+    {
+      "id": 87,
+      "section": "General Science",
+      "q_en": "What is the SI unit of Electric Current?",
+      "q_hi": "विद्युत धारा (Electric Current) की SI इकाई क्या है?",
+      "options_en": ["Volt", "Watt", "Ampere", "Ohm", "Not Attempted"],
+      "options_hi": ["वोल्ट", "वाट", "एम्पीयर", "ओम", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: एम्पीयर (Ampere)।\n\n📌 Units:\n* Current: Ampere (A)\n* Voltage: Volt (V)\n* Resistance: Ohm (Ω)\n* Power: Watt (W)"
+    },
+    {
+      "id": 88,
+      "section": "Haryana GK (Personalities)",
+      "q_en": "Kalpana Chawla, the first Indian-born woman in space, was born in which district of Haryana?",
+      "q_hi": "अंतरिक्ष में जाने वाली भारतीय मूल की पहली महिला कल्पना चावला का जन्म हरियाणा के किस जिले में हुआ था?",
+      "options_en": ["Panipat", "Karnal", "Kurukshetra", "Hisar", "Not Attempted"],
+      "options_hi": ["पानीपत", "करनाल", "कुरुक्षेत्र", "हिसार", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: करनाल।\n\n📌 Key Facts:\n* जन्म: 1 जुलाई 1961 (करनाल)।\n* मृत्यु: 1 फरवरी 2003 (कोलंबिया शटल दुर्घटना में)।\n* उनके नाम पर कुरुक्षेत्र में 'Kalpana Chawla Planetarium' (तारामंडल) स्थित है।\n* करनाल में 'कल्पना चावला मेडिकल कॉलेज' भी है।"
+    },
+    {
+      "id": 89,
+      "section": "Animal Husbandry",
+      "q_en": "'Beetal' is a breed of which animal found in Haryana and Punjab?",
+      "q_hi": "'बीतल' (Beetal) हरियाणा और पंजाब में पाई जाने वाली किस जानवर की नस्ल है?",
+      "options_en": ["Cow", "Buffalo", "Goat", "Sheep", "Not Attempted"],
+      "options_hi": ["गाय", "भैंस", "बकरी", "भेड़", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: बकरी (Goat)।\n\n📌 Exam Facts:\n* बीतल नस्ल की बकरियाँ मुख्य रूप से गुरदासपुर (पंजाब) से उत्पन्न मानी जाती हैं, लेकिन हरियाणा के सीमावर्ती जिलों में खूब पाई जाती हैं।\n* यह दूध और मांस दोनों के लिए अच्छी होती है।\n* इसे 'गरीब की गाय' भी कहा जाता है।"
+    },
+    {
+      "id": 90,
+      "section": "Reasoning",
+      "q_en": "Select the odd one out from the given options.",
+      "q_hi": "दिए गए विकल्पों में से विषम (Odd one out) चुनें।",
+      "options_en": ["Eye", "Ear", "Nose", "Brain", "Not Attempted"],
+      "options_hi": ["आंख", "कान", "नाक", "मस्तिष्क (Brain)", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: मस्तिष्क (Brain)।\n\n📌 Logic:\n* आंख, कान, और नाक सभी 'बाहरी ज्ञानेंद्रियां' (External Sense Organs) हैं जिन्हें हम बाहर से देख सकते हैं।\n* मस्तिष्क (Brain) एक आंतरिक अंग (Internal Organ) है जो शरीर के अंदर सुरक्षित रहता है।"
+    }    ,
+    {
+      "id": 91,
+      "section": "Haryana GK (Tourism)",
+      "q_en": "Yadavindra Gardens, also known as Pinjore Gardens, was built by whom?",
+      "q_hi": "यादविंद्र गार्डन, जिसे पिंजौर गार्डन भी कहा जाता है, का निर्माण किसके द्वारा करवाया गया था?",
+      "options_en": ["Aurangzeb", "Fidai Khan Koka", "Shah Jahan", "Maharaja Yadavindra Singh", "Not Attempted"],
+      "options_hi": ["औरंगजेब", "फिदाई खान कोका", "शाहजहां", "महाराजा यादविंद्र सिंह", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: फिदाई खान कोका।\n\n📌 Exam Facts:\n* इसका निर्माण 17वीं शताब्दी में औरंगजेब के सौतेले भाई 'फिदाई खान कोका' ने करवाया था।\n* यह पंचकूला जिले में स्थित है।\n* इसे 'उत्तर भारत का नंदन वन' भी कहा जाता है।\n* यहाँ प्रति वर्ष जुलाई में प्रसिद्ध 'मैंगो फेस्टिवल' (आम मेला) लगता है।"
+    },
+    {
+      "id": 92,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "For the first time, 'Snatching' has been defined as a distinct offense under Section 304 of the BNS. Earlier, it was registered under which section of IPC?",
+      "q_hi": "BNS की धारा 304 के तहत पहली बार 'स्नैचिंग' (छीना-झपटी) को एक अलग अपराध के रूप में परिभाषित किया गया है। पहले (IPC में) इसे किस धारा के तहत दर्ज किया जाता था?",
+      "options_en": ["Theft (Section 379)", "Robbery (Section 390)", "Dacoity (Section 395)", "Cheating (Section 420)", "Not Attempted"],
+      "options_hi": ["चोरी (धारा 379)", "लूट (धारा 390)", "डकैती (धारा 395)", "धोखाधड़ी (धारा 420)", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: चोरी (धारा 379)।\n\n📌 Key Change:\n* पहले चेन स्नैचिंग को साधारण 'चोरी' माना जाता था, जिसमें जमानत आसानी से मिल जाती थी।\n* नए कानून (BNS) में स्नैचिंग को अलग अपराध बनाया गया है। अब इसमें 3 साल तक की कैद हो सकती है। यह पुलिस को अपराधियों पर नकेल कसने में मदद करेगा।"
+    },
+    {
+      "id": 93,
+      "section": "Mathematics",
+      "q_en": "A does a work in 10 days and B does the same work in 15 days. If they work together for 4 days, what fraction of the work is left?",
+      "q_hi": "A किसी काम को 10 दिनों में और B उसी काम को 15 दिनों में कर सकता है। यदि वे 4 दिनों तक एक साथ काम करते हैं, तो काम का कितना भाग शेष रह जाएगा?",
+      "options_en": ["1/3", "2/3", "1/4", "1/5", "Not Attempted"],
+      "options_hi": ["1/3", "2/3", "1/4", "1/5", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 1/3\n\n📌 Solution:\n1. कुल काम (LCM of 10, 15) = 30 यूनिट।\n2. क्षमता: A = 3 यूनिट/दिन, B = 2 यूनिट/दिन।\n3. (A+B) का 1 दिन का काम = 5 यूनिट।\n4. 4 दिन का काम = 5 * 4 = 20 यूनिट।\n5. शेष काम = 30 - 20 = 10 यूनिट।\n6. शेष भाग = 10 / 30 = 1/3।"
+    },
+    {
+      "id": 94,
+      "section": "General Science",
+      "q_en": "Which organelle is known as the 'Powerhouse' of the cell?",
+      "q_hi": "कोशिका के किस अंग को कोशिका का 'पावरहाउस' (Powerhouse) कहा जाता है?",
+      "options_en": ["Nucleus", "Mitochondria", "Ribosome", "Lysosome", "Not Attempted"],
+      "options_hi": ["केंद्रक (Nucleus)", "माइटोकॉन्ड्रिया (Mitochondria)", "राइबोसोम", "lysosome (लाइसोसोम)", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: माइटोकॉन्ड्रिया।\n\n📌 Facts:\n* यह कोशिका में श्वसन का केंद्र है।\n* यह ऊर्जा को ATP (Adenosine Triphosphate) के रूप में संचित करता है, जिसे 'Energy Currency' भी कहते हैं।\n* लाइसोसोम को 'आत्महत्या की थैली' (Suicide Bag) कहा जाता है।"
+    },
+    {
+      "id": 95,
+      "section": "Computer",
+      "q_en": "Which of the following is used to send emails?",
+      "q_hi": "ईमेल भेजने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+      "options_en": ["Outlook", "Chrome", "Excel", "Paint", "Not Attempted"],
+      "options_hi": ["आउटलुक (Outlook)", "क्रोम", "एक्सेल", "पेंट", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: आउटलुक (Outlook)।\n\n📌 Basic Knowledge:\n* MS Outlook एक ईमेल क्लाइंट है।\n* Gmail, Yahoo Mail भी ईमेल सर्विस हैं।\n* Chrome एक वेब ब्राउज़र है।\n* Excel स्प्रेडशीट सॉफ्टवेयर है।"
+    },
+    {
+      "id": 96,
+      "section": "Police GK (Traffic Rules)",
+      "q_en": "In traffic signs, what does a 'Red Octagon' (8-sided shape) indicate?",
+      "q_hi": "यातायात संकेतों में, 'लाल अष्टकोण' (8 भुजाओं वाला आकार) क्या दर्शाता है?",
+      "options_en": ["Go Slow", "Stop", "No Parking", "Give Way", "Not Attempted"],
+      "options_hi": ["धीरे चलें", "रुकिए (Stop)", "नो पार्किंग", "रास्ता दें", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: रुकिए (Stop)।\n\n📌 Traffic Signs:\n* Octagon (अष्टकोण): केवल 'STOP' साइन के लिए होता है।\n* Triangle (उल्टा त्रिभुज): Give Way (रास्ता दें)।\n* Circle (गोला): आदेशात्मक (Mandatory) संकेत।"
+    },
+    {
+      "id": 97,
+      "section": "Haryana GK (Literature)",
+      "q_en": "The famous poet 'Surdas' was born in which village of Haryana?",
+      "q_hi": "प्रसिद्ध कवि 'सूरदास' का जन्म हरियाणा के किस गाँव में हुआ था?",
+      "options_en": ["Sihi (Faridabad)", "Tigra (Gurugram)", "Dubaldhan (Jhajjar)", "Ghirai (Hisar)", "Not Attempted"],
+      "options_hi": ["सीही (फरीदाबाद)", "तिगरा (गुरुग्राम)", "दुबलधन (झज्जर)", "घिराई (हिसार)", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: सीही (फरीदाबाद)।\n\n📌 Exam Facts:\n* सूरदास अकबर के समकालीन थे।\n* उनकी प्रमुख रचनाएँ: सूरसागर, सूरसारावली, साहित्य लहरी।\n* सीही गाँव को 'साहित्यकारों का तीर्थ' भी माना जाता है।"
+    },
+    {
+      "id": 98,
+      "section": "Reasoning",
+      "q_en": "Choose the word which is least like the other words in the group.",
+      "q_hi": "उस शब्द का चयन करें जो समूह के अन्य शब्दों से सबसे कम मिलता-जुलता (विषम) है।",
+      "options_en": ["Carrot", "Potato", "Tomato", "Ginger", "Not Attempted"],
+      "options_hi": ["गाजर", "आलू", "टमाटर", "अदरक", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: टमाटर।\n\n📌 Logic:\n* गाजर, आलू, और अदरक सभी जमीन के नीचे (Underground) उगते हैं (जड़/तना)।\n* टमाटर जमीन के ऊपर (Above ground) उगता है और यह एक फल (Fruit) की श्रेणी में आता है (वनस्पति विज्ञान के अनुसार)।"
+    },
+    {
+      "id": 99,
+      "section": "Haryana GK (Politics)",
+      "q_en": "Who was the first Chief Minister of Haryana?",
+      "q_hi": "हरियाणा के पहले मुख्यमंत्री कौन थे?",
+      "options_en": ["Rao Birender Singh", "Pt. Bhagwat Dayal Sharma", "Bansi Lal", "Bhajan Lal", "Not Attempted"],
+      "options_hi": ["राव बीरेंद्र सिंह", "पं. भगवत दयाल शर्मा", "बंसी लाल", "भजन लाल", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: पं. भगवत दयाल शर्मा।\n\n📌 Exam Facts:\n* कार्यकाल: 1 नवंबर 1966 से मार्च 1967 तक।\n* पार्टी: भारतीय राष्ट्रीय कांग्रेस।\n* उनका संबंध बेरी (झज्जर) से था।\n* राव बीरेंद्र सिंह हरियाणा के पहले 'गैर-कांग्रेसी' मुख्यमंत्री और पहले निर्वाचित स्पीकर थे।"
+    },
+    {
+      "id": 100,
+      "section": "Current Affairs (Awards)",
+      "q_en": "Which film won the 'Best Haryanvi Film' award at the 69th National Film Awards?",
+      "q_hi": "69वें राष्ट्रीय फिल्म पुरस्कारों में किस फिल्म ने 'सर्वश्रेष्ठ हरियाणवी फिल्म' का पुरस्कार जीता?",
+      "options_en": ["Dada Lakhmi", "Pagdi: The Honour", "Laado", "Chandrawal", "Not Attempted"],
+      "options_hi": ["दादा लखमी", "पगड़ी: द ऑनर", "लाडो", "चंद्रावल", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: दादा लखमी।\n\n📌 Current Affairs:\n* फिल्म: दादा लखमी।\n* निर्देशक: यशपाल शर्मा (प्रसिद्ध अभिनेता)।\n* यह फिल्म हरियाणवी लोक कवि 'दादा लखमी चंद' के जीवन पर आधारित है, जिन्हें 'हरियाणा का शेक्सपियर' कहा जाता है।"
     }
+]
+)
+
+
