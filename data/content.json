@@ -10,15 +10,6 @@
     "tags": ["UPSC", "SSC", "Ancient India"]
   },
   {
-    "id": "hssc-group-c",
-    "type": "quiz",
-    "title": "HSSC GROUP C EXAM SPEED TEST",
-    "category": "All",
-    "thumbnail": "assets/default-thumb.jpg",
-    "tags": ["HSSC GROUP C", "Speed test"],
-    "date": "2026-01-17"
-  },
-  {
     "id": "ssc-math-01",
     "type": "video",
     "title": "Maths Strategy for Beginners",
@@ -37,7 +28,7 @@
     "date": "2026-01-14"
   },
   {
-    "id": "hssc-cet-01",
+    "id": "hssc-group-c",
     "type": "quiz",
     "title": "HSSC CET Group C - Full Mock Test",
     "thumbnail": "/assets/1766037383049.jpg",
@@ -47,15 +38,7 @@
     "author": "Sukhdev Dahiya",
     "is_featured": true,
     "meta_info": "100 Qs • 90 Mins",
-    "source_url": "data/quizzes/hssc-cet-01.json"
-  },
-   {
-    "id": "ssc-cgl-01", 
-    "type": "quiz",
-    "title": "SSC CGL Tier-1 Full Mock Test",
-    "category": "SSC",
-    "thumbnail": "/assets/1766037383049.jpg", 
-    "tags": ["CGL", "Maths", "Reasoning"]
+    "source_url": "data/quizzes/hssc-group-c.json"
   },
   {
     "id": "physics-law-motion",
@@ -95,23 +78,6 @@
     "date": "Jan 15, 2026",
     "author": "MeritBoard Team",
     "desc": "Quick revision summary of the famous spectrum history book for civil services aspirants."
-  },
-  {
-    "id": "demo-test",
-    "type": "quiz",
-    "title": "Website Feature Demo Test",
-    "category": "Demo", 
-    "thumbnail": "assets/default-thumb.jpg",
-    "tags": ["Testing", "Features"],
-    "date": "2026-01-16"
-  },
-  {
-    "id": "ssc-cgl-01",
-    "type": "quiz",
-    "title": "SSC CGL Mock Test 1",
-    "category": "SSC",
-    "thumbnail": "assets/default-thumb.jpg",
-    "tags": ["CGL", "Maths"]
   }
 ]
 
