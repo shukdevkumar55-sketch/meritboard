@@ -377,9 +377,17 @@ function shareResultOnWhatsApp() {
     const total = document.getElementById('scoreTotal').innerText;
     const title = quizData.testTitle;
     
-    // 2. Create Message
-    const text = `🔥 Challenge Alert! 🔥\n\nI just scored ${score}/${total} in "${title}" on MeritBoard.\n\nCan you beat my score? Attempt now: ${window.location.href}`;
+    // --- 7. SHARE RESULT LOGIC ---
+function shareResultOnWhatsApp() {
+    // 1. Get Score Data
+    const score = document.getElementById('scoreObtained').innerText;
+    const total = document.getElementById('scoreTotal').innerText;
+    const title = quizData.testTitle;
     
+    // 2. Create Message (Hindi + English Mix for better impact)
+    const text = `🔥 Challenge Alert! 🔥\n\nमैंने MeritBoard पर "${title}" में ${score}/${total} स्कोर किया है। 🎯\n\nक्या आप मेरा रिकॉर्ड तोड़ सकते हैं? 🏆\nअभी टेस्ट लगाकर देखें: ${window.location.href}`;
+    
+   
     // 3. Open WhatsApp
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
