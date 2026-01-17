@@ -1,148 +1,174 @@
 /* =========================================
+   Project: MeritBoard Universal
    File: css/feed-style.css
-   Purpose: Specific styles for the Advanced Feed Page
+   Purpose: Specific Styles for Feed/Library Page
+   Status: FINAL (Search Removed, Blue Header, Grid Fixed)
    ========================================= */
 
-/* 1. FEED SPECIFIC HEADER */
-.feed-header { 
-    background: var(--primary-color); 
-    color: white; 
-    padding: 30px 0; 
-    margin-bottom: 0; 
-    text-align: center; 
+/* --- 1. FEED HEADER & BREADCRUMBS (Blue Style Restored) --- */
+.feed-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #283593 100%);
+    color: white;
+    padding: 40px 0 50px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 0;
+    box-shadow: 0 4px 15px rgba(26, 35, 126, 0.2);
 }
-.feed-header h1 { font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: 700; margin: 0; }
-.feed-header p { opacity: 0.9; font-size: 0.95rem; margin-top: 5px; }
 
-/* 2. STICKY CONTROLS CONTAINER */
+.breadcrumb {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255,255,255,0.4);
+}
+
+#feedTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#feedSubtitle {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* --- 2. STICKY CONTROLS (Tabs & Sort) --- */
 .sticky-controls {
     position: sticky;
     top: var(--header-height);
-    background: var(--bg-body);
-    z-index: 800;
-    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 900;
+    padding: 15px 0;
     border-bottom: 1px solid var(--border-color);
     box-shadow: 0 4px 10px rgba(0,0,0,0.03);
-    transition: all 0.3s ease;
+    margin-bottom: 30px;
 }
 
-/* 3. CATEGORY TABS (Scrollable) */
+/* Category Tabs (Scrollable) */
 .category-tabs-wrapper {
-    width: 100%;
     overflow-x: auto;
     white-space: nowrap;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
     -webkit-overflow-scrolling: touch;
-    padding: 10px 0;
-    margin-bottom: 5px;
+    scrollbar-width: none;
 }
 .category-tabs-wrapper::-webkit-scrollbar { display: none; }
 
-.category-tabs {
+.category-tabs { display: inline-flex; gap: 10px; }
+
+.tab-btn {
+    padding: 8px 18px;
+    border-radius: 30px;
+    background: #f1f3f4;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.tab-btn:hover { background: #e0e0e0; }
+.tab-btn.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 4px 10px rgba(26, 35, 126, 0.3);
+}
+
+/* Toolbar (Search Removed, Sort Aligned Right) */
+.feed-toolbar {
     display: flex;
-    gap: 12px;
+    justify-content: flex-end; /* Push to right */
     align-items: center;
     padding: 0 5px;
 }
 
-/* 4. TAB BUTTONS DESIGN */
-.tab-btn {
-    background-color: #fff;
-    border: 1px solid var(--border-color);
-    padding: 8px 18px;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    flex-shrink: 0;
-}
-
-.tab-btn:hover {
-    background-color: #f1f3f4;
-    color: var(--text-main);
-    border-color: #ccc;
-}
-
-.tab-btn.active {
-    background-color: var(--primary-color);
-    color: white;
-    border-color: var(--primary-color);
-    box-shadow: 0 2px 8px rgba(26, 35, 126, 0.25);
-    font-weight: 600;
-}
-
-/* 5. TOOLBAR (Search & Sort) */
-.feed-toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0 15px 0;
-    gap: 10px;
-}
-
-.local-search {
-    flex: 1;
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: 1px solid var(--border-color);
-    outline: none;
-    font-family: inherit;
-    font-size: 0.95rem;
-    background: #fff;
-    color: var(--text-main);
-}
-.local-search:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(3, 169, 244, 0.1);
-}
+/* Local Search Class (Hidden/Removed) */
+.local-search { display: none; }
 
 .sort-select {
-    padding: 10px;
-    border-radius: 8px;
+    padding: 8px 30px 8px 15px;
+    border-radius: 30px;
     border: 1px solid var(--border-color);
-    background: #fff;
-    color: var(--text-main);
+    /* Arrow Icon */
+    background: white url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E") no-repeat right 12px center;
+    background-size: 10px;
+    appearance: none;
     cursor: pointer;
-    font-size: 0.9rem;
-    outline: none;
-}
-
-/* 6. GRID OVERRIDES FOR FEED */
-.content-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
-    gap: 25px; 
-    padding-bottom: 50px; 
-}
-.content-grid .content-card { 
-    width: 100%; 
-    max-width: 100%; 
-    min-width: 0; 
-}
-
-/* 7. EMPTY STATE */
-.empty-state {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--text-muted);
-    background: white;
-    border-radius: 12px;
-    border: 1px dashed var(--border-color);
-    margin-top: 20px;
-}
-.empty-state-icon {
-    font-size: 3rem;
-    display: block;
-    margin-bottom: 15px;
-    opacity: 0.7;
-}
-
-/* 8. BREADCRUMB */
-.breadcrumb {
+    font-family: inherit;
     font-size: 0.85rem;
-    color: rgba(255,255,255,0.7);
-    margin-bottom: 8px;
+    color: var(--text-main);
+    min-width: 140px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-.breadcrumb a { color: white; font-weight: 500; }
-.breadcrumb span { margin: 0 5px; }
+
+/* --- 3. THE GRID LAYOUT (Main Fix) --- */
+.content-grid {
+    display: grid;
+    /* Desktop: jitne 260px ke card fit ho sakein */
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+/* Ensure cards behave nicely in grid */
+.content-grid .content-card {
+    width: 100%; /* Force full width of grid cell */
+    max-width: 100% !important; /* Override slider fixed width */
+    min-width: 0 !important;    /* Reset slider min-width */
+    height: 100%; /* Equal height columns */
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- 4. MOBILE RESPONSIVE (Strict 2 Columns) --- */
+@media (max-width: 768px) {
+    /* Header Adjustments */
+    .feed-header { padding: 30px 15px 40px; }
+    #feedTitle { font-size: 1.6rem; }
+
+    /* Toolbar Stack */
+    .sticky-controls { top: 60px; padding: 10px 0; margin-bottom: 20px; }
+    
+    /* ✅ THE GRID FIX FOR MOBILE (2 Columns) */
+    .content-grid {
+        grid-template-columns: repeat(2, 1fr); /* Force 2 Columns */
+        gap: 10px;
+    }
+
+    /* Compact Card Styles for Feed Grid */
+    .content-grid .card-thumbnail-wrapper { height: 110px; }
+    
+    .content-grid .card-body { padding: 10px; }
+    
+    .content-grid .card-title {
+        font-size: 0.85rem;
+        line-height: 1.3;
+        margin-bottom: 5px;
+        /* Limit to 2 lines */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .content-grid .card-meta { display: none; }
+    .content-grid .card-tags { display: none; }
+    
+    .content-grid .card-btn {
+        padding: 6px;
+        font-size: 0.75rem;
+        margin-top: 5px;
+    }
+}
