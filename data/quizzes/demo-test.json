@@ -1,0 +1,46 @@
+{
+  "testTitle": "MeritBoard Demo Test (All Features)",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "section": "History",
+      "q_en": "Who was the first Prime Minister of India?",
+      "q_hi": "भारत के प्रथम प्रधान मंत्री कौन थे?",
+      "options_en": ["Mahatma Gandhi", "Jawaharlal Nehru", "Indira Gandhi", "Rajendra Prasad"],
+      "options_hi": ["महात्मा गांधी", "जवाहरलाल नेहरू", "इंदिरा गांधी", "राजेन्द्र प्रसाद"],
+      "answer": 1,
+      "explanation": "Jawaharlal Nehru was the first PM of India (1947–1964)."
+    },
+    {
+      "id": 2,
+      "section": "History",
+      "q_en": "In which year did the Battle of Plassey take place?",
+      "q_hi": "प्लासी का युद्ध किस वर्ष हुआ था?",
+      "options_en": ["1757", "1857", "1764", "1947"],
+      "options_hi": ["1757", "1857", "1764", "1947"],
+      "answer": 0,
+      "explanation": "The Battle of Plassey was fought in 1757."
+    },
+    {
+      "id": 3,
+      "section": "Science",
+      "q_en": "What is the chemical formula of Water?",
+      "q_hi": "पानी का रासायनिक सूत्र क्या है?",
+      "options_en": ["H2O", "CO2", "O2", "NaCl"],
+      "options_hi": ["H2O", "CO2", "O2", "NaCl"],
+      "answer": 0,
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom (H2O)."
+    },
+    {
+      "id": 4,
+      "section": "Mathematics",
+      "q_en": "If a triangle has angles <b>60°</b> and <b>60°</b>, what is the third angle?",
+      "q_hi": "यदि एक त्रिभुज के कोण <b>60°</b> और <b>60°</b> हैं, तो तीसरा कोण क्या होगा?",
+      "options_en": ["90°", "60°", "45°", "120°"],
+      "options_hi": ["90°", "60°", "45°", "120°"],
+      "answer": 1,
+      "explanation": "Sum of angles in a triangle is 180°. So, 180 - (60+60) = 60°."
+    }
+  ]
+}
