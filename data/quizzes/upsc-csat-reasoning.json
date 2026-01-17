@@ -6,7 +6,7 @@
       "id": 1,
       "section": "Visual Logic",
       "q_en": "<p>Select the figure that will complete the matrix series following the rule of rotation and addition of elements:</p><div class='reasoning-series' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; width: 180px; margin: 0 auto;'><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/><circle cx='25' cy='40' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/><circle cx='40' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/></svg><div class='shape-box question-mark' style='width:50px; height:50px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc'>?</div></div>",
-      "q_hi": "<p>उस आकृति का चयन करें जो रोटेशन और तत्वों के जुड़ाव के नियम का पालन करते हुए मैट्रिक्स श्रृंखला को पूरा करेगी:</p> (ऊपर दिया गया चित्र देखें)",
+      "q_hi": "<p>उस आकृति का चयन करें जो रोटेशन और तत्वों के जुड़ाव के नियम का पालन करते हुए मैट्रिक्स श्रृंखला को पूरा करेगी:</p><div class='reasoning-series' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; width: 180px; margin: 0 auto;'><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/><circle cx='25' cy='40' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/><circle cx='40' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/></svg><div class='shape-box question-mark' style='width:50px; height:50px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc'>?</div></div>",
       "options_en": [
         "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
         "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
@@ -15,20 +15,20 @@
         "Not Attempted"
       ],
       "options_hi": [
-        "(A) Option A",
-        "(B) Option B",
-        "(C) Option C",
-        "(D) Option D",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='35' y1='15' x2='15' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='35' r='3' fill='black'/><circle cx='35' cy='15' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='3' fill='black'/></svg>",
         "अनुत्तरित प्रश्न"
       ],
       "answer": 1,
-      "explanation": "Row Logic: Step 1 (Line only), Step 2 (Line + 1 Dot at start), Step 3 (Line + 2 Dots at both ends). The orientation rotates 45 degrees clockwise in each new row. In the 3rd row, the diagonal needs 2 dots at both ends."
+      "explanation": "Row Logic: Step 1 (Line only), Step 2 (Line + 1 Dot at start), Step 3 (Line + 2 Dots at both ends). The orientation rotates 45 degrees clockwise in each new row."
     },
     {
       "id": 2,
       "section": "Spatial Logic",
       "q_en": "<p>Select the figure that is related to the third figure in the same way as the second figure is related to the first figure (Analogy):</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black' stroke-width='2'/></svg> : <svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='black'/></svg> :: <svg width='50' height='50' style='border:1px solid #ccc'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/></svg> : <div class='shape-box question-mark'>?</div></div>",
-      "q_hi": "<p>उस आकृति का चयन करें जो तीसरी आकृति से उसी प्रकार संबंधित है जैसे दूसरी आकृति पहली आकृति से संबंधित है (सादृश्य):</p> (ऊपर दिया गया चित्र देखें)",
+      "q_hi": "<p>उस आकृति का चयन करें जो तीसरी आकृति से उसी प्रकार संबंधित है जैसे दूसरी आकृति पहली आकृति से संबंधित है (सादृश्य):</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black' stroke-width='2'/></svg> : <svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='black'/></svg> :: <svg width='50' height='50' style='border:1px solid #ccc'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/></svg> : <div class='shape-box question-mark'>?</div></div>",
       "options_en": [
         "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='5' fill='black'/></svg>",
         "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='gray'/></svg>",
@@ -37,10 +37,10 @@
         "Not Attempted"
       ],
       "options_hi": [
-        "(A) Option A",
-        "(B) Option B",
-        "(C) Option C",
-        "(D) Option D",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='5' fill='black'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='gray'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='black'/></svg>",
+        "<svg width='50' height='50'><rect x='10' y='10' width='30' height='30' fill='black'/></svg>",
         "अनुत्तरित प्रश्न"
       ],
       "answer": 2,
@@ -50,7 +50,7 @@
       "id": 3,
       "section": "Pattern Completion",
       "q_en": "<p>Which figure completes the sequence?</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/></svg> &rarr; <div class='shape-box question-mark'>?</div></div>",
-      "q_hi": "<p>कौन सी आकृति इस क्रम को पूरा करती है?</p> (ऊपर दिया गया चित्र देखें)",
+      "q_hi": "<p>कौन सी आकृति इस क्रम को पूरा करती है?</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/></svg> &rarr; <div class='shape-box question-mark'>?</div></div>",
       "options_en": [
         "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 5 L10 15' stroke='black' stroke-width='2'/></svg>",
         "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 25 L45 25' stroke='black' stroke-width='2'/></svg>",
@@ -59,14 +59,14 @@
         "Not Attempted"
       ],
       "options_hi": [
-        "(A) Option A",
-        "(B) Option B",
-        "(C) Option C",
-        "(D) Option D",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 5 L10 15' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 25 L45 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 25 L10 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><circle cx='25' cy='25' r='20' stroke='black' stroke-width='2' fill='none'/></svg>",
         "अनुत्तरित प्रश्न"
       ],
       "answer": 0,
-      "explanation": "The pattern adds 'arms' or branches to the central vertical line in a clockwise manner starting from Top-Right. Sequence: Top-Right -> Bottom-Right -> Bottom-Left. The next logical addition is Top-Left to complete the X shape logic."
+      "explanation": "The pattern adds 'arms' or branches to the central vertical line in a clockwise manner starting from Top-Right."
     }
   ]
 }
