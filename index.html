@@ -7,37 +7,62 @@
     <title>MeritBoard | Prepare. Learn. Succeed.</title>
     <meta name="description" content="Universal learning platform for Mock Tests, Video Classes, PDF Notes, and Educational Blogs.">
     <meta name="author" content="MeritBoard Team">
-    <link rel="canonical" href="https://yourusername.github.io/meritboard/">
-    
+    <meta name="keywords" content="Mock Tests, UPSC, SSC, Banking, PDF Notes, Free Quizzes, Video Lectures"> <link rel="canonical" href="https://yourusername.github.io/meritboard/">
+
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="googlebot" content="index, follow">
-    
-    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="#1A237E"> <meta name="msapplication-navbutton-color" content="#1A237E">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1A237E">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json"> <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MeritBoard">
     <meta property="og:title" content="MeritBoard - Prepare. Learn. Succeed.">
     <meta property="og:description" content="Free access to high-quality quizzes, video lectures, and study notes.">
     <meta property="og:image" content="assets/og-image.jpg"> 
     <meta property="og:url" content="https://yourusername.github.io/meritboard/">
-    
+    <meta property="og:locale" content="en_US">
+
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MeritBoard - Prepare. Learn. Succeed.">
+    <meta name="twitter:description" content="Free access to high-quality quizzes, video lectures, and study notes.">
+    <meta name="twitter:image" content="assets/og-image.jpg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/style.css">
-    
+
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "MeritBoard",
-      "url": "https://yourusername.github.io/meritboard/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://yourusername.github.io/meritboard/search.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
+    [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "MeritBoard",
+          "url": "https://yourusername.github.io/meritboard/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yourusername.github.io/meritboard/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "MeritBoard",
+          "url": "https://yourusername.github.io/meritboard/",
+          "logo": "https://yourusername.github.io/meritboard/assets/logo-icon.png",
+          "sameAs": [
+            "https://facebook.com/meritboard",
+            "https://twitter.com/meritboard",
+            "https://instagram.com/meritboard"
+          ]
+        }
+    ]
     </script>
 </head>
 <body>
@@ -58,14 +83,13 @@
             </nav>
 
             <div class="header-actions" style="display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; align-items: center !important; gap: 10px !important;">
-    
+                
                 <div class="search-wrapper">
                     <div class="search-input-box">
                         <span class="search-icon">🔍</span>
                         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
                         <button id="clearSearch" class="clear-btn hidden">&times;</button>
                     </div>
-                    
                     <div id="liveSearchResults" class="search-dropdown">
                         <div class="search-status">Start typing...</div>
                     </div>
