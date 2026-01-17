@@ -1,5 +1,25 @@
 [
 {
+  "id": "hp-constable-2026-01",
+  "type": "quiz",
+  "title": "Haryana Police Constable 2026 - Selection Series Test 1",
+  "thumbnail": "assets/hp-police-logo.png",
+  "category": "Haryana Police Exams",
+  "tags": [
+    "Haryana Police",
+    "Constable 2026",
+    "HSSC CET",
+    "New Criminal Laws",
+    "Police Department GK",
+    "Haryana Current Affairs"
+  ],
+  "date_added": "2026-01-18",
+  "author": "MeritBoard Exam Cell",
+  "is_featured": true,
+  "meta_info": "100 Qs • 100 Mins • Police Dept Special",
+  "source_url": "data/quizzes/hp-constable-2026-01.json"
+},
+{
   "id": "upsc-csat-reasoning",
   "type": "quiz",
   "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
