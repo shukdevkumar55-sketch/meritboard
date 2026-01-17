@@ -1,0 +1,118 @@
+[
+  {
+    "id": "book-01",
+    "type": "book",
+    "title": "Complete Ancient History: Indus to Vedas",
+    "category": "History",
+    "thumbnail": "https://m.media-amazon.com/images/I/81z-b13XuoL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Dr. A.K. Verma",
+    "date": "2026-01-16",
+    "tags": ["UPSC", "SSC", "Ancient India"]
+  },
+  {
+    "id": "demo-test",
+    "type": "quiz",
+    "title": "General Knowledge Speed Test",
+    "category": "GK",
+    "thumbnail": "assets/default-thumb.jpg",
+    "tags": ["Testing", "Speed"],
+    "date": "2026-01-16"
+  },
+  {
+    "id": "ssc-math-01",
+    "type": "video",
+    "title": "Maths Strategy for Beginners",
+    "category": "Strategy",
+    "thumbnail": "assets/default-thumb.jpg",
+    "tags": ["Maths", "Guide"],
+    "date": "2026-01-15"
+  },
+  {
+    "id": "art-01",
+    "type": "blog",
+    "title": "How to Stay Motivated for Exams",
+    "category": "Guidance",
+    "thumbnail": "assets/default-thumb.jpg",
+    "tags": ["Motivation", "Tips"],
+    "date": "2026-01-14"
+  },
+  {
+    "id": "hssc-cet-01",
+    "type": "quiz",
+    "title": "HSSC CET Group C - Full Mock Test",
+    "thumbnail": "assets/thumbnails/hssc-quiz.jpg",
+    "category": "Competitive Exams",
+    "tags": ["Haryana", "HSSC", "Mock Test"],
+    "date_added": "2026-01-15",
+    "author": "Sukhdev Dahiya",
+    "is_featured": true,
+    "meta_info": "100 Qs • 90 Mins",
+    "source_url": "data/quizzes/hssc-cet-01.json"
+  },
+   {
+    "id": "ssc-cgl-01", 
+    "type": "quiz",
+    "title": "SSC CGL Tier-1 Full Mock Test",
+    "category": "SSC",
+    "thumbnail": "assets/ssc-thumb.jpg", 
+    "tags": ["CGL", "Maths", "Reasoning"]
+  },
+  {
+    "id": "physics-law-motion",
+    "type": "video",
+    "title": "Physics Class 11: Laws of Motion",
+    "thumbnail": "assets/thumbnails/phy-motion.jpg",
+    "category": "Science",
+    "tags": ["Physics", "JEE", "NEET", "Video"],
+    "date_added": "2026-01-16",
+    "author": "Physics Dept",
+    "is_featured": false,
+    "meta_info": "45 Mins • HD",
+    "description": "Complete explanation of Newton's laws with real-life examples.",
+    "source_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": "haryana-history-notes",
+    "type": "pdf",
+    "title": "Complete History of Haryana (Handwritten)",
+    "thumbnail": "assets/thumbnails/pdf-notes.jpg",
+    "category": "Study Material",
+    "tags": ["History", "Notes", "PDF"],
+    "date_added": "2026-01-14",
+    "author": "MeritBoard Team",
+    "is_featured": true,
+    "meta_info": "2.5 MB • 50 Pages",
+    "description": "Chapter-wise notes covering ancient to modern history of Haryana.",
+    "source_url": "assets/docs/haryana-history.pdf"
+  },
+  
+  {
+    "id": "history-book",
+    "type": "book",
+    "title": "History of Modern India - Summary",
+    "category": "Book",
+    "thumbnail": "assets/history-book.jpg",
+    "date": "Jan 15, 2026",
+    "author": "MeritBoard Team",
+    "desc": "Quick revision summary of the famous spectrum history book for civil services aspirants."
+  },
+  {
+    "id": "demo-test",
+    "type": "quiz",
+    "title": "Website Feature Demo Test",
+    "category": "Demo", 
+    "thumbnail": "assets/default-thumb.jpg",
+    "tags": ["Testing", "Features"],
+    "date": "2026-01-16"
+  },
+  {
+    "id": "ssc-cgl-01",
+    "type": "quiz",
+    "title": "SSC CGL Mock Test 1",
+    "category": "SSC",
+    "thumbnail": "assets/default-thumb.jpg",
+    "tags": ["CGL", "Maths"]
+  }
+]
+
+
