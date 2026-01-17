@@ -1,0 +1,287 @@
+/* =========================================
+   Project: MeritBoard Reader
+   File: css/book-style.css
+   Theme: Premium E-Reader (Warm/Paper Style)
+   Scope: Limited to .reader-mode to prevent conflicts
+   ========================================= */
+
+/* --- 1. READER BODY & RESET --- */
+body.reader-mode {
+    background-color: #fcfaf2; /* Warm Cream (Eye-friendly) */
+    color: #2d2d2d;
+    font-family: 'Inter', sans-serif;
+    margin: 0; padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar Styling for Reader */
+body.reader-mode::-webkit-scrollbar { width: 8px; }
+body.reader-mode::-webkit-scrollbar-thumb { background: #dcd6c5; border-radius: 4px; }
+
+/* --- 2. HEADER NAVIGATION --- */
+.reader-header {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: 60px;
+    background-color: #fcfaf2; /* Match body color for seamless look */
+    border-bottom: 1px solid #e8e4d5;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0 20px;
+    z-index: 2000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease;
+}
+
+/* Left: Back Button */
+.reader-back-btn {
+    text-decoration: none;
+    color: #5d4037; /* Brownish Text */
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex; align-items: center; gap: 8px;
+    transition: color 0.2s;
+}
+.reader-back-btn:hover { color: #d84315; }
+.reader-back-btn .icon-arrow { font-size: 1.2rem; line-height: 1; }
+
+/* Center: Title (Hidden initially or for floating effect) */
+.rh-center {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #333;
+    opacity: 0; /* JS can toggle this on scroll */
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50%;
+}
+
+/* Right: Tools */
+.rh-right { display: flex; gap: 15px; }
+.tool-btn {
+    background: none; border: none; font-size: 1.2rem; cursor: pointer;
+    padding: 8px; border-radius: 50%; color: #5d4037;
+    position: relative; transition: background 0.2s;
+}
+.tool-btn:hover { background: rgba(0,0,0,0.05); }
+
+/* Tooltip (Simple CSS only) */
+.tool-btn .tooltip {
+    position: absolute; top: 110%; right: 0;
+    background: #333; color: white; font-size: 0.7rem; padding: 4px 8px;
+    border-radius: 4px; opacity: 0; pointer-events: none; transition: 0.2s;
+    white-space: nowrap; font-family: sans-serif;
+}
+.tool-btn:hover .tooltip { opacity: 1; top: 120%; }
+
+/* --- 3. LAYOUT WRAPPER --- */
+.reader-wrapper {
+    padding-top: 80px; /* Space below header */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* --- 4. SIDEBAR (TOC) --- */
+.reader-sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0; width: 300px;
+    background: #fff; z-index: 2500;
+    box-shadow: 5px 0 30px rgba(0,0,0,0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; flex-direction: column;
+}
+.reader-sidebar.open { transform: translateX(0); }
+
+.sidebar-head {
+    height: 60px; display: flex; align-items: center; justify-content: space-between;
+    padding: 0 20px; border-bottom: 1px solid #eee; background: #fafafa;
+}
+.sidebar-head h3 { margin: 0; font-size: 1rem; font-weight: 700; color: #444; }
+.close-sidebar-btn { font-size: 1.8rem; background: none; border: none; color: #666; cursor: pointer; }
+
+.sidebar-scroll { overflow-y: auto; flex: 1; padding: 10px 0; }
+.chapter-nav-list { list-style: none; padding: 0; margin: 0; }
+
+/* Sidebar Items */
+.chapter-nav-list button {
+    width: 100%; text-align: left; padding: 14px 20px;
+    background: none; border: none; border-bottom: 1px solid #f9f9f9;
+    font-size: 0.95rem; color: #555; cursor: pointer;
+    font-family: 'Inter', sans-serif; transition: 0.2s;
+}
+.chapter-nav-list button:hover { background: #f4f4f4; color: #000; }
+.chapter-nav-list button.active {
+    background: #fff8e1; /* Highlight Color */
+    color: #d84315;
+    font-weight: 600;
+    border-left: 5px solid #d84315;
+}
+.chapter-nav-list button.special-link { font-weight: 600; color: #1a237e; }
+
+/* Overlay */
+.sidebar-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5); z-index: 2400;
+    opacity: 0; visibility: hidden; transition: 0.3s;
+    backdrop-filter: blur(2px);
+}
+.sidebar-overlay.active { opacity: 1; visibility: visible; }
+
+/* --- 5. READING AREA --- */
+.reading-area {
+    width: 100%; max-width: 720px; /* Perfect reading width */
+    padding: 0 20px 60px;
+    display: flex; flex-direction: column; align-items: center;
+}
+
+/* Floating Chapter Header */
+.chapter-floater {
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px;
+    color: #9e9e9e; margin-bottom: 20px; font-weight: 700;
+    text-align: center; width: 100%;
+}
+
+/* --- 6. THE PAPER (Content Card) --- */
+.reader-paper {
+    background: #ffffff;
+    width: 100%;
+    padding: 60px 50px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.06);
+    border-radius: 6px;
+    min-height: 60vh;
+    /* Typography for Reading */
+    font-family: 'Merriweather', serif;
+    font-size: 1.15rem; /* ~18px */
+    line-height: 1.9;
+    color: #2c2c2c;
+    position: relative;
+    /* Spine Effect */
+    border-left: 6px solid #d84315; /* Deep Orange Spine */
+}
+
+/* Content Styling inside Paper */
+.reader-paper h1 { font-family: 'Poppins', sans-serif; font-size: 2.2rem; margin-bottom: 10px; line-height: 1.2; color: #111; }
+.reader-paper h2 { font-family: 'Poppins', sans-serif; font-size: 1.6rem; color: #d84315; margin: 40px 0 20px; }
+.reader-paper h3 { font-size: 1.3rem; margin: 30px 0 15px; color: #444; }
+.reader-paper p { margin-bottom: 25px; text-align: justify; }
+.reader-paper img { max-width: 100%; height: auto; border-radius: 4px; margin: 20px 0; display: block; margin-left: auto; margin-right: auto; }
+.reader-paper blockquote { 
+    margin: 30px 0; padding: 20px; background: #fff8e1; 
+    border-left: 4px solid #ffca28; font-style: italic; color: #555;
+}
+.reader-paper ul, .reader-paper ol { padding-left: 25px; margin-bottom: 25px; }
+.reader-paper li { margin-bottom: 10px; }
+
+/* Book Info Card Specifics */
+.book-info-layout { text-align: center; }
+.book-info-layout img.cover { max-width: 160px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); transform: rotate(-2deg); border-radius: 4px; margin-bottom: 25px; }
+.book-meta-table { 
+    width: 100%; text-align: left; background: #fafafa; border: 1px solid #eee;
+    margin-top: 30px; border-radius: 8px; overflow: hidden; font-family: 'Inter', sans-serif; font-size: 0.95rem;
+}
+.book-meta-table div { padding: 12px 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
+.book-meta-table div:last-child { border-bottom: none; }
+.book-meta-table span.label { font-weight: 600; color: #666; }
+
+/* --- 7. FOOTER CONTROLS --- */
+.reader-footer-controls {
+    width: 100%; max-width: 720px; margin-top: 40px;
+}
+
+/* Buttons */
+.nav-buttons-row {
+    display: flex; justify-content: space-between; gap: 20px; margin-bottom: 30px;
+}
+.reader-nav-btn {
+    flex: 1; padding: 14px; border-radius: 50px; border: none;
+    background: #3e2723; color: white; /* Dark Coffee */
+    font-size: 1rem; font-weight: 600; cursor: pointer;
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.3);
+    transition: transform 0.1s, background 0.2s;
+    font-family: 'Poppins', sans-serif;
+    display: flex; justify-content: center; align-items: center; gap: 10px;
+}
+.reader-nav-btn:active { transform: scale(0.98); }
+.reader-nav-btn:disabled { background: #d7ccc8; color: #8d6e63; box-shadow: none; cursor: not-allowed; }
+.reader-nav-btn.next { background: #d84315; /* Orange for Next to encourage reading */ }
+
+/* Pellets */
+.pellets-wrapper { overflow-x: auto; padding-bottom: 10px; }
+.pellets-track { display: flex; gap: 8px; justify-content: center; min-width: max-content; padding: 0 20px; }
+.pellet {
+    width: 10px; height: 10px; background: #e0e0e0; border-radius: 50%;
+    cursor: pointer; transition: all 0.3s;
+}
+.pellet.active { background: #d84315; transform: scale(1.3); }
+
+/* --- 8. RELATED SLIDER (Scoped) --- */
+.reader-related-section {
+    margin-top: 40px; width: 100%; padding-top: 30px;
+    border-top: 1px dashed #d7ccc8;
+}
+.related-title { font-family: 'Poppins', sans-serif; font-size: 1.1rem; color: #5d4037; margin-bottom: 20px; }
+.related-slider-container { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 20px; }
+.related-slider-container::-webkit-scrollbar { display: none; }
+.related-track { display: flex; gap: 15px; }
+
+/* Related Card */
+.rel-card {
+    min-width: 140px; max-width: 140px;
+    background: white; border-radius: 8px; overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eee;
+    transition: transform 0.2s; text-decoration: none; display: block;
+}
+.rel-card:hover { transform: translateY(-3px); }
+.rel-thumb { height: 100px; background: #eee; overflow: hidden; }
+.rel-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.rel-info { padding: 10px; }
+.rel-title { font-size: 0.85rem; font-weight: 600; margin: 0; color: #333; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* --- 9. SHARE MODAL --- */
+.custom-modal {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6); z-index: 3000;
+    display: none; align-items: center; justify-content: center;
+    backdrop-filter: blur(4px);
+}
+.custom-modal.active { display: flex; animation: fadeIn 0.2s; }
+.modal-content {
+    background: white; width: 90%; max-width: 350px;
+    border-radius: 16px; padding: 25px; text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.modal-header h3 { margin: 0; font-family: 'Poppins', sans-serif; }
+.close-modal { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #999; }
+.share-options { display: grid; gap: 10px; }
+.share-tile {
+    padding: 12px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 1rem;
+    transition: 0.2s; color: white;
+}
+.share-tile.whatsapp { background: #25D366; }
+.share-tile.twitter { background: #1DA1F2; }
+.share-tile.copy { background: #f0f0f0; color: #333; }
+.share-tile:active { transform: scale(0.98); }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- 10. RESPONSIVE --- */
+@media (max-width: 768px) {
+    .reading-area { padding: 0 15px 40px; }
+    .reader-paper { padding: 40px 25px; border-left: none; /* No spine on mobile to save space */ }
+    .reader-paper h1 { font-size: 1.8rem; }
+    .reader-paper p { text-align: left; /* Justify text harder to read on small screens */ }
+    .rh-center { display: none; /* Hide center title on mobile */ }
+}
+
+/* Skeleton Loading Styles */
+.skeleton-text { height: 15px; background: #eee; border-radius: 4px; margin-bottom: 10px; animation: pulse 1.5s infinite; }
+.skeleton-h1 { height: 30px; width: 70%; margin-bottom: 20px; background: #eee; animation: pulse 1.5s infinite; }
+.skeleton-p { height: 100px; width: 100%; margin-bottom: 20px; background: #eee; animation: pulse 1.5s infinite; }
+.skeleton-img { height: 200px; width: 100%; background: #eee; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0% { opacity: 0.6; } 50% { opacity: 0.8; } 100% { opacity: 0.6; } }
