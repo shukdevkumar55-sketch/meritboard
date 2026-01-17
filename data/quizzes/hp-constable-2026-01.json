@@ -101,6 +101,108 @@
       "options_hi": ["112", "108", "1930", "1090", "अनुत्तरित प्रश्न"],
       "answer": 2,
       "explanation": "सही उत्तर: 1930\n\n📌 **Important Helpline Numbers:**\n* **1930:** National Cyber Crime Helpline.\n* **112:** ERSS (Emergency Response).\n* **1091:** महिला हेल्पलाइन."
+    }    ,
+    {
+      "id": 11,
+      "section": "Polity & Constitution",
+      "q_en": "Under the 7th Schedule of the Indian Constitution, 'Police' is a subject of which list?",
+      "q_hi": "भारतीय संविधान की 7वीं अनुसूची के तहत, 'पुलिस' (Police) किस सूची का विषय है?",
+      "options_en": ["Union List", "State List", "Concurrent List", "Residuary Powers", "Not Attempted"],
+      "options_hi": ["संघ सूची (Union List)", "राज्य सूची (State List)", "समवर्ती सूची (Concurrent List)", "अवशिष्ट शक्तियाँ", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: राज्य सूची (State List)।\n\n📌 **Exam Oriented Facts:**\n* पुलिस और कानून व्यवस्था (Law & Order) **राज्य सूची** के विषय हैं।\n* यही कारण है कि हरियाणा पुलिस राज्य सरकार (गृह मंत्रालय, हरियाणा) के अधीन आती है, जबकि दिल्ली पुलिस केंद्र सरकार के अधीन है।\n* **रेलवे पुलिस (GRP)** भी राज्य सरकार के अंतर्गत आती है और उसका खर्च राज्य और केंद्र (50:50) उठाते हैं।"
+    },
+    {
+      "id": 12,
+      "section": "Haryana GK (Police)",
+      "q_en": "Where is the 'Haryana Police Academy' (HPA) located?",
+      "q_hi": "हरियाणा पुलिस अकादमी (HPA) कहाँ स्थित है?",
+      "options_en": ["Bhondsi (Gurugram)", "Madhuban (Karnal)", "Sunaria (Rohtak)", "Manesar", "Not Attempted"],
+      "options_hi": ["भोंडसी (गुरुग्राम)", "मधुबन (करनाल)", "सुनारिया (रोहतक)", "मानेसर", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: मधुबन (करनाल)।\n\n📌 **Training Centers:**\n* **HPA (Haryana Police Academy):** मधुबन, करनाल (यहाँ DSP और SI स्तर के अधिकारियों की ट्रेनिंग होती है)।\n* **RTC (Recruit Training Centre):** भोंडसी (गुरुग्राम) और सुनारिया (रोहतक) में कांस्टेबल और हेड कांस्टेबल की ट्रेनिंग होती है।\n* यह GT रोड (NH-44) पर स्थित है।"
+    },
+    {
+      "id": 13,
+      "section": "New Criminal Laws (BNS)",
+      "q_en": "For the first time, 'Community Service' has been introduced as a punishment for petty crimes in which new act?",
+      "q_hi": "छोटे अपराधों के लिए सजा के रूप में पहली बार 'सामुदायिक सेवा' (Community Service) को किस नए अधिनियम में शामिल किया गया है?",
+      "options_en": ["Indian Penal Code (IPC)", "Bharatiya Nyaya Sanhita (BNS)", "Bharatiya Nagarik Suraksha Sanhita (BNSS)", "None of these", "Not Attempted"],
+      "options_hi": ["भारतीय दंड संहिता (IPC)", "भारतीय न्याय संहिता (BNS)", "भारतीय नागरिक सुरक्षा संहिता (BNSS)", "इनमें से कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: भारतीय न्याय संहिता (BNS)।\n\n📌 **Key Change:**\n* पुराने IPC में 'सामुदायिक सेवा' सजा नहीं थी।\n* **BNS 2023** के तहत, छोटे अपराध (जैसे शराब पीकर हंगामा करना, 5000 से कम की चोरी) के लिए जेल भेजने के बजाय 'सामुदायिक सेवा' (सड़क साफ करना, पेड़ लगाना आदि) की सजा दी जा सकती है। यह जेलों से भीड़ कम करने के लिए है।"
+    },
+    {
+      "id": 14,
+      "section": "Reasoning",
+      "q_en": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is that man related to the woman?",
+      "q_hi": "एक पुरुष का परिचय देते हुए, एक महिला ने कहा, 'इसकी पत्नी मेरे पिता की इकलौती बेटी है।' वह पुरुष उस महिला से कैसे संबंधित है?",
+      "options_en": ["Brother", "Father-in-law", "Husband", "Maternal Uncle", "Not Attempted"],
+      "options_hi": ["भाई", "ससुर", "पति", "मामा", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: पति (Husband)।\n\n📌 **Logic:**\n* महिला ने कहा: 'मेरे पिता की इकलौती बेटी'।\n* किसी के पिता की इकलौती बेटी **वह स्वयं (Himself/Herself)** होती है।\n* तो वाक्य बना: 'इसकी पत्नी... **मैं हूँ**।'\n* अगर वह पुरुष की पत्नी है, तो वह पुरुष उसका **पति** हुआ।"
+    },
+    {
+      "id": 15,
+      "section": "Animal Husbandry",
+      "q_en": "Which buffalo breed found in Haryana is known as 'Black Gold'?",
+      "q_hi": "हरियाणा में पाई जाने वाली भैंस की किस नस्ल को 'काला सोना' (Black Gold) कहा जाता है?",
+      "options_en": ["Nili-Ravi", "Murrah", "Sahiwal", "Mehsana", "Not Attempted"],
+      "options_hi": ["नीली-रावी", "मुर्राह", "साहिवाल", "मेहसाना", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: मुर्राह (Murrah)।\n\n📌 **Exam Facts:**\n* **मुर्राह भैंस:** इसे 'खुंडी' (Curbed Horns) भी कहा जाता है।\n* यह दुनिया में सबसे अधिक दूध देने वाली नस्लों में से एक है।\n* इसे 'Asian Tractor' भी कहा जाता है।\n* उत्पत्ति स्थान: मुख्य रूप से रोहतक, जींद और हिसार जिले।"
+    },
+    {
+      "id": 16,
+      "section": "Computer",
+      "q_en": "In computer terminology, 1 Nibble is equal to how many bits?",
+      "q_hi": "कंप्यूटर शब्दावली में, 1 निबल (Nibble) कितने बिट्स (Bits) के बराबर होता है?",
+      "options_en": ["8 Bits", "4 Bits", "16 Bits", "2 Bits", "Not Attempted"],
+      "options_hi": ["8 बिट्स", "4 बिट्स", "16 बिट्स", "2 बिट्स", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 4 बिट्स।\n\n📌 **Memory Units:**\n* **1 Bit:** Binary Digit (0 या 1).\n* **1 Nibble:** 4 Bits (Half Byte).\n* **1 Byte:** 8 Bits.\n* **1 KB:** 1024 Bytes.\nयह प्रश्न HSSC क्लर्क और पुलिस परीक्षा में कई बार पूछा गया है।"
+    },
+    {
+      "id": 17,
+      "section": "Police Administration",
+      "q_en": "Which of the following is a 'Police District' in Haryana but NOT an administrative Revenue District?",
+      "q_hi": "निम्नलिखित में से कौन सा हरियाणा में एक 'पुलिस जिला' (Police District) है लेकिन प्रशासनिक राजस्व जिला नहीं है?",
+      "options_en": ["Hansi", "Gohana", "Meham", "Narwana", "Not Attempted"],
+      "options_hi": ["हांसी", "गोहाना", "महम", "नरवाना", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: हांसी (Hansi)।\n\n📌 **Important:**\n* हरियाणा में कुल **22 प्रशासनिक जिले** हैं।\n* लेकिन **पुलिस जिले 25+** हैं (क्योंकि हांसी, मानेसर और डबवाली को अलग पुलिस जिला बनाया गया है)।\n* **हांसी** पहला ऐसा शहर था जिसे केवल पुलिस जिला बनाया गया था (जिला हिसार ही लगता है)।\n* अभी हाल ही में **डबवाली (सिरसा)** को भी पुलिस जिला घोषित किया गया है।"
+    },
+    {
+      "id": 18,
+      "section": "Mathematics",
+      "q_en": "A and B together can do a piece of work in 15 days, and B alone can do it in 20 days. In how many days can A alone do it?",
+      "q_hi": "A और B मिलकर किसी काम को 15 दिनों में कर सकते हैं, और B अकेला उसे 20 दिनों में कर सकता है। A अकेला उस काम को कितने दिनों में करेगा?",
+      "options_en": ["30 days", "45 days", "60 days", "40 days", "Not Attempted"],
+      "options_hi": ["30 दिन", "45 दिन", "60 दिन", "40 दिन", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 60 दिन।\n\n📌 **Solution (LCM Method):**\n1. कुल काम (LCM of 15, 20) = 60 यूनिट।\n2. (A + B) की क्षमता = 60/15 = 4 यूनिट/दिन।\n3. B की क्षमता = 60/20 = 3 यूनिट/दिन।\n4. A की क्षमता = (A+B) - B = 4 - 3 = 1 यूनिट/दिन।\n5. A का समय = कुल काम / A की क्षमता = 60 / 1 = **60 दिन**।"
+    },
+    {
+      "id": 19,
+      "section": "General Science",
+      "q_en": "Mirage formation in deserts is due to which phenomenon of light?",
+      "q_hi": "रेगिस्तान में 'मृगमरीचिका' (Mirage) का बनना प्रकाश की किस घटना के कारण होता है?",
+      "options_en": ["Reflection", "Refraction", "Total Internal Reflection", "Dispersion", "Not Attempted"],
+      "options_hi": ["परावर्तन (Reflection)", "अपवर्तन (Refraction)", "पूर्ण आंतरिक परावर्तन (Total Internal Reflection)", "वर्ण विक्षेपण (Dispersion)", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: पूर्ण आंतरिक परावर्तन (Total Internal Reflection)।\n\n📌 **Facts:**\n* जब प्रकाश सघन माध्यम से विरल माध्यम में जाता है और आपतन कोण क्रांतिक कोण से अधिक हो जाता है, तो प्रकाश वापस उसी माध्यम में लौट आता है।\n* **Optical Fiber (ऑप्टिकल फाइबर)** भी इसी सिद्धांत पर काम करता है।"
+    },
+    {
+      "id": 20,
+      "section": "Haryana GK",
+      "q_en": "Which Haryanvi athlete won two medals (Bronze) in a single Olympics at Paris 2024?",
+      "q_hi": "पेरिस ओलंपिक 2024 में किस हरियाणवी एथलीट ने एक ही ओलंपिक में दो पदक (कांस्य) जीते?",
+      "options_en": ["Neeraj Chopra", "Manu Bhaker", "Vinesh Phogat", "Sarabojoy Singh", "Not Attempted"],
+      "options_hi": ["नीरज चोपड़ा", "मनु भाकर", "विनेश फोगाट", "सरबजोत सिंह", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: मनु भाकर।\n\n📌 **Current Affairs 2024:**\n* **मनु भाकर (झज्जर)** ने शूटिंग में 2 ब्रॉन्ज मेडल जीते (10 मीटर एयर पिस्टल व्यक्तिगत और 10 मीटर मिक्स्ड टीम सरबजोत सिंह के साथ)।\n* वह स्वतंत्र भारत की पहली महिला हैं जिन्होंने एक ही ओलंपिक में 2 मेडल जीते।\n* **नीरज चोपड़ा (पानीपत)** ने सिल्वर मेडल (Javelin Throw) जीता।"
     }
+
+
   ]
 }
