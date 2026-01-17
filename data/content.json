@@ -1,126 +1,72 @@
-[
 {
-  "id": "upsc-csat-reasoning",
-  "type": "quiz",
-  "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
-  "thumbnail": "assets/default-thumb.jpg",
-  "category": "UPSC / CSAT",
-  "tags": [
-    "UPSC CSAT",
-    "Non-Verbal Reasoning",
-    "Visual Aptitude",
-    "IAS Prelims",
-    "Pattern Completion",
-    "Spatial Reasoning"
-  ],
-  "date_added": "2026-01-18",
-  "author": "MeritBoard Team",
-  "is_featured": true,
-  "meta_info": "10 Qs • 15 Mins • 4 Options Pattern",
-  "source_url": "data/quizzes/upsc-csat-reasoning.json"
-},
-
-
-  {
-    "id": "book-01",
-    "type": "book",
-    "title": "Complete Ancient History: Indus to Vedas",
-    "category": "History",
-    "thumbnail": "https://m.media-amazon.com/images/I/81z-b13XuoL._AC_UF1000,1000_QL80_.jpg",
-    "author": "Dr. A.K. Verma",
-    "date": "2026-01-16",
-    "tags": ["UPSC", "SSC", "Ancient India"]
-  },
-
-
-  {
-    "id": "ssc-math-01",
-    "type": "video",
-    "title": "Maths Strategy for Beginners",
-    "category": "Strategy",
-    "thumbnail": "assets/default-thumb.jpg",
-    "tags": ["Maths", "Guide"],
-    "date": "2026-01-15"
-  },
-
-
-  {
-    "id": "art-01",
-    "type": "blog",
-    "title": "How to Stay Motivated for Exams",
-    "category": "Guidance",
-    "thumbnail": "assets/default-thumb.jpg",
-    "tags": ["Motivation", "Tips"],
-    "date": "2026-01-14"
-  },
-
-
+  "testTitle": "UPSC CSAT: Advanced Visual Reasoning Test",
+  "timeMinutes": 15,
+  "questions": [
     {
-  "id": "hssc-group-c",
-  "type": "quiz",
-  "title": "HSSC CET Group C Mains 2026 - Full Mock Test (New Pattern)",
-  "thumbnail": "/assets/file_00000000ed947208a95529d2d409f972.webp",
-  "category": "Haryana State Exams",
-  "tags": [
-    "HSSC CET 2026",
-    "Group C Mains",
-    "Haryana GK",
-    "HSSC Mock Test",
-    "Haryana Police",
-    "Gram Sachiv",
-    "Patwari",
-    "Previous Year Questions",
-    "NTA Pattern"
-  ],
-  "date_added": "2026-01-17",
-  "author": "Sukhdev Dahiya",
-  "is_featured": true,
-  "meta_info": "100 Qs • 105 Mins • 5 Options Pattern",
-  "source_url": "data/quizzes/hssc-group-c.json"
-},
-
-
-  {
-    "id": "physics-law-motion",
-    "type": "video",
-    "title": "Physics Class 11: Laws of Motion",
-    "thumbnail": "assets/thumbnails/phy-motion.jpg",
-    "category": "Science",
-    "tags": ["Physics", "JEE", "NEET", "Video"],
-    "date_added": "2026-01-16",
-    "author": "Physics Dept",
-    "is_featured": false,
-    "meta_info": "45 Mins • HD",
-    "description": "Complete explanation of Newton's laws with real-life examples.",
-    "source_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-
-
-  {
-    "id": "haryana-history-notes",
-    "type": "pdf",
-    "title": "Complete History of Haryana (Handwritten)",
-    "thumbnail": "assets/thumbnails/pdf-notes.jpg",
-    "category": "Study Material",
-    "tags": ["History", "Notes", "PDF"],
-    "date_added": "2026-01-14",
-    "author": "MeritBoard Team",
-    "is_featured": true,
-    "meta_info": "2.5 MB • 50 Pages",
-    "description": "Chapter-wise notes covering ancient to modern history of Haryana.",
-    "source_url": "assets/docs/haryana-history.pdf"
-  },
-  
-  {
-    "id": "history-book",
-    "type": "book",
-    "title": "History of Modern India - Summary",
-    "category": "Book",
-    "thumbnail": "assets/history-book.jpg",
-    "date": "Jan 15, 2026",
-    "author": "MeritBoard Team",
-    "desc": "Quick revision summary of the famous spectrum history book for civil services aspirants."
-  }
-]
-
-
+      "id": 1,
+      "section": "Visual Logic",
+      "q_en": "<p>Select the figure that will complete the matrix series following the rule of rotation and addition of elements:</p><div class='reasoning-series' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; width: 180px; margin: 0 auto;'><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/><circle cx='25' cy='40' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/><circle cx='40' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/></svg><div class='shape-box question-mark' style='width:50px; height:50px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc'>?</div></div>",
+      "q_hi": "<p>उस आकृति का चयन करें जो रोटेशन और तत्वों के जुड़ाव के नियम का पालन करते हुए मैट्रिक्स श्रृंखला को पूरा करेगी:</p><div class='reasoning-series' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; width: 180px; margin: 0 auto;'><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='25' y1='10' x2='25' y2='40' stroke='black' stroke-width='2'/><circle cx='25' cy='10' r='3' fill='black'/><circle cx='25' cy='40' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='10' y1='25' x2='40' y2='25' stroke='black' stroke-width='2'/><circle cx='10' cy='25' r='3' fill='black'/><circle cx='40' cy='25' r='3' fill='black'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/></svg><svg width='50' height='50' style='border:1px solid #ccc'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/></svg><div class='shape-box question-mark' style='width:50px; height:50px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc'>?</div></div>",
+      "options_en": [
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='35' y1='15' x2='15' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='35' r='3' fill='black'/><circle cx='35' cy='15' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='3' fill='black'/></svg>",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='15' r='3' fill='black'/><circle cx='35' cy='35' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='35' y1='15' x2='15' y2='35' stroke='black' stroke-width='2'/><circle cx='15' cy='35' r='3' fill='black'/><circle cx='35' cy='15' r='3' fill='black'/></svg>",
+        "<svg width='50' height='50'><line x1='15' y1='15' x2='35' y2='35' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='3' fill='black'/></svg>",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Row Logic: Step 1 (Line only), Step 2 (Line + 1 Dot at start), Step 3 (Line + 2 Dots at both ends). The orientation rotates 45 degrees clockwise in each new row."
+    },
+    {
+      "id": 2,
+      "section": "Spatial Logic",
+      "q_en": "<p>Select the figure that is related to the third figure in the same way as the second figure is related to the first figure (Analogy):</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black' stroke-width='2'/></svg> : <svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='black'/></svg> :: <svg width='50' height='50' style='border:1px solid #ccc'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/></svg> : <div class='shape-box question-mark'>?</div></div>",
+      "q_hi": "<p>उस आकृति का चयन करें जो तीसरी आकृति से उसी प्रकार संबंधित है जैसे दूसरी आकृति पहली आकृति से संबंधित है (सादृश्य):</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='none' stroke='black' stroke-width='2'/></svg> : <svg width='50' height='50' style='border:1px solid #ccc'><rect x='10' y='10' width='30' height='30' fill='black'/></svg> :: <svg width='50' height='50' style='border:1px solid #ccc'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/></svg> : <div class='shape-box question-mark'>?</div></div>",
+      "options_en": [
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='5' fill='black'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='gray'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='black'/></svg>",
+        "<svg width='50' height='50'><rect x='10' y='10' width='30' height='30' fill='black'/></svg>",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='none' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='5' fill='black'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='gray'/></svg>",
+        "<svg width='50' height='50'><polygon points='25,5 45,40 5,40' fill='black'/></svg>",
+        "<svg width='50' height='50'><rect x='10' y='10' width='30' height='30' fill='black'/></svg>",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "The relationship is 'Outline to Solid Fill'. The square outline becomes a solid black square. Similarly, the triangle outline must become a solid black triangle."
+    },
+    {
+      "id": 3,
+      "section": "Pattern Completion",
+      "q_en": "<p>Which figure completes the sequence?</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/></svg> &rarr; <div class='shape-box question-mark'>?</div></div>",
+      "q_hi": "<p>कौन सी आकृति इस क्रम को पूरा करती है?</p><div class='reasoning-series'><svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/></svg> &rarr; <svg width='50' height='50' style='border:1px solid #ccc'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/></svg> &rarr; <div class='shape-box question-mark'>?</div></div>",
+      "options_en": [
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 5 L10 15' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 25 L45 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 25 L10 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><circle cx='25' cy='25' r='20' stroke='black' stroke-width='2' fill='none'/></svg>",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 5 L10 15' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 25 L45 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><path d='M25 5 L25 45' stroke='black' stroke-width='2'/><path d='M25 5 L40 15' stroke='black' stroke-width='2'/><path d='M25 45 L40 35' stroke='black' stroke-width='2'/><path d='M25 45 L10 35' stroke='black' stroke-width='2'/><path d='M25 25 L10 25' stroke='black' stroke-width='2'/></svg>",
+        "<svg width='50' height='50'><circle cx='25' cy='25' r='20' stroke='black' stroke-width='2' fill='none'/></svg>",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "The pattern adds 'arms' or branches to the central vertical line in a clockwise manner starting from Top-Right."
+    }
+  ]
+}
