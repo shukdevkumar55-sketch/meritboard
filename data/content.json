@@ -1,6 +1,6 @@
 [
 {
-  "id": "upsc-csat-reasoning-01",
+  "id": "upsc-csat-reasoning",
   "type": "quiz",
   "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
   "thumbnail": "assets/default-thumb.jpg",
@@ -18,6 +18,33 @@
   "is_featured": true,
   "meta_info": "10 Qs • 15 Mins • 4 Options Pattern",
   "source_url": "data/quizzes/upsc-csat-reasoning.json"
+},
+
+
+    {
+  "id": "hssc-group-c",
+  "type": "quiz",
+  "title": "HSSC CET Group C Mains 2026 - Full Mock Test (New Pattern)",
+  "thumbnail": "/assets/file_00000000ed947208a95529d2d409f972.webp",
+  "category": "Haryana State Exams",
+  "tags": [
+    "HSSC CET 2026",
+    "Group C Mains",
+    "Haryana GK",
+    "HSSC Mock Test",
+    "Haryana Police",
+    "Gram Sachiv",
+    "Patwari",
+    "Previous Year Questions",
+    "NTA Pattern"
+  ],
+  "date_added": "2026-01-17",
+  "author": "Sukhdev Dahiya",
+  "is_featured": true,
+  "meta_info": "100 Qs • 105 Mins • 5 Options Pattern",
+  "source_url": "data/quizzes/hssc-group-c.json"
 }
+
+
 
 ]
