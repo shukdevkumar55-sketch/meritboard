@@ -2,7 +2,7 @@
  * Project: MeritBoard
  * File: js/quiz-core.js
  * Description: Dedicated Logic Engine for Quiz Page
- * Status: FINAL (With Sharing Logic)
+ * Status: FINAL (Hindi Default Enabled)
  */
 
 // --- STATE VARIABLES ---
@@ -11,7 +11,7 @@ let currentQIndex = 0;
 let timeRemaining = 0;
 let timerInterval;
 let userResponses = []; 
-let currentLang = 'en'; // Default English
+let currentLang = 'hi'; // ✅ Default set to Hindi
 
 // --- 1. INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -87,6 +87,7 @@ function loadQuestion(index) {
     document.getElementById('qNumber').innerText = `Q.${index + 1}`;
     
     // B. Question Text
+    // Fallback: If Hindi missing, show English
     const text = (lang === 'hi' && q.q_hi) ? q.q_hi : q.q_en;
     document.getElementById('questionText').innerHTML = text;
 
@@ -109,6 +110,12 @@ function loadQuestion(index) {
     // D. Buttons
     document.getElementById('btnPrev').disabled = (index === 0);
     document.getElementById('btnNext').innerText = (index === quizData.questions.length - 1) ? "Submit Test" : "Save & Next";
+    
+    // Update Language Toggle Button Text
+    const langBtn = document.getElementById('langToggle');
+    if (langBtn) {
+        langBtn.innerText = (currentLang === 'hi') ? "Switch to English" : "Switch to Hindi";
+    }
 
     // E. Highlights
     highlightCurrentPalette(index);
@@ -141,7 +148,8 @@ function setupEventListeners() {
 
     // Header Actions
     document.getElementById('langToggle').onclick = () => {
-        currentLang = (currentLang === 'en') ? 'hi' : 'en';
+        // Toggle Logic: If Hi -> En, else -> Hi
+        currentLang = (currentLang === 'hi') ? 'en' : 'hi';
         loadQuestion(currentQIndex);
     };
     
