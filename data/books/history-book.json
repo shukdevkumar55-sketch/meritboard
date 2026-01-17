@@ -1,0 +1,44 @@
+{
+  "id": "book-01",
+  "title": "Ancient History of India",
+  "author": "R.S. Sharma",
+  "category": "UPSC & SSC",
+  "subject": "History",
+  "cover": "https://m.media-amazon.com/images/I/81z-b13XuoL._AC_UF1000,1000_QL80_.jpg",
+  
+  "info": "<p>This is the definitive guide for Ancient Indian History.</p>",
+  "preface": "<p>Welcome to the digital edition of Ancient History...</p>",
+
+  "chapters": [
+    {
+      "title": "1. The Stone Age",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>The Stone Age (Part 1)</h2><p>The Stone Age in India marks the beginning of human civilization. It is divided into three periods: Paleolithic, Mesolithic, and Neolithic.</p><p>Humans were hunters and gatherers during this time.</p>"
+        },
+        {
+          "page_no": 2,
+          "content": "<h2>The Stone Age (Part 2)</h2><p><b>Tools & Weapons:</b><br>Early humans used quartzite to make tools. These tools were rough and heavy.</p><img src='assets/stone-tools.jpg' onerror='this.style.display=\"none\"'><p>Later, they started using smaller, sharper tools called Microliths.</p>"
+        }
+      ]
+    },
+    {
+      "title": "2. Indus Valley Civilization",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>Introduction to Harappa</h2><p>The Indus Valley Civilization was a Bronze Age civilization (3300–1300 BCE). It was known for its urban planning.</p>"
+        },
+        {
+          "page_no": 2,
+          "content": "<h2>Town Planning</h2><p>The streets cut each other at right angles. The drainage system was very advanced.</p>"
+        },
+        {
+          "page_no": 3,
+          "content": "<h2>Decline</h2><p>There are many theories about the decline, including floods, earthquakes, and Aryan invasion.</p>"
+        }
+      ]
+    }
+  ]
+}
