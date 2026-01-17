@@ -1,4 +1,26 @@
 [
+{
+  "id": "upsc-csat-reasoning-01",
+  "type": "quiz",
+  "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
+  "thumbnail": "assets/default-thumb.jpg",
+  "category": "UPSC / CSAT",
+  "tags": [
+    "UPSC CSAT",
+    "Non-Verbal Reasoning",
+    "Visual Aptitude",
+    "IAS Prelims",
+    "Pattern Completion",
+    "Spatial Reasoning"
+  ],
+  "date_added": "2026-01-18",
+  "author": "MeritBoard Team",
+  "is_featured": true,
+  "meta_info": "10 Qs • 15 Mins • 4 Options Pattern",
+  "source_url": "data/quizzes/upsc-csat-reasoning.json"
+},
+
+
   {
     "id": "book-01",
     "type": "book",
