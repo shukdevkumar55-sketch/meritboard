@@ -773,17 +773,14 @@
 "explanation": "In Python, Lists, Dictionaries, and Sets are Mutable (changeable). Tuples, Strings, and Numbers are Immutable. HSSC frequently asks the difference between List [ ] and Tuple ( )."
 },
 {
-"id": 78,
-"section": "Computer Awareness",
-"q_en": "Which symbol is used in MS-Excel to create an 'Absolute Cell Reference' (fixing the cell address)?",
-"q_hi": "MS-Excel में 'एब्सोल्यूट सेल रेफरेंस' (सेल का पता फिक्स करने के लिए) बनाने के लिए किस प्रतीक का उपयोग किया जाता है?",
-"options_en": ["#", "&", "
-", "%", "अनुत्तरित प्रश्न"],
-"answer": 2,
-"explanation": "The Dollar sign ($) is used for absolute referencing (e.g., 
-𝐴
-A
-1). It ensures that the cell reference does not change when the formula is copied to other cells."
+  "id": 78,
+  "section": "Computer Awareness",
+  "q_en": "Which symbol is used in MS-Excel to create an 'Absolute Cell Reference' (fixing the cell address)?",
+  "q_hi": "MS-Excel में 'एब्सोल्यूट सेल रेफरेंस' (सेल का पता फिक्स करने के लिए) बनाने के लिए किस प्रतीक का उपयोग किया जाता है?",
+  "options_en": ["#", "&", "$", "%", "Not Attempted"],
+  "options_hi": ["#", "&", "$", "%", "अनुत्तरित प्रश्न"],
+  "answer": 2,
+  "explanation": "The Dollar sign ($) is used for absolute referencing (e.g., $A$1). It ensures that the cell reference does not change when the formula is copied to other cells."
 },
 {
 "id": 79,
