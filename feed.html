@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Browse Content | MeritBoard</title>
     
     <meta name="robots" content="noindex, follow"> 
     <meta name="description" content="Explore Mock Tests, Books, Videos and Articles on MeritBoard.">
+    
+    <meta name="theme-color" content="#1A237E">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/style.css">      <link rel="stylesheet" href="css/feed-style.css"> </head>
+    <link rel="stylesheet" href="css/style.css">      
+    <link rel="stylesheet" href="css/feed-style.css"> 
+</head>
 <body>
 
     <header class="site-header">
         <div class="header-container container">
+            
             <div class="brand-area">
                 <a href="index.html" class="logo-link">
                     <span class="logo-text">Merit<span>Board</span></span>
@@ -29,19 +34,14 @@
             </nav>
 
             <div class="header-actions">
-                <button id="searchTrigger" class="btn-icon">🔍</button>
                 <button id="themeToggle" class="btn-icon">🌙</button>
-                <button id="mobileMenuBtn" class="btn-icon mobile-only">☰</button>
+                <button id="mobileMenuBtn" class="btn-icon mobile-only">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
             </div>
+
         </div>
     </header>
-
-    <div id="searchOverlay" class="search-overlay">
-        <div class="search-container">
-            <input type="text" id="globalSearchInput" placeholder="Type to search entire site...">
-            <button id="closeSearch" class="close-btn">&times;</button>
-        </div>
-    </div>
 
     <section class="feed-header">
         <div class="container">
@@ -62,8 +62,7 @@
                 </div>
             </div>
 
-            <div class="feed-toolbar">
-                <input type="text" id="localSearch" class="local-search" placeholder="Filter in this list...">
+            <div class="feed-toolbar" style="justify-content: flex-end;"> 
                 <select id="sortBy" class="sort-select">
                     <option value="newest">Newest First</option>
                     <option value="oldest">Oldest First</option>
@@ -76,14 +75,14 @@
     <main class="container" style="padding-top: 20px; min-height: 60vh;">
         
         <div id="feedGrid" class="content-grid">
-            <div class="content-card" style="height:280px; background:#f0f0f0;"></div>
-            <div class="content-card" style="height:280px; background:#f0f0f0;"></div>
-            <div class="content-card" style="height:280px; background:#f0f0f0;"></div>
-            <div class="content-card" style="height:280px; background:#f0f0f0;"></div>
+            <div class="content-card" style="height:250px; background:#f0f0f0;"></div>
+            <div class="content-card" style="height:250px; background:#f0f0f0;"></div>
+            <div class="content-card" style="height:250px; background:#f0f0f0;"></div>
+            <div class="content-card" style="height:250px; background:#f0f0f0;"></div>
         </div>
 
-        <div id="emptyState" class="empty-state hidden">
-            <span class="empty-state-icon">📭</span>
+        <div id="emptyState" class="empty-state hidden" style="text-align: center; padding: 40px 0;">
+            <span class="empty-state-icon" style="font-size: 3rem;">📭</span>
             <h3>No results found</h3>
             <p>Try adjusting your filters.</p>
             <button onclick="window.location.reload()" class="btn btn-outline" style="margin-top:10px; color:var(--primary-color);">Reset Filters</button>
