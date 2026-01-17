@@ -1,0 +1,58 @@
+{
+  "id": "book-01",
+  "title": "Complete Ancient History: Indus to Vedas",
+  "author": "Dr. A.K. Verma",
+  "category": "UPSC & State PCS",
+  "subject": "Indian History",
+  "cover": "https://m.media-amazon.com/images/I/81z-b13XuoL._AC_UF1000,1000_QL80_.jpg",
+  
+  "info": "<p>This is the most comprehensive guide for Ancient Indian History, specifically designed for aspirants of UPSC, SSC CGL, and State PCS exams.</p><div class='book-meta-table'><div><span class='label'>Publisher</span> <span>MeritBoard Publications</span></div><div><span class='label'>Language</span> <span>English</span></div><div><span class='label'>Edition</span> <span>2026 Revised</span></div><div><span class='label'>Pages</span> <span>340</span></div></div>",
+  
+  "preface": "<h3>Why read this book?</h3><p>History is not just about dates and battles; it is about understanding the evolution of human society.</p><p>In this digital edition, we have structured the content into bite-sized pages with <b>flowcharts</b> and <b>images</b> to help you memorize facts faster.</p><blockquote>'Those who do not learn history are doomed to repeat it.'</blockquote>",
+
+  "chapters": [
+    {
+      "title": "1. The Stone Age",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>The Beginning of Human Life</h2><p>The Stone Age in India marks the beginning of human civilization. Based on the type of tools used, it is divided into three major periods:</p><ul><li><b>Paleolithic Age:</b> Old Stone Age (Hunters & Gatherers)</li><li><b>Mesolithic Age:</b> Middle Stone Age (Domestication of animals)</li><li><b>Neolithic Age:</b> New Stone Age (Agriculture began)</li></ul><p>The earliest traces of human existence in India go back to 500,000 BC.</p>"
+        },
+        {
+          "page_no": 2,
+          "content": "<h2>Tools & Lifestyle</h2><p>Early humans lived in caves and rock shelters. The <b>Bhimbetka Caves</b> in Madhya Pradesh are a famous example of Paleolithic art.</p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bhimbetka_rock_paintings1.jpg/800px-Bhimbetka_rock_paintings1.jpg' alt='Bhimbetka' style='width:100%; border-radius:8px; margin:15px 0;'><p>They used tools made of quartzite, which is why Paleolithic men in India are also called 'Quartzite Men'.</p>"
+        }
+      ]
+    },
+    {
+      "title": "2. Indus Valley Civilization",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>Discovery & Extent</h2><p>The Indus Valley Civilization (IVC) was a Bronze Age civilization (3300–1300 BCE). It extended from present-day Northeast Afghanistan to Pakistan and Northwest India.</p><p><b>Major Sites:</b></p><ul><li>Harappa (Punjab, Pakistan)</li><li>Mohenjo-daro (Sindh, Pakistan)</li><li>Lothal (Gujarat, India)</li><li>Kalibangan (Rajasthan, India)</li></ul>"
+        },
+        {
+          "page_no": 2,
+          "content": "<h2>Urban Planning</h2><p>The most striking feature of Harappan civilization was its town planning. The streets cut each other at right angles (Grid System).</p><blockquote><b>Note:</b> Mohenjo-daro had the 'Great Bath', which was used for ritual bathing.</blockquote><p>They used burnt bricks for construction, which was rare in contemporary civilizations like Egypt.</p>"
+        },
+        {
+          "page_no": 3,
+          "content": "<h2>Agriculture & Trade</h2><p>The Harappans grew wheat, barley, pulses, peas, rice, sesame, linseed, and mustard. They were the first to produce <b>Cotton</b> in the world.</p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Priest_King%2C_Mohenjo-daro.jpg/640px-Priest_King%2C_Mohenjo-daro.jpg' alt='Priest King' style='width:60%; display:block; margin:0 auto;'><p>Trade existed with Mesopotamia, where Indus seals have been found.</p>"
+        }
+      ]
+    },
+    {
+      "title": "3. The Vedic Period",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>The Aryan Invasion Theory</h2><p>The Vedic Age started with the coming of the Aryans. They were semi-nomadic people who came from Central Asia (Max Muller's theory).</p><p>They settled in the region of <b>Sapta Sindhu</b> (Land of Seven Rivers).</p>"
+        },
+        {
+          "page_no": 2,
+          "content": "<h2>Vedic Literature</h2><p>The main source of information for this period is the Vedic literature, which consists of:</p><ol><li><b>The Vedas:</b> Rigveda, Samaveda, Yajurveda, Atharvaveda.</li><li><b>The Brahmanas:</b> Commentary on Vedas.</li><li><b>The Aranyakas:</b> Forest books.</li><li><b>The Upanishads:</b> Philosophical texts.</li></ol><p><i>Rigveda</i> is the oldest text in the world.</p>"
+        }
+      ]
+    }
+  ]
+}
