@@ -10,10 +10,10 @@
     "tags": ["UPSC", "SSC", "Ancient India"]
   },
   {
-    "id": "demo-test",
+    "id": "hssc-group-c",
     "type": "quiz",
     "title": "General Knowledge Speed Test",
-    "category": "GK",
+    "category": "GK, Math, reasoning, hindi, English, computer",
     "thumbnail": "assets/default-thumb.jpg",
     "tags": ["Testing", "Speed"],
     "date": "2026-01-16"
