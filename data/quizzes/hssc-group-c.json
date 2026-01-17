@@ -251,6 +251,156 @@
     "options_hi": ["पंडित नेकीराम शर्मा", "श्रीराम शर्मा", "छोटूराम", "विजयानंद", "अनुत्तरित प्रश्न"],
     "answer": 0,
     "explanation": "Pt. Neki Ram Sharma started the Hindi weekly 'Sandesh' from Bhiwani in 1930."
+  },
+  {
+    "id": 26,
+    "section": "General Awareness (Polity)",
+    "q_en": "Which of the following statements regarding the '73rd Constitutional Amendment Act, 1992' is/are correct?\n1. It gave constitutional status to Panchayati Raj Institutions.\n2. It added Schedule 11 to the Constitution.\n3. It mandates 50% reservation for women in all states.",
+    "q_hi": "'73वें संविधान संशोधन अधिनियम, 1992' के संबंध में निम्नलिखित में से कौन सा/से कथन सही है/हैं?\n1. इसने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया।\n2. इसने संविधान में 11वीं अनुसूची जोड़ी।\n3. यह सभी राज्यों में महिलाओं के लिए 50% आरक्षण अनिवार्य करता है।",
+    "options_en": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3", "Not Attempted"],
+    "options_hi": ["केवल 1 और 2", "केवल 2 और 3", "केवल 1 और 3", "1, 2 और 3", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Statement 1 and 2 are correct. Statement 3 is incorrect because the 73rd Amendment mandates only 33% (1/3rd) reservation for women. Although some states (like Haryana) have increased it to 50%, the Act itself mandates a minimum of 1/3rd."
+  },
+  {
+    "id": 27,
+    "section": "General Awareness (History)",
+    "q_en": "Arrange the following events of the Indian Freedom Struggle in chronological order:\n(i) Quit India Movement\n(ii) Cripps Mission\n(iii) Individual Satyagraha\n(iv) August Offer",
+    "q_hi": "भारतीय स्वतंत्रता संग्राम की निम्नलिखित घटनाओं को कालक्रम (Chronological Order) में व्यवस्थित करें:\n(i) भारत छोड़ो आंदोलन\n(ii) क्रिप्स मिशन\n(iii) व्यक्तिगत सत्याग्रह\n(iv) अगस्त प्रस्ताव",
+    "options_en": ["iv, iii, ii, i", "iii, iv, ii, i", "iv, ii, iii, i", "i, ii, iii, iv", "Not Attempted"],
+    "options_hi": ["iv, iii, ii, i", "iii, iv, ii, i", "iv, ii, iii, i", "i, ii, iii, iv", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Correct Order: August Offer (Aug 1940) -> Individual Satyagraha (Oct 1940) -> Cripps Mission (March 1942) -> Quit India Movement (Aug 1942)."
+  },
+  {
+    "id": 28,
+    "section": "General Science (Physics)",
+    "q_en": "The phenomenon of 'Mirage' in deserts and the working principle of 'Optical Fibre' are based on:",
+    "q_hi": "रेगिस्तान में 'मृगतृष्णा' (Mirage) की घटना और 'ऑप्टिकल फाइबर' का कार्य सिद्धांत किस पर आधारित है?",
+    "options_en": ["Refraction of Light", "Total Internal Reflection (TIR)", "Scattering of Light", "Dispersion of Light", "Not Attempted"],
+    "options_hi": ["प्रकाश का अपवर्तन", "पूर्ण आंतरिक परावर्तन (TIR)", "प्रकाश का प्रकीर्णन", "प्रकाश का विक्षेपण", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "Both phenomena occur due to Total Internal Reflection (TIR). For TIR to happen, light must travel from a denser medium to a rarer medium and the angle of incidence must be greater than the critical angle."
+  },
+  {
+    "id": 29,
+    "section": "General Awareness (Geography)",
+    "q_en": "Match List-I (Rivers) with List-II (Tributaries):\n(a) Krishna      1. Chambal\n(b) Yamuna       2. Tungabhadra\n(c) Indus        3. Manjira\n(d) Godavari     4. Chenab",
+    "q_hi": "सूची-I (नदियाँ) को सूची-II (सहायक नदियाँ) से सुमेलित कीजिए:\n(a) कृष्णा       1. चंबल\n(b) यमुना        2. तुंगभद्रा\n(c) सिंधु        3. मंजीरा\n(d) गोदावरी      4. चिनाब",
+    "options_en": ["a-2, b-1, c-4, d-3", "a-3, b-1, c-4, d-2", "a-2, b-3, c-1, d-4", "a-4, b-1, c-2, d-3", "Not Attempted"],
+    "options_hi": ["a-2, b-1, c-4, d-3", "a-3, b-1, c-4, d-2", "a-2, b-3, c-1, d-4", "a-4, b-1, c-2, d-3", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Krishna -> Tungabhadra; Yamuna -> Chambal; Indus -> Chenab; Godavari -> Manjira. This is a frequently asked pattern in HSSC."
+  },
+  {
+    "id": 30,
+    "section": "General Science (Chemistry)",
+    "q_en": "Which of the following pairs is NOT correctly matched?",
+    "q_hi": "निम्नलिखित में से कौन सा युग्म सही सुमेलित नहीं है?",
+    "options_en": ["Baking Soda - Sodium Bicarbonate", "Washing Soda - Sodium Carbonate", "Plaster of Paris - Calcium Sulphate Dihydrate", "Bleaching Powder - Calcium Oxychloride", "Not Attempted"],
+    "options_hi": ["बेकिंग सोडा - सोडियम बाइकार्बोनेट", "धावन सोडा - सोडियम कार्बोनेट", "प्लास्टर ऑफ पेरिस - कैल्शियम सल्फेट डाइहाइड्रेट", "ब्लीचिंग पाउडर - कैल्शियम ऑक्सीक्लोराइड", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Plaster of Paris (POP) is Calcium Sulphate 'Hemihydrate' (CaSO4.1/2H2O). Gypsum is Calcium Sulphate 'Dihydrate' (CaSO4.2H2O). The option says Dihydrate for POP, which is wrong."
+  },
+  {
+    "id": 31,
+    "section": "General Awareness (Economy)",
+    "q_en": "Which of the following is considered as a 'Direct Tax' in India?",
+    "q_hi": "भारत में निम्नलिखित में से किसे 'प्रत्यक्ष कर' (Direct Tax) माना जाता है?",
+    "options_en": ["GST (Goods and Services Tax)", "Customs Duty", "Excise Duty", "Corporate Tax", "Not Attempted"],
+    "options_hi": ["जीएसटी (GST)", "सीमा शुल्क (Customs Duty)", "उत्पाद शुल्क (Excise Duty)", "निगम कर (Corporate Tax)", "अनुत्तरित प्रश्न"],
+    "answer": 3,
+    "explanation": "Corporate Tax (on company profits) and Income Tax are Direct Taxes. GST, Customs, and Excise are Indirect Taxes."
+  },
+  {
+    "id": 32,
+    "section": "General Science (Biology)",
+    "q_en": "Deficiency of which vitamin causes 'Xerophthalmia' (dryness of eyes)?",
+    "q_hi": "किस विटामिन की कमी से 'ज़ेरोफथाल्मिया' (आंखों का सूखना) रोग होता है?",
+    "options_en": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D", "Not Attempted"],
+    "options_hi": ["विटामिन A", "विटामिन B1", "विटामिन C", "विटामिन D", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Vitamin A (Retinol) deficiency causes Night Blindness and Xerophthalmia. Vitamin B1 causes Beri-Beri, C causes Scurvy, D causes Rickets."
+  },
+  {
+    "id": 33,
+    "section": "General Awareness (Polity)",
+    "q_en": "Who among the following does NOT participate in the election of the President of India?",
+    "q_hi": "भारत के राष्ट्रपति के चुनाव में निम्नलिखित में से कौन भाग नहीं लेता है?",
+    "options_en": ["Elected members of Lok Sabha", "Elected members of Rajya Sabha", "Nominated members of Parliament", "Elected members of Legislative Assemblies", "Not Attempted"],
+    "options_hi": ["लोकसभा के निर्वाचित सदस्य", "राज्यसभा के निर्वाचित सदस्य", "संसद के मनोनीत सदस्य (Nominated)", "विधानसभाओं के निर्वाचित सदस्य", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "The Electoral College consists only of 'Elected' members of Parliament and State Legislative Assemblies. Nominated members (by President/Governor) do not participate in the election."
+  },
+  {
+    "id": 34,
+    "section": "General Awareness (History)",
+    "q_en": "During the Delhi Sultanate, the department 'Diwan-i-Arz' was related to:",
+    "q_hi": "दिल्ली सल्तनत के दौरान, 'दीवान-ए-अर्ज' विभाग किससे संबंधित था?",
+    "options_en": ["Revenue Department", "Military Department", "Correspondence Department", "Agriculture Department", "Not Attempted"],
+    "options_hi": ["राजस्व विभाग", "सैन्य विभाग", "पत्राचार विभाग", "कृषि विभाग", "अनुत्तरित प्रश्न"],
+    "answer": 1,
+    "explanation": "'Diwan-i-Arz' was the Military Department, established by Balban to reorganize the army. 'Diwan-i-Kohi' was for Agriculture (by Muhammad Bin Tughlaq)."
+  },
+  {
+    "id": 35,
+    "section": "General Science (Biology)",
+    "q_en": "Which of the following plant hormones is responsible for 'Fruit Ripening'?",
+    "q_hi": "निम्नलिखित में से कौन सा पादप हार्मोन 'फलों को पकाने' (Fruit Ripening) के लिए उत्तरदायी है?",
+    "options_en": ["Auxin", "Cytokinin", "Ethylene", "Gibberellin", "Not Attempted"],
+    "options_hi": ["ऑक्सिन", "साइटोकिनिन", "एथिलीन", "जिबरेलिन", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Ethylene is the only gaseous hormone that promotes fruit ripening. Auxins help in growth, Cytokinins in cell division."
+  },
+  {
+    "id": 36,
+    "section": "General Awareness (Geography)",
+    "q_en": "Arrange the following Himalayan ranges from North to South:\n1. Zaskar\n2. Karakoram\n3. Pir Panjal\n4. Ladakh",
+    "q_hi": "निम्नलिखित हिमालय पर्वतमालाओं को उत्तर से दक्षिण (North to South) की ओर व्यवस्थित करें:\n1. ज़स्कर\n2. काराकोरम\n3. पीर पंजाल\n4. लद्दाख",
+    "options_en": ["2, 4, 1, 3", "2, 1, 4, 3", "4, 2, 1, 3", "2, 4, 3, 1", "Not Attempted"],
+    "options_hi": ["2, 4, 1, 3", "2, 1, 4, 3", "4, 2, 1, 3", "2, 4, 3, 1", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Correct order (North to South): Karakoram (Top) -> Ladakh -> Zaskar -> Pir Panjal. (Trick: KLZ - P)."
+  },
+  {
+    "id": 37,
+    "section": "General Awareness (Polity)",
+    "q_en": "Under which article of the Indian Constitution can the President declare 'Financial Emergency'?",
+    "q_hi": "भारतीय संविधान के किस अनुच्छेद के तहत राष्ट्रपति 'वित्तीय आपातकाल' (Financial Emergency) घोषित कर सकते हैं?",
+    "options_en": ["Article 352", "Article 356", "Article 360", "Article 365", "Not Attempted"],
+    "options_hi": ["अनुच्छेद 352", "अनुच्छेद 356", "अनुच्छेद 360", "अनुच्छेद 365", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Article 360 deals with Financial Emergency (never imposed in India yet). Art 352 is National Emergency, Art 356 is State Emergency (President's Rule)."
+  },
+  {
+    "id": 38,
+    "section": "General Science (Physics)",
+    "q_en": "The S.I. unit of 'Electrical Resistance' is:",
+    "q_hi": "'विद्युत प्रतिरोध' (Electrical Resistance) की एस.आई. (S.I.) इकाई क्या है?",
+    "options_en": ["Ampere", "Volt", "Ohm", "Watt", "Not Attempted"],
+    "options_hi": ["एम्पीयर", "वोल्ट", "ओम (Ohm)", "वाट", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Ohm is the unit of Resistance. Ampere is for Current, Volt for Potential Difference, Watt for Power."
+  },
+  {
+    "id": 39,
+    "section": "General Awareness (Environment)",
+    "q_en": "Which gas is primarily responsible for 'Global Warming' and is a major component of Greenhouse Gases?",
+    "q_hi": "कौन सी गैस मुख्य रूप से 'ग्लोबल वार्मिंग' के लिए जिम्मेदार है और ग्रीनहाउस गैसों का एक प्रमुख घटक है?",
+    "options_en": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon", "Not Attempted"],
+    "options_hi": ["नाइट्रोजन", "ऑक्सीजन", "कार्बन डाइऑक्साइड (CO2)", "आर्गन", "अनुत्तरित प्रश्न"],
+    "answer": 2,
+    "explanation": "Carbon Dioxide (CO2) is the primary greenhouse gas emitted through human activities. Methane is also a greenhouse gas but CO2 is most abundant in impact."
+  },
+  {
+    "id": 40,
+    "section": "General Awareness (Culture/Arts)",
+    "q_en": "Match the Classical Dance forms with their States:\n(a) Kuchipudi    1. Kerala\n(b) Kathakali    2. Andhra Pradesh\n(c) Sattriya     3. Uttar Pradesh\n(d) Kathak       4. Assam",
+    "q_hi": "शास्त्रीय नृत्य शैलियों को उनके राज्यों के साथ सुमेलित करें:\n(a) कुचिपुड़ी     1. केरल\n(b) कथकली       2. आंध्र प्रदेश\n(c) सत्त्रिया      3. उत्तर प्रदेश\n(d) कथक         4. असम",
+    "options_en": ["a-2, b-1, c-4, d-3", "a-2, b-4, c-1, d-3", "a-1, b-2, c-4, d-3", "a-2, b-1, c-3, d-4", "Not Attempted"],
+    "options_hi": ["a-2, b-1, c-4, d-3", "a-2, b-4, c-1, d-3", "a-1, b-2, c-4, d-3", "a-2, b-1, c-3, d-4", "अनुत्तरित प्रश्न"],
+    "answer": 0,
+    "explanation": "Kuchipudi (Andhra), Kathakali (Kerala), Sattriya (Assam), Kathak (North India/UP)."
   }
 ]
 }
