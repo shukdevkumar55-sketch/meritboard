@@ -11,25 +11,40 @@
   
   "navigation_menu": [
     { "id": "home", "label": "Home", "link": "index.html", "type": "link" },
-    { "id": "quizzes", "label": "Mock Tests", "link": "search.html?type=quiz", "type": "link" },
-    { "id": "videos", "label": "Video Classes", "link": "search.html?type=video", "type": "link" },
-    { "id": "notes", "label": "PDF Notes", "link": "search.html?type=pdf", "type": "link" },
-    { "id": "blogs", "label": "Articles", "link": "search.html?type=blog", "type": "link" }
+    { "id": "quizzes", "label": "Mock Tests", "link": "/feed.html?type=quiz", "type": "link" },
+    { "id": "videos", "label": "Video Classes", "link": "/feed.html?type=video", "type": "link" },
+    { "id": "notes", "label": "PDF Notes", "link": "/feed.html?type=pdf", "type": "link" },
+    { "id": "books", "label": "Books", "link": "/feed.html?type=book", "type": "link" }
   ],
 
   "footer_sections": {
     "about_text": "MeritBoard is a non-profit open source platform providing high-quality educational content for everyone.",
     "social_links": [
-      { "platform": "Instagram", "url": "https://www.instagram.com/vionn.official?igsh=eG05Y2xnYnE4cDB5", "icon_class": "icon-instagram" },
-      { "platform": "YouTube", "url": "https://youtube.com/@sukhdev.d_arya?si=xTN_WrBLSOQkCgn3", "icon_class": "icon-youtube" },
-      { "platform": "Telegram", "url": "https://t.me/your_channel", "icon_class": "icon-telegram" }
+      { 
+        "platform": "Instagram", 
+        "url": "https://www.instagram.com/vionn.official?igsh=eG05Y2xnYnE4cDB5", 
+        "icon_class": "fa-brands fa-instagram" 
+      },
+      { 
+        "platform": "YouTube", 
+        "url": "https://youtube.com/@sukhdev.d_arya?si=xTN_WrBLSOQkCgn3", 
+        "icon_class": "fa-brands fa-youtube" 
+      },
+      { 
+        "platform": "Telegram", 
+        "url": "https://t.me/your_channel", 
+        "icon_class": "fa-brands fa-telegram" 
+      }
     ],
     "quick_links": [
       { "label": "About Us", "link": "about.html" },
       { "label": "Privacy Policy", "link": "privacy.html" },
-      { "label": "Contact Support", "link": "contact.html" }
-    ]
-  },
+      { "label": "Contact Support", "link": "contact.html" },
+      { "label": "Privacy Policy", "link": "privacy.html" },
+  { "label": "Disclaimer", "link": "disclaimer.html" },
+  { "label": "Terms & Conditions", "link": "terms.html" }
+ ]
+},
 
   "ui_settings": {
     "enable_dark_mode": true,
