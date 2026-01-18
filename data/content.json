@@ -1,4 +1,23 @@
 [
+  {
+    "id": "testing-bot",
+    "type": "book",
+    "title": "Automation Testing Guide 2026",
+    "thumbnail": "assets/default-thumb.jpg",
+    "category": "Technology",
+    "tags": [
+      "Automation",
+      "GitHub Actions",
+      "Testing",
+      "Sitemap"
+    ],
+    "date_added": "2026-01-18",
+    "author": "MeritBoard Bot",
+    "is_featured": false,
+    "meta_info": "5 Pages • PDF Guide",
+    "description": "Ye ek dummy book file hai jise hum kewal GitHub Automation aur Sitemap tool check karne ke liye upload kar rahe hain.",
+    "source_url": "data/books/testing-bot.json"
+  },
 {
   "id": "hp-constable-2026-01",
   "type": "quiz",
