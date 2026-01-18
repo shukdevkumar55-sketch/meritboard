@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeritBoard Sitemap Generator</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #1a237e; }
+        textarea { width: 100%; height: 400px; padding: 10px; font-family: monospace; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #03A9F4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 4px; margin-top: 10px; }
+        button:hover { background: #0288D1; }
+        .info { background: #e3f2fd; padding: 10px; border-left: 4px solid #2196F3; margin-bottom: 20px; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🗺️ MeritBoard XML Sitemap Generator</h2>
+    <div class="info">
+        यह टूल आपके <b>content.json</b> को स्कैन करके Google के लिए Sitemap तैयार करेगा। <br>
+        नीचे दिए गए बटन पर क्लिक करें, कोड कॉपी करें और उसे <b>sitemap.xml</b> नाम से सेव करें।
+    </div>
+
+    <button onclick="generateSitemap()">🚀 Generate Sitemap XML</button>
+    <button onclick="copyText()" style="background:#4CAF50;">📋 Copy Code</button>
+    
+    <div style="margin-top: 15px;">
+        <textarea id="output" placeholder="XML code will appear here..."></textarea>
+    </div>
+</div>
+
+<script>
+    // 👇 अपनी वेबसाइट का सही डोमेन यहाँ लिखें (Last me slash '/' mat lagana)
+    const BASE_URL = "https://meritboard.vercel.app";
+
+    async function generateSitemap() {
+        const output = document.getElementById('output');
+        output.value = "Loading data...";
+
+        try {
+            // 1. Fetch Content JSON
+            const response = await fetch('data/content.json');
+            if (!response.ok) throw new Error("Could not load data/content.json");
+            const data = await response.json();
+
+            // 2. Start XML Structure
+            let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+            xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+            // 3. Add Static Pages (जो JSON में नहीं हैं)
+            const staticPages = ['', 'index.html', 'about.html', 'contact.html', 'privacy.html', 'feed.html'];
+            const today = new Date().toISOString().split('T')[0];
+
+            staticPages.forEach(page => {
+                let priority = page === '' ? '1.0' : '0.8';
+                let fullUrl = page === '' ? BASE_URL : `${BASE_URL}/${page}`;
+                
+                xml += `  <url>\n`;
+                xml += `    <loc>${fullUrl}</loc>\n`;
+                xml += `    <lastmod>${today}</lastmod>\n`;
+                xml += `    <changefreq>weekly</changefreq>\n`;
+                xml += `    <priority>${priority}</priority>\n`;
+                xml += `  </url>\n`;
+            });
+
+            // 4. Add Dynamic Content from JSON
+            data.forEach(item => {
+                let link = '';
+                
+                // Link Logic (Same as your app)
+                if (item.type === 'quiz') link = `quiz-view.html?id=${item.id}`;
+                else if (item.type === 'book' || item.type === 'pdf') link = `book-view.html?id=${item.id}`;
+                else if (item.type === 'video') link = `video-view.html?id=${item.id}`;
+                else link = `article-view.html?id=${item.id}`;
+
+                // Check date
+                let itemDate = item.date ? item.date : today;
+
+                xml += `  <url>\n`;
+                xml += `    <loc>${BASE_URL}/${link}</loc>\n`;
+                xml += `    <lastmod>${itemDate}</lastmod>\n`;
+                xml += `    <changefreq>monthly</changefreq>\n`;
+                xml += `    <priority>0.6</priority>\n`;
+                xml += `  </url>\n`;
+            });
+
+            // 5. Close XML
+            xml += `</urlset>`;
+
+            output.value = xml;
+
+        } catch (error) {
+            output.value = "Error: " + error.message;
+            console.error(error);
+        }
+    }
+
+    function copyText() {
+        const output = document.getElementById('output');
+        output.select();
+        document.execCommand("copy");
+        alert("Sitemap code copied! Now create sitemap.xml file.");
+    }
+</script>
+
+</body>
+</html>
