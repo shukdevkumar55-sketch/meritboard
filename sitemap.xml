@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://meritboard.vercel.app/</loc></url>
+  <url><loc>https://meritboard.vercel.app/index.html</loc></url>
+  <url><loc>https://meritboard.vercel.app/feed.html</loc></url>
+  <url><loc>https://meritboard.vercel.app/book-view.html</loc></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html</loc></url>
+  <url><loc>https://meritboard.vercel.app/book-view.html?id=book-01</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/book-view.html?id=history-book</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/book-view.html?id=testing-bot</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html?id=hp-constable-2026-01</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html?id=hssc-cet-01</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html?id=hssc-group-c</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html?id=ssc-cgl-01</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://meritboard.vercel.app/quiz-view.html?id=upsc-csat-reasoning</loc><changefreq>weekly</changefreq></url>
+</urlset>
