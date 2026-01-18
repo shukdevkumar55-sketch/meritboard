@@ -375,3 +375,47 @@ body.dark-mode .search-item:hover { background: rgba(255,255,255,0.05); }
     @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
 }
 
+/* --- 8. FOOTER --- */
+.site-footer { 
+    background-color: var(--primary-color); color: white; 
+    padding: 50px 0 30px; text-align: center; margin-top: 60px; 
+}
+
+/* --- Footer Social Icons Fix --- */
+
+/* 1. Container ko Center aur Row me laayein */
+.footer-social-icons {
+    display: flex !important;       /* Flexbox on karein */
+    justify-content: center !important; /* Horizontal Center */
+    align-items: center !important;
+    gap: 20px;                      /* Icons ke beech gap */
+    margin: 25px 0 !important;      /* Upar-Niche thoda space */
+}
+
+/* 2. Icons ka Design (Gol Circle) */
+.social-icon {
+    display: flex !important;       /* Icon ko box ke center me laye */
+    justify-content: center;
+    align-items: center;
+    width: 45px;                    /* Chaudaai */
+    height: 45px;                   /* Unchaai */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Halka border */
+    border-radius: 50%;             /* Pura Gol (Circle) */
+    color: #ffffff !important;      /* Icon ka rang White */
+    text-decoration: none !important;
+    transition: all 0.3s ease;      /* Smooth Animation */
+    margin: 0 !important;           /* Inline margin hatayein */
+}
+
+/* 3. Hover Effect (Mouse le jaane par) */
+.social-icon:hover {
+    background-color: #ffffff;      /* Background White */
+    color: #1e3a8a !important;      /* Icon Blue */
+    transform: translateY(-3px);    /* Thoda upar uthe */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Glow Effect */
+}
+
+/* Icon size adjustment inside circle */
+.social-icon i {
+    font-size: 1.2rem;
+}
