@@ -11,14 +11,93 @@
 </head>
 <body>
 
-    <header class="quiz-header">
+    <div id="instructionScreen" class="inst-overlay">
+        <div class="inst-header">
+            <img id="instCover" src="assets/default-thumb.jpg" alt="Cover" class="inst-cover-img" onerror="this.src='assets/default-thumb.jpg'">
+            
+            <div class="inst-brand">
+                <span class="logo-text">Merit<span>Board</span></span>
+            </div>
+            
+            <button onclick="window.location.href='index.html'" class="inst-home-btn" title="Go to Home">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+    </svg>
+</button>
+
+            
+            <button onclick="history.back()" class="inst-back-btn" title="Go Back">✕</button>
+        </div>
+        
+        <div class="inst-card-body">
+            <div class="inst-tags">
+                <span class="tag-badge" id="instCategory">Loading...</span>
+            </div>
+            
+            <h1 id="instTitle" class="inst-title">Loading Test Info...</h1>
+            <p id="instDesc" class="inst-desc">Please wait while we fetch the test details...</p>
+            
+            <div class="inst-stats-grid">
+                <div class="stat-box">
+                    <span class="stat-icon">❓</span>
+                    <span class="stat-val" id="instQCount">0</span>
+                    <span class="stat-label">Questions</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">⏳</span>
+                    <span class="stat-val" id="instTime">0 m</span>
+                    <span class="stat-label">Duration</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">🎯</span>
+                    <span class="stat-val" id="instMarks">0</span>
+                    <span class="stat-label">Total Marks</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">⚠️</span>
+                    <span class="stat-val" id="instNegative" style="color:red">0</span>
+                    <span class="stat-label">Negative</span>
+                </div>
+            </div>
+
+            <div class="inst-rules">
+                <h3>📝 Instructions:</h3>
+                <ul>
+                    <li>All questions are objective type.</li>
+                    <li>Do not refresh the page during the test.</li>
+                    <li>Test will auto-submit when time ends.</li>
+                    <li id="instNegText">There is NO negative marking.</li>
+                </ul>
+            </div>
+
+            <div class="inst-footer">
+                <button id="btnStartQuiz" class="btn-start-lg">Start Quiz 🚀</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="quiz-header hidden">
         <div class="header-main">
             <div class="header-left">
-                <button onclick="history.back()" class="btn-icon">←</button>
-                <h1 id="quizTitle" class="quiz-title">Loading Test...</h1>
+                <button onclick="window.location.href='index.html'" class="btn-icon home-icon-colored" title="Home">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </button>
+                
+                <button onclick="history.back()" class="btn-icon" title="Back">←</button>
             </div>
-                        <div class="header-right">
-                <button id="btnShareHeader" class="btn-icon" style="margin-right:5px;">🔗</button>
+            
+            <div class="header-right">
+              <button id="btnShareHeader" class="btn-icon share-btn-styled" title="Share Quiz">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(-10deg); margin-left: -2px;">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+    </svg>
+</button>
+
                 
                 <div class="timer-badge">
                     <span>⏳</span>
@@ -26,7 +105,10 @@
                 </div>
                 <button id="headerSubmitBtn" class="btn-submit-sm">Submit</button>
             </div>
+        </div>
 
+        <div class="quiz-title-strip">
+            <span id="quizTitle">Loading Test Title...</span>
         </div>
 
         <div class="header-sub">
@@ -37,7 +119,7 @@
         </div>
     </header>
 
-    <main class="quiz-body">
+    <main class="quiz-body hidden">
         <div class="container">
             <div class="question-card">
                 <div class="q-meta">
@@ -63,7 +145,7 @@
         </div>
     </main>
 
-    <footer class="quiz-footer">
+    <footer class="quiz-footer hidden">
         <button id="btnPrev" class="q-btn btn-sec">Previous</button>
         <button id="btnReview" class="q-btn btn-warn">Review</button>
         <button id="btnNext" class="q-btn btn-prim">Save & Next</button>
@@ -110,11 +192,11 @@
                     <div class="stat"><b id="resWrong" style="color:red">0</b> Wrong</div>
                     <div class="stat"><b id="resAccuracy">0%</b> Acc.</div>
                 </div>
-                            <div class="result-actions" style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
-                <button id="btnShareResult" class="btn-whatsapp">Share Score on WhatsApp 🟢</button>
-                <button onclick="window.location.href='index.html'" class="btn-home">Go Home</button>
-            </div>
-
+                
+                <div class="result-actions" style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
+                    <button id="btnShareResult" class="btn-whatsapp">Share Score on WhatsApp 🟢</button>
+                    <button onclick="window.location.href='index.html'" class="btn-home">Go Home</button>
+                </div>
             </div>
 
             <div class="analysis-box">
