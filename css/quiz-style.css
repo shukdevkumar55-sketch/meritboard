@@ -18,33 +18,55 @@
 body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-light); overflow: hidden; }
 
 /* --- HEADER --- */
+/* =========================================
+   2. QUIZ HEADER (Structure as per screenshot)
+   ========================================= */
 .quiz-header {
     position: fixed; top: 0; left: 0; width: 100%; height: var(--header-h);
-    background: white; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    background: white; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     display: flex; flex-direction: column;
 }
 
+/* Row 1: Buttons */
 .header-main {
     height: 55px; display: flex; justify-content: space-between; align-items: center;
-    padding: 0 10px; border-bottom: 1px solid #eee;
+    padding: 0 10px; border-bottom: 1px solid #eee; background: white;
 }
-
-.header-left { display: flex; align-items: center; gap: 10px; flex: 1; overflow: hidden; }
-.btn-icon { background: none; border: none; font-size: 1.2rem; cursor: pointer; padding: 5px; }
-.quiz-title { font-size: 1rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0; }
-
+.header-left { display: flex; align-items: center; gap: 5px; }
 .header-right { display: flex; align-items: center; gap: 8px; }
+
+.btn-icon { background: none; border: none; font-size: 1.2rem; cursor: pointer; padding: 5px; display:flex; align-items:center; justify-content:center; }
+.btn-icon svg { display: block; }
+
+.home-icon-colored {
+    color: var(--primary) !important; background: #e8eaf6; 
+    border-radius: 8px; width: 36px; height: 36px; margin-right: 5px;
+}
+.share-btn-styled { color: var(--accent); }
+
 .timer-badge { background: #e3f2fd; color: #1565c0; padding: 4px 8px; border-radius: 4px; font-weight: 700; font-family: monospace; font-size: 0.95rem; }
 .btn-submit-sm { background: var(--danger); color: white; border: none; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.85rem; }
 
+/* Row 2: Title Strip */
+.quiz-title-strip {
+    height: 35px; background: #e3f2fd; 
+    display: flex; align-items: center; padding: 0 15px; 
+    border-bottom: 1px solid #bbdefb; overflow: hidden;
+}
+#quizTitle {
+    font-size: 0.9rem; font-weight: 600; color: #0d47a1;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%;
+}
+
+/* Row 3: Tabs */
 .header-sub {
-    height: 45px; background: #37474f; display: flex; align-items: center; padding-right: 10px;
+    height: 45px; background: #37474f; 
+    display: flex; align-items: center; padding-right: 10px;
 }
 .tabs-container { flex: 1; overflow-x: auto; white-space: nowrap; height: 100%; display: flex; align-items: center; }
 .tab { color: #cfd8dc; padding: 0 15px; font-size: 0.9rem; cursor: pointer; height: 100%; display: flex; align-items: center; border-bottom: 3px solid transparent; }
 .tab.active { color: white; border-bottom-color: var(--accent); background: rgba(255,255,255,0.1); }
 .lang-btn { background: none; border: 1px solid #FFD700; color: #FFD700; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600; margin-left: 10px; }
-
 /* --- BODY --- */
 .quiz-body {
     position: absolute; top: var(--header-h); bottom: var(--footer-h); left: 0; width: 100%;
@@ -141,3 +163,238 @@ body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-light);
 .btn-whatsapp:active {
     transform: scale(0.98);
 }
+
+/* --- Instruction Screen Styling --- */
+.inst-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: #fff; z-index: 2000; overflow-y: auto;
+    display: flex; flex-direction: column;
+}
+
+.inst-header {
+    position: relative; height: 250px; width: 100%;
+    background: #1a237e;
+}
+
+.inst-cover-img {
+    width: 100%; height: 100%; object-fit: cover; opacity: 0.6;
+}
+
+.inst-brand {
+    position: absolute; top: 20px; left: 20px;
+    background: rgba(255,255,255,0.9); padding: 5px 15px; border-radius: 20px;
+    font-weight: 700; color: #1a237e; font-size: 1.2rem;
+}
+.inst-brand span span { color: #03A9F4; }
+
+.inst-back-btn {
+    position: absolute; top: 20px; right: 20px;
+    background: rgba(0,0,0,0.4); color: white; border: none;
+    width: 40px; height: 40px; border-radius: 50%; font-size: 1.2rem; cursor: pointer;
+}
+
+.inst-card-body {
+    flex: 1; background: white; margin-top: -30px; border-radius: 25px 25px 0 0;
+    padding: 25px; position: relative; z-index: 10;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+}
+
+.inst-title {
+    font-size: 1.6rem; color: #333; margin: 10px 0; line-height: 1.3;
+}
+.inst-desc {
+    color: #666; font-size: 0.95rem; line-height: 1.5; margin-bottom: 20px;
+}
+.tag-badge {
+    background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 4px; 
+    font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+}
+
+/* Stats Grid */
+.inst-stats-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 25px;
+}
+.stat-box {
+    background: #f9f9f9; padding: 15px; border-radius: 12px; border: 1px solid #eee;
+    display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.stat-icon { font-size: 1.5rem; margin-bottom: 5px; }
+.stat-val { font-size: 1.1rem; font-weight: 700; color: #333; }
+.stat-label { font-size: 0.8rem; color: #777; }
+
+/* Footer Button */
+.inst-footer {
+    position: sticky; bottom: 0; background: white; padding: 15px 0;
+    border-top: 1px solid #f0f0f0; margin-top: 10px;
+}
+.btn-start-lg {
+    width: 100%; background: #1a237e; color: white; padding: 16px;
+    border: none; border-radius: 12px; font-size: 1.1rem; font-weight: 700;
+    box-shadow: 0 5px 15px rgba(26, 35, 126, 0.3); cursor: pointer;
+    transition: transform 0.2s;
+}
+.btn-start-lg:active { transform: scale(0.98); }
+
+/* Rules List */
+.inst-rules { background: #fff8e1; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin-bottom: 20px; }
+.inst-rules h3 { margin: 0 0 10px 0; font-size: 1rem; color: #f57f17; }
+.inst-rules ul { margin: 0; padding-left: 20px; color: #555; font-size: 0.9rem; }
+.inst-rules li { margin-bottom: 5px; }
+/* --- Home Button Styling --- */
+
+/* 1. Instruction Page Home Button */
+.inst-home-btn {
+    position: absolute; top: 20px; right: 70px; /* Close button (20px) ke bagal me */
+    background: rgba(0,0,0,0.4); color: white; border: none;
+    width: 40px; height: 40px; border-radius: 50%; 
+    font-size: 1.2rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s;
+    text-decoration: none; /* Agar <a> tag use karein to */
+}
+.inst-home-btn:hover { background: rgba(0,0,0,0.6); }
+
+/* 2. Quiz Header Home Button (Small Adjustment) */
+.header-left .btn-icon { margin-right: 5px; }
+
+/* --- UPDATED HOME ICON STYLING (SVG) --- */
+
+/* 1. Instruction Page Home Button (White Icon on Dark Overlay) */
+.inst-home-btn {
+    position: absolute; top: 20px; right: 70px;
+    background: rgba(255, 255, 255, 0.2); /* Glassmorphism Effect */
+    backdrop-filter: blur(5px);
+    color: white; /* Icon Color White */
+    border: 1px solid rgba(255,255,255,0.3);
+    width: 40px; height: 40px; border-radius: 50%; 
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: all 0.2s ease;
+    z-index: 20;
+}
+
+.inst-home-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.inst-home-btn svg {
+    stroke-width: 2px; /* Thoda mota stroke achha dikhta hai */
+}
+
+/* 2. Quiz Header Home Button (Theme Colored) */
+.home-icon-colored {
+    color: #1a237e !important; /* ✅ YOUR THEME PRIMARY COLOR */
+    background: #e8eaf6; /* Light Blue Background */
+    border: none !important;
+    border-radius: 8px; /* Thoda square look */
+    width: 38px; height: 38px;
+    display: flex; align-items: center; justify-content: center;
+    margin-right: 8px;
+    transition: background 0.2s;
+}
+
+.home-icon-colored:hover {
+    background: #c5cae9; /* Darker Blue on Hover */
+}
+
+/* SVG Alignment Fix */
+.btn-icon svg {
+    display: block;
+}
+/* --- TITLE STRIP STYLING --- */
+.quiz-title-strip {
+    height: 35px; /* Patli strip */
+    background: #e3f2fd; /* Light Blue Background */
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #bbdefb;
+    overflow: hidden;
+}
+
+#quizTitle {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #0d47a1; /* Dark Blue Text */
+    white-space: nowrap; /* Ek line me rakhein */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Lamba ho to ... lagaye */
+    width: 100%;
+}
+
+/* Mobile Adjustment: Agar screen bahut chhoti ho */
+@media (max-width: 480px) {
+    .header-main {
+        height: 50px; /* Thoda compact */
+    }
+    .quiz-title-strip {
+        height: 35px;
+        padding: 0 10px;
+    }
+    /* Root variable override for mobile specifically if needed, 
+       but 135px fits well generally */
+}
+/* --- SHARE BUTTON STYLING (Telegram Style) --- */
+.share-btn-styled {
+    color: #03A9F4; /* Light Blue Color like Telegram */
+    transition: all 0.2s ease;
+}
+
+.share-btn-styled:hover {
+    background: #e1f5fe;
+    transform: scale(1.1); /* Hover karne par thoda bada ho */
+}
+
+.share-btn-styled:active {
+    transform: scale(0.95); /* Click karne par dabne ka effect */
+}
+
+/* --- TOAST NOTIFICATION (Copy Message ke liye) --- */
+#toast-box {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 12px;
+    position: fixed;
+    z-index: 3000;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity 0.3s, bottom 0.3s;
+}
+
+#toast-box.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 90px; /* Thoda upar uthega */
+}
+/* --- UPDATED HOME ICON STYLING (SVG) --- */
+
+/* 1. Instruction Page Home Button (White Icon on Dark Overlay) */
+.inst-home-btn {
+    position: absolute; top: 20px; right: 70px;
+    background: rgba(255, 255, 255, 0.2); /* Glassmorphism Effect */
+    backdrop-filter: blur(5px);
+    color: white; /* Icon Color White */
+    border: 1px solid rgba(255,255,255,0.3);
+    width: 40px; height: 40px; border-radius: 50%; 
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: all 0.2s ease;
+    z-index: 20;
+}
+
+.inst-home-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.inst-home-btn svg {
+    stroke-width: 2px; /* Thoda mota stroke achha dikhta hai */
+}
+
