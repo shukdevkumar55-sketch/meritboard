@@ -1,7 +1,7 @@
 /**
  * Project: MeritBoard Universal
  * File: js/app-core.js
- * Status: FINAL COMPLETE (With Fail-Safe Search & Mobile Fixes)
+ * Status: FINAL FIXED (Footer Logo Color Fixed to White)
  */
 
 const AppConfig = {
@@ -34,6 +34,7 @@ async function initApp() {
 
         setupIdentity(config.site_identity);
         renderNavigation(config.navigation_menu);
+        // Updated Footer call
         renderFooter(config.footer_sections, config.site_identity);
         setupTheme(config.ui_settings);
 
@@ -64,20 +65,55 @@ function renderNavigation(menuItems) {
     `).join('');
 }
 
+// ✅ UPDATED FOOTER FUNCTION (Fixed: Logo Color White for Dark Background)
 function renderFooter(footerData, identity) {
     const footerContainer = document.getElementById('dynamicFooter');
     if (!footerContainer) return;
-    const socialHTML = footerData.social_links.map(social => `
-        <a href="${social.url}" class="social-icon">🔗</a>
-    `).join('');
+
+    // A. Social Links Construction
+    let socialLinksHTML = '';
+    if (footerData.social_links && footerData.social_links.length > 0) {
+        socialLinksHTML = `<div class="footer-social-icons" style="margin: 20px 0;">`;
+        footerData.social_links.forEach(link => {
+            socialLinksHTML += `
+                <a href="${link.url}" target="_blank" aria-label="${link.platform}" class="social-icon" style="margin: 0 10px; color: inherit; text-decoration: none; font-size: 1.2rem;">
+                    <i class="${link.icon_class}"></i>
+                </a>
+            `;
+        });
+        socialLinksHTML += `</div>`;
+    }
+
+    // B. Quick Links Construction
+    let quickLinksHTML = '';
+    if (footerData.quick_links && footerData.quick_links.length > 0) {
+        quickLinksHTML = `<ul class="footer-links" style="list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:20px; justify-content:center; margin-top:20px;">`;
+        footerData.quick_links.forEach(item => {
+            quickLinksHTML += `<li><a href="${item.link}" style="color:inherit; opacity:0.8; text-decoration:none; font-size: 0.95rem;">${item.label}</a></li>`;
+        });
+        quickLinksHTML += `</ul>`;
+    }
+
+    // C. Inject Final HTML (Main Fix is in color: #ffffff below)
     footerContainer.innerHTML = `
-        <div class="footer-content container">
-            <div class="footer-about">
-                <h3>${identity.site_name}</h3>
-                <p>${footerData.about_text}</p>
+        <div class="footer-content container" style="text-align:center; padding: 40px 0 20px;">
+            <div class="footer-about" style="margin-bottom: 25px;">
+                
+                <div class="footer-brand" style="margin-bottom: 15px;">
+                    <span class="logo-text" style="font-size: 2.5rem; display: inline-block; font-weight: 700; color: #ffffff;">
+                        Merit<span style="color:var(--accent-color, #0ea5e9);">Board</span>
+                    </span>
+                </div>
+
+                <p style="opacity:0.8; max-width: 600px; margin: 0 auto; line-height: 1.6;">${footerData.about_text}</p>
             </div>
-            <div class="footer-social">${socialHTML}</div>
-            <div class="footer-copyright">&copy; ${new Date().getFullYear()} ${identity.site_name}</div>
+            
+            ${socialLinksHTML}
+            ${quickLinksHTML}
+
+            <div class="footer-copyright" style="margin-top: 30px; font-size: 0.9rem; opacity: 0.6; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                &copy; ${new Date().getFullYear()} ${identity.site_name}. All rights reserved. Designed by Sukhdev Dahiya.
+            </div>
         </div>
     `;
 }
