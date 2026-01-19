@@ -18,6 +18,8 @@
     "description": "Ye ek dummy book file hai jise hum kewal GitHub Automation aur Sitemap tool check karne ke liye upload kar rahe hain.",
     "source_url": "data/books/testing-bot.json"
   },
+
+
 {
   "id": "hp-constable-2026-01",
   "type": "quiz",
@@ -38,11 +40,13 @@
   "meta_info": "100 Qs • 100 Mins • Police Dept Special",
   "source_url": "data/quizzes/hp-constable-2026-01.json"
 },
+
+
 {
   "id": "upsc-csat-reasoning",
   "type": "quiz",
   "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
-  "thumbnail": "assets/default-thumb.webb",
+  "thumbnail": "assets/default-thumb.webp",
   "category": "UPSC / CSAT",
   "tags": [
     "UPSC CSAT",
