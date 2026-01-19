@@ -1,0 +1,155 @@
+/* =========================================
+   MeritBoard - Privacy Policy Styling
+   Theme: Professional Clean Document
+   ========================================= */
+
+:root {
+    --primary: #1A237E;   /* Navy Blue */
+    --accent: #03A9F4;    /* Sky Blue */
+    --bg-light: #f5f7fb;  /* Premium Grey BG */
+    --text-dark: #212121;
+    --text-grey: #555;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-light);
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+/* --- Navigation (Consistent with About Page) --- */
+.navbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px 5%; background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    position: sticky; top: 0; z-index: 1000;
+}
+.logo { font-family: 'Poppins', sans-serif; font-size: 1.6rem; font-weight: 800; color: var(--primary); letter-spacing: -0.5px; }
+.logo span { color: var(--accent); }
+.home-btn {
+    text-decoration: none; color: var(--text-dark); font-weight: 700;
+    display: flex; align-items: center; gap: 8px; padding: 10px 18px;
+    border-radius: 30px; background: #f0f2f5; transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+.home-btn:hover { background: var(--primary); color: white; }
+
+
+/* --- Header Section --- */
+.policy-header {
+    background: var(--primary);
+    color: white;
+    padding: 60px 20px 80px 20px;
+    text-align: center;
+}
+.policy-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem; font-weight: 700; margin-bottom: 10px;
+}
+.last-updated {
+    font-size: 0.95rem; opacity: 0.8;
+    background: rgba(255,255,255,0.1);
+    display: inline-block; padding: 5px 15px; border-radius: 20px;
+}
+
+/* --- Content Layout --- */
+.container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+
+.policy-content {
+    margin-top: -50px; /* Overlap effect */
+    position: relative; z-index: 10;
+    padding-bottom: 50px;
+}
+
+/* --- Document Card --- */
+.policy-card {
+    background: white;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.intro-text { font-size: 1.05rem; color: var(--text-grey); margin-bottom: 20px; }
+
+.divider {
+    border: 0; height: 1px; background: #eee;
+    margin: 30px 0;
+}
+
+/* --- Policy Sections --- */
+.policy-section { margin-bottom: 35px; }
+
+.policy-section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--accent);
+    padding-left: 15px;
+}
+
+.policy-section p {
+    color: var(--text-grey);
+    margin-bottom: 15px;
+}
+
+.policy-section ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.policy-section ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: var(--text-grey);
+}
+
+.policy-section ul li::before {
+    content: "•";
+    color: var(--accent);
+    font-weight: bold;
+    position: absolute; left: 0;
+    font-size: 1.2rem; line-height: 1.4;
+}
+
+.policy-section strong {
+    color: var(--text-dark);
+}
+
+/* --- Contact Box --- */
+.contact-box {
+    background: #f8faff;
+    border: 1px solid #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.contact-box a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+}
+.contact-box a:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center; padding: 30px; 
+    color: #888; font-size: 0.9rem; 
+    background: white; border-top: 1px solid #eee;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .policy-header h1 { font-size: 2rem; }
+    .policy-card { padding: 25px; }
+    .policy-content { margin-top: -30px; }
+}
