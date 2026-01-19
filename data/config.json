@@ -37,12 +37,12 @@
       }
     ],
     "quick_links": [
-      { "label": "About Us", "link": "about.html" },
-      { "label": "Privacy Policy", "link": "privacy.html" },
-      { "label": "Contact Support", "link": "contact.html" },
-      { "label": "Privacy Policy", "link": "privacy.html" },
-  { "label": "Disclaimer", "link": "disclaimer.html" },
-  { "label": "Terms & Conditions", "link": "terms.html" }
+      { "label": "About Us", "link": "/pages/about.html" },
+      { "label": "Privacy Policy", "link": "pages/privacy.html" },
+      { "label": "Contact Support", "link": "/pages/contact.html" },
+      
+      { "label": "Disclaimer", "link": "pages/disclaimer.html" },
+      { "label": "Terms & Conditions", "link": "pages/terms.html" }
  ]
 },
 
