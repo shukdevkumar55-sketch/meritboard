@@ -554,3 +554,28 @@ function shareResultOnWhatsApp() {
         content_type: 'Quiz Result',
         item_id: title
     });
+
+    const text = `🔥 Challenge Alert! 🔥\n\nI just scored ${score}/${total} in "${title}" on MeritBoard.\n\nCan you beat my score? Attempt now: ${window.location.href}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+    window.open(whatsappUrl, '_blank');
+}
+
+// Toast Notification Logic
+function showToast(message) {
+    let toast = document.getElementById('toast-box');
+    
+    // Create toast if not exists
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'toast-box';
+        document.body.appendChild(toast);
+    }
+    
+    toast.innerText = message;
+    toast.className = "show";
+    
+    // Auto hide after 3 seconds
+    setTimeout(() => { 
+        toast.className = toast.className.replace("show", ""); 
+    }, 3000);
+}
