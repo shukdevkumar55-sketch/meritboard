@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Global Classroom | MeritBoard</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">       <link rel="stylesheet" href="css/video-style.css"> </head>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container container">
+            <div class="brand-area">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Merit<span>Board</span> Courses</span>
+                </a>
+            </div>
+            <a href="index.html" class="nav-item">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+        </div>
+    </header>
+
+    <div id="hubView" class="hub-container">
+        
+        <div class="search-hero">
+            <h1>Find Complete Courses</h1>
+            <p>Free, Distraction-less Learning from YouTube</p>
+            <div class="search-box-wrapper">
+                <input type="text" id="courseSearch" class="yt-search-input" 
+                   placeholder="Search (e.g., 'SSC CGL Maths Complete')..." 
+                   onkeypress="handleEnter(event)">
+                <button class="search-icon-btn" onclick="triggerSearch()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="filter-chips">
+            <button onclick="searchCourses('Complete Math Playlist Competitive Exams')" class="chip">🧮 Maths</button>
+            <button onclick="searchCourses('Complete History Playlist UPSC SSC')" class="chip">📜 History</button>
+            <button onclick="searchCourses('Reasoning Full Course Playlist')" class="chip">🧩 Reasoning</button>
+            <button onclick="searchCourses('English Grammar Full Course Playlist')" class="chip">📖 English</button>
+            <button onclick="searchCourses('Current Affairs 2026 Playlist')" class="chip">🌍 Current Affairs</button>
+        </div>
+
+        <div id="courseGrid" class="course-grid">
+            <div class="loading-state">
+                <i class="fa-solid fa-circle-notch fa-spin"></i>
+                <p>Loading Library...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="classroomView" class="classroom-layout hidden">
+        
+        <div class="mobile-player-header">
+            <button onclick="closeClassroom()"><i class="fa-solid fa-chevron-left"></i> Back</button>
+            <span class="mobile-course-title">Classroom Mode</span>
+        </div>
+
+        <div class="video-stage">
+            <div class="player-wrapper">
+                <iframe id="mainPlayer" src="" 
+                        allow="autoplay; encrypted-media; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="active-video-info">
+                <h2 id="activeTitle" class="active-title">Select a video...</h2>
+                <div class="author-meta">
+                    <i class="fa-solid fa-chalkboard-user"></i> <span id="activeAuthor">Instructor</span>
+                </div>
+            </div>
+        </div>
+
+        <aside class="playlist-sidebar">
+            <div class="sidebar-header">
+                <span>Course Content</span>
+                <button class="close-btn-desktop" onclick="closeClassroom()">
+                    Exit <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <div id="videoList" class="video-list">
+                </div>
+        </aside>
+
+    </div>
+
+    <script src="js/yt-engine.js"></script>
+
+</body>
+</html>
