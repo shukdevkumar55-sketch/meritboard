@@ -3,7 +3,7 @@
     "id": "testing-book1",
     "type": "book",
     "title": "Automation Testing Guide 2026",
-    "thumbnail": "assets/default-thumb.jpg",
+    "thumbnail": "assets/default-thumb.webp",
     "category": "Technology",
     "tags": [
       "Automation",
@@ -42,7 +42,7 @@
   "id": "upsc-csat-reasoning",
   "type": "quiz",
   "title": "UPSC CSAT: Advanced Visual Reasoning (High Level)",
-  "thumbnail": "assets/default-thumb.jpg",
+  "thumbnail": "assets/default-thumb.webb",
   "category": "UPSC / CSAT",
   "tags": [
     "UPSC CSAT",
