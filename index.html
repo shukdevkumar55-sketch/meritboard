@@ -127,6 +127,42 @@
             </div>
         </div>
     </section>
+    
+    <section class="container" style="margin-top: 40px;">
+    <div class="live-class-card" onclick="window.location.href='video-hub.html'">
+        <div class="lc-content">
+            <span class="lc-badge">LIVE API INTEGRATION</span>
+            <h2>Global Classroom 🌍</h2>
+            <p>Search & Stream unlimited educational content directly from YouTube's database. No ads, just learning.</p>
+            <button class="lc-btn">Enter Classroom <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="lc-visual">
+            <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
+            <i class="fa-solid fa-graduation-cap" style="color: #fff;"></i>
+        </div>
+    </div>
+</section>
+
+<style>
+/* CSS for Entry Card */
+.live-class-card {
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+    color: white;
+    display: flex; justify-content: space-between; align-items: center;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    position: relative; overflow: hidden;
+}
+.live-class-card:hover { transform: translateY(-5px); }
+.lc-badge { background: #ff0000; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; }
+.lc-content h2 { font-size: 2.2rem; margin: 15px 0; font-family: 'Poppins', sans-serif; }
+.lc-btn { background: white; color: black; padding: 12px 25px; border-radius: 30px; font-weight: 700; margin-top: 20px; display: inline-flex; align-items: center; gap: 10px; }
+.lc-visual i { font-size: 8rem; opacity: 0.2; position: absolute; right: 20px; bottom: -20px; transform: rotate(-15deg); }
+</style>
 
     <main id="dynamicContent" class="main-feed container">
         
