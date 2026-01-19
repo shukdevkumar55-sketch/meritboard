@@ -15,6 +15,17 @@ let timerInterval;
 let userResponses = []; 
 let currentLang = 'hi'; // Default Language: Hindi
 
+// --- ANALYTICS HELPER ---
+function sendAnalyticsEvent(eventName, params = {}) {
+    if (typeof gtag === 'function') {
+        gtag('event', eventName, params);
+    } else {
+        // Dev Mode: Agar Analytics setup nahi hai to console me dikhega
+        console.log(`📊 Analytics [${eventName}]:`, params);
+    }
+}
+
+
 // =========================================
 // 2. INITIALIZATION & DATA LOADING
 // =========================================
