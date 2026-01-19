@@ -1,50 +1,68 @@
-# MeritBoard 🏆
-**"Prepare. Test. Lead."**
+# 🎓 MeritBoard - Visual Learning & Mock Test Platform
 
-Welcome to **MeritBoard**, a specialized platform designed for aspirants aiming to crack competitive exams. Our mission is to provide high-quality, real-time testing experiences to help students evaluate their preparation and lead the competition.
+> **Tagline:** Visualizing Knowledge, Mastering Merit.
 
----
-
-## 🚀 About MeritBoard
-MeritBoard is a free online examination portal that offers interactive quizzes and mock tests. While we cover all major Indian competitive exams like **SSC, Banking, Railway, and School Exams**, our primary focus is on **Haryana State Competitive Exams (HSSC & HPSC)**.
-
-### ✨ Key Features
-- **Interactive Quizzes:** Engaging MCQ-based tests for better learning.
-- **Instant Result & Analysis:** Get your score and detailed performance analysis immediately after submission.
-- **Real-time Leaderboard:** See where you stand! View the Top 10 scorers for every exam.
-- **Mobile Responsive Design:** Practice anytime, anywhere on your mobile device.
-- **Daily Content:** Stay updated with Daily Current Affairs and downloadable PDF notes.
+MeritBoard is a next-generation educational platform designed for competitive exam aspirants (HSSC, SSC, etc.). Unlike traditional platforms, MeritBoard focuses on **Visual Learning** using advanced SVGs, **Dynamic Negative Marking**, and **Deep Performance Analysis**.
 
 ---
 
-## 📍 Initial Focus: Haryana State Exams
-We are currently prioritizing exams conducted by **HSSC** and **HPSC**, including:
-- Haryana CET (Group C & D)
-- Haryana Police Constable
-- HTET (Haryana Teacher Eligibility Test)
-- HCS (Haryana Civil Services)
-- Other Haryana State-level recruitments.
+## 🚀 Key Features
+
+### 🧠 Smart Quiz Engine
+- **Bilingual Support:** Switch between Hindi and English instantly during the test.
+- **Dynamic Negative Marking:** The system automatically adapts marking schemes (e.g., 0.25, 0.50, or No Negative Marking) based on the JSON configuration.
+- **Section-based Navigation:** Auto-generated tabs for subjects (Math, Reasoning, GK, etc.).
+- **Resume Capability:** Timer and answers are saved in real-time (Session State).
+
+### 🎨 Premium UI/UX
+- **Theme:** Professional Navy Blue (`#1A237E`) & Sky Blue (`#03A9F4`) color palette.
+- **Visuals:** Custom Duotone SVGs used throughout the UI for a modern look.
+- **Responsive:** Fully optimized for Mobile, Tablet, and Desktop.
+- **Glassmorphism:** Subtle glass effects on modals and buttons.
+
+### 📊 Advanced Analytics
+- **Result Dashboard:** Detailed Scorecard with Accuracy, Correct/Wrong counts.
+- **Section Analysis:** Subject-wise performance breakdown cards.
+- **Smart Solutions:** Explanations with HTML support (Images, Formulas, Bold text).
+- **Shareable:** One-click WhatsApp score sharing.
 
 ---
 
-## 🛠️ Built With
-- **Frontend:** HTML5, CSS3 (Mobile-first approach), JavaScript
-- **Backend/Database:** Google Sheets API (for real-time ranking)
-- **Hosting:** GitHub Pages
+## 📂 Project Structure
 
----
+The project follows a modular directory structure for easy maintenance.
 
-## 👤 Author
-**Sukhdev Dahiya**  
-*Web Designer*  
-
-Feel free to connect with me for updates and collaborations:
-- **Instagram:** [@vionn.official](https://www.instagram.com/vionn.official?igsh=eG05Y2xnYnE4cDB5)
-
----
-
-## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-*Developed with ❤️ for aspirants.*
+```text
+MeritBoard/
+│
+├── index.html              # Home Page (Landing)
+├── quiz-view.html          # Main Quiz Interface
+├── README.md               # Documentation
+│
+├── assets/                 # Images & Icons
+│   ├── team/               # Team photos
+│   └── thumbnails/         # Quiz cover images
+│
+├── css/                    # Core Stylesheets
+│   ├── quiz-style.css      # Main Quiz UI Styles
+│   └── (other styles)
+│
+├── js/                     # Logic Layer
+│   └── quiz-core.js        # The Brain of the Quiz System
+│
+├── data/                   # Data Layer
+│   └── quizzes/
+│       └── sample-test.json # Quiz Data File
+│
+└── pages/                  # Static Pages Folder
+    ├── about.html
+    ├── contact.html
+    ├── privacy.html
+    ├── terms.html
+    ├── disclaimer.html
+    └── css/                # Styles specifically for static pages
+        ├── about-style.css
+        ├── contact-style.css
+        ├── terms-style.css
+        ├── privacy-style.css
+        └── disclaimer-style.css
