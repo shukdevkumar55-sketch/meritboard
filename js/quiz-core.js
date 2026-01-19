@@ -1,12 +1,12 @@
 /**
  * Project: MeritBoard
  * File: js/quiz-core.js
- * Description: Logic Engine for Quiz with Advanced Sharing & Optimization
- * Status: FINAL POLISHED
+ * Description: Logic Engine for Quiz with Advanced Analytics & Sharing
+ * Status: FINAL COMPLETE (Analytics Integrated)
  */
 
 // =========================================
-// 1. STATE VARIABLES
+// 1. STATE VARIABLES & ANALYTICS HELPER
 // =========================================
 let quizData = null;
 let currentQIndex = 0;
@@ -15,7 +15,8 @@ let timerInterval;
 let userResponses = []; 
 let currentLang = 'hi'; // Default Language: Hindi
 
-// --- ANALYTICS HELPER ---
+// --- 📊 ANALYTICS HELPER FUNCTION ---
+// Google Analytics 4 (GA4) Event Sender
 function sendAnalyticsEvent(eventName, params = {}) {
     if (typeof gtag === 'function') {
         gtag('event', eventName, params);
@@ -24,7 +25,6 @@ function sendAnalyticsEvent(eventName, params = {}) {
         console.log(`📊 Analytics [${eventName}]:`, params);
     }
 }
-
 
 // =========================================
 // 2. INITIALIZATION & DATA LOADING
@@ -183,7 +183,7 @@ function selectOption(optIndex) {
 }
 
 // =========================================
-// 5. EVENTS & NAVIGATION (Cleaned)
+// 5. EVENTS & NAVIGATION
 // =========================================
 function setupEventListeners() {
     
@@ -200,6 +200,12 @@ function setupEventListeners() {
             // Setup Header
             document.getElementById('quizTitle').innerText = quizData.testTitle;
             renderHeaderTabs(); 
+
+            // 🔥 ANALYTICS: Track Level Start
+            sendAnalyticsEvent('level_start', {
+                level_name: quizData.testTitle,
+                category: quizData.category || 'General'
+            });
 
             // Start Engine
             timeRemaining = (quizData.timeMinutes || 10) * 60;
@@ -271,29 +277,32 @@ function setupEventListeners() {
                 url: window.location.href
             };
             
-            // 1. Try Native Share (Mobile/Tablet)
+            // 🔥 ANALYTICS: Track Share Click
+            sendAnalyticsEvent('share', {
+                method: 'System Share',
+                content_type: 'Quiz Link',
+                item_id: quizData.testTitle
+            });
+
+            // 1. Try Native Share
             if (navigator.share) {
                 try {
                     await navigator.share(shareData);
-                } catch (err) {
-                    // User canceled share, do nothing
-                    console.log('Native share closed');
-                }
+                } catch (err) { console.log('Native share closed'); }
             } 
-            // 2. Fallback: Clipboard Copy (Desktop)
+            // 2. Fallback: Clipboard Copy
             else {
                 try {
                     await navigator.clipboard.writeText(window.location.href);
                     showToast("Link Copied to Clipboard! 📋");
                 } catch (err) {
-                    // Fallback for older browsers
                     prompt("Copy this link:", window.location.href);
                 }
             }
         };
     }
 
-    // H. Result Share Button (WhatsApp Specific)
+    // H. Result Share Button
     const btnShareResult = document.getElementById('btnShareResult');
     if (btnShareResult) {
         btnShareResult.onclick = shareResultOnWhatsApp;
@@ -390,9 +399,8 @@ function showSubmitModal() {
 }
 
 // =========================================
-// 7. RESULT & SOLUTIONS LOGIC (Fixed)
+// 8. RESULT & SOLUTIONS LOGIC (Analytics Added)
 // =========================================
-
 function finishQuiz() {
     // 1. Stop Timer
     clearInterval(timerInterval);
@@ -402,7 +410,7 @@ function finishQuiz() {
     let wrong = 0;
     let secAnalysis = {}; 
 
-    // 2. Get Penalty (Negative Marking)
+    // 2. Get Penalty from JSON (Default 0.25)
     const penalty = (quizData.negativeMarking !== undefined) ? quizData.negativeMarking : 0.25;
 
     // 3. Calculate Score
@@ -424,29 +432,48 @@ function finishQuiz() {
         }
     });
 
-    // Prevent negative total score (Optional - agar aap chahein to ise hata sakte hain)
-    // if (totalScore < 0) totalScore = 0;
+    // 4. 🔥 ANALYTICS: Track Quiz Completion & Score
+    const percentage = (totalScore / quizData.questions.length) * 100;
+    const acc = (correct+wrong)>0 ? ((correct/(correct+wrong))*100).toFixed(0) : 0;
 
-    // 4. HIDE QUIZ UI (Very Important)
+    sendAnalyticsEvent('level_end', {
+        level_name: quizData.testTitle,
+        success: percentage >= 40, // Assuming 40% is passing
+        score: totalScore,
+        accuracy: acc
+    });
+    
+    sendAnalyticsEvent('post_score', {
+        score: totalScore,
+        level: quizData.testTitle,
+        character: quizData.category // Using category as character
+    });
+
+    // 5. HIDE QUIZ UI
     document.querySelector('.quiz-header').classList.add('hidden');
     document.querySelector('.quiz-body').classList.add('hidden');
     document.querySelector('.quiz-footer').classList.add('hidden');
-    document.getElementById('paletteOverlay').classList.add('hidden'); // Palette bhi band karein
+    document.getElementById('paletteOverlay').classList.add('hidden');
     
-    // 5. SHOW RESULT SCREEN
+    // 6. SHOW RESULT SCREEN
     const resScreen = document.getElementById('resultScreen');
     resScreen.classList.remove('hidden');
 
-    // 6. FILL DATA
+    // 7. FILL DATA
     document.getElementById('scoreObtained').innerText = totalScore.toFixed(2);
     document.getElementById('scoreTotal').innerText = quizData.questions.length;
-    document.getElementById('resCorrect').innerText = correct;
-    document.getElementById('resWrong').innerText = wrong;
     
-    const acc = (correct+wrong)>0 ? ((correct/(correct+wrong))*100).toFixed(0) : 0;
+    const correctEl = document.getElementById('resCorrect');
+    correctEl.innerText = correct;
+    correctEl.parentElement.classList.add('correct'); // Add Green Color Class
+
+    const wrongEl = document.getElementById('resWrong');
+    wrongEl.innerText = wrong;
+    wrongEl.parentElement.classList.add('wrong'); // Add Red Color Class
+    
     document.getElementById('resAccuracy').innerText = acc + "%";
 
-    // 7. FILL SECTION ANALYSIS
+    // 8. FILL SECTION ANALYSIS
     document.getElementById('sectionAnalysis').innerHTML = Object.keys(secAnalysis).map(sec => `
         <div class="sec-item">
             <b>${sec}</b>
@@ -454,7 +481,7 @@ function finishQuiz() {
         </div>
     `).join('');
 
-    // 8. FILL DETAILED SOLUTIONS
+    // 9. FILL DETAILED SOLUTIONS
     renderSolutions(quizData.questions);
 }
 
@@ -513,7 +540,7 @@ function renderSolutions(questions) {
 }
 
 // =========================================
-// 8. HELPERS (Toast & WhatsApp)
+// 9. HELPERS (Share & Toast)
 // =========================================
 
 function shareResultOnWhatsApp() {
@@ -521,27 +548,9 @@ function shareResultOnWhatsApp() {
     const total = document.getElementById('scoreTotal').innerText;
     const title = quizData.testTitle;
     
-    const text = `🔥 Challenge Alert! 🔥\n\nI just scored ${score}/${total} in "${title}" on MeritBoard.\n\nCan you beat my score? Attempt now: ${window.location.href}`;
-    const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
-// Toast Notification Logic
-function showToast(message) {
-    let toast = document.getElementById('toast-box');
-    
-    // Create toast if not exists
-    if (!toast) {
-        toast = document.createElement('div');
-        toast.id = 'toast-box';
-        document.body.appendChild(toast);
-    }
-    
-    toast.innerText = message;
-    toast.className = "show";
-    
-    // Auto hide after 3 seconds
-    setTimeout(() => { 
-        toast.className = toast.className.replace("show", ""); 
-    }, 3000);
-}
+    // 🔥 ANALYTICS: Track Result Share
+    sendAnalyticsEvent('share', {
+        method: 'WhatsApp',
+        content_type: 'Quiz Result',
+        item_id: title
+    });
