@@ -1,22 +1,22 @@
 [
   {
-    "id": "testing-book1",
+    "id": "hssc-gk-book-001",
     "type": "book",
-    "title": "Automation Testing Guide 2026",
+    "title": "Haryana Police Constable: Geography Brahmastra (2026)",
     "thumbnail": "assets/default-thumb.webp",
-    "category": "Technology",
+    "category": "HSSC Police & Group C",
     "tags": [
-      "Automation",
-      "GitHub Actions",
-      "Testing",
-      "Sitemap"
+      "Haryana Gk 2026",
+      "Haryana police constable book",
+      "hssc",
+      "Haryana Gk degital book"
     ],
-    "date_added": "2026-01-18",
-    "author": "MeritBoard Bot",
-    "is_featured": false,
+    "date_added": "2026-01-20",
+    "author": "MeritBoard team",
+    "is_featured": true,
     "meta_info": "5 Pages • PDF Guide",
-    "description": "Ye ek dummy book file hai jise hum kewal GitHub Automation aur Sitemap tool check karne ke liye upload kar rahe hain.",
-    "source_url": "data/books/testing-bot.json"
+    "description": "यह डिजिटल बुक HSSC पुलिस कांस्टेबल परीक्षा के नए पैटर्न पर आधारित है। इसमें हरियाणा के भूगोल को मैप्स और ट्रिक्स के साथ समझाया गया है। इस पुस्तक में HSSC द्वारा 2016 से 2025 तक पूछे गए सभी भौगोलिक प्रश्नों का समावेश व्याख्या सहित किया गया है। ",
+    "source_url": "data/books/hssc-gk-book-001.json"
   },
 
 
