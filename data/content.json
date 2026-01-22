@@ -1,4 +1,24 @@
 [
+{
+  "id": "",
+  "type": "quiz",
+  "title": "Haryana Police Constable 2026 - Selection Series Test 1",
+  "thumbnail": "assets/haryana-police-constable-mock-test-1-thumbnail.webp",
+  "category": "Haryana Police Exams",
+  "tags": [
+    "Haryana Police",
+    "Constable 2026",
+    "HSSC CET",
+    "New Criminal Laws",
+    "Police Department GK",
+    "Haryana Current Affairs"
+  ],
+  "date_added": "2026-01-18",
+  "author": "MeritBoard Exam Cell",
+  "is_featured": true,
+  "meta_info": "100 Qs • 100 Mins • Police Dept Special",
+  "source_url": "data/quizzes/hp-constable-2026-01.json"
+},
   {
     "id": "hssc-gk-book-001",
     "type": "book",
