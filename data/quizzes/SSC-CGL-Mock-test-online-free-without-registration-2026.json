@@ -3,7 +3,7 @@
   "timeMinutes": 60,
   "category": "SSC CGL Tier-1",
   "negativeMarking": 0.50,
-  "description": "<b>SSC CGL 2026 Tier-1 Full Mock Test:</b><br>1. <b>Based on New Syllabus:</b> Includes questions on New Criminal Laws (BNS, BNSS, BSA) and latest Current Affairs (2025-26).<br>2. <b>Sections Covered:</b> General Intelligence & Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension.<br>3. <b>Pattern:</b> 100 Questions, 200 Marks. 0.50 Negative Marking.<br>4. <b>Instructions:</b> Use the 'Translate' button to switch between Hindi and English.",
+  "description": "*SSC CGL 2026 Tier-1 Full Mock Test*:</b><br>1. <b>Based on New Syllabus:</b> Includes questions on New Criminal Laws (BNS, BNSS, BSA) and latest Current Affairs (2025-26).<br>2. <b>Sections Covered:</b> General Intelligence & Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension.<br>3. <b>Pattern:</b> 100 Questions, 200 Marks. 0.50 Negative Marking.<br>4. <b>Instructions:</b> Use the 'Translate' button to switch between Hindi and English.",
   "cover_image": "assets/ssc-cgl-2026-mock-test-1-thumbnail.webp",
   "questions": [
   {
@@ -705,6 +705,206 @@
     "options_hi": ["मधुमक्खीशाला (Apiary)", "मछलीघर (Aquarium)", "पक्षीशाला (Aviary)", "चिड़ियाघर (Zoo)"],
     "answer": 2,
     "explanation": "सही उत्तर: Aviary\n\nExplanation:\n1. **Aviary:** पक्षीशाला (Birds).\n2. **Apiary:** मधुमक्खीशाला (Bees).\n3. **Aquarium:** मछलीघर (Fish).\n4. **Zoo:** चिड़ियाघर (Animals)."
+  },
+  {
+    "id": 81,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate antonym of the given word.\n**Despair**",
+    "q_hi": "दिए गए शब्द का सबसे उपयुक्त विलोम (Antonym) चुनें।\n**Despair** (निराशा)",
+    "options_en": ["Misery", "Hope", "Pain", "Anger"],
+    "options_hi": ["कष्ट (Misery)", "आशा (Hope)", "दर्द (Pain)", "क्रोध (Anger)"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Hope\n\nExplanation:\n'Despair' means the complete loss or absence of hope (निराशा).\nAntonym: 'Hope' (आशा)."
+  },
+  {
+    "id": 82,
+    "section": "English Comprehension",
+    "q_en": "Select the option that expresses the given sentence in Passive Voice.\n\"The mechanic repaired my bike.\"",
+    "q_hi": "उस विकल्प का चयन करें जो दिए गए वाक्य को Passive Voice में व्यक्त करता है।\n\"The mechanic repaired my bike.\"",
+    "options_en": ["My bike is repaired by the mechanic.", "My bike has been repaired by the mechanic.", "My bike was repaired by the mechanic.", "My bike is being repaired by the mechanic."],
+    "options_hi": ["My bike is repaired by the mechanic.", "My bike has been repaired by the mechanic.", "My bike was repaired by the mechanic.", "My bike is being repaired by the mechanic."],
+    "answer": 2,
+    "explanation": "सही उत्तर: My bike was repaired by the mechanic.\n\nExplanation:\nActive Sentence: Subject + V2 (Past Simple) + Object.\nPassive Structure: Object + was/were + V3 + by Subject.\n'repaired' (V2) changes to 'was repaired'."
+  },
+  {
+    "id": 83,
+    "section": "English Comprehension",
+    "q_en": "Select the correctly spelled word.",
+    "q_hi": "सही वर्तनी (Spelling) वाले शब्द का चयन करें।",
+    "options_en": ["Comittee", "Committee", "Commite", "Comite"],
+    "options_hi": ["Comittee", "Committee", "Commite", "Comite"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Committee\n\nExplanation:\nCorrect Spelling: **Committee**.\nTrick to remember: It has double M, double T, and double E."
+  },
+  {
+    "id": 84,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate option to substitute the underlined segment in the given sentence.\n\"She is **good in** Mathematics.\"",
+    "q_hi": "दिए गए वाक्य में रेखांकित खंड को प्रतिस्थापित करने के लिए सबसे उपयुक्त विकल्प का चयन करें।\n\"She is **good in** Mathematics.\"",
+    "options_en": ["good at", "good on", "good for", "No substitution required"],
+    "options_hi": ["good at", "good on", "good for", "No substitution required"],
+    "answer": 0,
+    "explanation": "सही उत्तर: good at\n\nExplanation:\nPreposition Rule: We use **'good at'** to talk about abilities or skills (e.g., good at cooking, good at math).\n'Good in' is generally used for 'good in class' or 'good in nature', but for subjects/skills, 'at' is correct."
+  },
+  {
+    "id": 85,
+    "section": "English Comprehension",
+    "q_en": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order.\nA. One day, a lion was sleeping in the forest.\nB. The mouse begged for mercy.\nC. A mouse started playing on him.\nD. The lion woke up and caught the mouse.",
+    "q_hi": "एक पैराग्राफ के वाक्य नीचे अव्यवस्थित क्रम में दिए गए हैं। वाक्यों को सही क्रम में व्यवस्थित करें।",
+    "options_en": ["ACDB", "ABCD", "CDBA", "ADCB"],
+    "options_hi": ["ACDB", "ABCD", "CDBA", "ADCB"],
+    "answer": 0,
+    "explanation": "सही उत्तर: ACDB\n\nExplanation:\n1. (A) शेर सो रहा था (Introduction)।\n2. (C) चूहा उस पर खेलने लगा।\n3. (D) शेर जागा और चूहे को पकड़ लिया।\n4. (B) चूहे ने दया की भीख मांगी।\nCorrect Sequence: A $\\to$ C $\\to$ D $\\to$ B."
+  },
+  {
+    "id": 86,
+    "section": "English Comprehension",
+    "q_en": "Select the option that can be used as a one-word substitute for the given group of words.\n**A person who draws or produces maps**",
+    "q_hi": "दिए गए शब्द समूह के लिए एक शब्द चुनें।\n**A person who draws or produces maps**",
+    "options_en": ["Calligrapher", "Cartographer", "Choreographer", "Lexicographer"],
+    "options_hi": ["सुलेखक (Calligrapher)", "मानचित्रकार (Cartographer)", "नृत्य निर्देशक (Choreographer)", "कोशकार (Lexicographer)"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Cartographer\n\nExplanation:\n1. **Cartographer:** One who makes maps.\n2. **Lexicographer:** One who compiles dictionaries.\n3. **Calligrapher:** One who practices the art of beautiful handwriting."
+  },
+  {
+    "id": 87,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate meaning of the given idiom.\n**A piece of cake**",
+    "q_hi": "दिए गए मुहावरे का सबसे उपयुक्त अर्थ चुनें।\n**A piece of cake**",
+    "options_en": ["Something very difficult", "Something very easy", "Something expensive", "A delicious food"],
+    "options_hi": ["कुछ बहुत कठिन", "कुछ बहुत आसान (बाएं हाथ का खेल)", "कुछ महंगा", "स्वादिष्ट भोजन"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Something very easy\n\nExplanation:\n'A piece of cake' refers to a task that is simple or easy to complete."
+  },
+  {
+    "id": 88,
+    "section": "English Comprehension",
+    "q_en": "Identify the segment in the sentence which contains a grammatical error.\n\"The scenery of Kashmir are very beautiful.\"",
+    "q_hi": "वाक्य के उस खंड की पहचान करें जिसमें व्याकरण संबंधी त्रुटि है।\n\"The scenery of Kashmir are very beautiful.\"",
+    "options_en": ["very beautiful", "The scenery", "of Kashmir", "are"],
+    "options_hi": ["very beautiful", "The scenery", "of Kashmir", "are"],
+    "answer": 3,
+    "explanation": "सही उत्तर: are\n\nExplanation:\nNoun Rule: 'Scenery' is an **uncountable noun** and does not have a plural form. It always takes a **singular verb**.\nCorrect Sentence: \"The scenery of Kashmir **is** very beautiful.\""
+  },
+  {
+    "id": 89,
+    "section": "English Comprehension",
+    "q_en": "Select the correct indirect form of the given sentence.\nHe said to me, \"I am busy now.\"",
+    "q_hi": "दिए गए वाक्य का सही अप्रत्यक्ष रूप (Indirect form) चुनें।\nHe said to me, \"I am busy now.\"",
+    "options_en": ["He told me that he was busy then.", "He told me that I was busy then.", "He said to me that he is busy now.", "He told me that he is busy then."],
+    "options_hi": ["He told me that he was busy then.", "He told me that I was busy then.", "He said to me that he is busy now.", "He told me that he is busy then."],
+    "answer": 0,
+    "explanation": "सही उत्तर: He told me that he was busy then.\n\nExplanation:\n1. 'Said to' changes to 'Told'.\n2. 'I' (First Person) changes according to the Subject ('He').\n3. 'Am' (Present) changes to 'Was' (Past).\n4. 'Now' changes to 'Then'."
+  },
+  {
+    "id": 90,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate synonym of the given word.\n**Futile**",
+    "q_hi": "दिए गए शब्द का सबसे उपयुक्त पर्यायवाची (Synonym) चुनें।\n**Futile**",
+    "options_en": ["Productive", "Useless", "Effective", "Hopeful"],
+    "options_hi": ["उत्पादक (Productive)", "व्यर्थ/बेकार (Useless)", "प्रभावी (Effective)", "आशावान (Hopeful)"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Useless\n\nExplanation:\n'Futile' means incapable of producing any useful result; pointless (व्यर्थ).\nSynonym: Useless, Fruitless.\nAntonym: Productive, Effective."
+  },
+  {
+    "id": 91,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate meaning of the given idiom.\n**To read between the lines**",
+    "q_hi": "दिए गए मुहावरे का सबसे उपयुक्त अर्थ चुनें।\n**To read between the lines**",
+    "options_en": ["To read a poem carefully", "To understand the hidden meaning", "To read very fast", "To stop reading"],
+    "options_hi": ["कविता को ध्यान से पढ़ना", "छिपे हुए अर्थ को समझना", "बहुत तेजी से पढ़ना", "पढ़ना बंद कर देना"],
+    "answer": 1,
+    "explanation": "सही उत्तर: To understand the hidden meaning\n\nExplanation:\n'To read between the lines' का अर्थ है किसी बात या लेख के पीछे के छिपे हुए भाव या अर्थ को समझना, जो सीधे शब्दों में नहीं लिखा गया हो।"
+  },
+  {
+    "id": 92,
+    "section": "English Comprehension",
+    "q_en": "Select the option that can be used as a one-word substitute for the given group of words.\n**A person who can use both hands with equal ease**",
+    "q_hi": "दिए गए शब्द समूह के लिए एक शब्द चुनें।\n**A person who can use both hands with equal ease**",
+    "options_en": ["Ambiguous", "Ambidextrous", "Ambivalent", "Ambitious"],
+    "options_hi": ["अस्पष्ट (Ambiguous)", "उभयहस्त (Ambidextrous)", "उभयभावी (Ambivalent)", "महत्वाकांक्षी (Ambitious)"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Ambidextrous\n\nExplanation:\n1. **Ambidextrous:** जो दोनों हाथों का समान कुशलता से उपयोग कर सके (जैसे '3 Idiots' में वायरस)।\n2. **Ambivalent:** जिसके मन में मिली-जुली भावनाएं हों।\n3. **Ambiguous:** जिसके एक से अधिक अर्थ हों (अस्पष्ट)।"
+  },
+  {
+    "id": 93,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate option to substitute the underlined segment in the given sentence.\n\"No sooner did I **saw** him than I ran away.\"",
+    "q_hi": "दिए गए वाक्य में रेखांकित खंड को प्रतिस्थापित करने के लिए सबसे उपयुक्त विकल्प का चयन करें।\n\"No sooner did I **saw** him than I ran away.\"",
+    "options_en": ["see", "seen", "seeing", "No substitution required"],
+    "options_hi": ["see", "seen", "seeing", "No substitution required"],
+    "answer": 0,
+    "explanation": "सही उत्तर: see\n\nExplanation:\nGrammar Rule: जब वाक्य में **'Did'** का प्रयोग होता है, तो उसके साथ हमेशा क्रिया की पहली अवस्था (**Base form of Verb / V1**) का प्रयोग किया जाता है।\nCorrect: \"No sooner did I **see** him...\""
+  },
+  {
+    "id": 94,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate antonym of the given word.\n**Fragile**",
+    "q_hi": "दिए गए शब्द का सबसे उपयुक्त विलोम (Antonym) चुनें।\n**Fragile** (नाजुक)",
+    "options_en": ["Weak", "Brittle", "Robust", "Delicate"],
+    "options_hi": ["कमजोर (Weak)", "भंगुर (Brittle)", "मजबूत (Robust)", "नाजुक (Delicate)"],
+    "answer": 2,
+    "explanation": "सही उत्तर: Robust\n\nExplanation:\n'Fragile' का अर्थ है 'नाजुक' या 'आसानी से टूटने वाला'।\nAntonym: **Robust** (मजबूत/हट्टा-कट्टा) या Strong.\nअन्य विकल्प (Weak, Brittle, Delicate) इसके पर्यायवाची (Synonyms) हैं।"
+  },
+  {
+    "id": 95,
+    "section": "English Comprehension",
+    "q_en": "Select the incorrectly spelled word.",
+    "q_hi": "गलत वर्तनी (Spelling) वाले शब्द का चयन करें।",
+    "options_en": ["Maintenance", "Argument", "Definite", "Recieve"],
+    "options_hi": ["Maintenance", "Argument", "Definite", "Recieve"],
+    "answer": 3,
+    "explanation": "सही उत्तर: Recieve\n\nExplanation:\nसही स्पेलिंग **Receive** है।\nRule: 'i' before 'e' except after 'c'. यहाँ 'c' के बाद 'ei' आता है।"
+  },
+  {
+    "id": 96,
+    "section": "English Comprehension (Cloze Test)",
+    "q_en": "Cloze Test: Read the passage and fill in the blanks.\nSuccess is not merely about making money; it is about achieving your goals. To be successful, one needs to work ______ (1) and stay focused. There will be many ______ (2) on the path, but giving up is not an option. Learning from ______ (3) is crucial for growth. Moreover, one must maintain a positive ______ (4) towards life. Ultimately, success comes to those who are ______ (5).\n\nSelect the best option for Blank (1).",
+    "q_hi": "Blank (1) के लिए सबसे उपयुक्त विकल्प चुनें।",
+    "options_en": ["hardly", "hard", "easy", "lazy"],
+    "options_hi": ["hardly", "hard", "easy", "lazy"],
+    "answer": 1,
+    "explanation": "सही उत्तर: hard\n\nExplanation:\nसंदर्भ 'कड़ी मेहनत' का है।\n'Work hard' सही मुहावरा है।\n'Hardly' का अर्थ है 'मुश्किल से' (negative sense), जो यहाँ गलत है।"
+  },
+  {
+    "id": 97,
+    "section": "English Comprehension (Cloze Test)",
+    "q_en": "Select the best option for Blank (2).\n(Context: There will be many ______ on the path...)",
+    "q_hi": "Blank (2) के लिए सबसे उपयुक्त विकल्प चुनें।",
+    "options_en": ["obstacles", "helps", "easiness", "shortcuts"],
+    "options_hi": ["बाधाएं (obstacles)", "मदद (helps)", "सुगमता (easiness)", "शॉर्टकट (shortcuts)"],
+    "answer": 0,
+    "explanation": "सही उत्तर: obstacles\n\nExplanation:\nसफलता के रास्ते में कई 'बाधाएं' (obstacles/hurdles) आती हैं।"
+  },
+  {
+    "id": 98,
+    "section": "English Comprehension (Cloze Test)",
+    "q_en": "Select the best option for Blank (3).\n(Context: Learning from ______ is crucial for growth.)",
+    "q_hi": "Blank (3) के लिए सबसे उपयुक्त विकल्प चुनें।",
+    "options_en": ["success", "failures", "winning", "luck"],
+    "options_hi": ["success", "failures", "winning", "luck"],
+    "answer": 1,
+    "explanation": "सही उत्तर: failures\n\nExplanation:\nविकास (Growth) के लिए 'असफलताओं' (failures) से सीखना महत्वपूर्ण है। यह एक सामान्य कहावत है।"
+  },
+  {
+    "id": 99,
+    "section": "English Comprehension (Cloze Test)",
+    "q_en": "Select the best option for Blank (4).\n(Context: ...maintain a positive ______ towards life.)",
+    "q_hi": "Blank (4) के लिए सबसे उपयुक्त विकल्प चुनें।",
+    "options_en": ["aptitude", "attitude", "altitude", "anger"],
+    "options_hi": ["aptitude", "attitude", "altitude", "anger"],
+    "answer": 1,
+    "explanation": "सही उत्तर: attitude\n\nExplanation:\nजीवन के प्रति 'सकारात्मक दृष्टिकोण' (Positive attitude) रखना चाहिए।\n'Aptitude' का अर्थ 'कौशल/योग्यता' है।"
+  },
+  {
+    "id": 100,
+    "section": "English Comprehension (Cloze Test)",
+    "q_en": "Select the best option for Blank (5).\n(Context: ...success comes to those who are ______.)",
+    "q_hi": "Blank (5) के लिए सबसे उपयुक्त विकल्प चुनें।",
+    "options_en": ["impatient", "persistent", "weak", "fearful"],
+    "options_hi": ["impatient", "persistent", "weak", "fearful"],
+    "answer": 1,
+    "explanation": "सही उत्तर: persistent\n\nExplanation:\nसफलता उन्हें मिलती है जो 'दृढ़' (persistent) रहते हैं और हार नहीं मानते।\nImpatient (अधीर) या Fearful (डरपोक) लोगों को सफलता नहीं मिलती।"
   }
 ]
 }
