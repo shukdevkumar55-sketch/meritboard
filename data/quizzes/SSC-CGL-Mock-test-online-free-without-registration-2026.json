@@ -329,16 +329,6 @@
   {
     "id": 43,
     "section": "General Intelligence & Reasoning",
-    "q_en": "Select the repeated letter-cluster pattern that will sequentially complete the series.\na _ b c _ a a b _ c c a _ b b c c",
-    "q_hi": "उस दोहराए गए अक्षर-समूह पैटर्न का चयन करें जो श्रृंखला को क्रमिक रूप से पूरा करेगा।\na _ b c _ a a b _ c c a _ b b c c",
-    "options_en": ["a, c, b, b", "a, b, c, a", "b, c, a, b", "c, b, a, b"],
-    "options_hi": ["a, c, b, b", "a, b, c, a", "b, c, a, b", "c, b, a, b"],
-    "answer": 0,
-    "explanation": "सही उत्तर: a, c, b, b\n\nLogic: Increasing Repetition Series\nपैटर्न: abc / aabbcc / aaabbbccc (शायद नहीं, लंबाई चेक करें)।\nसीरीज: a **a** b c **c** / a a b **b** c c / a **b** b c c...\nसही पैटर्न: 'aabbcc' का रिपीटीशन है।\na (a) b c (c) -> aabbcc (यहाँ एक 'c' मिसिंग लग रहा है प्रश्न में या पैटर्न अलग है)।\n\nLet's re-evaluate standard SSC Logic:\nGroup of 4: a_bc / _aab / _cca / _bbc\nTry Option 1 (a, c, b, b):\na (a) b c / (c) a a b / (b) c c a / (b) b c c \nपैटर्न नहीं बन रहा।\n\nLet's try logical pattern: Doubling letters.\na (a) b c c -> aabbcc\na a b (b) c c -> aabbcc\na (a) b b c c -> aabbcc\nMissing letters: a, c, b, a.\n\nLet's provide a clear Pattern Series:\nSeries: a _ b _ a a _ b b _ a a a _ b b b\nSolution: a (b) b (a) / a a (b) b b / (c)...\n\n**Correct Logic for this Question ID:**\nPattern: **a b c / a a b b c c / a a a b b b c c c**\nGiven: a _ b c _ a a b _ c c ...\nMissing: **b** (to make abc?), no.\n\nLet's use a simpler Fixed Group Series for 100% accuracy:\nSeries: **l _ n o _ m n _ l m _ o**\nPattern: **lmno** repeating.\nl (m) n o / (l) m n (o) / l m (n) o\nMissing: m, l, o, n.\n\n**Updating Question Content for Logic:**\nQ: l _ n o _ m n _ l m _ o\nAns: m, l, o, n (Option C)\n(Note: I will format the JSON with this correct logic below)."
-  },
-  {
-    "id": 43,
-    "section": "General Intelligence & Reasoning",
     "q_en": "Which letter cluster will complete the given series?\nl _ n o _ m n _ l m _ o",
     "q_hi": "कौन सा अक्षर समूह दी गई श्रृंखला को पूरा करेगा?\nl _ n o _ m n _ l m _ o",
     "options_en": ["m, l, o, n", "n, m, o, l", "m, o, l, n", "l, m, n, o"],
