@@ -379,16 +379,6 @@
   {
     "id": 48,
     "section": "General Intelligence & Reasoning",
-    "q_en": "In a certain code language, 'SKY' is written as '52' and 'TOY' is written as '56'. How will 'PEN' be written in that language?",
-    "q_hi": "एक निश्चित कूट भाषा में, 'SKY' को '52' और 'TOY' को '56' लिखा जाता है। उसी भाषा में 'PEN' को कैसे लिखा जाएगा?",
-    "options_en": ["35", "38", "42", "40"],
-    "options_hi": ["35", "38", "42", "40"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 35\n\nLogic: Sum of Position Numbers + Number of Letters? No.\nSKY: S(19) + K(11) + Y(25) = 55. Code is 52 (55 - 3).\nTOY: T(20) + O(15) + Y(25) = 60. Code is 56 (60 - 4?). Inconsistent.\n\nLet's try Opposite Pairs Sum:\nSKY $\\to$ H(8) + P(16) + B(2) = 26. $26 \\times 2 = 52$. (Match!)\nTOY $\\to$ G(7) + L(12) + B(2) = 21. $21 \\times 2 = 42$. (Fail, given 56).\n\nLet's try Logic 3: Vowel/Consonant logic or Fixed value.\nWait, TOY = 56. $20+15+25 = 60$. $60 - 4 = 56$.\nSKY = 55. $55 - 3 = 52$.\nLogic: Sum - (Number of letters + 1)? Or random?\n\nLet's try standard SSC Logic: Sum + Constant.\nActually, let's use the simplest logic that works for PEN.\nAssume Logic: Sum of positions - 3 (for SKY), Sum - 4 (for TOY).\nIs PEN 3 letters? So Sum - 3?\nP(16)+E(5)+N(14) = 35. $35 - 3 = 32$. Not in options.\n\nLet's correct logic to: (Sum of letters) $\\times$ something? No.\nCorrect Logic often used: **Sum of Place Value of Vowels $\\times$ 2 + Consonants**? No.\n\n**Let's change Question to ensure valid Logic:**\nCode: DOVE = 23, CROW = 26.\nLogic: Sum / 2? No.\n\n**Let's stick to the First Logic (Opposite Sum x 2) and fix the TOY value in question.**\nIf TOY follows opposite logic: $G(7)+L(12)+B(2) = 21 \\times 2 = 42$.\nLet's set TOY as 42 in Question.\nQuestion: SKY=52, TOY=42.\nPEN $\\to$ K(11)+V(22)+M(13) = 46. $46 \\times 2 = 92$.\nOptions don't match.\n\n**Final Correct Logic for provided Options (35, etc):**\nLogic: Sum of (Position value - 1)? No.\nLet's take P(16)+E(5)+N(14) = 35.\nAnswer A is 35.\nLogic: Simply Sum of Place Values.\nIs SKY 35? No.\n\n**Let's Reset Question 48 for 100% Accuracy:**\nQ: If A=1, CAT=24, then PEN=?\nLogic: Sum of place values.\n$16+5+14 = 35$.\nThis is standard and matches Option A.\n\nUpdated Q in JSON: 'A' = 1, 'CAT' = 24..."
-  },
-  {
-    "id": 48,
-    "section": "General Intelligence & Reasoning",
     "q_en": "If A = 1 and CAT = 24, then what is the code for PEN?",
     "q_hi": "यदि A = 1 और CAT = 24 है, तो PEN के लिए कूट क्या है?",
     "options_en": ["35", "38", "42", "40"],
@@ -515,5 +505,104 @@
     "options_hi": ["10 सेकंड", "8 सेकंड", "12 सेकंड", "15 सेकंड"],
     "answer": 0,
     "explanation": "सही उत्तर: 10 sec\n\nSolution:\nSpeed in m/s = $54 \\times \\frac{5}{18} = 15$ m/s.\nDistance = Train Length = 150 m.\nTime = $\\frac{\\text{Distance}}{\\text{Speed}}$\nTime = $\\frac{150}{15} = 10$ seconds."
-  }
-]
+  },
+  {
+    "id": 61,
+    "section": "Quantitative Aptitude",
+    "q_en": "If $x^4 + \\frac{1}{x^4} = 194$, then find the value of $x + \\frac{1}{x}$.",
+    "q_hi": "यदि $x^4 + \\frac{1}{x^4} = 194$ है, तो $x + \\frac{1}{x}$ का मान ज्ञात कीजिये।",
+    "options_en": ["4", "14", "16", "6"],
+    "options_hi": ["4", "14", "16", "6"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 4\n\nSolution:\nStep 1: $x^2 + \\frac{1}{x^2} = \\sqrt{194 + 2} = \\sqrt{196} = 14$\nStep 2: $x + \\frac{1}{x} = \\sqrt{14 + 2} = \\sqrt{16} = 4$"
+  },
+  {
+    "id": 62,
+    "section": "Quantitative Aptitude",
+    "q_en": "In $\\Delta ABC$, G is the centroid. If AD is the median and the length of AD is 12 cm, then find the length of AG.",
+    "q_hi": "$\\Delta ABC$ में, G केंद्रक (Centroid) है। यदि AD माध्यिका (Median) है और AD की लंबाई 12 सेमी है, तो AG की लंबाई ज्ञात कीजिये।",
+    "options_en": ["6 cm", "8 cm", "4 cm", "9 cm"],
+    "options_hi": ["6 सेमी", "8 सेमी", "4 सेमी", "9 सेमी"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 8 cm\n\nSolution:\nकेंद्रक (Centroid) माध्यिका को 2:1 के अनुपात में विभाजित करता है।\n$AG : GD = 2 : 1$\nकुल भाग = 3 units = 12 cm\n1 unit = 4 cm\nAG (2 units) = $2 \\times 4 = 8$ cm."
+  },
+  {
+    "id": 63,
+    "section": "Quantitative Aptitude",
+    "q_en": "In an election between two candidates, one got 52% of the total valid votes and won by 1400 votes. Find the total number of valid votes.",
+    "q_hi": "दो उम्मीदवारों के बीच एक चुनाव में, एक को कुल वैध मतों का 52% मिला और वह 1400 मतों से जीत गया। कुल वैध मतों की संख्या ज्ञात कीजिये।",
+    "options_en": ["30,000", "35,000", "40,000", "45,000"],
+    "options_hi": ["30,000", "35,000", "40,000", "45,000"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 35,000\n\nSolution:\nविजेता = 52%\nहारने वाला = $100 - 52 = 48\\%$\nअंतर = $52 - 48 = 4\\%$\nदिया गया है: $4\\% = 1400$\n$1\\% = \\frac{1400}{4} = 350$\n$100\\% = 350 \\times 100 = 35,000$."
+  },
+  {
+    "id": 64,
+    "section": "Quantitative Aptitude",
+    "q_en": "The shadow of a tower standing on level ground is found to be $\\sqrt{3}$ times the height of the tower. The angle of elevation of the sun is:",
+    "q_hi": "समतल जमीन पर खड़े एक टॉवर की छाया उसकी ऊंचाई की $\\sqrt{3}$ गुना पाई जाती है। सूर्य का उन्नयन कोण (Angle of elevation) क्या है?",
+    "options_en": ["$30^\\circ$", "$45^\\circ$", "$60^\\circ$", "$90^\\circ$"],
+    "options_hi": ["$30^\\circ$", "$45^\\circ$", "$60^\\circ$", "$90^\\circ$"],
+    "answer": 0,
+    "explanation": "सही उत्तर: $30^\\circ$\n\nSolution:\nमाना ऊंचाई = $h$, छाया = $h\\sqrt{3}$\n$\\tan \\theta = \\frac{\\text{Height}}{\\text{Shadow}} = \\frac{h}{h\\sqrt{3}} = \\frac{1}{\\sqrt{3}}$\n$\\tan \\theta = \\tan 30^\\circ \\Rightarrow \\theta = 30^\\circ$."
+  },
+  {
+    "id": 65,
+    "section": "Quantitative Aptitude",
+    "q_en": "Find the volume of a cone whose radius is 7 cm and height is 24 cm.",
+    "q_hi": "उस शंकु (Cone) का आयतन ज्ञात कीजिये जिसकी त्रिज्या 7 सेमी और ऊंचाई 24 सेमी है।",
+    "options_en": ["1232 cm³", "1540 cm³", "616 cm³", "308 cm³"],
+    "options_hi": ["1232 cm³", "1540 cm³", "616 cm³", "308 cm³"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 1232 cm³\n\nSolution:\nVolume = $\\frac{1}{3} \\pi r^2 h$\n$= \\frac{1}{3} \\times \\frac{22}{7} \\times 7 \\times 7 \\times 24$\n$= 22 \\times 7 \\times 8$\n$= 154 \\times 8 = 1232$ cm³."
+  },
+  {
+    "id": 66,
+    "section": "Quantitative Aptitude",
+    "q_en": "A person travels a certain distance at 45 km/hr and reaches 10 minutes late. If he travels at 60 km/hr, he reaches 5 minutes early. Find the distance.",
+    "q_hi": "एक व्यक्ति 45 किमी/घंटा की गति से एक निश्चित दूरी तय करता है और 10 मिनट देरी से पहुँचता है। यदि वह 60 किमी/घंटा की गति से यात्रा करता है, तो वह 5 मिनट जल्दी पहुँचता है। दूरी ज्ञात कीजिये।",
+    "options_en": ["45 km", "50 km", "60 km", "40 km"],
+    "options_hi": ["45 किमी", "50 किमी", "60 किमी", "40 किमी"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 45 km\n\nSolution:\nFormula: $D = \\frac{S_1 \\times S_2}{S_1 - S_2} \\times \\Delta T$\n$S_1 = 45, S_2 = 60$\n$\\Delta T = 10 + 5 = 15$ min = $\\frac{15}{60}$ hours\n$D = \\frac{45 \\times 60}{15} \\times \\frac{15}{60}$\n$D = 45 \\times 1 = 45$ km."
+  },
+  {
+    "id": 67,
+    "section": "Quantitative Aptitude",
+    "q_en": "What is the remainder when $7^{42}$ is divided by 48?",
+    "q_hi": "जब $7^{42}$ को 48 से विभाजित किया जाता है, तो शेषफल क्या होता है?",
+    "options_en": ["1", "7", "47", "2"],
+    "options_hi": ["1", "7", "47", "2"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 1\n\nSolution:\n$7^{42} = (7^2)^{21} = (49)^{21}$\nजब 49 को 48 से भाग दिया जाता है, तो शेषफल 1 होता है।\n$(1)^{21} = 1$\nअतः शेषफल 1 होगा।"
+  },
+  {
+    "id": 68,
+    "section": "Quantitative Aptitude",
+    "q_en": "The marked price of an article is ₹800 and it is sold for ₹648. Find the discount percentage.",
+    "q_hi": "एक वस्तु का अंकित मूल्य ₹800 है और इसे ₹648 में बेचा जाता है। छूट प्रतिशत (Discount Percentage) ज्ञात कीजिये।",
+    "options_en": ["15%", "18%", "20%", "19%"],
+    "options_hi": ["15%", "18%", "20%", "19%"],
+    "answer": 3,
+    "explanation": "सही उत्तर: 19%\n\nSolution:\nDiscount = MP - SP = $800 - 648 = 152$\nDiscount % = $\\frac{152}{800} \\times 100$\n$= \\frac{152}{8} = 19\\%$."
+  },
+  {
+    "id": 69,
+    "section": "Quantitative Aptitude",
+    "q_en": "Find the third proportional to 9 and 15.",
+    "q_hi": "9 और 15 का तृतीयानुपाती (Third Proportional) ज्ञात कीजिये।",
+    "options_en": ["25", "30", "27", "21"],
+    "options_hi": ["25", "30", "27", "21"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 25\n\nSolution:\nFormula for third proportional to a and b is $\\frac{b^2}{a}$.\nयहाँ $a = 9, b = 15$\nThird Prop = $\\frac{15 \\times 15}{9}$\n$= \\frac{225}{9} = 25$."
+  },
+  {
+    "id": 70,
+    "section": "Quantitative Aptitude",
+    "q_en": "If $x : y = 3 : 4$ and $y : z = 5 : 7$, then find $x : y : z$.",
+    "q_hi": "यदि $x : y = 3 : 4$ और $y : z = 5 : 7$ है, तो $x : y : z$ ज्ञात कीजिये।",
+    "options_en": ["15:20:28", "15:20:21", "12:20:28", "15:18:28"],
+    "options_hi": ["15:20:28", "15:20:21", "12:20:28", "15:18:28"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 15:20:28\n\nSolution:\n$x : y = 3 : 4$\n$y : z = 5 : 7$\ny को समान करने के लिए पहले अनुपात को 5 से और दूसरे को 4 से गुणा करें।\n$x : y = 15 : 20$\n$y : z = 20 : 28$\n$x : y : z = 15 : 20 : 28$."
+  },
