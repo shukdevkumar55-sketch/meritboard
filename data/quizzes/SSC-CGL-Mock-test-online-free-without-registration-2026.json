@@ -6,1010 +6,106 @@
   "description": "<b>SSC CGL 2026 Tier-1 Full Mock Test:</b><br>1. <b>Based on New Syllabus:</b> Includes questions on New Criminal Laws (BNS, BNSS, BSA) and latest Current Affairs (2025-26).<br>2. <b>Sections Covered:</b> General Intelligence & Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension.<br>3. <b>Pattern:</b> 100 Questions, 200 Marks. 0.50 Negative Marking.<br>4. <b>Instructions:</b> Use the 'Translate' button to switch between Hindi and English.",
   "cover_image": "assets/ssc-cgl-2026-mock-test-1-thumbnail.webp",
   "questions": [
- {
+  {
     "id": 1,
     "section": "General Awareness",
-    "q_en": "Who among the following was the first woman to perform 'Kathak' in the persistent Mughal court style and was awarded the Padma Shri in 1968?",
-    "q_hi": "निम्नलिखित में से कौन मुगल दरबारी शैली में 'कथक' प्रस्तुत करने वाली पहली महिला थीं, जिन्हें 1968 में पद्म श्री से सम्मानित किया गया था?",
-    "options_en": ["Sitara Devi", "Damayanti Joshi", "Rukmini Devi Arundale", "Shovana Narayan", "Not Attempted"],
-    "options_hi": ["सितारा देवी", "दमयंती जोशी", "रुक्मिणी देवी अरुंडेल", "शोभना नारायण", "अनुत्तरित प्रश्न"],
+    "q_en": "Under which article of the Indian Constitution is the 'Uniform Civil Code' for citizens mentioned, which has been a subject of intense debate recently?",
+    "q_hi": "भारतीय संविधान के किस अनुच्छेद के तहत नागरिकों के लिए 'समान नागरिक संहिता' (Uniform Civil Code) का उल्लेख किया गया है, जो हाल ही में गहन बहस का विषय रहा है?",
+    "options_en": ["Article 40", "Article 44", "Article 45", "Article 51A"],
+    "options_hi": ["अनुच्छेद 40", "अनुच्छेद 44", "अनुच्छेद 45", "अनुच्छेद 51A"],
     "answer": 1,
-    "explanation": "सही उत्तर: दमयंती जोशी।\n\n📌 Exam Oriented Facts:\n1. दमयंती जोशी कथक के 'लखनऊ घराने' से संबंधित थीं।\n2. वह कथक में साड़ियों की जगह 'चूड़ीदार पायजामा' पहनकर नृत्य करने वाली पहली नृत्यांगना थीं।\n3. सितारा देवी को रवींद्रनाथ टैगोर ने 'नृत्य सम्राज्ञी' कहा था।\n4. रुक्मिणी देवी अरुंडेल 'भरतनाट्यम' से जुड़ी हैं।"
+    "explanation": "सही उत्तर: अनुच्छेद 44 (Article 44)\n\n📌 Exam Oriented Facts:\n1. अनुच्छेद 44 राज्य के नीति निर्देशक तत्वों (DPSP - Part IV) के अंतर्गत आता है।\n2. इसका उद्देश्य पूरे भारत में सभी धार्मिक समुदायों के लिए विवाह, तलाक, विरासत और गोद लेने के लिए एक समान कानून बनाना है।\n3. अनुच्छेद 40: ग्राम पंचायतों का संगठन।\n4. उत्तराखंड आजादी के बाद UCC लागू करने वाला (संभावित) पहला राज्य बना।"
   },
   {
     "id": 2,
     "section": "General Awareness",
-    "q_en": "Article 44 of the Indian Constitution, which has been in the news frequently, deals with which of the following?",
-    "q_hi": "भारतीय संविधान का अनुच्छेद 44, जो अक्सर खबरों में रहा है, निम्नलिखित में से किससे संबंधित है?",
-    "options_en": ["Gram Panchayats", "Uniform Civil Code", "Protection of Monuments", "Separation of Judiciary from Executive", "Not Attempted"],
-    "options_hi": ["ग्राम पंचायत", "समान नागरिक संहिता (UCC)", "स्मारकों का संरक्षण", "कार्यपालिका से न्यायपालिका का पृथक्करण", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: समान नागरिक संहिता (UCC)।\n\n📌 Exam Oriented Facts:\n1. अनुच्छेद 44 राज्य के नीति निर्देशक तत्वों (DPSP) का हिस्सा है।\n2. उत्तराखंड समान नागरिक संहिता (UCC) लागू करने वाला आजादी के बाद पहला राज्य बना है।\n3. गोवा में पुर्तगाली समय से ही कॉमन सिविल कोड लागू है।"
+    "q_en": "Who presided over the historic Lahore Session of the Indian National Congress in 1929, where the resolution of 'Purna Swaraj' was passed?",
+    "q_hi": "1929 में भारतीय राष्ट्रीय कांग्रेस के ऐतिहासिक लाहौर अधिवेशन की अध्यक्षता किसने की थी, जहाँ 'पूर्ण स्वराज' का प्रस्ताव पारित किया गया था?",
+    "options_en": ["Mahatma Gandhi", "Subhash Chandra Bose", "Jawaharlal Nehru", "Sardar Patel"],
+    "options_hi": ["महात्मा गांधी", "सुभाष चंद्र बोस", "जवाहरलाल नेहरू", "सरदार पटेल"],
+    "answer": 2,
+    "explanation": "सही उत्तर: जवाहरलाल नेहरू\n\n📌 Exam Oriented Facts:\n1. इसी अधिवेशन में तय किया गया था कि 26 जनवरी 1930 को 'प्रथम स्वतंत्रता दिवस' मनाया जाएगा।\n2. रावी नदी के तट पर पहली बार तिरंगा फहराया गया था।\n3. 1931 के कराची अधिवेशन (मौलिक अधिकार प्रस्ताव) की अध्यक्षता सरदार पटेल ने की थी।"
   },
   {
     "id": 3,
     "section": "General Awareness",
-    "q_en": "Which of the following chemical compounds is popularly known as 'Milk of Magnesia' used as an antacid?",
-    "q_hi": "निम्नलिखित में से किस रासायनिक यौगिक को 'मिल्क ऑफ मैग्नीशिया' के नाम से जाना जाता है, जिसका उपयोग एंटासिड (antacid) के रूप में किया जाता है?",
-    "options_en": ["Magnesium Carbonate", "Magnesium Hydroxide", "Calcium Hydroxide", "Sodium Bicarbonate", "Not Attempted"],
-    "options_hi": ["मैग्नीशियम कार्बोनेट", "मैग्नीशियम हाइड्रॉक्साइड", "कैल्शियम हाइड्रॉक्साइड", "सोडियम बाइकार्बोनेट", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: मैग्नीशियम हाइड्रॉक्साइड [Mg(OH)₂]।\n\n📌 Exam Oriented Facts:\n1. इसका उपयोग पेट की अम्लता (Acidity) को दूर करने के लिए किया जाता है।\n2. Calcium Hydroxide [Ca(OH)₂] को 'बुझा हुआ चूना' (Slaked Lime) कहते हैं।\n3. Sodium Bicarbonate [NaHCO₃] को 'बेकिंग सोडा' कहते हैं।"
+    "q_en": "Deficiency of which vitamin causes 'Pernicious Anaemia'?",
+    "q_hi": "किस विटामिन की कमी से 'प्रणाशी रक्ताल्पता' (Pernicious Anaemia) होती है?",
+    "options_en": ["Vitamin B6", "Vitamin B9", "Vitamin B12", "Vitamin K"],
+    "options_hi": ["विटामिन B6", "विटामिन B9", "विटामिन B12", "विटामिन K"],
+    "answer": 2,
+    "explanation": "सही उत्तर: विटामिन B12 (Cyanocobalamin)\n\n📌 Exam Oriented Facts:\n1. विटामिन B12 में 'कोबाल्ट' (Cobalt) धातु पाई जाती है।\n2. यह लाल रक्त कोशिकाओं (RBC) के निर्माण और तंत्रिका तंत्र के कार्य के लिए महत्वपूर्ण है।\n3. विटामिन B9 की कमी से 'Megaloblastic Anaemia' होता है।\n4. विटामिन K रक्त का थक्का (Blood Clotting) जमाने में मदद करता है।"
   },
   {
     "id": 4,
     "section": "General Awareness",
-    "q_en": "According to Census 2011, which state in India has the highest population density?",
-    "q_hi": "जनगणना 2011 के अनुसार, भारत के किस राज्य में जनसंख्या घनत्व (Population Density) सर्वाधिक है?",
-    "options_en": ["West Bengal", "Bihar", "Uttar Pradesh", "Maharashtra", "Not Attempted"],
-    "options_hi": ["पश्चिम बंगाल", "बिहार", "उत्तर प्रदेश", "महाराष्ट्र", "अनुत्तरित प्रश्न"],
+    "q_en": "The 'PM Vishwakarma Scheme' launched by the government primarily aims to support which section of society?",
+    "q_hi": "सरकार द्वारा शुरू की गई 'पीएम विश्वकर्मा योजना' का मुख्य उद्देश्य समाज के किस वर्ग को सहायता प्रदान करना है?",
+    "options_en": ["Farmers", "Traditional Artisans and Craftspeople", "Street Vendors", "Information Technology Startups"],
+    "options_hi": ["किसान", "पारंपरिक कारीगर और शिल्पकार", "स्ट्रीट वेंडर्स (फेरीवाले)", "सूचना प्रौद्योगिकी स्टार्टअप"],
     "answer": 1,
-    "explanation": "सही उत्तर: बिहार।\n\n📌 Exam Oriented Facts:\n1. बिहार का जनघनत्व 1106 व्यक्ति/वर्ग किमी है।\n2. दूसरे स्थान पर पश्चिम बंगाल (1028) है।\n3. सबसे कम जनघनत्व 'अरुणाचल प्रदेश' (17 व्यक्ति/वर्ग किमी) का है।\n4. केंद्र शासित प्रदेशों में 'दिल्ली' (11,320) शीर्ष पर है।"
+    "explanation": "सही उत्तर: पारंपरिक कारीगर और शिल्पकार (Traditional Artisans and Craftspeople)\n\n📌 Exam Oriented Facts:\n1. यह योजना 17 सितंबर 2023 (विश्वकर्मा जयंती) को लॉन्च की गई थी।\n2. इसमें 18 पारंपरिक व्यापार (जैसे- बढ़ई, लोहार, सुनार, कुम्हार) शामिल हैं।\n3. इसमें 5% की रियायती ब्याज दर पर ₹3 लाख तक का ऋण प्रदान किया जाता है।"
   },
   {
     "id": 5,
     "section": "General Awareness",
-    "q_en": "The 'Nari Shakti Vandan Adhiniyam' (106th Constitutional Amendment Act) provides what percentage of reservation for women in Lok Sabha and State Assemblies?",
-    "q_hi": "'नारी शक्ति वंदन अधिनियम' (106वां संविधान संशोधन अधिनियम) लोकसभा और राज्य विधानसभाओं में महिलाओं के लिए कितने प्रतिशत आरक्षण का प्रावधान करता है?",
-    "options_en": ["25%", "33%", "50%", "27%", "Not Attempted"],
-    "options_hi": ["25%", "33%", "50%", "27%", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 33%।\n\n📌 Exam Oriented Facts:\n1. यह 128वां संविधान संशोधन विधेयक था जो 106वां अधिनियम बना।\n2. यह आरक्षण 15 वर्षों के लिए लागू होगा।\n3. यह नई जनगणना और परिसीमन (Delimitation) के बाद प्रभावी होगा।"
+    "q_en": "Which of the following is NOT a tributary of the Godavari River?",
+    "q_hi": "निम्नलिखित में से कौन सी गोदावरी नदी की सहायक नदी (Tributary) नहीं है?",
+    "options_en": ["Pranhita", "Indravati", "Manjira", "Tungabhadra"],
+    "options_hi": ["प्राणहिता", "इंद्रावती", "मंजीरा", "तुंगभद्रा"],
+    "answer": 3,
+    "explanation": "सही उत्तर: तुंगभद्रा (Tungabhadra)\n\n📌 Exam Oriented Facts:\n1. 'तुंगभद्रा' कृष्णा नदी की प्रमुख सहायक नदी है।\n2. गोदावरी (दक्षिण गंगा) की सहायक नदियाँ: प्राणहिता, इंद्रावती, मंजीरा, सबरी, और वेनगंगा।\n3. गोदावरी नासिक (त्र्यंबकेश्वर) से निकलती है और प्रायद्वीपीय भारत की सबसे लंबी नदी है।"
   },
   {
     "id": 6,
     "section": "General Awareness",
-    "q_en": "In which year was the 'Battle of Talikota' fought, leading to the downfall of the Vijayanagara Empire?",
-    "q_hi": "'तालीकोटा का युद्ध' किस वर्ष लड़ा गया था, जिसके कारण विजयनगर साम्राज्य का पतन हुआ?",
-    "options_en": ["1526", "1556", "1565", "1576", "Not Attempted"],
-    "options_hi": ["1526", "1556", "1565", "1576", "अनुत्तरित प्रश्न"],
+    "q_en": "In the context of Indian Culture, 'Sattriya' is a classical dance form of which state?",
+    "q_hi": "भारतीय संस्कृति के संदर्भ में, 'सत्रिया' (Sattriya) किस राज्य का शास्त्रीय नृत्य है?",
+    "options_en": ["Manipur", "Odisha", "Assam", "Kerala"],
+    "options_hi": ["मणिपुर", "ओडिशा", "असम", "केरल"],
     "answer": 2,
-    "explanation": "सही उत्तर: 1565।\n\n📌 Exam Oriented Facts:\n1. इसे 'राक्षस-तांगड़ी' का युद्ध भी कहा जाता है।\n2. यह विजयनगर साम्राज्य (राजा राम राय) और दक्कन सल्तनत (बीजापुर, बीदर, अहमदनगर, गोलकोंडा) के संघ के बीच लड़ा गया था।\n3. इस समय विजयनगर के शासक सदाशिव राय थे, लेकिन वास्तविक शक्ति राम राय के पास थी।"
+    "explanation": "सही उत्तर: असम\n\n📌 Exam Oriented Facts:\n1. सत्रिया नृत्य को 15वीं शताब्दी में वैष्णव संत 'शंकरदेव' द्वारा पेश किया गया था।\n2. इसे वर्ष 2000 में संगीत नाटक अकादमी द्वारा शास्त्रीय नृत्य का दर्जा दिया गया।\n3. भारत में कुल 8 मुख्य शास्त्रीय नृत्य माने जाते हैं (संस्कृति मंत्रालय के अनुसार 9 - छऊ को मिलाकर)।"
   },
   {
     "id": 7,
     "section": "General Awareness",
-    "q_en": "Who is the author of the book 'Why Bharat Matters' released in 2024?",
-    "q_hi": "2024 में विमोचित पुस्तक 'Why Bharat Matters' के लेखक कौन हैं?",
-    "options_en": ["Shashi Tharoor", "S. Jaishankar", "Narendra Modi", "Amitav Ghosh", "Not Attempted"],
-    "options_hi": ["शशि थरूर", "एस. जयशंकर", "नरेंद्र मोदी", "अमिताभ घोष", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: एस. जयशंकर (विदेश मंत्री)।\n\n📌 Exam Oriented Facts:\n1. इस पुस्तक में भारत की बदलती विदेश नीति और वैश्विक स्तर पर भारत के बढ़ते महत्व पर चर्चा की गई है।\n2. उनकी पिछली प्रसिद्ध पुस्तक 'The India Way: Strategies for an Uncertain World' थी।"
+    "q_en": "What is the common name of the chemical compound 'Calcium Oxychloride' ($CaOCl_2$)?",
+    "q_hi": "रासायनिक यौगिक 'कैल्शियम ऑक्सीक्लोराइड' ($CaOCl_2$) का सामान्य नाम क्या है?",
+    "options_en": ["Baking Soda", "Washing Soda", "Bleaching Powder", "Gypsum"],
+    "options_hi": ["बेकिंग सोडा", "धवन सोडा (Washing Soda)", "विरंजक चूर्ण (Bleaching Powder)", "जिप्सम"],
+    "answer": 2,
+    "explanation": "सही उत्तर: विरंजक चूर्ण (Bleaching Powder)\n\n📌 Exam Oriented Facts:\n1. निर्माण: शुष्क बुझे हुए चूने ($Ca(OH)_2$) पर क्लोरीन ($Cl_2$) गैस प्रवाहित करने से बनता है।\n2. उपयोग: पानी को कीटाणुरहित करने और कपड़ा उद्योग में विरंजन (Bleaching) के लिए।\n3. जिप्सम: $CaSO_4 \cdot 2H_2O$।\n4. बेकिंग सोडा: $NaHCO_3$।"
   },
   {
     "id": 8,
     "section": "General Awareness",
-    "q_en": "Which Five Year Plan in India focused on 'Growth with Social Justice and Equity'?",
-    "q_hi": "भारत में किस पंचवर्षीय योजना ने 'सामाजिक न्याय और समानता के साथ विकास' (Growth with Social Justice and Equity) पर ध्यान केंद्रित किया?",
-    "options_en": ["8th Five Year Plan", "9th Five Year Plan", "10th Five Year Plan", "11th Five Year Plan", "Not Attempted"],
-    "options_hi": ["8वीं पंचवर्षीय योजना", "9वीं पंचवर्षीय योजना", "10वीं पंचवर्षीय योजना", "11वीं पंचवर्षीय योजना", "अनुत्तरित प्रश्न"],
+    "q_en": "Who wrote the ancient Indian historical play 'Mudra Rakshasa'?",
+    "q_hi": "प्राचीन भारतीय ऐतिहासिक नाटक 'मुद्राराक्षस' किसने लिखा था?",
+    "options_en": ["Kalidasa", "Vishakhadatta", "Banabhatta", "Shudraka"],
+    "options_hi": ["कालिदास", "विशाखदत्त", "बाणभट्ट", "शूद्रक"],
     "answer": 1,
-    "explanation": "सही उत्तर: 9वीं पंचवर्षीय योजना (1997-2002)।\n\n📌 Exam Oriented Facts:\n1. यह योजना भारत की स्वतंत्रता के 50 वर्ष पूरे होने पर शुरू की गई थी।\n2. 10वीं योजना का लक्ष्य अगले 10 वर्षों में प्रति व्यक्ति आय को दोगुना करना था।\n3. 11वीं और 12वीं योजना का फोकस 'Inclusive Growth' (समावेशी विकास) पर था।"
+    "explanation": "सही उत्तर: विशाखदत्त\n\n📌 Exam Oriented Facts:\n1. 'मुद्राराक्षस' संस्कृत भाषा में लिखा गया है।\n2. यह चंद्रगुप्त मौर्य के सत्ता में आने और चाणक्य (कौटिल्य) द्वारा नंद वंश को उखाड़ फेंकने की कहानी बताता है।\n3. बाणभट्ट: हर्षचरित, कादंबरी।\n4. शूद्रक: मृच्छकटिकम् (मिट्टी की गाड़ी)।"
   },
   {
     "id": 9,
     "section": "General Awareness",
-    "q_en": "The 'Dree Festival' is an agricultural festival celebrated primarily in which Indian state?",
-    "q_hi": "'द्री महोत्सव' (Dree Festival) मुख्य रूप से भारत के किस राज्य में मनाया जाने वाला एक कृषि उत्सव है?",
-    "options_en": ["Nagaland", "Arunachal Pradesh", "Manipur", "Mizoram", "Not Attempted"],
-    "options_hi": ["नागालैंड", "अरुणाचल प्रदेश", "मणिपुर", "मिजोरम", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: अरुणाचल प्रदेश।\n\n📌 Exam Oriented Facts:\n1. यह 'अपतानी' (Apatani) जनजाति द्वारा मनाया जाता है।\n2. यह अच्छी फसल के लिए देवताओं को प्रसन्न करने हेतु जुलाई महीने में मनाया जाता है।\n3. अन्य महत्वपूर्ण त्यौहार: हॉर्नबिल (नागालैंड), चपचार कुट (मिजोरम)।"
+    "q_en": "According to the multidimensional poverty index (MPI) released by NITI Aayog, poverty is measured based on which three dimensions?",
+    "q_hi": "नीति आयोग द्वारा जारी बहुआयामी गरीबी सूचकांक (MPI) के अनुसार, गरीबी को किन तीन आयामों (Dimensions) के आधार पर मापा जाता है?",
+    "options_en": ["Health, Education, Standard of Living", "Income, Education, Occupation", "Health, Income, Housing", "Education, Consumption, Assets"],
+    "options_hi": ["स्वास्थ्य, शिक्षा, जीवन स्तर", "आय, शिक्षा, व्यवसाय", "स्वास्थ्य, आय, आवास", "शिक्षा, उपभोग, संपत्ति"],
+    "answer": 0,
+    "explanation": "सही उत्तर: स्वास्थ्य, शिक्षा, जीवन स्तर (Health, Education, Standard of Living)\n\n📌 Exam Oriented Facts:\n1. यह सूचकांक 12 संकेतकों (Indicators) का उपयोग करता है।\n2. स्वास्थ्य: पोषण, बाल-किशोरी मृत्यु दर।\n3. शिक्षा: स्कूली शिक्षा के वर्ष, स्कूल में उपस्थिति।\n4. जीवन स्तर: बिजली, आवास, संपत्ति, बैंक खाता आदि।"
   },
   {
     "id": 10,
     "section": "General Awareness",
-    "q_en": "Which layer of the atmosphere contains the ozone layer that protects us from harmful UV rays?",
-    "q_hi": "वायुमंडल की किस परत में ओजोन परत पाई जाती है जो हमें हानिकारक यूवी (UV) किरणों से बचाती है?",
-    "options_en": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Not Attempted"],
-    "options_hi": ["क्षोभमंडल (Troposphere)", "समतापमंडल (Stratosphere)", "मध्यमंडल (Mesosphere)", "तापमंडल (Thermosphere)", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: समतापमंडल (Stratosphere)।\n\n📌 Exam Oriented Facts:\n1. ओजोन परत समतापमंडल के निचले हिस्से में पाई जाती है।\n2. मौसम संबंधी सभी घटनाएं (बारिश, बादल) क्षोभमंडल में होती हैं।\n3. हवाई जहाज उड़ाने के लिए समतापमंडल सबसे उपयुक्त है।\n4. सबसे ठंडी परत मध्यमंडल (Mesosphere) है।"
-  },
-  {
-    "id": 11,
-    "section": "General Awareness",
-    "q_en": "Under the PM-JANMAN scheme, the focus is on the development of which specific group?",
-    "q_hi": "PM-JANMAN (पीएम-जनमन) योजना के तहत किस विशिष्ट समूह के विकास पर ध्यान केंद्रित किया गया है?",
-    "options_en": ["Street Vendors", "PVTGs (Particularly Vulnerable Tribal Groups)", "MSME Sector", "Farmers", "Not Attempted"],
-    "options_hi": ["स्ट्रीट वेंडर्स", "PVTGs (विशेष रूप से कमजोर जनजातीय समूह)", "MSME क्षेत्र", "किसान", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: PVTGs (विशेष रूप से कमजोर जनजातीय समूह)।\n\n📌 Exam Oriented Facts:\n1. Full Form: Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan.\n2. भारत में कुल 75 PVTGs हैं (सर्वाधिक ओडिशा में)।\n3. इसका उद्देश्य आवास, स्वच्छ जल, शिक्षा और स्वास्थ्य जैसी बुनियादी सुविधाएं प्रदान करना है।"
-  },
-  {
-    "id": 12,
-    "section": "General Awareness",
-    "q_en": "Who discovered the 'Nucleus' of a cell in 1831?",
-    "q_hi": "1831 में कोशिका के 'केंद्रक' (Nucleus) की खोज किसने की थी?",
-    "options_en": ["Robert Hooke", "Robert Brown", "Camillo Golgi", "Rudolf Virchow", "Not Attempted"],
-    "options_hi": ["रॉबर्ट हुक", "रॉबर्ट ब्राउन", "कैमिलो गोल्गी", "रूडोल्फ विरचो", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: रॉबर्ट ब्राउन।\n\n📌 Exam Oriented Facts:\n1. रॉबर्ट हुक (1665) ने 'कोशिका' (मृत) की खोज की थी।\n2. ल्यूवेनहॉक ने सबसे पहले 'जीवित कोशिका' देखी थी।\n3. रूडोल्फ विरचो ने 'Omnis cellula-e cellula' (नई कोशिकाएं पुरानी कोशिकाओं से बनती हैं) का सिद्धांत दिया।"
-  },
-  {
-    "id": 13,
-    "section": "General Awareness",
-    "q_en": "The 'Sultan of Johor Cup' is associated with which sport?",
-    "q_hi": "'सुल्तान ऑफ जोहोर कप' किस खेल से संबंधित है?",
-    "options_en": ["Football", "Hockey", "Cricket", "Badminton", "Not Attempted"],
-    "options_hi": ["फुटबॉल", "हॉकी", "क्रिकेट", "बैडमिंटन", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: हॉकी।\n\n📌 Exam Oriented Facts:\n1. यह एक वार्षिक अंतरराष्ट्रीय अंडर-21 पुरुष फील्ड हॉकी टूर्नामेंट है जो मलेशिया में होता है।\n2. अन्य हॉकी ट्राफियां: आगा खान कप, ध्यानचंद ट्रॉफी, सुल्तान अजलान शाह कप।"
-  },
-  {
-    "id": 14,
-    "section": "General Awareness",
-    "q_en": "Which article of the Indian Constitution grants the High Courts the power to issue writs?",
-    "q_hi": "भारतीय संविधान का कौन सा अनुच्छेद उच्च न्यायालयों (High Courts) को रिट (writs) जारी करने की शक्ति प्रदान करता है?",
-    "options_en": ["Article 32", "Article 226", "Article 124", "Article 214", "Not Attempted"],
-    "options_hi": ["अनुच्छेद 32", "अनुच्छेद 226", "अनुच्छेद 124", "अनुच्छेद 214", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: अनुच्छेद 226।\n\n📌 Exam Oriented Facts:\n1. अनुच्छेद 32 के तहत 'सुप्रीम कोर्ट' रिट जारी करता है (इसे संविधान की आत्मा कहा जाता है)।\n2. हाई कोर्ट की रिट शक्ति सुप्रीम कोर्ट से व्यापक है क्योंकि यह मौलिक अधिकारों के अलावा अन्य कानूनी अधिकारों के लिए भी रिट जारी कर सकता है।\n3. अनुच्छेद 214 राज्यों के लिए उच्च न्यायालय का प्रावधान करता है।"
-  },
-  {
-    "id": 15,
-    "section": "General Awareness",
-    "q_en": "In the classification of the animal kingdom, 'Prawns' and 'Butterflies' belong to which phylum?",
-    "q_hi": "जंतु जगत के वर्गीकरण में, 'झींगा' (Prawns) और 'तितलियाँ' किस संघ (Phylum) से संबंधित हैं?",
-    "options_en": ["Mollusca", "Arthropoda", "Annelida", "Echinodermata", "Not Attempted"],
-    "options_hi": ["मोलस्का", "आर्थ्रोपोडा", "एनेलिडा", "इचिनोडर्मेटा", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: आर्थ्रोपोडा।\n\n📌 Exam Oriented Facts:\n1. आर्थ्रोपोडा जंतु जगत का सबसे बड़ा संघ है।\n2. इनकी विशेषता: जुड़े हुए पैर (Jointed legs) और खुला परिसंचरण तंत्र।\n3. मोलस्का: घोंघा, ऑक्टोपस।\n4. एनेलिडा: केंचुआ (Earthworm)।"
-  },
-  {
-    "id": 16,
-    "section": "General Awareness",
-    "q_en": "Who among the following founded the 'Arya Mahila Samaj' in Pune?",
-    "q_hi": "निम्नलिखित में से किसने पुणे में 'आर्य महिला समाज' की स्थापना की थी?",
-    "options_en": ["Savitribai Phule", "Pandita Ramabai", "Sarojini Naidu", "Annie Besant", "Not Attempted"],
-    "options_hi": ["सावित्रीबाई फुले", "पंडिता रमाबाई", "सरोजिनी नायडू", "एनी बेसेंट", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: पंडिता रमाबाई।\n\n📌 Exam Oriented Facts:\n1. उन्होंने 1882 में इसकी स्थापना महिलाओं की शिक्षा और बाल विवाह के दमन के लिए की थी।\n2. उन्होंने 'मुक्ति मिशन' और 'शारदा सदन' (विधवाओं के लिए) की भी स्थापना की।\n3. सावित्रीबाई फुले ने भारत का पहला बालिका विद्यालय (भिड़े वाड़ा, पुणे) शुरू किया।"
-  },
-  {
-    "id": 17,
-    "section": "General Awareness",
-    "q_en": "The 'Kumari' ranges of the Western Ghats are known for which type of cultivation in Kerala?",
-    "q_hi": "पश्चिमी घाट की 'कुमारी' (Kumari) श्रृंखला केरल में किस प्रकार की खेती के लिए जानी जाती है?",
-    "options_en": ["Terrace Farming", "Shifting Cultivation", "Plantation Agriculture", "Organic Farming", "Not Attempted"],
-    "options_hi": ["सीढ़ीदार खेती", "स्थानांतरित कृषि (झूम)", "बागवानी कृषि", "जैविक खेती", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: स्थानांतरित कृषि (Shifting Cultivation)।\n\n📌 Exam Oriented Facts:\n1. 'स्थानांतरित कृषि' को अलग-अलग जगह अलग नाम से जाना जाता है:\n   - झूम: उत्तर-पूर्वी भारत\n   - कुमारी: पश्चिमी घाट (केरल)\n   - पोडू/पेंडा: आंध्र प्रदेश/ओडिशा\n   - बेवर/दहिया: मध्य प्रदेश"
-  },
-  {
-    "id": 18,
-    "section": "General Awareness",
-    "q_en": "Which of the following musical instruments does 'Ustad Bismillah Khan' play?",
-    "q_hi": "'उस्ताद बिस्मिल्लाह खान' निम्नलिखित में से कौन सा वाद्ययंत्र बजाते थे?",
-    "options_en": ["Sarod", "Shehnai", "Sitar", "Flute", "Not Attempted"],
-    "options_hi": ["सरोद", "शहनाई", "सितार", "बांसुरी", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: शहनाई।\n\n📌 Exam Oriented Facts:\n1. उन्हें 2001 में 'भारत रत्न' से सम्मानित किया गया था।\n2. वह लाल किले पर 15 अगस्त 1947 को शहनाई बजाने वाले पहले व्यक्ति थे।\n3. सरोद: अमजद अली खान।\n4. बांसुरी: हरिप्रसाद चौरसिया।"
-  },
-  {
-    "id": 19,
-    "section": "General Awareness",
-    "q_en": "What is the SI unit of 'Electric Potential Difference'?",
-    "q_hi": "'विद्युत विभवांतर' (Electric Potential Difference) का SI मात्रक क्या है?",
-    "options_en": ["Watt", "Joule", "Volt", "Ampere", "Not Attempted"],
-    "options_hi": ["वाट", "जूल", "वोल्ट", "एम्पीयर", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: वोल्ट (Volt)।\n\n📌 Exam Oriented Facts:\n1. विभवांतर को 'वोल्टमीटर' से मापा जाता है।\n2. एम्पीयर (Ampere): विद्युत धारा।\n3. वाट (Watt): शक्ति (Power)।\n4. जूल (Joule): कार्य/ऊर्जा।"
-  },
-  {
-    "id": 20,
-    "section": "General Awareness",
-    "q_en": "In February 2024, the government announced the conferment of 'Bharat Ratna' to which former Prime Minister credited with opening up the Indian Economy?",
-    "q_hi": "फरवरी 2024 में, सरकार ने किस पूर्व प्रधान मंत्री को 'भारत रत्न' देने की घोषणा की, जिन्हें भारतीय अर्थव्यवस्था को खोलने ( उदारीकरण) का श्रेय दिया जाता है?",
-    "options_en": ["Atal Bihari Vajpayee", "P.V. Narasimha Rao", "Manmohan Singh", "V.P. Singh", "Not Attempted"],
-    "options_hi": ["अटल बिहारी वाजपेयी", "पी.वी. नरसिम्हा राव", "मनमोहन सिंह", "वी.पी. सिंह", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: पी.वी. नरसिम्हा राव।\n\n📌 Exam Oriented Facts:\n1. 2024 में 5 लोगों को भारत रत्न दिया गया: पी.वी. नरसिम्हा राव, चौधरी चरण सिंह, एम.एस. स्वामीनाथन, कर्पूरी ठाकुर, और लाल कृष्ण आडवाणी।\n2. 1991 के आर्थिक सुधार (LPG - Liberalization, Privatization, Globalization) नरसिम्हा राव के कार्यकाल में हुए थे।"
-  },
-  {
-    "id": 21,
-    "section": "General Awareness",
-    "q_en": "The 'Kishanganga' river is a major tributary of which river?",
-    "q_hi": "'किशनगंगा' नदी किस नदी की प्रमुख सहायक नदी (Tributary) है?",
-    "options_en": ["Indus", "Chenab", "Jhelum", "Ravi", "Not Attempted"],
-    "options_hi": ["सिंधु", "चिनाब", "झेलम", "रावी", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: झेलम।\n\n📌 Exam Oriented Facts:\n1. पाकिस्तान में किशनगंगा को 'नीलम नदी' कहा जाता है।\n2. किशनगंगा जलविद्युत परियोजना जम्मू और कश्मीर में स्थित है, जिस पर भारत-पाक विवाद रहता है।\n3. झेलम नदी 'वेरीनाग' (पीर पंजाल) से निकलती है।"
-  },
-  {
-    "id": 22,
-    "section": "General Awareness",
-    "q_en": "Which amendment of the Constitution lowered the voting age from 21 years to 18 years?",
-    "q_hi": "संविधान के किस संशोधन ने मतदान की आयु 21 वर्ष से घटाकर 18 वर्ष कर दी?",
-    "options_en": ["42nd Amendment", "44th Amendment", "61st Amendment", "69th Amendment", "Not Attempted"],
-    "options_hi": ["42वां संशोधन", "44वां संशोधन", "61वां संशोधन", "69वां संशोधन", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: 61वां संशोधन (1989)।\n\n📌 Exam Oriented Facts:\n1. यह राजीव गांधी सरकार के दौरान पारित हुआ था।\n2. इसने अनुच्छेद 326 में संशोधन किया।\n3. 69वां संशोधन: दिल्ली को NCR का दर्जा।\n4. 42वां संशोधन: 'लघु संविधान' (Mini Constitution)।"
-  },
-  {
-    "id": 23,
-    "section": "General Awareness",
-    "q_en": "In economics, what does 'CRR' stand for?",
-    "q_hi": "अर्थशास्त्र में, 'CRR' का पूर्ण रूप क्या है?",
-    "options_en": ["Cash Reserve Ratio", "Current Repo Rate", "Capital Reserve Ratio", "Credit Regulatory Ratio", "Not Attempted"],
-    "options_hi": ["कैश रिज़र्व रेशियो", "करंट रेपो रेट", "कैपिटल रिज़र्व रेशियो", "क्रेडिट रेगुलेटरी रेशियो", "अनुत्तरित प्रश्न"],
+    "q_en": "In MS-Excel, which shortcut key is used to insert the current date?",
+    "q_hi": "MS-Excel में, वर्तमान दिनांक (Current Date) डालने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+    "options_en": ["Ctrl + ;", "Ctrl + Shift + ;", "Alt + D", "Ctrl + D"],
+    "options_hi": ["Ctrl + ;", "Ctrl + Shift + ;", "Alt + D", "Ctrl + D"],
     "answer": 0,
-    "explanation": "सही उत्तर: Cash Reserve Ratio (नकद आरक्षित अनुपात)।\n\n📌 Exam Oriented Facts:\n1. यह जमा राशि का वह प्रतिशत है जो बैंकों को RBI के पास नकद रूप में रखना पड़ता है।\n2. CRR बढ़ने पर बैंकों के पास ऋण देने के लिए कम पैसा बचता है (मुद्रास्फीति नियंत्रण के लिए उपयोगी)।\n3. SLR (Statutory Liquidity Ratio): बैंकों को अपने पास गोल्ड या कैश रूप में रखना होता है।"
-  },
-  {
-    "id": 24,
-    "section": "General Awareness",
-    "q_en": "Who among the following was the founder of the 'Satavahana' dynasty?",
-    "q_hi": "निम्नलिखित में से कौन 'सातवाहन' वंश का संस्थापक था?",
-    "options_en": ["Gautamiputra Satakarni", "Simuka", "Hala", "Kanha", "Not Attempted"],
-    "options_hi": ["गौतमीपुत्र शातकर्णी", "सिमुक", "हाल", "कान्हा", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: सिमुक।\n\n📌 Exam Oriented Facts:\n1. सातवाहनों को 'आंध्र' भी कहा जाता था।\n2. उनकी राजधानी 'प्रतिष्ठान' (पैठन) थी।\n3. उन्होंने 'शीशे' (Lead) के सिक्के जारी किए थे।\n4. गौतमीपुत्र शातकर्णी इस वंश का सबसे महान शासक था।"
-  },
-  {
-    "id": 25,
-    "section": "General Awareness",
-    "q_en": "Which gas is evolved when an acid reacts with a metal?",
-    "q_hi": "जब कोई अम्ल (Acid) किसी धातु (Metal) के साथ अभिक्रिया करता है, तो कौन सी गैस निकलती है?",
-    "options_en": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen", "Not Attempted"],
-    "options_hi": ["ऑक्सीजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन", "नाइट्रोजन", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: हाइड्रोजन।\n\n📌 Exam Oriented Facts:\n1. उदाहरण: Zn + H₂SO₄ → ZnSO₄ + H₂\n2. हाइड्रोजन गैस की उपस्थिति की जांच के लिए जलती हुई माचिस की तीली पास लाने पर 'पॉप' (Pop) ध्वनि आती है।\n3. धातु कार्बोनेट के साथ अम्ल की अभिक्रिया से CO₂ निकलती है।"
-  },
-  {
-    "id": 26,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "In a certain code language, 'GLOBAL' is written as 'TOLYZO'. How will 'RATING' be written in that language?",
-    "q_hi": "एक निश्चित कूट भाषा में, 'GLOBAL' को 'TOLYZO' लिखा जाता है। उसी भाषा में 'RATING' को कैसे लिखा जाएगा?",
-    "options_en": ["IZGRMT", "IZGMRT", "JZHQNU", "IZGQMT", "Not Attempted"],
-    "options_hi": ["IZGRMT", "IZGMRT", "JZHQNU", "IZGQMT", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: IZGRMT\n\nLogic: Reverse Order + Opposite Letter (विपरीत अक्षर)।\nWord: G L O B A L\nReverse: L A B O L G\nOpposite: O Z Y L O T\n\nSimilarly for RATING:\nReverse: G N I T A R\nOpposite: T M R G Z I\nArrangement in question seems to follow a specific Opposite pair mapping directly or Shift.\n\nLet's re-evaluate Logic 2 based on option A (IZGRMT):\nG(7) <-> T(20) (Opposite)\nL(12) <-> O(15) (Opposite)\nO(15) <-> L(12) (Opposite)\nB(2) <-> Y(25) (Opposite)\nA(1) <-> Z(26) (Opposite)\nL(12) <-> O(15) (Opposite)\nCode: TOLYZO. It is direct Opposite.\n\nR -> I (Indian Railway)\nA -> Z (Azad)\nT -> G (GT Road)\nI -> R (Indian Railway)\nN -> M (Man)\nG -> T (GT Road)\nCorrect Code: IZGRMT"
-  },
-  {
-    "id": 27,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(12, 8, 80)\n(16, 10, 156)",
-    "q_hi": "उस समुच्चय का चयन करें जिसमें संख्याएं उसी प्रकार संबंधित हैं जैसे निम्नलिखित समुच्चयों की संख्याएं हैं।\n(12, 8, 80)\n(16, 10, 156)",
-    "options_en": ["(14, 12, 106)", "(15, 5, 200)", "(18, 8, 260)", "(13, 13, 169)", "Not Attempted"],
-    "options_hi": ["(14, 12, 106)", "(15, 5, 200)", "(18, 8, 260)", "(13, 13, 169)", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: (18, 8, 260)\n\nLogic: $(First \ Number)^2 - (Second \ Number)^2 = Third \ Number$\nSet 1: $12^2 - 8^2 = 144 - 64 = 80$\nSet 2: $16^2 - 10^2 = 256 - 100 = 156$\n\nOption (3): $18^2 - 8^2 = 324 - 64 = 260$"
-  },
-  {
-    "id": 28,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nBees : Apiary :: Monk : ?",
-    "q_hi": "उस विकल्प का चयन करें जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है।\nमधुमक्खियां : एपियरी (Apiary) :: भिक्षु (Monk) : ?",
-    "options_en": ["Seminary", "Monastery", "Convent", "Asylum", "Not Attempted"],
-    "options_hi": ["पाठशाला (Seminary)", "मठ (Monastery)", "कॉन्वेंट (Convent)", "शरणस्थल (Asylum)", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: मठ (Monastery)\n\nLogic: Dwelling Place (निवास स्थान)।\nमधुमक्खियों के रखने की जगह को Apiary कहते हैं।\nभिक्षुओं (Monks) के रहने की जगह को Monastery कहते हैं।\n(Convent नन (Nuns) के लिए होता है)।"
-  },
-  {
-  "id": 29,
-  "section": "General Intelligence & Reasoning",
-  "q_en": "Three of the following four letter-clusters are alike in a certain way and one is different. Pick the odd one out.",
-  "q_hi": "निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और एक अलग है। विषम का चयन करें।",
-  "options_en": ["DWFU", "HSJQ", "MNPK", "EVGT", "Not Attempted"],
-  "options_hi": ["DWFU", "HSJQ", "MNPK", "EVGT", "अनुत्तरित प्रश्न"],
-  "answer": 2,
-  "explanation": "सही उत्तर: MNPK\n\nLogic: दो विपरीत अक्षर युग्म (Two pairs of Opposite Letters) + पहले युग्म के पहले अक्षर और दूसरे युग्म के पहले अक्षर में +2 का अंतर।\n\n1. DWFU:\n   - D ↔ W (Opposite)\n   - F ↔ U (Opposite)\n   - Gap: D(4) → F(6) = +2\n\n2. HSJQ:\n   - H ↔ S (Opposite)\n   - J ↔ Q (Opposite)\n   - Gap: H(8) → J(10) = +2\n\n4. EVGT:\n   - E ↔ V (Opposite)\n   - G ↔ T (Opposite)\n   - Gap: E(5) → G(7) = +2\n\n3. MNPK (Odd One):\n   - M ↔ N (Opposite)\n   - P ↔ K (Opposite)\n   - Gap: M(13) → P(16) = +3 (यहाँ अंतर अलग है)।"
-},
-  {
-    "id": 30,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Which two signs should be interchanged to make the given equation correct?\n14 + 16 × 14 − 7 ÷ 2 = 50",
-    "q_hi": "दिए गए समीकरण को सही बनाने के लिए किन दो चिन्हों को आपस में बदला जाना चाहिए?\n14 + 16 × 14 − 7 ÷ 2 = 50",
-    "options_en": ["× and −", "÷ and ×", "+ and ÷", "− and +", "Not Attempted"],
-    "options_hi": ["× और −", "÷ और ×", "+ और ÷", "− और +", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: ÷ और ×\n\nEquation: 14 + 16 × 14 − 7 ÷ 2 = 50\nInterchanging ÷ and ×:\nNew Equation: 14 + 16 ÷ 14 − 7 × 2\n(Wait, 16/14 is fraction. SSC usually gives integers. Let me re-set numbers for a clean integer solution).\n\nNew Numbers: 40 + 10 ÷ 2 × 8 - 15 = ?\nTarget = 65\nIf we swap others... \n\nLet's provide a solved valid equation.\nEquation: 24 ÷ 6 + 12 × 4 - 8 = 30? No.\n\n**Fixed Question for JSON:**\nEq: 12 × 8 + 36 ÷ 9 - 6 = 105 (False)\nTarget: Correct swap to make it valid.\n\nLet's take a solved one:\n$18 + 6 \div 3 \times 4 - 5 = 18 + 8 - 5 = 21$.\nOriginal given to user: $18 \times 6 \div 3 + 4 - 5 = 21$? \n$18 \times 2 + 4 - 5 = 36+4-5 = 35$ (Wrong).\nSwap + and x: $18 + 6 \div 3 \times 4 - 5$ -> $18 + 2 \times 4 - 5 = 21$. Correct.\n\nSo Q: $18 \times 6 \div 3 + 4 - 5 = 21$. Swap + and x."
-  },
-  {
-    "id": 31,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.\n4, 11, 30, 67, 128, ?",
-    "q_hi": "एक श्रृंखला दी गई है जिसमें एक पद लुप्त है। दिए गए विकल्पों में से वह सही विकल्प चुनें जो श्रृंखला को पूरा करेगा।\n4, 11, 30, 67, 128, ?",
-    "options_en": ["219", "221", "230", "245", "Not Attempted"],
-    "options_hi": ["219", "221", "230", "245", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 219\n\nLogic: $n^3 + 3$\n$1^3 + 3 = 4$\n$2^3 + 3 = 11$\n$3^3 + 3 = 30$\n$4^3 + 3 = 67$\n$5^3 + 3 = 128$\nNext: $6^3 + 3 = 216 + 3 = 219$"
-  },
-  {
-    "id": 32,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the option in which the numbers are related in the same way as are the numbers of the following set.\n(14, 18, 224)",
-    "q_hi": "उस विकल्प का चयन करें जिसमें संख्याएं उसी प्रकार संबंधित हैं जैसे निम्नलिखित समुच्चय की संख्याएं हैं।\n(14, 18, 224)",
-    "options_en": ["(12, 15, 180)", "(11, 19, 219)", "(16, 20, 310)", "(15, 14, 210)", "Not Attempted"],
-    "options_hi": ["(12, 15, 180)", "(11, 19, 219)", "(16, 20, 310)", "(15, 14, 210)", "अनुत्तरित प्रश्न"],
-    "answer": 3,
-    "explanation": "सही उत्तर: (15, 14, 210)\n\nLogic: First Number × Second Number = Third Number? No.\n$14 \times 18 = 252$ (Not 224).\n\nLogic 2: $(A + B) \times 7$\n$(14 + 18) \times 7 = 32 \times 7 = 224$. Correct.\n\nCheck options:\n1. $(12+15) \times 7 = 27 \times 7 = 189$ (Fail)\n2. $(11+19) \times 7 = 30 \times 7 = 210$ (Fail)\n3. $(16+20) \times 7 = 36 \times 7 = 252$ (Fail)\n4. $(15+14) \times 7 = ?$. Wait. $29 \times 7 = 203$. (Fail)\n\nLet's try Logic 3: $(A \times B) - A - B$\n$252 - 32 = 220$ (Close).\n\nLet's re-frame logic for a perfect SSC question.\nLogic: $(A \times B) - 28 = C$?\nNo.\nLet's use a simpler one: $A \times (B-2) = C$\n$14 \times (18-2) = 14 \times 16 = 224$. Correct.\n\nCheck Options:\n4. $15 \times (14-2) = 15 \times 12 = 180$ (Option says 210, so Fail).\n1. $12 \times (15-2) = 12 \times 13 = 156$ (Option says 180, Fail).\n\nLet's change Option 1 to be the answer: (12, 17, 180)\n$12 \times (17-2) = 12 \times 15 = 180$. Correct.\n\nUpdated Question in JSON:\nSet: (14, 18, 224)\nLogic: $A \times (B - 2) = C$\nCorrect Option: (12, 17, 180)"
-  },
-  {
-    "id": 33,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "If 'A @ B' means 'A is the husband of B', 'A & B' means 'A is the mother of B', 'A # B' means 'A is the daughter of B'.\nHow is Q related to S in the expression: P @ Q & R # S?",
-    "q_hi": "यदि 'A @ B' का अर्थ 'A, B का पति है', 'A & B' का अर्थ 'A, B की माता है', 'A # B' का अर्थ 'A, B की पुत्री है'।\nव्यंजक P @ Q & R # S में, Q का S से क्या संबंध है?",
-    "options_en": ["Sister", "Mother", "Wife", "Sister-in-law", "Not Attempted"],
-    "options_hi": ["बहन", "माता", "पत्नी", "ननद/भाभी", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: पत्नी (Wife)\n\nSolution:\n1. P @ Q → P पति है Q का (Q महिला है)।\n2. Q & R → Q माता है R की।\n3. R # S → R पुत्री है S की।\n\nचूंकि Q, R की माता है और R, S की पुत्री है, इसका अर्थ है कि Q और S माता-पिता हैं।\nक्योंकि Q महिला है, तो S पुरुष (पति) होगा।\nQ, S की पत्नी है।"
-  },
-  {
-    "id": 34,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the correct mirror image of the given combination when the mirror is placed at 'MN' as shown.",
-    "q_hi": "दिए गए संयोजन के सही दर्पण प्रतिबिंब का चयन करें जब दर्पण को 'MN' पर रखा गया हो।\nSTRing24",
-    "options_en": ["42gnirTS", "42gniRTS", "Correct Mirror Image Representation", "STring24", "Not Attempted"],
-    "options_hi": ["42gnirTS", "42gniRTS", "सही दर्पण छवि", "STring24", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 42gnirTS (Mirror Image Logic)\n\nLogic: Left becomes Right.\n24 at end -> 4S at start (inverted).\ng (downward hook) -> mirrors.\nCapital R -> mirrors.\nCorrect sequence: 4 (mirrored), 2 (mirrored), g (mirrored), n (mirrored), i, r (mirrored), T, S (mirrored)."
-  },
-  {
-    "id": 35,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Statements:\n1. Some Bottles are Towels.\n2. No Towel is a Pillow.\n3. All Pillows are Cushions.\nConclusions:\nI. Some Cushions are not Towels.\nII. Some Bottles are Pillows.",
-    "q_hi": "कथन:\n1. कुछ बोतलें तौलिए हैं।\n2. कोई तौलिया तकिया नहीं है।\n3. सभी तकिए कुशन हैं।\nनिष्कर्ष:\nI. कुछ कुशन तौलिए नहीं हैं।\nII. कुछ बोतलें तकिए हैं।",
-    "options_en": ["Only Conclusion I follows", "Only Conclusion II follows", "Both I and II follow", "Neither I nor II follows", "Not Attempted"],
-    "options_hi": ["केवल निष्कर्ष I अनुसरण करता है", "केवल निष्कर्ष II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: केवल निष्कर्ष I अनुसरण करता है।\n\nExplanation:\nConclusion I: चूंकि 'सभी तकिए (Pillow) कुशन (Cushion) हैं' और 'कोई तकिया तौलिया नहीं है', तो कुशन का वह हिस्सा जो तकिया है, वह कभी तौलिया नहीं हो सकता। इसलिए 'Some Cushions are not Towels' सही है।\nConclusion II: बोतलों और तकियों के बीच कोई सीधा संबंध नहीं है। (False)।"
-  },
-  {
-    "id": 36,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "In a certain code language, 'NECTAR' is written as 'DFOSBU'. How will 'CARPET' be written in that language?",
-    "q_hi": "एक निश्चित कूट भाषा में, 'NECTAR' को 'DFOSBU' लिखा जाता है। उसी भाषा में 'CARPET' को कैसे लिखा जाएगा?",
-    "options_en": ["SBQUDG", "SBUQDG", "QBSDUG", "DGUQBS", "Not Attempted"],
-    "options_hi": ["SBQUDG", "SBUQDG", "QBSDUG", "DGUQBS", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: SBQUDG\n\nLogic: Break word into two halves, Reverse, then +1.\nNECTAR -> NEC | TAR\nReverse halves: CEN | RAT\nAdd +1 to each letter:\nC+1=D, E+1=F, N+1=O -> DFO\nR+1=S, A+1=B, T+1=U -> SBU\nCode: DFOSBU\n\nApply to CARPET:\nCAR | PET\nReverse: RAC | TEP\nAdd +1:\nR+1=S, A+1=B, C+1=D -> SBD (Wait... Logic check options)\nOption A is SBQUDG.\nLet's check logic for CARPET -> SBQUDG\nS, B, Q... \nR+1=S, A+1=B, C+1=D should be SBD. \nOption A is SBQ. Meaning C->Q? No.\n\nLet's check Cross Logic (Pairs):\nN(14) -> O(15) (+1 at 3rd pos)\nE(5) -> F(6) (+1 at 2nd pos)\nC(3) -> D(4) (+1 at 1st pos)\nThis is standard cross +1 for first half.\n\nSecond Half:\nT(20) -> U(21) (Last pos)\nA(1) -> B(2) (Mid pos)\nR(18) -> S(19) (First pos of 2nd half)\nYes, it is Cross +1.\n\nCARPET:\nC->D (3rd pos)\nA->B (2nd pos)\nR->S (1st pos)\nFirst part: SBD\n\nP->Q (6th pos)\nE->F (5th pos)\nT->U (4th pos)\nSecond part: UFQ\nFull: SBDUFQ\n\nOptions provided in draft were different. Let's correct Option A to matches logic or find logic for Option A.\nOption A: SBQUDG\nS (R+1), B (A+1), Q (P+1?? No C->Q is wrong).\n\nLet's use Logic: +1 to all letters, then Reverse?\nN+1=O, E+1=F, C+1=D... OFD... Reverse: DFO. Correct.\nT+1=U, A+1=B, R+1=S... UBS... Reverse: SBU. Correct.\n\nCARPET:\nC+1=D, A+1=B, R+1=S -> DBS -> Rev: SBD\nP+1=Q, E+1=F, T+1=U -> QFU -> Rev: UFQ\nResult: SBDUFQ.\n\nLet me edit the Question Options to match 'SBDUFQ'.\nOr change logic to 'Cross +1' completely.\nN(+1)=O, E(-1)=D...\n\nLet's stick to the simplest valid logic found: Split, Reverse, +1.\nAnswer: SBDUFQ. \nI will update the option in JSON."
-  },
-  {
-    "id": 37,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Which of the following numbers will replace the question mark (?) in the given series?\n19, 26, 40, 68, 124, ?",
-    "q_hi": "निम्नलिखित में से कौन सी संख्या दी गई श्रृंखला में प्रश्न चिह्न (?) का स्थान लेगी?\n19, 26, 40, 68, 124, ?",
-    "options_en": ["246", "236", "252", "210", "Not Attempted"],
-    "options_hi": ["246", "236", "252", "210", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 236\n\nLogic: Difference of Difference (Double Diff) or Multiplier.\n19\n19 + 7 = 26\n26 + 14 = 40\n40 + 28 = 68\n68 + 56 = 124\nDiff: 7, 14, 28, 56 (Doubling each time).\nNext Diff: 56 × 2 = 112\nAns: 124 + 112 = 236."
-  },
-  {
-    "id": 38,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the word-pair that best represents a similar relationship to the one expressed in the given pair of words.\nCardiology : Heart :: ? : ?",
-    "q_hi": "उस शब्द-युग्म का चयन करें जो दिए गए शब्दों के युग्म में व्यक्त संबंध के समान संबंध दर्शाता है।\nकार्डियोलॉजी : हृदय :: ? : ?",
-    "options_en": ["Pathology : Man", "Pedology : Soil", "Virology : Fungi", "Entomology : Plants", "Not Attempted"],
-    "options_hi": ["पैथोलॉजी : मनुष्य", "पेडोलॉजी (Pedology) : मिट्टी", "वायरोलॉजी : कवक", "एंटोमोलॉजी : पौधे", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: पेडोलॉजी : मिट्टी\n\nExplanation:\nCardiology is the study of Heart.\nPedology is the study of Soil.\n(Virology is virus, Entomology is insects)."
-  },
-  {
-    "id": 39,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Pointing to a lady, a man said, \"The son of her brother is the brother of my wife.\" How is the lady related to the man?",
-    "q_hi": "एक महिला की ओर इशारा करते हुए, एक पुरुष ने कहा, \"उसके भाई का बेटा, मेरी पत्नी का भाई है।\" वह महिला उस पुरुष से कैसे संबंधित है?",
-    "options_en": ["Mother-in-law", "Sister of father-in-law", "Sister", "Grandmother", "Not Attempted"],
-    "options_hi": ["सास", "ससुर की बहन", "बहन", "दादी/नानी", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: ससुर की बहन (Sister of father-in-law)\n\nBreakdown:\n\"My wife's brother\" = Brother-in-law (साला).\n\"The son of her (Lady's) brother\" = The man's brother-in-law.\nSo, Lady's Brother's Son = Man's Wife's Brother.\nThis implies: Lady's Brother = Man's Wife's Father (Father-in-law).\nSo the Lady is the Sister of the Man's Father-in-law."
-  },
-  {
-    "id": 40,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the Venn diagram that best illustrates the relationship between the following classes.\nDoctors, Fathers, Brothers",
-    "q_hi": "उस वेन आरेख का चयन करें जो निम्नलिखित वर्गों के बीच संबंध को सर्वोत्तम रूप से दर्शाता है।\nडॉक्टर, पिता, भाई",
-    "options_en": ["Three separate circles", "One big circle with two small separate circles inside", "Three intersecting circles", "Two intersecting circles inside a big circle", "Not Attempted"],
-    "options_hi": ["तीन अलग-अलग वृत्त", "एक बड़े वृत्त के अंदर दो छोटे अलग-अलग वृत्त", "तीन प्रतिच्छेदी वृत्त (Intersecting)", "एक बड़े वृत्त के अंदर दो प्रतिच्छेदी वृत्त", "अनुत्तरित प्रश्न"],
-    "answer": 2,
-    "explanation": "सही उत्तर: तीन प्रतिच्छेदी वृत्त (Three intersecting circles)\n\nReason:\n1. Some Fathers are Brothers (of someone else).\n2. Some Fathers are Doctors.\n3. Some Brothers are Doctors.\n4. Some are all three (A man can be a father, a brother, and a doctor).\nSo, all three circles intersect each other."
-  },
-{
-    "id": 41,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Which of the following equations will not be correct if we interchange the signs '+' and '−' and numbers '3' and '5'?",
-    "q_hi": "यदि हम चिन्ह '+' और '−' तथा संख्याओं '3' और '5' को आपस में बदल दें, तो निम्नलिखित में से कौन सा समीकरण सही नहीं होगा?",
-    "options_en": ["5 × 3 − 4 + 2 = 13", "3 − 5 × 2 + 6 = 11", "4 × 5 − 3 + 2 = 18", "5 + 3 × 2 − 4 = 10", "Not Attempted"],
-    "options_hi": ["5 × 3 − 4 + 2 = 13", "3 − 5 × 2 + 6 = 11", "4 × 5 − 3 + 2 = 18", "5 + 3 × 2 − 4 = 10", "अनुत्तरित प्रश्न"],
-[
-  "answer": 0,
-    "explanation": "सही उत्तर: 5 × 3 − 4 + 2 = 13\n\nConditions: Swap '+' with '−', Swap '3' with '5'.\nCheck Option 1: Original (5 × 3 − 4 + 2 = 13)\nNew: 3 × 5 + 4 − 2\nSolve: 15 + 4 − 2 = 17.\nGiven result = 13. Calculated = 17.\nSince 17 ≠ 13, this equation is NOT correct.\n(Question asks which one will NOT be correct, so this is the answer)."
-  },
-{
-    "id": 42,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the option that represents the correct order of the given words as they would appear in an English dictionary.\n1. Prince\n2. Prank\n3. Praise\n4. Principle\n5. Priest",
-    "q_hi": "उस विकल्प का चयन करें जो दिए गए शब्दों के सही क्रम को दर्शाता है जैसा कि वे अंग्रेजी शब्दकोश में दिखाई देंगे।\n1. Prince\n2. Prank\n3. Praise\n4. Principle\n5. Priest",
-    "options_en": ["3, 2, 5, 1, 4", "2, 3, 5, 4, 1", "3, 2, 5, 4, 1", "2, 3, 5, 1, 4", "Not Attempted"],
-    "options_hi": ["3, 2, 5, 1, 4", "2, 3, 5, 4, 1", "3, 2, 5, 4, 1", "2, 3, 5, 1, 4", "अनुत्तरित प्रश्न"],
-"answer": 0,
-    "explanation": "सही उत्तर: 3, 2, 5, 1, 4\n\nComparison:\nAll start with 'P'.\n2nd letter 'r' common.\n3rd letter:\n- Praise (a)\n- Prank (a)\nCompare Praise (i) vs Prank (n) -> Praise (3) comes first, then Prank (2).\n- Priest (i)\n- Prince (i)\n- Principle (i)\nCompare Priest (e) vs Prince (n) vs Principle (n).\nPriest (5) comes next.\nPrince (c) vs Principle (c). Next letter e vs i.\nPrince (1) comes before Principle (4).\nOrder: 3, 2, 5, 1, 4."
-  },
-{
-    "id": 43,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "If 1 January 2024 was a Monday, then what was the day of the week on 31 December 2024?",
-    "q_hi": "यदि 1 जनवरी 2024 को सोमवार था, तो 31 दिसंबर 2024 को सप्ताह का कौन सा दिन था?",
-    "options_en": ["Monday", "Tuesday", "Wednesday", "Sunday", "Not Attempted"],
-    "options_hi": ["सोमवार", "मंगलवार", "बुधवार", "रविवार", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: मंगलवार\n\nExplanation:\n2024 is a Leap Year (divisible by 4).\nA normal year has 365 days (Start and End day are same).\nA leap year has 366 days (End day is Start day + 1).\nSince Jan 1 was Monday, Dec 31 will be Monday + 1 = Tuesday."
-  },
-  {
-    "id": 44,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "How many triangles are there in the given figure? (Visualizing a standard symmetric triangle inside triangle)",
-    "q_hi": "दी गई आकृति में कितने त्रिभुज हैं? (एक मानक त्रिभुज के अंदर त्रिभुज की कल्पना करें)",
-    "options_en": ["11", "13", "15", "10", "Not Attempted"],
-    "options_hi": ["11", "13", "15", "10", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-"explanation": "सही उत्तर: 13 (Standard Answer for a specific symmetric pattern frequently asked in SSC).\n\nनोट: बिना छवि के, यह एक 'Star' (5 point) या 'Triangle inside Triangle' (base 3) पैटर्न पर आधारित मानक प्रश्न है। SSC में अक्सर base-3 वाला बड़ा त्रिभुज पूछा जाता है जिसका उत्तर $2n^2 - 5$ फॉर्मूले से 13 होता है।"
-  },
-{
-    "id": 45,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "In a certain code language, if 'HAMMER' is coded as 'ICPQJX', then how is 'WRENCH' coded?",
-    "q_hi": "एक निश्चित कूट भाषा में, यदि 'HAMMER' को 'ICPQJX' के रूप में कूटबद्ध किया गया है, तो 'WRENCH' को कैसे कूटबद्ध किया जाएगा?",
-    "options_en": ["XTGRIO", "XTHQJN", "XUGRJN", "XSGRJM", "Not Attempted"],
-    "options_hi": ["XTGRIO", "XTHQJN", "XUGRJN", "XSGRJM", "अनुत्तरित प्रश्न"],
-"answer": 0,
-    "explanation": "सही उत्तर: XTGRIO\n\nLogic: Increasing addition (+1, +2, +3, +4, +5, +6).\nH+1 = I\nA+2 = C\nM+3 = P\nM+4 = Q\nE+5 = J\nR+6 = X\n\nApply to WRENCH:\nW+1 = X\nR+2 = T\nE+3 = H\nN+4 = R\nC+5 = H\nH+6 = N... Wait. H(8)+6=14(N).\nMy calculation: XTHRHN. Option A is XTGRIO?\nLet's re-check Logic for Option A.\nW(23)+1=X. R(18)+2=T. E(5)+2=G? N(14)+4=R. C(3)+6=I. H(8)+7=O.\nLogic: +1, +2, +2, +4, +6, +7? Irregular.\n\nLet's stick to valid logic (+1, +2, +3...) and correct option.\nCorrect Output: XTHRHN.\nLet's adjust Option A to 'XTHRHN'.\nOr Logic: 
-Vowels/Consonants?\n\nNew Logic used often: +1, +2, +3, +4, +5, +6.\nW+1=X\nR+2=T\nE+3=H\nN+4=R\nC+5=H\nH+6=N\nAns: XTHRHN.\nNote: I will place the mathematically correct option in JSON as Answer 1."
-  },
-
-{
-    "id": 46,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n12 : 132 :: 20 : 380 :: 2 : ?",
-    "q_hi": "उस विकल्प का चयन करें जो पांचवीं संख्या से उसी प्रकार संबंधित है जैसे दूसरी संख्या पहली संख्या से संबंधित है और चौथी संख्या तीसरी संख्या से संबंधित है।\n12 : 132 :: 20 : 380 :: 2 : ?",
-    "options_en": ["6", "4", "2", "8", "Not Attempted"],
-    "options_hi": ["6", "4", "2", "8", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 
-6\n\nLogic: $n^2 - n$\n$12^2 - 12 = 144 - 12 = 132$\n$20^2 - 20 = 400 - 20 = 380$\n$2^2 - 2 = 4 - 2 = 2$\n\nWait, $2^2 - 2 = 2$. So answer should be 2.\nLet's check alternative logic: $n \times (n-1)$\n$12 \times 11 = 132$\n$20 \times 19 = 380$\n$2 \times 1 = 2$. Ans: 2.\n\nBut if logic is $n^2 + n$? (Usually standard)\n$12 \times 11$... 11 is (12-1).\nIs there another logic?\n$12 \times (12-1) = 132$\n$20 \times (20-1) = 380$\n$2 \times (2-1) = 2$. \nOption C is 2.\n\nLet's try Logic: $n \times (n+1)?$ No.\nWhat if the question was 12:156? ($12 \times 13$).\n\nLet's keep the logic $n^2 - n$. Answer is 2. \nHowever, 6 is an option (from $2^2 + 2$).\nLet's check if 12 -> 132 can be $12 \times 11$.\nIf logic was $n(n+1)$, then $12 \times 13 = 156$.\nSo $n^2 - n$ is the only valid fit. Answer is 2."
-  },
-
-{
-    "id": 47,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Four number-pairs have been given, out of which three are alike in some manner and one is different. Select the number-pair that is different.",
-    "q_hi": "चार संख्या-युग्म दिए गए हैं, जिनमें से तीन किसी न किसी रूप में समान हैं और एक भिन्न है। उस संख्या-युग्म का चयन करें जो भिन्न है।",
-    "options_en": ["14 : 210", "18 : 342", "12 : 156", "17 : 272", "Not Attempted"],
-    "options_hi": ["14 : 210", "18 : 342", "12 : 156", "17 : 272", "अनुत्तरित प्रश्न"],
-"answer": 3,
-    "explanation": "सही उत्तर: 17 : 272\n\nLogic: $n \times (n+1)$ or $n^2 + n$?\n1. $14 \times 15 = 210$ (Correct)\n2. $18 \times 19 = 342$ (Correct)\n3. $12 \times 13 = 156$ (Correct)\n4. $17 \times 18 = 306$. \nGiven is 272 ($17 \times 16$). This follows $n \times (n-1)$.\nOthers follow $n \times (n+1)$.\nSo D is the odd one out."
-  },
-{
-    "id": 48,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Rohan is facing West. He turns 45° clockwise, then 180° clockwise, and then 225° anti-clockwise. In which direction is he facing now?",
-    "q_hi": "रोहन का मुख पश्चिम की ओर है। वह 45° दक्षिणावर्त (clockwise), फिर 180° दक्षिणावर्त, और फिर 225° वामावर्त (anti-clockwise) मुड़ता है। अब उसका मुख किस दिशा में है?",
-    "options_en": ["West", "East", "North", "South-West", "Not Attempted"],
-    "options_hi": ["पश्चिम", "पूर्व", "उत्तर", "दक्षिण-पश्चिम", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-"explanation": "सही उत्तर: पश्चिम (West)\n\nCalculation:\nClockwise (+) : 45 + 180 = 225°\nAnti-clockwise (-) : 225°\nNet Rotation = 225 - 225 = 0°\nStart: West + 0° = West."
-  },
-{
-    "id": 49,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Select the correct combination of mathematical signs to sequentially replace the * signs and to balance the given equation.\n45 * 9 * 3 * 7 * 2 = 20",
-    "q_hi": "* चिह्नों को क्रमिक रूप से बदलने और दिए गए समीकरण को संतुलित करने के लिए गणितीय चिह्नों के सही संयोजन का चयन करें।\n45 * 9 * 3 * 7 * 2 = 20",
-    "options_en": ["÷, ×, +, −", "−, ÷, ×, +", "÷, +, −, ×", "×, ÷, −, +", "Not Attempted"],
-    "options_hi": ["÷, ×, +, −", "−, ÷, ×, +", "÷, +, −, ×", "×, ÷, −, +", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: ÷, ×, +, −\n\nApply Option 1:\n$45 \div 9 \times 3 + 7 - 2$\n$= 5 \times 3 + 7 - 2$\n$= 15 + 7 - 2$\n$= 22 - 2$\n$= 20$. (Balanced)"
-  },
-  {
-    "id": 50,
-    "section": "General Intelligence & Reasoning",
-    "q_en": "Which letter cluster will replace the question mark (?) to complete the given series?\nABCD, BDFH, CFIL, ?",
-    "q_hi": "दी गई श्रृंखला को पूरा करने के लिए प्रश्न चिह्न (?) के स्थान पर कौन सा अक्षर समूह आएगा?\nABCD, BDFH, CFIL, ?",
-    "options_en": ["DHLP", "DHLR", "DHJP", "DJLR", "Not Attempted"],
-    "options_hi": ["DHLP", "DHLR", "DHJP", "DJLR", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: DHLP\n\nLogic:\n1st Letter: A(+1) -> B(+1) -> C(+1) -> D\n2nd Letter: B(+2) -> D(+2) -> F(+2) -> H\n3rd Letter: C(+3) -> F(+3) -> I(+3) -> L\n4th Letter: D(+4) -> H(+4) -> L(+4) -> P\nResult: DHLP."
-  },
-  {
-    "id": 51,
-    "section": "Quantitative Aptitude",
-    "q_en": "If a 10-digit number 5432y1749x is divisible by 72, then what is the value of (5x - 4y)?",
-    "q_hi": "यदि 10-अंकीय संख्या 5432y1749x, 72 से विभाज्य है, तो (5x - 4y) का मान क्या है?",
-    "options_en": ["14", "15", "9", "10", "Not Attempted"],
-    "options_hi": ["14", "15", "9", "10", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 14\n\nSolution:\n72 से विभाज्यता का नियम: संख्या 8 और 9 दोनों से विभाज्य होनी चाहिए।\n1. **8 का नियम (अंतिम 3 अंक):** 49x को 8 से कटना चाहिए।\n   $496 \div 8$ (पूरा कटता है)। अतः $x = 6$।\n2. **9 का नियम (अंकों का योग 9 का गुणज):**\n   $5+4+3+2+y+1+7+4+9+6 = 41 + y$\n   $(41 + y)$ को 9 से कटना चाहिए।\n   $41 + 4 = 45$। अतः $y = 4$।\n3. **मान ज्ञात करें (5x - 4y):**\n   $5(6) - 4(4) = 30 - 16 = 14$।"
-  },
-  {
-    "id": 52,
-    "section": "Quantitative Aptitude",
-    "q_en": "A dishonest dealer marks his goods 20% above the cost price and allows a discount of 10%. However, he uses a weight of 900g instead of 1 kg. Find his actual profit percentage.",
-    "q_hi": "एक बेईमान दुकानदार अपने माल पर लागत मूल्य से 20% अधिक मूल्य अंकित करता है और 10% की छूट देता है। हालाँकि, वह 1 किलो के स्थान पर 900 ग्राम वजन का उपयोग करता है। उसका वास्तविक लाभ प्रतिशत ज्ञात कीजिये।",
-    "options_en": ["25%", "20%", "18%", "15%", "Not Attempted"],
-    "options_hi": ["25%", "20%", "18%", "15%", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 20%\n\nSolution:\nमाना 1000g का क्रय मूल्य (CP) = ₹1000\n1. Markup: ₹1200 (20% अधिक)\n2. Discount: 10% of 1200 = ₹120 कम। SP = ₹1080।\n3. Weight Cheating: वह ₹1080 में 900g सामान दे रहा है।\n   दुकानदार की वास्तविक लागत (CP for 900g) = ₹900।\n   विक्रय मूल्य (SP) = ₹1080।\n   Profit = $1080 - 900 = 180$\n   Profit % = $(180 / 900) \times 100 = 20\%$."
-  },
-  {
-    "id": 53,
-    "section": "Quantitative Aptitude",
-    "q_en": "If $x + \frac{1}{x} = 4$, find the value of $x^5 + \frac{1}{x^5}$.",
-    "q_hi": "यदि $x + \frac{1}{x} = 4$ है, तो $x^5 + \frac{1}{x^5}$ का मान ज्ञात कीजिये।",
-    "options_en": ["724", "728", "1364", "1352", "Not Attempted"],
-    "options_hi": ["724", "728", "1364", "1352", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 724\n\nSolution:\nFormula: $(x^2 + \frac{1}{x^2})(x^3 + \frac{1}{x^3}) - (x + \frac{1}{x})$\n1. $x^2 + \frac{1}{x^2} = k^2 - 2 = 4^2 - 2 = 14$\n2. $x^3 + \frac{1}{x^3} = k^3 - 3k = 4^3 - 3(4) = 64 - 12 = 52$\n3. Result: $(14 \times 52) - 4$\n   $= 728 - 4 = 724$."
-  },
-  {
-    "id": 54,
-    "section": "Quantitative Aptitude",
-    "q_en": "Two circles of radii 12 cm and 5 cm touch each other externally. What is the length of their direct common tangent?",
-    "q_hi": "12 सेमी और 5 सेमी त्रिज्या वाले दो वृत्त एक-दूसरे को बाह्य रूप से स्पर्श करते हैं। उनकी उभयनिष्ठ अनुस्पर्श रेखा (Direct common tangent) की लंबाई क्या है?",
-    "options_en": ["15.49 cm", "20 cm", "15 cm", "14.5 cm", "Not Attempted"],
-    "options_hi": ["15.49 सेमी", "20 सेमी", "15 सेमी", "14.5 सेमी", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 15.49 cm\n\nSolution:\nFormula for DCT (touching externally): $2\sqrt{r_1 r_2}$\n$= 2 \times \sqrt{12 \times 5}$\n$= 2 \times \sqrt{60}$\n$= 2 \times 7.745$\n$= 15.49$ cm."
-  },
-  {
-    "id": 55,
-    "section": "Quantitative Aptitude",
-    "q_en": "A can finish a work in 20 days and B in 30 days. They work on alternate days starting with A. In how many days will the work be completed?",
-    "q_hi": "A एक कार्य को 20 दिनों में और B 30 दिनों में पूरा कर सकता है। वे A से शुरू करते हुए बारी-बारी से (alternate days) कार्य करते हैं। कार्य कितने दिनों में पूरा होगा?",
-    "options_en": ["24 days", "25 days", "12 days", "22.5 days", "Not Attempted"],
-    "options_hi": ["24 दिन", "25 दिन", "12 दिन", "22.5 दिन", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 24 दिन\n\nSolution:\nTotal Work (LCM of 20, 30) = 60 units.\nEfficiency: A = 3 units/day, B = 2 units/day.\n2 Days Work (A+B) = 3 + 2 = 5 units.\nCycles needed: $60 / 5 = 12$ cycles.\nTotal Days = $12 \times 2 = 24$ days."
-  },
-  {
-    "id": 56,
-    "section": "Quantitative Aptitude",
-    "q_en": "The ratio of the speed of a boat in still water to that of the current is 8:1. If the boat takes 4 hours to cover 54 km downstream, find the time taken to cover 42 km upstream.",
-    "q_hi": "शांत जल में एक नाव की गति और धारा की गति का अनुपात 8:1 है। यदि नाव धारा के अनुकूल (downstream) 54 किमी की दूरी तय करने में 4 घंटे लेती है, तो धारा के प्रतिकूल (upstream) 42 किमी की दूरी तय करने में कितना समय लगेगा?",
-    "options_en": ["3.5 hours", "4 hours", "3 hours", "4.5 hours", "Not Attempted"],
-    "options_hi": ["3.5 घंटे", "4 घंटे", "3 घंटे", "4.5 घंटे", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 4 घंटे\n\nSolution:\nLet Speed of Boat ($B$) = $8x$, Current ($W$) = $1x$.\nDownstream Speed ($D$) = $9x$.\nGiven: $D = \text{Distance} / \text{Time} = 54/4 = 13.5$ km/hr.\n$9x = 13.5 \Rightarrow x = 1.5$.\nSo, $B = 12$, $W = 1.5$.\nUpstream Speed ($U$) = $B - W = 12 - 1.5 = 10.5$ km/hr.\nTime for 42 km Upstream = $42 / 10.5 = 4$ hours."
-  },
-  {
-    "id": 57,
-    "section": "Quantitative Aptitude",
-    "q_en": "If $\tan \theta + \cot \theta = 2$, find the value of $\tan^{100} \theta + \cot^{100} \theta$.",
-    "q_hi": "यदि $\tan \theta + \cot \theta = 2$ है, तो $\tan^{100} \theta + \cot^{100} \theta$ का मान ज्ञात कीजिये।",
-    "options_en": ["2", "1", "0", "100", "Not Attempted"],
-    "options_hi": ["2", "1", "0", "100", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 2\n\nSolution:\n$\tan \theta + 1/\tan \theta = 2$\nThis implies $\tan \theta = 1$ (Since $x + 1/x = 2 \Rightarrow x = 1$).\n$\theta = 45^\circ$.\nValue = $(1)^{100} + (1)^{100} = 1 + 1 = 2$."
-  },
-  {
-    "id": 58,
-    "section": "Quantitative Aptitude",
-    "q_en": "The difference between Compound Interest and Simple Interest on a sum of ₹5000 for 2 years is ₹72. Find the rate of interest per annum.",
-    "q_hi": "₹5000 की राशि पर 2 वर्षों के लिए चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर ₹72 है। प्रति वर्ष ब्याज दर ज्ञात कीजिये।",
-    "options_en": ["10%", "12%", "8%", "9%", "Not Attempted"],
-    "options_hi": ["10%", "12%", "8%", "9%", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 12%\n\nSolution:\nFormula for 2 years difference: $D = P (R/100)^2$\n$72 = 5000 \times (R/100)^2$\n$72 / 5000 = (R/100)^2$\n$144 / 10000 = (R/100)^2$\nTaking square root:\n$12 / 100 = R / 100$\n$R = 12\%$."
-  },
-  {
-    "id": 59,
-    "section": "Quantitative Aptitude",
-    "q_en": "In $\Delta ABC$, D and E are points on sides AB and AC respectively such that DE || BC. If AD:DB = 3:4 and the area of trapezium DECB is 96 cm², find the area of $\Delta ADE$.",
-    "q_hi": "$\Delta ABC$ में, D और E क्रमशः भुजा AB और AC पर ऐसे बिंदु हैं कि DE || BC है। यदि AD:DB = 3:4 है और समलंब DECB का क्षेत्रफल 96 सेमी² है, तो $\Delta ADE$ का क्षेत्रफल ज्ञात कीजिये।",
-    "options_en": ["18 cm²", "24 cm²", "16 cm²", "27 cm²", "Not Attempted"],
-    "options_hi": ["18 सेमी²", "24 सेमी²", "16 सेमी²", "27 सेमी²", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 18 cm²\n\nSolution:\n$\Delta ADE \sim \Delta ABC$\nSide Ratio = AD/AB = 3/(3+4) = 3/7.\nArea Ratio = $(\text{Side})^2 = (3/7)^2 = 9/49$.\nArea($\Delta ADE$) = 9 units, Area($\Delta ABC$) = 49 units.\nArea(Trapezium DECB) = Area($\Delta ABC$) - Area($\Delta ADE$) = $49 - 9 = 40$ units.\nGiven: 40 units = 96 cm².\n1 unit = $96/40 = 2.4$ cm².\nArea($\Delta ADE$) = $9 \times 2.4 = 21.6$ cm².\n(Wait, calculation check: $40u = 96 \rightarrow 1u = 2.4$. $9u = 21.6$. Nearest integer option or exact?)\nLet's recheck option values. If AD:DB=2:3? No, assuming standard question type.\nCorrect logic: $9 \times 2.4 = 21.6$.\nLet's adjust Question values for integer answer to match Option 4 (27).\nIf Area DECB = 80? Then $40u=80, 1u=2$. Area = 18.\nYes, Option A is 18.\nLet's assume Area DECB = 80 cm² in question logic. \n**Correction in Question for JSON:** Area of Trapezium is **80 cm²**.\nCalculation: $40 units = 80$. $1 unit = 2$. $Area ADE = 9 \times 2 = 18$."
-  },
-  {
-    "id": 60,
-    "section": "Quantitative Aptitude",
-    "q_en": "A thief is noticed by a policeman from a distance of 200m. The thief starts running and the policeman chases him. The thief and the policeman run at the rate of 10 km/hr and 11 km/hr respectively. What is the distance between them after 6 minutes?",
-    "q_hi": "एक पुलिसकर्मी को 200 मीटर की दूरी से एक चोर दिखाई देता है। चोर भागने लगता है और पुलिसकर्मी उसका पीछा करता है। चोर और पुलिसकर्मी क्रमशः 10 किमी/घंटा और 11 किमी/घंटा की गति से दौड़ते हैं। 6 मिनट बाद उनके बीच की दूरी क्या होगी?",
-    "options_en": ["100 m", "150 m", "50 m", "0 m (Caught)", "Not Attempted"],
-    "options_hi": ["100 मी", "150 मी", "50 मी", "0 मी (पकड़ा गया)", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 100 m\n\nSolution:\nRelative Speed = $11 - 10 = 1$ km/hr = $5/18$ m/s.\nInitial Distance = 200 m.\nDistance covered in 6 min (360 sec) by relative speed:\n$D = (5/18) \times 360 = 100$ meters.\nRemaining distance = $200 - 100 = 100$ meters."
-  },
-  {
-    "id": 61,
-    "section": "Quantitative Aptitude",
-    "q_en": "The average weight of a class of 20 students increases by 0.75 kg when one student weighing 30 kg is replaced by a new student. What is the weight of the new student?",
-    "q_hi": "20 छात्रों की एक कक्षा का औसत वजन 0.75 किलोग्राम बढ़ जाता है जब 30 किलोग्राम वजन वाले एक छात्र को एक नए छात्र द्वारा प्रतिस्थापित किया जाता है। नए छात्र का वजन क्या है?",
-    "options_en": ["35 kg", "45 kg", "40 kg", "42.5 kg", "Not Attempted"],
-    "options_hi": ["35 किग्रा", "45 किग्रा", "40 किग्रा", "42.5 किग्रा", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-    "explanation": "सही उत्तर: 45 kg\n\nSolution:\nTotal increase = $20 \times 0.75 = 15$ kg.\nNew Weight = Old Weight + Increase\n$= 30 + 15 = 45$ kg."
-  },
-  {
-    "id": 62,
-    "section": "Quantitative Aptitude",
-    "q_en": "If $x = 3 + 2\sqrt{2}$, find the value of $\sqrt{x} - \frac{1}{\sqrt{x}}$.",
-    "q_hi": "यदि $x = 3 + 2\sqrt{2}$ है, तो $\sqrt{x} - \frac{1}{\sqrt{x}}$ का मान ज्ञात कीजिये।",
-    "options_en": ["2", "1", "2√2", "4", "Not Attempted"],
-    "options_hi": ["2", "1", "2√2", "4", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 2\n\nSolution:\n$x = 3 + 2\sqrt{2} = (\sqrt{2} + 1)^2$.\nSo, $\sqrt{x} = \sqrt{2} + 1$.\nThen, $1/\sqrt{x} = \sqrt{2} - 1$ (Rationalization).\n$\sqrt{x} - 1/\sqrt{x} = (\sqrt{2} + 1) - (\sqrt{2} - 1) = 2$."
-  },
-  {
-    "id": 63,
-    "section": "Quantitative Aptitude",
-    "q_en": "The volume of a solid hemisphere is 19404 cm³. Find its total surface area.",
-    "q_hi": "एक ठोस अर्धगोले (hemisphere) का आयतन 19404 सेमी³ है। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिये।",
-    "options_en": ["4158 cm²", "2772 cm²", "8316 cm²", "1386 cm²", "Not Attempted"],
-    "options_hi": ["4158 सेमी²", "2772 सेमी²", "8316 सेमी²", "1386 सेमी²", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 4158 cm²\n\nSolution:\nVolume of Hemisphere = $(2/3)\pi r^3$\n$19404 = (2/3) \times (22/7) \times r^3$\n$19404 \times 21 / 44 = r^3$\n$441 \times 21 = r^3 \Rightarrow r^3 = 9261 \Rightarrow r = 21$ cm.\nTotal Surface Area = $3\pi r^2$\n$= 3 \times (22/7) \times 21 \times 21$\n$= 3 \times 22 \times 3 \times 21 = 4158$ cm²."
-  },
-  {
-    "id": 64,
-    "section": "Quantitative Aptitude",
-    "q_en": "A sum of ₹10,000 amounts to ₹11,664 in 2 years at a certain rate percent per annum compounded annually. What will be the simple interest on the same sum for 5 2/5 years at the same rate?",
-    "q_hi": "₹10,000 की राशि 2 वर्षों में ₹11,664 हो जाती है, जो वार्षिक रूप से संयोजित होती है। उसी राशि पर समान दर से 5 2/5 वर्षों के लिए साधारण ब्याज क्या होगा?",
-    "options_en": ["₹4,320", "₹4,160", "₹3,840", "₹4,000", "Not Attempted"],
-    "options_hi": ["₹4,320", "₹4,160", "₹3,840", "₹4,000", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: ₹4,320\n\nSolution:\nAmount formula: $A = P(1 + r/100)^t$\n$11664 = 10000 (1 + r/100)^2$\n$11664/10000 = (1 + r/100)^2$\n$\sqrt{1.1664} = 1.08 \Rightarrow 1 + r/100 = 1.08$\nRate = 8%.\n\nSimple Interest:\nTime = $5 \frac{2}{5} = 27/5$ years.\n$SI = (P \times R \times T)/100$\n$= (10000 \times 8 \times 27/5) / 100$\n$= 100 \times 8 \times 5.4$\n$= 800 \times 5.4 = 4320$."
-  },
-  {
-    "id": 65,
-    "section": "Quantitative Aptitude",
-    "q_en": "Find the single discount equivalent to three successive discounts of 15%, 10%, and 8%.",
-    "q_hi": "15%, 10% और 8% की तीन क्रमिक छूटों के समतुल्य एकल छूट ज्ञात कीजिये।",
-    "options_en": ["29.62%", "30.40%", "28.50%", "27.85%", "Not Attempted"],
-    "options_hi": ["29.62%", "30.40%", "28.50%", "27.85%", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 29.62%\n\nSolution:\nSuccessive Discount Formula for A and B: $A + B - (AB/100)$\n1. 15% and 10%:\n   $15 + 10 - (150/100) = 25 - 1.5 = 23.5\%$\n2. Now 23.5% and 8%:\n   $23.5 + 8 - (23.5 \times 8) / 100$\n   $= 31.5 - (188 / 100)$\n   $= 31.5 - 1.88 = 29.62\%$."
-  },
-  {
-    "id": 66,
-    "section": "Quantitative Aptitude",
-    "q_en": "In a circle with center O, an arc subtends an angle of 132° at the center. What is the angle subtended by the same arc at any point on the major arc of the circle?",
-    "q_hi": "केंद्र O वाले एक वृत्त में, एक चाप केंद्र पर 132° का कोण अंतरित (subtends) करता है। उसी चाप द्वारा वृत्त के दीर्घ चाप पर किसी बिंदु पर अंतरित कोण क्या है?",
-    "options_en": ["66°", "264°", "132°", "48°", "Not Attempted"],
-    "options_hi": ["66°", "264°", "132°", "48°", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 66°\n\nSolution:\nTheorem: The angle subtended by an arc at the center is double the angle subtended by it at any point on the remaining part of the circle.\nAngle at Circumference = Angle at Center / 2\n$= 132^\circ / 2 = 66^\circ$."
-  },
-  {
-    "id": 67,
-    "section": "Quantitative Aptitude",
-    "q_en": "If $a + b + c = 6$ and $ab + bc + ca = 5$, find the value of $a^3 + b^3 + c^3 - 3abc$.",
-    "q_hi": "यदि $a + b + c = 6$ और $ab + bc + ca = 5$ है, तो $a^3 + b^3 + c^3 - 3abc$ का मान ज्ञात कीजिये।",
-    "options_en": ["126", "96", "116", "108", "Not Attempted"],
-    "options_hi": ["126", "96", "116", "108", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 126\n\nSolution:\nFormula: $a^3 + b^3 + c^3 - 3abc = (a+b+c)[(a+b+c)^2 - 3(ab+bc+ca)]$\nSubstitute values:\n$= 6 [ (6)^2 - 3(5) ]$\n$= 6 [ 36 - 15 ]$\n$= 6 [ 21 ]$\n$= 126$."
-  },
-  {
-    "id": 68,
-    "section": "Quantitative Aptitude",
-    "q_en": "From the top of a 75m high tower, the angle of depression of a car on the ground is 30°. How far is the car from the base of the tower?",
-    "q_hi": "75 मीटर ऊँची मीनार के शीर्ष से, जमीन पर एक कार का अवनमन कोण (angle of depression) 30° है। कार मीनार के आधार से कितनी दूर है?",
-    "options_en": ["75√3 m", "25√3 m", "75 m", "50√3 m", "Not Attempted"],
-    "options_hi": ["75√3 मी", "25√3 मी", "75 मी", "50√3 मी", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 75√3 m\n\nSolution:\n$\tan 30^\circ = \text{Height} / \text{Base}$\n$1/\sqrt{3} = 75 / \text{Base}$\n$\text{Base} = 75\sqrt{3}$ meters."
-  },
-  {
-    "id": 69,
-    "section": "Quantitative Aptitude",
-    "q_en": "The efficiencies of A, B, and C are in the ratio 2:5:3. Working together, they can complete a task in 27 days. In how many days can B and C together complete 4/9th of the task?",
-    "q_hi": "A, B और C की कार्यक्षमता का अनुपात 2:5:3 है। एक साथ कार्य करते हुए, वे एक कार्य को 27 दिनों में पूरा कर सकते हैं। B और C मिलकर उस कार्य के 4/9 भाग को कितने दिनों में पूरा कर सकते हैं?",
-    "options_en": ["15 days", "12 days", "24 days", "18 days", "Not Attempted"],
-    "options_hi": ["15 दिन", "12 दिन", "24 दिन", "18 दिन", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 15 दिन\n\nSolution:\nTotal Efficiency = $2 + 5 + 3 = 10$ units/day.\nTotal Work = $10 \times 27 = 270$ units.\nTarget Work = $4/9 \times 270 = 120$ units.\nEfficiency of B + C = $5 + 3 = 8$ units/day.\nTime = $120 / 8 = 15$ days."
-  },
-  {
-    "id": 70,
-    "section": "Quantitative Aptitude",
-    "q_en": "The value of $\\frac{\\sin 30^\\circ \\sin 60^\\circ}{\\cos 60^\\circ \\cos 30^\\circ} - \\tan 45^\\circ$ is:",
-    "q_hi": "$\\frac{\\sin 30^\\circ \\sin 60^\\circ}{\\cos 60^\\circ \\cos 30^\\circ} - \\tan 45^\\circ$ का मान है:",
-    "options_en": ["0", "1", "2", "-1", "Not Attempted"],
-    "options_hi": ["0", "1", "2", "-1", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 0\n\nSolution:\nExpression: $(\tan 30^\circ \times \tan 60^\circ) - 1$ \nOR simply put values:\n$\sin 30^\circ = 1/2, \sin 60^\circ = \sqrt{3}/2 \Rightarrow \text{Num} = \sqrt{3}/4$.\n$\cos 60^\circ = 1/2, \cos 30^\circ = \sqrt{3}/2 \Rightarrow \text{Den} = \sqrt{3}/4$.\nFraction becomes 1.\n$1 - \tan 45^\circ (1) = 0$."
-  },
-  {
-    "id": 71,
-    "section": "Quantitative Aptitude",
-    "q_en": "A histogram shows the marks obtained by students. If the class intervals are 0-10, 10-20, etc., and the frequency for 20-30 is 15 and for 30-40 is 25, what is the ratio of students scoring between 20-30 to those scoring 30-40?",
-    "q_hi": "एक हिस्टोग्राम छात्रों द्वारा प्राप्त अंकों को दर्शाता है। यदि वर्ग अंतराल 0-10, 10-20, आदि हैं, और 20-30 के लिए आवृत्ति 15 है और 30-40 के लिए 25 है, तो 20-30 के बीच अंक प्राप्त करने वाले छात्रों का 30-40 के बीच अंक प्राप्त करने वालों से अनुपात क्या है?",
-    "options_en": ["3:5", "5:3", "3:4", "2:5", "Not Attempted"],
-    "options_hi": ["3:5", "5:3", "3:4", "2:5", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 3:5\n\nSolution:\nRatio = Frequency(20-30) : Frequency(30-40)\n$= 15 : 25$\n$= 3 : 5$."
-  },
-  {
-    "id": 72,
-    "section": "Quantitative Aptitude",
-    "q_en": "Two numbers are in the ratio 5:7. If 10 is subtracted from each, the ratio becomes 15:23. What is the sum of the two numbers?",
-    "q_hi": "दो संख्याएँ 5:7 के अनुपात में हैं। यदि प्रत्येक में से 10 घटा दिया जाए, तो अनुपात 15:23 हो जाता है। दोनों संख्याओं का योग क्या है?",
-    "options_en": ["96", "100", "84", "120", "Not Attempted"],
-    "options_hi": ["96", "100", "84", "120", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 96\n\nSolution:\nNumbers: $5x, 7x$.\n$(5x - 10) / (7x - 10) = 15 / 23$\nCross multiply:\n$115x - 230 = 105x - 150$\n$10x = 80 \Rightarrow x = 8$.\nSum = $5x + 7x = 12x$\n$12 \times 8 = 96$."
-  },
-  {
-    "id": 73,
-    "section": "Quantitative Aptitude",
-    "q_en": "If $2^{x+y} = 128$ and $2^{x-y} = 16$, find the value of $x^2$.",
-    "q_hi": "यदि $2^{x+y} = 128$ और $2^{x-y} = 16$ है, तो $x^2$ का मान ज्ञात कीजिये।",
-    "options_en": ["30.25", "25", "16", "20.25", "Not Attempted"],
-    "options_hi": ["30.25", "25", "16", "20.25", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 30.25\n\nSolution:\n$2^{x+y} = 2^7 \Rightarrow x + y = 7$\n$2^{x-y} = 2^4 \Rightarrow x - y = 4$\nAdding equations:\n$2x = 11 \Rightarrow x = 5.5$\n$x^2 = (5.5)^2 = 30.25$."
-  },
-  {
-    "id": 74,
-    "section": "Quantitative Aptitude",
-    "q_en": "In $\Delta PQR$, the bisector of $\angle P$ intersects QR at S. If PQ = 10 cm, PR = 14 cm, and QR = 12 cm, find the length of QS.",
-    "q_hi": "$\Delta PQR$ में, $\angle P$ का समद्विभाजक QR को S पर काटता है। यदि PQ = 10 सेमी, PR = 14 सेमी, और QR = 12 सेमी है, तो QS की लंबाई ज्ञात कीजिये।",
-    "options_en": ["5 cm", "6 cm", "4 cm", "7 cm", "Not Attempted"],
-    "options_hi": ["5 सेमी", "6 सेमी", "4 सेमी", "7 सेमी", "अनुत्तरित प्रश्न"],
-    "answer": 0,
-    "explanation": "सही उत्तर: 5 cm\n\nSolution:\nAngle Bisector Theorem: $PQ/PR = QS/SR$\n$10/14 = 5/7$.\nRatio of QS:SR = 5:7.\nTotal length QR = 12 cm.\nQS = $(5/12) \times 12 = 5$ cm."
-  },
-  {
-    "id": 75,
-    "section": "Quantitative Aptitude",
-    "q_en": "The curved surface area of a cylinder is 264 m² and its volume is 924 m³. Find the ratio of its diameter to its height.",
-    "q_hi": "एक बेलन का वक्र पृष्ठीय क्षेत्रफल 264 मीटर² है और इसका आयतन 924 मीटर³ है। इसके व्यास और इसकी ऊंचाई का अनुपात ज्ञात कीजिये।",
-    "options_en": ["3:7", "7:3", "7:6", "6:7", "Not Attempted"],
-    "options_hi": ["3:7", "7:3", "7:6", "6:7", "अनुत्तरित प्रश्न"],
-    "answer": 1,
-"explanation": "सही उत्तर: 7:3\n\nSolution:\nCSA = $2\pi rh = 264$\nVol = $\pi r^2h = 924$\nDivide Vol by CSA:\n$(\pi r^2h) / (2\pi rh) = 924 / 264$\n$r / 2 = 3.5$\n$r = 7$ m.\nPut r in CSA:\n$2 \times (22/7) \times 7 \times h = 264$\n$44h = 264 \Rightarrow h = 6$ m.\nDiameter = $2r = 14$.\nRatio $D:H = 14 : 6 = 7 : 3$."
-  },
-  {
-    "id": 76,
-    "section": "English Comprehension",
-    "q_en": "Identify the segment in the sentence which contains a grammatical error.\n\"The list of candidates who have been shortlisted for the interview are available on the website.\"",
-    "q_hi": "वाक्य के उस खंड की पहचान करें जिसमें व्याकरण संबंधी त्रुटि है।\n\"The list of candidates who have been shortlisted for the interview are available on the website.\"",
-    "options_en": ["for the interview", "are available", "The list of candidates", "who have been shortlisted"],
-    "options_hi": ["for the interview", "are available", "The list of candidates", "who have been shortlisted"],
-    "answer": 1,
-    "explanation": "सही उत्तर: are available\n\nExplanation:\nSubject-Verb Agreement का नियम है। यहाँ मुख्य Subject 'The list' है (जो Singular है), न कि 'candidates'।\nअतः 'are' के स्थान पर 'is' का प्रयोग होना चाहिए।\nCorrect Sentence: The list... **is** available."
-  },
-  {
-    "id": 77,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select 'No substitution required'.\n\"If I **was** a bird, I would fly to the highest mountain.\"",
-    "q_hi": "दिए गए वाक्य में रेखांकित खंड को प्रतिस्थापित करने के लिए सबसे उपयुक्त विकल्प का चयन करें।\n\"If I **was** a bird, I would fly to the highest mountain.\"",
-    "options_en": ["am", "were", "had been", "No substitution required"],
-    "options_hi": ["am", "were", "had been", "No substitution required"],
-    "answer": 1,
-    "explanation": "सही उत्तर: were\n\nExplanation:\nयह एक 'Hypothetical Condition' (काल्पनिक स्थिति) है। जब हम किसी ऐसी चीज की कल्पना करते हैं जो वास्तविक नहीं है, तो सभी Subjects (I, He, She, It) के साथ 'were' का प्रयोग किया जाता है।\nRule: If + Subject + were + Object."
-  },
-  {
-    "id": 78,
-    "section": "English Comprehension",
-    "q_en": "Select the correct indirect form of the given sentence.\nShe said to me, \"When will you return the book?\"",
-    "q_hi": "दिए गए वाक्य का सही अप्रत्यक्ष रूप (Indirect form) चुनें।\nShe said to me, \"When will you return the book?\"",
-    "options_en": ["She asked me when I would return the book.", "She asked me when will I return the book.", "She asked me when would I return the book.", "She told me when I will return the book."],
-    "options_hi": ["She asked me when I would return the book.", "She asked me when will I return the book.", "She asked me when would I return the book.", "She told me when I will return the book."],
-    "answer": 0,
-    "explanation": "सही उत्तर: She asked me when I would return the book.\n\nExplanation:\n1. 'Said to' -> 'Asked' (Interrogative sentence)।\n2. 'When' संयोजक (connector) के रूप में कार्य करेगा।\n3. Reported speech का Tense बदलता है: 'will' -> 'would'।\n4. वाक्य प्रश्नवाचक से साधारण वाक्य (Assertive) बन जाता है, इसलिए 'would I' (verb before subject) गलत है, 'I would' (subject before verb) सही है।"
-  },
-  {
-    "id": 79,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate meaning of the given idiom.\n**To beat around the bush**",
-    "q_hi": "दिए गए मुहावरे का सबसे उपयुक्त अर्थ चुनें।\n**To beat around the bush**",
-    "options_en": ["To avoid talking about what is important", "To clean the garden", "To punish an innocent person", "To work very hard"],
-    "options_hi": ["महत्वपूर्ण बात करने से बचना (घुमा-फिरा कर बात करना)", "बगीचे की सफाई करना", "किसी निर्दोष को सजा देना", "बहुत मेहनत करना"],
-    "answer": 0,
-    "explanation": "सही उत्तर: To avoid talking about what is important.\n\nExplanation:\n'Beat around the bush' का अर्थ है मुख्य मुद्दे पर न आकर इधर-उधर की बातें करना।"
-  },
-  {
-    "id": 80,
-    "section": "English Comprehension",
-    "q_en": "Select the option that expresses the given sentence in Passive Voice.\n\"The government has launched a new scheme for farmers.\"",
-    "q_hi": "उस विकल्प का चयन करें जो दिए गए वाक्य को Passive Voice में व्यक्त करता है।\n\"The government has launched a new scheme for farmers.\"",
-    "options_en": ["A new scheme for farmers is launched by the government.", "A new scheme for farmers has been launched by the government.", "A new scheme for farmers was launched by the government.", "A new scheme for farmers had been launched by the government."],
-    "options_hi": ["A new scheme for farmers is launched by the government.", "A new scheme for farmers has been launched by the government.", "A new scheme for farmers was launched by the government.", "A new scheme for farmers had been launched by the government."],
-    "answer": 1,
-    "explanation": "सही उत्तर: A new scheme for farmers has been launched by the government.\n\nExplanation:\nActive: Subject + has/have + V3 + Object.\nPassive: Object + has/have + **been** + V3 + by Subject.\n'A new scheme' (Singular) है, इसलिए 'has been' का प्रयोग होगा।"
-  },
-  {
-    "id": 81,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate synonym of the given word.\n**Candid**",
-    "q_hi": "दिए गए शब्द का सबसे उपयुक्त पर्यायवाची (Synonym) चुनें।\n**Candid**",
-    "options_en": ["Deceptive", "Frank", "Arrogant", "Secretive"],
-    "options_hi": ["छलपूर्ण (Deceptive)", "स्पष्टवादी (Frank)", "अभिमानी (Arrogant)", "गुप्त (Secretive)"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Frank\n\nExplanation:\n'Candid' का अर्थ है 'खरा' या 'स्पष्टवादी'।\nSynonyms: Frank, Honest, Forthright.\nAntonyms: Deceptive, Secretive."
-  },
-  {
-    "id": 82,
-    "section": "English Comprehension",
-    "q_en": "Select the correctly spelled word.",
-    "q_hi": "सही वर्तनी (Spelling) वाले शब्द का चयन करें।",
-    "options_en": ["Reciept", "Receipt", "Receit", "Recceipt"],
-    "options_hi": ["Reciept", "Receipt", "Receit", "Recceipt"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Receipt\n\nExplanation:\nसही स्पेलिंग 'Receipt' (रसीद) है।\nRule: 'i' before 'e' except after 'c' (कुछ अपवादों को छोड़कर)। यहाँ 'c' के बाद 'ei' आता है।"
-  },
-  {
-    "id": 83,
-    "section": "English Comprehension",
-    "q_en": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. However, the overuse of plastic has led to severe environmental crises.\nB. Plastic is a versatile material used in many industries.\nC. Governments are now implementing bans on single-use plastics to combat this.\nD. It is durable, lightweight, and cheap to produce.",
-    "q_hi": "एक पैराग्राफ के वाक्य नीचे अव्यवस्थित क्रम में दिए गए हैं। एक सार्थक पैराग्राफ बनाने के लिए वाक्यों को सही क्रम में व्यवस्थित करें।",
-    "options_en": ["BDAC", "BADC", "ABCD", "DCBA"],
-    "options_hi": ["BDAC", "BADC", "ABCD", "DCBA"],
-    "answer": 0,
-    "explanation": "सही उत्तर: BDAC\n\nExplanation:\n1. (B) परिचय देता है कि 'Plastic' क्या है। (Introductory Sentence)\n2. (D) प्लास्टिक के गुणों (durable, lightweight) का वर्णन करता है। (B का विस्तार)\n3. (A) 'However' (हालाँकि) से विरोधाभास (contrast) शुरू होता है - इसके नकारात्मक प्रभाव।\n4. (C) समस्या का समाधान (Governments banning it) बताता है।\nCorrect Order: B -> D -> A -> C."
-  },
-  {
-    "id": 84,
-    "section": "English Comprehension",
-    "q_en": "Select the option that can be used as a one-word substitute for the given group of words.\n**A person who does not believe in the existence of God.**",
-    "q_hi": "दिए गए शब्द समूह के लिए एक शब्द (One-word substitute) चुनें।\n**A person who does not believe in the existence of God.**",
-    "options_en": ["Theist", "Atheist", "Agnostic", "Heretic"],
-    "options_hi": ["आस्तिक (Theist)", "नास्तिक (Atheist)", "अज्ञेयवादी (Agnostic)", "विधर्मी (Heretic)"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Atheist\n\nExplanation:\n* Atheist: नास्तिक (ईश्वर में विश्वास न करने वाला)।\n* Theist: आस्तिक (ईश्वर में विश्वास करने वाला)।\n* Agnostic: जिसे ईश्वर के अस्तित्व पर संदेह हो (न मानता है, न नकारता है)।"
-  },
-  {
-    "id": 85,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate antonym of the underlined word.\n\"The atmosphere in the room was **gloomy** after the sad news.\"",
-    "q_hi": "रेखांकित शब्द का सबसे उपयुक्त विलोम (Antonym) चुनें।\n\"The atmosphere in the room was **gloomy** after the sad news.\"",
-    "options_en": ["Dull", "Bright", "Dark", "Tragic"],
-    "options_hi": ["नीरस (Dull)", "उज्ज्वल/प्रसन्न (Bright)", "अंधेरा (Dark)", "दुखद (Tragic)"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Bright\n\nExplanation:\n'Gloomy' का अर्थ है 'उदास' या 'अंधकारमय'।\nAntonym: Bright (प्रसन्न/चमकीला) या Cheerful."
-  },
-  {
-    "id": 86,
-    "section": "English Comprehension",
-    "q_en": "Fill in the blank with the most appropriate word.\n\"The judge found him ______ of the crime due to lack of evidence.\"",
-    "q_hi": "सबसे उपयुक्त शब्द से रिक्त स्थान की पूर्ति करें।\n\"The judge found him ______ of the crime due to lack of evidence.\"",
-    "options_en": ["innocent", "guilty", "accused", "suspected"],
-    "options_hi": ["innocent", "guilty", "accused", "suspected"],
-    "answer": 0,
-    "explanation": "सही उत्तर: innocent\n\nExplanation:\nसंदर्भ: 'Lack of evidence' (सबूतों की कमी) के कारण जज उसे 'निर्दोष' (innocent) पाएगा, न कि दोषी (guilty)।"
-  },
-  {
-    "id": 87,
-    "section": "English Comprehension",
-    "q_en": "Identify the segment in the sentence which contains a grammatical error.\n\"Neither the captain nor the players was present at the award ceremony.\"",
-    "q_hi": "वाक्य के उस खंड की पहचान करें जिसमें व्याकरण संबंधी त्रुटि है।\n\"Neither the captain nor the players was present at the award ceremony.\"",
-    "options_en": ["Neither the captain", "at the award ceremony", "was present", "nor the players"],
-    "options_hi": ["Neither the captain", "at the award ceremony", "was present", "nor the players"],
-    "answer": 2,
-    "explanation": "सही उत्तर: was present\n\nExplanation:\nRule: 'Neither... nor' के मामले में Verb अपने **निकटतम Subject** (Nearest Subject) के अनुसार होती है।\nयहाँ निकटतम Subject 'the players' (Plural) है।\nअतः 'was' के स्थान पर 'were' होना चाहिए।"
-  },
-  {
-    "id": 88,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate meaning of the given idiom.\n**To burn the midnight oil**",
-    "q_hi": "दिए गए मुहावरे का सबसे उपयुक्त अर्थ चुनें।\n**To burn the midnight oil**",
-    "options_en": ["To waste resources", "To work late into the night", "To create a fire", "To sleep early"],
-    "options_hi": ["संसाधन बर्बाद करना", "देर रात तक काम/पढ़ाई करना", "आग लगाना", "जल्दी सोना"],
-    "answer": 1,
-    "explanation": "सही उत्तर: To work late into the night.\n\nExplanation:\nइस मुहावरे का अर्थ है 'कड़ी मेहनत करना', विशेष रूप से देर रात तक जागकर काम या पढ़ाई करना।"
-  },
-  {
-    "id": 89,
-    "section": "English Comprehension",
-    "q_en": "Select the option that can be used as a one-word substitute for the given group of words.\n**A study of ancient things like tombs, buried towns.**",
-    "q_hi": "दिए गए शब्द समूह के लिए एक शब्द चुनें।\n**A study of ancient things like tombs, buried towns.**",
-    "options_en": ["Paleontology", "Archaeology", "Genealogy", "Geology"],
-    "options_hi": ["जीवाश्म विज्ञान (Paleontology)", "पुरातत्व विज्ञान (Archaeology)", "वंशावली (Genealogy)", "भूविज्ञान (Geology)"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Archaeology\n\nExplanation:\n* Archaeology: प्राचीन वस्तुओं/इमारतों का अध्ययन।\n* Paleontology: जीवाश्मों (Fossils) का अध्ययन।"
-  },
-  {
-    "id": 90,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate option to substitute the underlined segment.\n\"He is addicted **to smoke**.\"",
-    "q_hi": "रेखांकित खंड को प्रतिस्थापित करने के लिए सबसे उपयुक्त विकल्प का चयन करें।\n\"He is addicted **to smoke**.\"",
-    "options_en": ["to smoking", "with smoking", "of smoke", "No substitution required"],
-    "options_hi": ["to smoking", "with smoking", "of smoke", "No substitution required"],
-    "answer": 0,
-    "explanation": "सही उत्तर: to smoking\n\nExplanation:\nRule: कुछ phrases जैसे 'addicted to', 'look forward to', 'with a view to', 'habituated to' के बाद **Gerund (V1 + ing)** का प्रयोग होता है, न कि केवल V1 का।\nCorrect: Addicted to smoking."
-  },
-  {
-    "id": 91,
-    "section": "English Comprehension",
-    "q_en": "Select the incorrectly spelled word.",
-    "q_hi": "गलत वर्तनी (Spelling) वाले शब्द का चयन करें।",
-    "options_en": ["Embarrass", "Accommodate", "Separate", "Occurence"],
-    "options_hi": ["Embarrass", "Accommodate", "Separate", "Occurence"],
-    "answer": 3,
-    "explanation": "सही उत्तर: Occurence\n\nExplanation:\nसही स्पेलिंग **Occurrence** है (Double 'r')।\nअन्य सभी स्पेलिंग सही हैं (Embarrass में double r, double s; Accommodate में double c, double m)।"
-  },
-  {
-    "id": 92,
-    "section": "English Comprehension",
-    "q_en": "Fill in the blank with the most appropriate preposition.\n\"She has been living in this house ______ 2010.\"",
-    "q_hi": "सबसे उपयुक्त Preposition से रिक्त स्थान की पूर्ति करें।\n\"She has been living in this house ______ 2010.\"",
-    "options_en": ["for", "since", "from", "at"],
-    "options_hi": ["for", "since", "from", "at"],
-    "answer": 1,
-    "explanation": "सही उत्तर: since\n\nExplanation:\n* **Since:** निश्चित समय (Point of time) के लिए (e.g., 2010, Monday, Morning). \n* **For:** समय की अवधि (Period of time) के लिए (e.g., 2 years, 3 days)."
-  },
-  {
-    "id": 93,
-    "section": "English Comprehension",
-    "q_en": "Select the most appropriate synonym of the word 'Diligent'.",
-    "q_hi": "'Diligent' शब्द का सबसे उपयुक्त पर्यायवाची चुनें।",
-    "options_en": ["Lazy", "Hardworking", "Indifferent", "Careless"],
-    "options_hi": ["Lazy", "Hardworking", "Indifferent", "Careless"],
-    "answer": 1,
-    "explanation": "सही उत्तर: Hardworking\n\nExplanation:\n'Diligent' का अर्थ है 'परिश्रमी' या 'मेहनती'।\nSynonyms: Industrious, Assiduous, Hardworking."
-  },
-  {
-    "id": 94,
-    "section": "English Comprehension",
-    "q_en": "Select the correct active form of the given sentence.\n\"The cake was being eaten by the children.\"",
-    "q_hi": "दिए गए वाक्य का सही Active form चुनें।\n\"The cake was being eaten by the children.\"",
-    "options_en": ["The children ate the cake.", "The children were eating the cake.", "The children are eating the cake.", "The children had eaten the cake."],
-    "options_hi": ["The children ate the cake.", "The children were eating the cake.", "The children are eating the cake.", "The children had eaten the cake."],
-    "answer": 1,
-    "explanation": "सही उत्तर: The children were eating the cake.\n\nExplanation:\nPassive: Object + was/were + **being** + V3 + Subject.\nActive: Subject + was/were + V1+ing + Object.\n(Past Continuous Tense)।"
-  },
-  {
-    "id": 95,
-    "section": "English Comprehension",
-    "q_en": "Choose the sentence with no spelling error.",
-    "q_hi": "वह वाक्य चुनें जिसमें कोई वर्तनी (spelling) त्रुटि न हो।",
-    "options_en": ["The goverment is planning a new policy.", "The government is plannning a new policy.", "The government is planning a new policy.", "The govrenment is planing a new policy."],
-    "options_hi": ["The goverment...", "The government... plannning...", "The government is planning a new policy.", "The govrenment..."],
-    "answer": 2,
-    "explanation": "सही उत्तर: The government is planning a new policy.\n\nErrors in others:\n1. 'Goverment' (Missing 'n').\n2. 'Plannning' (Triple 'n').\n4. 'Govrenment' (Wrong order), 'Planing' (Missing 'n')."
-  },
-  {
-    "id": 96,
-    "section": "English Comprehension (Cloze Test)",
-    "q_en": "Cloze Test: Read the passage and fill in the blanks.\nArtificial Intelligence (AI) is ______ (1) the way we live and work. From virtual assistants like Siri to self-driving cars, AI is everywhere. However, there are concerns about job ______ (2) as machines take over tasks traditionally done by humans. Experts believe that while some jobs will disappear, new roles will ______ (3). Therefore, it is crucial for the workforce to ______ (4) their skills to stay relevant in this changing ______ (5).\n\nSelect the best option for Blank (1).",
-    "q_hi": "Blank (1) के लिए सबसे उपयुक्त विकल्प चुनें।",
-    "options_en": ["destroying", "revolutionizing", "maintaining", "ignoring"],
-    "options_hi": ["destroying", "revolutionizing", "maintaining", "ignoring"],
-    "answer": 1,
-    "explanation": "सही उत्तर: revolutionizing\n\nExplanation:\nAI हमारे जीने और काम करने के तरीके को 'क्रांतिकारी रूप से बदल रहा है' (revolutionizing)। संदर्भ सकारात्मक और बड़े बदलाव का है।"
-  },
-  {
-    "id": 97,
-    "section": "English Comprehension (Cloze Test)",
-    "q_en": "Select the best option for Blank (2).\n(Passage context: ...concerns about job ______ as machines take over tasks...)",
-    "q_hi": "Blank (2) के लिए सबसे उपयुक्त विकल्प चुनें।",
-    "options_en": ["creation", "displacement", "security", "satisfaction"],
-    "options_hi": ["creation", "displacement", "security", "satisfaction"],
-    "answer": 1,
-    "explanation": "सही उत्तर: displacement\n\nExplanation:\nमशीनों द्वारा काम संभालने से नौकरियों के 'विस्थापन' (displacement/loss) की चिंता है। 'Creation' या 'Security' यहाँ विरोधाभासी हैं।"
-  },
-  {
-    "id": 98,
-    "section": "English Comprehension (Cloze Test)",
-    "q_en": "Select the best option for Blank (3).\n(Passage context: ...some jobs will disappear, new roles will ______.)",
-    "q_hi": "Blank (3) के लिए सबसे उपयुक्त विकल्प चुनें।",
-    "options_en": ["vanish", "emerge", "decline", "hide"],
-    "options_hi": ["vanish", "emerge", "decline", "hide"],
-    "answer": 1,
-    "explanation": "सही उत्तर: emerge\n\nExplanation:\nपुरानी नौकरियां जाएंगी तो नई भूमिकाएं 'उभरेंगी' (emerge)। यह 'disappear' का विलोम संदर्भ है।"
-  },
-  {
-    "id": 99,
-    "section": "English Comprehension (Cloze Test)",
-    "q_en": "Select the best option for Blank (4).\n(Passage context: ...crucial for the workforce to ______ their skills...)",
-    "q_hi": "Blank (4) के लिए सबसे उपयुक्त विकल्प चुनें।",
-    "options_en": ["upskill", "forget", "decrease", "reject"],
-    "options_hi": ["upskill", "forget", "decrease", "reject"],
-    "answer": 0,
-    "explanation": "सही उत्तर: upskill\n\nExplanation:\nबदलते दौर में प्रासंगिक बने रहने के लिए अपने कौशल को 'बढ़ाना/उन्नत करना' (upskill) आवश्यक है।"
-  },
-  {
-    "id": 100,
-    "section": "English Comprehension (Cloze Test)",
-    "q_en": "Select the best option for Blank (5).\n(Passage context: ...stay relevant in this changing ______.)",
-    "q_hi": "Blank (5) के लिए सबसे उपयुक्त विकल्प चुनें।",
-    "options_en": ["history", "past", "landscape", "stagnation"],
-    "options_hi": ["history", "past", "landscape", "stagnation"],
-    "answer": 2,
-    "explanation": "सही उत्तर: landscape\n\nExplanation:\n'Changing landscape' एक सामान्य मुहावरा (phrase) है जिसका अर्थ है 'बदलता हुआ परिदृश्य' या 'माहौल' (environment/scenario)।"
+    "explanation": "सही उत्तर: Ctrl + ;\n\n📌 Exam Oriented Facts:\n1. **Ctrl + ;** (Semicolon) -> वर्तमान दिनांक (Date) डालता है।\n2. **Ctrl + Shift + ;** (Colon) -> वर्तमान समय (Time) डालता है।\n3. **Ctrl + D** -> ऊपर वाली सेल का डेटा नीचे कॉपी करता है (Fill Down)।"
   }
 ]
 }
+ 
