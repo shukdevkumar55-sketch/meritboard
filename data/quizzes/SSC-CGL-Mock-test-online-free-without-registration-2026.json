@@ -205,5 +205,105 @@
     "options_hi": ["दक्षिण अफ्रीका", "ऑस्ट्रेलिया", "भारत", "इंग्लैंड"],
     "answer": 2,
     "explanation": "सही उत्तर: भारत\n\n📌 Exam Oriented Facts:\n1. भारत ने फाइनल में दक्षिण अफ्रीका को हराया।\n2. यह टूर्नामेंट वेस्टइंडीज और यूएसए (USA) में आयोजित किया गया था।\n3. फाइनल मैच बारबाडोस में खेला गया था।\n4. प्लेयर ऑफ द मैच (फाइनल): विराट कोहली।"
+  },
+  {
+    "id": 21,
+    "section": "General Awareness",
+    "q_en": "Which Constitutional Amendment Act added the 'Right to Education' as a Fundamental Right under Article 21A?",
+    "q_hi": "किस संविधान संशोधन अधिनियम ने अनुच्छेद 21A के तहत 'शिक्षा के अधिकार' (Right to Education) को मौलिक अधिकार के रूप में जोड़ा?",
+    "options_en": ["42nd Amendment", "44th Amendment", "86th Amendment", "73rd Amendment"],
+    "options_hi": ["42वां संशोधन", "44वां संशोधन", "86वां संशोधन", "73वां संशोधन"],
+    "answer": 2,
+    "explanation": "सही उत्तर: 86वां संशोधन (2002)\n\n📌 Exam Oriented Facts:\n1. इसने 6 से 14 वर्ष की आयु के बच्चों के लिए मुफ्त और अनिवार्य शिक्षा का प्रावधान किया।\n2. इसने एक नया मौलिक कर्तव्य (अनुच्छेद 51A-k) भी जोड़ा।\n3. 42वां संशोधन: इसे 'लघु संविधान' (Mini Constitution) कहा जाता है।\n4. 73वां संशोधन: पंचायती राज संस्थाओं को संवैधानिक दर्जा।"
+  },
+  {
+    "id": 22,
+    "section": "General Awareness",
+    "q_en": "In plants, which tissue is responsible for the transport of water and minerals from roots to the stems and leaves?",
+    "q_hi": "पौधों में, जड़ों से तनों और पत्तियों तक पानी और खनिजों (Water and Minerals) के परिवहन के लिए कौन सा ऊतक (Tissue) जिम्मेदार है?",
+    "options_en": ["Phloem", "Xylem", "Parenchyma", "Collenchyma"],
+    "options_hi": ["फ्लोएम (Phloem)", "जाइलम (Xylem)", "पेरेन्काइमा", "कोलेनकाइमा"],
+    "answer": 1,
+    "explanation": "सही उत्तर: जाइलम (Xylem)\n\n📌 Exam Oriented Facts:\n1. **जाइलम (Xylem):** जल (Water) का परिवहन। याद रखने की ट्रिक: 'J' से Jal, 'J' से Xylem (sound match in Hindi context)।\n2. **फ्लोएम (Phloem):** भोजन (Food) का पत्तियों से पौधे के अन्य भागों में परिवहन। ('Ph' से Food)।\n3. जाइलम की दिशा हमेशा ऊपर की ओर (Unidirectional) होती है।"
+  },
+  {
+    "id": 23,
+    "section": "General Awareness",
+    "q_en": "The 'First Five Year Plan' of India was based on which economic model?",
+    "q_hi": "भारत की 'प्रथम पंचवर्षीय योजना' (1951-56) किस आर्थिक मॉडल पर आधारित थी?",
+    "options_en": ["Mahalanobis Model", "Harrod-Domar Model", "Gadgil Model", "Rolling Plan"],
+    "options_hi": ["महालनोबिस मॉडल", "हेरोड-डोमर मॉडल", "गाडगिल मॉडल", "रोलिंग प्लान"],
+    "answer": 1,
+    "explanation": "सही उत्तर: हेरोड-डोमर मॉडल (Harrod-Domar Model)\n\n📌 Exam Oriented Facts:\n1. पहली योजना का मुख्य फोकस 'कृषि' (Agriculture) विकास पर था।\n2. दूसरी पंचवर्षीय योजना (1956-61) 'P.C. महालनोबिस मॉडल' पर आधारित थी और इसमें 'भारी उद्योगों' (Heavy Industries) पर ध्यान दिया गया था।\n3. योजना आयोग को 2015 में NITI Aayog द्वारा प्रतिस्थापित किया गया।"
+  },
+  {
+    "id": 24,
+    "section": "General Awareness",
+    "q_en": "Which of the following physical quantities is a 'Scalar' quantity?",
+    "q_hi": "निम्नलिखित में से कौन सी भौतिक राशि एक 'अदिश' (Scalar) राशि है?",
+    "options_en": ["Force", "Velocity", "Displacement", "Distance"],
+    "options_hi": ["बल (Force)", "वेग (Velocity)", "विस्थापन (Displacement)", "दूरी (Distance)"],
+    "answer": 3,
+    "explanation": "सही उत्तर: दूरी (Distance)\n\n📌 Exam Oriented Facts:\n1. **Scalar (अदिश):** केवल परिमाण (Magnitude) होता है, दिशा नहीं। उदा: दूरी, चाल, द्रव्यमान, ऊर्जा।\n2. **Vector (सदिश):** परिमाण और दिशा दोनों होते हैं। उदा: विस्थापन, वेग, बल, त्वरण।\n3. कार्य (Work) और शक्ति (Power) भी अदिश राशियाँ हैं।"
+  },
+  {
+    "id": 25,
+    "section": "General Awareness",
+    "q_en": "Who founded the 'Forward Bloc' political party in 1939 after resigning from the Congress presidency?",
+    "q_hi": "1939 में कांग्रेस अध्यक्ष पद से इस्तीफा देने के बाद 'फॉरवर्ड ब्लॉक' (Forward Bloc) राजनीतिक दल की स्थापना किसने की थी?",
+    "options_en": ["Subhash Chandra Bose", "Bhagat Singh", "Chittaranjan Das", "Motilal Nehru"],
+    "options_hi": ["सुभाष चंद्र बोस", "भगत सिंह", "चित्तरंजन दास", "मोतीलाल नेहरू"],
+    "answer": 0,
+    "explanation": "सही उत्तर: सुभाष चंद्र बोस\n\n📌 Exam Oriented Facts:\n1. 1939 के त्रिपुरी अधिवेशन में पट्टाभि सीतारमैया को हराकर सुभाष चंद्र बोस अध्यक्ष बने थे, लेकिन गांधीजी के विरोध के कारण इस्तीफा दे दिया।\n2. चित्तरंजन दास और मोतीलाल नेहरू ने 1923 में 'स्वराज पार्टी' की स्थापना की थी।\n3. भगत सिंह ने 'नौजवान भारत सभा' की स्थापना की थी।"
+  },
+  {
+    "id": 26,
+    "section": "General Intelligence & Reasoning",
+    "q_en": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nSkin : Dermatologist :: Teeth : ?",
+    "q_hi": "उस विकल्प का चयन करें जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है।\nत्वचा : त्वचा विशेषज्ञ (Dermatologist) :: दाँत : ?",
+    "options_en": ["Orthopaedist", "Pediatrician", "Dentist", "Cardiologist"],
+    "options_hi": ["हड्डी रोग विशेषज्ञ", "बाल रोग विशेषज्ञ", "दंत चिकित्सक", "हृदय रोग विशेषज्ञ"],
+    "answer": 2,
+    "explanation": "सही उत्तर: दंत चिकित्सक (Dentist)\n\nLogic: अध्ययन/विशेषज्ञ का संबंध।\nत्वचा के डॉक्टर को Dermatologist कहते हैं।\nदाँतों के डॉक्टर को Dentist (या Orthodontist विकल्प पर निर्भर करता है) कहते हैं।\nCardiologist: हृदय।\nOrthopaedist: हड्डियाँ।"
+  },
+  {
+    "id": 27,
+    "section": "General Intelligence & Reasoning",
+    "q_en": "In a certain code language, 'MONKEY' is written as 'XDJMNL'. How will 'TIGER' be written in that language?",
+    "q_hi": "एक निश्चित कूट भाषा में, 'MONKEY' को 'XDJMNL' लिखा जाता है। उसी भाषा में 'TIGER' को कैसे लिखा जाएगा?",
+    "options_en": ["QDFHS", "SDFHS", "QFHDS", "SHFDQ"],
+    "options_hi": ["QDFHS", "SDFHS", "QFHDS", "SHFDQ"],
+    "answer": 0,
+    "explanation": "सही उत्तर: QDFHS\n\nLogic: Reverse Order - 1 (विपरीत क्रम में एक घटाना)।\nMONKEY (Reversed) -> Y E K N O M\n-1 Logic:\nY - 1 = X\nE - 1 = D\nK - 1 = J\nN - 1 = M\nO - 1 = N\nM - 1 = L\nCode: XDJMNL\n\nSimilarly for TIGER:\nReverse -> R E G I T\nR - 1 = Q\nE - 1 = D\nG - 1 = F\nI - 1 = H\nT - 1 = S\nAnswer: QDFHS"
+  },
+  {
+    "id": 28,
+    "section": "General Intelligence & Reasoning",
+    "q_en": "Select the Venn diagram that best illustrates the relationship between the following classes.\nFurniture, Table, Chair",
+    "q_hi": "उस वेन आरेख का चयन करें जो निम्नलिखित वर्गों के बीच संबंध को सर्वोत्तम रूप से दर्शाता है।\nफर्नीचर, मेज, कुर्सी",
+    "options_en": ["One big circle containing two separate small circles", "Three separate circles", "Two intersecting circles inside a big circle", "Three intersecting circles"],
+    "options_hi": ["एक बड़ा वृत्त जिसमें दो अलग-अलग छोटे वृत्त हों", "तीन अलग-अलग वृत्त", "एक बड़े वृत्त के अंदर दो प्रतिच्छेदी वृत्त", "तीन प्रतिच्छेदी वृत्त"],
+    "answer": 0,
+    "explanation": "सही उत्तर: एक बड़ा वृत्त जिसमें दो अलग-अलग छोटे वृत्त हों (One big circle containing two separate small circles)\n\nLogic:\n1. 'मेज' (Table) पूरी तरह से 'फर्नीचर' श्रेणी में आता है।\n2. 'कुर्सी' (Chair) पूरी तरह से 'फर्नीचर' श्रेणी में आती है।\n3. लेकिन 'मेज' और 'कुर्सी' दो अलग-अलग आइटम हैं (कोई ओवरलैप नहीं)।\nअतः एक बड़े गोले (फर्नीचर) के अंदर दो अलग-अलग गोले।"
+  },
+  {
+    "id": 29,
+    "section": "General Intelligence & Reasoning",
+    "q_en": "Which number will complete the following series?\n5, 11, 24, 51, 106, ?",
+    "q_hi": "निम्नलिखित श्रृंखला को कौन सी संख्या पूरा करेगी?\n5, 11, 24, 51, 106, ?",
+    "options_en": ["215", "217", "220", "213"],
+    "options_hi": ["215", "217", "220", "213"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 217\n\nLogic: $\\times 2 + 1, \\times 2 + 2, \\times 2 + 3...$\n$5 \\times 2 + 1 = 11$\n$11 \\times 2 + 2 = 24$\n$24 \\times 2 + 3 = 51$\n$51 \\times 2 + 4 = 106$\nNext: $106 \\times 2 + 5 = 212 + 5 = 217$"
+  },
+  {
+    "id": 30,
+    "section": "General Intelligence & Reasoning",
+    "q_en": "Two positions of the same dice are shown. Select the number that will be on the face opposite to the one showing '6'.\n(Position 1: Faces 6, 3, 1)\n(Position 2: Faces 5, 2, 6)",
+    "q_hi": "एक ही पासे (Dice) की दो स्थितियाँ दिखाई गई हैं। उस संख्या का चयन करें जो '6' दर्शाने वाले फलक के विपरीत होगी।\n(स्थिति 1: फलक 6, 3, 1)\n(स्थिति 2: फलक 5, 2, 6)",
+    "options_en": ["4", "1", "3", "5"],
+    "options_hi": ["4", "1", "3", "5"],
+    "answer": 0,
+    "explanation": "सही उत्तर: 4\n\nLogic: Common Number Rule.\nदोनों स्थितियों में '6' कॉमन है।\n6 के साथ दिखने वाले अंक (Adjacent): 3, 1, 5, 2।\nपासे में 1 से 6 तक अंक होते हैं।\nचूंकि 6 के विपरीत वह अंक होगा जो दिखाई नहीं दे रहा है।\nदिखने वाले अंक: 1, 2, 3, 5, 6\nगायब अंक: 4\nअतः 6 के विपरीत 4 होगा।"
   }
 ]
