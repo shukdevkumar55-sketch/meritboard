@@ -105,7 +105,105 @@
     "options_hi": ["Ctrl + ;", "Ctrl + Shift + ;", "Alt + D", "Ctrl + D"],
     "answer": 0,
     "explanation": "सही उत्तर: Ctrl + ;\n\n📌 Exam Oriented Facts:\n1. **Ctrl + ;** (Semicolon) -> वर्तमान दिनांक (Date) डालता है।\n2. **Ctrl + Shift + ;** (Colon) -> वर्तमान समय (Time) डालता है।\n3. **Ctrl + D** -> ऊपर वाली सेल का डेटा नीचे कॉपी करता है (Fill Down)।"
+  },
+  {
+    "id": 11,
+    "section": "General Awareness",
+    "q_en": "Which type of mirror is commonly used as a rear-view mirror in vehicles?",
+    "q_hi": "वाहनों में 'रियर-व्यू मिरर' (पीछे देखने वाले दर्पण) के रूप में आमतौर पर किस प्रकार के दर्पण का उपयोग किया जाता है?",
+    "options_en": ["Concave mirror", "Convex mirror", "Plane mirror", "Cylindrical mirror"],
+    "options_hi": ["अवतल दर्पण", "उत्तल दर्पण", "समतल दर्पण", "बेलनाकार दर्पण"],
+    "answer": 1,
+    "explanation": "सही उत्तर: उत्तल दर्पण (Convex mirror)\n\n📌 Exam Oriented Facts:\n1. उत्तल दर्पण का दृश्य क्षेत्र (Field of view) बहुत व्यापक होता है क्योंकि यह बाहर की ओर वक्रित होता है।\n2. यह हमेशा वस्तुओं का सीधा (erect) और छोटा (diminished) प्रतिबिंब बनाता है।\n3. अवतल दर्पण (Concave) का उपयोग दंत चिकित्सक (Dentists), शेविंग मिरर और हेडलाइट्स में किया जाता है।"
+  },
+  {
+    "id": 12,
+    "section": "General Awareness",
+    "q_en": "The 'Finance Commission' of India is constituted by the President under which article of the Constitution?",
+    "q_hi": "भारत के 'वित्त आयोग' (Finance Commission) का गठन राष्ट्रपति द्वारा संविधान के किस अनुच्छेद के तहत किया जाता है?",
+    "options_en": ["Article 280", "Article 324", "Article 110", "Article 148"],
+    "options_hi": ["अनुच्छेद 280", "अनुच्छेद 324", "अनुच्छेद 110", "अनुच्छेद 148"],
+    "answer": 0,
+    "explanation": "सही उत्तर: अनुच्छेद 280\n\n📌 Exam Oriented Facts:\n1. वित्त आयोग एक अर्द्ध-न्यायिक (Quasi-judicial) संवैधानिक निकाय है।\n2. इसका गठन राष्ट्रपति द्वारा हर 5 साल में किया जाता है।\n3. यह केंद्र और राज्यों के बीच करों (Tax) के वितरण की सिफारिश करता है।\n4. 16वें वित्त आयोग के अध्यक्ष 'डॉ. अरविंद पनगढ़िया' हैं।"
+  },
+  {
+    "id": 13,
+    "section": "General Awareness",
+    "q_en": "Who among the following Delhi Sultans is known for introducing the 'Market Control Policy' and fixing the prices of goods?",
+    "q_hi": "निम्नलिखित में से किस दिल्ली सुल्तान को 'बाजार नियंत्रण नीति' (Market Control Policy) शुरू करने और वस्तुओं की कीमतें तय करने के लिए जाना जाता है?",
+    "options_en": ["Iltutmish", "Balban", "Alauddin Khalji", "Muhammad bin Tughlaq"],
+    "options_hi": ["इल्तुतमिश", "बलबन", "अलाउद्दीन खिलजी", "मुहम्मद बिन तुगलक"],
+    "answer": 2,
+    "explanation": "सही उत्तर: अलाउद्दीन खिलजी\n\n📌 Exam Oriented Facts:\n1. उसने एक विशाल स्थायी सेना (Standing Army) को बनाए रखने के लिए यह नीति लागू की थी।\n2. उसने सैनिकों का हुलिया (Chehra) और घोड़ों को दागने (Dagh) की प्रथा शुरू की।\n3. उसने 'शहना-ए-मंडी' (बाजार अधीक्षक) नामक अधिकारी नियुक्त किया।"
+  },
+  {
+    "id": 14,
+    "section": "General Awareness",
+    "q_en": "Which chemical element is represented by the symbol 'W'?",
+    "q_hi": "किस रासायनिक तत्व को 'W' प्रतीक (Symbol) द्वारा दर्शाया जाता है?",
+    "options_en": ["Tungsten", "Wolframite", "Tin", "Zinc"],
+    "options_hi": ["टंगस्टन", "वोल्फ्रामाइट", "टिन", "जिंक"],
+    "answer": 0,
+    "explanation": "सही उत्तर: टंगस्टन (Tungsten)\n\n📌 Exam Oriented Facts:\n1. इसका लैटिन नाम 'Wolfram' है, इसलिए सिंबल 'W' है।\n2. इसका गलनांक (Melting Point) सभी धातुओं में सबसे अधिक (लगभग 3422°C) होता है।\n3. इसका उपयोग बिजली के बल्ब के फिलामेंट बनाने में किया जाता है।\n4. टिन (Sn) का सिंबल Stannum से और लेड (Pb) का Plumbum से लिया गया है।"
+  },
+  {
+    "id": 15,
+    "section": "General Awareness",
+    "q_en": "Which mosquito is the primary vector (carrier) for transmitting the 'Dengue' virus?",
+    "q_hi": "'डेंगू' वायरस को फैलाने के लिए प्राथमिक वाहक (Vector) कौन सा मच्छर है?",
+    "options_en": ["Female Anopheles", "Female Aedes aegypti", "Culex", "Mansonia"],
+    "options_hi": ["मादा एनाफिलीज", "मादा एडीज एजिप्टी", "क्यूलेक्स", "मैन्सोनिया"],
+    "answer": 1,
+    "explanation": "सही उत्तर: मादा एडीज एजिप्टी (Female Aedes aegypti)\n\n📌 Exam Oriented Facts:\n1. यह मच्छर चिकनगुनिया और जीका वायरस भी फैलाता है।\n2. यह अक्सर दिन के समय काटता है।\n3. मादा एनाफिलीज (Female Anopheles) 'मलेरिया' फैलाती है।\n4. क्यूलेक्स मच्छर 'जापानी इंसेफेलाइटिस' का वाहक हो सकता है।"
+  },
+  {
+    "id": 16,
+    "section": "General Awareness",
+    "q_en": "The famous 'Hornbill Festival', often called the 'Festival of Festivals', is celebrated in which Indian state?",
+    "q_hi": "प्रसिद्ध 'हॉर्नबिल महोत्सव', जिसे अक्सर 'त्योहारों का त्योहार' कहा जाता है, भारत के किस राज्य में मनाया जाता है?",
+    "options_en": ["Manipur", "Nagaland", "Arunachal Pradesh", "Meghalaya"],
+    "options_hi": ["मणिपुर", "नागालैंड", "अरुणाचल प्रदेश", "मेघालय"],
+    "answer": 1,
+    "explanation": "सही उत्तर: नागालैंड\n\n📌 Exam Oriented Facts:\n1. यह हर साल 1 से 10 दिसंबर तक मनाया जाता है।\n2. यह नागालैंड के राज्य स्थापना दिवस (1 दिसंबर 1963) के साथ मेल खाता है।\n3. इसका नाम 'हॉर्नबिल' पक्षी के नाम पर रखा गया है, जो नागा लोककथाओं में पूजनीय है।"
+  },
+  {
+    "id": 17,
+    "section": "General Awareness",
+    "q_en": "Who is the author of the famous book 'The Discovery of India'?",
+    "q_hi": "प्रसिद्ध पुस्तक 'द डिस्कवरी ऑफ इंडिया' (भारत की खोज) के लेखक कौन हैं?",
+    "options_en": ["Mahatma Gandhi", "Sardar Vallabhbhai Patel", "Jawaharlal Nehru", "Rabindranath Tagore"],
+    "options_hi": ["महात्मा गांधी", "सरदार वल्लभभाई पटेल", "जवाहरलाल नेहरू", "रवींद्रनाथ टैगोर"],
+    "answer": 2,
+    "explanation": "सही उत्तर: जवाहरलाल नेहरू\n\n📌 Exam Oriented Facts:\n1. यह पुस्तक उन्होंने 1942-1946 के दौरान अहमदनगर किले की जेल में कैद रहने के दौरान लिखी थी।\n2. महात्मा गांधी की प्रसिद्ध पुस्तक: 'My Experiments with Truth' (सत्य के साथ मेरे प्रयोग)।\n3. रवींद्रनाथ टैगोर: 'गीतांजलि' (जिसके लिए 1913 में नोबेल पुरस्कार मिला)।"
+  },
+  {
+    "id": 18,
+    "section": "General Awareness",
+    "q_en": "Which constitutes the Monetary Policy Committee (MPC) of India that decides the repo rate?",
+    "q_hi": "भारत की मौद्रिक नीति समिति (MPC) का गठन कौन करता है जो रेपो रेट तय करती है?",
+    "options_en": ["Only RBI officials", "6 members (3 from RBI, 3 from Govt)", "5 members appointed by PM", "Only Finance Ministry officials"],
+    "options_hi": ["केवल RBI अधिकारी", "6 सदस्य (3 RBI से, 3 सरकार द्वारा)", "PM द्वारा नियुक्त 5 सदस्य", "केवल वित्त मंत्रालय के अधिकारी"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 6 सदस्य (3 RBI से, 3 सरकार द्वारा)\n\n📌 Exam Oriented Facts:\n1. MPC का अध्यक्ष 'RBI गवर्नर' होता है।\n2. इसके पास वोटिंग के दौरान टाई होने की स्थिति में RBI गवर्नर के पास 'कास्टिंग वोट' (Casting Vote) होता है।\n3. इसका मुख्य लक्ष्य मुद्रास्फीति (Inflation) को 4% (+/- 2%) के दायरे में रखना है।"
+  },
+  {
+    "id": 19,
+    "section": "General Awareness",
+    "q_en": "Dhupgarh is the highest peak of which mountain range in India?",
+    "q_hi": "धूपगढ़ भारत की किस पर्वत श्रृंखला की सबसे ऊंची चोटी है?",
+    "options_en": ["Vindhya Range", "Satpura Range", "Aravalli Range", "Western Ghats"],
+    "options_hi": ["विंध्य रेंज", "सतपुड़ा रेंज", "अरावली रेंज", "पश्चिमी घाट"],
+    "answer": 1,
+    "explanation": "सही उत्तर: सतपुड़ा रेंज (Satpura Range)\n\n📌 Exam Oriented Facts:\n1. धूपगढ़ चोटी (1350 मीटर) मध्य प्रदेश के पचमढ़ी (हिल स्टेशन) में स्थित है।\n2. अरावली रेंज की सबसे ऊंची चोटी 'गुरु शिखर' (माउंट आबू, राजस्थान) है।\n3. पश्चिमी घाट (सह्याद्रि) की सबसे ऊंची चोटी 'अनामुडी' (केरल) है।\n4. पूर्वी घाट की सबसे ऊंची चोटी 'जिंधागड़ा' (Jindhagada) है (कुछ स्रोतों में महेंद्रगिरी)।"
+  },
+  {
+    "id": 20,
+    "section": "General Awareness",
+    "q_en": "Which country won the ICC Men's T20 World Cup 2024?",
+    "q_hi": "ICC पुरुष T20 विश्व कप 2024 किस देश ने जीता?",
+    "options_en": ["South Africa", "Australia", "India", "England"],
+    "options_hi": ["दक्षिण अफ्रीका", "ऑस्ट्रेलिया", "भारत", "इंग्लैंड"],
+    "answer": 2,
+    "explanation": "सही उत्तर: भारत\n\n📌 Exam Oriented Facts:\n1. भारत ने फाइनल में दक्षिण अफ्रीका को हराया।\n2. यह टूर्नामेंट वेस्टइंडीज और यूएसए (USA) में आयोजित किया गया था।\n3. फाइनल मैच बारबाडोस में खेला गया था।\n4. प्लेयर ऑफ द मैच (फाइनल): विराट कोहली।"
   }
 ]
-}
- 
