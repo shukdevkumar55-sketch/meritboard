@@ -606,3 +606,105 @@
     "answer": 0,
     "explanation": "सही उत्तर: 15:20:28\n\nSolution:\n$x : y = 3 : 4$\n$y : z = 5 : 7$\ny को समान करने के लिए पहले अनुपात को 5 से और दूसरे को 4 से गुणा करें।\n$x : y = 15 : 20$\n$y : z = 20 : 28$\n$x : y : z = 15 : 20 : 28$."
   },
+  {
+    "id": 71,
+    "section": "Quantitative Aptitude",
+    "q_en": "A is three times as efficient as B and therefore is able to finish a job in 24 days less than B. In how many days can they finish the job working together?",
+    "q_hi": "A, B की तुलना में तीन गुना कुशल है और इसलिए वह B से 24 दिन कम समय में कार्य पूरा करने में सक्षम है। वे एक साथ मिलकर कार्य को कितने दिनों में पूरा कर सकते हैं?",
+    "options_en": ["8 days", "9 days", "6 days", "12 days"],
+    "options_hi": ["8 दिन", "9 दिन", "6 दिन", "12 दिन"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 9 days\n\nSolution:\nEfficiency Ratio -> A : B = 3 : 1\nTime Ratio -> A : B = 1 : 3\nसमय का अंतर = $3 - 1 = 2$ units\nदिया गया अंतर = 24 दिन\n$2 \\text{ units} = 24 \\Rightarrow 1 \\text{ unit} = 12$ दिन\nSo, A takes 12 days, B takes 36 days.\nTotal Work (LCM) = 36 units.\nCombined Efficiency = $3 + 1 = 4$ units/day.\nTime Together = $\\frac{36}{4} = 9$ days."
+  },
+  {
+    "id": 72,
+    "section": "Quantitative Aptitude",
+    "q_en": "In a cyclic quadrilateral ABCD, $\\angle A = 4x$ and $\\angle C = 5x$. Find the value of x.",
+    "q_hi": "एक चक्रीय चतुर्भुज (Cyclic Quadrilateral) ABCD में, $\\angle A = 4x$ और $\\angle C = 5x$ है। x का मान ज्ञात कीजिये।",
+    "options_en": ["25", "20", "15", "30"],
+    "options_hi": ["25", "20", "15", "30"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 20\n\nSolution:\nचक्रीय चतुर्भुज के सम्मुख कोणों (Opposite Angles) का योग $180^\\circ$ होता है।\n$\\angle A + \\angle C = 180^\\circ$\n$4x + 5x = 180$\n$9x = 180$\n$x = 20$."
+  },
+  {
+    "id": 73,
+    "section": "Quantitative Aptitude",
+    "q_en": "An article is sold for ₹880 at a loss of 20%. At what price should it be sold to gain 10%?",
+    "q_hi": "एक वस्तु को 20% की हानि पर ₹880 में बेचा जाता है। 10% का लाभ प्राप्त करने के लिए उसे किस कीमत पर बेचा जाना चाहिए?",
+    "options_en": ["₹1210", "₹1100", "₹1150", "₹1200"],
+    "options_hi": ["₹1210", "₹1100", "₹1150", "₹1200"],
+    "answer": 0,
+    "explanation": "सही उत्तर: ₹1210\n\nSolution:\nSP = 80% of CP = 880\n$1\\% = \\frac{880}{80} = 11$\nTarget Profit = 10% (i.e., New SP = 110%)\nNew SP = $110 \\times 11 = 1210$."
+  },
+  {
+    "id": 74,
+    "section": "Quantitative Aptitude",
+    "q_en": "Find the value of: $2\\tan^2 45^\\circ + \\cos^2 30^\\circ - \\sin^2 60^\\circ$.",
+    "q_hi": "मान ज्ञात कीजिये: $2\\tan^2 45^\\circ + \\cos^2 30^\\circ - \\sin^2 60^\\circ$.",
+    "options_en": ["0", "1", "2", "3"],
+    "options_hi": ["0", "1", "2", "3"],
+    "answer": 2,
+    "explanation": "सही उत्तर: 2\n\nSolution:\nValues:\n$\\tan 45^\\circ = 1$\n$\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$\n$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$\nExpression:\n$2(1)^2 + (\\frac{\\sqrt{3}}{2})^2 - (\\frac{\\sqrt{3}}{2})^2$\n$= 2 + \\frac{3}{4} - \\frac{3}{4}$\n$= 2$."
+  },
+  {
+    "id": 75,
+    "section": "Quantitative Aptitude",
+    "q_en": "In a pie chart representing the expenditure of a family, the sector for 'Food' makes an angle of $144^\\circ$ at the center. What is the percentage expenditure on Food?",
+    "q_hi": "एक परिवार के खर्च को दर्शाने वाले पाई चार्ट में, 'भोजन' (Food) का त्रिज्यखंड केंद्र पर $144^\\circ$ का कोण बनाता है। भोजन पर व्यय का प्रतिशत क्या है?",
+    "options_en": ["35%", "40%", "30%", "45%"],
+    "options_hi": ["35%", "40%", "30%", "45%"],
+    "answer": 1,
+    "explanation": "सही उत्तर: 40%\n\nSolution:\nPercentage = $\\frac{\\text{Given Angle}}{360^\\circ} \\times 100$\n$= \\frac{144}{360} \\times 100$\n$= \\frac{2}{5} \\times 100$\n$= 2 \\times 20 = 40\\%$."
+  },
+  {
+    "id": 76,
+    "section": "English Comprehension",
+    "q_en": "Identify the segment in the sentence which contains a grammatical error.\n\"One of the students were absent from the class yesterday.\"",
+    "q_hi": "वाक्य के उस खंड की पहचान करें जिसमें व्याकरण संबंधी त्रुटि (Error) है।\n\"One of the students were absent from the class yesterday.\"",
+    "options_en": ["from the class", "One of the students", "yesterday", "were absent"],
+    "options_hi": ["from the class", "One of the students", "yesterday", "were absent"],
+    "answer": 3,
+    "explanation": "सही उत्तर: were absent\n\nExplanation:\nSubject-Verb Agreement Rule: The phrase 'One of the + Plural Noun' takes a **Singular Verb**.\nCorrect Sentence: \"One of the students **was** absent...\""
+  },
+  {
+    "id": 77,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate option to substitute the underlined segment in the given sentence.\n\"He **has been working** here since 2015.\"",
+    "q_hi": "दिए गए वाक्य में रेखांकित खंड को प्रतिस्थापित करने के लिए सबसे उपयुक्त विकल्प का चयन करें।\n\"He **has been working** here since 2015.\"",
+    "options_en": ["is working", "was working", "have been working", "No substitution required"],
+    "options_hi": ["is working", "was working", "have been working", "No substitution required"],
+    "answer": 3,
+    "explanation": "सही उत्तर: No substitution required\n\nExplanation:\nThe sentence is in the **Present Perfect Continuous Tense** because it indicates an action that started in the past (2015) and is still continuing. The structure 'has been + V1-ing' is correct for the singular subject 'He'."
+  },
+  {
+    "id": 78,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate meaning of the given idiom.\n**To spill the beans**",
+    "q_hi": "दिए गए मुहावरे का सबसे उपयुक्त अर्थ चुनें।\n**To spill the beans**",
+    "options_en": ["To waste food", "To reveal a secret", "To cook beans", "To make a mess"],
+    "options_hi": ["खाना बर्बाद करना", "रहस्य उजागर करना", "बीन्स पकाना", "गड़बड़ करना"],
+    "answer": 1,
+    "explanation": "सही उत्तर: To reveal a secret\n\nExplanation:\n'To spill the beans' means to disclose a secret or confidential information unintentionally or thoughtlessly."
+  },
+  {
+    "id": 79,
+    "section": "English Comprehension",
+    "q_en": "Select the most appropriate synonym of the given word.\n**Prudent**",
+    "q_hi": "दिए गए शब्द का सबसे उपयुक्त पर्यायवाची (Synonym) चुनें।\n**Prudent**",
+    "options_en": ["Reckless", "Wise", "Wasteful", "Angry"],
+    "options_hi": ["लापरवाह (Reckless)", "बुद्धिमान/विवेकी (Wise)", "अपव्ययी (Wasteful)", "क्रोधित (Angry)"],
+    "answer": 1,
+    "explanation": "सही उत्तर: Wise\n\nExplanation:\n'Prudent' means acting with or showing care and thought for the future (समझदार, विवेकी).\nSynonyms: Wise, Judicious, Cautious.\nAntonyms: Reckless, Careless."
+  },
+  {
+    "id": 80,
+    "section": "English Comprehension",
+    "q_en": "Select the option that can be used as a one-word substitute for the given group of words.\n**A place where birds are kept**",
+    "q_hi": "दिए गए शब्द समूह के लिए एक शब्द चुनें।\n**A place where birds are kept**",
+    "options_en": ["Apiary", "Aquarium", "Aviary", "Zoo"],
+    "options_hi": ["मधुमक्खीशाला (Apiary)", "मछलीघर (Aquarium)", "पक्षीशाला (Aviary)", "चिड़ियाघर (Zoo)"],
+    "answer": 2,
+    "explanation": "सही उत्तर: Aviary\n\nExplanation:\n1. **Aviary:** पक्षीशाला (Birds).\n2. **Apiary:** मधुमक्खीशाला (Bees).\n3. **Aquarium:** मछलीघर (Fish).\n4. **Zoo:** चिड़ियाघर (Animals)."
+  }
+]
+}
