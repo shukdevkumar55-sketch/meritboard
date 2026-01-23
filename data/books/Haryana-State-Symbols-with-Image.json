@@ -1,0 +1,84 @@
+{
+  "id": "Haryana-State-Symbols",
+  "title": "Haryana State Symbols – Exam Oriented Digital Book",
+  "author": "Sukhdev Dahiya & Team MeritBoard",
+  "category": "HSSC CET | Haryana Police | Group C & D",
+  "subject": "Haryana General Knowledge",
+  "cover": "assets/haryana-state-symbols-cover.jpg",
+
+  "info": "<p>यह डिजिटल स्मॉल बुक हरियाणा के सभी <b>राजकीय प्रतीकों</b> को इमेज, फैक्ट्स और एग्जाम-ओरिएंटेड व्याख्या के साथ कवर करती है। यह HSSC CET, Haryana Police और Group C/D परीक्षाओं के लिए अत्यंत उपयोगी है।</p>",
+
+  "preface": "<p>प्रिय अभ्यर्थी,<br>हरियाणा GK में राजकीय प्रतीकों से हर परीक्षा में 1–3 प्रश्न निश्चित रूप से पूछे जाते हैं। इस बुक में आपको केवल वही जानकारी मिलेगी जो परीक्षा में सीधे या घुमा-फिराकर पूछी जाती है।</p>",
+
+  "chapters": [
+    {
+      "title": "1. हरियाणा का राजकीय पशु",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>काला हिरण (Blackbuck)</h2><p><b>हरियाणा का राजकीय पशु:</b> काला हिरण</p><p>काला हिरण भारत के संरक्षित वन्य जीवों में शामिल है और यह मुख्य रूप से खुले मैदानों व घास के मैदानों में पाया जाता है।</p><img src='assets/blackbuck.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• यह हरियाणा का राजकीय पशु है<br>• संरक्षित प्रजाति है<br>• अक्सर सीधे प्रश्न के रूप में पूछा जाता है</p><p><b>Exam Hint:</b> यदि विकल्पों में नीलगाय और काला हिरण साथ हों → सही उत्तर काला हिरण होगा।</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "2. हरियाणा का राजकीय पक्षी",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>काला तीतर (Black Francolin)</h2><p><b>हरियाणा का राजकीय पक्षी:</b> काला तीतर</p><p>यह पक्षी खेतों, झाड़ियों और खुले जंगलों में पाया जाता है।</p><img src='assets/black-francolin.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• अंग्रेजी नाम: Black Francolin<br>• घुमा-फिराकर पूछा जाता है</p><p><b>Trap:</b> मोर = राष्ट्रीय पक्षी, हरियाणा का नहीं।</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "3. हरियाणा का राजकीय वृक्ष",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>पीपल</h2><p><b>हरियाणा का राजकीय वृक्ष:</b> पीपल</p><p>पीपल को धार्मिक और पर्यावरणीय दोनों दृष्टि से महत्वपूर्ण माना जाता है।</p><img src='assets/peepal-tree.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• ऑक्सीजन उत्पादन के लिए प्रसिद्ध<br>• कम पूछा जाता है लेकिन ट्रैप में आता है</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "4. हरियाणा का राजकीय फूल",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>कमल</h2><p><b>हरियाणा का राजकीय फूल:</b> कमल</p><p>कमल स्वच्छता और पवित्रता का प्रतीक माना जाता है।</p><img src='assets/lotus.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• भारत का राष्ट्रीय फूल भी है<br>• राज्य और राष्ट्रीय दोनों में common confusion</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "5. हरियाणा का राजकीय फल",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>अमरूद</h2><p><b>हरियाणा का राजकीय फल:</b> अमरूद</p><p>हरियाणा में अमरूद का उत्पादन बड़े स्तर पर किया जाता है।</p><img src='assets/guava.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• बार-बार पूछा गया प्रश्न<br>• सेब / आम ट्रैप ऑप्शन होते हैं</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "6. हरियाणा की राजकीय मछली",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>रोहू</h2><p><b>हरियाणा की राजकीय मछली:</b> रोहू</p><p>रोहू मीठे पानी की प्रमुख मछली है।</p><img src='assets/rohu-fish.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• कभी-कभी Match the Following में आती है</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "7. हरियाणा का राजकीय खेल",
+      "pages": [
+        {
+          "page_no": 1,
+          "content": "<h2>कुश्ती</h2><p><b>हरियाणा का राजकीय खेल:</b> कुश्ती</p><p>हरियाणा को भारत की कुश्ती नर्सरी कहा जाता है।</p><img src='assets/wrestling-haryana.jpg' onerror='this.style.display=\"none\"'><p><b>Exam Facts:</b><br>• सबसे ज्यादा पूछा जाने वाला प्रतीक<br>• महिला पहलवानों से भी जुड़ा प्रश्न आता है</p><p><b>Sure Shot Question:</b> हरियाणा का राजकीय खेल क्या है?</p>"
+        }
+      ]
+    }
+  ]
+}
