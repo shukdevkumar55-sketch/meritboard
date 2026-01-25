@@ -1,0 +1,1018 @@
+{
+  "testTitle": "Haryana Police Constable 2026 - Mock Test 2",
+  "timeMinutes": 100,
+  "category": "Haryana Police Constable",
+  "timeMinutes": 90,
+  "negativeMarking": 0,
+  "description": "<b>Instructions:</b><br>1. This test covers Haryana GK, Math, Reasoning, and English.<br>2. Use the 'Translate' button to switch languages.<br>3. 0 marks will be deducted for every wrong answer.",
+  "cover_image": "assets/haryana-police-constable-mock-test-2-thumbnail.webp",
+  "questions": [
+{
+"id": 1,
+"section": "Haryana GK - Police Administration",
+"q_en": "Which of the following districts of Haryana does NOT have a 'Police Commissionerate' system?",
+"q_hi": "निम्नलिखित में से हरियाणा के किस जिले में 'पुलिस आयुक्तालय' (Police Commissionerate) प्रणाली लागू नहीं है?",
+"options_en": ["Sonipat", "Faridabad", "Hisar", "Panchkula", "Not Attempted"],
+"options_hi": ["सोनीपत", "फरीदाबाद", "हिसार", "पंचकूला", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: हिसार।\n\n📌 Exam Oriented Facts:\n1. हरियाणा में वर्तमान में 4 जिलों में पुलिस कमिश्नरी है: गुरुग्राम, फरीदाबाद, पंचकूला और सोनीपत (सोनीपत सबसे नई बनी है)।\n2. हिसार एक 'पुलिस रेंज' (Police Range) है, कमिश्नरी नहीं।\n3. पुलिस रेंज का मुखिया IGP (Inspector General of Police) होता है, जबकि कमिश्नरी का मुखिया CP (Commissioner of Police - ADGP/IG रैंक) होता है।"
+},
+{
+"id": 2,
+"section": "Haryana GK - Geography",
+"q_en": "According to the Economic Survey of Haryana, which district has the lowest forest cover percentage regarding its total area?",
+"q_hi": "हरियाणा आर्थिक सर्वेक्षण के अनुसार, अपने कुल क्षेत्रफल के संदर्भ में सबसे कम वन आवरण (Forest Cover) प्रतिशत वाला जिला कौन सा है?",
+"options_en": ["Palwal", "Fatehabad", "Panipat", "Jind", "Not Attempted"],
+"options_hi": ["पलवल", "फतेहाबाद", "पानीपत", "जींद", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: फतेहाबाद।\n\n📌 Data Points:\n1. सबसे कम वन प्रतिशत (Lowest %) और सबसे कम वन क्षेत्रफल (Lowest Area) दोनों मामलों में फतेहाबाद (Fatehabad) का स्थान आता है।\n2. सबसे अधिक वन प्रतिशत वाला जिला: पंचकूला (Panchkula)।\n3. सबसे अधिक वन क्षेत्रफल वाला जिला: पंचकूला।\nHSSC अक्सर 'Indian State of Forest Report (ISFR)' के आंकड़ों पर प्रश्न पूछता है।"
+},
+{
+"id": 3,
+"section": "Haryana GK - Schemes",
+"q_en": "What is the primary objective of the 'Mera Pani Meri Virasat' scheme launched by the Haryana Government?",
+"q_hi": "हरियाणा सरकार द्वारा शुरू की गई 'मेरा पानी मेरी विरासत' योजना का प्राथमिक उद्देश्य क्या है?",
+"options_en": ["To provide clean drinking water in villages", "To encourage crop diversification and save water", "To build canals in southern Haryana", "To promote fish farming in ponds", "Not Attempted"],
+"options_hi": ["गांवों में पीने का साफ पानी उपलब्ध कराना", "फसल विविधीकरण को प्रोत्साहित करना और पानी बचाना", "दक्षिणी हरियाणा में नहरें बनाना", "तालाबों में मछली पालन को बढ़ावा देना", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: फसल विविधीकरण को प्रोत्साहित करना और पानी बचाना।\n\n📌 Scheme Details:\n1. उद्देश्य: किसानों को धान (Paddy) की जगह कम पानी वाली फसलें (जैसे मक्का, कपास, बाजरा, दालें) उगाने के लिए प्रेरित करना।\n2. प्रोत्साहन राशि: ₹7,000 प्रति एकड़ उन किसानों को दी जाती है जो धान की खेती छोड़ते हैं।\n3. यह योजना हरियाणा के गिरते भूजल स्तर (Groundwater level) को बचाने के लिए है।"
+},
+{
+"id": 4,
+"section": "Haryana GK - Polity",
+"q_en": "How many seats in the Haryana Vidhan Sabha are reserved for the Scheduled Castes (SC)?",
+"q_hi": "हरियाणा विधानसभा में अनुसूचित जातियों (SC) के लिए कितनी सीटें आरक्षित हैं?",
+"options_en": ["15", "17", "19", "21", "Not Attempted"],
+"options_hi": ["15", "17", "19", "21", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 17।\n\n📌 Quick Facts:\n1. हरियाणा विधानसभा में कुल सीटें: 90\n2. आरक्षित सीटें (Reserved Seats): 17\n3. लोकसभा सीटें: 10 (जिनमें से 2 आरक्षित हैं - अंबाला और सिरसा)।\n4. राज्यसभा सीटें: 5\nHSSC अक्सर आरक्षित सीटों की संख्या या विशिष्ट आरक्षित सीट (जैसे- 'क्या झज्जर आरक्षित है?') पर प्रश्न पूछता है।"
+},
+{
+"id": 5,
+"section": "Haryana GK - Culture",
+"q_en": "In Haryanvi culture, what is 'Purli'?",
+"q_hi": "हरियाणवी संस्कृति में 'पुरली' (Purli) क्या है?",
+"options_en": ["A folk song", "A type of headgear (Pagri)", "An ornament worn in the nose", "A traditional embroidery style", "Not Attempted"],
+"options_hi": ["एक लोक गीत", "सिर पर पहने जाने वाला साफा (पगड़ी)", "नाक में पहना जाने वाला एक आभूषण", "एक पारंपरिक कढ़ाई शैली", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: नाक में पहना जाने वाला एक आभूषण।\n\n📌 Haryanvi Ornaments:\n1. पुरली/कोका/नथ: नाक के आभूषण।\n2. बुजली/डेडे: कान के आभूषण।\n3. गलसरी/हंसली: गले के आभूषण।\n4. आरसी: अंगूठे में पहने जाने वाला आईना युक्त अंगूठी।\nसांस्कृतिक आभूषणों से हर पुलिस भर्ती परीक्षा में एक प्रश्न अवश्य आता है।"
+},
+{
+"id": 6,
+"section": "New Criminal Laws (BNS)",
+"q_en": "Under the Bharatiya Nyaya Sanhita (BNS), which section now defines the punishment for 'Murder', replacing Section 302 of the IPC?",
+"q_hi": "भारतीय न्याय संहिता (BNS) के तहत, अब 'हत्या' (Murder) के लिए सजा किस धारा में परिभाषित की गई है, जिसने IPC की धारा 302 का स्थान लिया है?",
+"options_en": ["Section 101", "Section 103(1)", "Section 302", "Section 105", "Not Attempted"],
+"options_hi": ["धारा 101", "धारा 103(1)", "धारा 302", "धारा 105", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: धारा 103(1)।\n\n📌 Key Exam Fact:\n1. IPC 302 (हत्या की सजा) अब BNS की धारा 103(1) बन गई है।\n2. BNS धारा 103(2) में 'Mob Lynching' (भीड़ द्वारा हत्या) के लिए मृत्युदंड या आजीवन कारावास का नया प्रावधान जोड़ा गया है।\n3. धारा 101 में 'हत्या की परिभाषा' (Definition of Murder) है (जो पहले IPC 300 में थी)।"
+},
+{
+"id": 7,
+"section": "New Criminal Laws (BNS)",
+"q_en": "Which section of the Bharatiya Nyaya Sanhita (BNS) introduces strict punishment (up to 10 years) for 'Hit and Run' cases if the driver fails to report the incident?",
+"q_hi": "भारतीय न्याय संहिता (BNS) की कौन सी धारा 'हिट एंड रन' (Hit and Run) मामलों के लिए सख्त सजा (10 साल तक) का प्रावधान करती है, यदि चालक घटना की सूचना देने में विफल रहता है?",
+"options_en": ["Section 106(1)", "Section 106(2)", "Section 279", "Section 304A", "Not Attempted"],
+"options_hi": ["धारा 106(1)", "धारा 106(2)", "धारा 279", "धारा 304A", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: धारा 106(2)।\n\n📌 Exam Logic:\n1. धारा 106(2): यदि चालक एक्सीडेंट के बाद पुलिस या मजिस्ट्रेट को बिना बताए भाग जाता है, तो सजा 10 साल तक हो सकती है + जुर्माना।\n2. धारा 106(1): यदि चालक एक्सीडेंट के बाद रुककर सूचना देता है, तो सजा कम (5 साल तक) है।\n3. पुराने कानून (IPC 304A) में यह सजा केवल 2 साल थी। यह प्रश्न अत्यंत महत्वपूर्ण है क्योंकि इस पर देशव्यापी चर्चा हुई थी।"
+},
+{
+"id": 8,
+"section": "New Criminal Laws (BNS) - Women Safety",
+"q_en": "Which new section in BNS specifically deals with 'Sexual intercourse by employing deceitful means' (often discussed in the context of false promise of marriage)?",
+"q_hi": "BNS में कौन सी नई धारा विशेष रूप से 'धोखे से यौन संबंध बनाने' (जिसे अक्सर शादी के झूठे वादे के संदर्भ में चर्चा की जाती है) से संबंधित है?",
+"options_en": ["Section 63", "Section 69", "Section 376", "Section 72", "Not Attempted"],
+"options_hi": ["धारा 63", "धारा 69", "धारा 376", "धारा 72", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: धारा 69।\n\n📌 Details:\n1. BNS धारा 69: पहचान छिपाकर या शादी/नौकरी का झूठा वादा करके यौन संबंध बनाना अब एक स्पष्ट अपराध है (सजा 10 साल तक)।\n2. यह पहले IPC में सीधे तौर पर परिभाषित नहीं था, इसे अक्सर 'दुष्कर्म' (Rape) माना जाता था या नहीं, इस पर विवाद रहता था। अब इसे 'Rape' से अलग अपराध श्रेणी में रखा गया है।"
+},
+{
+"id": 9,
+"section": "Police Procedure (BNSS)",
+"q_en": "Under Section 173 of BNSS, a police officer is mandatorily required to register an FIR irrespective of jurisdiction. This concept is popularly known as:",
+"q_hi": "BNSS की धारा 173 के तहत, एक पुलिस अधिकारी को अधिकार क्षेत्र (Jurisdiction) की परवाह किए बिना FIR दर्ज करना अनिवार्य है। इस अवधारणा को लोकप्रिय रूप से क्या कहा जाता है?",
+"options_en": ["e-FIR", "Zero FIR", "Instant FIR", "Nil FIR", "Not Attempted"],
+"options_hi": ["ई-एफआईआर (e-FIR)", "जीरो एफआईआर (Zero FIR)", "इंस्टेंट एफआईआर", "निल एफआईआर", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: जीरो एफआईआर (Zero FIR)।\n\n📌 Concept:\n1. BNSS धारा 173 में स्पष्ट कर दिया गया है कि कोई भी पुलिस स्टेशन संज्ञेय अपराध (Cognizable Offence) की सूचना मिलने पर FIR दर्ज करेगा, भले ही अपराध उसके इलाके में न हुआ हो।\n2. इसे '0' नंबर दिया जाता है और बाद में संबंधित थाने को भेज दिया जाता है।\n3. यह महिला सुरक्षा और त्वरित न्याय के लिए HSSC का पसंदीदा प्रश्न है।"
+},
+{
+"id": 10,
+"section": "Police Investigation (BNSS)",
+"q_en": "Under BNSS Section 187, the maximum period of police custody (remand) can be taken in parts over an initial period of how many days?",
+"q_hi": "BNSS की धारा 187 के तहत, पुलिस हिरासत (रिमांड) की अधिकतम अवधि को शुरुआती कितने दिनों की अवधि के दौरान टुकड़ों में लिया जा सकता है?",
+"options_en": ["First 15 days only", "First 30 days", "First 40 or 60 days", "First 90 days", "Not Attempted"],
+"options_hi": ["केवल पहले 15 दिन", "पहले 30 दिन", "शुरुआती 40 या 60 दिन", "पहले 90 दिन", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: शुरुआती 40 या 60 दिन।\n\n📌 Major Change from CrPC:\n1. पुराना नियम (CrPC): पुलिस रिमांड केवल गिरफ्तारी के **शुरुआती 15 दिनों** के भीतर ही लिया जा सकता था।\n2. नया नियम (BNSS): पुलिस 15 दिन का रिमांड शुरुआती **40 दिनों** (7 साल तक की सजा वाले अपराधों में) या **60 दिनों** (गंभीर अपराधों में) के दौरान कभी भी ले सकती है।\n3. यह पुलिस की जांच शक्ति को बढ़ाता है।"
+},
+{
+"id": 11,
+"section": "Computer - Memory Units",
+"q_en": "In computer terminology, a 'Nibble' is equal to how many bits?",
+"q_hi": "कंप्यूटर शब्दावली में, एक 'निबल' (Nibble) कितने बिट्स (Bits) के बराबर होता है?",
+"options_en": ["4 bits", "8 bits", "16 bits", "32 bits", "Not Attempted"],
+"options_hi": ["4 बिट्स", "8 बिट्स", "16 बिट्स", "32 बिट्स", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 4 बिट्स।\n\n📌 Memory Hierarchy (HSSC Favorite):\n1. 1 Bit = Binary Digit (0 or 1)\n2. 4 Bits = 1 Nibble (इसे 'Half Byte' भी कहते हैं)\n3. 8 Bits = 1 Byte\n4. 1024 Bytes = 1 KB (Kilobyte)\nयह प्रश्न HSSC Clerk और Police दोनों परीक्षाओं में कई बार दोहराया गया है।"
+},
+{
+"id": 12,
+"section": "Computer - MS Excel",
+"q_en": "In MS Excel, which symbol is used to create an 'Absolute Cell Reference' (fixing the cell address)?",
+"q_hi": "MS Excel में, 'एब्सोल्यूट सेल रेफरेंस' (Absolute Cell Reference - सेल एड्रेस को फिक्स करना) बनाने के लिए किस प्रतीक (Symbol) का उपयोग किया जाता है?",
+"options_en": ["#", "$", "&", "@", "Not Attempted"],
+"options_hi": ["#", "$", "&", "@", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: $ (Dollar Sign)।\n\n📌 Exam Logic:\n1. Relative Reference: A1 (कॉपी करने पर बदल जाता है)।\n2. Absolute Reference: $A$1 (कॉपी करने पर यह सेल एड्रेस फिक्स रहता है, बदलता नहीं है)।\n3. यह फॉर्मूला और डेटा एंट्री में बहुत महत्वपूर्ण है और HSSC का टेक्निकल प्रश्न है।"
+},
+{
+"id": 13,
+"section": "Computer - Networking",
+"q_en": "What is the length of an IPv6 (Internet Protocol version 6) address?",
+"q_hi": "IPv6 (इंटरनेट प्रोटोकॉल संस्करण 6) एड्रेस की लंबाई कितनी होती है?",
+"options_en": ["32 bits", "64 bits", "128 bits", "256 bits", "Not Attempted"],
+"options_hi": ["32 बिट्स", "64 बिट्स", "128 बिट्स", "256 बिट्स", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: 128 बिट्स।\n\n📌 Confusing Points (Remember for Exam):\n1. IPv4 (पुराना वर्जन): 32 bits का होता है (जैसे: 192.168.1.1)।\n2. IPv6 (नया वर्जन): 128 bits का होता है (Hexadecimal में लिखा जाता है)।\n3. MAC Address: 48 bits का होता है।\nपुलिस एग्जाम में साइबर ट्रैकिंग से जुड़े ऐसे प्रश्न पूछे जाने की 'High Probability' है।"
+},
+{
+"id": 14,
+"section": "Computer - Internet Security",
+"q_en": "Which of the following is a security software designed to block unauthorized access to a computer network?",
+"q_hi": "निम्नलिखित में से कौन सा एक सुरक्षा सॉफ्टवेयर है जिसे कंप्यूटर नेटवर्क तक अनधिकृत पहुंच (Unauthorized access) को रोकने के लिए डिज़ाइन किया गया है?",
+"options_en": ["Firmware", "Malware", "Firewall", "Spyware", "Not Attempted"],
+"options_hi": ["फर्मवेयर (Firmware)", "मालवेयर (Malware)", "फायरवॉल (Firewall)", "स्पायवेयर (Spyware)", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: फायरवॉल (Firewall)।\n\n📌 Terminology:\n1. Firewall: यह एक सुरक्षा दीवार की तरह काम करता है जो इंटरनेट से आने वाले खतरनाक ट्रैफिक को रोकता है। यह हार्डवेयर और सॉफ्टवेयर दोनों हो सकता है।\n2. Malware: यह वायरस या खराब सॉफ्टवेयर होता है।\n3. Firmware: यह हार्डवेयर के अंदर स्थायी रूप से प्रोग्राम किया गया सॉफ्टवेयर है (जैसे BIOS)।"
+},
+{
+"id": 15,
+"section": "Computer - Hardware",
+"q_en": "Which type of memory is 'Volatile' in nature (data is lost when power is switched off)?",
+"q_hi": "किस प्रकार की मेमोरी की प्रकृति 'अस्थिर' (Volatile) होती है (बिजली बंद होने पर डेटा खो जाता है)?",
+"options_en": ["ROM", "Hard Disk", "RAM", "Pendrive", "Not Attempted"],
+"options_hi": ["ROM", "हार्ड डिस्क", "RAM", "पेनड्राइव", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: RAM (Random Access Memory)।\n\n📌 Comparison:\n1. RAM: Volatile (अस्थिर) है। यह Read/Write दोनों के लिए है।\n2. ROM (Read Only Memory): Non-Volatile (स्थिर) है। इसमें डेटा परमानेंट रहता है (जैसे कंप्यूटर का स्टार्ट-अप प्रोग्राम)।\n3. Secondary Memory (Hard Disk/SSD): यह भी Non-Volatile होती है।"
+},
+{
+"id": 16,
+"section": "General Science - Physics (Optics)",
+"q_en": "The optical phenomenon responsible for the formation of a 'Mirage' in deserts is known as:",
+"q_hi": "रेगिस्तान में 'मृगतृष्णा' (Mirage) बनने के लिए जिम्मेदार प्रकाशीय घटना को क्या कहा जाता है?",
+"options_en": ["Refraction", "Total Internal Reflection", "Dispersion", "Diffraction", "Not Attempted"],
+"options_hi": ["अपवर्तन (Refraction)", "पूर्ण आंतरिक परावर्तन (Total Internal Reflection)", "विक्षेपण (Dispersion)", "विवर्तन (Diffraction)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: पूर्ण आंतरिक परावर्तन (Total Internal Reflection)।\n\n📌 Exam Facts:\n1. पूर्ण आंतरिक परावर्तन (TIR) के अन्य उदाहरण: हीरे का चमकना, ऑप्टिकल फाइबर (Optical Fiber) का कार्य करना।\n2. आकाश का नीला रंग: प्रकाश के प्रकीर्णन (Scattering) के कारण होता है।\n3. तारों का टिमटिमाना: वायुमंडलीय अपवर्तन (Refraction) के कारण होता है।"
+},
+{
+"id": 17,
+"section": "General Science - Chemistry",
+"q_en": "What is the chemical name of 'Baking Soda' used in cooking?",
+"q_hi": "खाना पकाने में उपयोग किए जाने वाले 'बेकिंग सोडा' का रासायनिक नाम क्या है?",
+"options_en": ["Sodium Carbonate", "Sodium Bicarbonate", "Calcium Carbonate", "Sodium Hydroxide", "Not Attempted"],
+"options_hi": ["सोडियम कार्बोनेट", "सोडियम बाइकार्बोनेट", "कैल्शियम कार्बोनेट", "सोडियम हाइड्रोक्साइड", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: सोडियम बाइकार्बोनेट (Sodium Bicarbonate)।\n\n📌 Confusing Formulas (Most Repeated):\n1. बेकिंग सोडा (खाने वाला): NaHCO₃ (Sodium Bicarbonate)\n2. वॉशिंग सोडा (धोने वाला): Na₂CO₃·10H₂O (Sodium Carbonate)\n3. कास्टिक सोडा: NaOH (Sodium Hydroxide)\nHSSC अक्सर इन तीनों में कन्फ्यूज करने वाले प्रश्न पूछता है।"
+},
+{
+"id": 18,
+"section": "General Science - Biology (Human Body)",
+"q_en": "Which blood group is known as the 'Universal Donor'?",
+"q_hi": "किस रक्त समूह (Blood Group) को 'सर्वदाता' (Universal Donor) कहा जाता है?",
+"options_en": ["Group A", "Group B", "Group AB+", "Group O-", "Not Attempted"],
+"options_hi": ["ग्रुप A", "ग्रुप B", "ग्रुप AB+", "ग्रुप O-", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "सही उत्तर: ग्रुप O- (O Negative)।\n\n📌 Critical Details:\n1. Universal Donor: O- (क्योंकि इसमें कोई एंटीजन नहीं होता)। ध्यान दें: यदि विकल्प में O+ और O- दोनों हों, तो O- सही होगा।\n2. Universal Recipient (सर्वग्राही): AB+ (यह किसी से भी खून ले सकता है)।\n3. रक्त समूह की खोज: कार्ल लैंडस्टीनर ने की थी।"
+},
+{
+"id": 19,
+"section": "General Science - Physics (Electricity)",
+"q_en": "A fuse wire used in electric circuits must have which of the following properties?",
+"q_hi": "विद्युत परिपथों में उपयोग किए जाने वाले 'फ्यूज तार' (Fuse Wire) में निम्नलिखित में से कौन सा गुण होना चाहिए?",
+"options_en": ["High resistance and high melting point", "Low resistance and high melting point", "High resistance and low melting point", "Low resistance and low melting point", "Not Attempted"],
+"options_hi": ["उच्च प्रतिरोध और उच्च गलनांक", "निम्न प्रतिरोध और उच्च गलनांक", "उच्च प्रतिरोध और निम्न गलनांक", "निम्न प्रतिरोध और निम्न गलनांक", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: उच्च प्रतिरोध और निम्न गलनांक (High resistance and low melting point)।\n\n📌 Logic:\n1. निम्न गलनांक (Low Melting Point): ताकि जैसे ही करंट लिमिट से ज्यादा हो, तार पिघल कर टूट जाए और आग लगने से बच जाए।\n2. सामग्री: यह आमतौर पर सीसा (Lead) और टिन (Tin) की मिश्र धातु (Alloy) से बना होता है।"
+},
+{
+"id": 20,
+"section": "General Science - Biology (Disease)",
+"q_en": "The 'Widal Test' is used for the diagnosis of which disease?",
+"q_hi": "'विडाल टेस्ट' (Widal Test) का उपयोग किस बीमारी के निदान (Diagnosis) के लिए किया जाता है?",
+"options_en": ["Malaria", "Typhoid", "AIDS", "Tuberculosis", "Not Attempted"],
+"options_hi": ["मलेरिया", "टायफाइड", "एड्स (AIDS)", "तपेदिक (TB)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: टायफाइड (Typhoid)।\n\n📌 Important Medical Tests:\n1. Widal Test: टायफाइड (बैक्टीरिया: साल्मोनेला टाइफी)।\n2. ELISA Test: एड्स (HIV)।\n3. Mantoux Test: टीबी (Tuberculosis)।\n4. मलेरिया: यह 'प्लाज्मोडियम' परजीवी (प्रोटोजोआ) से होता है, जो मादा एनाफिलीज मच्छर के काटने से फैलता है।"
+},
+{
+"id": 21,
+"section": "Animal Husbandry - Breeds",
+"q_en": "Which breed of buffalo is famously known as the 'Black Gold' of Haryana?",
+"q_hi": "भैंस की किस नस्ल को हरियाणा का 'काला सोना' (Black Gold) कहा जाता है?",
+"options_en": ["Nili-Ravi", "Murrah", "Mehsana", "Jafarabadi", "Not Attempted"],
+"options_hi": ["नीली-रावी", "मुर्रा", "मेहसाणा", "जाफराबादी", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: मुर्रा (Murrah)।\n\n📌 Breed Facts:\n1. पहचान: इसका रंग गहरा काला (Jet Black) होता है और सींग जलेबी के आकार (Tightly Curled) के होते हैं।\n2. उत्पत्ति: रोहतक, जींद और हिसार जिले। इसे 'एशियन ट्रैक्टर' भी कहा जाता है।\n3. यह दुनिया में सबसे ज्यादा दूध देने वाली भैंस की नस्ल है।"
+},
+{
+"id": 22,
+"section": "Agriculture - Crop Seasons",
+"q_en": "Which of the following is a 'Rabi' crop?",
+"q_hi": "निम्नलिखित में से कौन सी एक 'रबी' (Rabi) की फसल है?",
+"options_en": ["Paddy (Rice)", "Cotton", "Mustard", "Bajra", "Not Attempted"],
+"options_hi": ["धान (चावल)", "कपास", "सरसों", "बाजरा", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: सरसों (Mustard)।\n\n📌 Crop Cycle Logic:\n1. रबी (सर्दी की फसल): बुवाई (अक्टूबर-नवंबर), कटाई (मार्च-अप्रैल)। उदाहरण: गेहूं, चना, सरसों, जौ।\n2. खरीफ (मानसून की फसल): बुवाई (जून-जुलाई), कटाई (सितंबर-अक्टूबर)। उदाहरण: धान, बाजरा, मक्का, कपास, ज्वार।\n3. जायद: रबी और खरीफ के बीच की फसलें (खरबूजा, तरबूज, ककड़ी)।"
+},
+{
+"id": 23,
+"section": "Animal Husbandry - Physiology",
+"q_en": "What is the average gestation period (pregnancy duration) of a Buffalo?",
+"q_hi": "भैंस का औसत गर्भकाल (Gestation Period) कितने दिनों का होता है?",
+"options_en": ["280 days", "310 days", "335 days", "365 days", "Not Attempted"],
+"options_hi": ["280 दिन", "310 दिन", "335 दिन", "365 दिन", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: लगभग 310 दिन (10 महीने 10 दिन)।\n\n📌 Comparative Data (HSSC Favorites):\n1. गाय (Cow): ~280-285 दिन (9 महीने 9 दिन)।\n2. भैंस (Buffalo): ~310 दिन।\n3. भेड़/बकरी: ~150 दिन (5 महीने)।\n4. सूअर: ~114 दिन (3 महीने, 3 सप्ताह, 3 दिन)।"
+},
+{
+"id": 24,
+"section": "Agriculture - Diseases",
+"q_en": "The 'Khaira' disease in paddy (rice) crops is caused by the deficiency of which element?",
+"q_hi": "धान (चावल) की फसल में 'खैरा' रोग (Khaira disease) किस तत्व की कमी के कारण होता है?",
+"options_en": ["Nitrogen", "Zinc", "Iron", "Potassium", "Not Attempted"],
+"options_hi": ["नाइट्रोजन", "जस्ता (Zinc)", "लोहा (Iron)", "पोटेशियम", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: जस्ता (Zinc)।\n\n📌 Disease Facts:\n1. लक्षण: पत्तियों पर पीले-भूरे रंग के धब्बे पड़ जाते हैं।\n2. उपचार: जिंक सल्फेट (Zinc Sulphate) का छिड़काव।\n3. HSSC कृषि रोगों पर अक्सर प्रश्न पूछता है, जैसे गेहूं का रस्ट (Rust) रोग (कवक के कारण)।"
+},
+{
+"id": 25,
+"section": "Animal Husbandry - Research Centers",
+"q_en": "Where is the 'Central Institute for Research on Buffaloes' (CIRB) located in Haryana?",
+"q_hi": "हरियाणा में 'केंद्रीय भैंस अनुसंधान संस्थान' (CIRB) कहाँ स्थित है?",
+"options_en": ["Karnal", "Hisar", "Rohtak", "Bhiwani", "Not Attempted"],
+"options_hi": ["करनाल", "हिसार", "रोहतक", "भिवानी", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: हिसार।\n\n📌 Important Institutes:\n1. CIRB (Central Institute for Research on Buffaloes): हिसार (स्थापना: 1985)।\n2. NRCE (National Research Centre on Equines - घोड़ों पर): हिसार (स्थापना: 1986)।\n3. NDRI (National Dairy Research Institute): करनाल (स्थापना: 1955)।\n4. CSSRI (Central Soil Salinity Research Institute): करनाल।"
+},
+{
+"id": 26,
+"section": "Indian Polity - Constitution",
+"q_en": "Which Constitutional Amendment Act granted constitutional status to the 'Panchayati Raj Institutions' in India?",
+"q_hi": "किस संवैधानिक संशोधन अधिनियम ने भारत में 'पंचायती राज संस्थाओं' को संवैधानिक दर्जा प्रदान किया?",
+"options_en": ["42nd Amendment", "44th Amendment", "73rd Amendment", "74th Amendment", "Not Attempted"],
+"options_hi": ["42वां संशोधन", "44वां संशोधन", "73वां संशोधन", "74वां संशोधन", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: 73वां संशोधन (1992)।\n\n📌 Exam Facts:\n1. 73वां संशोधन: ग्रामीण पंचायती राज (लागू: 24 अप्रैल 1993 - पंचायती राज दिवस)।\n2. 74वां संशोधन: शहरी स्थानीय निकाय (नगर पालिका)।\n3. अनुसूची: इसके द्वारा संविधान में 11वीं अनुसूची जोड़ी गई जिसमें पंचायतों के 29 कार्य विषय हैं।\nहरियाणा पुलिस और ग्राम सचिव परीक्षाओं के लिए यह 'Most Important' प्रश्न है।"
+},
+{
+"id": 27,
+"section": "Indian History - Modern",
+"q_en": "Who founded the 'Arya Samaj' in 1875, which had a profound impact on the social fabric of Haryana?",
+"q_hi": "1875 में 'आर्य समाज' की स्थापना किसने की, जिसका हरियाणा के सामाजिक ताने-बाने पर गहरा प्रभाव पड़ा?",
+"options_en": ["Raja Ram Mohan Roy", "Swami Dayanand Saraswati", "Swami Vivekananda", "Ishwar Chandra Vidyasagar", "Not Attempted"],
+"options_hi": ["राजा राम मोहन राय", "स्वामी दयानंद सरस्वती", "स्वामी विवेकानंद", "ईश्वर चंद्र विद्यासागर", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: स्वामी दयानंद सरस्वती।\n\n📌 Connection:\n1. नारा: 'वेदों की ओर लौटो' (Go back to Vedas)।\n2. हरियाणा लिंक: आर्य समाज का हरियाणा में बहुत प्रभाव है। स्वामी दयानंद ने रेवाड़ी में पहली गौशाला स्थापित की थी।\n3. पुस्तक: सत्यार्थ प्रकाश (Satyarth Prakash)।"
+},
+{
+"id": 28,
+"section": "Indian Geography - Soils",
+"q_en": "Which soil is also known as 'Regur Soil' and is most suitable for cotton cultivation?",
+"q_hi": "किस मिट्टी को 'रेगुर मिट्टी' (Regur Soil) के नाम से भी जाना जाता है और यह कपास की खेती के लिए सबसे उपयुक्त है?",
+"options_en": ["Alluvial Soil", "Red Soil", "Black Soil", "Laterite Soil", "Not Attempted"],
+"options_hi": ["जलोढ़ मिट्टी", "लाल मिट्टी", "काली मिट्टी", "लैटेराइट मिट्टी", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: काली मिट्टी (Black Soil)।\n\n📌 Details:\n1. अन्य नाम: इसे 'कपास मिट्टी' (Black Cotton Soil) भी कहते हैं।\n2. विशेषता: इसमें नमी (Moisture) बनाए रखने की उच्च क्षमता होती है।\n3. क्षेत्र: यह दक्कन के पठार (गुजरात, महाराष्ट्र) में प्रमुखता से पाई जाती है।"
+},
+{
+"id": 29,
+"section": "Indian Polity - Rights",
+"q_en": "Which Article of the Indian Constitution is called the 'Heart and Soul of the Constitution' by Dr. B.R. Ambedkar?",
+"q_hi": "डॉ. बी.आर. अम्बेडकर ने भारतीय संविधान के किस अनुच्छेद को 'संविधान का हृदय और आत्मा' (Heart and Soul) कहा है?",
+"options_en": ["Article 14", "Article 19", "Article 21", "Article 32", "Not Attempted"],
+"options_hi": ["अनुच्छेद 14", "अनुच्छेद 19", "अनुच्छेद 21", "अनुच्छेद 32", "अनुत्तरित प्रश्न"],
+"answer": 3,
+"explanation": "सही उत्तर: अनुच्छेद 32 (Article 32)।\n\n📌 Logic:\n1. अनुच्छेद 32: 'संवैधानिक उपचारों का अधिकार' (Right to Constitutional Remedies)।\n2. शक्ति: इसके तहत सुप्रीम कोर्ट 5 प्रकार की रिट (Writs) जारी कर सकता है (जैसे: बंदी प्रत्यक्षीकरण/Habeas Corpus)।\n3. यह मौलिक अधिकारों की रक्षा करता है।"
+},
+{
+"id": 30,
+"section": "Indian History - Battles",
+"q_en": "The Third Battle of Panipat (1761) was fought between whom?",
+"q_hi": "पानीपत का तीसरा युद्ध (1761) किनके बीच लड़ा गया था?",
+"options_en": ["Akbar and Hemu", "Babur and Ibrahim Lodi", "Ahmad Shah Abdali and Marathas", "British and Sikhs", "Not Attempted"],
+"options_hi": ["अकबर और हेमू", "बाबर और इब्राहिम लोदी", "अहमद शाह अब्दाली और मराठा", "अंग्रेज और सिख", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: अहमद शाह अब्दाली और मराठा।\n\n📌 Panipat Battles (HSSC Favorites):\n1. पहला युद्ध: 1526 (बाबर vs इब्राहिम लोदी) -> मुगल साम्राज्य की स्थापना।\n2. दूसरा युद्ध: 1556 (अकबर/बैरम खान vs हेमू)।\n3. तीसरा युद्ध: 14 जनवरी 1761 (अब्दाली vs मराठा)। इसमें मराठों की भारी हार हुई थी। मराठों का नेतृत्व सदाशिवराव भाऊ ने किया था।"
+},
+{
+"id": 31,
+"section": "Mathematics - Time & Work",
+"q_en": "A and B together can complete a work in 15 days, and B alone can complete it in 20 days. In how many days can A alone complete the work?",
+"q_hi": "A और B मिलकर एक काम को 15 दिनों में पूरा कर सकते हैं, और B अकेला उसे 20 दिनों में पूरा कर सकता है। A अकेला उस काम को कितने दिनों में पूरा कर पाएगा?",
+"options_en": ["30 days", "45 days", "60 days", "40 days", "Not Attempted"],
+"options_hi": ["30 दिन", "45 दिन", "60 दिन", "40 दिन", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: 60 दिन।\n\n📌 Solution Logic (LCM Method):\n1. कुल काम (Total Work) = 15 और 20 का LCM = 60 यूनिट।\n2. (A + B) की क्षमता = 60/15 = 4 यूनिट/दिन।\n3. B की क्षमता = 60/20 = 3 यूनिट/दिन।\n4. A की क्षमता = (A+B) - B = 4 - 3 = 1 यूनिट/दिन।\n5. समय = कुल काम / A की क्षमता = 60 / 1 = 60 दिन।"
+},
+{
+"id": 32,
+"section": "Reasoning - Series",
+"q_en": "Find the missing number in the series: 6, 12, 20, 30, ?, 56",
+"q_hi": "श्रेणी में लुप्त संख्या ज्ञात कीजिए: 6, 12, 20, 30, ?, 56",
+"options_en": ["40", "42", "44", "48", "Not Attempted"],
+"options_hi": ["40", "42", "44", "48", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 42।\n\n📌 Logic:\nPattern: +6, +8, +10, +12, +14...\n6 + 6 = 12\n12 + 8 = 20\n20 + 10 = 30\n30 + 12 = **42**\n42 + 14 = 56\n(वैकल्पिक लॉजिक: n² + n -> 2²+2=6, 3²+3=12... 6²+6=42)"
+},
+{
+"id": 33,
+"section": "Mathematics - Profit & Loss",
+"q_en": "By selling a watch for ₹1440, a man loses 10%. At what price should he sell it to gain 10%?",
+"q_hi": "एक घड़ी को ₹1440 में बेचने पर एक व्यक्ति को 10% की हानि होती है। 10% का लाभ प्राप्त करने के लिए उसे इसे किस कीमत पर बेचना चाहिए?",
+"options_en": ["₹1584", "₹1600", "₹1760", "₹1800", "Not Attempted"],
+"options_hi": ["₹1584", "₹1600", "₹1760", "₹1800", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: ₹1760।\n\n📌 Shortcut Trick:\nFormula: (Selling Price 1 / % Value 1) = (Selling Price 2 / % Value 2)\n1. SP1 = 1440, हानि 10% मतलब वैल्यू = 90%\n2. SP2 = ?, लाभ 10% मतलब वैल्यू = 110%\n3. गणना: 1440/90 = SP2/110\n16 = SP2/110\nSP2 = 16 * 110 = 1760"
+},
+{
+"id": 34,
+"section": "Reasoning - Coding Decoding",
+"q_en": "If 'HARYANA' is coded as 'SZIBZMZ', how will 'POLICE' be coded in that language?",
+"q_hi": "यदि 'HARYANA' को 'SZIBZMZ' के रूप में कोडित किया जाता है, तो उस भाषा में 'POLICE' को कैसे कोडित किया जाएगा?",
+"options_en": ["KLORXV", "KLORUX", "KLOXRV", "LKPXRV", "Not Attempted"],
+"options_hi": ["KLORXV", "KLORUX", "KLOXRV", "LKPXRV", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: KLORXV।\n\n📌 Logic (Reverse Alphabet/Opposite Letters):\nA ↔ Z, B ↔ Y, C ↔ X ... M ↔ N\nयहाँ विपरीत अक्षर लिए गए हैं:\nH (High School) ↔ S\nA ↔ Z\n...\nइसी प्रकार:\nP (Kanpur) ↔ K\nO (Love) ↔ L\nL (Love) ↔ O\nI (Indian Railway) ↔ R\nC (X-ray) ↔ X\nE (Evening) ↔ V\n=> KLORXV"
+},
+{
+"id": 35,
+"section": "Mathematics - Ratio (Ages)",
+"q_en": "The ratio of the present ages of A and B is 3:4. Five years ago, the ratio of their ages was 2:3. What is A's present age?",
+"q_hi": "A और B की वर्तमान आयु का अनुपात 3:4 है। पाँच वर्ष पूर्व, उनकी आयु का अनुपात 2:3 था। A की वर्तमान आयु क्या है?",
+"options_en": ["10 years", "15 years", "20 years", "25 years", "Not Attempted"],
+"options_hi": ["10 वर्ष", "15 वर्ष", "20 वर्ष", "25 वर्ष", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 15 वर्ष।\n\n📌 Solution:\n1. वर्तमान अनुपात: 3x : 4x\n2. 5 साल पहले: (3x - 5) / (4x - 5) = 2/3\n3. Cross Multiply: 3(3x - 5) = 2(4x - 5)\n9x - 15 = 8x - 10\nx = 5\n4. A की वर्तमान आयु (3x) = 3 * 5 = 15 वर्ष।"
+},
+{
+"id": 36,
+"section": "Current Affairs - Sports (Haryana)",
+"q_en": "Manu Bhaker, a shooter from Haryana, created history in the Paris Olympics 2024 by winning how many medals in a single edition?",
+"q_hi": "हरियाणा की निशानेबाज मनु भाकर ने पेरिस ओलंपिक 2024 में एक ही संस्करण में कितने पदक जीतकर इतिहास रचा?",
+"options_en": ["One Gold", "Two Bronze", "One Silver & One Bronze", "Three Gold", "Not Attempted"],
+"options_hi": ["एक स्वर्ण", "दो कांस्य (Bronze)", "एक रजत और एक कांस्य", "तीन स्वर्ण", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: दो कांस्य (Two Bronze)।\n\n📌 Exam Facts:\n1. उपलब्धि: वह आजादी के बाद एक ही ओलंपिक में दो पदक जीतने वाली पहली भारतीय एथलीट बनीं।\n2. जिला: वह झज्जर (Jhajjar) जिले की रहने वाली हैं।\n3. खेल: 10 मीटर एयर पिस्टल (Individual और Mixed Team)।\nHSSC खिलाड़ियों के जिले और पदक के रंग (Color of Medal) पर प्रश्न जरूर पूछता है।"
+},
+{
+"id": 37,
+"section": "Current Affairs - National (Important Days)",
+"q_en": "Government of India has declared 'August 23' as which national day to commemorate the success of Chandrayaan-3?",
+"q_hi": "भारत सरकार ने चंद्रयान-3 की सफलता के उपलक्ष्य में '23 अगस्त' को किस राष्ट्रीय दिवस के रूप में घोषित किया है?",
+"options_en": ["National Science Day", "National Space Day", "ISRO Day", "Moon Day", "Not Attempted"],
+"options_hi": ["राष्ट्रीय विज्ञान दिवस", "राष्ट्रीय अंतरिक्ष दिवस (National Space Day)", "इसरो दिवस", "चंद्र दिवस", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: राष्ट्रीय अंतरिक्ष दिवस (National Space Day)।\n\n📌 Context:\n1. कारण: 23 अगस्त 2023 को चंद्रयान-3 का लैंडर 'विक्रम' चंद्रमा के दक्षिणी ध्रुव (Shiv Shakti Point) पर उतरा था।\n2. भारत ऐसा करने वाला दुनिया का पहला देश बना।\n3. HSSC परीक्षा में 'महत्वपूर्ण दिवस' (जैसे 31 अक्टूबर - एकता दिवस) अक्सर पूछे जाते हैं।"
+},
+{
+"id": 38,
+"section": "Current Affairs - Polity (Laws)",
+"q_en": "The 'Nari Shakti Vandan Adhiniyam' (128th Constitutional Amendment) provides what percentage of reservation for women in Lok Sabha and State Assemblies?",
+"q_hi": "'नारी शक्ति वंदन अधिनियम' (128वां संविधान संशोधन) लोकसभा और राज्य विधानसभाओं में महिलाओं के लिए कितने प्रतिशत आरक्षण का प्रावधान करता है?",
+"options_en": ["25%", "33%", "50%", "10%", "Not Attempted"],
+"options_hi": ["25%", "33%", "50%", "10%", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 33% (एक-तिहाई)।\n\n📌 Key Details:\n1. यह नया कानून परिसीमन (Delimitation) के बाद लागू होगा।\n2. यह आरक्षण 15 वर्षों के लिए लागू रहेगा।\n3. यह महिला पुलिस भर्ती परीक्षाओं के लिए 'Most Important' प्रश्न है क्योंकि यह महिला सशक्तिकरण से सीधा जुड़ा है।"
+},
+{
+"id": 39,
+"section": "Haryana Current Affairs - Schemes",
+"q_en": "Under the 'Dayalu Yojana' of the Haryana Government, financial assistance is provided for?",
+"q_hi": "हरियाणा सरकार की 'दयालु योजना' (Dayalu Yojana) के तहत, किसके लिए वित्तीय सहायता प्रदान की जाती है?",
+"options_en": ["Marriage of daughters", "Starting a business", "Death or disability of Antyodaya family member", "Purchase of agricultural land", "Not Attempted"],
+"options_hi": ["बेटियों की शादी", "व्यापार शुरू करना", "अंत्योदय परिवार के सदस्य की मृत्यु या दिव्यांगता", "कृषि भूमि की खरीद", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: अंत्योदय परिवार के सदस्य की मृत्यु या दिव्यांगता।\n\n📌 Scheme Logic:\n1. पूरा नाम: Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana.\n2. पात्रता: ₹1.80 लाख से कम वार्षिक आय वाले परिवार।\n3. लाभ: उम्र के हिसाब से ₹1 लाख से ₹5 लाख तक की सहायता राशि (यदि परिवार के किसी सदस्य की मृत्यु हो जाए या वह दिव्यांग हो जाए)।"
+},
+{
+"id": 40,
+"section": "Current Affairs - Infrastructure",
+"q_en": "The 'Dwarka Expressway', inaugurated recently, connects which city of Haryana directly to Delhi's IGI Airport?",
+"q_hi": "हाल ही में उद्घाटित 'द्वारका एक्सप्रेसवे' (Dwarka Expressway) हरियाणा के किस शहर को सीधे दिल्ली के IGI एयरपोर्ट से जोड़ता है?",
+"options_en": ["Sonipat", "Gurugram", "Faridabad", "Rohtak", "Not Attempted"],
+"options_hi": ["सोनीपत", "गुरुग्राम", "फरीदाबाद", "रोहतक", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: गुरुग्राम।\n\n📌 Fact Check:\n1. यह भारत का पहला 'Elevated Urban Expressway' है।\n2. यह गुरुग्राम (खेड़की दौला) से शुरू होकर दिल्ली (द्वारका) तक जाता है।\n3. यह हरियाणा के बुनियादी ढांचे (Infrastructure) का एक बड़ा प्रोजेक्ट है, इसलिए HSSC के लिए महत्वपूर्ण है।"
+},
+{
+"id": 41,
+"section": "English Language - Grammar",
+"q_en": "Fill in the blank with the correct preposition: 'He is senior ____ me in service.'",
+"q_hi": "सही पूर्वसर्ग (Preposition) के साथ रिक्त स्थान भरें: 'He is senior ____ me in service.'",
+"options_en": ["than", "from", "to", "of", "Not Attempted"],
+"options_hi": ["than", "from", "to", "of", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: to.\n\n📌 Grammar Rule (HSSC Favorite):\n1. नियम: कुछ लैटिन विशेषणों (Adjectives) जैसे Senior, Junior, Superior, Inferior, Prior के बाद तुलना करने के लिए 'than' का नहीं, बल्कि 'to' का प्रयोग किया जाता है।\n2. सामान्य गलती: लोग अक्सर 'Senior than me' बोलते हैं जो व्याकरण की दृष्टि से गलत है।"
+},
+{
+"id": 42,
+"section": "Hindi Language - वर्तनी (Spelling)",
+"q_en": "Which of the following words is written in the correct spelling form?",
+"q_hi": "निम्नलिखित में से कौन सा शब्द शुद्ध वर्तनी (Correct Spelling) में लिखा गया है?",
+"options_en": ["आर्शीवाद", "आशीर्वाद", "आरशीवाद", "आसीरवाद", "Not Attempted"],
+"options_hi": ["आर्शीवाद", "आशीर्वाद", "आरशीवाद", "आसीरवाद", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: आशीर्वाद।\n\n📌 Logic:\n1. नियम: 'रेफ' (ऊपर वाला र) जिस वर्ण पर लगता है, उसका उच्चारण उससे पहले होता है।\n2. उच्चारण: आ + शी + र् + वाद = आशीर्वाद।\n3. गलतियां: 'आर्शीवाद' (इसमें र 'श' से पहले बोला जाएगा - आरशीवाद) जो गलत है। यह HSSC का 'Most Repeated' प्रश्न है।"
+},
+{
+"id": 43,
+"section": "English Language - One Word Substitution",
+"q_en": "Choose the one word for the phrase: 'A person who does not believe in the existence of God'.",
+"q_hi": "वाक्यांश के लिए एक शब्द चुनें: 'वह व्यक्ति जो ईश्वर के अस्तित्व में विश्वास नहीं करता है' (नास्तिक)।",
+"options_en": ["Theist", "Atheist", "Ascetic", "Fanatic", "Not Attempted"],
+"options_hi": ["Theist", "Atheist", "Ascetic", "Fanatic", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: Atheist (नास्तिक)।\n\n📌 Vocabulary:\n1. Theist: आस्तिक (जो ईश्वर में मानता हो)।\n2. Atheist: नास्तिक (जो ईश्वर में नहीं मानता हो)।\n3. HSSC में अक्सर 'Monotheist' (एकेश्वरवादी) और 'Polytheist' (बहुदेववादी) भी पूछा जाता है।"
+},
+{
+"id": 44,
+"section": "Hindi Language - संधि (Sandhi)",
+"q_en": "What is the correct Sandhi Viched of the word 'महर्षि' (Maharshi)?",
+"q_hi": "'महर्षि' शब्द का सही संधि विच्छेद क्या है?",
+"options_en": ["मह + ऋषि", "महा + ऋषि", "मही + ऋषि", "महान + ऋषि", "Not Attempted"],
+"options_hi": ["मह + ऋषि", "महा + ऋषि", "मही + ऋषि", "महान + ऋषि", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: महा + ऋषि।\n\n📌 Grammar Rule (गुण संधि):\n1. नियम: जब 'आ' के बाद 'ऋ' आता है, तो दोनों मिलकर 'अर' (Ar) हो जाते हैं।\n2. महा + ऋषि = मह् + (आ + ऋ) + षि = महर्षि।\n3. अन्य उदाहरण: देव + ऋषि = देवर्षि (यह भी बहुत महत्वपूर्ण है)।"
+},
+{
+"id": 45,
+"section": "English Language - Idioms",
+"q_en": "What is the meaning of the idiom: 'To cry over spilt milk'?",
+"q_hi": "मुहावरे का अर्थ क्या है: 'To cry over spilt milk'?",
+"options_en": ["To complain about something that cannot be changed", "To shout loudly", "To waste milk", "To be happy in difficult times", "Not Attempted"],
+"options_hi": ["ऐसी बात पर पछताना जिसे बदला नहीं जा सकता", "जोर से चिल्लाना", "दूध बर्बाद करना", "मुश्किल समय में खुश रहना", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: To complain about something that cannot be changed (बीती ताहि बिसार दे)।\n\n📌 Usage:\n1. अर्थ: जो नुकसान हो चुका है और जिसे सुधारा नहीं जा सकता, उस पर दुखी होने का कोई फायदा नहीं।\n2. हिंदी समकक्ष: 'अब पछताए होत क्या जब चिड़िया चुग गई खेत'।"
+},
+{
+"id": 46,
+"section": "Haryana History - Ancient",
+"q_en": "Which site in Haryana is considered the largest site of the Indus Valley Civilization (Harappan Culture) in the Indian subcontinent?",
+"q_hi": "हरियाणा में स्थित किस स्थल को भारतीय उपमहाद्वीप में 'सिंधु घाटी सभ्यता' (हड़प्पा संस्कृति) का सबसे बड़ा स्थल माना जाता है?",
+"options_en": ["Banawali", "Rakhigarhi", "Mitathal", "Kunal", "Not Attempted"],
+"options_hi": ["बनावली", "राखीगढ़ी", "मीताथल", "कुणाल", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: राखीगढ़ी (Rakhigarhi)।\n\n📌 Key Facts:\n1. स्थिति: हिसार जिला (अब यह सबसे बड़ा हड़प्पा स्थल है, पहले मोहनजोदड़ो को माना जाता था)।\n2. खोज: यहाँ 5000 साल पुराना प्रेमी युगल का कंकाल (Couple Skeleton) और सोने की फैक्ट्री (Gold Foundry) मिली है।\n3. बनावली (फतेहाबाद): यहाँ से 'मिट्टी का हल' (Clay Plough) और 'बैलगाड़ी के पहिए' के निशान मिले हैं।"
+},
+{
+"id": 47,
+"section": "Haryana History - 1857 Revolt",
+"q_en": "Rao Tula Ram, a key hero of the 1857 revolution, led the rebellion from which area of Haryana?",
+"q_hi": "1857 की क्रांति के प्रमुख नायक 'राव तुला राम' ने हरियाणा के किस क्षेत्र से विद्रोह का नेतृत्व किया था?",
+"options_en": ["Hisar", "Rewari", "Panipat", "Ambala", "Not Attempted"],
+"options_hi": ["हिसार", "रेवाड़ी", "पानीपत", "अंबाला", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: रेवाड़ी (Rewari)।\n\n📌 Exam Connection:\n1. शहादत: 23 सितंबर 1863 (काबुल में मृत्यु)। इसी दिन हरियाणा में 'शहीदी दिवस' (Martyr's Day) मनाया जाता है।\n2. युद्ध: नसीबपुर (नारनौल) का युद्ध, जहाँ उन्होंने अंग्रेजों से लोहा लिया था।\n3. हिसार से नेतृत्व: शहजादा मुहम्मद आजम ने किया था।"
+},
+{
+"id": 48,
+"section": "General Science - Human Body",
+"q_en": "Which gland in the human body is known as the 'Master Gland'?",
+"q_hi": "मानव शरीर की किस ग्रंथि (Gland) को 'मास्टर ग्रंथि' (Master Gland) कहा जाता है?",
+"options_en": ["Thyroid", "Pituitary", "Adrenal", "Pancreas", "Not Attempted"],
+"options_hi": ["थायराइड", "पीयूष ग्रंथि (Pituitary)", "एड्रेनल", "अग्न्याशय", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: पीयूष ग्रंथि (Pituitary Gland)।\n\n📌 Biology Logic:\n1. कारण: यह शरीर की अन्य सभी अंतःस्रावी ग्रंथियों (जैसे थायराइड, एड्रेनल) के कार्यों को नियंत्रित करती है।\n2. स्थान: मस्तिष्क के आधार में।\n3. सबसे बड़ी ग्रंथि (Largest Gland): यकृत (Liver)।\n4. सबसे छोटी ग्रंथि: पीनियल ग्रंथि (Pineal Gland)।"
+},
+{
+"id": 49,
+"section": "Haryana Culture - Fairs",
+"q_en": "The famous 'Surajkund International Crafts Mela' held in Faridabad is organized in which month every year?",
+"q_hi": "फरीदाबाद में आयोजित होने वाला प्रसिद्ध 'सूरजकुंड अंतर्राष्ट्रीय शिल्प मेला' हर साल किस महीने में लगता है?",
+"options_en": ["January", "February", "March", "November", "Not Attempted"],
+"options_hi": ["जनवरी", "फरवरी", "मार्च", "नवंबर", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: फरवरी (February)।\n\n📌 Mela Details:\n1. 2024 संस्करण: 37वां मेला (थीम स्टेट: गुजरात, पार्टनर नेशन: तंजानिया)।\n2. 2025 संस्करण: 38वां मेला (थीम स्टेट: मध्य प्रदेश होने की संभावना)।\n3. इसे 'शिल्पकारों का कुंभ' (Kumbh of Artisans) भी कहा जाता है। यह विश्व का सबसे बड़ा शिल्प मेला है।"
+},
+{
+"id": 50,
+"section": "General Science - Chemistry",
+"q_en": "What is the chemical formula of 'Plaster of Paris' (POP)?",
+"q_hi": "'प्लास्टर ऑफ पेरिस' (POP) का रासायनिक सूत्र क्या है?",
+"options_en": ["CaSO₄·2H₂O", "CaSO₄·½H₂O", "CaCO₃", "CaCl₂", "Not Attempted"],
+"options_hi": ["CaSO₄·2H₂O", "CaSO₄·½H₂O", "CaCO₃", "CaCl₂", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: CaSO₄·½H₂O (Calcium Sulphate Hemihydrate)।\n\n📌 Confusing Pair:\n1. जिप्सम (Gypsum): CaSO₄·2H₂O (इसमें 2 पानी के अणु होते हैं)। जब जिप्सम को गर्म करते हैं, तो POP बनता है।\n2. POP: CaSO₄·½H₂O (इसमें आधा पानी का अणु होता है)।\n3. उपयोग: टूटी हड्डियों को जोड़ने और मूर्तियों को बनाने में।"
+},
+{
+"id": 51,
+"section": "Computer - Shortcuts",
+"q_en": "In MS Word, which shortcut key is used to insert a 'Hyperlink'?",
+"q_hi": "MS Word में 'हाइपरलिंक' (Hyperlink) डालने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+"options_en": ["Ctrl + H", "Ctrl + K", "Ctrl + L", "Ctrl + M", "Not Attempted"],
+"options_hi": ["Ctrl + H", "Ctrl + K", "Ctrl + L", "Ctrl + M", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: Ctrl + K\n\n📌 Confusing Shortcuts:\n1. Ctrl + K: Hyperlink (लिंक जोड़ने के लिए)।\n2. Ctrl + H: Replace (शब्द बदलने के लिए)।\n3. Ctrl + L: Left Align (टेक्स्ट को बाईं ओर करने के लिए)।\n4. Ctrl + E: Center Align (टेक्स्ट को बीच में करने के लिए)।"
+},
+{
+"id": 52,
+"section": "Haryana GK - Administrative Structure",
+"q_en": "Which is the largest Administrative Division (Mandal) of Haryana in terms of number of districts?",
+"q_hi": "जिलों की संख्या के आधार पर हरियाणा का सबसे बड़ा प्रशासनिक मंडल (Administrative Division) कौन सा है?",
+"options_en": ["Ambala", "Gurugram", "Rohtak", "Hisar", "Not Attempted"],
+"options_hi": ["अंबाला", "गुरुग्राम", "रोहतक", "हिसार", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: रोहतक (Rohtak)।\n\n📌 Admin Facts:\n1. कुल मंडल: 6 (अंबाला, करनाल, रोहतक, हिसार, गुरुग्राम, फरीदाबाद)।\n2. सबसे बड़ा मंडल: रोहतक (इसमें 5 जिले आते हैं: रोहतक, झज्जर, सोनीपत, भिवानी, चरखी दादरी)।\n3. नए मंडल: करनाल और फरीदाबाद (ये बाद में बनाए गए थे)।"
+},
+{
+"id": 53,
+"section": "General Science - Physics (Units)",
+"q_en": "A 'Light Year' is a unit used to measure which of the following?",
+"q_hi": "'प्रकाश वर्ष' (Light Year) किसकी माप के लिए उपयोग की जाने वाली इकाई है?",
+"options_en": ["Time", "Distance", "Intensity of Light", "Speed of Light", "Not Attempted"],
+"options_hi": ["समय", "दूरी", "प्रकाश की तीव्रता", "प्रकाश की गति", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: दूरी (Distance)।\n\n📌 Concept:\n1. परिभाषा: प्रकाश द्वारा निर्वात (Vacuum) में एक वर्ष में तय की गई दूरी।\n2. मान: 1 Light Year ≈ 9.46 × 10¹² km.\n3. पारसेक (Parsec): यह दूरी मापने की सबसे बड़ी इकाई है (1 Parsec = 3.26 Light Years)। यह प्रश्न अक्सर कंफ्यूज करता है क्योंकि नाम में 'Year' (वर्ष) है, इसलिए छात्र इसे 'समय' समझ लेते हैं।"
+},
+{
+"id": 54,
+"section": "Indian Polity - Fundamental Duties",
+"q_en": "The 'Fundamental Duties' were added to the Indian Constitution by which Amendment Act?",
+"q_hi": "भारतीय संविधान में 'मौलिक कर्तव्यों' (Fundamental Duties) को किस संशोधन अधिनियम द्वारा जोड़ा गया था?",
+"options_en": ["42nd Amendment", "44th Amendment", "86th Amendment", "61st Amendment", "Not Attempted"],
+"options_hi": ["42वां संशोधन", "44वां संशोधन", "86वां संशोधन", "61वां संशोधन", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 42वां संशोधन (1976)।\n\n📌 Key Details:\n1. समिति: सरदार स्वर्ण सिंह समिति की सिफारिश पर।\n2. अनुच्छेद: 51A (भाग IV-A)।\n3. स्रोत: सोवियत संघ (USSR/Russia) से लिए गए हैं।\n4. संख्या: मूल रूप से 10 थे, 11वां कर्तव्य (शिक्षा का अवसर) 86वें संशोधन (2002) द्वारा जोड़ा गया।"
+},
+{
+"id": 55,
+"section": "Haryana GK - Literature",
+"q_en": "Who is known as the 'Shakespeare of Haryana' or 'Surya Kavi'?",
+"q_hi": "हरियाणा का 'शेक्सपियर' या 'सूर्य कवि' (Surya Kavi) किसे कहा जाता है?",
+"options_en": ["Pt. Neki Ram Sharma", "Pt. Lakhmi Chand", "Uday Bhanu Hans", "Surender Sharma", "Not Attempted"],
+"options_hi": ["पं. नेकीराम शर्मा", "पं. लखमी चंद", "उदयभानु हंस", "सुरेंद्र शर्मा", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: पं. लखमी चंद (Pt. Lakhmi Chand)।\n\n📌 Literature Facts:\n1. उपाधि: सूर्य कवि, हरियाणा का कालिदास, हरियाणा का शेक्सपियर।\n2. अनपढ़ कवि: वह औपचारिक रूप से शिक्षित नहीं थे, फिर भी उन्होंने अद्भुत सांग (Saang) और रागनियां रचीं।\n3. गुरु: मान सिंह।\n4. उदयभानु हंस: ये हरियाणा के पहले 'राज्य कवि' (State Poet) थे।"
+},
+{
+"id": 56,
+"section": "Mathematics - Simple & Compound Interest",
+"q_en": "The difference between Compound Interest and Simple Interest on a certain sum for 2 years at 10% per annum is ₹20. Find the sum.",
+"q_hi": "एक निश्चित राशि पर 10% प्रति वर्ष की दर से 2 वर्षों के लिए चक्रवृद्धि ब्याज (CI) और साधारण ब्याज (SI) के बीच का अंतर ₹20 है। वह राशि ज्ञात कीजिए।",
+"options_en": ["₹1000", "₹1500", "₹2000", "₹2500", "Not Attempted"],
+"options_hi": ["₹1000", "₹1500", "₹2000", "₹2500", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: ₹2000।\n\n📌 Super Trick Formula (For 2 Years Only):\nDifference (D) = P × (R/100)²\nयहाँ D = 20, R = 10 है।\n20 = P × (10/100)²\n20 = P × (1/100)\nP = 20 × 100 = ₹2000\nयह HSSC का सबसे पसंदीदा गणितीय प्रश्न है।"
+},
+{
+"id": 57,
+"section": "Haryana Geography - Rivers",
+"q_en": "Which seasonal river of Haryana enters Rajasthan near Hanumangarh and gets lost in the desert?",
+"q_hi": "हरियाणा की कौन सी मौसमी नदी हनुमानगढ़ (राजस्थान) के पास राजस्थान में प्रवेश करती है और रेगिस्तान में लुप्त हो जाती है?",
+"options_en": ["Markanda", "Sahibi", "Ghaggar", "Tangri", "Not Attempted"],
+"options_hi": ["मारकंडा", "साहिबी", "घग्घर", "टांगरी", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: घग्घर (Ghaggar)।\n\n📌 River Facts:\n1. उद्गम: हिमाचल प्रदेश (डागशई की पहाड़ियां)।\n2. हरियाणा में प्रवेश: कालका (पंचकूला)।\n3. बांध: ओटू बैराज (Otu Barrage) सिरसा में इसी नदी पर है।\n4. इसे प्राचीन 'सरस्वती' नदी का अवशेष भी माना जाता है। पाकिस्तान में इसे 'हाकरा' (Hakra) नदी कहा जाता था।"
+},
+{
+"id": 58,
+"section": "General Science - Vitamins",
+"q_en": "Deficiency of which vitamin causes the disease 'Scurvy' (bleeding gums)?",
+"q_hi": "किस विटामिन की कमी से 'स्कर्वी' (Scurvy - मसूड़ों से खून आना) रोग होता है?",
+"options_en": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D", "Not Attempted"],
+"options_hi": ["विटामिन A", "विटामिन B1", "विटामिन C", "विटामिन D", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: विटामिन C।\n\n📌 Vitamin Facts:\n1. रासायनिक नाम: एस्कॉर्बिक एसिड (Ascorbic Acid)।\n2. स्रोत: खट्टे फल (आंवला, संतरा, नींबू)।\n3. विशेषता: यह विटामिन गर्म करने पर नष्ट हो जाता है और यह पेशाब के रास्ते शरीर से बाहर निकल जाता है (शरीर में जमा नहीं होता)।"
+},
+{
+"id": 59,
+"section": "Reasoning - Blood Relations",
+"q_en": "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman related to the man?",
+"q_hi": "एक तस्वीर की ओर इशारा करते हुए एक आदमी ने कहा, 'वह मेरे दादा के इकलौते बेटे की बेटी है।' वह महिला उस आदमी से कैसे संबंधित है?",
+"options_en": ["Mother", "Sister", "Aunt", "Cousin", "Not Attempted"],
+"options_hi": ["मां", "बहन", "चाची/बुआ", "चचेरी बहन", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: बहन (Sister)।\n\n📌 Logic Breakdown:\n1. 'मेरे दादा का इकलौता बेटा' = मेरे पिता (Father)।\n2. 'मेरे पिता की बेटी' = मेरी बहन (Sister)।\nरिलेशनशिप के सवालों में 'Only Son/Daughter' (इकलौता) शब्द पर विशेष ध्यान दें, यही उत्तर बदलता है।"
+},
+{
+"id": 60,
+"section": "Computer - Abbreviations",
+"q_en": "What is the full form of 'URL' in internet terminology?",
+"q_hi": "इंटरनेट शब्दावली में 'URL' का पूर्ण रूप (Full Form) क्या है?",
+"options_en": ["Uniform Resource Locator", "Universal Resource Link", "Uniform Registered Link", "Unified Resource Locator", "Not Attempted"],
+"options_hi": ["Uniform Resource Locator", "Universal Resource Link", "Uniform Registered Link", "Unified Resource Locator", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: Uniform Resource Locator।\n\n📌 Important Full Forms:\n1. URL: किसी वेबसाइट का पता (Address)।\n2. HTTP: HyperText Transfer Protocol.\n3. HTML: HyperText Markup Language.\n4. USB: Universal Serial Bus.\nHSSC कांस्टेबल परीक्षा में कम से कम 1-2 प्रश्न Full Form से जरूर आते हैं।"
+},
+{
+"id": 61,
+"section": "Mathematics - Geometry (Triangles)",
+"q_en": "In the given figure, if ΔABC is a right-angled triangle at B, AB = 6 cm and BC = 8 cm, what is the length of the hypotenuse AC?",
+"q_hi": "दी गई आकृति में, यदि ΔABC बिंदु B पर एक समकोण त्रिभुज है, AB = 6 सेमी और BC = 8 सेमी है, तो कर्ण AC की लंबाई क्या है?",
+"svg_image": "<svg width='200' height='150' viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M 50 20 L 50 120 L 150 120 Z' fill='none' stroke='black' stroke-width='2'/><text x='35' y='70' font-family='Arial' font-size='14'>6 cm</text><text x='90' y='140' font-family='Arial' font-size='14'>8 cm</text><text x='100' y='60' font-family='Arial' font-size='14'>?</text><rect x='50' y='110' width='10' height='10' fill='none' stroke='black'/><text x='40' y='15' font-family='Arial' font-size='14'>A</text><text x='40' y='135' font-family='Arial' font-size='14'>B</text><text x='160' y='135' font-family='Arial' font-size='14'>C</text></svg>",
+"options_en": ["10 cm", "12 cm", "14 cm", "9 cm", "Not Attempted"],
+"options_hi": ["10 सेमी", "12 सेमी", "14 सेमी", "9 सेमी", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 10 सेमी।\n\n📌 Logic (Pythagoras Theorem):\n1. सूत्र: (Hypotenuse)² = (Base)² + (Perpendicular)²\n2. AC² = AB² + BC²\n3. AC² = (6)² + (8)² = 36 + 64 = 100\n4. AC = √100 = 10 cm\nयह 'Triplets' (3, 4, 5 का दोगुना 6, 8, 10) का उदाहरण है जो परीक्षाओं में समय बचाता है।"
+},
+{
+"id": 62,
+"section": "Reasoning - Figure Counting",
+"q_en": "How many triangles are there in the given square figure with diagonals?",
+"q_hi": "दिए गए विकर्णों वाले वर्ग (Square) की आकृति में कुल कितने त्रिभुज हैं?",
+"svg_image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='25' width='100' height='100' fill='none' stroke='black' stroke-width='2'/><line x1='25' y1='25' x2='125' y2='125' stroke='black' stroke-width='2'/><line x1='125' y1='25' x2='25' y2='125' stroke='black' stroke-width='2'/></svg>",
+"options_en": ["4", "6", "8", "10", "Not Attempted"],
+"options_hi": ["4", "6", "8", "10", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: 8।\n\n📌 Counting Trick:\n1. जब एक वर्ग या आयत के विकर्ण एक-दूसरे को काटते हैं, तो छोटे त्रिभुजों को गिनें।\n2. यहाँ छोटे त्रिभुज = 4 (1, 2, 3, 4)।\n3. कुल त्रिभुज = छोटे त्रिभुज × 2\n4. Total = 4 × 2 = 8.\nयह HSSC का सबसे बेसिक और रिपीट होने वाला प्रश्न है।"
+},
+{
+"id": 63,
+"section": "Mathematics - Mensuration (Circle)",
+"q_en": "Find the area of the shaded sector if the radius of the circle is 7 cm and the angle is 90°.",
+"q_hi": "छायांकित त्रिज्यखंड (Sector) का क्षेत्रफल ज्ञात कीजिए यदि वृत्त की त्रिज्या 7 सेमी और कोण 90° है।",
+"svg_image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><circle cx='75' cy='75' r='50' fill='none' stroke='black' stroke-width='2'/><path d='M 75 75 L 125 75 A 50 50 0 0 0 75 25 Z' fill='#ddd' stroke='black' stroke-width='1'/><line x1='75' y1='75' x2='75' y2='25' stroke='black'/><line x1='75' y1='75' x2='125' y2='75' stroke='black'/><text x='80' y='65' font-size='12'>90°</text><text x='100' y='50' font-size='10'>Area?</text></svg>",
+"options_en": ["38.5 cm²", "77 cm²", "154 cm²", "19.25 cm²", "Not Attempted"],
+"options_hi": ["38.5 सेमी²", "77 सेमी²", "154 सेमी²", "19.25 सेमी²", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 38.5 सेमी²।\n\n📌 Formula:\n1. पूरे वृत्त का क्षेत्रफल = πr² = (22/7) × 7 × 7 = 154 cm²\n2. त्रिज्यखंड (Sector) का क्षेत्रफल = (θ/360) × πr²\n3. गणना: (90/360) × 154 = (1/4) × 154 = 38.5 cm²\n4. शॉर्टकट: 90° का मतलब वृत्त का चौथा हिस्सा होता है।"
+},
+{
+"id": 64,
+"section": "Mathematics - Mensuration (3D Cylinder)",
+"q_en": "What represents the 'Curved Surface Area' (CSA) of the cylinder shown below?",
+"q_hi": "नीचे दिखाए गए बेलन (Cylinder) के 'वक्र पृष्ठीय क्षेत्रफल' (CSA) का सूत्र क्या होता है?",
+"svg_image": "<svg width='120' height='160' viewBox='0 0 120 160' xmlns='http://www.w3.org/2000/svg'><ellipse cx='60' cy='30' rx='40' ry='15' fill='none' stroke='black' stroke-width='2'/><ellipse cx='60' cy='130' rx='40' ry='15' fill='none' stroke='black' stroke-width='2'/><line x1='20' y1='30' x2='20' y2='130' stroke='black' stroke-width='2'/><line x1='100' y1='30' x2='100' y2='130' stroke='black' stroke-width='2'/><text x='105' y='80' font-family='Arial' font-size='14'>h</text><line x1='60' y1='130' x2='100' y2='130' stroke='black' stroke-dasharray='4'/><text x='70' y='145' font-family='Arial' font-size='14'>r</text></svg>",
+"options_en": ["πr²h", "2πrh", "2πr(r+h)", "πrh", "Not Attempted"],
+"options_hi": ["πr²h", "2πrh", "2πr(r+h)", "πrh", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 2πrh।\n\n📌 Cylinder Formulas:\n1. आयतन (Volume): πr²h\n2. वक्र पृष्ठ (Curved Surface Area - CSA): 2πrh (केवल गोल हिस्सा)\n3. कुल पृष्ठ (Total Surface Area - TSA): 2πr(r+h) (ऊपर और नीचे के ढक्कन सहित)\nHSSC सीधे सूत्र (Formula) पूछ लेता है, विशेषकर पुलिस कांस्टेबल परीक्षा में।"
+},
+{
+"id": 65,
+"section": "Reasoning - Visual Analogy",
+"q_en": "Which shape completes the pattern? (Circle -> Circle with Dot -> Square -> ?)",
+"q_hi": "कौन सी आकृति पैटर्न को पूरा करती है? (वृत्त -> बिंदु वाला वृत्त -> वर्ग -> ?)",
+"svg_image": "<svg width='300' height='80' viewBox='0 0 300 80' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='40' r='30' fill='none' stroke='black' stroke-width='2'/><path d='M 90 40 L 110 40' stroke='black' stroke-width='2' marker-end='url(#arrow)'/><circle cx='160' cy='40' r='30' fill='none' stroke='black' stroke-width='2'/><circle cx='160' cy='40' r='5' fill='black'/><rect x='220' y='10' width='60' height='60' fill='none' stroke='black' stroke-width='2'/><text x='300' y='50' font-size='24'>?</text></svg>",
+"options_en": ["Empty Triangle", "Square with Dot", "Circle with Cross", "Empty Square", "Not Attempted"],
+"options_hi": ["खाली त्रिभुज", "बिंदु वाला वर्ग (Square with Dot)", "क्रॉस वाला वृत्त", "खाली वर्ग", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: बिंदु वाला वर्ग (Square with Dot)।\n\n📌 Logic:\n1. पहला चरण: एक खाली आकृति (वृत्त)।\n2. दूसरा चरण: वही आकृति लेकिन केंद्र में एक बिंदु (Dot) के साथ।\n3. तीसरा चरण: अगली खाली आकृति (वर्ग)।\n4. चौथा चरण: वही वर्ग केंद्र में बिंदु के साथ होना चाहिए।"
+},
+{
+"id": 66,
+"section": "Indian Polity - President",
+"q_en": "Which Article of the Indian Constitution deals with the procedure for the 'Impeachment of the President'?",
+"q_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'राष्ट्रपति पर महाभियोग' (Impeachment) चलाने की प्रक्रिया से संबंधित है?",
+"options_en": ["Article 52", "Article 61", "Article 72", "Article 123", "Not Attempted"],
+"options_hi": ["अनुच्छेद 52", "अनुच्छेद 61", "अनुच्छेद 72", "अनुच्छेद 123", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: अनुच्छेद 61 (Article 61)।\n\n📌 Important Articles:\n1. अनुच्छेद 52: भारत का एक राष्ट्रपति होगा।\n2. अनुच्छेद 61: महाभियोग (पद से हटाने की प्रक्रिया)।\n3. अनुच्छेद 72: क्षमादान की शक्ति (Pardoning Power)।\n4. अनुच्छेद 123: अध्यादेश (Ordinance) जारी करने की शक्ति।\nहरियाणा पुलिस सब-इंस्पेक्टर और कांस्टेबल दोनों में यह कई बार पूछा गया है।"
+},
+{
+"id": 67,
+"section": "Haryana GK - Firsts",
+"q_en": "Who was the first Governor of Haryana when it was formed on 1st November 1966?",
+"q_hi": "1 नवंबर 1966 को हरियाणा के गठन के समय हरियाणा के 'प्रथम राज्यपाल' (First Governor) कौन थे?",
+"options_en": ["B.N. Chakravarty", "Dharam Vira", "R.S. Narula", "H.A. Barari", "Not Attempted"],
+"options_hi": ["बी.एन. चक्रवर्ती", "धर्म वीर", "आर.एस. नरूला", "एच.ए. बरारी", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: धर्म वीर (Dharam Vira)।\n\n📌 Governor Facts:\n1. पहले राज्यपाल: धर्म वीर (कार्यकाल लगभग 10 महीने)।\n2. सबसे लंबा कार्यकाल: बी.एन. चक्रवर्ती (B.N. Chakravarty) - इनका पद पर रहते हुए निधन हो गया था।\n3. वर्तमान राज्यपाल (2025-26 संदर्भ): बंडारू दत्तात्रेय (परीक्षा से पहले लेटेस्ट चेक करें)।"
+},
+{
+"id": 68,
+"section": "Mathematics - Algebra",
+"q_en": "If x + 1/x = 5, then what is the value of x² + 1/x²?",
+"q_hi": "यदि x + 1/x = 5 है, तो x² + 1/x² का मान क्या होगा?",
+"options_en": ["25", "23", "27", "10", "Not Attempted"],
+"options_hi": ["25", "23", "27", "10", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 23।\n\n📌 Shortcut Trick:\nFormula: यदि x + 1/x = a, तो x² + 1/x² = a² - 2\nयहाँ a = 5 है।\nहल: (5)² - 2 = 25 - 2 = 23.\n(नोट: यदि यहाँ minus होता (x - 1/x = 5), तो हम a² + 2 करते)।"
+},
+{
+"id": 69,
+"section": "Reasoning - Clock",
+"q_en": "What is the angle between the hour hand and the minute hand of a clock at 4:30?",
+"q_hi": "घड़ी में 4:30 बजे घंटे की सुई और मिनट की सुई के बीच का कोण (Angle) क्या होगा?",
+"options_en": ["45°", "60°", "0°", "30°", "Not Attempted"],
+"options_hi": ["45°", "60°", "0°", "30°", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 45°।\n\n📌 Formula: | (30 × H) - (11/2 × M) |\nयहाँ Time = 4:30 (H = 4, M = 30)\n1. (30 × 4) = 120\n2. (11/2 × 30) = 11 × 15 = 165\n3. अंतर: |120 - 165| = 45°\nछात्र अक्सर इसे 0° या 30° सोचने की गलती करते हैं, लेकिन घंटे की सुई 4 से थोड़ी आगे बढ़ चुकी होती है।"
+},
+{
+"id": 70,
+"section": "General Science - Physics (Optics)",
+"q_en": "The power of a lens is measured in which unit?",
+"q_hi": "लेंस की शक्ति (Power of a lens) किस इकाई में मापी जाती है?",
+"options_en": ["Watt", "Diopter", "Lumen", "Candela", "Not Attempted"],
+"options_hi": ["वाट (Watt)", "डायोप्टर (Diopter)", "ल्यूमेन (Lumen)", "कैंडेला (Candela)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: डायोप्टर (Diopter - D)।\n\n📌 Key Facts:\n1. सूत्र: P = 1/f (जहाँ f = फोकल दूरी मीटर में है)।\n2. उत्तल लेंस (Convex): पावर Positive (+) होती है (जैसे +2.0 D)।\n3. अवतल लेंस (Concave): पावर Negative (-) होती है (जैसे -1.5 D)।\nयह प्रश्न चश्मे के नंबर और नेत्र दोष से संबंधित टॉपिक का हिस्सा है।"
+},
+{
+"id": 71,
+"section": "Indian History - Freedom Movement",
+"q_en": "On which date did Mahatma Gandhi start the 'Dandi March' (Salt Satyagraha) from Sabarmati Ashram?",
+"q_hi": "महात्मा गांधी ने साबरमती आश्रम से 'दांडी मार्च' (नमक सत्याग्रह) किस तारीख को शुरू किया था?",
+"options_en": ["12 March 1930", "6 April 1930", "13 April 1919", "8 August 1942", "Not Attempted"],
+"options_hi": ["12 मार्च 1930", "6 अप्रैल 1930", "13 अप्रैल 1919", "8 अगस्त 1942", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 12 मार्च 1930।\n\n📌 Timeline:\n1. शुरुआत: 12 मार्च 1930 (साबरमती आश्रम से)।\n2. समाप्ति: 6 अप्रैल 1930 (दांडी पहुंचकर नमक कानून तोड़ा)।\n3. यात्री: 78 अनुयायी उनके साथ थे।\n4. HSSC अक्सर 'शुरू होने की तारीख' और 'पहुंचने की तारीख' में कंफ्यूज करता है, इसलिए 12 मार्च याद रखें।"
+},
+{
+"id": 72,
+"section": "World Geography - Solar System",
+"q_en": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+"q_hi": "किस ग्रह को 'भोर का तारा' (Morning Star) या 'सांझ का तारा' (Evening Star) कहा जाता है?",
+"options_en": ["Mars", "Venus", "Jupiter", "Mercury", "Not Attempted"],
+"options_hi": ["मंगल (Mars)", "शुक्र (Venus)", "बृहस्पति (Jupiter)", "बुध (Mercury)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: शुक्र (Venus)।\n\n📌 Planet Facts:\n1. शुक्र: सबसे चमकीला और सबसे गर्म ग्रह है। इसे 'पृथ्वी की जुड़वां बहन' (Earth's Twin) भी कहते हैं।\n2. मंगल (Mars): लाल ग्रह (Red Planet)।\n3. बृहस्पति (Jupiter): सौरमंडल का सबसे बड़ा ग्रह।"
+},
+{
+"id": 73,
+"section": "Haryana GK - Awards",
+"q_en": "Which is the highest sports award given by the Haryana Government?",
+"q_hi": "हरियाणा सरकार द्वारा दिया जाने वाला सर्वोच्च खेल पुरस्कार कौन सा है?",
+"options_en": ["Arjuna Award", "Ekalavya Award", "Bhim Award", "Dronacharya Award", "Not Attempted"],
+"options_hi": ["अर्जुन पुरस्कार", "एकलव्य पुरस्कार", "भीम पुरस्कार", "द्रोणाचार्य पुरस्कार", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: भीम पुरस्कार (Bhim Award)।\n\n📌 Award Details:\n1. राशि: ₹5 लाख नकद + भीम की प्रतिमा + ब्लेजर/टाई।\n2. लाभ: भीम अवार्डी को हरियाणा रोडवेज की बसों में मुफ्त यात्रा की सुविधा मिलती है।\n3. यह पुरस्कार पिछले 4 वर्षों के खेल प्रदर्शन के आधार पर दिया जाता है।"
+},
+{
+"id": 74,
+"section": "General Science - Chemistry",
+"q_en": "Which acid is present in the sting of an ant or a bee, causing pain and irritation?",
+"q_hi": "चींटी या मधुमक्खी के डंक में कौन सा अम्ल (Acid) मौजूद होता है, जिससे दर्द और जलन होती है?",
+"options_en": ["Acetic Acid", "Formic Acid (Methanoic Acid)", "Lactic Acid", "Citric Acid", "Not Attempted"],
+"options_hi": ["एसिटिक एसिड", "फॉर्मिक एसिड (मेथेनोइक एसिड)", "लैक्टिक एसिड", "साइट्रिक एसिड", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: फॉर्मिक एसिड (मेथेनोइक एसिड)।\n\n📌 Acid List:\n1. चींटी/बिच्छू का डंक: फॉर्मिक एसिड (Formic Acid)।\n2. सिरका (Vinegar): एसिटिक एसिड।\n3. दही/दूध: लैक्टिक एसिड।\n4. नींबू/संतरा: साइट्रिक एसिड।\nउपचार: डंक लगने पर 'बेकिंग सोडा' (हल्का क्षार) लगाने से राहत मिलती है।"
+},
+{
+"id": 75,
+"section": "Reasoning - Ranking",
+"q_en": "In a row of students, Ravi is 15th from the left and 20th from the right. How many total students are there in the row?",
+"q_hi": "छात्रों की एक पंक्ति में, रवि बाएं से 15वें और दाएं से 20वें स्थान पर है। पंक्ति में कुल कितने छात्र हैं?",
+"options_en": ["35", "34", "33", "36", "Not Attempted"],
+"options_hi": ["35", "34", "33", "36", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 34।\n\n📌 Formula: Total = (Left + Right) - 1\n1. गणना: (15 + 20) - 1\n2. 35 - 1 = 34\n3. तर्क: रवि को हमने बाएं और दाएं दोनों तरफ से गिन लिया है (दो बार), इसलिए अंत में 1 घटाना जरूरी है। यह सबसे आसान लेकिन सबसे ज्यादा गलत होने वाला सवाल है।"
+},
+{
+"id": 76,
+"section": "Indian Economics - Bodies",
+"q_en": "Which institution replaced the 'Planning Commission' of India on 1st January 2015?",
+"q_hi": "1 जनवरी 2015 को भारत के 'योजना आयोग' (Planning Commission) को किस संस्थान द्वारा प्रतिस्थापित किया गया था?",
+"options_en": ["Finance Commission", "NITI Aayog", "National Development Council", "Lokpal", "Not Attempted"],
+"options_hi": ["वित्त आयोग", "नीति आयोग (NITI Aayog)", "राष्ट्रीय विकास परिषद", "लोकपाल", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: नीति आयोग (NITI Aayog)।\n\n📌 Key Facts:\n1. पूरा नाम: National Institution for Transforming India.\n2. अध्यक्ष: प्रधानमंत्री (PM)।\n3. यह 'Think Tank' के रूप में कार्य करता है और 'सहकारी संघवाद' (Cooperative Federalism) को बढ़ावा देता है।\n4. योजना आयोग 1950 में बना था, जिसे 2014 में समाप्त कर दिया गया।"
+},
+{
+"id": 77,
+"section": "English Language - Antonyms",
+"q_en": "Choose the correct antonym (opposite word) for the word: 'ACQUIT'.",
+"q_hi": "'ACQUIT' शब्द के लिए सही विलोम (Antonym) चुनें।",
+"options_en": ["Release", "Convict", "Pardon", "Forgive", "Not Attempted"],
+"options_hi": ["Release (छोड़ना)", "Convict (दोषी ठहराना)", "Pardon (क्षमा करना)", "Forgive (माफ करना)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: Convict (दोषी ठहराना)।\n\n📌 Police Vocabulary:\n1. Acquit: बरी करना (जब कोर्ट किसी को निर्दोष घोषित करता है)।\n2. Convict: दोषी सिद्ध करना (जब कोर्ट सजा सुनाता है)।\n3. यह पुलिस विभाग और कानून से जुड़ा शब्द है, इसलिए परीक्षा में इसके आने की संभावना बहुत अधिक है।"
+},
+{
+"id": 78,
+"section": "Haryana GK - Wildlife",
+"q_en": "Sultanpur National Park, famous for migratory birds like Siberian Cranes, is located in which district of Haryana?",
+"q_hi": "प्रवासी पक्षियों (जैसे साइबेरियन क्रेन) के लिए प्रसिद्ध 'सुल्तानपुर राष्ट्रीय उद्यान' हरियाणा के किस जिले में स्थित है?",
+"options_en": ["Rohtak", "Jhajjar", "Gurugram", "Faridabad", "Not Attempted"],
+"options_hi": ["रोहतक", "झज्जर", "गुरुग्राम", "फरीदाबाद", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: गुरुग्राम (Gurugram)।\n\n📌 National Parks in Haryana (Only 2):\n1. सुल्तानपुर नेशनल पार्क (गुरुग्राम): इसे 1991 में नेशनल पार्क का दर्जा मिला। (पुराना नाम: सलीम अली पक्षी विहार)।\n2. कालेसर नेशनल पार्क (यमुनानगर): यह साल (Sal) के पेड़ों और जंगली मुर्गों के लिए प्रसिद्ध है।\nध्यान दें: भिंडावास (झज्जर) एक वन्यजीव अभ्यारण्य (Wildlife Sanctuary) है, नेशनल पार्क नहीं।"
+},
+{
+"id": 79,
+"section": "Mathematics - Average Speed",
+"q_en": "A car travels from City A to City B at a speed of 40 km/h and returns at a speed of 60 km/h. What is the average speed of the car for the whole journey?",
+"q_hi": "एक कार शहर A से शहर B तक 40 किमी/घंटा की गति से जाती है और 60 किमी/घंटा की गति से वापस आती है। पूरी यात्रा के लिए कार की औसत गति (Average Speed) क्या है?",
+"options_en": ["50 km/h", "48 km/h", "52 km/h", "45 km/h", "Not Attempted"],
+"options_hi": ["50 km/h", "48 km/h", "52 km/h", "45 km/h", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 48 km/h।\n\n📌 Formula (Most Important): \nजब दूरी समान हो, तो औसत गति = (2xy) / (x + y)\nयहाँ x = 40, y = 60\n1. गणना: (2 × 40 × 60) / (40 + 60)\n2. = (4800) / (100)\n3. = 48 km/h.\nगलती से (40+60)/2 = 50 न करें, वह गलत होता है।"
+},
+{
+"id": 80,
+"section": "General Science - Chemistry in Daily Life",
+"q_en": "Which gas is flushed into potato chip packets to prevent the chips from getting oxidized (spoiled)?",
+"q_hi": "आलू के चिप्स के पैकेट में चिप्स को ऑक्सीकृत (खराब) होने से बचाने के लिए कौन सी गैस भरी जाती है?",
+"options_en": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen", "Not Attempted"],
+"options_hi": ["ऑक्सीजन", "कार्बन डाइऑक्साइड", "नाइट्रोजन", "हाइड्रोजन", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: नाइट्रोजन (Nitrogen)।\n\n📌 Logic:\n1. कारण: नाइट्रोजन एक कम क्रियाशील (Inert nature) गैस है। यह फैट और तेल को खराब होने (Rancidity) से रोकती है।\n2. ऑक्सीजन: यह भोजन को सड़ा देती है (Oxidation)।\n3. वायुमंडल: इसमें सबसे ज्यादा नाइट्रोजन (78%) होती है।"
+},
+{
+"id": 81,
+"section": "Haryana Geography - Irrigation",
+"q_en": "Which is the oldest and longest canal in Haryana, originated from the Tajewala Head (Yamunanagar)?",
+"q_hi": "हरियाणा की सबसे पुरानी और सबसे लंबी नहर कौन सी है, जो ताजेवाला हेड (यमुनानगर) से निकलती है?",
+"options_en": ["Bhakra Canal", "Western Yamuna Canal", "Gurugram Canal", "Jawaharlal Nehru Canal", "Not Attempted"],
+"options_hi": ["भाखड़ा नहर", "पश्चिमी यमुना नहर (Western Yamuna Canal)", "गुरुग्राम नहर", "जवाहरलाल नेहरू नहर", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: पश्चिमी यमुना नहर (Western Yamuna Canal)।\n\n📌 Fact Sheet:\n1. निर्माण: 1355 ई. में फिरोज शाह तुगलक ने करवाया था (बाद में अंग्रेजों ने इसका जीर्णोद्धार किया)।\n2. लंबाई: लगभग 3226 किमी (शाखाओं सहित)।\n3. सिंचाई: अंबाला, करनाल, रोहतक, सोनीपत, हिसार, जींद।\n4. यह हरियाणा की 'जीवन रेखा' मानी जाती है।"
+},
+{
+"id": 82,
+"section": "Reasoning - Visual (Mirror Image)",
+"q_en": "Choose the correct mirror image of the given figure (if the mirror is placed on the right side 'MN').",
+"q_hi": "दी गई आकृति का सही दर्पण प्रतिबिंब चुनें (यदि दर्पण दाईं ओर 'MN' पर रखा गया है)।",
+"svg_image": "<svg width='200' height='100' viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><text x='10' y='30' font-size='14'>Question Figure:</text><rect x='30' y='40' width='50' height='50' fill='none' stroke='black' stroke-width='2'/><path d='M 30 40 L 80 90' stroke='black' stroke-width='2'/><circle cx='65' cy='55' r='5' fill='black'/><line x1='90' y1='35' x2='90' y2='95' stroke='black' stroke-dasharray='4'/><text x='95' y='65' font-size='14'>M</text><text x='95' y='85' font-size='14'>N</text></svg>",
+"options_en": ["Figure A", "Figure B", "Figure C", "Figure D", "Not Attempted"],
+"options_hi": ["आकृति A (विकर्ण बाएं-ऊपर से दाएं-नीचे)", "आकृति B (बिंदु बाईं ओर)", "आकृति C (समान आकृति)", "आकृति D (उल्टा)", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: आकृति B (बिंदु बाईं ओर)।\n\n📌 Logic:\n1. दर्पण में 'Left' हिस्सा 'Right' बन जाता है और 'Right' हिस्सा 'Left' बन जाता है।\n2. प्रश्न में बिंदु (Dot) दाईं ओर (Top-Right के पास) है।\n3. उत्तर में बिंदु बाईं ओर (Top-Left के पास) होना चाहिए।\n4. विकर्ण रेखा (Diagonal) की दिशा भी बदल जाएगी।"
+},
+{
+"id": 83,
+"section": "General Science - Physics",
+"q_en": "Why do raindrops acquire a spherical shape when falling?",
+"q_hi": "बारिश की बूंदें गिरते समय गोलाकार आकार (Spherical Shape) क्यों ग्रहण कर लेती हैं?",
+"options_en": ["Viscosity", "Surface Tension", "Atmospheric Pressure", "Gravitational Force", "Not Attempted"],
+"options_hi": ["श्यानता (Viscosity)", "पृष्ठ तनाव (Surface Tension)", "वायुमंडलीय दबाव", "गुरुत्वाकर्षण बल", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: पृष्ठ तनाव (Surface Tension)।\n\n📌 Concept:\n1. सिद्धांत: द्रव की सतह एक तनी हुई झिल्ली की तरह व्यवहार करती है और न्यूनतम क्षेत्रफल (Minimum Surface Area) घेरने की कोशिश करती है।\n2. गोलाकार क्यों: दिए गए आयतन के लिए गोले (Sphere) का पृष्ठीय क्षेत्रफल सबसे कम होता है।\n3. उदाहरण: शेविंग ब्रश के बाल पानी से बाहर निकालने पर आपस में चिपक जाते हैं (यह भी पृष्ठ तनाव के कारण है)।"
+},
+{
+"id": 84,
+"section": "Mathematics - Number System",
+"q_en": "Which of the following numbers is completely divisible by 11?",
+"q_hi": "निम्नलिखित में से कौन सी संख्या 11 से पूर्णतः विभाजित (Divisible) है?",
+"options_en": ["4832718", "8432718", "4832719", "5832718", "Not Attempted"],
+"options_hi": ["4832718", "8432718", "4832719", "5832718", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 4832718।\n\n📌 Divisibility Rule of 11:\n1. नियम: (विषम स्थानों के अंकों का योग) - (सम स्थानों के अंकों का योग) = 0 या 11 का गुणज।\n2. चेक (4832718): \nविषम स्थान (Odd places): 8 + 7 + 3 + 4 = 22\nसम स्थान (Even places): 1 + 2 + 8 = 11\nअंतर: 22 - 11 = 11 (यह 11 से भाग होता है)।\nइसलिए पूरी संख्या 11 से विभाजित होगी।"
+},
+{
+"id": 85,
+"section": "Haryana GK - Polity",
+"q_en": "When did the 'Haryana Panchayati Raj Act - 1994' come into effect?",
+"q_hi": "'हरियाणा पंचायती राज अधिनियम - 1994' कब लागू हुआ था?",
+"options_en": ["22 April 1994", "24 April 1994", "1 November 1994", "26 January 1995", "Not Attempted"],
+"options_hi": ["22 अप्रैल 1994", "24 अप्रैल 1994", "1 नवंबर 1994", "26 जनवरी 1995", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 22 अप्रैल 1994।\n\n📌 Confusing Dates:\n1. भारत में लागू (73वां संशोधन): 24 अप्रैल 1993।\n2. हरियाणा में लागू: 22 अप्रैल 1994 (भजन लाल सरकार के समय)।\n3. शैक्षणिक योग्यता शर्त: हरियाणा दूसरा राज्य था (पहला राजस्थान) जिसने सरपंच के लिए 10वीं पास और 8वीं पास की शर्त लागू की (7 सितंबर 2015 को)।"
+},
+{
+"id": 86,
+"section": "Haryana GK - Lakes",
+"q_en": "Which is the largest natural lake in Haryana, located in Sohna (Gurugram)?",
+"q_hi": "सोहना (गुरुग्राम) में स्थित हरियाणा की सबसे बड़ी प्राकृतिक झील कौन सी है?",
+"options_en": ["Badkhal Lake", "Damdama Lake", "Karna Lake", "Blue Bird Lake", "Not Attempted"],
+"options_hi": ["बड़खल झील", "दमदमा झील (Damdama Lake)", "कर्ण झील", "ब्लू बर्ड झील", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: दमदमा झील (Damdama Lake)।\n\n📌 Lake Facts:\n1. क्षेत्रफल: लगभग 3000 एकड़।\n2. बड़खल झील: फरीदाबाद (सिंचाई परियोजना के लिए 1947 में बनी)।\n3. कर्ण झील: करनाल (महाभारत के कर्ण से संबंधित)।\n4. ब्लू बर्ड झील: हिसार।"
+},
+{
+"id": 87,
+"section": "Mathematics - Mensuration (Cone)",
+"q_en": "Find the volume of the cone shown in the figure, if radius (r) = 7 cm and height (h) = 10 cm.",
+"q_hi": "आकृति में दिखाए गए शंकु (Cone) का आयतन ज्ञात कीजिए, यदि त्रिज्या (r) = 7 सेमी और ऊंचाई (h) = 10 सेमी है।",
+"svg_image": "<svg width='150' height='180' viewBox='0 0 150 180' xmlns='http://www.w3.org/2000/svg'><path d='M 25 140 A 50 15 0 0 0 125 140 A 50 15 0 0 0 25 140' fill='none' stroke='black' stroke-width='2' stroke-dasharray='4,2'/><path d='M 25 140 L 75 20 L 125 140' fill='none' stroke='black' stroke-width='2'/><path d='M 25 140 A 50 15 0 0 0 125 140' fill='none' stroke='black' stroke-width='2'/><line x1='75' y1='20' x2='75' y2='140' stroke='red' stroke-width='2' stroke-dasharray='4'/><text x='80' y='80' fill='red' font-size='14'>h=10</text><line x1='75' y1='140' x2='125' y2='140' stroke='blue' stroke-width='2'/><text x='90' y='160' fill='blue' font-size='14'>r=7</text></svg>",
+"options_en": ["513.33 cm³", "1540 cm³", "440 cm³", "1024 cm³", "Not Attempted"],
+"options_hi": ["513.33 cm³", "1540 cm³", "440 cm³", "1024 cm³", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 513.33 cm³।\n\n📌 Formula: Volume = (1/3)πr²h\n1. मान रखें: (1/3) × (22/7) × 7 × 7 × 10\n2. हल: (1/3) × 22 × 7 × 10 (एक 7 कट गया)\n3. = (1540) / 3\n4. = 513.33 cm³\nनोट: बेलन (Cylinder) का आयतन πr²h होता है, शंकु उसका एक-तिहाई (1/3) होता है।"
+},
+{
+"id": 88,
+"section": "General Science - Physics (Sound)",
+"q_en": "What is the audible frequency range of sound for a normal human ear?",
+"q_hi": "एक सामान्य मानव कान के लिए ध्वनि की श्रव्य आवृत्ति सीमा (Audible Frequency Range) क्या है?",
+"options_en": ["10 Hz to 10,000 Hz", "20 Hz to 20,000 Hz", "20 kHz to 40 kHz", "Below 20 Hz", "Not Attempted"],
+"options_hi": ["10 Hz से 10,000 Hz", "20 Hz से 20,000 Hz", "20 kHz से 40 kHz", "20 Hz से कम", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 20 Hz से 20,000 Hz।\n\n📌 Sound Facts:\n1. श्रव्य तरंगें (Audible): 20 Hz - 20 kHz.\n2. पराश्रव्य (Ultrasonic): 20,000 Hz से ऊपर (चमगादड़ और सोनार इसका उपयोग करते हैं)।\n3. अपश्रव्य (Infrasonic): 20 Hz से कम (भूकंप और हाथी इसका उपयोग करते हैं)।"
+},
+{
+"id": 89,
+"section": "Reasoning - Direction Sense",
+"q_en": "A person starts from point A, walks 4 km North, then turns right and walks 3 km to reach point B. What is the shortest distance between A and B?",
+"q_hi": "एक व्यक्ति बिंदु A से शुरू करता है, 4 किमी उत्तर (North) की ओर चलता है, फिर दाएं (Right) मुड़ता है और बिंदु B तक पहुंचने के लिए 3 किमी चलता है। A और B के बीच की न्यूनतम दूरी (Shortest Distance) क्या है?",
+"svg_image": "<svg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'><path d='M 50 120 L 50 50 L 120 50' fill='none' stroke='black' stroke-width='3' marker-end='url(#arrow)'/><line x1='50' y1='120' x2='120' y2='50' stroke='red' stroke-width='2' stroke-dasharray='5'/><text x='30' y='90' font-size='12'>4 km</text><text x='80' y='40' font-size='12'>3 km</text><text x='30' y='130' font-weight='bold'>A</text><text x='130' y='50' font-weight='bold'>B</text><text x='90' y='100' fill='red' font-size='12'>?</text></svg>",
+"options_en": ["5 km", "7 km", "10 km", "12 km", "Not Attempted"],
+"options_hi": ["5 km", "7 km", "10 km", "12 km", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 5 km।\n\n📌 Logic (Pythagoras Triplet):\n1. यह एक समकोण त्रिभुज (Right Angle Triangle) बनाता है।\n2. कर्ण (Hypotenuse) = √(4² + 3²)\n3. = √(16 + 9) = √25\n4. = 5 km\nHSSC में '3-4-5' और '6-8-10' के ट्रिपलेट वाले सवाल सबसे ज्यादा आते हैं।"
+},
+{
+"id": 90,
+"section": "Indian History - Medieval",
+"q_en": "Who built the famous 'Grand Trunk Road' (GT Road) that passes through Haryana?",
+"q_hi": "हरियाणा से गुजरने वाली प्रसिद्ध 'ग्रांड ट्रंक रोड' (GT Road) का निर्माण किसने करवाया था?",
+"options_en": ["Akbar", "Sher Shah Suri", "Aurangzeb", "Jahangir", "Not Attempted"],
+"options_hi": ["अकबर", "शेर शाह सूरी", "औरंगजेब", "जहांगीर", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: शेर शाह सूरी।\n\n📌 Historical Facts:\n1. पुराना नाम: सड़क-ए-आजम (Sadak-e-Azam)।\n2. हरियाणा कनेक्शन: यह अंबाला, कुरुक्षेत्र, करनाल, पानीपत और सोनीपत से होकर गुजरती है (NH-44, पुराना NH-1)।\n3. कोस मीनार: शेर शाह सूरी ने यात्रियों के लिए हर कोस (लगभग 3 किमी) पर 'कोस मीनारें' बनवाई थीं, जो आज भी हरियाणा में मौजूद हैं।"
+},
+[
+{
+"id": 91,
+"section": "Computer - MS Excel",
+"q_en": "In MS Excel, which function is used to find the largest value in a range of cells?",
+"q_hi": "MS Excel में, कोशिकाओं (Cells) की एक रेंज में सबसे बड़ा मान (Largest Value) ज्ञात करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+"options_en": ["=UPPER()", "=MAX()", "=LARGE()", "=HIGH()", "Not Attempted"],
+"options_hi": ["=UPPER()", "=MAX()", "=LARGE()", "=HIGH()", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: =MAX()।\n\n📌 Excel Functions:\n1. =MAX(A1:A10): सबसे बड़ी संख्या बताता है।\n2. =MIN(A1:A10): सबसे छोटी संख्या बताता है।\n3. =AVERAGE(): औसत निकालता है।\n4. =COUNT(): केवल उन सेल को गिनता है जिनमें नंबर हैं।"
+},
+{
+"id": 92,
+"section": "Haryana Culture - Dance",
+"q_en": "Which traditional dance form of Haryana is performed by women only during the waiting period for the arrival of the groom's procession (Baraat)?",
+"q_hi": "हरियाणा का कौन सा पारंपरिक नृत्य केवल महिलाओं द्वारा दूल्हे की बारात के आगमन की प्रतीक्षा अवधि (लड़के की शादी की रात) के दौरान किया जाता है?",
+"options_en": ["Phag Dance", "Loor Dance", "Khoria Dance", "Gugga Dance", "Not Attempted"],
+"options_hi": ["फाग नृत्य", "लूर नृत्य", "खोरिया नृत्य", "गुग्गा नृत्य", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: खोरिया नृत्य (Khoria Dance)।\n\n📌 Dance Facts:\n1. खोरिया: जब बारात चली जाती है, तो घर की महिलाएं रात भर जागकर यह नृत्य करती हैं। यह 'घूमर' जैसा होता है।\n2. लूर (Loor): यह होली पर बांगर क्षेत्र में महिलाओं द्वारा किया जाता है (इसमें प्रश्न-उत्तर होते हैं)।\n3. खेड़ा (Kheda): यह बुजुर्ग की मृत्यु पर किया जाने वाला गम का नृत्य है।"
+},
+{
+"id": 93,
+"section": "Reasoning - Syllogism",
+"q_en": "Statements: Some Cats are Dogs. All Dogs are Birds.\nConclusion:\nI. Some Cats are Birds.\nII. Some Birds are Dogs.",
+"q_hi": "कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते पक्षी हैं।\nनिष्कर्ष:\nI. कुछ बिल्लियाँ पक्षी हैं।\nII. कुछ पक्षी कुत्ते हैं।",
+"options_en": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows", "Not Attempted"],
+"options_hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: I और II दोनों अनुसरण करते हैं।\n\n📌 Logic:\n1. चूंकि सभी कुत्ते पक्षी हैं और कुछ बिल्लियाँ कुत्ते हैं, तो बिल्लियों का वह हिस्सा जो कुत्ता है, वह अपने आप पक्षी भी होगा। (निष्कर्ष I सत्य)\n2. चूंकि सभी कुत्ते पक्षी हैं, तो पक्षियों का कुछ हिस्सा (जो कुत्तों ने घेरा है) कुत्ते जरूर होंगे। (निष्कर्ष II सत्य)"
+},
+{
+"id": 94,
+"section": "General Science - Alloys",
+"q_en": "Bronze is an alloy of which two metals?",
+"q_hi": "कांसा (Bronze) किन दो धातुओं की मिश्र धातु (Alloy) है?",
+"options_en": ["Copper and Zinc", "Copper and Tin", "Copper and Nickel", "Iron and Carbon", "Not Attempted"],
+"options_hi": ["तांबा और जस्ता (Copper & Zinc)", "तांबा और टिन (Copper & Tin)", "तांबा और निकल", "लोहा और कार्बन", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: तांबा और टिन (Copper and Tin)।\n\n📌 Confusing Alloys:\n1. पीतल (Brass): तांबा (Cu) + जस्ता (Zn) -> पिताजी (ट्रिक)।\n2. कांसा (Bronze): तांबा (Cu) + टिन (Sn)।\n3. शोल्डर (Solder): सीसा (Pb) + टिन (Sn) -> टांका लगाने के काम आता है।"
+},
+{
+"id": 95,
+"section": "Indian Polity - Amendments",
+"q_en": "Which Constitutional Amendment Act introduced the 'Goods and Services Tax' (GST) in India?",
+"q_hi": "किस संवैधानिक संशोधन अधिनियम ने भारत में 'वस्तु एवं सेवा कर' (GST) लागू किया?",
+"options_en": ["100th Amendment", "101st Amendment", "102nd Amendment", "103rd Amendment", "Not Attempted"],
+"options_hi": ["100वां संशोधन", "101वां संशोधन", "102वां संशोधन", "103वां संशोधन", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: 101वां संशोधन (101st Amendment)।\n\n📌 Important Amendments:\n1. 101वां: GST (1 जुलाई 2017 से लागू)।\n2. 102वां: पिछड़ा वर्ग आयोग (OBC Commission) को संवैधानिक दर्जा।\n3. 103वां: EWS (आर्थिक रूप से कमजोर सवर्णों) को 10% आरक्षण।\n4. 104वां: SC/ST आरक्षण को 10 साल बढ़ाया और एंग्लो-इंडियन सीटें खत्म कीं।"
+},
+{
+"id": 96,
+"section": "Mathematics - Mixture & Alligation",
+"q_en": "In what ratio must a grocer mix two varieties of rice costing ₹60/kg and ₹65/kg so that by selling the mixture at ₹68.20/kg, he may gain 10%?",
+"q_hi": "एक पंसारी को ₹60/किग्रा और ₹65/किग्रा मूल्य वाले चावल की दो किस्मों को किस अनुपात में मिलाना चाहिए ताकि मिश्रण को ₹68.20/किग्रा पर बेचने पर उसे 10% का लाभ हो?",
+"options_en": ["3 : 2", "3 : 4", "3 : 5", "4 : 5", "Not Attempted"],
+"options_hi": ["3 : 2", "3 : 4", "3 : 5", "4 : 5", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: 3 : 2।\n\n📌 Step-by-Step Logic:\n1. पहले मिश्रण का क्रय मूल्य (CP) निकालें।\nSP = 68.20, Profit = 10%.\nCP = (68.20 × 100) / 110 = ₹62.\n2. अब Alligation नियम लगाएं:\nचावल A (60) | चावल B (65)\n| मध्य मान (62) |\n(65 - 62) | (62 - 60)\n3 | 2\nअनुपात = 3 : 2।"
+},
+{
+"id": 97,
+"section": "English Language - Prepositions",
+"q_en": "Fill in the blank: 'He died ____ cancer.'",
+"q_hi": "रिक्त स्थान भरें: 'He died ____ cancer.'",
+"options_en": ["from", "by", "of", "with", "Not Attempted"],
+"options_hi": ["from", "by", "of", "with", "अनुत्तरित प्रश्न"],
+"answer": 2,
+"explanation": "सही उत्तर: of.\n\n📌 Grammar Rule:\n1. बीमारी से मृत्यु (Died of): Cancer, Cholera, Heart attack (Example: Died of cancer).\n2. कारण से मृत्यु (Died from): Overeating, Loss of blood, Wound (Example: Died from overeating).\n3. हिंसा/युद्ध में मृत्यु (Died in): Died in battle.\nयह HSSC English का सबसे फेवरेट नियम है।"
+},
+{
+"id": 98,
+"section": "Hindi Language - समास (Samaas)",
+"q_en": "Which compound (Samaas) is present in the word 'चौराहा' (Chauraha)?",
+"q_hi": "'चौराहा' शब्द में कौन सा समास है?",
+"options_en": ["Dvigu", "Dvandva", "Bahuvrihi", "Avyayibhav", "Not Attempted"],
+"options_hi": ["द्विगु समास", "द्वंद्व समास", "बहुव्रीहि समास", "अव्ययीभाव समास", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: द्विगु समास।\n\n📌 Logic:\n1. पहचान: जिस शब्द का पहला पद 'संख्यावाचक' (Number) हो और वह समूह का बोध कराए।\n2. विग्रह: चार राहों का समूह = चौराहा।\n3. अन्य उदाहरण: पंचवटी (5 वट), नवरात्र (9 रात्र), त्रिलोक (3 लोक)।"
+},
+{
+"id": 99,
+"section": "Haryana Current Affairs - Portal",
+"q_en": "What is the main purpose of the 'Kshatipurti Portal' launched by the Haryana Government?",
+"q_hi": "हरियाणा सरकार द्वारा लॉन्च किए गए 'क्षतिपूर्ति पोर्टल' (Kshatipurti Portal) का मुख्य उद्देश्य क्या है?",
+"options_en": ["Online Job Application", "Compensation for crop loss due to natural calamity", "Registering FIR online", "Paying electricity bills", "Not Attempted"],
+"options_hi": ["ऑनलाइन नौकरी आवेदन", "प्राकृतिक आपदा से फसल नुकसान का मुआवजा", "ऑनलाइन एफआईआर दर्ज करना", "बिजली बिल भरना", "अनुत्तरित प्रश्न"],
+"answer": 1,
+"explanation": "सही उत्तर: प्राकृतिक आपदा से फसल नुकसान का मुआवजा।\n\n📌 Portal Facts:\n1. सुविधा: किसान स्वयं अपनी खराब हुई फसल का ब्यौरा दर्ज कर सकते हैं।\n2. मेरी फसल मेरा ब्यौरा: यह पोर्टल फसल बेचने और पंजीकरण के लिए है।\n3. यह 'ई-गवर्नेंस' का हिस्सा है, जिससे पटवारी पर निर्भरता कम होती है।"
+},
+{
+"id": 100,
+"section": "Police Department - Rank Hierarchy",
+"q_en": "Identify the correct descending order of Police Ranks (Highest to Lowest).",
+"q_hi": "पुलिस रैंक के सही अवरोही क्रम (सबसे ऊंचे से नीचे) की पहचान करें।",
+"options_en": ["DGP > IGP > SP > DSP", "IGP > DGP > SP > DSP", "DGP > SP > IGP > DSP", "SP > DGP > IGP > DSP", "Not Attempted"],
+"options_hi": ["DGP > IGP > SP > DSP", "IGP > DGP > SP > DSP", "DGP > SP > IGP > DSP", "SP > DGP > IGP > DSP", "अनुत्तरित प्रश्न"],
+"answer": 0,
+"explanation": "सही उत्तर: DGP > IGP > SP > DSP।\n\n📌 Hierarchy (Top to Bottom):\n1. DGP (Director General) - राज्य प्रमुख\n2. ADGP (Addl. Director General)\n3. IGP (Inspector General) - रेंज प्रमुख\n4. DIG (Deputy Inspector General)\n5. SP (Superintendent of Police) - जिला प्रमुख\n6. DSP (Deputy Superintendent)\n7. Inspector (SHO)\nयह प्रश्न एक पुलिस अभ्यर्थी के लिए सबसे जरूरी है।"
+},
