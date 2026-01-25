@@ -2,7 +2,7 @@
  * Project: MeritBoard
  * File: js/quiz-core.js
  * Description: Logic Engine for Quiz with Advanced Analytics & Sharing
- * Status: FINAL COMPLETE (Updated with SVG Support)
+ * Status: FINAL COMPLETE (Fixed HTML Rendering & SVG Support)
  */
 
 // =========================================
@@ -92,7 +92,9 @@ function renderInstructionScreen() {
     document.getElementById('instMarks').innerText = quizData.questions.length * 1; 
 
     // Description & Image
-    document.getElementById('instDesc').innerText = quizData.description || "Read the instructions carefully before starting the test.";
+    // ✅ FIX: Use innerHTML to render <br> and <b> tags in description
+    document.getElementById('instDesc').innerHTML = quizData.description || "Read the instructions carefully before starting the test.";
+    
     if(quizData.cover_image) {
         document.getElementById('instCover').src = quizData.cover_image;
     }
@@ -141,7 +143,7 @@ function loadQuestion(index) {
     if(plusBadge) plusBadge.innerText = "+1.0";
     if(minusBadge) minusBadge.innerText = penalty > 0 ? `-${penalty}` : "0"; 
 
-    // --- [UPDATED SECTION START] --- 
+    // --- [TEXT RENDERING LOGIC] --- 
     // Render Question Text AND Image (if SVG exists)
     let text = (currentLang === 'hi' && q.q_hi) ? q.q_hi : q.q_en;
 
@@ -149,9 +151,10 @@ function loadQuestion(index) {
     if (q.svg_image) {
         text += `<div class="q-image-container" style="margin: 20px auto; max-width: 100%; text-align: center;">${q.svg_image}</div>`;
     }
-    
+
+    // ✅ FIX: Use innerHTML to render SVG and HTML tags
     document.getElementById('questionText').innerHTML = text;
-    // --- [UPDATED SECTION END] ---
+    // -----------------------------
 
     // Render Options
     const container = document.getElementById('optionsContainer');
@@ -163,7 +166,10 @@ function loadQuestion(index) {
         const isSelected = userResponses[index].answer === i;
 
         div.className = `q-opt ${isSelected ? 'selected' : ''}`;
+        
+        // ✅ FIX: Use innerHTML here too for bold tags like <b>A.</b>
         div.innerHTML = `<b>${String.fromCharCode(65+i)}.</b> ${opt}`;
+        
         div.onclick = () => selectOption(i); // Click Event
 
         container.appendChild(div);
@@ -526,14 +532,14 @@ function renderSolutions(questions) {
             return `<div class="sol-opt" style="${style}">${String.fromCharCode(65+oIdx)}. ${opt} ${icon}</div>`;
         }).join('');
 
-        // --- [UPDATED SECTION START] ---
-        // Render Question Text AND Image (if SVG exists) in Solution
+        // --- [SVG & HTML TEXT SUPPORT FOR SOLUTIONS] ---
+         // Render Question Text AND Image (if SVG exists) in Solution
         let qText = (currentLang==='hi' && q.q_hi) ? q.q_hi : q.q_en;
 
         if (q.svg_image) {
             qText += `<div class="sol-image" style="margin: 15px auto; text-align: center;">${q.svg_image}</div>`;
         }
-        // --- [UPDATED SECTION END] ---
+        // -----------------------------
 
         return `
             <div class="sol-card ${statusClass}">
