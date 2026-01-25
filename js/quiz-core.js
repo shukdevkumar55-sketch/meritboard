@@ -2,7 +2,7 @@
  * Project: MeritBoard
  * File: js/quiz-core.js
  * Description: Logic Engine for Quiz with Advanced Analytics & Sharing
- * Status: FINAL COMPLETE (Analytics Integrated)
+ * Status: FINAL COMPLETE (Updated with SVG Support)
  */
 
 // =========================================
@@ -47,9 +47,9 @@ async function loadQuizData(quizId) {
     try {
         console.log(`Loading Quiz: ${quizId}`);
         const response = await fetch(`./data/quizzes/${quizId}.json`);
-        
+
         if (!response.ok) throw new Error("Quiz Data File Not Found");
-        
+
         quizData = await response.json();
 
         // Initialize User State (Empty Answers)
@@ -70,7 +70,8 @@ async function loadQuizData(quizId) {
             body.innerHTML = `
             <div style="text-align:center; padding:50px; color:red;">
                 <h3>⚠️ Error Loading Test</h3>
-                <p>${error.message}</p>
+                <p>Possible causes: JSON Syntax Error or File Missing.</p>
+                <p>Technical Error: ${error.message}</p>
                 <button onclick="history.back()" style="padding:10px; margin-top:10px;">Go Back</button>
             </div>`;
         }
@@ -89,7 +90,7 @@ function renderInstructionScreen() {
     document.getElementById('instQCount').innerText = quizData.questions.length;
     document.getElementById('instTime').innerText = (quizData.timeMinutes || 10) + " Min";
     document.getElementById('instMarks').innerText = quizData.questions.length * 1; 
-    
+
     // Description & Image
     document.getElementById('instDesc').innerText = quizData.description || "Read the instructions carefully before starting the test.";
     if(quizData.cover_image) {
@@ -128,42 +129,50 @@ function loadQuestion(index) {
 
     currentQIndex = index;
     const q = quizData.questions[index];
-    
+
     // Update Question Number & Marks
     document.getElementById('qNumber').innerText = `Q.${index + 1}`;
-    
+
     // Dynamic Marks Display
     const penalty = (quizData.negativeMarking !== undefined) ? quizData.negativeMarking : 0.25;
     const plusBadge = document.querySelector('.plus');
     const minusBadge = document.querySelector('.minus');
-    
+
     if(plusBadge) plusBadge.innerText = "+1.0";
     if(minusBadge) minusBadge.innerText = penalty > 0 ? `-${penalty}` : "0"; 
 
-    // Render Question Text (Language check)
-    const text = (currentLang === 'hi' && q.q_hi) ? q.q_hi : q.q_en;
+    // --- [UPDATED SECTION START] --- 
+    // Render Question Text AND Image (if SVG exists)
+    let text = (currentLang === 'hi' && q.q_hi) ? q.q_hi : q.q_en;
+
+    // Check if SVG Image exists in JSON
+    if (q.svg_image) {
+        text += `<div class="q-image-container" style="margin: 20px auto; max-width: 100%; text-align: center;">${q.svg_image}</div>`;
+    }
+    
     document.getElementById('questionText').innerHTML = text;
+    // --- [UPDATED SECTION END] ---
 
     // Render Options
     const container = document.getElementById('optionsContainer');
     container.innerHTML = '';
-    
+
     const options = (currentLang === 'hi' && q.options_hi) ? q.options_hi : q.options_en;
     options.forEach((opt, i) => {
         const div = document.createElement('div');
         const isSelected = userResponses[index].answer === i;
-        
+
         div.className = `q-opt ${isSelected ? 'selected' : ''}`;
         div.innerHTML = `<b>${String.fromCharCode(65+i)}.</b> ${opt}`;
         div.onclick = () => selectOption(i); // Click Event
-        
+
         container.appendChild(div);
     });
 
     // Update Buttons State
     document.getElementById('btnPrev').disabled = (index === 0);
     document.getElementById('btnNext').innerText = (index === quizData.questions.length - 1) ? "Submit Test" : "Save & Next";
-    
+
     // Update Language Button Text
     const langBtn = document.getElementById('langToggle');
     if (langBtn) {
@@ -186,7 +195,7 @@ function selectOption(optIndex) {
 // 5. EVENTS & NAVIGATION
 // =========================================
 function setupEventListeners() {
-    
+
     // A. Start Quiz Button
     const startBtn = document.getElementById('btnStartQuiz');
     if(startBtn) {
@@ -223,7 +232,7 @@ function setupEventListeners() {
         const quizBody = document.querySelector('.quiz-body');
         if (!quizBody.classList.contains('hidden')) {
             clearInterval(timerInterval); // Stop timer
-            
+
             // Hide Quiz & Show Instructions
             document.querySelector('.quiz-header').classList.add('hidden');
             document.querySelector('.quiz-body').classList.add('hidden');
@@ -237,9 +246,9 @@ function setupEventListeners() {
         if (currentQIndex < quizData.questions.length - 1) loadQuestion(currentQIndex + 1);
         else showSubmitModal();
     };
-    
+
     document.getElementById('btnPrev').onclick = () => loadQuestion(currentQIndex - 1);
-    
+
     document.getElementById('btnReview').onclick = () => {
         userResponses[currentQIndex].isMarked = true;
         updatePaletteItem(currentQIndex);
@@ -251,7 +260,7 @@ function setupEventListeners() {
         currentLang = (currentLang === 'hi') ? 'en' : 'hi';
         loadQuestion(currentQIndex);
     };
-    
+
     document.getElementById('headerSubmitBtn').onclick = showSubmitModal;
 
     // E. Palette Toggles
@@ -276,7 +285,7 @@ function setupEventListeners() {
                 text: `Attempt this Mock Test: "${quizData.testTitle}" on MeritBoard.`,
                 url: window.location.href
             };
-            
+
             // 🔥 ANALYTICS: Track Share Click
             sendAnalyticsEvent('share', {
                 method: 'System Share',
@@ -315,7 +324,7 @@ function setupEventListeners() {
 function generatePalette() {
     const grid = document.getElementById('paletteGrid');
     grid.innerHTML = '';
-    
+
     quizData.questions.forEach((_, i) => {
         const btn = document.createElement('button');
         btn.className = 'p-btn not-visited';
@@ -358,7 +367,7 @@ function highlightCurrentPalette(index) {
 function renderHeaderTabs() {
     const container = document.getElementById('sectionTabs');
     const sections = [...new Set(quizData.questions.map(q => q.section || "General"))];
-    
+
     container.innerHTML = sections.map(sec => 
         `<span class="tab" onclick="jumpToSection('${sec}')">${sec}</span>`
     ).join('');
@@ -404,7 +413,7 @@ function showSubmitModal() {
 function finishQuiz() {
     // 1. Stop Timer
     clearInterval(timerInterval);
-    
+
     let totalScore = 0;
     let correct = 0; 
     let wrong = 0;
@@ -417,7 +426,7 @@ function finishQuiz() {
     quizData.questions.forEach((q, i) => {
         const uAns = userResponses[i].answer;
         const sec = q.section || "General";
-        
+
         if(!secAnalysis[sec]) secAnalysis[sec] = {score:0, total:0};
         secAnalysis[sec].total += 1;
 
@@ -442,7 +451,7 @@ function finishQuiz() {
         score: totalScore,
         accuracy: acc
     });
-    
+
     sendAnalyticsEvent('post_score', {
         score: totalScore,
         level: quizData.testTitle,
@@ -454,7 +463,7 @@ function finishQuiz() {
     document.querySelector('.quiz-body').classList.add('hidden');
     document.querySelector('.quiz-footer').classList.add('hidden');
     document.getElementById('paletteOverlay').classList.add('hidden');
-    
+
     // 6. SHOW RESULT SCREEN
     const resScreen = document.getElementById('resultScreen');
     resScreen.classList.remove('hidden');
@@ -462,7 +471,7 @@ function finishQuiz() {
     // 7. FILL DATA
     document.getElementById('scoreObtained').innerText = totalScore.toFixed(2);
     document.getElementById('scoreTotal').innerText = quizData.questions.length;
-    
+
     const correctEl = document.getElementById('resCorrect');
     correctEl.innerText = correct;
     correctEl.parentElement.classList.add('correct'); // Add Green Color Class
@@ -470,7 +479,7 @@ function finishQuiz() {
     const wrongEl = document.getElementById('resWrong');
     wrongEl.innerText = wrong;
     wrongEl.parentElement.classList.add('wrong'); // Add Red Color Class
-    
+
     document.getElementById('resAccuracy').innerText = acc + "%";
 
     // 8. FILL SECTION ANALYSIS
@@ -502,7 +511,7 @@ function renderSolutions(questions) {
         const optsHtml = opts.map((opt, oIdx) => {
             let style = "";
             let icon = "";
-            
+
             // Correct Option
             if(oIdx === q.answer) {
                 style = "color:#2e7d32; font-weight:700; background:#e8f5e9;";
@@ -513,11 +522,18 @@ function renderSolutions(questions) {
                 style = "color:#d32f2f; text-decoration:line-through; background:#ffebee;";
                 icon = "❌";
             }
-            
+
             return `<div class="sol-opt" style="${style}">${String.fromCharCode(65+oIdx)}. ${opt} ${icon}</div>`;
         }).join('');
 
-        const qText = (currentLang==='hi' && q.q_hi) ? q.q_hi : q.q_en;
+        // --- [UPDATED SECTION START] ---
+        // Render Question Text AND Image (if SVG exists) in Solution
+        let qText = (currentLang==='hi' && q.q_hi) ? q.q_hi : q.q_en;
+
+        if (q.svg_image) {
+            qText += `<div class="sol-image" style="margin: 15px auto; text-align: center;">${q.svg_image}</div>`;
+        }
+        // --- [UPDATED SECTION END] ---
 
         return `
             <div class="sol-card ${statusClass}">
@@ -547,7 +563,7 @@ function shareResultOnWhatsApp() {
     const score = document.getElementById('scoreObtained').innerText;
     const total = document.getElementById('scoreTotal').innerText;
     const title = quizData.testTitle;
-    
+
     // 🔥 ANALYTICS: Track Result Share
     sendAnalyticsEvent('share', {
         method: 'WhatsApp',
@@ -555,7 +571,7 @@ function shareResultOnWhatsApp() {
         item_id: title
     });
 
-    const text = `🔥 Challenge Alert! 🔥\n\nI just scored ${score}/${total} in "${title}" on MeritBoard.\n\nCan you beat my score? Attempt now: ${window.location.href}`;
+        const text = `🔥 Challenge Alert! 🔥\n\nI just scored ${score}/${total} in "${title}" on MeritBoard.\n\nCan you beat my score? Attempt now: ${window.location.href}`;
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
 }
@@ -563,17 +579,17 @@ function shareResultOnWhatsApp() {
 // Toast Notification Logic
 function showToast(message) {
     let toast = document.getElementById('toast-box');
-    
+
     // Create toast if not exists
     if (!toast) {
         toast = document.createElement('div');
         toast.id = 'toast-box';
         document.body.appendChild(toast);
     }
-    
+
     toast.innerText = message;
     toast.className = "show";
-    
+
     // Auto hide after 3 seconds
     setTimeout(() => { 
         toast.className = toast.className.replace("show", ""); 
