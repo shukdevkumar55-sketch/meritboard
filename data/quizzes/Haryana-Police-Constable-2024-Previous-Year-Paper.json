@@ -167,5 +167,347 @@
       "options_hi": ["इंटरनेट ऑफ टेक्नोलॉजी", "इंटरनेट ऑफ थिंग्स", "इंटरनेट ऑफ टूल्स", "इंटरनेट ऑफ ट्रांसफर्स", "अनुत्तरित प्रश्न"],
       "answer": 1,
       "explanation": "सही उत्तर: Internet of Things\n\n📌 Explanation:\nDevices connected via internet."
+    },
+    {
+      "id": 17,
+      "section": "Computer",
+      "q_en": "What is a nested loop?",
+      "q_hi": "नेस्टेड लूप क्या है?",
+      "options_en": ["A loop inside another loop", "A loop that runs forever", "A loop with no body", "A loop with a single statement", "Not Attempted"],
+      "options_hi": ["दूसरे लूप के अंदर एक लूप", "एक लूप जो हमेशा चलता रहता है", "बिना बॉडी वाला लूप", "एक कथन वाला लूप", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: दूसरे लूप के अंदर एक लूप\n\n📌 Explanation:\n1. Nested loop वह होता है जिसमें एक लूप दूसरे लूप के अंदर चलता है।\n2. इसे 'loop inside loop' भी कहते हैं।"
+    },
+    {
+      "id": 18,
+      "section": "General Science",
+      "q_en": "Pick the odd man out.",
+      "q_hi": "विषम चुनिए।",
+      "options_en": ["Mercury", "Jupiter", "Venus", "Moon", "Not Attempted"],
+      "options_hi": ["बुध", "बृहस्पति", "शुक्र", "चंद्रमा", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: चंद्रमा\n\n📌 Explanation:\n1. बुध, बृहस्पति और शुक्र ग्रह हैं।\n2. चंद्रमा पृथ्वी का उपग्रह है।"
+    },
+    {
+      "id": 19,
+      "section": "Haryana GK",
+      "q_en": "Where is the Motilal Nehru Sports School situated in Haryana?",
+      "q_hi": "हरियाणा में मोतीलाल नेहरू स्पोर्ट्स स्कूल कहाँ स्थित है?",
+      "options_en": ["Rai (Sonipat)", "Pataudi (Gurugram)", "Thanesar (Kurukshetra)", "Morni (Ambala)", "Not Attempted"],
+      "options_hi": ["राई (सोनीपत)", "पटौदी (गुरुग्राम)", "थानेसर (कुरुक्षेत्र)", "मोरनी (अंबाला)", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: राई (सोनीपत)\n\n📌 Fact:\n1973 में स्थापित।"
+    },
+    {
+      "id": 20,
+      "section": "Current Affairs",
+      "q_en": "Which city hosted the Global Partnership on Artificial Intelligence (GPAI) Summit 2024?",
+      "q_hi": "GPAI Summit 2024 की मेजबानी किस शहर ने की?",
+      "options_en": ["New Delhi", "Surat", "Hyderabad", "None", "Not Attempted"],
+      "options_hi": ["नई दिल्ली", "सूरत", "हैदराबाद", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: नई दिल्ली\n\n📌 Fact:\nदिसंबर 2023 में आयोजन हुआ।"
+    },
+    {
+      "id": 21,
+      "section": "Environment",
+      "q_en": "The Red Data Book contains a record of",
+      "q_hi": "रेड डेटा बुक में किसका रिकॉर्ड होता है?",
+      "options_en": ["Extinct species", "Endangered species", "Common species", "Invasive species", "Not Attempted"],
+      "options_hi": ["विलुप्त प्रजातियाँ", "लुप्तप्राय प्रजातियाँ", "सामान्य प्रजातियाँ", "आक्रामक प्रजातियाँ", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: लुप्तप्राय प्रजातियाँ\n\n📌 Explanation:\nIUCN द्वारा प्रकाशित।"
+    },
+    {
+      "id": 22,
+      "section": "GK",
+      "q_en": "How many National Parks are there in India?",
+      "q_hi": "भारत में कितने राष्ट्रीय उद्यान हैं?",
+      "options_en": ["1014", "106", "108", "None", "Not Attempted"],
+      "options_hi": ["1014", "106", "108", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 106\n\n📌 Fact:\nमार्च 2024 तक।"
+    },
+    {
+      "id": 23,
+      "section": "Physics",
+      "q_en": "An electric bulb is connected to a 220V generator. Current is 0.5A. Power?",
+      "q_hi": "220V और 0.5A पर बल्ब की शक्ति क्या है?",
+      "options_en": ["440W", "110W", "11W", "44W", "Not Attempted"],
+      "options_hi": ["440W", "110W", "11W", "44W", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 110W\n\n📌 Formula:\nP = V × I = 220 × 0.5"
+    },
+    {
+      "id": 24,
+      "section": "Current Affairs",
+      "q_en": "Which Indian city was recognized as World Craft City by WCC?",
+      "q_hi": "किस भारतीय शहर को World Craft City का दर्जा मिला?",
+      "options_en": ["Jaipur", "Pune", "Srinagar", "Mumbai", "Not Attempted"],
+      "options_hi": ["जयपुर", "पुणे", "श्रीनगर", "मुंबई", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: श्रीनगर"
+    },
+    {
+      "id": 25,
+      "section": "Math",
+      "q_en": "If SI for 2 years is 1/5 of principal, rate?",
+      "q_hi": "यदि 2 वर्षों का साधारण ब्याज मूलधन का 1/5 है, दर क्या है?",
+      "options_en": ["10%", "12%", "7.2%", "9%", "Not Attempted"],
+      "options_hi": ["10%", "12%", "7.2%", "9%", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 10%\n\n📌 Formula:\nSI = PRT/100"
+    },
+    {
+      "id": 26,
+      "section": "GK",
+      "q_en": "India's rank in HDI 2022?",
+      "q_hi": "HDI 2022 में भारत की रैंक क्या है?",
+      "options_en": ["134", "130", "132", "133", "Not Attempted"],
+      "options_hi": ["134", "130", "132", "133", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 134"
+    },
+    {
+      "id": 27,
+      "section": "Computer",
+      "q_en": "Who invented stored program concept?",
+      "q_hi": "Stored program concept किसने दिया?",
+      "options_en": ["Alan Turing", "Charles Babbage", "John Von Neumann", "Blaise Pascal", "Not Attempted"],
+      "options_hi": ["एलन ट्यूरिंग", "चार्ल्स बैबेज", "जॉन वॉन न्यूमैन", "ब्लेज पास्कल", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: John Von Neumann"
+    },
+    {
+      "id": 28,
+      "section": "Sports GK",
+      "q_en": "National Sports Day in India?",
+      "q_hi": "राष्ट्रीय खेल दिवस कब मनाया जाता है?",
+      "options_en": ["17 Aug", "29 Aug", "22 Mar", "None", "Not Attempted"],
+      "options_hi": ["17 अगस्त", "29 अगस्त", "22 मार्च", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 29 अगस्त"
+    },
+    {
+      "id": 29,
+      "section": "Haryana GK",
+      "q_en": "Districts at formation of Haryana (1966)?",
+      "q_hi": "1966 में हरियाणा के गठन के समय कितने जिले थे?",
+      "options_en": ["6", "9", "8", "7", "Not Attempted"],
+      "options_hi": ["6", "9", "8", "7", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 7"
+    },
+    {
+      "id": 30,
+      "section": "Math",
+      "q_en": "Volume of cuboid 5×3×4?",
+      "q_hi": "घनाभ का आयतन (5×3×4)?",
+      "options_en": ["60", "12", "45", "100", "Not Attempted"],
+      "options_hi": ["60", "12", "45", "100", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 60"
+    },
+    {
+      "id": 31,
+      "section": "Current Affairs",
+      "q_en": "Theme of International Mountain Day 2023?",
+      "q_hi": "International Mountain Day 2023 का थीम?",
+      "options_en": ["Restoring Mountain Ecosystems", "Biodiversity Restoration", "Glacier Restoration", "None", "Not Attempted"],
+      "options_hi": ["पर्वतीय पारिस्थितिकी पुनर्स्थापना", "जैव विविधता पुनर्स्थापना", "ग्लेशियर पुनर्स्थापना", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: Restoring Mountain Ecosystems"
+    },
+    {
+      "id": 32,
+      "section": "Reasoning",
+      "q_en": "Pattern: 1*2=22, 2*3=36, 3*4=412, 4*5=?",
+      "q_hi": "श्रृंखला: 1*2=22, 2*3=36, 3*4=412, 4*5=?",
+      "options_en": ["420", "45", "520", "54", "Not Attempted"],
+      "options_hi": ["420", "45", "520", "54", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 520"
+    },
+    {
+      "id": 33,
+      "section": "Biology",
+      "q_en": "Primary function of pepsin?",
+      "q_hi": "पेप्सिन का मुख्य कार्य क्या है?",
+      "options_en": ["Carbohydrates breakdown", "Emulsify fats", "Convert lipids", "Digest proteins", "Not Attempted"],
+      "options_hi": ["कार्बोहाइड्रेट पाचन", "वसा का पायसीकरण", "लिपिड परिवर्तन", "प्रोटीन पाचन", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: प्रोटीन पाचन"
+    },
+    {
+      "id": 34,
+      "section": "Haryana GK",
+      "q_en": "Badkhal Lake is in which district?",
+      "q_hi": "बड़खल झील किस जिले में है?",
+      "options_en": ["Hisar", "Jind", "Sirsa", "Faridabad", "Not Attempted"],
+      "options_hi": ["हिसार", "जींद", "सिरसा", "फरीदाबाद", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: फरीदाबाद"
+    },
+    {
+      "id": 35,
+      "section": "Technology",
+      "q_en": "Rejupave Technology is related to?",
+      "q_hi": "Rejupave Technology किससे संबंधित है?",
+      "options_en": ["Dam", "Road", "Urban forest", "None", "Not Attempted"],
+      "options_hi": ["बांध", "सड़क", "शहरी वन", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: सड़क निर्माण"
+    },
+    {
+      "id": 36,
+      "section": "Computer",
+      "q_en": "Purpose of break in Python?",
+      "q_hi": "Python में break का उपयोग?",
+      "options_en": ["Start loop", "Pause loop", "Terminate loop", "Continue loop", "Not Attempted"],
+      "options_hi": ["लूप शुरू", "रोकना", "समाप्त करना", "जारी रखना", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: लूप समाप्त करना"
+    },
+    {
+      "id": 37,
+      "section": "Reasoning",
+      "q_en": "Arrange letters to form meaningful word",
+      "q_hi": "अक्षरों को व्यवस्थित करें",
+      "options_en": ["1,2,3,4,5,6", "4,6,5,1,2,3", "5,6,4,1,3,2", "6,5,3,2,4,1", "Not Attempted"],
+      "options_hi": ["1,2,3,4,5,6", "4,6,5,1,2,3", "5,6,4,1,3,2", "6,5,3,2,4,1", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: CASTLE"
+    },
+    {
+      "id": 38,
+      "section": "Current Affairs",
+      "q_en": "SCO Summit 2024 held in?",
+      "q_hi": "SCO Summit 2024 कहाँ हुआ?",
+      "options_en": ["Pakistan", "Japan", "Singapore", "Kazakhstan", "Not Attempted"],
+      "options_hi": ["पाकिस्तान", "जापान", "सिंगापुर", "कजाकिस्तान", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: कजाकिस्तान"
+    },
+    {
+      "id": 39,
+      "section": "Chemistry",
+      "q_en": "Compost formation is example of?",
+      "q_hi": "कम्पोस्ट बनना किस प्रकार की अभिक्रिया है?",
+      "options_en": ["Calcination", "Exothermic", "Endothermic", "Burning", "Not Attempted"],
+      "options_hi": ["कैल्सिनेशन", "उष्माक्षेपी", "उष्माशोषी", "दहन", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: उष्माक्षेपी"
+    },
+    {
+      "id": 40,
+      "section": "GK",
+      "q_en": "UCCN established in?",
+      "q_hi": "UCCN की स्थापना कब हुई?",
+      "options_en": ["1998", "2015", "2010", "2004", "Not Attempted"],
+      "options_hi": ["1998", "2015", "2010", "2004", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 2004"
+    },
+    {
+      "id": 41,
+      "section": "Statistics",
+      "q_en": "Most frequent value is called?",
+      "q_hi": "सबसे अधिक बार आने वाला मान क्या कहलाता है?",
+      "options_en": ["Mode", "Median", "Mean", "None", "Not Attempted"],
+      "options_hi": ["बहुलक", "माध्यिका", "औसत", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: Mode"
+    },
+    {
+      "id": 42,
+      "section": "Geography",
+      "q_en": "Yamuna enters Haryana from?",
+      "q_hi": "यमुना हरियाणा में कहाँ से प्रवेश करती है?",
+      "options_en": ["Ambala", "Sirsa", "Yamunanagar", "Bhiwani", "Not Attempted"],
+      "options_hi": ["अंबाला", "सिरसा", "यमुनानगर", "भिवानी", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: यमुनानगर"
+    },
+    {
+      "id": 43,
+      "section": "Computer",
+      "q_en": "Symbol to start comment in Python?",
+      "q_hi": "Python में comment शुरू करने का चिन्ह?",
+      "options_en": ["//", "\\", "#", "-", "Not Attempted"],
+      "options_hi": ["//", "\\", "#", "-", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: #"
+    },
+    {
+      "id": 44,
+      "section": "Math",
+      "q_en": "Series: 11, 9, 18, 15, 45, 41, ?",
+      "q_hi": "श्रृंखला: 11, 9, 18, 15, 45, 41, ?",
+      "options_en": ["164", "162", "158", "None", "Not Attempted"],
+      "options_hi": ["164", "162", "158", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 164"
+    },
+    {
+      "id": 45,
+      "section": "Computer",
+      "q_en": "Device that converts digital to hard copy?",
+      "q_hi": "डिजिटल को हार्ड कॉपी में बदलने वाला उपकरण?",
+      "options_en": ["Monitor", "Printer", "Scanner", "Keyboard", "Not Attempted"],
+      "options_hi": ["मॉनिटर", "प्रिंटर", "स्कैनर", "कीबोर्ड", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: Printer"
+    },
+    {
+      "id": 46,
+      "section": "Haryana GK",
+      "q_en": "Smallest district of Haryana by area?",
+      "q_hi": "क्षेत्रफल के अनुसार हरियाणा का सबसे छोटा जिला?",
+      "options_en": ["Hisar", "Bhiwani", "Panchkula", "Ambala", "Not Attempted"],
+      "options_hi": ["हिसार", "भिवानी", "पंचकूला", "अंबाला", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: पंचकूला"
+    },
+    {
+      "id": 47,
+      "section": "History",
+      "q_en": "Federal Court of India started functioning in?",
+      "q_hi": "संघीय न्यायालय कब शुरू हुआ?",
+      "options_en": ["1937", "1945", "1930", "None", "Not Attempted"],
+      "options_hi": ["1937", "1945", "1930", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 1937"
+    },
+    {
+      "id": 48,
+      "section": "Haryana GK",
+      "q_en": "Total area of Haryana?",
+      "q_hi": "हरियाणा का कुल क्षेत्रफल?",
+      "options_en": ["42232", "46217", "44212", "48219", "Not Attempted"],
+      "options_hi": ["42232", "46217", "44212", "48219", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 44212 sq km"
+    },
+    {
+      "id": 49,
+      "section": "Agriculture",
+      "q_en": "Rainy season crops are?",
+      "q_hi": "बरसात में बोई जाने वाली फसलें?",
+      "options_en": ["Winter", "Kharif", "Spring", "None", "Not Attempted"],
+      "options_hi": ["रबी", "खरीफ", "बसंत", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: खरीफ"
+    },
+    {
+      "id": 50,
+      "section": "Reasoning",
+      "q_en": "Zoo problem (heads & legs) number of lions?",
+      "q_hi": "सिर और पैरों के आधार पर शेरों की संख्या?",
+      "options_en": ["9", "12", "11", "10", "Not Attempted"],
+      "options_hi": ["9", "12", "11", "10", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 10"
     }
+  ]
+}
  
