@@ -507,6 +507,356 @@
       "options_hi": ["9", "12", "11", "10", "अनुत्तरित प्रश्न"],
       "answer": 3,
       "explanation": "सही उत्तर: 10"
+    },
+    {
+      "id": 51,
+      "section": "Haryana GK",
+      "q_en": "In which city of Haryana is Arjun Stadium situated?",
+      "q_hi": "हरियाणा के किस शहर में अर्जुन स्टेडियम स्थित है?",
+      "options_en": ["Karnal", "Sonipat", "Jind", "Hisar", "Not Attempted"],
+      "options_hi": ["करनाल", "सोनीपत", "जींद", "हिसार", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: जींद\n\n📌 Fact:\nअर्जुन स्टेडियम जींद में स्थित है।"
+    },
+    {
+      "id": 52,
+      "section": "GK",
+      "q_en": "National Girl Child Day in India is celebrated on?",
+      "q_hi": "भारत में राष्ट्रीय बालिका दिवस कब मनाया जाता है?",
+      "options_en": ["24 January", "16 January", "14 January", "None", "Not Attempted"],
+      "options_hi": ["24 जनवरी", "16 जनवरी", "14 जनवरी", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 24 जनवरी\n\n📌 Fact:\n2008 से मनाया जा रहा है।"
+    },
+    {
+      "id": 53,
+      "section": "Biology",
+      "q_en": "Scientific name of National Flower of India?",
+      "q_hi": "भारत के राष्ट्रीय फूल का वैज्ञानिक नाम क्या है?",
+      "options_en": ["Nelumbo nucifera", "Jasminum", "Oryza sativa", "None", "Not Attempted"],
+      "options_hi": ["नेलुम्बो न्युसीफेरा", "जैस्मिनम", "ओराइजा सैटिवा", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: Nelumbo nucifera (कमल)"
+    },
+    {
+      "id": 54,
+      "section": "Haryana GK",
+      "q_en": "Ancient name of Markanda river?",
+      "q_hi": "मारकंडा नदी का प्राचीन नाम क्या है?",
+      "options_en": ["Aruna", "Meeru", "Manasa", "Malaya", "Not Attempted"],
+      "options_hi": ["अरुणा", "मेरु", "मानसा", "मलाया", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: अरुणा"
+    },
+    {
+      "id": 55,
+      "section": "Haryana GK",
+      "q_en": "Number of villages in Haryana as per Census 2011?",
+      "q_hi": "जनगणना 2011 के अनुसार हरियाणा में कितने गांव हैं?",
+      "options_en": ["6754", "6841", "6657", "6895", "Not Attempted"],
+      "options_hi": ["6754", "6841", "6657", "6895", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 6841"
+    },
+    {
+      "id": 56,
+      "section": "Math",
+      "q_en": "If a = -1 and b = 3, then (a+b)^2 = ?",
+      "q_hi": "यदि a = -1 और b = 3, तो (a+b)^2 क्या होगा?",
+      "options_en": ["4", "16", "-4", "0", "Not Attempted"],
+      "options_hi": ["4", "16", "-4", "0", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 4\n\n📌 (−1+3)^2 = 4"
+    },
+    {
+      "id": 57,
+      "section": "Environment",
+      "q_en": "Corbett National Park established in?",
+      "q_hi": "कॉर्बेट राष्ट्रीय उद्यान की स्थापना कब हुई?",
+      "options_en": ["1930", "1932", "1936", "1939", "Not Attempted"],
+      "options_hi": ["1930", "1932", "1936", "1939", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 1936"
+    },
+    {
+      "id": 58,
+      "section": "Geography",
+      "q_en": "Giri and Tons are tributaries of which river?",
+      "q_hi": "गिरी और टोंस किस नदी की सहायक नदियाँ हैं?",
+      "options_en": ["Tangri", "Krishnawati", "Yamuna", "Markanda", "Not Attempted"],
+      "options_hi": ["टांगरी", "कृष्णावती", "यमुना", "मारकंडा", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: यमुना"
+    },
+    {
+      "id": 59,
+      "section": "Reasoning",
+      "q_en": "Coding question (SIKKIM → THLJJL), TRAINING?",
+      "q_hi": "कोडिंग प्रश्न (SIKKIM → THLJJL), TRAINING?",
+      "options_en": ["SQBHOHOH", "UQBJOHOH", "UQBJOHHO", "UQBHOHOF", "Not Attempted"],
+      "options_hi": ["SQBHOHOH", "UQBJOHOH", "UQBJOHHO", "UQBHOHOF", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: UQBHOHOF"
+    },
+    {
+      "id": 60,
+      "section": "Current Affairs",
+      "q_en": "Athletes from Haryana in Paris Olympics 2024?",
+      "q_hi": "पेरिस ओलंपिक 2024 में हरियाणा से कितने खिलाड़ी गए?",
+      "options_en": ["19", "24", "18", "29", "Not Attempted"],
+      "options_hi": ["19", "24", "18", "29", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 24"
+    },
+    {
+      "id": 61,
+      "section": "Math",
+      "q_en": "Milk-water ratio 3:1 in 10L, water?",
+      "q_hi": "3:1 अनुपात में 10 लीटर मिश्रण में पानी?",
+      "options_en": ["3", "2.5", "1", "1.5", "Not Attempted"],
+      "options_hi": ["3", "2.5", "1", "1.5", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 2.5 लीटर"
+    },
+    {
+      "id": 62,
+      "section": "Math",
+      "q_en": "If (x+2)/5 = (x-1)/2, x=?",
+      "q_hi": "(x+2)/5 = (x-1)/2, x=?",
+      "options_en": ["4", "5", "1", "3", "Not Attempted"],
+      "options_hi": ["4", "5", "1", "3", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 3"
+    },
+    {
+      "id": 63,
+      "section": "GK",
+      "q_en": "ISA Headquarters located at?",
+      "q_hi": "ISA का मुख्यालय कहाँ है?",
+      "options_en": ["Mumbai", "Gurugram", "Delhi", "None", "Not Attempted"],
+      "options_hi": ["मुंबई", "गुरुग्राम", "दिल्ली", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: गुरुग्राम"
+    },
+    {
+      "id": 64,
+      "section": "GK",
+      "q_en": "Indian Institute of Horticultural Research located at?",
+      "q_hi": "भारतीय बागवानी अनुसंधान संस्थान कहाँ स्थित है?",
+      "options_en": ["Delhi", "Bengaluru", "Lucknow", "Hyderabad", "Not Attempted"],
+      "options_hi": ["दिल्ली", "बेंगलुरु", "लखनऊ", "हैदराबाद", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: बेंगलुरु"
+    },
+    {
+      "id": 65,
+      "section": "Math",
+      "q_en": "HCF of 16 and 24?",
+      "q_hi": "16 और 24 का HCF?",
+      "options_en": ["4", "2", "8", "16", "Not Attempted"],
+      "options_hi": ["4", "2", "8", "16", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 8"
+    },
+    {
+      "id": 66,
+      "section": "Haryana GK",
+      "q_en": "Headquarters of Mahendragarh district?",
+      "q_hi": "महेंद्रगढ़ जिले का मुख्यालय कहाँ है?",
+      "options_en": ["Narnaul", "Karnal", "Kaithal", "Bhiwani", "Not Attempted"],
+      "options_hi": ["नारनौल", "करनाल", "कैथल", "भिवानी", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: नारनौल"
+    },
+    {
+      "id": 67,
+      "section": "Math",
+      "q_en": "Average of 3 girls is 4 years, sum?",
+      "q_hi": "3 लड़कियों की औसत आयु 4 वर्ष है, कुल आयु?",
+      "options_en": ["4", "12", "9", "7", "Not Attempted"],
+      "options_hi": ["4", "12", "9", "7", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 12"
+    },
+    {
+      "id": 68,
+      "section": "Math",
+      "q_en": "Numbers divisible by 9 but not 3?",
+      "q_hi": "9 से विभाज्य लेकिन 3 से नहीं?",
+      "options_en": ["None", "8", "6", "5", "Not Attempted"],
+      "options_hi": ["कोई नहीं", "8", "6", "5", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: कोई नहीं"
+    },
+    {
+      "id": 69,
+      "section": "Physics",
+      "q_en": "Instrument to measure wind velocity?",
+      "q_hi": "वायु वेग मापने का यंत्र?",
+      "options_en": ["Barometer", "Hygrograph", "Pyradiometer", "Anemometer", "Not Attempted"],
+      "options_hi": ["बैरोमीटर", "हाइग्रोग्राफ", "पाइराडियोमीटर", "एनीमोमीटर", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: Anemometer"
+    },
+    {
+      "id": 70,
+      "section": "Reasoning",
+      "q_en": "18 March Wednesday, then 1 March?",
+      "q_hi": "18 मार्च बुधवार है, तो 1 मार्च?",
+      "options_en": ["Tuesday", "Friday", "Thursday", "Sunday", "Not Attempted"],
+      "options_hi": ["मंगलवार", "शुक्रवार", "गुरुवार", "रविवार", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: रविवार"
+    },
+    {
+      "id": 71,
+      "section": "Physics",
+      "q_en": "1 ampere equals?",
+      "q_hi": "1 एम्पियर किसके बराबर है?",
+      "options_en": ["1 coulomb/sec", "1 volt/sec", "1 joule/sec", "1 sec/coulomb", "Not Attempted"],
+      "options_hi": ["1 कूलाम/सेकंड", "1 वोल्ट/सेकंड", "1 जूल/सेकंड", "1 सेकंड/कूलाम", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 1 कूलाम/सेकंड"
+    },
+    {
+      "id": 72,
+      "section": "Current Affairs",
+      "q_en": "Theme of World Children's Day 2023?",
+      "q_hi": "विश्व बाल दिवस 2023 का थीम?",
+      "options_en": ["Imagine a better future", "Children today keepers tomorrow", "For every child every right", "None", "Not Attempted"],
+      "options_hi": ["बेहतर भविष्य", "आज के बच्चे कल के रक्षक", "हर बच्चे के लिए हर अधिकार", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: For every child, every right"
+    },
+    {
+      "id": 73,
+      "section": "GK",
+      "q_en": "Father of Indian Psychoanalysis?",
+      "q_hi": "भारतीय मनोविश्लेषण के जनक?",
+      "options_en": ["Sudhir Kakar", "Suman", "Suhas", "Shamanth", "Not Attempted"],
+      "options_hi": ["सुधीर कक्कर", "सुमन", "सुहास", "शामंथ", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: सुधीर कक्कर"
+    },
+    {
+      "id": 74,
+      "section": "Physics",
+      "q_en": "Current inversely proportional to?",
+      "q_hi": "धारा किसके व्युत्क्रमानुपाती होती है?",
+      "options_en": ["Potential difference", "Resistance", "Charge", "Heat", "Not Attempted"],
+      "options_hi": ["विभवांतर", "प्रतिरोध", "आवेश", "ऊष्मा", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: प्रतिरोध"
+    },
+    {
+      "id": 75,
+      "section": "Reasoning",
+      "q_en": "Coding question (134=good tasty etc.) digit for 'see'?",
+      "q_hi": "कोडिंग में 'see' का अंक?",
+      "options_en": ["9", "2", "1", "8", "Not Attempted"],
+      "options_hi": ["9", "2", "1", "8", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 8"
+    },
+    {
+      "id": 76,
+      "section": "Math",
+      "q_en": "3/4 + 5/x = 7/x, x=?",
+      "q_hi": "3/4 + 5/x = 7/x, x=?",
+      "options_en": ["16", "12", "14", "None", "Not Attempted"],
+      "options_hi": ["16", "12", "14", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 16"
+    },
+    {
+      "id": 77,
+      "section": "Reasoning",
+      "q_en": "P, R, T, V, ?",
+      "q_hi": "P, R, T, V, ?",
+      "options_en": ["Q", "L", "M", "X", "Not Attempted"],
+      "options_hi": ["Q", "L", "M", "X", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: X"
+    },
+    {
+      "id": 78,
+      "section": "Math",
+      "q_en": "2³ + 10³?",
+      "q_hi": "2³ + 10³?",
+      "options_en": ["1080", "38", "1008", "1800", "Not Attempted"],
+      "options_hi": ["1080", "38", "1008", "1800", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 1008"
+    },
+    {
+      "id": 79,
+      "section": "Haryana GK",
+      "q_en": "Paris of Haryana?",
+      "q_hi": "हरियाणा का पेरिस किसे कहते हैं?",
+      "options_en": ["Karnal", "Panipat", "Gurgaon", "Rohtak", "Not Attempted"],
+      "options_hi": ["करनाल", "पानीपत", "गुरुग्राम", "रोहतक", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: करनाल"
+    },
+    {
+      "id": 80,
+      "section": "Current Affairs",
+      "q_en": "World’s first portable hospital unveiled at?",
+      "q_hi": "विश्व का पहला पोर्टेबल अस्पताल कहाँ लॉन्च हुआ?",
+      "options_en": ["Gurugram", "Ranchi", "Patna", "None", "Not Attempted"],
+      "options_hi": ["गुरुग्राम", "रांची", "पटना", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: गुरुग्राम"
+    },
+    {
+      "id": 81,
+      "section": "Math",
+      "q_en": "Tree 7th from both ends, total?",
+      "q_hi": "दोनों ओर से 7वें स्थान पर पेड़, कुल?",
+      "options_en": ["15", "14", "13", "12", "Not Attempted"],
+      "options_hi": ["15", "14", "13", "12", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 13"
+    },
+    {
+      "id": 82,
+      "section": "Biology",
+      "q_en": "Component in xylem?",
+      "q_hi": "जाइलम में पाया जाने वाला घटक?",
+      "options_en": ["Sieve tube", "Phloem fiber", "Tracheids", "Companion cell", "Not Attempted"],
+      "options_hi": ["सीव ट्यूब", "फ्लोएम फाइबर", "ट्रेकिड्स", "सह कोशिका", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: Tracheids"
+    },
+    {
+      "id": 83,
+      "section": "GK",
+      "q_en": "Lakadong turmeric GI tag belongs to?",
+      "q_hi": "लाकाडोंग हल्दी का GI टैग किस राज्य का है?",
+      "options_en": ["Meghalaya", "Sikkim", "Assam", "None", "Not Attempted"],
+      "options_hi": ["मेघालय", "सिक्किम", "असम", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: मेघालय"
+    },
+    {
+      "id": 84,
+      "section": "Haryana GK",
+      "q_en": "First Haryanvi novel?",
+      "q_hi": "हरियाणवी भाषा का पहला उपन्यास?",
+      "options_en": ["Dard-e-Ashoob", "Sandesa", "Janan Janan", "Jhadufiri", "Not Attempted"],
+      "options_hi": ["दर्द-ए-आशोब", "संदेशा", "जनन जनन", "झाड़ुफिरी", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: झाड़ुफिरी"
+    },
+    {
+      "id": 85,
+      "section": "Math",
+      "q_en": "Revolutions of wheel (28 cm diameter) in 880 cm?",
+      "q_hi": "28 सेमी व्यास वाले पहिए के 880 सेमी में चक्कर?",
+      "options_en": ["100", "10", "24", "50", "Not Attempted"],
+      "options_hi": ["100", "10", "24", "50", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 10"
     }
   ]
 }
