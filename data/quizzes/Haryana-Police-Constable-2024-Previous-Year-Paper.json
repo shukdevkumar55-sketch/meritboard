@@ -857,7 +857,156 @@
       "options_hi": ["100", "10", "24", "50", "अनुत्तरित प्रश्न"],
       "answer": 1,
       "explanation": "सही उत्तर: 10"
+    },
+    {
+      "id": 86,
+      "section": "Reasoning",
+      "q_en": "Complete the analogy: Moon : Satellite :: Earth : ?",
+      "q_hi": "समानता पूर्ण कीजिए: चंद्रमा : उपग्रह :: पृथ्वी : ?",
+      "options_en": ["Sun", "Planet", "Solar system", "None", "Not Attempted"],
+      "options_hi": ["सूर्य", "ग्रह", "सौर प्रणाली", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: ग्रह\n\n📌 Explanation:\n1. चंद्रमा एक उपग्रह है।\n2. उसी प्रकार पृथ्वी एक ग्रह है।"
+    },
+    {
+      "id": 87,
+      "section": "Current Affairs",
+      "q_en": "Where was the 14th All India Police Commando Competition organized?",
+      "q_hi": "14वीं अखिल भारतीय पुलिस कमांडो प्रतियोगिता कहाँ आयोजित की गई?",
+      "options_en": ["Kerala", "Gujarat", "Madhya Pradesh", "Andhra Pradesh", "Not Attempted"],
+      "options_hi": ["केरल", "गुजरात", "मध्य प्रदेश", "आंध्र प्रदेश", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: आंध्र प्रदेश\n\n📌 आयोजन: जनवरी 2024"
+    },
+    {
+      "id": 88,
+      "section": "Chemistry",
+      "q_en": "White silver chloride turns into ______ in sunlight.",
+      "q_hi": "सफेद सिल्वर क्लोराइड सूर्य के प्रकाश में किस रंग में बदल जाता है?",
+      "options_en": ["Grey", "Yellow", "Red", "None", "Not Attempted"],
+      "options_hi": ["धूसर", "पीला", "लाल", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: Grey\n\n📌 Explanation:\nसूर्य के प्रकाश में सिल्वर क्लोराइड विघटित होकर धूसर रंग का हो जाता है।"
+    },
+    {
+      "id": 89,
+      "section": "Computer",
+      "q_en": "What is a file?",
+      "q_hi": "फाइल क्या है?",
+      "options_en": ["Program in RAM", "Temporary storage", "Named location on storage", "Python variable", "Not Attempted"],
+      "options_hi": ["RAM में प्रोग्राम", "अस्थायी संग्रह", "स्टोरेज पर नामित स्थान", "पायथन वेरिएबल", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: स्टोरेज पर नामित स्थान\n\n📌 Explanation:\nफाइल डेटा को स्टोर करने के लिए उपयोग होती है।"
+    },
+    {
+      "id": 90,
+      "section": "Polity",
+      "q_en": "The Supreme Court of India comprises:",
+      "q_hi": "भारत के सर्वोच्च न्यायालय में शामिल हैं:",
+      "options_en": ["CJI + 28 judges", "CJI + 33 judges", "CJI + 34 judges", "CJI + 30 judges", "Not Attempted"],
+      "options_hi": ["मुख्य न्यायाधीश + 28", "मुख्य न्यायाधीश + 33", "मुख्य न्यायाधीश + 34", "मुख्य न्यायाधीश + 30", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: CJI + 33 न्यायाधीश\n\n📌 कुल 34 जज होते हैं।"
+    },
+    {
+      "id": 91,
+      "section": "Math",
+      "q_en": "Find the missing number: 2, 3, 5, 7, 11, 13, ?",
+      "q_hi": "श्रृंखला में अगली संख्या: 2, 3, 5, 7, 11, 13, ?",
+      "options_en": ["17", "18", "13", "None", "Not Attempted"],
+      "options_hi": ["17", "18", "13", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 17\n\n📌 यह अभाज्य संख्याओं की श्रृंखला है।"
+    },
+    {
+      "id": 92,
+      "section": "Computer",
+      "q_en": "Which encoding scheme represents most world languages?",
+      "q_hi": "कौन-सी एन्कोडिंग अधिकांश भाषाओं को दर्शाती है?",
+      "options_en": ["ASCII", "Unicode", "ISCII", "None", "Not Attempted"],
+      "options_hi": ["ASCII", "यूनिकोड", "ISCII", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: Unicode"
+    },
+    {
+      "id": 93,
+      "section": "Reasoning",
+      "q_en": "If NIGHT = REKDX, then CRIME = ?",
+      "q_hi": "यदि NIGHT = REKDX, तो CRIME = ?",
+      "options_en": ["GNMII", "GNMIJ", "SMNJI", "SMNJJ", "Not Attempted"],
+      "options_hi": ["GNMII", "GNMIJ", "SMNJI", "SMNJJ", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: GNMII"
+    },
+    {
+      "id": 94,
+      "section": "Economics",
+      "q_en": "First state to introduce VAT in India?",
+      "q_hi": "भारत में VAT लागू करने वाला पहला राज्य?",
+      "options_en": ["UP", "MP", "Haryana", "Rajasthan", "Not Attempted"],
+      "options_hi": ["उत्तर प्रदेश", "मध्य प्रदेश", "हरियाणा", "राजस्थान", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: हरियाणा"
+    },
+    {
+      "id": 95,
+      "section": "Current Affairs",
+      "q_en": "Who launched Sampoorna Abhiyan?",
+      "q_hi": "सम्पूर्णता अभियान किसने शुरू किया?",
+      "options_en": ["RBI", "Finance Commission", "ISRO", "NITI Aayog", "Not Attempted"],
+      "options_hi": ["आरबीआई", "वित्त आयोग", "इसरो", "नीति आयोग", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: नीति आयोग"
+    },
+    {
+      "id": 96,
+      "section": "Haryana GK",
+      "q_en": "Mera Bill Mera Adhikar scheme relates to?",
+      "q_hi": "मेरा बिल मेरा अधिकार योजना किससे संबंधित है?",
+      "options_en": ["Consumer Act", "Public expenditure", "Income tax", "GST", "Not Attempted"],
+      "options_hi": ["उपभोक्ता संरक्षण", "सार्वजनिक व्यय", "आयकर", "GST", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: GST"
+    },
+    {
+      "id": 97,
+      "section": "Polity",
+      "q_en": "Right to Education is under which Article?",
+      "q_hi": "शिक्षा का अधिकार किस अनुच्छेद में है?",
+      "options_en": ["20A", "51A", "21A", "None", "Not Attempted"],
+      "options_hi": ["20A", "51A", "21A", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: अनुच्छेद 21A"
+    },
+    {
+      "id": 98,
+      "section": "Haryana GK",
+      "q_en": "Which is NOT an administrative division of Haryana?",
+      "q_hi": "हरियाणा का कौन-सा प्रशासनिक मंडल नहीं है?",
+      "options_en": ["Ambala", "Sirsa", "Hisar", "Rohtak", "Not Attempted"],
+      "options_hi": ["अंबाला", "सिरसा", "हिसार", "रोहतक", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: सिरसा"
+    },
+    {
+      "id": 99,
+      "section": "Math",
+      "q_en": "Find missing number (triangle pattern)",
+      "q_hi": "त्रिकोण पैटर्न में संख्या ज्ञात करें",
+      "options_en": ["41", "45", "50", "52", "Not Attempted"],
+      "options_hi": ["41", "45", "50", "52", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: 41"
+    },
+    {
+      "id": 100,
+      "section": "Chemistry",
+      "q_en": "Metallic oxides are:",
+      "q_hi": "धात्विक ऑक्साइड होते हैं:",
+      "options_en": ["Neutral", "Acidic", "Basic", "None", "Not Attempted"],
+      "options_hi": ["उदासीन", "अम्लीय", "क्षारीय", "कोई नहीं", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: क्षारीय"
     }
   ]
 }
- 
