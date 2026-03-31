@@ -1012,3 +1012,203 @@
       "answer": 1,
       "explanation": "Answer key on the last page marks option 2. 10"
     },
+    {
+      "id": 51,
+      "section": "Maths - Profit and Loss",
+      "q_en": "A mobile phone seller gives a 10% discount at the time of sale. If he gives a 15% discount, he earns Rs. 420 less profit. What is the actual price of the mobile phone?",
+      "q_hi": "एक मोबाइल फोन बेचते समय दुकानदार 10% की छूट देता है। यदि वह 15% की छूट देता है, तो उसे 420 रुपये कम लाभ होता है। मोबाइल फोन का वास्तविक मूल्य क्या है?",
+      "options_en": ["Rs. 9,000", "Rs. 8,000", "Rs. 8,400", "Rs. 9,600", "Not Attempted"],
+      "options_hi": ["9,000 रुपये", "8,000 रुपये", "8,400 रुपये", "9,600 रुपये", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 8,400 रुपये।\n\n📌 Solution:\n1. 10% और 15% discount के बीच 5% का अंतर है।\n2. 5% = 420 रुपये\n3. 100% = 420 × 20 = 8400 रुपये\nइसलिए वस्तु का वास्तविक मूल्य 8400 रुपये है।"
+    },
+    {
+      "id": 52,
+      "section": "Maths - Trigonometry",
+      "q_en": "2 sin^6 + 2 cos^6 - 3 sin^4 - 3 cos^4 is equal to what?",
+      "q_hi": "2 sin^6 + 2 cos^6 - 3 sin^4 - 3 cos^4 किसके बराबर है?",
+      "options_en": ["-1", "0", "1", "2", "Not Attempted"],
+      "options_hi": ["-1", "0", "1", "2", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: -1.\n\n📌 Identity:\nयह expression simplify होकर -1 आता है।"
+    },
+    {
+      "id": 53,
+      "section": "Maths - Number System",
+      "q_en": "Find the greatest four-digit number that leaves remainder 4 when divided by 14, 20, 23 and 30.",
+      "q_hi": "चार अंकों की सबसे बड़ी संख्या ज्ञात कीजिए कि जब इसे 14, 20, 23 और 30 से विभाजित किया जाए, तो प्रत्येक स्थिति में शेषफल 4 रहे।",
+      "options_en": ["9670", "9664", "9668", "9666", "Not Attempted"],
+      "options_hi": ["9670", "9664", "9668", "9666", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 9664.\n\n📌 Logic:\nRequired number = LCM of 14, 20, 23, 30 का multiple + 4\nFour-digit condition के अनुसार सही संख्या 9664 आती है।"
+    },
+    {
+      "id": 54,
+      "section": "Maths - Time and Work",
+      "q_en": "12 women and 16 men can complete a task in 5 days. 13 women and 24 men can complete the same task in 4 days. How long will 25 women and 50 men take to complete the task?",
+      "q_hi": "12 महिलाएं और 16 पुरुष किसी कार्य को 5 दिन में पूरा कर सकते हैं। 13 महिलाएं और 24 पुरुष इसी कार्य को 4 दिन में पूरा कर सकते हैं। 25 महिलाओं और 50 पुरुषों को इस कार्य को पूरा करने में कितना समय लगेगा?",
+      "options_en": ["1 day", "2 days", "3 days", "4 days", "Not Attempted"],
+      "options_hi": ["1 दिन", "2 दिन", "3 दिन", "4 दिन", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 2 दिन।\n\n📌 Working:\nदिए गए दोनों statements से work ratio निकालने पर 25 महिलाएं और 50 पुरुष मिलकर पूरे कार्य को 2 दिन में पूरा करते हैं।"
+    },
+    {
+      "id": 55,
+      "section": "Maths - Proportion",
+      "q_en": "What is the ratio between the fourth proportional of 2, 5, 4 and the mean proportional of 2.5 and 0.016?",
+      "q_hi": "2, 5, 4 के चतुर्थानुपाती तथा 2.5 और 0.016 के मध्यानुपाती के मध्य अनुपात क्या है?",
+      "options_en": ["5:1", "10:1", "50:1", "25:1", "Not Attempted"],
+      "options_hi": ["5:1", "10:1", "50:1", "25:1", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 50:1.\n\n📌 Calculation:\n4th proportional of 2, 5, 4 = 10\nMean proportional of 2.5 and 0.016 = 0.2\nRatio = 10 : 0.2 = 50 : 1"
+    },
+    {
+      "id": 56,
+      "section": "Maths - Simplification",
+      "q_en": "What is the simplified value of √12 - 1/√3 ?",
+      "q_hi": "√12 - 1/√3 का सरलीकृत मान क्या है?",
+      "options_en": ["5√3", "5/√3", "3√5", "3/√5", "Not Attempted"],
+      "options_hi": ["5√3", "5/√3", "3√5", "3/√5", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: 5/√3.\n\n📌 Simplification:\n√12 = 2√3\n2√3 - 1/√3 = (6 - 1)/√3 = 5/√3"
+    },
+    {
+      "id": 57,
+      "section": "Maths - HCF and LCM",
+      "q_en": "A milkman has three different varieties of milk: 403 gallons, 465 gallons and 496 gallons. Find the minimum possible number of equal-sized bottles in which the different kinds of milk can be filled without mixing.",
+      "q_hi": "एक दूधवाले के पास दूध की तीन अलग-अलग किस्में हैं। पहले किस्म के 403 गैलन, दूसरे किस्म के 465 गैलन और तीसरे किस्म के 496 गैलन हैं। समान आकार की बोतलों की न्यूनतम संभावित संख्या ज्ञात कीजिए जिसमें विभिन्न किस्मों के दूध को बिना मिलाए भर सके।",
+      "options_en": ["32", "40", "44", "55", "Not Attempted"],
+      "options_hi": ["32", "40", "44", "55", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: 44.\n\n📌 Logic:\nHCF of 403, 465 and 496 = 31\nNumber of bottles = 403/31 + 465/31 + 496/31 = 44"
+    },
+    {
+      "id": 58,
+      "section": "Maths - Exponents",
+      "q_en": "If 27 × 9^(n+4) = 3^m, then m is equal to:",
+      "q_hi": "यदि 27 × 9^(n+4) = 3^m है, तो m के बराबर है:",
+      "options_en": ["6n + 24", "2n + 8", "n + 11", "2n + 11", "Not Attempted"],
+      "options_hi": ["6n + 24", "2n + 8", "n + 11", "2n + 11", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 2n + 11.\n\n📌 Conversion:\n27 = 3^3\n9^(n+4) = (3^2)^(n+4) = 3^(2n+8)\nSo, m = 3 + 2n + 8 = 2n + 11"
+    },
+    {
+      "id": 59,
+      "section": "Biology - Plant Functions",
+      "q_en": "Consider the following functions performed by plants: A. Providing support. B. Providing humus. C. Storage of food. D. Absorption of water and minerals. Which of these are functions of roots?",
+      "q_hi": "पौधों के लिए किए जाने वाले निम्नलिखित कार्यों पर विचार कीजिए: A. पौधों को सहारा देना। B. ह्यूमस प्रदान करना। C. भोजन संग्रहित / भण्डारण करना। D. पानी और खनिजों का अवशोषण करना। इनमें से जड़ों के कार्य हैं:",
+      "options_en": ["B, C and D", "A, C and D", "Only A and B", "Only C and D", "Not Attempted"],
+      "options_hi": ["B, C और D", "A, C और D", "केवल A और B", "केवल C और D", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: A, C और D.\n\n📌 Root functions:\n1. सहारा देना\n2. भोजन का भण्डारण करना\n3. पानी और खनिजों का अवशोषण करना"
+    },
+    {
+      "id": 60,
+      "section": "General Science - Environment",
+      "q_en": "Which of the following fuels produces the minimum environmental pollution? (a) Diesel (b) Petrol (c) Hydrogen (d) Coal",
+      "q_hi": "निम्नलिखित ईंधनों में से कौन-सा न्यूनतम पर्यावरणीय प्रदूषण उत्पन्न करता है? (a) डीजल (b) पेट्रोल (c) हाइड्रोजन (d) कोयला",
+      "options_en": ["Diesel", "Petrol", "Hydrogen", "Coal", "Not Attempted"],
+      "options_hi": ["डीजल", "पेट्रोल", "हाइड्रोजन", "कोयला", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: हाइड्रोजन.\n\n📌 Reason:\nHydrogen combustion mainly produces water, so among the given fuels it causes minimum environmental pollution."
+    },
+    {
+      "id": 61,
+      "section": "Geography - Grasslands",
+      "q_en": "Which of the following is NOT a temperate grassland?",
+      "q_hi": "निम्नलिखित में से कौन-सा एक शीतोष्ण घास प्रदेश नहीं है?",
+      "options_en": ["Compas", "Downs", "Prairie", "Pampas", "Not Attempted"],
+      "options_hi": ["कम्पास", "डाउन्स", "प्रेयरी", "पम्पास", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: कम्पास।\n\n📌 Exam Fact:\nDowns, Prairie और Pampas शीतोष्ण घास प्रदेश हैं, जबकि कम्पास नहीं है।"
+    },
+    {
+      "id": 62,
+      "section": "Biology - Plant Cell",
+      "q_en": "Which of the following organelles is absent in a plant cell?",
+      "q_hi": "निम्न में से कौन-सा अंगक पादप कोशिका में अनुपस्थित होता है?",
+      "options_en": ["Plastid", "Vacuole", "Centrosome", "Cell wall", "Not Attempted"],
+      "options_hi": ["लवक", "रिक्तिकाएँ", "तारककाय", "सेल्यूलोस कोशिका भित्ति", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: तारककाय।\n\n📌 Important Point:\nपादप कोशिका में केन्द्रकाय / centrosome अनुपस्थित होता है।"
+    },
+    {
+      "id": 63,
+      "section": "Geography - Forests",
+      "q_en": "Monsoon forests are found where rainfall is:",
+      "q_hi": "मानसूनी वन पाए जाते हैं जहाँ वर्षा होती है।",
+      "options_en": ["150-200 cm", "70-100 cm", "50-150 cm", "70-200 cm", "Not Attempted"],
+      "options_hi": ["150-200 सेमी", "70-100 सेमी", "50-150 सेमी", "70-200 सेमी", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: 70-200 सेमी।\n\n📌 Geography Fact:\nमानसूनी वन मध्यम से अधिक वर्षा वाले क्षेत्रों में पाए जाते हैं।"
+    },
+    {
+      "id": 64,
+      "section": "Hindi Vocabulary",
+      "q_en": "Fill in the blank with the appropriate option: A person who speaks many languages is called ____.",
+      "q_hi": "रिक्त स्थान की पूर्ति उचित विकल्प से कीजिए: अनेक भाषाएँ बोलने वाले को ..... कहते हैं।",
+      "options_en": ["Speaker", "Multilingual", "Vegetarian", "Tactless", "Not Attempted"],
+      "options_hi": ["वक्ता", "बहुभाषी", "शाकाहारी", "कटुभाषी", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: बहुभाषी।\n\n📌 Meaning:\nजो व्यक्ति एक से अधिक भाषाएँ बोलता है, उसे बहुभाषी कहते हैं।"
+    },
+    {
+      "id": 65,
+      "section": "Hindi Grammar - Sentence Order",
+      "q_en": "Which sentence is correct in terms of word order?",
+      "q_hi": "'क्रम' की दृष्टि से कौन सा वाक्य शुद्ध है?",
+      "options_en": ["My favorite book got me.", "My book favorite got me.", "My favorite book got found.", "Got found my favorite book.", "Not Attempted"],
+      "options_hi": ["मनपसंद मेरी किताब मिल गयी।", "मेरी किताब मनपसंद मिल गयी।", "मेरी मनपसंद किताब मिल गयी।", "मिल गयी मेरी मनपसंद किताब।", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "सही उत्तर: मेरी मनपसंद किताब मिल गयी।\n\n📌 Sentence Order:\nयही क्रम और व्याकरण दोनों के अनुसार सही वाक्य है।"
+    },
+    {
+      "id": 66,
+      "section": "Hindi Vocabulary - One Word",
+      "q_en": "A one-word substitute for 'related to the general public' is:",
+      "q_hi": "'सर्वसाधारण से संबंधित' के लिए एक शब्द होगा:",
+      "options_en": ["Public", "Cultural", "Political", "Social", "Not Attempted"],
+      "options_hi": ["सार्वजनिक", "सांस्कृतिक", "राजनीतिक", "सामाजिक", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: सार्वजनिक।\n\n📌 Word Meaning:\nसर्वसाधारण से संबंधित = सार्वजनिक।"
+    },
+    {
+      "id": 67,
+      "section": "Hindi Vocabulary - Antonym",
+      "q_en": "The antonym of the word 'dispute' is:",
+      "q_hi": "'विवाद' शब्द का विलोम होता है:",
+      "options_en": ["Hostility", "Quarrel", "Non-contention", "Dialogue", "Not Attempted"],
+      "options_hi": ["वैमनस्य", "कलह", "निरविवाद", "संवाद", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "सही उत्तर: संवाद।\n\n📌 Opposite Meaning:\nविवाद का विपरीत अर्थ संवाद होता है।"
+    },
+    {
+      "id": 68,
+      "section": "Hindi Idiom",
+      "q_en": "Choose the option that correctly expresses the meaning of the idiom 'gardan par sawar hona'.",
+      "q_hi": "उस विकल्प का चयन करें जो मुहावरे का सही अर्थ व्यक्त करता है। 'गर्दन पर सवार होना'",
+      "options_en": ["To treat badly", "To keep chasing", "To kill someone", "To cling to the neck", "Not Attempted"],
+      "options_hi": ["बुरी तरह व्यवहार करना", "पीछा न छोड़ना", "जान से मार देना", "गले पड़ना", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: पीछा न छोड़ना।\n\n📌 Idiom Meaning:\n'गर्दन पर सवार होना' का अर्थ किसी के पीछे पड़े रहना या पीछा न छोड़ना होता है।"
+    },
+    {
+      "id": 69,
+      "section": "Hindi Literature",
+      "q_en": "Who is the author of 'Vividh Prasang'?",
+      "q_hi": "'विविध प्रसंग' किसकी रचना है?",
+      "options_en": ["Premchand", "Phanishwar Nath Renu", "Nirala", "Hazariprasad Dwivedi", "Not Attempted"],
+      "options_hi": ["प्रेमचंद", "फणीश्वरनाथ रेणु", "निराला", "हजारीप्रसाद द्विवेदी", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "सही उत्तर: प्रेमचंद।\n\n📌 Literature Fact:\n'विविध प्रसंग' प्रेमचंद की रचना है।"
+    },
+    {
+      "id": 70,
+      "section": "Hindi Spelling",
+      "q_en": "Select the correctly spelt word.",
+      "q_hi": "सही वर्तनी वाले शब्द का चयन करें।",
+      "options_en": ["Aishwaryashali", "Aishwaryashali", "Aishwaryashali", "Aishwaryashali", "Not Attempted"],
+      "options_hi": ["ऐश्वयतशाली", "ऐश्वयतशाली", "ऐशवयतशाली", "ऐश्वयतशाकल", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "सही उत्तर: ऐश्वयतशाली।\n\n📌 Spelling:\nदिए गए विकल्पों में सही वर्तनी विकल्प 2 है।"
+    },
