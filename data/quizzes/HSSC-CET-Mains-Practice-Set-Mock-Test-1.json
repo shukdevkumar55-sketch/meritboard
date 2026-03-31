@@ -1,0 +1,230 @@
+{
+  "testTitle": "HSSC CET Mains Practice Set - Mock Test 1 (Extracted Batch 1)",
+  "timeMinutes": 100,
+  "questions": 10,
+  "category": "HSSC CET Mains Practice Set",
+  "negativeMarking": 0,
+  "description": "<b>Mock Test-1 (Questions 1-10)</b><br><br>This batch is extracted from the HSSC CET Mains practice booklet. The answers have been matched with the answer key shown on the last page of the file.",
+  "thumbnail": "assets/quizzes/hssc-cet-mock-test-1-thumbnail.svg",
+  "cover_image": "assets/quizzes/hssc-cet-mock-test-1-cover.svg",
+  "questions": [
+    {
+      "id": 1,
+      "section": "General Knowledge - Roads",
+      "q_en": "Currently, the Grand Trunk Road in India runs from where to where?",
+      "q_hi": "वर्तमान में, ग्रैंड ट्रंक रोड भारत में कहाँ से कहाँ तक जाती है?",
+      "options_en": [
+        "Agra to Kolkata",
+        "Amritsar to Kolkata",
+        "Chennai to Kolkata",
+        "Kashmir to Kanyakumari",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "आगरा से कोलकाता तक",
+        "अमृतसर से कोलकाता तक",
+        "चेन्नई से कोलकाता तक",
+        "कश्मीर से कन्याकुमारी तक",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. The Grand Trunk Road in India is commonly identified from Amritsar to Kolkata."
+    },
+    {
+      "id": 2,
+      "section": "General Knowledge - Census",
+      "q_en": "According to the 2011 Census, what is the male literacy rate in India?",
+      "q_hi": "2011 की जनगणना के अनुसार, भारत में पुरुष साक्षरता दर कितनी है?",
+      "options_en": [
+        "84.14%",
+        "83.14%",
+        "82.14%",
+        "81.14%",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "84.14 प्रतिशत",
+        "83.14 प्रतिशत",
+        "82.14 प्रतिशत",
+        "81.14 प्रतिशत",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3, which is 82.14%."
+    },
+    {
+      "id": 3,
+      "section": "General Knowledge - Nobel Prize",
+      "q_en": "In 1979, who shared the Nobel Prize with George Wittig for the development of boron- and phosphorus-based reagents in organic synthesis?",
+      "q_hi": "1979 में, जॉर्ज विटिग के साथ उनके कार्बनिक संश्लेषण में महत्वपूर्ण अभिकर्मकों में क्रमशः बोरॉन- और फास्फोरस युक्त यौगिकों के उपयोग के विकास के लिए नोबेल पुरस्कार किसने साझा किया था?",
+      "options_en": [
+        "Henry Taube",
+        "Arne Tiselius",
+        "Emil Fischer",
+        "Herbert C. Brown",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "हेनरी टाउबे",
+        "अरने टिसेलियस",
+        "एमिल फिशर",
+        "हर्बर्ट सी. ब्राउन",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key marks option 4. The correct name is Herbert C. Brown."
+    },
+    {
+      "id": 4,
+      "section": "Commerce - Marketing Research",
+      "q_en": "Which activity is not included in marketing research?",
+      "q_hi": "विपणन शोध के क्षेत्र में कौन-सी क्रिया शामिल नहीं है?",
+      "options_en": [
+        "Advertising",
+        "Distribution research",
+        "Price-related research",
+        "Product research",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "विज्ञापन करना",
+        "वितरण शोध करना",
+        "मूल्य सम्बन्धी शोध करना",
+        "उत्पाद शोध करना",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "Answer key marks option 1. Advertising is not a marketing research activity."
+    },
+    {
+      "id": 5,
+      "section": "Commerce - Marketing Concept",
+      "q_en": "What is the focal point of marketing?",
+      "q_hi": "विपणन का केन्द्र बिन्दु है।",
+      "options_en": [
+        "Product",
+        "Producer",
+        "Customer",
+        "None",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "उत्पाद",
+        "उत्पादक",
+        "ग्राहक",
+        "कोई नहीं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. In marketing, the customer is the focal point."
+    },
+    {
+      "id": 6,
+      "section": "Commerce - Marketing Concept",
+      "q_en": "Marketing ends with:",
+      "q_hi": "विपणन का अन्त होता है :",
+      "options_en": [
+        "Maximum profit",
+        "Sale of goods",
+        "Beating competitors",
+        "Customer satisfaction",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "अधिकतम लाभ कमाने के साथ",
+        "माल के विक्रय के साथ",
+        "प्रतियोगियों को हराने के साथ",
+        "ग्राहकों की सन्तुष्टि के साथ",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key marks option 4. Marketing is considered complete when customers are satisfied."
+    },
+    {
+      "id": 7,
+      "section": "Commerce - Marketing Basics",
+      "q_en": "The term 'marketing mix' was first used by:",
+      "q_hi": "विपणन मिश्रण शब्द का सबसे पहले प्रयोग किया था :",
+      "options_en": [
+        "William J. Stanton",
+        "R.S. Dower",
+        "Neil H. Borden",
+        "Philip Kotler",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "विलियम जे. स्टेन्टन",
+        "आर.एस. डावर",
+        "नील एच. बोडेन",
+        "फिलिप कोटलर",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. Neil H. Borden is associated with the term 'marketing mix'."
+    },
+    {
+      "id": 8,
+      "section": "Commerce - Marketing Mix",
+      "q_en": "Which factor does not affect the marketing mix?",
+      "q_hi": "कौन सा तत्व विपणन मिश्रण को प्रभावित नहीं करता ?",
+      "options_en": [
+        "Production cost",
+        "Transport",
+        "Production quantity",
+        "Company reputation",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "उत्पादन लागत",
+        "परिवहन",
+        "उत्पादन की मात्रा",
+        "कम्पनी की ख्याति",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. Production quantity is not treated as a direct marketing-mix factor here."
+    },
+    {
+      "id": 9,
+      "section": "Culture - Indian Dance",
+      "q_en": "Bimbavati Devi is the exponent of which Indian dance style?",
+      "q_hi": "बिबावती देवी किस भारतीय नृत्य शैली की प्रतिपादक हैं?",
+      "options_en": [
+        "Chhau",
+        "Kathakali",
+        "Odissi",
+        "Manipuri",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "छऊ",
+        "कथकली",
+        "ओडिसी",
+        "मणिपुरी",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key marks option 4. Bimbavati Devi is associated with Manipuri dance."
+    },
+    {
+      "id": 10,
+      "section": "Current Affairs - Monuments and Gardens",
+      "q_en": "What has the Mughal Garden been renamed as?",
+      "q_hi": "मुगल गार्डन का नाम बदलकर क्या कर दिया है?",
+      "options_en": [
+        "Muir Garden",
+        "Amrit Udyan",
+        "Pithora Garden",
+        "Lotus Garden",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "म्यूर गार्डन",
+        "अमृत उद्यान",
+        "पिथौरा गार्डन",
+        "लोटस गार्डन",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. The new name is Amrit Udyan."
+    },
