@@ -1,4 +1,28 @@
 [
+
+{
+  "id": "HSSC-CET-Mains-Practice-Set-Mock-Test-1",
+  "type": "quiz",
+  "title": "HSSC CET Mains Practice Set - Mock Test 1",
+  "thumbnail": "assets/HSSC-CET-Mains-Practice-Set-Mock-Test-1.webp",
+  "category": "HSSC Group C Exams",
+  "tags": [
+    "Haryana Police 2026",
+    "Previous Year Paper",
+    "HSSC Constable Exam",
+    "Solved Paper",
+    "Haryana GK",
+    "Computer GK",
+    "Real Exam Questions",
+    "Latest Pattern Practice"
+  ],
+  "date_added": "2026-03-31",
+  "author": "MeritBoard Team",
+  "is_featured": true,
+  "meta_info": "100 Qs • 100 Mins • Real Exam Paper",
+  "source_url": "data/quizzes/HSSC-CET-Mains-Practice-Set-Mock-Test-1.json"
+},
+
 {
   "id": "Haryana-Police-Constable-2024-Previous-Year-Paper",
   "type": "quiz",
