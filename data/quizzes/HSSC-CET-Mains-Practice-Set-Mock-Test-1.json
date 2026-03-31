@@ -228,3 +228,787 @@
       "answer": 1,
       "explanation": "Answer key marks option 2. The new name is Amrit Udyan."
     },
+    {
+      "id": 11,
+      "section": "General Science - Chemistry",
+      "q_en": "Limestone, chalk and marble are different forms of which substance?",
+      "q_hi": "चूना पत्थर, खड़िया एवं संगमरमर किसके विभिन्न रूप हैं?",
+      "options_en": [
+        "Calcium Phosphate",
+        "Calcium Carbonate",
+        "Calcium Hydroxide",
+        "Calcium Oxide",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "कैल्शियम फॉस्फेट",
+        "कैल्शियम कार्बोनेट",
+        "कैल्शियम हाइड्रॉक्साइड",
+        "कैल्शियम ऑक्साइड",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. Limestone, chalk and marble are all forms of calcium carbonate."
+    },
+    {
+      "id": 12,
+      "section": "History - Education Reform",
+      "q_en": "Where did Ishwar Chandra Vidyasagar establish schools for girls?",
+      "q_hi": "ईश्वरचंद्र विद्यासागर ने कहाँ पर लड़कियों के लिए स्कूल की स्थापना की थी?",
+      "options_en": [
+        "Lahore",
+        "Kolkata",
+        "Surat",
+        "Bombay",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "लाहौर",
+        "कलकत्ता",
+        "सूरत",
+        "बॉम्बे",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. Ishwar Chandra Vidyasagar established girls' schools in Kolkata."
+    },
+    {
+      "id": 13,
+      "section": "History - Treaties",
+      "q_en": "In which year was the Treaty of Salbai signed?",
+      "q_hi": "निम्नलिखित में से किस वर्ष में सालबाई की संधि पर हस्ताक्षर हुए थे?",
+      "options_en": [
+        "1800",
+        "1782",
+        "1769",
+        "1817",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "1800 में",
+        "1782 में",
+        "1769 में",
+        "1817 में",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. The Treaty of Salbai was signed in 1782."
+    },
+    {
+      "id": 14,
+      "section": "Current Affairs - NITI Aayog",
+      "q_en": "Who has been appointed as the new CEO of NITI Aayog?",
+      "q_hi": "किसे नीति आयोग के नए सीईओ के रूप में नियुक्त किया गया है?",
+      "options_en": [
+        "Jagdish Prasad Mishra",
+        "Kiran Deshmukh",
+        "B.V.R. Subrahmanyam",
+        "I.P. Narayan",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "जगदीश प्रसाद मिश्रा",
+        "किरण देशमुख",
+        "बीवीआर सुब्रमण्यम",
+        "आईपी नारायण",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. B.V.R. Subrahmanyam is the CEO of NITI Aayog."
+    },
+    {
+      "id": 15,
+      "section": "Current Affairs - Awards",
+      "q_en": "Who received the Best Actor award at the Dadasaheb Phalke International Film Festival Awards 2023?",
+      "q_hi": "दादा साहेब फाल्के इंटरनेशनल फिल्म फेस्टिवल अवॉर्ड्स 2023 में बेस्ट एक्टर का अवॉर्ड किसे दिया गया है?",
+      "options_en": [
+        "Ranbir Kapoor",
+        "Varun Dhawan",
+        "Akshay Kumar",
+        "Shah Rukh Khan",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "रणबीर कपूर",
+        "वरुण धवन",
+        "अक्षय कुमार",
+        "शाहरुख खान",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "Answer key marks option 1. Ranbir Kapoor received the award."
+    },
+    {
+      "id": 16,
+      "section": "Physics - Seismology",
+      "q_en": "Which waves are first experienced on the surface of the Earth?",
+      "q_hi": "पृथ्वी की सतह पर सबसे पहले किन तरंगों का अनुभव होता है?",
+      "options_en": [
+        "S waves",
+        "L waves",
+        "P waves",
+        "None of these",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "S तरंगें",
+        "L तरंगें",
+        "P तरंगें",
+        "इनमें से कोई नहीं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. P-waves are the fastest and reach first."
+    },
+    {
+      "id": 17,
+      "section": "Geography - Earthquake",
+      "q_en": "Earthquakes are measured on which scale?",
+      "q_hi": "भूकम्प को किस पैमाने से मापा जाता है?",
+      "options_en": [
+        "Ratio scale",
+        "General scale",
+        "Richter scale",
+        "Centigrade scale",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "अनुपात पैमाना",
+        "सामान्य पैमाना",
+        "रिक्टर पैमाना",
+        "सेंटीग्रेड पैमाना",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. Earthquakes are measured using the Richter scale."
+    },
+    {
+      "id": 18,
+      "section": "Geography - Earthquake",
+      "q_en": "What is the maximum intensity value on the Richter scale?",
+      "q_hi": "रिक्टर स्केल पर भूकंप की तीव्रता का अधिकतम मान कितना हो सकता है?",
+      "options_en": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "Answer key marks option 1. The maximum commonly referenced magnitude is 9."
+    },
+    {
+      "id": 19,
+      "section": "Physics - Waves",
+      "q_en": "Which waves are longitudinal like sound waves?",
+      "q_hi": "कौनसी तरंगें ध्वनि तरंगों के समान अनुदैर्ध्य तरंगें होती हैं?",
+      "options_en": [
+        "S waves",
+        "L waves",
+        "P waves",
+        "None of these",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "S तरंगें",
+        "L तरंगें",
+        "P तरंगें",
+        "इनमें से कोई नहीं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key marks option 3. P-waves are longitudinal like sound waves."
+    },
+    {
+      "id": 20,
+      "section": "Physics - Waves",
+      "q_en": "Which waves can travel through solids, liquids, and gases?",
+      "q_hi": "कौनसी तरंगें ठोस, तरल एवं गैस तीनों माध्यमों में गमन कर सकती हैं?",
+      "options_en": [
+        "S waves",
+        "P waves",
+        "L waves",
+        "None of these",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "S तरंगें",
+        "P तरंगें",
+        "L तरंगें",
+        "इनमें से कोई नहीं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. P-waves can travel through all mediums."
+    },
+    {
+      "id": 21,
+      "section": "Reasoning - Series Relationship",
+      "q_en": "Choose the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number. 10 : 45 :: 6 : 25 :: 9 : ?",
+      "q_hi": "उस विकल्प का चयन करें जो पाँचवी संख्या से उसी प्रकार संबंधित है जिस प्रकार दूसरी संख्या पहली संख्या से संबंधित है और चौथी संख्या तीसरी संख्या से संबंधित है। 10 : 45 :: 6 : 25 :: 9 : ?",
+      "options_en": ["42", "40", "36", "38", "Not Attempted"],
+      "options_hi": ["42", "40", "36", "38", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. The correct value is 40."
+    },
+    {
+      "id": 22,
+      "section": "Reasoning - Analogy of Sets",
+      "q_en": "Select the set from the options that has the same relationship among its numbers as the given set. (4, 25, 6) (8, 25, 3) ________",
+      "q_hi": "विकल्पों में से उस समुच्चय का चयन कीजिए जिसमें दी गई संख्याओं के बीच वही संबंध हो, जो दिए गए समुच्चयों की संख्याओं के बीच है। (4, 25, 6) (8, 25, 3) ________",
+      "options_en": ["(3, 81, 6)", "(12, 96, 8)", "(14, 55, 4)", "(7, 22, 3)", "Not Attempted"],
+      "options_hi": ["(3, 81, 6)", "(12, 96, 8)", "(14, 55, 4)", "(7, 22, 3)", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "Answer key marks option 4."
+    },
+    {
+      "id": 23,
+      "section": "Reasoning - Syllogism",
+      "q_en": "Read all conclusions and decide which logically follow from the given statements. Statements: I. All A are D. II. No D is E. Conclusions: I. No E is A. II. All D are A. III. All E are D.",
+      "q_hi": "सभी निष्कर्ष पढ़ें और फिर निर्धारित करें कि कौन से निष्कर्ष, दिए गए कथनों का तार्किक रूप से अनुसरण करते हैं। कथन: I. सभी A, D हैं। II. कोई D, E नहीं है। निष्कर्ष: I. कोई E, A नहीं है। II. सभी D, A हैं। III. सभी E, D हैं।",
+      "options_en": [
+        "No conclusion follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Only conclusion III follows",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "कोई भी निष्कर्ष अनुसरण नहीं करता है",
+        "केवल निष्कर्ष I अनुसरण करता है",
+        "केवल निष्कर्ष II अनुसरण करता है",
+        "केवल निष्कर्ष III अनुसरण करता है",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. Only conclusion I follows."
+    },
+    {
+      "id": 24,
+      "section": "Reasoning - Blood Relation",
+      "q_en": "A#B means 'A is sister of B'. A@B means 'A is son of B'. A&B means 'A is father of B'. A%B means 'A is mother of B'. If W@Q%T&Y@M%K, then how is Q related to K?",
+      "q_hi": "A#B का अर्थ है 'A, B की बहन है'। A@B का अर्थ है 'A, B का बेटा है'। A&B का अर्थ है 'A, B के पिता है'। A%B का अर्थ है 'A, B की माँ है'। यदि W@Q%T&Y@M%K है, तो Q, K से किस प्रकार संबंधित है?",
+      "options_en": ["Grandmother", "Daughter", "Nani", "Mother", "Not Attempted"],
+      "options_hi": ["दादी", "बेटी", "नानी", "माँ", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "Answer key marks option 1. Q is the grandmother relation in the family chain."
+    },
+    {
+      "id": 25,
+      "section": "Reasoning - Syllogism",
+      "q_en": "Statements: Some fingers are toes. Some toes are rings. Some rings are hands. Conclusions: I. Some hands are toes. II. Some rings are fingers. III. Some hands are fingers. IV. Some fingers are rings.",
+      "q_hi": "कथन: कुछ उँगलियाँ, पादांगुलियाँ हैं। कुछ पादांगुलियाँ, रिंग हैं। कुछ रिंग, हाथ हैं। निष्कर्ष: I. कुछ हाथ, पादांगुलियाँ हैं। II. कुछ रिंग, उँगलियाँ हैं। III. कुछ हाथ, उँगलियाँ हैं। IV. कुछ उँगलियाँ, रिंग हैं।",
+      "options_en": [
+        "Only conclusions II and IV follow",
+        "No conclusion follows",
+        "Only conclusions III and IV follow",
+        "Only conclusions I and II follow",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "केवल निष्कर्ष II और IV अनुसरण करते हैं",
+        "कोई भी निष्कर्ष अनुसरण नहीं करता है",
+        "केवल निष्कर्ष III और IV अनुसरण करते हैं",
+        "केवल निष्कर्ष I और II अनुसरण करते हैं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. No conclusion follows."
+    },
+    {
+      "id": 26,
+      "section": "Reasoning - Mathematical Operations",
+      "q_en": "Choose the correct combination of mathematical signs to replace the asterisks so that the equation becomes true: 65*45*25*5*35*60",
+      "q_hi": "गणितीय चिह्नों के उस सही संयोजन का चयन करें, जिन्हें * चिह्नों के स्थान पर क्रमिक रूप से रखने पर दिया गया समीकरण सत्य हो जाएगा। 65*45*25*5*35*60",
+      "options_en": ["+, ×, +, −, =", "-, +, ÷, +, =", "+, −, +, −, =", "-, +, −, +, ="],
+      "options_hi": ["+, ×, +, −, =", "-, +, ÷, +, =", "+, −, +, −, =", "-, +, −, +, ="],
+      "answer": 1,
+      "explanation": "Answer key marks option 2."
+    },
+    {
+      "id": 27,
+      "section": "Reasoning - Analogy",
+      "q_en": "Choose the option that is related to the third word in the same way as the second word is related to the first word. Panda : Meat :: Koala : ?",
+      "q_hi": "उस विकल्प का चयन करें, जो तीसरे शब्द से उसी प्रकार संबंधित है, जिस प्रकार दूसरा शब्द पहले शब्द से संबंधित है। पांडा : मांस :: कोआला : ?",
+      "options_en": ["Bark", "Moth", "Grass", "Eucalyptus", "Not Attempted"],
+      "options_hi": ["छाल", "मक्खी", "घास", "यूकेलिप्टस", "अनुत्तरित प्रश्न"],
+      "answer": 3,
+      "explanation": "Answer key marks option 4. Koala is associated with eucalyptus."
+    },
+    {
+      "id": 28,
+      "section": "Reasoning - Number / Letter Pattern",
+      "q_en": "A sequence is given with one term missing. Choose the correct option that completes the sequence: ABCD, HGLO, OLUZ, VQDK, ?",
+      "q_hi": "एक अनुक्रम दिया गया है, जिसमें से एक पद लुप्त है। दिए गए विकल्पों में से वह सही विकल्प चुनिए, जो अनुक्रम को पूरा करे। ABCD, HGLO, OLUZ, VQDK, ?",
+      "options_en": ["CYQR", "CVMV", "RTQV", "CMVQ", "Not Attempted"],
+      "options_hi": ["CYQR", "CVMV", "RTQV", "CMVQ", "अनुत्तरित प्रश्न"],
+      "answer": 1,
+      "explanation": "Answer key marks option 2. The next term is CVMV."
+    },
+    {
+      "id": 29,
+      "section": "Reasoning - Odd One Out",
+      "q_en": "Which letter combination does not belong to the group?",
+      "q_hi": "कौन सा अक्षर-संयोजन उस समूह से संबंधित नहीं है?",
+      "options_en": ["IRMT", "YBXR", "PKSM", "WDLF", "Not Attempted"],
+      "options_hi": ["IRMT", "YBXR", "PKSM", "WDLF", "अनुत्तरित प्रश्न"],
+      "answer": 0,
+      "explanation": "Answer key marks option 1."
+    },
+    {
+      "id": 30,
+      "section": "Reasoning - Dictionary Order",
+      "q_en": "Select the option that gives the correct order of the following words as they appear in an English dictionary: Laudanum, Lattice, Laudation, Latterly, Laudable",
+      "q_hi": "उस विकल्प का चयन कीजिए जो दिए गए शब्दों के उस सही क्रम को निरूपित करता है जिसमें वे अंग्रेजी शब्दकोश में आते हैं। Laudanum, Lattice, Laudation, Latterly, Laudable",
+      "options_en": ["2, 4, 5, 3, 1", "4, 2, 3, 1, 5", "4, 2, 5, 1, 3", "2, 4, 1, 5, 3", "Not Attempted"],
+      "options_hi": ["2, 4, 5, 3, 1", "4, 2, 3, 1, 5", "4, 2, 5, 1, 3", "2, 4, 1, 5, 3", "अनुत्तरित प्रश्न"],
+      "answer": 2,
+      "explanation": "Answer key marks option 3."
+    },
+    {
+      "id": 31,
+      "section": "English Grammar - Error Detection",
+      "q_en": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. They will go to bed / early since they / have to get up / at five on the morning.",
+      "q_hi": "निम्नलिखित वाक्य को चार भागों में विभाजित किया गया है। वह खंड पहचानिए जिसमें व्याकरणिक त्रुटि है। They will go to bed / early since they / have to get up / at five on the morning.",
+      "options_en": [
+        "They will go to bed",
+        "early since they",
+        "at five on the morning",
+        "have to get up",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "They will go to bed",
+        "early since they",
+        "at five on the morning",
+        "have to get up",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "The answer key marks option 3. The error is in 'at five on the morning'; it should be 'in the morning'."
+    },
+    {
+      "id": 32,
+      "section": "English Vocabulary - One Word Substitute",
+      "q_en": "Select the option that can be used as a one-word substitute for the given group of words/phrase. Adjust or make right; correct, amend",
+      "q_hi": "दिए गए शब्द समूह/वाक्यांश के लिए एक-शब्द विकल्प चुनिए। Adjust or make right; correct, amend",
+      "options_en": [
+        "Rectify",
+        "Recreate",
+        "Recourse",
+        "Recruit",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "Rectify",
+        "Recreate",
+        "Recourse",
+        "Recruit",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "The answer key marks option 1. 'Rectify' means to correct or amend."
+    },
+    {
+      "id": 33,
+      "section": "English Grammar - Direct/Indirect Speech",
+      "q_en": "Select the correct indirect form of the given sentence. She said, 'She must leave all the bad habits.'",
+      "q_hi": "दिए गए वाक्य का सही indirect form चुनिए। She said, 'She must leave all the bad habits.'",
+      "options_en": [
+        "She said that she had to leave all the bad habits.",
+        "She said that she must have leave all the bad habits.",
+        "She said she has to leave all the bad habits.",
+        "She said that she could leave all the bad habits.",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "She said that she had to leave all the bad habits.",
+        "She said that she must have leave all the bad habits.",
+        "She said she has to leave all the bad habits.",
+        "She said that she could leave all the bad habits.",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "The answer key marks option 1. In indirect speech, 'must' changes to 'had to' here."
+    },
+    {
+      "id": 34,
+      "section": "English Vocabulary - One Word Substitute",
+      "q_en": "One-word substitute for the given group of words. Having or showing an excessively high opinion of one's appearance, abilities, or worth",
+      "q_hi": "दिए गए शब्द समूह का एक-शब्द विकल्प। अपने रूप, क्षमता या मूल्य के बारे में अत्यधिक ऊँची राय रखने या दिखाने वाला",
+      "options_en": [
+        "Vain",
+        "Domineering",
+        "Otiose",
+        "Superior",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "Vain",
+        "Domineering",
+        "Otiose",
+        "Superior",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "The answer key marks option 1. 'Vain' matches the meaning."
+    },
+    {
+      "id": 35,
+      "section": "English Vocabulary - Spelling",
+      "q_en": "Select the INCORRECTLY spelt word.",
+      "q_hi": "गलत वर्तनी वाले शब्द का चयन करें।",
+      "options_en": [
+        "Belief",
+        "Beneth",
+        "Belly",
+        "Bellow",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "Belief",
+        "Beneth",
+        "Belly",
+        "Bellow",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "The answer key marks option 2. The correct spelling is 'beneath'."
+    },
+    {
+      "id": 36,
+      "section": "English Vocabulary - Synonym",
+      "q_en": "Select the most appropriate synonym of the given word. Magnify",
+      "q_hi": "दिए गए शब्द का सबसे उपयुक्त समानार्थी चुनिए। Magnify",
+      "options_en": [
+        "Underemphasise",
+        "Expand",
+        "Miniature",
+        "Magnanimous",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "Underemphasise",
+        "Expand",
+        "Miniature",
+        "Magnanimous",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "The answer key marks option 2. 'Expand' is the correct synonym."
+    },
+    {
+      "id": 37,
+      "section": "English Usage - Idiom/Collocation",
+      "q_en": "Although I have a good job, I wish to take the ___ of starting my own business.",
+      "q_hi": "Although I have a good job, I wish to take the ___ of starting my own business.",
+      "options_en": [
+        "look",
+        "risk",
+        "seat",
+        "back",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "look",
+        "risk",
+        "seat",
+        "back",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "The answer key marks option 2. The correct phrase is 'take the risk'."
+    },
+    {
+      "id": 38,
+      "section": "English Usage - Idiom/Collocation",
+      "q_en": "One must learn to ____ a line between one’s private and professional life.",
+      "q_hi": "व्यक्तिगत और पेशेवर जीवन के बीच एक सीमा रेखा तय करना सीखना चाहिए।",
+      "options_en": [
+        "get",
+        "catch",
+        "bring",
+        "draw",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "get",
+        "catch",
+        "bring",
+        "draw",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "The answer key marks option 4. The correct phrase is 'draw a line'."
+    },
+    {
+      "id": 39,
+      "section": "English Grammar - Sentence Rearrangement",
+      "q_en": "Rearrange the parts of the sentence in correct order. There are P. reports that toy shops and other Q. to prepare for the Christmas rush R. non-food retailers are struggling to S. get enough stock into their warehouses",
+      "q_hi": "वाक्य के भागों को सही क्रम में व्यवस्थित कीजिए। There are P. reports that toy shops and other Q. to prepare for the Christmas rush R. non-food retailers are struggling to S. get enough stock into their warehouses",
+      "options_en": [
+        "QRPS",
+        "RPSQ",
+        "PRSQ",
+        "SQRP",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "QRPS",
+        "RPSQ",
+        "PRSQ",
+        "SQRP",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "The answer key marks option 3. The correct order is PRSQ."
+    },
+    {
+      "id": 40,
+      "section": "English Vocabulary - Word Meaning",
+      "q_en": "Be it a chaat or a refreshing lemonade, lemon is the need of the hour in ___ summers.",
+      "q_hi": "चाहे चाट हो या ताज़ा नींबू पानी, नींबू ___ गर्मियों की आवश्यकता है।",
+      "options_en": [
+        "scorching",
+        "freezing",
+        "alleviating",
+        "banging",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "scorching",
+        "freezing",
+        "alleviating",
+        "banging",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "The answer key marks option 1. 'Scorching summers' is the correct phrase."
+    },
+    {
+      "id": 41,
+      "section": "English Vocabulary - Idiom",
+      "q_en": "Beat around the bush",
+      "q_hi": "Beat around the bush",
+      "options_en": [
+        "Avoid praising someone and demean",
+        "Avoid saying what you mean, usually because it is not funny",
+        "Avoid using foul words to make someone uncomfortable",
+        "Avoid the main point by talking in a roundabout way",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "किसी की प्रशंसा करने से बचना और उसे नीचा दिखाना",
+        "जो आप कहना चाहते हैं उसे सीधे न कहना, आमतौर पर इसलिए क्योंकि यह मज़ेदार नहीं होता",
+        "अशोभनीय शब्दों का प्रयोग कर किसी को असहज करना",
+        "मुख्य बात को घुमाकर कहना",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key on the last page marks option 4. 1"
+    },
+    {
+      "id": 42,
+      "section": "Vehicle Registration",
+      "q_en": "Except commercial vehicles, the normal registration period of all other vehicles is how many years?",
+      "q_hi": "वाणिज्यिक वाहनों को छोड़कर शेष सभी वाहनों का पंजीकरण सामान्यतः कितने वर्षों के लिए होता है?",
+      "options_en": [
+        "5",
+        "15",
+        "10",
+        "20",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "5",
+        "15",
+        "10",
+        "20",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 2,
+      "explanation": "Answer key on the last page marks option 3. 2"
+    },
+    {
+      "id": 43,
+      "section": "First Aid",
+      "q_en": "What should be done immediately when a minor burn occurs and blisters have not formed?",
+      "q_hi": "थोड़ा जलने पर, जब फफोले न पड़े हों, तत्काल क्या करना चाहिए?",
+      "options_en": [
+        "Immerse the burned part in cold water immediately",
+        "Wrap a cloth around the burned part",
+        "Apply oil on the burned part",
+        "Apply mud on the burned part",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "जले हुए भाग को तुरंत ठंडे पानी में डुबो देना चाहिए",
+        "जले हुए भाग पर कपड़ा बाँध देना चाहिए",
+        "जले हुए भाग पर तेल लगाना चाहिए",
+        "जले हुए भाग पर मिट्टी लगानी चाहिए",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "Answer key on the last page marks option 1. 3"
+    },
+    {
+      "id": 44,
+      "section": "Vehicle Registration",
+      "q_en": "In vehicle registration number UP15-1249, what does 15 indicate?",
+      "q_hi": "वाहन पंजीकरण संख्या UP15-1249 में 15 किसका संकेत करता है?",
+      "options_en": [
+        "State",
+        "District of the state",
+        "Vehicle number",
+        "None of these",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "राज्य",
+        "राज्य की जनपद का",
+        "वाहन की संख्या",
+        "इनमें से कोई नहीं",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key on the last page marks option 2. 4"
+    },
+    {
+      "id": 45,
+      "section": "First Aid - Burns",
+      "q_en": "If blisters form after burning, what should be done?",
+      "q_hi": "जलने पर फफोले बन जाएँ, तो क्या करना चाहिए?",
+      "options_en": [
+        "Clean it with antiseptic solution",
+        "Apply silver sulfadiazine on the affected part",
+        "Use a little gentian violet",
+        "All of the above",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "एंटीसेप्टिक घोल से साफ करना चाहिए",
+        "प्रभावित अंग पर सिल्वर सल्फाडायजीन लगाना चाहिए",
+        "थोड़ा सा जेनशियन बैंगनी का भी प्रयोग कर सकते हैं",
+        "उपरोक्त सभी बातों पर ध्यान देना चाहिए",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key on the last page marks option 4. 5"
+    },
+    {
+      "id": 46,
+      "section": "Vehicle Registration - Diplomatic Vehicles",
+      "q_en": "Foreign diplomats are exempted from vehicle registration. What must they write on the vehicle?",
+      "q_hi": "विदेशी राजनयिकों का वाहन पंजीकरण में छूट प्राप्त है, उन्हें अपने वाहन पर क्या लिखना होता है?",
+      "options_en": [
+        "A.D.",
+        "B.D.",
+        "C.D.",
+        "Both B and C",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "ए डी",
+        "बी डी",
+        "सी डी",
+        "दोनों B और C",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 3,
+      "explanation": "Answer key on the last page marks option 4. 6"
+    },
+    {
+      "id": 47,
+      "section": "Maths - Work and Time",
+      "q_en": "Reta can fill a pit in 14 days, while Vivaan can fill it in 35 days. Ali can empty a filled pit in 12 days. If all three start together on an empty pit, in how many days will the pit be filled again?",
+      "q_hi": "14 दिनों में रेत के एक गड्ढे को भर सकता है जबकि विवान को इसे भरने के लिए 35 दिन लगते हैं। अली 12 दिनों में एक भरे हुए गड्ढे को पूरी तरह खाली कर सकता है। यदि खाली गड्ढे में तीनों एक साथ कार्य शुरू करते हैं, तो गड्ढा फिर से कितने दिनों में भर जाएगा?",
+      "options_en": [
+        "60",
+        "62",
+        "61",
+        "56",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "60",
+        "62",
+        "61",
+        "56",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 0,
+      "explanation": "Answer key on the last page marks option 1. 7"
+    },
+    {
+      "id": 48,
+      "section": "Maths - Fractions",
+      "q_en": "Arun has to find 6/7 of a fraction. Instead of multiplying, he divided the fraction by 6/7 and obtained a result that was 13/70 more than the actual value. Find the fraction.",
+      "q_hi": "अरुण को भिन्न का 6/7 ज्ञात करना है। गुणा करने के बजाय, उसने भिन्न को 6/7 से विभाजित किया और प्राप्त परिणाम वास्तविक मान से 13/70 अधिक था। भिन्न को ज्ञात कीजिए।",
+      "options_en": [
+        "7/8",
+        "3/5",
+        "3/7",
+        "5/7",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "7/8",
+        "3/5",
+        "3/7",
+        "5/7",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key on the last page marks option 2. 8"
+    },
+    {
+      "id": 49,
+      "section": "Maths - Mensuration",
+      "q_en": "Two rectangles have the same area, which is 480 sq. cm. Their lengths differ by 6 cm and their widths differ by 4 cm. What is the difference in their perimeters?",
+      "q_hi": "दो आयत समान क्षेत्रफल के हैं, जो 480 वर्ग सेमी के बराबर है। उनकी लंबाई में 6 सेमी और चौड़ाई में 4 सेमी का अंतर है। उनके परिमाप में कितना अंतर है?",
+      "options_en": [
+        "2 cm",
+        "4 cm",
+        "6 cm",
+        "10 cm",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "2 सेमी",
+        "4 सेमी",
+        "6 सेमी",
+        "10 सेमी",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key on the last page marks option 2. 9"
+    },
+    {
+      "id": 50,
+      "section": "Maths - Compound Interest",
+      "q_en": "What is the compound interest on Rs. 24,000 for 18 months at 10% per annum, compounded half-yearly?",
+      "q_hi": "24,000 रुपये पर 18 महीनों के लिए 10% प्रति वर्ष की दर से अर्ध-वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज क्या है?",
+      "options_en": [
+        "Rs. 3,757",
+        "Rs. 3,783",
+        "Rs. 3,845",
+        "Rs. 3,700",
+        "Not Attempted"
+      ],
+      "options_hi": [
+        "3,757 रुपये",
+        "3,783 रुपये",
+        "3,845 रुपये",
+        "3,700 रुपये",
+        "अनुत्तरित प्रश्न"
+      ],
+      "answer": 1,
+      "explanation": "Answer key on the last page marks option 2. 10"
+    },
