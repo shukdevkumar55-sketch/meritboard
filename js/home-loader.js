@@ -2,7 +2,7 @@
  * Project: MeritBoard Universal
  * File: js/home-loader.js
  * Description: Loads Homepage Sections (Quiz, Books, Videos, etc.) with Sliders
- * Status: Verified & Complete
+ * Status: Verified & Complete (Latest Content First)
  */
 
 const DATA_URL = './data/content.json';
@@ -14,8 +14,13 @@ async function initHomePage() {
     try {
         const response = await fetch(DATA_URL);
         if (!response.ok) throw new Error("Failed to load content data");
-        
+
         const data = await response.json();
+        
+        // 🔥 UPDATE 1: Data fetch hote hi array ko completely reverse kar diya gaya hai.
+        // Isse aap JSON mein jo bhi naya data end mein add karenge, wo top par aayega.
+        data.reverse();
+
         renderSections(data);
 
     } catch (error) {
@@ -73,8 +78,9 @@ function renderSections(allData) {
         });
 
         if (items.length > 0) {
-            // Show newest 8 items
-            const recentItems = items.reverse().slice(0, 8);
+            // 🔥 UPDATE 2: Kyunki pura data shuru mein hi reverse ho chuka hai,
+            // ab hume sirf shuruati 8 items lene hain bina dubara reverse kiye.
+            const recentItems = items.slice(0, 8);
             const sectionHTML = createSectionHTML(sec, recentItems);
             MAIN_CONTAINER.insertAdjacentHTML('beforeend', sectionHTML);
         }
@@ -105,7 +111,7 @@ function createSectionHTML(sec, items) {
 function createCard(item) {
     // 3. Smart Linking Logic
     let targetPage = 'view.html'; // Default
-    
+
     if (item.type === 'quiz') {
         targetPage = 'quiz-view.html';
     } 
@@ -120,11 +126,11 @@ function createCard(item) {
 
     // 4. Style Configuration
     let config = { icon: '📄', btn: 'View', cls: 'btn-outline', col: '#607d8b' };
-    
+
     if (item.type === 'quiz') config = { icon: '⏱️', btn: 'Start Test', cls: 'btn-quiz', col: '#1A237E' };
     if (item.type === 'video') config = { icon: '▶️', btn: 'Watch', cls: 'btn-video', col: '#c0392b' };
     if (item.type === 'pdf') config = { icon: '⬇️', btn: 'Download', cls: 'btn-pdf', col: '#27ae60' };
-    
+
     if (item.type === 'blog' || item.type === 'article') {
         config = { icon: '📰', btn: 'Read', cls: 'btn-blog', col: '#e67e22' };
     }
