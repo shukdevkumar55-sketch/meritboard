@@ -1,0 +1,24 @@
+{
+  "global_client": "ca-pub-XXXXXXXXXXXXXXXX",
+  "slots": {
+    "top-banner": {
+      "type": "adsense",
+      "desktop": { "slot": "1111111111", "style": "display:inline-block;width:728px;height:90px" },
+      "tablet": { "slot": "2222222222", "style": "display:inline-block;width:468px;height:60px" },
+      "mobile": { "slot": "3333333333", "style": "display:inline-block;width:320px;height:100px" }
+    },
+    "sidebar-sponsor": {
+      "type": "sponsored",
+      "desktop": { 
+        "img": "/assets/quizzes/20260408_143319.jpg", 
+        "link": "https://example.com", 
+        "alt": "Sponsor Desktop" 
+      },
+      "mobile": { 
+        "img": "/assets/ads-banner/20260408_153438.jpg", 
+        "link": "https://r.navi.com/jbQdKC", 
+        "alt": "NAVI UPI Sponsor Mobile" 
+      }
+    }
+  }
+}
