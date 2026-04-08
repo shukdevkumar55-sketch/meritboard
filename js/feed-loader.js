@@ -143,7 +143,7 @@ function applyFilters() {
     
     if (sortMode === 'newest') {
         // Assuming newer items are at the bottom of JSON, reverse them
-        results.reverse(); 
+       
     } else if (sortMode === 'az') {
         // Sort Alphabetically
         results.sort((a, b) => a.title.localeCompare(b.title));
