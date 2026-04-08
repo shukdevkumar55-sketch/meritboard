@@ -19,7 +19,7 @@ async function initHomePage() {
         
         // 🔥 UPDATE 1: Data fetch hote hi array ko completely reverse kar diya gaya hai.
         // Isse aap JSON mein jo bhi naya data end mein add karenge, wo top par aayega.
-        data.reverse();
+        
 
         renderSections(data);
 
