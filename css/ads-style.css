@@ -1,0 +1,42 @@
+/* --- Core Ad Container --- */
+.dynamic-ad-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+    clear: both;
+    min-height: 50px; /* Base height */
+}
+
+/* --- Ad Label --- */
+.dynamic-ad-slot::before {
+    content: "ADVERTISEMENT";
+    display: block;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+/* --- Responsive Layout Control (CLS Prevention) --- */
+@media screen and (min-width: 1024px) {
+    .dynamic-ad-slot[data-ad-id="top-banner"] { min-height: 125px; }
+}
+
+@media screen and (max-width: 600px) {
+    .dynamic-ad-slot[data-ad-id="top-banner"] { min-height: 135px; }
+    .dynamic-ad-slot ins, .dynamic-ad-slot img { max-width: 100% !important; }
+}
+
+/* --- Sponsor Ad Styling --- */
+.dynamic-ad-slot a img {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.dynamic-ad-slot a:hover img {
+    transform: scale(1.01);
+}
