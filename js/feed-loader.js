@@ -143,7 +143,7 @@ function applyFilters() {
     
     if (sortMode === 'newest') {
         // Assuming newer items are at the bottom of JSON, reverse them
-       
+        
     } else if (sortMode === 'az') {
         // Sort Alphabetically
         results.sort((a, b) => a.title.localeCompare(b.title));
@@ -184,7 +184,11 @@ function createFeedCard(item) {
     if (item.type === 'quiz') {
         targetPage = 'quiz-view.html';
     } 
-    else if (['blog', 'article', 'book', 'pdf', 'video'].includes(item.type)) {
+    
+    if (item.type === 'book') {
+        targetPage = 'book-view.html';
+    } 
+    else if (['blog', 'article', 'pdf', 'video'].includes(item.type)) {
         targetPage = 'article-view.html';
     }
 
