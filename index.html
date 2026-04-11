@@ -32,7 +32,7 @@
     <meta property="og:site_name" content="MeritBoard">
     <meta property="og:title" content="MeritBoard - Prepare. Learn. Succeed.">
     <meta property="og:description" content="Free access to high-quality quizzes, video lectures, and study notes.">
-    <meta property="og:image" content="https://meritboard.vercel.app/assets/Og-image.webp"> 
+    <meta property="og:image" content="https://meritboard.vercel.app/assets/meritboard-og-image.webp"> 
     <meta property="og:url" content="https://meritboard.vercel.app">
     <meta property="og:locale" content="en_US">
 
@@ -47,6 +47,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/affiliate-style.css">
+
 
     <script type="application/ld+json">
     [
@@ -186,6 +188,68 @@
 .lc-visual i { font-size: 8rem; opacity: 0.2; position: absolute; right: 20px; bottom: -20px; transform: rotate(-15deg); }
 </style>
 
+<section class="affiliate-section container" id="homeAffiliatePreview">
+    <div class="section-header">
+        <h2 class="section-title">Popular Recommendations 🛍️</h2>
+        <a href="affiliate-hub.html" class="view-all-link">Visit Shop Hub →</a>
+    </div>
+    
+    <div class="horizontal-slider" id="featuredProductsSlider">
+        <div class="skeleton-card" style="min-width:200px; height:250px; background:#eee; border-radius:12px;"></div>
+    </div>
+</section>
+
+<!-- MeritBoard Tools interlinked -->
+<section class="mlabs-wrapper">
+    <div class="container">
+        <div class="mlabs-header-flex">
+            <div class="mlabs-title-area">
+                <span class="mlabs-badge">Utility Hub</span>
+                <h2 class="mlabs-main-title">MeritBoard <span class="mlabs-highlight">Labs</span></h2>
+                <p class="mlabs-desc">Powerful calculations & smart tools for your daily tasks.</p>
+            </div>
+            <a href="tools.html" class="mlabs-view-btn">View Toolkit <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="mlabs-grid">
+            <a href="tools/data/health/bmi-calculator/bmi.html" class="mlabs-card">
+                <div class="mlabs-icon-box mlabs-blue">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <div class="mlabs-info">
+                    <h3>BMI Calculator</h3>
+                    <p>Track your health status instantly.</p>
+                </div>
+                <div class="mlabs-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <a href="tools.html" class="mlabs-card">
+                <div class="mlabs-icon-box mlabs-purple">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+                <div class="mlabs-info">
+                    <h3>Smart Calc</h3>
+                    <p>Advanced math made simple.</p>
+                </div>
+                <div class="mlabs-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <a href="tools.html" class="mlabs-card">
+                <div class="mlabs-icon-box mlabs-teal">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                </div>
+                <div class="mlabs-info">
+                    <h3>EMI Tool</h3>
+                    <p>Plan your finances accurately.</p>
+                </div>
+                <div class="mlabs-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- MeritBoard Tools interlinked end -->
+
+<script src="js/bags-loader.js"></script>
     <footer id="dynamicFooter" class="site-footer">
         <div class="container" style="text-align:center; opacity:0.6;">
             Loading Footer...
@@ -195,6 +259,7 @@
     <script src="js/app-core.js"></script> 
     <script src="js/home-loader.js"></script>
     <script src="/js/ad-manager.js"></script>
+    <script src="/js/affiliate-loader.js"></script>
 
 
 </body>
