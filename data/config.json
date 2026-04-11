@@ -14,7 +14,8 @@
     { "id": "quizzes", "label": "Mock Tests", "link": "/feed.html?type=quiz", "type": "link" },
     { "id": "videos", "label": "Video Classes", "link": "/feed.html?type=video", "type": "link" },
     { "id": "notes", "label": "PDF Notes", "link": "/feed.html?type=pdf", "type": "link" },
-    { "id": "books", "label": "Books", "link": "/feed.html?type=book", "type": "link" }
+    { "id": "books", "label": "Books", "link": "/feed.html?type=book", "type": "link" },
+    { "id": "tools", "label": "MeritBoard Labs", "link": "/tools.html", "type": "link" }
   ],
 
   "footer_sections": {
@@ -32,7 +33,7 @@
       },
       { 
         "platform": "Telegram", 
-        "url": "https://t.me/your_channel", 
+        "url": "https://t.me/meritboard", 
         "icon_class": "fa-brands fa-telegram" 
       }
     ],
