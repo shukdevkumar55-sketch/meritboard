@@ -420,3 +420,132 @@ body.dark-mode .search-item:hover { background: rgba(255,255,255,0.05); }
     font-size: 1.2rem;
 }
 
+
+/* --- MERITBOARD LABS SECTION (NO CONFLICT) --- */
+.mlabs-wrapper {
+    padding: 60px 0;
+    background-color: var(--bg-body); /* Using your existing variable */
+}
+
+.mlabs-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    padding: 0 5px;
+}
+
+.mlabs-badge {
+    background: rgba(26, 35, 126, 0.1);
+    color: var(--primary-color);
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mlabs-main-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: var(--text-main);
+    margin: 8px 0;
+}
+
+.mlabs-highlight { color: var(--accent-color); }
+
+.mlabs-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    max-width: 500px;
+}
+
+.mlabs-view-btn {
+    background: var(--primary-color);
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.mlabs-view-btn:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+/* Grid & Cards */
+.mlabs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.mlabs-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.mlabs-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-5px);
+}
+
+.mlabs-icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+.mlabs-blue { background: #e8eaf6; color: #1a237e; }
+.mlabs-purple { background: #f3e5f5; color: #7b1fa2; }
+.mlabs-teal { background: #e0f2f1; color: #00796b; }
+
+.mlabs-info { margin-left: 15px; }
+.mlabs-info h3 {
+    font-size: 1.05rem;
+    color: var(--text-main);
+    margin: 0;
+}
+.mlabs-info p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 3px;
+}
+
+.mlabs-arrow {
+    margin-left: auto;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.mlabs-card:hover .mlabs-arrow {
+    color: var(--accent-color);
+    transform: translateX(3px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .mlabs-header-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .mlabs-main-title { font-size: 1.5rem; }
+    .mlabs-grid { grid-template-columns: 1fr; }
+    .mlabs-view-btn { width: 100%; text-align: center; }
+}
+
+/* MeritBoard Tools Section Styling end */
