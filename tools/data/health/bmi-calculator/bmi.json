@@ -1,0 +1,20 @@
+{
+  "toolID": "bmi-calculator",
+  "title": "BMI Calculator",
+  "description": "Calculate your Body Mass Index (BMI) to check if your weight is healthy for your height. Get instant results and health tips.",
+  "icon": "fa-solid fa-weight-scale",
+  "category": "Health & Fitness",
+  "version": "1.0.1",
+  "lastUpdated": "2026-04-12",
+  "author": "MeritBoard Team",
+  "meta": {
+    "keywords": ["BMI Calculator", "Body Mass Index", "Health Tool", "Weight Tracker", "Fitness Calculator"],
+    "schemaType": "SoftwareApplication",
+    "applicationCategory": "HealthApplication"
+  },
+  "features": [
+    "Metric & Imperial Units",
+    "Instant Result",
+    "Weight Category Classification"
+  ]
+}
