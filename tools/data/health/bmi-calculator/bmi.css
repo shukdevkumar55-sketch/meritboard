@@ -1,0 +1,371 @@
+/* =========================================
+   Part 1: MeritBoard Core Theme & Hero
+   ========================================= */
+
+/* --- 1. Master Variable Sync --- */
+:root {
+    --mb-primary: #1A237E;
+    --mb-accent: #3D5AFE;
+    --mb-white: #ffffff;
+    --mb-bg-light: #f8fafc;
+    --mb-text-dark: #0f172a;
+    --mb-text-muted: #64748b;
+    --mb-shadow: 0 12px 30px -5px rgba(26, 35, 126, 0.12);
+}
+
+/* Dark Mode Overrides for BMI Page */
+body.dark-mode {
+    --mb-bg-light: #0f172a;
+    --mb-white: #1e293b;
+    --mb-text-dark: #f8fafc;
+    --mb-text-muted: #94a3b8;
+    --mb-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* --- 2. Base Resets --- */
+.tools-page {
+    background-color: var(--mb-bg-light);
+    color: var(--mb-text-dark);
+    margin: 0;
+    transition: background 0.3s ease;
+}
+
+/* --- 3. Professional Hero Section --- */
+.tools-hero {
+    background: linear-gradient(135deg, var(--mb-primary) 0%, #283593 100%) !important;
+    padding: 70px 0 50px !important;
+    text-align: center;
+    color: #ffffff !important; /* Force White for Visibility */
+    border-radius: 0 0 40px 40px;
+}
+
+.tools-hero .hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.tools-hero .highlight {
+    color: #4fc3f7 !important; /* Bright Cyan for contrast on Navy */
+}
+
+.tools-hero .hero-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-top: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive adjustments for Hero */
+@media (max-width: 768px) {
+    .tools-hero .hero-title { font-size: 2rem; }
+    .tools-hero { padding: 50px 15px 40px !important; }
+}
+
+/* =========================================
+   Part 2: Calculator Card & Tab Navigation
+   ========================================= */
+
+/* --- 1. Main Calculator Container --- */
+.calc-card {
+    background: var(--mb-white) !important;
+    border-radius: 28px !important;
+    padding: 35px !important;
+    box-shadow: var(--mb-shadow) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: -45px auto 40px !important; /* Overlap effect on Hero */
+    max-width: 600px;
+    position: relative;
+    z-index: 10;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Hover effect to make it feel premium */
+.calc-card:hover {
+    transform: translateY(-5px);
+}
+
+/* --- 2. Navigation Breadcrumb (Back Button) --- */
+.category-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: rgba(26, 35, 126, 0.08);
+    color: var(--mb-primary) !important;
+    text-decoration: none;
+    border-radius: 14px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+}
+
+.category-back-btn:hover {
+    background: var(--mb-primary);
+    color: #ffffff !important;
+}
+
+/* --- 3. Tab Switcher (Unit Selection) --- */
+.tab-switcher {
+    display: flex;
+    background: rgba(15, 23, 42, 0.05); /* Soft grey background */
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    gap: 5px;
+}
+
+body.dark-mode .tab-switcher {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.tab-btn {
+    flex: 1;
+    border: none;
+    padding: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: transparent;
+    color: var(--mb-text-muted);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tab-btn.active {
+    background: var(--mb-white);
+    color: var(--mb-primary) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode .tab-btn.active {
+    color: #60a5fa !important; /* Light blue for dark mode active state */
+}
+
+/* Mobile adjustments for Card */
+@media (max-width: 480px) {
+    .calc-card {
+        padding: 25px 20px !important;
+        margin: -30px 15px 30px !important;
+        border-radius: 22px !important;
+    }
+}
+
+/* =========================================
+   Part 3: Input Fields & Action Button
+   ========================================= */
+
+/* --- 1. Input Group Styling --- */
+.input-set {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-field label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--mb-primary) !important;
+    padding-left: 4px;
+}
+
+body.dark-mode .input-field label {
+    color: #60a5fa !important; /* Soft blue for readability */
+}
+
+/* --- 2. Input Box Visibility Fix --- */
+input[type="number"] {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff !important;
+    color: #0f172a !important; /* Dark text for contrast */
+    transition: all 0.3s ease;
+}
+
+body.dark-mode input[type="number"] {
+    background: #0f172a !important; /* Dark navy background */
+    border-color: #334155;
+    color: #ffffff !important; /* White text for contrast */
+}
+
+input[type="number"]:focus {
+    border-color: var(--mb-accent);
+    box-shadow: 0 0 0 4px rgba(61, 90, 254, 0.15);
+    outline: none;
+}
+
+/* --- 3. The Calculate Button (Elite Design) --- */
+.calculate-btn {
+    width: 100%;
+    margin-top: 30px;
+    padding: 18px;
+    background: linear-gradient(135deg, var(--mb-primary), var(--mb-accent)) !important;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 20px -6px rgba(26, 35, 126, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.calculate-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px -5px rgba(26, 35, 126, 0.5);
+    filter: brightness(1.1);
+}
+
+.calculate-btn:active {
+    transform: scale(0.96);
+}
+
+/* Mobile Row Fix */
+@media (max-width: 480px) {
+    .input-row {
+        gap: 10px;
+    }
+}
+
+/* =========================================
+   Part 4: Results, BMI Scale & SEO Content
+   ========================================= */
+
+/* --- 1. Result Display Area --- */
+.result-area {
+    margin-top: 40px;
+    padding: 30px 20px;
+    background: rgba(26, 35, 126, 0.04) !important;
+    border-radius: 24px;
+    text-align: center;
+    border: 1px dashed rgba(61, 90, 254, 0.3);
+    animation: slideUp 0.5s ease-out;
+}
+
+body.dark-mode .result-area {
+    background: rgba(255, 255, 255, 0.03) !important;
+}
+
+#bmi-value {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: var(--mb-primary) !important;
+    letter-spacing: -2px;
+    margin: 10px 0;
+}
+
+body.dark-mode #bmi-value {
+    color: #ffffff !important;
+}
+
+.result-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--mb-text-muted) !important;
+    text-transform: uppercase;
+}
+
+.status-pill {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 100px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    background: var(--mb-primary);
+    color: #ffffff !important;
+    margin-bottom: 25px;
+}
+
+/* --- 2. BMI Scale & Pointer --- */
+.scale-wrapper {
+    position: relative;
+    margin: 40px 10px 20px;
+}
+
+.bmi-gradient-bar {
+    display: flex;
+    height: 12px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: #e2e8f0;
+}
+
+.bar-segment { flex: 1; }
+.uweight { background: #f97316; } /* Underweight */
+.normal  { background: #10b981; } /* Healthy */
+.oweight { background: #f59e0b; } /* Overweight */
+.obese   { background: #ef4444; } /* Obese */
+
+.pointer-triangle {
+    position: absolute;
+    top: -18px;
+    width: 0; height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid var(--mb-text-dark);
+    transform: translateX(-50%);
+    transition: left 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* --- 3. SEO Content Visibility --- */
+.seo-content {
+    margin-top: 60px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 40px;
+}
+
+body.dark-mode .seo-content {
+    border-color: rgba(255,255,255,0.1);
+}
+
+.seo-content h2, .seo-content h3 {
+    color: var(--mb-primary) !important;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+body.dark-mode .seo-content h2, 
+body.dark-mode .seo-content h3 {
+    color: #60a5fa !important;
+}
+
+.seo-content p, .seo-content li {
+    color: var(--mb-text-muted) !important;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+body.dark-mode .seo-content p, 
+body.dark-mode .seo-content li {
+    color: #cbd5e1 !important;
+}
+
+/* --- 4. Animations --- */
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
