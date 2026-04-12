@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HR7E9KB7EL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date()); gtag('config', 'G-HR7E9KB7EL');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <title>Ideal Body Weight (IBW) Calculator - Advanced Health Tool | MeritBoard</title>
+    <meta name="description" content="Calculate your exact Ideal Body Weight (IBW) using clinical formulas: Devine, Hamwi, Robinson, and Miller. Includes WHO healthy weight range and body frame adjustments.">
+    <meta name="author" content="Sukhdev Dahiya">
+    
+    <link rel="canonical" href="https://meritboard.vercel.app/tools/data/health/ibw-calculator/ibw.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta name="theme-color" content="#1A237E"> 
+    <meta name="msapplication-navbutton-color" content="#1A237E">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1A237E">
+
+    <meta name="keywords" content="IBW Calculator, Ideal Body Weight, Hamwi Formula, Devine Formula, Miller Formula, Robinson Formula, Body Frame Weight, MeritBoard Health Tools">
+    <meta name="application-name" content="MeritBoard IBW Calculator">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MeritBoard">
+    <meta property="og:title" content="Ideal Body Weight (IBW) Calculator - Advanced Health Tool">
+    <meta property="og:description" content="Discover your clinically accurate ideal weight based on height, gender, and body frame size.">
+    <meta property="og:url" content="https://meritboard.vercel.app/tools/data/health/ibw-calculator/ibw.html">
+    <meta property="og:image" content="https://meritboard.vercel.app/assets/ibw-calculator-og-image.webp">
+    <meta property="og:image:alt" content="MeritBoard IBW Calculator preview">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IBW Calculator - Advanced Health Tool | MeritBoard">
+    <meta name="twitter:description" content="Calculate your ideal weight instantly with our clinical-grade online health calculator.">
+    <meta name="twitter:image" content="https://meritboard.vercel.app/assets/ibw-calculator-og-image.webp">
+    <meta name="twitter:image:alt" content="MeritBoard IBW Calculator preview">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+    
+    <link rel="icon" type="image/jpg" sizes="32x32" href="/assets/favicon-32x32.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="/assets/favicon-16x16.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/tools/home.css"> 
+    <link rel="stylesheet" href="ibw.css"> 
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MeritBoard IBW Calculator",
+      "description": "Professional Ideal Body Weight measurement using 4 clinical formulas.",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "url": "https://meritboard.vercel.app/tools/data/health/ibw-calculator/ibw.html"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Ideal Body Weight (IBW) Calculator - Advanced Health Tool | MeritBoard",
+      "url": "https://meritboard.vercel.app/tools/data/health/ibw-calculator/ibw.html",
+      "description": "Calculate your exact Ideal Body Weight (IBW) using clinical formulas and a WHO healthy weight range.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "MeritBoard",
+        "url": "https://meritboard.vercel.app/"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://meritboard.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools Hub",
+          "item": "https://meritboard.vercel.app/tools/home.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IBW Calculator",
+          "item": "https://meritboard.vercel.app/tools/data/health/ibw-calculator/ibw.html"
+        }
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between IBW and BMI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BMI compares weight to height, while IBW estimates a healthy target weight based on height, gender, and body frame."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which IBW formula is most accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No single formula is perfect for everyone. Different formulas can be useful in different situations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do different formulas show different results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each formula uses a different method and was created from different assumptions, so the results can vary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can muscular people be above their IBW?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IBW does not fully account for muscle mass, so athletic or muscular people may weigh more and still be healthy."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="tools-page">
+
+    <div id="dynamic-header-container"></div>
+
+    <section class="hero-wrapper tools-hero">    
+        <div class="container hero-content">    
+            <h1 class="hero-title">IBW <span class="highlight">Calculator</span></h1>    
+            <p class="hero-subtitle">Clinical-grade Ideal Body Weight estimation for your exact body frame.</p>
+            <p class="page-meta" style="margin-top: 10px; font-size: 0.92rem; opacity: 0.8;">Written by Sukhdev Dahiya • Updated April 2026</p>
+        </div>    
+    </section>
+    
+    <div class="container cat-nav-container" style="margin-top: 20px;">
+        <a href="/tools/home.html" class="category-back-btn" style="text-decoration: none; font-weight: 600;">
+            <i class="fa-solid fa-arrow-left"></i> Back to Tools Hub
+        </a>
+    </div>
+
+    <main class="main-feed container">
+        <div class="calc-card">
+            <div class="tab-switcher">
+                <button class="tab-btn active" onclick="switchUnit('metric')">Metric (kg/cm)</button>
+                <button class="tab-btn" onclick="switchUnit('imperial')">Imperial (lb/ft)</button>
+            </div>
+
+            <div class="gender-toggle-wrapper">
+                <div class="gender-btn active" id="btn-male" onclick="selectGender('male')">
+                    <i class="fa-solid fa-mars"></i> Male
+                </div>
+                <div class="gender-btn" id="btn-female" onclick="selectGender('female')">
+                    <i class="fa-solid fa-venus"></i> Female
+                </div>
+            </div>
+
+            <div id="metric-inputs" class="input-set">
+                <div class="input-row" style="display: flex; gap: 15px;">
+                    <div class="input-field" style="flex: 1;">
+                        <label>Current Weight (kg) <span style="font-size: 0.75rem; opacity: 0.7;">(Optional)</span></label>
+                        <input type="number" id="m-weight" placeholder="e.g. 75" step="0.1">
+                    </div>
+                    <div class="input-field" style="flex: 1;">
+                        <label>Height (cm)</label>
+                        <input type="number" id="m-height" placeholder="e.g. 175">
+                    </div>
+                </div>
+            </div>
+
+            <div id="imperial-inputs" class="input-set hidden">
+                <div class="input-field">
+                    <label>Current Weight (lbs) <span style="font-size: 0.75rem; opacity: 0.7;">(Optional)</span></label>
+                    <input type="number" id="i-weight" placeholder="e.g. 165">
+                </div>
+                <div class="input-row" style="display: flex; gap: 15px;">
+                    <div class="input-field" style="flex: 1;">
+                        <label>Height (ft)</label>
+                        <input type="number" id="i-height-ft" placeholder="5">
+                    </div>
+                    <div class="input-field" style="flex: 1;">
+                        <label>Height (in)</label>
+                        <input type="number" id="i-height-in" placeholder="9">
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-field" style="margin-top: 20px;">
+                <label>Body Frame Size <i class="fa-solid fa-circle-info" title="Adjusts calculation by 10%"></i></label>
+                <select id="frame-size" class="custom-dropdown">
+                    <option value="small">Small Frame (-10%)</option>
+                    <option value="medium" selected>Medium Frame (Standard)</option>
+                    <option value="large">Large Frame (+10%)</option>
+                </select>
+            </div>
+
+            <button class="calculate-btn" onclick="calculateIBW()" id="calc-trigger">
+                Calculate Ideal Weight <i class="fa-solid fa-scale-balanced"></i>
+            </button>
+
+            <div id="result-area" class="result-area hidden">
+                <p class="result-label">Average Ideal Weight</p>
+                <h2 id="ibw-main-value">00.0 <span style="font-size: 1.5rem;">kg</span></h2>
+                
+                <div id="goal-indicator" class="status-pill hidden">Analyzing target...</div>
+
+                <div class="advanced-grid">
+                    <div class="formula-card">
+                        <span class="f-title">Robinson Formula</span>
+                        <strong class="f-value" id="val-robinson">--</strong>
+                    </div>
+                    <div class="formula-card">
+                        <span class="f-title">Miller Formula</span>
+                        <strong class="f-value" id="val-miller">--</strong>
+                    </div>
+                    <div class="formula-card">
+                        <span class="f-title">Devine Formula</span>
+                        <strong class="f-value" id="val-devine">--</strong>
+                    </div>
+                    <div class="formula-card">
+                        <span class="f-title">Hamwi Formula</span>
+                        <strong class="f-value" id="val-hamwi">--</strong>
+                    </div>
+                </div>
+
+                <div class="who-range-container">
+                    <div class="who-header">
+                        <i class="fa-solid fa-heart-pulse"></i> WHO Healthy Weight Range
+                    </div>
+                    <div class="who-value" id="who-range-val">-- kg to -- kg</div>
+                    <p class="who-subtext">Based on a healthy BMI range of 18.5 - 24.9</p>
+                </div>
+            </div>
+        </div>
+
+        <article class="ibw-content" style="margin-top: 40px; line-height: 1.6;">
+            <h2>Understanding Ideal Body Weight (IBW)</h2>
+            <p>While BMI measures your overall body mass, the Ideal Body Weight (IBW) calculator uses specific clinical formulas to estimate the optimal weight for your height, gender, and bone structure (frame size).</p>
+            
+            <div class="info-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+                <div class="info-box" style="background: var(--bg-card); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="color: var(--accent-color);"><i class="fa-solid fa-vial"></i> Clinical Significance</h3>
+                    <p style="font-size: 0.9rem;">Formulas like <strong>Devine (1974)</strong> are universally used by doctors and pharmacists to calculate dosages for certain medications that do not distribute into body fat.</p>
+                </div>
+                <div class="info-box" style="background: var(--bg-card); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="color: var(--accent-color);"><i class="fa-solid fa-person-running"></i> Fitness & Athletics</h3>
+                    <p style="font-size: 0.9rem;">The <strong>Hamwi (1964)</strong> and <strong>Robinson (1983)</strong> formulas are frequently utilized in fitness industries to set baseline weight goals before accounting for muscle hypertrophy.</p>
+                </div>
+            </div>
+
+            <div class="disclaimer" style="background: #e3f2fd; padding: 15px; border-radius: 8px; border-left: 4px solid #1A237E; color: #0d47a1; font-size: 0.9rem; margin-top: 20px;">
+                <strong>Medical Disclaimer:</strong> This tool provides an estimate based on height and frame. It does not account for an individual's body fat percentage or muscle mass (e.g., bodybuilders will often weigh more than their "ideal" weight). Always consult a healthcare professional.
+            </div>
+
+            <div class="faq-section" style="margin-top: 30px;">
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-item" style="margin-top: 16px; background: var(--bg-card); padding: 18px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="margin-bottom: 8px;">What is the difference between IBW and BMI?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7;">BMI compares weight to height, while IBW estimates a healthy target weight based on height, gender, and body frame.</p>
+                </div>
+
+                <div class="faq-item" style="margin-top: 16px; background: var(--bg-card); padding: 18px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="margin-bottom: 8px;">Which IBW formula is most accurate?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7;">No single formula is perfect for everyone. Different formulas are useful in different situations, so comparing results can be helpful.</p>
+                </div>
+
+                <div class="faq-item" style="margin-top: 16px; background: var(--bg-card); padding: 18px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="margin-bottom: 8px;">Why do different formulas show different results?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7;">Each formula was created using different assumptions, so the result can change slightly from one method to another.</p>
+                </div>
+
+                <div class="faq-item" style="margin-top: 16px; background: var(--bg-card); padding: 18px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="margin-bottom: 8px;">Can muscular people be above their IBW?</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7;">Yes. IBW does not fully account for muscle mass, so athletic or muscular people may weigh more and still be healthy.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <div id="dynamic-footer-container"></div>
+
+    <script src="/tools/home-layout.js"></script>
+    <script src="ibw.js"></script>
+
+</body>
+</html>
