@@ -1,0 +1,164 @@
+/* =========================================
+   Project: MeritBoard Tools Lab
+   File: tools/home.css
+   Theme: Universal Sync with MeritBoard
+   ========================================= */
+
+/* --- 1. HERO SECTION (MeritBoard Style) --- */
+.tools-hero {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #283593 100%);
+    color: white;
+    padding: 60px 0 40px;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.tools-hero .highlight {
+    color: var(--accent-color);
+    text-shadow: 0 0 15px rgba(3, 169, 244, 0.4);
+}
+
+.tools-hero .hero-subtitle {
+    opacity: 0.9;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 15px auto 0;
+}
+
+/* --- 2. CATEGORY HEADERS --- */
+.category-section {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+    border-left: 5px solid var(--accent-color); /* MeritBoard Signature Line */
+    padding-left: 15px;
+}
+
+.category-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+/* Dark Mode Fix for Headers */
+body.dark-mode .category-header h2 {
+    color: var(--text-main);
+}
+
+/* --- 3. TOOLS GRID & CARDS --- */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.tool-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    transition: var(--transition);
+    text-decoration: none;
+    box-shadow: var(--shadow-sm);
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent-color);
+}
+
+/* Tool Icon Style */
+.tool-icon-box {
+    width: 56px;
+    height: 56px;
+    background: rgba(26, 35, 126, 0.06);
+    color: var(--primary-color);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+body.dark-mode .tool-icon-box {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--accent-color);
+}
+
+.tool-card:hover .tool-icon-box {
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
+/* Tool Text */
+.tool-info h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.tool-info p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* --- 4. SKELETON LOADERS --- */
+.skeleton-section { margin-top: 20px; }
+
+.skeleton-box {
+    height: 30px;
+    width: 220px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+.skeleton-card {
+    height: 110px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.skeleton-box, .skeleton-card {
+    background: linear-gradient(90deg, #ececec 25%, #f5f5f5 50%, #ececec 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+}
+
+body.dark-mode .skeleton-box, 
+body.dark-mode .skeleton-card {
+    background: linear-gradient(90deg, #252525 25%, #333333 50%, #252525 75%);
+}
+
+@keyframes skeleton-loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* --- 5. RESPONSIVE --- */
+@media (max-width: 768px) {
+    .tools-hero { padding: 40px 15px; border-radius: 0 0 25px 25px; }
+    .hero-title { font-size: 1.8rem; }
+    .tools-grid { grid-template-columns: 1fr; }
+    .category-header { padding-left: 10px; }
+    .category-header h2 { font-size: 1.25rem; }
+}
