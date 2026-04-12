@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "categoryID": "health",
+      "categoryName": "Health & Fitness",
+      "toolsFolders": ["bmi-calculator", "ibw-calculator"]
+    },
+    {
+      "categoryID": "finance",
+      "categoryName": "Finance & Tax",
+      "toolsFolders": ["emi-calculator", "gst-calculator"]
+    }
+  ]
+}
