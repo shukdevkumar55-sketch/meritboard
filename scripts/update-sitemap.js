@@ -14,7 +14,9 @@ const pages = [
   'index.html',
   'feed.html',
   'book-view.html',
-  'quiz-view.html'
+  'quiz-view.html',
+  'home.html',
+  'bmi.html'
 ];
 
 console.log("🔍 Scanning for new content...");
