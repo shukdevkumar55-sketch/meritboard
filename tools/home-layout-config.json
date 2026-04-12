@@ -1,0 +1,54 @@
+{
+  "site_identity": {
+    "site_name": "MeritBoard",
+    "suffix": "Lab",
+    "tagline": "Smart Tools. Smart Calculations. Smart Minds.",
+    "logo_url": "/assets/logo-icon.png",
+    "favicon_url": "/assets/favicon.ico",
+    "author": "Sukhdev Dahiya",
+    "seo_description": "MeritBoard Tools Lab offers a wide range of free online calculators and digital utilities for health, finance, and education.",
+    "seo_keywords": "BMI Calculator, GST Calculator, EMI Tool, MeritBoard Tools, Web Utilities, Online Calculators India"
+  },
+  
+  "navigation_menu": [
+    { "id": "home", "label": "Home", "link": "/index.html", "active": false },
+    { "id": "quizzes", "label": "Mock Tests", "link": "/feed.html?type=quiz", "active": false },
+    { "id": "library", "label": "Library", "link": "/index.html#library", "active": false },
+    { "id": "tools", "label": "Tools Hub", "link": "/tools/home.html", "active": true }
+  ],
+
+  "footer_sections": {
+    "about_text": "MeritBoard is an open-source initiative dedicated to providing high-quality educational resources and digital tools to empower learners worldwide.",
+    "social_links": [
+      { 
+        "platform": "Instagram", 
+        "url": "https://www.instagram.com/vionn.official", 
+        "icon_class": "fa-brands fa-instagram" 
+      },
+      { 
+        "platform": "YouTube", 
+        "url": "https://youtube.com/@sukhdev.d_arya", 
+        "icon_class": "fa-brands fa-youtube" 
+      },
+      { 
+        "platform": "Telegram", 
+        "url": "https://t.me/meritboard", 
+        "icon_class": "fa-brands fa-telegram" 
+      }
+    ],
+    "quick_links": [
+      { "label": "About Us", "link": "/pages/about.html" },
+      { "label": "Privacy Policy", "link": "/pages/privacy.html" },
+      { "label": "Contact Us", "link": "/pages/contact.html" },
+      { "label": "Disclaimer", "link": "/pages/disclaimer.html" },
+      { "label": "Terms", "link": "/pages/terms.html" }
+    ]
+  },
+
+  "ui_settings": {
+    "enable_dark_mode": true,
+    "primary_color": "#1A237E",
+    "accent_color": "#03A9F4",
+    "theme_storage_key": "mb_theme_mode"
+  }
+}
