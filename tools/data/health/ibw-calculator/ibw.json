@@ -1,0 +1,20 @@
+{
+  "toolID": "ibw-calculator",
+  "title": "Ideal Body Weight",
+  "description": "Find out your healthy weight range based on your height, gender, and body frame. Based on Miller and Robinson formulas.",
+  "icon": "fa-solid fa-child-reaching",
+  "category": "Health & Fitness",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-12",
+  "author": "MeritBoard Team",
+  "meta": {
+    "keywords": ["Ideal Weight", "IBW Calculator", "Healthy Weight", "Body Weight Formula"],
+    "schemaType": "SoftwareApplication",
+    "applicationCategory": "HealthApplication"
+  },
+  "features": [
+    "Miller & Robinson Formulas",
+    "Gender Specific Results",
+    "Healthy Range Display"
+  ]
+}
