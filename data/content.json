@@ -10,17 +10,24 @@
       "Chapter Wise Quiz",
       "Free Mock Test",
       "Topic Wise Practice",
-      "Previous Year Questions",
+      "100 Questions",
+      "60 Minutes",
+      "Negative Marking 0.50",
       "Simplification",
       "Percentage",
       "Ratio and Proportion",
       "Time and Work",
-      "Profit and Loss"
+      "Profit and Loss",
+      "SSC CGL",
+      "SSC CHSL"
     ],
     "date_added": "2026-04-21",
     "author": "MeritBoard Team",
     "is_featured": true,
-    "meta_info": "Chapter-wise • Topic-wise • Free Practice • Detailed Solutions",
+    "meta_info": "100 Qs • 60 Mins • 0.50 Negative Marking",
+    "exam_time": "60 Minutes",
+    "total_questions": 100,
+    "negative_marking": "0.50 per wrong answer",
     "source_url": "data/quizzes/SSC-Maths-Chapter-Wise-Quiz-Free-Mock-Test-1.json"
   },
 {
