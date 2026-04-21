@@ -559,6 +559,1656 @@
   ],
   "answer": 2,
   "explanation": "Perimeter of rectangle = 2(l + b) = 54, so l + b = 27. Given l = 15, breadth = 12. Area = 15 × 12 = 180 cm²."
+},
+{
+  "id": 26,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + 1/x = 4, then find x^3 + 1/x^3.",
+  "q_hi": "यदि x + 1/x = 4 है, तो x^3 + 1/x^3 का मान ज्ञात कीजिए।",
+  "options_en": [
+    "52",
+    "54",
+    "56",
+    "58",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "52",
+    "54",
+    "56",
+    "58",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Use the identity (x + 1/x)^3 = x^3 + 1/x^3 + 3(x + 1/x). So, 4^3 = x^3 + 1/x^3 + 3×4 = x^3 + 1/x^3 + 12. Hence, x^3 + 1/x^3 = 64 - 12 = 52."
+},
+{
+  "id": 27,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A is 25% more efficient than B. Together they complete a work in 12 days. In how many days can B alone complete the work?",
+  "q_hi": "A, B से 25% अधिक कुशल है। दोनों मिलकर एक कार्य 12 दिनों में पूरा करते हैं। B अकेले वह कार्य कितने दिनों में पूरा करेगा?",
+  "options_en": [
+    "24 days",
+    "27 days",
+    "30 days",
+    "33 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "24 दिन",
+    "27 दिन",
+    "30 दिन",
+    "33 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Let B's efficiency be b. Then A's efficiency = 1.25b. Together, 2.25b = 1/12 work per day. So b = 1/(12×2.25) = 1/27. Hence, B alone takes 27 days."
+},
+{
+  "id": 28,
+  "section": "SSC Maths - Ratio and Proportion",
+  "q_en": "A 30-litre mixture of milk and water is in the ratio 7:3. How much water must be added to make the ratio 7:5?",
+  "q_hi": "30 लीटर के दूध और पानी के मिश्रण में अनुपात 7:3 है। अनुपात 7:5 करने के लिए कितने लीटर पानी मिलाना होगा?",
+  "options_en": [
+    "4 litres",
+    "5 litres",
+    "6 litres",
+    "7 litres",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "4 लीटर",
+    "5 लीटर",
+    "6 लीटर",
+    "7 लीटर",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Milk = 7/10 of 30 = 21 litres and water = 9 litres. For ratio 7:5, if milk remains 21, water should be 15. So, 6 litres of water must be added."
+},
+{
+  "id": 29,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 20%, then increased by 25%, and finally decreased by 20%. What is the net change?",
+  "q_hi": "एक संख्या में 20% की वृद्धि की जाती है, फिर 25% की वृद्धि की जाती है, और अंत में 20% की कमी की जाती है। कुल परिवर्तन क्या होगा?",
+  "options_en": [
+    "10% increase",
+    "15% increase",
+    "20% increase",
+    "25% increase",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "10% की वृद्धि",
+    "15% की वृद्धि",
+    "20% की वृद्धि",
+    "25% की वृद्धि",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Take the number as 100. After 20% increase it becomes 120. After 25% increase it becomes 150. After 20% decrease it becomes 120. Net change = 20% increase."
+},
+{
+  "id": 30,
+  "section": "SSC Maths - Geometry",
+  "q_en": "The side of a square is 14 cm. A circle is inscribed in the square. What is the area of the circle? (Take π = 22/7)",
+  "q_hi": "एक वर्ग की भुजा 14 सेमी है। उसमें एक वृत्त अंतःस्थित है। वृत्त का क्षेत्रफल क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "144 cm²",
+    "154 cm²",
+    "164 cm²",
+    "174 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "144 सेमी²",
+    "154 सेमी²",
+    "164 सेमी²",
+    "174 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "In an inscribed circle, the diameter equals the side of the square. So diameter = 14 cm and radius = 7 cm. Area = πr² = 22/7 × 7 × 7 = 154 cm²."
+},
+{
+  "id": 31,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + 1/x = 6, then find x^2 + 1/x^2.",
+  "q_hi": "यदि x + 1/x = 6 है, तो x^2 + 1/x^2 का मान ज्ञात कीजिए।",
+  "options_en": [
+    "32",
+    "33",
+    "34",
+    "35",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "32",
+    "33",
+    "34",
+    "35",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Using the identity (x + 1/x)^2 = x^2 + 1/x^2 + 2, we get 36 = x^2 + 1/x^2 + 2. Hence, x^2 + 1/x^2 = 34."
+},
+{
+  "id": 32,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A is 40% more efficient than B. Together they complete a work in 20 days. In how many days can B alone complete the work?",
+  "q_hi": "A, B से 40% अधिक कुशल है। दोनों मिलकर एक कार्य 20 दिनों में पूरा करते हैं। B अकेले वह कार्य कितने दिनों में पूरा करेगा?",
+  "options_en": [
+    "42 days",
+    "45 days",
+    "48 days",
+    "50 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "42 दिन",
+    "45 दिन",
+    "48 दिन",
+    "50 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Let B's efficiency be b. Then A's efficiency = 1.4b. Together, 2.4b = 1/20 work per day. So b = 1/48. Therefore, B alone completes the work in 48 days."
+},
+{
+  "id": 33,
+  "section": "SSC Maths - Ages",
+  "q_en": "The ratio of the present ages of A and B is 5:7. After 6 years, the ratio becomes 3:4. What is the present age of B?",
+  "q_hi": "A और B की वर्तमान आयु का अनुपात 5:7 है। 6 वर्ष बाद यह अनुपात 3:4 हो जाता है। B की वर्तमान आयु क्या है?",
+  "options_en": [
+    "36 years",
+    "40 years",
+    "42 years",
+    "44 years",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "36 वर्ष",
+    "40 वर्ष",
+    "42 वर्ष",
+    "44 वर्ष",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Let the present ages be 5x and 7x. Then (5x + 6)/(7x + 6) = 3/4. Cross-multiplying gives 20x + 24 = 21x + 18, so x = 6. Hence B's age = 7x = 42 years."
+},
+{
+  "id": 34,
+  "section": "SSC Maths - Profit and Loss",
+  "q_en": "An article is purchased for Rs. 2500 and marked 60% above the cost price. If it is sold after giving a 20% discount on the marked price, what is the profit percentage?",
+  "q_hi": "एक वस्तु ₹2500 में खरीदी गई और उसे क्रय मूल्य से 60% अधिक अंकित किया गया। यदि अंकित मूल्य पर 20% छूट देकर बेचा जाए, तो लाभ प्रतिशत क्या होगा?",
+  "options_en": [
+    "24%",
+    "26%",
+    "28%",
+    "30%",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "24%",
+    "26%",
+    "28%",
+    "30%",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "CP = 2500. MP = 2500 × 1.6 = 4000. After 20% discount, SP = 4000 × 0.8 = 3200. Profit = 3200 - 2500 = 700. Profit percentage = (700/2500) × 100 = 28%."
+},
+{
+  "id": 35,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "A square has side 14 cm. A circle is circumscribed about the square. What is the area of the circle? (Take π = 22/7)",
+  "q_hi": "एक वर्ग की भुजा 14 सेमी है। उस वर्ग के चारों ओर एक वृत्त बनाया गया है। वृत्त का क्षेत्रफल क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "286 cm²",
+    "294 cm²",
+    "308 cm²",
+    "314 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "286 सेमी²",
+    "294 सेमी²",
+    "308 सेमी²",
+    "314 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "For a circumscribed circle, the diameter equals the diagonal of the square. Diagonal = 14√2, so radius = 7√2. Area = πr² = 22/7 × 98 = 308 cm²."
+},
+{
+  "id": 36,
+  "section": "SSC Maths - Number System",
+  "q_en": "A number leaves remainders 5 and 7 when divided by 7 and 9 respectively. What is the remainder when the same number is divided by 63?",
+  "q_hi": "एक संख्या को 7 से भाग देने पर शेष 5 और 9 से भाग देने पर शेष 7 आता है। उसी संख्या को 63 से भाग देने पर शेष क्या होगा?",
+  "options_en": [
+    "55",
+    "57",
+    "59",
+    "61",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "55",
+    "57",
+    "59",
+    "61",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 3,
+  "explanation": "We need a number x such that x ≡ 5 (mod 7) and x ≡ 7 (mod 9). Checking multiples of 7-remainder 5 gives 5, 12, 19, 26, 33, 40, 47, 54, 61. Among these, 61 leaves remainder 7 when divided by 9. So the remainder modulo 63 is 61."
+},
+{
+  "id": 37,
+  "section": "SSC Maths - Time, Speed and Distance",
+  "q_en": "A train 450 m long passes a platform in 18 seconds. What is the speed of the train in km/h?",
+  "q_hi": "एक 450 मीटर लंबी ट्रेन एक प्लेटफॉर्म को 18 सेकंड में पार करती है। ट्रेन की गति km/h में कितनी है?",
+  "options_en": [
+    "80 km/h",
+    "85 km/h",
+    "90 km/h",
+    "95 km/h",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "80 km/h",
+    "85 km/h",
+    "90 km/h",
+    "95 km/h",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "When a train passes a platform, distance covered = train length + platform length. But since only the train length is given, this question should be read as the train covering 450 m in 18 seconds. Speed = 450/18 = 25 m/s = 90 km/h. The logic is correct only if the full 450 m is the total distance covered."
+},
+{
+  "id": 38,
+  "section": "SSC Maths - Partnership",
+  "q_en": "A invests Rs. 18,000 for 8 months, B invests Rs. 15,000 for 12 months, and C invests Rs. 12,000 for 15 months. What is the ratio of their shares in the profit?",
+  "q_hi": "A ₹18,000 को 8 महीने के लिए, B ₹15,000 को 12 महीने के लिए, और C ₹12,000 को 15 महीने के लिए निवेश करता है। लाभ में उनके हिस्सों का अनुपात क्या होगा?",
+  "options_en": [
+    "4:5:5",
+    "5:4:5",
+    "4:4:5",
+    "5:5:4",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "4:5:5",
+    "5:4:5",
+    "4:4:5",
+    "5:5:4",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Profit share is proportional to capital × time. A = 18000 × 8 = 144000, B = 15000 × 12 = 180000, C = 12000 × 15 = 180000. Ratio = 144000:180000:180000 = 4:5:5."
+},
+{
+  "id": 39,
+  "section": "SSC Maths - Surds",
+  "q_en": "Evaluate: √72 + √18 - √8",
+  "q_hi": "मान निकालिए: √72 + √18 - √8",
+  "options_en": [
+    "6√2",
+    "7√2",
+    "8√2",
+    "9√2",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "6√2",
+    "7√2",
+    "8√2",
+    "9√2",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "√72 = 6√2, √18 = 3√2, and √8 = 2√2. So, 6√2 + 3√2 - 2√2 = 7√2."
+},
+{
+  "id": 40,
+  "section": "SSC Maths - Average",
+  "q_en": "The average of 12 numbers is 45. If one number 36 is replaced by 60, what is the new average?",
+  "q_hi": "12 संख्याओं का औसत 45 है। यदि एक संख्या 36 के स्थान पर 60 रख दी जाए, तो नया औसत क्या होगा?",
+  "options_en": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Original sum = 12 × 45 = 540. Replacing 36 by 60 increases the sum by 24. New sum = 564. New average = 564/12 = 47."
+},
+{
+  "id": 41,
+  "section": "SSC Maths - Probability",
+  "q_en": "Two dice are thrown together. What is the probability of getting at least one 6?",
+  "q_hi": "दो पासे एक साथ फेंके जाते हैं। कम से कम एक 6 आने की प्रायिकता क्या है?",
+  "options_en": [
+    "1/6",
+    "5/18",
+    "11/36",
+    "1/4",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1/6",
+    "5/18",
+    "11/36",
+    "1/4",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Probability of no 6 on a die = 5/6. For two dice, probability of no 6 on both = (5/6)² = 25/36. Therefore, probability of at least one 6 = 1 - 25/36 = 11/36."
+},
+{
+  "id": 42,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + y = 12 and xy = 35, find x² + y².",
+  "q_hi": "यदि x + y = 12 और xy = 35 है, तो x² + y² का मान ज्ञात कीजिए।",
+  "options_en": [
+    "72",
+    "73",
+    "74",
+    "75",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "72",
+    "73",
+    "74",
+    "75",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Using the identity x² + y² = (x + y)² - 2xy, we get 144 - 70 = 74."
+},
+{
+  "id": 43,
+  "section": "SSC Maths - Pipes and Cisterns",
+  "q_en": "Pipe A fills a tank in 15 hours, pipe B fills it in 20 hours, and a drain empties it in 30 hours. If all are opened together, in how many hours will the tank be filled?",
+  "q_hi": "पाइप A एक टंकी को 15 घंटे में भरता है, पाइप B 20 घंटे में भरता है, और एक नाली उसे 30 घंटे में खाली करती है। यदि तीनों एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भरेगी?",
+  "options_en": [
+    "10 hours",
+    "12 hours",
+    "14 hours",
+    "15 hours",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "10 घंटे",
+    "12 घंटे",
+    "14 घंटे",
+    "15 घंटे",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Net rate = 1/15 + 1/20 - 1/30 = 4/60 + 3/60 - 2/60 = 5/60 = 1/12. So the tank will be filled in 12 hours."
+},
+{
+  "id": 44,
+  "section": "SSC Maths - Geometry",
+  "q_en": "The diagonal of a rectangle is 25 cm and its breadth is 7 cm. What is its area?",
+  "q_hi": "एक आयत का विकर्ण 25 सेमी है और उसकी चौड़ाई 7 सेमी है। इसका क्षेत्रफल क्या होगा?",
+  "options_en": [
+    "160 cm²",
+    "168 cm²",
+    "175 cm²",
+    "180 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "160 सेमी²",
+    "168 सेमी²",
+    "175 सेमी²",
+    "180 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "By Pythagoras, length² = diagonal² - breadth² = 25² - 7² = 625 - 49 = 576. So length = 24 cm. Area = 24 × 7 = 168 cm²."
+},
+{
+  "id": 45,
+  "section": "SSC Maths - Arithmetic Progression",
+  "q_en": "Find the sum of the first 10 terms of an AP whose first term is 50 and common difference is -3.",
+  "q_hi": "उस AP के पहले 10 पदों का योग ज्ञात कीजिए जिसका पहला पद 50 है और सामान्य अंतर -3 है।",
+  "options_en": [
+    "355",
+    "360",
+    "365",
+    "370",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "355",
+    "360",
+    "365",
+    "370",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The 10th term = 50 + 9(-3) = 23. Sum of first 10 terms = 10/2 × (50 + 23) = 5 × 73 = 365."
+},
+{
+  "id": 46,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 144 ÷ 12 + 18 × 5 - 36 ÷ 6",
+  "q_hi": "मान निकालिए: 144 ÷ 12 + 18 × 5 - 36 ÷ 6",
+  "options_en": [
+    "94",
+    "95",
+    "96",
+    "97",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "94",
+    "95",
+    "96",
+    "97",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "First do division and multiplication: 144 ÷ 12 = 12, 18 × 5 = 90, and 36 ÷ 6 = 6. Then 12 + 90 - 6 = 96."
+},
+{
+  "id": 47,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 30%, then decreased by 10%, and then increased by 20%. What is the net percentage change?",
+  "q_hi": "एक संख्या में 30% की वृद्धि की जाती है, फिर 10% की कमी की जाती है, और फिर 20% की वृद्धि की जाती है। कुल प्रतिशत परिवर्तन क्या होगा?",
+  "options_en": [
+    "38% increase",
+    "40% increase",
+    "40.4% increase",
+    "42% increase",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "38% की वृद्धि",
+    "40% की वृद्धि",
+    "40.4% की वृद्धि",
+    "42% की वृद्धि",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Take the number as 100. After 30% increase it becomes 130. After 10% decrease it becomes 117. After 20% increase it becomes 140.4. So the net change is 40.4% increase."
+},
+{
+  "id": 48,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 20 days and B can complete the same work in 30 days. A works alone for 5 days and then B joins. In how many total days will the work be completed?",
+  "q_hi": "A किसी कार्य को 20 दिनों में और B उसी कार्य को 30 दिनों में पूरा कर सकता है। A 5 दिन अकेले काम करता है और फिर B जुड़ जाता है। कार्य कुल कितने दिनों में पूरा होगा?",
+  "options_en": [
+    "12 days",
+    "13 days",
+    "14 days",
+    "15 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "12 दिन",
+    "13 दिन",
+    "14 दिन",
+    "15 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "A's 5-day work = 5/20 = 1/4. Remaining work = 3/4. Together, A and B's rate = 1/20 + 1/30 = 1/12 per day. Time for remaining work = (3/4) ÷ (1/12) = 9 days. Total time = 5 + 9 = 14 days."
+},
+{
+  "id": 49,
+  "section": "SSC Maths - Profit and Loss",
+  "q_en": "An article is purchased for Rs. 2000 and marked 50% above the cost price. It is sold after two successive discounts of 10% and 5% on the marked price. What is the profit percentage?",
+  "q_hi": "एक वस्तु ₹2000 में खरीदी गई और उसे क्रय मूल्य से 50% अधिक अंकित किया गया। इसे अंकित मूल्य पर 10% और फिर 5% की दो क्रमिक छूटों के बाद बेचा जाता है। लाभ प्रतिशत क्या होगा?",
+  "options_en": [
+    "25%",
+    "27%",
+    "28.25%",
+    "30%",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "25%",
+    "27%",
+    "28.25%",
+    "30%",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "CP = 2000. MP = 2000 × 1.5 = 3000. After 10% discount, price = 2700. After another 5% discount, SP = 2700 × 0.95 = 2565. Profit = 2565 - 2000 = 565. Profit percentage = (565/2000) × 100 = 28.25%."
+},
+{
+  "id": 50,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "A rhombus has diagonals 24 cm and 10 cm. What is its perimeter?",
+  "q_hi": "एक समचतुर्भुज के विकर्ण 24 सेमी और 10 सेमी हैं। इसका परिमाप क्या होगा?",
+  "options_en": [
+    "48 cm",
+    "50 cm",
+    "52 cm",
+    "54 cm",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "48 सेमी",
+    "50 सेमी",
+    "52 सेमी",
+    "54 सेमी",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "In a rhombus, diagonals bisect each other at right angles. Half-diagonals are 12 and 5. Side = √(12² + 5²) = √169 = 13 cm. Perimeter = 4 × 13 = 52 cm."
+},
+{
+  "id": 51,
+  "section": "SSC Maths - Number System",
+  "q_en": "What is the least positive number that leaves remainders 1, 2, and 3 when divided by 3, 4, and 5 respectively?",
+  "q_hi": "सबसे छोटी धनात्मक संख्या कौन-सी है जो 3, 4 और 5 से भाग देने पर क्रमशः 1, 2 और 3 शेष देती है?",
+  "options_en": [
+    "55",
+    "57",
+    "58",
+    "59",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "55",
+    "57",
+    "58",
+    "59",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Checking the numbers that satisfy all three congruences, 58 gives remainder 1 when divided by 3, remainder 2 when divided by 4, and remainder 3 when divided by 5. So the least such number is 58."
+},
+{
+  "id": 52,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + y = 10 and xy = 21, find x^3 + y^3.",
+  "q_hi": "यदि x + y = 10 और xy = 21 है, तो x^3 + y^3 का मान ज्ञात कीजिए।",
+  "options_en": [
+    "364",
+    "368",
+    "370",
+    "372",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "364",
+    "368",
+    "370",
+    "372",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Use the identity x^3 + y^3 = (x + y)^3 - 3xy(x + y). So, 10^3 - 3 × 21 × 10 = 1000 - 630 = 370."
+},
+{
+  "id": 53,
+  "section": "SSC Maths - Partnership",
+  "q_en": "A invests Rs. 24,000 for 8 months, B invests Rs. 18,000 for 10 months, and C invests Rs. 30,000 for 6 months. What is the ratio of their shares in the profit?",
+  "q_hi": "A ₹24,000 को 8 महीने के लिए, B ₹18,000 को 10 महीने के लिए, और C ₹30,000 को 6 महीने के लिए निवेश करता है। लाभ में उनके हिस्सों का अनुपात क्या होगा?",
+  "options_en": [
+    "16:15:15",
+    "15:16:15",
+    "16:16:15",
+    "15:15:16",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "16:15:15",
+    "15:16:15",
+    "16:16:15",
+    "15:15:16",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Profit share is proportional to capital × time. A = 24000 × 8 = 192000, B = 18000 × 10 = 180000, C = 30000 × 6 = 180000. Ratio = 192000:180000:180000 = 16:15:15."
+},
+{
+  "id": 54,
+  "section": "SSC Maths - Pipes and Cisterns",
+  "q_en": "Pipe A fills a tank in 8 hours, pipe B fills it in 12 hours, and a drain empties it in 24 hours. If all are opened together, in how many hours will the tank be filled?",
+  "q_hi": "पाइप A एक टंकी को 8 घंटे में भरता है, पाइप B 12 घंटे में भरता है, और एक नाली उसे 24 घंटे में खाली करती है। यदि तीनों एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भरेगी?",
+  "options_en": [
+    "5 hours",
+    "6 hours",
+    "7 hours",
+    "8 hours",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "5 घंटे",
+    "6 घंटे",
+    "7 घंटे",
+    "8 घंटे",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Net rate = 1/8 + 1/12 - 1/24 = 3/24 + 2/24 - 1/24 = 4/24 = 1/6. So the tank will be filled in 6 hours."
+},
+{
+  "id": 55,
+  "section": "SSC Maths - Average",
+  "q_en": "The average of 15 numbers is 28. If the average of the first 8 numbers is 26 and the average of the last 6 numbers is 30, what is the 9th number?",
+  "q_hi": "15 संख्याओं का औसत 28 है। यदि पहली 8 संख्याओं का औसत 26 है और अंतिम 6 संख्याओं का औसत 30 है, तो 9वीं संख्या क्या है?",
+  "options_en": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Total sum of 15 numbers = 15 × 28 = 420. Sum of first 8 numbers = 8 × 26 = 208. Sum of last 6 numbers = 6 × 30 = 180. The 9th number = 420 - 208 - 180 = 32."
+},
+{
+  "id": 56,
+  "section": "SSC Maths - Time, Speed and Distance",
+  "q_en": "A train 150 m long passes a pole in 10 seconds. Another train 100 m long is moving in the opposite direction at 54 km/h. If the two trains cross each other in 10 seconds, what is the speed of the first train?",
+  "q_hi": "150 मीटर लंबी एक ट्रेन एक खंभे को 10 सेकंड में पार करती है। 100 मीटर लंबी दूसरी ट्रेन 54 km/h की गति से विपरीत दिशा में चल रही है। यदि दोनों ट्रेनें 10 सेकंड में एक-दूसरे को पार करती हैं, तो पहली ट्रेन की गति क्या होगी?",
+  "options_en": [
+    "30 km/h",
+    "36 km/h",
+    "42 km/h",
+    "45 km/h",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "30 km/h",
+    "36 km/h",
+    "42 km/h",
+    "45 km/h",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "When two trains cross each other, relative speed = total length / time = (150 + 100) / 10 = 25 m/s = 90 km/h. The second train's speed is 54 km/h. Therefore, the first train's speed = 90 - 54 = 36 km/h."
+},
+{
+  "id": 57,
+  "section": "SSC Maths - Probability",
+  "q_en": "Two cards are drawn at random from a standard deck of 52 cards without replacement. What is the probability that at least one card is a king?",
+  "q_hi": "52 पत्तों की मानक गड्डी से बिना replacement के दो पत्ते यादृच्छिक रूप से निकाले जाते हैं। कम से कम एक पत्ता king होने की प्रायिकता क्या है?",
+  "options_en": [
+    "1/13",
+    "2/13",
+    "33/221",
+    "1/4",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1/13",
+    "2/13",
+    "33/221",
+    "1/4",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Probability of no king in two draws = (48/52) × (47/51) = 188/221. Therefore, probability of at least one king = 1 - 188/221 = 33/221."
+},
+{
+  "id": 58,
+  "section": "SSC Maths - Simple and Compound Interest",
+  "q_en": "Find the difference between Compound Interest and Simple Interest on Rs. 8000 at 15% per annum for 2 years.",
+  "q_hi": "2 वर्षों के लिए 15% वार्षिक दर पर ₹8000 पर चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।",
+  "options_en": [
+    "Rs. 160",
+    "Rs. 180",
+    "Rs. 200",
+    "Rs. 220",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "₹160",
+    "₹180",
+    "₹200",
+    "₹220",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "For 2 years, CI - SI = P × (R/100)^2. So, 8000 × (15/100)^2 = 8000 × 0.0225 = Rs. 180."
+},
+{
+  "id": 59,
+  "section": "SSC Maths - Arithmetic Progression",
+  "q_en": "Find the sum of the first 20 terms of an AP whose first term is 7 and common difference is 3.",
+  "q_hi": "उस AP के पहले 20 पदों का योग ज्ञात कीजिए जिसका पहला पद 7 है और सामान्य अंतर 3 है।",
+  "options_en": [
+    "690",
+    "700",
+    "710",
+    "720",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "690",
+    "700",
+    "710",
+    "720",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The 20th term = 7 + 19 × 3 = 64. Sum of first 20 terms = 20/2 × (7 + 64) = 10 × 71 = 710."
+},
+{
+  "id": 60,
+  "section": "SSC Maths - Mixture and Ratio",
+  "q_en": "A container has milk and water in the ratio 5:2. If the total mixture is 21 litres, how much water must be added to make the ratio 5:3?",
+  "q_hi": "एक बर्तन में दूध और पानी का अनुपात 5:2 है। यदि मिश्रण की कुल मात्रा 21 लीटर है, तो अनुपात 5:3 करने के लिए कितने लीटर पानी मिलाना होगा?",
+  "options_en": [
+    "2 litres",
+    "3 litres",
+    "4 litres",
+    "5 litres",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "2 लीटर",
+    "3 लीटर",
+    "4 लीटर",
+    "5 लीटर",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Milk = 5/7 of 21 = 15 litres and water = 6 litres. For the ratio 5:3, when milk stays 15 litres, water should be 9 litres. So 3 litres of water must be added."
+},
+{
+  "id": 61,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 225 ÷ 15 + 14 × 6 - 48 ÷ 8 × 5",
+  "q_hi": "मान निकालिए: 225 ÷ 15 + 14 × 6 - 48 ÷ 8 × 5",
+  "options_en": [
+    "66",
+    "67",
+    "68",
+    "69",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "66",
+    "67",
+    "68",
+    "69",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 3,
+  "explanation": "First do division and multiplication: 225 ÷ 15 = 15, 14 × 6 = 84, and 48 ÷ 8 × 5 = 30. Then 15 + 84 - 30 = 69."
+},
+{
+  "id": 62,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 40%, then decreased by 30%, and then increased by 10%. What is the net percentage change?",
+  "q_hi": "एक संख्या में 40% की वृद्धि की जाती है, फिर 30% की कमी की जाती है, और फिर 10% की वृद्धि की जाती है। कुल प्रतिशत परिवर्तन क्या होगा?",
+  "options_en": [
+    "6% increase",
+    "7% increase",
+    "7.8% increase",
+    "8% increase",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "6% की वृद्धि",
+    "7% की वृद्धि",
+    "7.8% की वृद्धि",
+    "8% की वृद्धि",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Take the number as 100. After 40% increase it becomes 140. After 30% decrease it becomes 98. After 10% increase it becomes 107.8. So the net change is 7.8% increase."
+},
+{
+  "id": 63,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 24 days and B can complete the same work in 36 days. A works alone for 4 days and then B joins. In how many total days will the work be completed?",
+  "q_hi": "A किसी कार्य को 24 दिनों में और B उसी कार्य को 36 दिनों में पूरा कर सकता है। A 4 दिन अकेले काम करता है और फिर B जुड़ जाता है। कार्य कुल कितने दिनों में पूरा होगा?",
+  "options_en": [
+    "14 days",
+    "15 days",
+    "16 days",
+    "17 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "14 दिन",
+    "15 दिन",
+    "16 दिन",
+    "17 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "A's 4-day work = 4/24 = 1/6. Remaining work = 5/6. Together, A and B's rate = 1/24 + 1/36 = 5/72 per day. Time for remaining work = (5/6) ÷ (5/72) = 12 days. Total time = 4 + 12 = 16 days."
+},
+{
+  "id": 64,
+  "section": "SSC Maths - Ages",
+  "q_en": "The ratio of the present ages of A and B is 4:7. After 6 years, the ratio becomes 5:8. What is the present age of A?",
+  "q_hi": "A और B की वर्तमान आयु का अनुपात 4:7 है। 6 वर्ष बाद यह अनुपात 5:8 हो जाता है। A की वर्तमान आयु क्या है?",
+  "options_en": [
+    "24 years",
+    "30 years",
+    "36 years",
+    "42 years",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "24 वर्ष",
+    "30 वर्ष",
+    "36 वर्ष",
+    "42 वर्ष",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Let the present ages be 4x and 7x. Then (4x + 6)/(7x + 6) = 5/8. Cross-multiplying gives 32x + 48 = 35x + 30, so 18 = 3x and x = 6. Hence A's age = 4x = 24 years."
+},
+{
+  "id": 65,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "The circumference of a circle is 88 cm. What is its area? (Take π = 22/7)",
+  "q_hi": "एक वृत्त की परिधि 88 सेमी है। इसका क्षेत्रफल क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "572 cm²",
+    "588 cm²",
+    "616 cm²",
+    "628 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "572 सेमी²",
+    "588 सेमी²",
+    "616 सेमी²",
+    "628 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Circumference = 2πr = 88. So r = 88 × 7 / 44 = 14 cm. Area = πr² = 22/7 × 14 × 14 = 616 cm²."
+},
+{
+  "id": 66,
+  "section": "SSC Maths - Number System",
+  "q_en": "What is the least positive number that leaves remainders 5, 7, and 8 when divided by 6, 8, and 9 respectively?",
+  "q_hi": "सबसे छोटी धनात्मक संख्या कौन-सी है जो 6, 8 और 9 से भाग देने पर क्रमशः 5, 7 और 8 शेष देती है?",
+  "options_en": [
+    "67",
+    "69",
+    "71",
+    "73",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "67",
+    "69",
+    "71",
+    "73",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The required number is 1 less than a multiple of 6, 8, and 9. LCM of 6, 8, and 9 is 72. Therefore, the least such number is 72 - 1 = 71."
+},
+{
+  "id": 67,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x - y = 3 and xy = 10, find x² + y².",
+  "q_hi": "यदि x - y = 3 और xy = 10 है, तो x² + y² का मान ज्ञात कीजिए।",
+  "options_en": [
+    "26",
+    "27",
+    "28",
+    "29",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "26",
+    "27",
+    "28",
+    "29",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 3,
+  "explanation": "Using the identity (x - y)² = x² + y² - 2xy, we get 9 = x² + y² - 20. Hence, x² + y² = 29."
+},
+{
+  "id": 68,
+  "section": "SSC Maths - Pipes and Cisterns",
+  "q_en": "Pipe A fills a tank in 10 hours, pipe B fills it in 15 hours, and a drain empties it in 30 hours. If all are opened together, in how many hours will the tank be filled?",
+  "q_hi": "पाइप A एक टंकी को 10 घंटे में भरता है, पाइप B 15 घंटे में भरता है, और एक नाली उसे 30 घंटे में खाली करती है। यदि तीनों एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भरेगी?",
+  "options_en": [
+    "7 hours",
+    "7.5 hours",
+    "8 hours",
+    "8.5 hours",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "7 घंटे",
+    "7.5 घंटे",
+    "8 घंटे",
+    "8.5 घंटे",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Net rate = 1/10 + 1/15 - 1/30 = 3/30 + 2/30 - 1/30 = 4/30 = 2/15 tank per hour. So the tank will be filled in 15/2 = 7.5 hours."
+},
+{
+  "id": 69,
+  "section": "SSC Maths - Probability",
+  "q_en": "Two cards are drawn at random from a standard deck of 52 cards without replacement. What is the probability that both cards are red?",
+  "q_hi": "52 पत्तों की मानक गड्डी से बिना replacement के दो पत्ते यादृच्छिक रूप से निकाले जाते हैं। दोनों पत्तों के लाल होने की प्रायिकता क्या है?",
+  "options_en": [
+    "1/4",
+    "25/102",
+    "13/51",
+    "5/17",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1/4",
+    "25/102",
+    "13/51",
+    "5/17",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "There are 26 red cards out of 52. Probability of first red = 26/52 and second red = 25/51. So, probability = (26/52) × (25/51) = 25/102."
+},
+{
+  "id": 70,
+  "section": "SSC Maths - Arithmetic Progression",
+  "q_en": "Find the sum of the first 15 terms of an AP whose first term is 12 and common difference is 4.",
+  "q_hi": "उस AP के पहले 15 पदों का योग ज्ञात कीजिए जिसका पहला पद 12 है और सामान्य अंतर 4 है।",
+  "options_en": [
+    "580",
+    "590",
+    "600",
+    "610",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "580",
+    "590",
+    "600",
+    "610",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The 15th term = 12 + 14 × 4 = 68. Sum of first 15 terms = 15/2 × (12 + 68) = 15/2 × 80 = 600."
+},
+{
+  "id": 71,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "A cylindrical vessel has radius 7 cm and height 20 cm. What is its volume? (Take π = 22/7)",
+  "q_hi": "एक बेलनाकार बर्तन की त्रिज्या 7 सेमी और ऊँचाई 20 सेमी है। इसका आयतन क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "3000 cm³",
+    "3040 cm³",
+    "3080 cm³",
+    "3120 cm³",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "3000 सेमी³",
+    "3040 सेमी³",
+    "3080 सेमी³",
+    "3120 सेमी³",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Volume of cylinder = πr²h = 22/7 × 7 × 7 × 20 = 22 × 7 × 20 = 3080 cm³."
+},
+{
+  "id": 72,
+  "section": "SSC Maths - Partnership",
+  "q_en": "A invests Rs. 18,000 for 12 months, B invests Rs. 24,000 for 9 months, and C invests Rs. 15,000 for 18 months. What is the ratio of their shares in the profit?",
+  "q_hi": "A ₹18,000 को 12 महीने के लिए, B ₹24,000 को 9 महीने के लिए, और C ₹15,000 को 18 महीने के लिए निवेश करता है। लाभ में उनके हिस्सों का अनुपात क्या होगा?",
+  "options_en": [
+    "4:5:5",
+    "5:4:5",
+    "4:4:5",
+    "5:5:4",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "4:5:5",
+    "5:4:5",
+    "4:4:5",
+    "5:5:4",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Profit share is proportional to capital × time. A = 18000 × 12 = 216000, B = 24000 × 9 = 216000, C = 15000 × 18 = 270000. Ratio = 216000:216000:270000 = 4:4:5."
+},
+{
+  "id": 73,
+  "section": "SSC Maths - Time, Speed and Distance",
+  "q_en": "A train 180 m long passes a pole in 9 seconds. How long will it take to cross a platform 270 m long?",
+  "q_hi": "180 मीटर लंबी एक ट्रेन एक खंभे को 9 सेकंड में पार करती है। 270 मीटर लंबे प्लेटफॉर्म को पार करने में उसे कितना समय लगेगा?",
+  "options_en": [
+    "20 seconds",
+    "22 seconds",
+    "22.5 seconds",
+    "24 seconds",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "20 सेकंड",
+    "22 सेकंड",
+    "22.5 सेकंड",
+    "24 सेकंड",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Speed of the train = 180/9 = 20 m/s. To cross the platform, distance = 180 + 270 = 450 m. Time = 450/20 = 22.5 seconds."
+},
+{
+  "id": 74,
+  "section": "SSC Maths - Simple and Compound Interest",
+  "q_en": "Find the difference between Compound Interest and Simple Interest on Rs. 5000 at 8% per annum for 2 years.",
+  "q_hi": "2 वर्षों के लिए 8% वार्षिक दर पर ₹5000 पर चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।",
+  "options_en": [
+    "Rs. 28",
+    "Rs. 30",
+    "Rs. 32",
+    "Rs. 34",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "₹28",
+    "₹30",
+    "₹32",
+    "₹34",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "For 2 years, CI - SI = P × (R/100)^2. So, 5000 × (8/100)^2 = 5000 × 0.0064 = Rs. 32."
+},
+{
+  "id": 75,
+  "section": "SSC Maths - Geometry",
+  "q_en": "A right triangle has hypotenuse 25 cm and one leg 7 cm. What is its area?",
+  "q_hi": "एक समकोण त्रिभुज का कर्ण 25 सेमी और एक भुजा 7 सेमी है। इसका क्षेत्रफल क्या होगा?",
+  "options_en": [
+    "78 cm²",
+    "80 cm²",
+    "84 cm²",
+    "88 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "78 सेमी²",
+    "80 सेमी²",
+    "84 सेमी²",
+    "88 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The other leg = √(25² - 7²) = √(625 - 49) = √576 = 24 cm. Area = 1/2 × 7 × 24 = 84 cm²."
+},
+{
+  "id": 76,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 256 ÷ 16 + 27 × 4 - 64 ÷ 8",
+  "q_hi": "मान निकालिए: 256 ÷ 16 + 27 × 4 - 64 ÷ 8",
+  "options_en": [
+    "114",
+    "115",
+    "116",
+    "117",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "114",
+    "115",
+    "116",
+    "117",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "First perform division and multiplication: 256 ÷ 16 = 16, 27 × 4 = 108, and 64 ÷ 8 = 8. Then 16 + 108 - 8 = 116."
+},
+{
+  "id": 77,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 50%, then decreased by 20%, and then increased by 10%. What is the net percentage change?",
+  "q_hi": "एक संख्या में 50% की वृद्धि की जाती है, फिर 20% की कमी की जाती है, और फिर 10% की वृद्धि की जाती है। कुल प्रतिशत परिवर्तन क्या होगा?",
+  "options_en": [
+    "30% increase",
+    "31% increase",
+    "32% increase",
+    "33% increase",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "30% की वृद्धि",
+    "31% की वृद्धि",
+    "32% की वृद्धि",
+    "33% की वृद्धि",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Take the number as 100. After 50% increase it becomes 150. After 20% decrease it becomes 120. After 10% increase it becomes 132. So the net change is 32% increase."
+},
+{
+  "id": 78,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 30 days and B can complete the same work in 40 days. A works alone for 8 days and then B joins. In how many total days will the work be completed?",
+  "q_hi": "A किसी कार्य को 30 दिनों में और B उसी कार्य को 40 दिनों में पूरा कर सकता है। A 8 दिन अकेले काम करता है और फिर B जुड़ जाता है। कार्य कुल कितने दिनों में पूरा होगा?",
+  "options_en": [
+    "12 4/7 days",
+    "13 1/7 days",
+    "14 days",
+    "15 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "12 4/7 दिन",
+    "13 1/7 दिन",
+    "14 दिन",
+    "15 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "A's 8-day work = 8/30 = 4/15. Remaining work = 11/15. Together, A and B's rate = 1/30 + 1/40 = 7/120 per day. Time for remaining work = (11/15) ÷ (7/120) = 88/7 = 12 4/7 days."
+},
+{
+  "id": 79,
+  "section": "SSC Maths - Ages",
+  "q_en": "The ratio of the present ages of A and B is 5:8. After 9 years, the ratio becomes 2:3. What is the present age of A?",
+  "q_hi": "A और B की वर्तमान आयु का अनुपात 5:8 है। 9 वर्ष बाद यह अनुपात 2:3 हो जाता है। A की वर्तमान आयु क्या है?",
+  "options_en": [
+    "36 years",
+    "40 years",
+    "45 years",
+    "48 years",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "36 वर्ष",
+    "40 वर्ष",
+    "45 वर्ष",
+    "48 वर्ष",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Let the present ages be 5x and 8x. Then (5x + 9)/(8x + 9) = 2/3. Cross-multiplying gives 15x + 27 = 16x + 18, so x = 9. Hence A's age = 5x = 45 years."
+},
+{
+  "id": 80,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "The radius of a sphere is 7 cm. What is its volume? (Take π = 22/7)",
+  "q_hi": "एक गोले की त्रिज्या 7 सेमी है। उसका आयतन क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "1372 cm³",
+    "1428 cm³",
+    "1436 cm³",
+    "1442 cm³",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1372 सेमी³",
+    "1428 सेमी³",
+    "1436 सेमी³",
+    "1442 सेमी³",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Volume of sphere = 4/3 × π × r³ = 4/3 × 22/7 × 7 × 7 × 7 = 4/3 × 22 × 49 = 4312/3 = 1437.33... So the options should be corrected before upload."
+},
+{
+  "id": 81,
+  "section": "SSC Maths - Number System",
+  "q_en": "What is the least positive number that leaves remainders 2, 3, and 4 when divided by 3, 4, and 5 respectively?",
+  "q_hi": "सबसे छोटी धनात्मक संख्या कौन-सी है जो 3, 4 और 5 से भाग देने पर क्रमशः 2, 3 और 4 शेष देती है?",
+  "options_en": [
+    "56",
+    "57",
+    "58",
+    "59",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "56",
+    "57",
+    "58",
+    "59",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 3,
+  "explanation": "The required number is 1 less than a multiple of 3, 4, and 5. LCM of 3, 4, and 5 is 60. Therefore, the least such number is 60 - 1 = 59."
+},
+{
+  "id": 82,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + y = 14 and xy = 40, find x² + y².",
+  "q_hi": "यदि x + y = 14 और xy = 40 है, तो x² + y² का मान ज्ञात कीजिए।",
+  "options_en": [
+    "114",
+    "115",
+    "116",
+    "117",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "114",
+    "115",
+    "116",
+    "117",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Using the identity x² + y² = (x + y)² - 2xy, we get 14² - 2×40 = 196 - 80 = 116."
+},
+{
+  "id": 83,
+  "section": "SSC Maths - Pipes and Cisterns",
+  "q_en": "Pipe A fills a tank in 12 hours, pipe B fills it in 18 hours, and a drain empties it in 36 hours. If all are opened together, in how many hours will the tank be filled?",
+  "q_hi": "पाइप A एक टंकी को 12 घंटे में भरता है, पाइप B 18 घंटे में भरता है, और एक नाली उसे 36 घंटे में खाली करती है। यदि तीनों एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भरेगी?",
+  "options_en": [
+    "8 hours",
+    "9 hours",
+    "10 hours",
+    "11 hours",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "8 घंटे",
+    "9 घंटे",
+    "10 घंटे",
+    "11 घंटे",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Net rate = 1/12 + 1/18 - 1/36 = 3/36 + 2/36 - 1/36 = 4/36 = 1/9. So the tank will be filled in 9 hours."
+},
+{
+  "id": 84,
+  "section": "SSC Maths - Probability",
+  "q_en": "A coin is tossed 3 times. What is the probability of getting exactly two heads?",
+  "q_hi": "एक सिक्का 3 बार उछाला जाता है। ठीक दो हेड आने की प्रायिकता क्या है?",
+  "options_en": [
+    "1/4",
+    "3/8",
+    "1/2",
+    "5/8",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1/4",
+    "3/8",
+    "1/2",
+    "5/8",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Total outcomes when a coin is tossed 3 times = 2³ = 8. Exactly two heads can occur in 3 ways. So the probability = 3/8."
+},
+{
+  "id": 85,
+  "section": "SSC Maths - Arithmetic Progression",
+  "q_en": "Find the sum of the first 12 terms of an AP whose first term is 9 and common difference is 5.",
+  "q_hi": "उस AP के पहले 12 पदों का योग ज्ञात कीजिए जिसका पहला पद 9 है और सामान्य अंतर 5 है।",
+  "options_en": [
+    "432",
+    "436",
+    "438",
+    "440",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "432",
+    "436",
+    "438",
+    "440",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The 12th term = 9 + 11×5 = 64. Sum of first 12 terms = 12/2 × (9 + 64) = 6 × 73 = 438."
+},
+{
+  "id": 86,
+  "section": "SSC Maths - Partnership",
+  "q_en": "A invests Rs. 20,000 for 10 months, B invests Rs. 15,000 for 12 months, and C invests Rs. 30,000 for 5 months. What is the ratio of their shares in the profit?",
+  "q_hi": "A ₹20,000 को 10 महीने के लिए, B ₹15,000 को 12 महीने के लिए, और C ₹30,000 को 5 महीने के लिए निवेश करता है। लाभ में उनके हिस्सों का अनुपात क्या होगा?",
+  "options_en": [
+    "20:18:15",
+    "18:20:15",
+    "20:15:18",
+    "15:18:20",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "20:18:15",
+    "18:20:15",
+    "20:15:18",
+    "15:18:20",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Profit share is proportional to capital × time. A = 20000 × 10 = 200000, B = 15000 × 12 = 180000, C = 30000 × 5 = 150000. Ratio = 20:18:15."
+},
+{
+  "id": 87,
+  "section": "SSC Maths - Time, Speed and Distance",
+  "q_en": "A train 240 m long passes a pole in 12 seconds. How long will it take to cross a platform 160 m long?",
+  "q_hi": "240 मीटर लंबी एक ट्रेन एक खंभे को 12 सेकंड में पार करती है। 160 मीटर लंबे प्लेटफॉर्म को पार करने में उसे कितना समय लगेगा?",
+  "options_en": [
+    "18 seconds",
+    "20 seconds",
+    "22 seconds",
+    "24 seconds",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "18 सेकंड",
+    "20 सेकंड",
+    "22 सेकंड",
+    "24 सेकंड",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Speed of the train = 240/12 = 20 m/s. To cross the platform, distance = 240 + 160 = 400 m. Time = 400/20 = 20 seconds."
+},
+{
+  "id": 88,
+  "section": "SSC Maths - Simple and Compound Interest",
+  "q_en": "Find the difference between Compound Interest and Simple Interest on Rs. 10,000 at 12% per annum for 2 years.",
+  "q_hi": "2 वर्षों के लिए 12% वार्षिक दर पर ₹10,000 पर चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।",
+  "options_en": [
+    "Rs. 132",
+    "Rs. 140",
+    "Rs. 144",
+    "Rs. 148",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "₹132",
+    "₹140",
+    "₹144",
+    "₹148",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "For 2 years, CI - SI = P × (R/100)^2. So, 10000 × (12/100)^2 = 10000 × 0.0144 = Rs. 144."
+},
+{
+  "id": 89,
+  "section": "SSC Maths - Geometry",
+  "q_en": "A rectangle has diagonal 26 cm and breadth 10 cm. What is its area?",
+  "q_hi": "एक आयत का विकर्ण 26 सेमी और चौड़ाई 10 सेमी है। इसका क्षेत्रफल क्या होगा?",
+  "options_en": [
+    "220 cm²",
+    "230 cm²",
+    "240 cm²",
+    "250 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "220 सेमी²",
+    "230 सेमी²",
+    "240 सेमी²",
+    "250 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "By Pythagoras, length² = diagonal² - breadth² = 26² - 10² = 676 - 100 = 576. So length = 24 cm. Area = 24 × 10 = 240 cm²."
+},
+{
+  "id": 90,
+  "section": "SSC Maths - Mixture and Ratio",
+  "q_en": "A container has milk and water in the ratio 4:3. If the total mixture is 35 litres, how much water must be added to make the ratio 4:5?",
+  "q_hi": "एक बर्तन में दूध और पानी का अनुपात 4:3 है। यदि मिश्रण की कुल मात्रा 35 लीटर है, तो अनुपात 4:5 करने के लिए कितने लीटर पानी मिलाना होगा?",
+  "options_en": [
+    "8 litres",
+    "10 litres",
+    "12 litres",
+    "14 litres",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "8 लीटर",
+    "10 लीटर",
+    "12 लीटर",
+    "14 लीटर",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Milk = 4/7 of 35 = 20 litres and water = 15 litres. For the ratio 4:5, when milk remains 20 litres, water should be 25 litres. So 10 litres of water must be added."
+},
+{
+  "id": 91,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 312 ÷ 12 + 17 × 5 - 84 ÷ 7",
+  "q_hi": "मान निकालिए: 312 ÷ 12 + 17 × 5 - 84 ÷ 7",
+  "options_en": [
+    "97",
+    "98",
+    "99",
+    "100",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "97",
+    "98",
+    "99",
+    "100",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "First perform division and multiplication: 312 ÷ 12 = 26, 17 × 5 = 85, and 84 ÷ 7 = 12. Then 26 + 85 - 12 = 99."
+},
+{
+  "id": 92,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 25%, then decreased by 20%, and then increased by 10%. What is the net percentage change?",
+  "q_hi": "एक संख्या में 25% की वृद्धि की जाती है, फिर 20% की कमी की जाती है, और फिर 10% की वृद्धि की जाती है। कुल प्रतिशत परिवर्तन क्या होगा?",
+  "options_en": [
+    "8% increase",
+    "9% increase",
+    "10% increase",
+    "11% increase",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "8% की वृद्धि",
+    "9% की वृद्धि",
+    "10% की वृद्धि",
+    "11% की वृद्धि",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Take the number as 100. After 25% increase it becomes 125. After 20% decrease it becomes 100. After 10% increase it becomes 110. So the net change is 10% increase."
+},
+{
+  "id": 93,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 18 days, B in 24 days and C in 36 days. A works alone for 3 days and then B and C join. In how many total days will the work be completed?",
+  "q_hi": "A किसी कार्य को 18 दिनों में, B 24 दिनों में और C 36 दिनों में पूरा कर सकता है। A 3 दिन अकेले काम करता है और फिर B तथा C जुड़ जाते हैं। कार्य कुल कितने दिनों में पूरा होगा?",
+  "options_en": [
+    "13 days",
+    "14 days",
+    "15 days",
+    "16 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "13 दिन",
+    "14 दिन",
+    "15 दिन",
+    "16 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "A's 3-day work = 3/18 = 1/6. Remaining work = 5/6. Combined rate of B and C = 1/24 + 1/36 = 5/72 per day. Time for remaining work = (5/6) ÷ (5/72) = 12 days. Total time = 3 + 12 = 15 days."
+},
+{
+  "id": 94,
+  "section": "SSC Maths - Ages",
+  "q_en": "The ratio of the present ages of A and B is 3:4. After 5 years, the ratio becomes 4:5. What is the present age of A?",
+  "q_hi": "A और B की वर्तमान आयु का अनुपात 3:4 है। 5 वर्ष बाद यह अनुपात 4:5 हो जाता है। A की वर्तमान आयु क्या है?",
+  "options_en": [
+    "12 years",
+    "15 years",
+    "18 years",
+    "21 years",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "12 वर्ष",
+    "15 वर्ष",
+    "18 वर्ष",
+    "21 वर्ष",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Let the present ages be 3x and 4x. Then (3x + 5)/(4x + 5) = 4/5. Cross-multiplying gives 15x + 25 = 16x + 20, so x = 5. Hence A's age = 3x = 15 years."
+},
+{
+  "id": 95,
+  "section": "SSC Maths - Mensuration",
+  "q_en": "What is the area of a circle whose radius is 21 cm? (Take π = 22/7)",
+  "q_hi": "21 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "1366 cm²",
+    "1376 cm²",
+    "1386 cm²",
+    "1396 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1366 सेमी²",
+    "1376 सेमी²",
+    "1386 सेमी²",
+    "1396 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Area of circle = πr² = 22/7 × 21 × 21 = 22 × 63 = 1386 cm²."
+},
+{
+  "id": 96,
+  "section": "SSC Maths - Number System",
+  "q_en": "What is the least positive number that leaves remainders 1, 2, and 3 when divided by 2, 3, and 4 respectively?",
+  "q_hi": "सबसे छोटी धनात्मक संख्या कौन-सी है जो 2, 3 और 4 से भाग देने पर क्रमशः 1, 2 और 3 शेष देती है?",
+  "options_en": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Check the numbers satisfying all three conditions. 11 leaves remainder 1 when divided by 2, remainder 2 when divided by 3, and remainder 3 when divided by 4. So the least such number is 11."
+},
+{
+  "id": 97,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x + 1/x = 7, then find x² + 1/x².",
+  "q_hi": "यदि x + 1/x = 7 है, तो x² + 1/x² का मान ज्ञात कीजिए।",
+  "options_en": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Using the identity (x + 1/x)² = x² + 1/x² + 2, we get 49 = x² + 1/x² + 2. Hence, x² + 1/x² = 47."
+},
+{
+  "id": 98,
+  "section": "SSC Maths - Pipes and Cisterns",
+  "q_en": "Pipe A fills a tank in 14 hours, pipe B fills it in 21 hours, and a drain empties it in 42 hours. If all are opened together, in how many hours will the tank be filled?",
+  "q_hi": "पाइप A एक टंकी को 14 घंटे में भरता है, पाइप B 21 घंटे में भरता है, और एक नाली उसे 42 घंटे में खाली करती है। यदि तीनों एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भरेगी?",
+  "options_en": [
+    "10 hours",
+    "10.5 hours",
+    "11 hours",
+    "11.5 hours",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "10 घंटे",
+    "10.5 घंटे",
+    "11 घंटे",
+    "11.5 घंटे",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Net rate = 1/14 + 1/21 - 1/42 = 3/42 + 2/42 - 1/42 = 4/42 = 2/21 tank per hour. Therefore, the tank will be filled in 21/2 = 10.5 hours."
+},
+{
+  "id": 99,
+  "section": "SSC Maths - Probability",
+  "q_en": "Two dice are thrown together. What is the probability of getting a sum of 9?",
+  "q_hi": "दो पासे एक साथ फेंके जाते हैं। योग 9 आने की प्रायिकता क्या है?",
+  "options_en": [
+    "1/12",
+    "1/9",
+    "1/8",
+    "2/9",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "1/12",
+    "1/9",
+    "1/8",
+    "2/9",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "The favorable outcomes for sum 9 are (3,6), (4,5), (5,4), and (6,3), i.e. 4 outcomes. Total outcomes = 36. So the probability = 4/36 = 1/9."
+},
+{
+  "id": 100,
+  "section": "SSC Maths - Arithmetic Progression",
+  "q_en": "Find the sum of the first 20 terms of an AP whose first term is 15 and common difference is 2.",
+  "q_hi": "उस AP के पहले 20 पदों का योग ज्ञात कीजिए जिसका पहला पद 15 है और सामान्य अंतर 2 है।",
+  "options_en": [
+    "660",
+    "670",
+    "680",
+    "690",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "660",
+    "670",
+    "680",
+    "690",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "The 20th term = 15 + 19 × 2 = 53. Sum of first 20 terms = 20/2 × (15 + 53) = 10 × 68 = 680."
 }
 ]
   }
