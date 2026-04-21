@@ -1,0 +1,12 @@
+{
+  "testTitle": "SSC Maths Chapter Wise Quiz - Free Mock Test 1",
+  "timeMinutes": 60,
+  "questions": 100,
+  "category": "SSC Exams",
+  "negativeMarking": 0.5,
+  "description": "<b>SSC Maths Chapter Wise Quiz - Free Mock Test 1</b><br><br>This quiz is designed for SSC aspirants and covers important Maths chapters like Simplification, Percentage, Ratio and Proportion, Time and Work, Profit and Loss, Average, Simple Interest, and Compound Interest. The test follows the SSC exam pattern with 100 questions, 60 minutes, and 0.50 negative marking for each wrong answer.",
+  "thumbnail": "assets/quizzes/ssc-maths-chapter-wise-quiz-free-mock-test-1-thumbnail.svg",
+  "cover_image": "assets/quizzes/ssc-maths-chapter-wise-quiz-free-mock-test-1-cover.svg",
+  "questions": [
+  ]
+}
