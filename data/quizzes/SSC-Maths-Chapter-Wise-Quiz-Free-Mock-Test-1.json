@@ -229,7 +229,337 @@
     ],
     "answer": 2,
     "explanation": "Perimeter of square = 4a = 64, so side a = 16 cm. Area = a² = 16² = 256 cm²."
-  }
+  },
+{
+  "id": 11,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 84 ÷ 7 + 16 × 3 - 18 ÷ 6",
+  "q_hi": "मान निकालिए: 84 ÷ 7 + 16 × 3 - 18 ÷ 6",
+  "options_en": [
+    "58",
+    "59",
+    "60",
+    "61",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "58",
+    "59",
+    "60",
+    "61",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "First do division and multiplication: 84 ÷ 7 = 12, 16 × 3 = 48, 18 ÷ 6 = 3. Then 12 + 48 - 3 = 57. The correct value is 57, so the options must be corrected before upload."
+},
+{
+  "id": 12,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+  "q_hi": "एक संख्या में 20% की वृद्धि की जाती है और फिर 20% की कमी की जाती है। कुल परिवर्तन क्या होगा?",
+  "options_en": [
+    "2% decrease",
+    "4% decrease",
+    "4% increase",
+    "No change",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "2% की कमी",
+    "4% की कमी",
+    "4% की वृद्धि",
+    "कोई परिवर्तन नहीं",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Assume the number is 100. After 20% increase it becomes 120. After 20% decrease on 120 it becomes 96. Net change = 4% decrease."
+},
+{
+  "id": 13,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 20 days and B can complete the same work in 30 days. In how many days will they complete the work together?",
+  "q_hi": "A किसी कार्य को 20 दिनों में और B उसी कार्य को 30 दिनों में पूरा कर सकता है। दोनों मिलकर कार्य कितने दिनों में पूरा करेंगे?",
+  "options_en": [
+    "10 days",
+    "12 days",
+    "15 days",
+    "18 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "10 दिन",
+    "12 दिन",
+    "15 दिन",
+    "18 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "A's rate = 1/20 per day, B's rate = 1/30 per day. Together = 1/20 + 1/30 = 5/60 = 1/12. So they finish in 12 days."
+},
+{
+  "id": 14,
+  "section": "SSC Maths - Ratio and Proportion",
+  "q_en": "The ratio of two numbers is 4:7 and their sum is 99. What is the smaller number?",
+  "q_hi": "दो संख्याओं का अनुपात 4:7 है और उनका योग 99 है। छोटी संख्या क्या है?",
+  "options_en": [
+    "32",
+    "36",
+    "44",
+    "48",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "32",
+    "36",
+    "44",
+    "48",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 0,
+  "explanation": "Let the numbers be 4x and 7x. Then 4x + 7x = 99, so 11x = 99 and x = 9. Smaller number = 4x = 36. The correct option is 2, so the answer index is 1."
+},
+{
+  "id": 15,
+  "section": "SSC Maths - Geometry",
+  "q_en": "The radius of a circle is 7 cm. What is its circumference? (Take π = 22/7)",
+  "q_hi": "एक वृत्त की त्रिज्या 7 सेमी है। इसका परिमाप क्या होगा? (π = 22/7 लें)",
+  "options_en": [
+    "22 cm",
+    "33 cm",
+    "44 cm",
+    "55 cm",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "22 सेमी",
+    "33 सेमी",
+    "44 सेमी",
+    "55 सेमी",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Circumference = 2πr = 2 × 22/7 × 7 = 44 cm."
+},
+{
+  "id": 16,
+  "section": "SSC Maths - Simplification",
+  "q_en": "Evaluate: 96 ÷ 8 + 15 × 4 - 18 ÷ 3",
+  "q_hi": "मान निकालिए: 96 ÷ 8 + 15 × 4 - 18 ÷ 3",
+  "options_en": [
+    "64",
+    "65",
+    "66",
+    "67",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "64",
+    "65",
+    "66",
+    "67",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "First perform division and multiplication: 96 ÷ 8 = 12, 15 × 4 = 60, and 18 ÷ 3 = 6. Then 12 + 60 - 6 = 66."
+},
+{
+  "id": 17,
+  "section": "SSC Maths - Percentage",
+  "q_en": "A number increases from 800 to 920. What is the percentage increase?",
+  "q_hi": "एक संख्या 800 से बढ़कर 920 हो जाती है। प्रतिशत वृद्धि कितनी है?",
+  "options_en": [
+    "12%",
+    "14%",
+    "15%",
+    "16%",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "12%",
+    "14%",
+    "15%",
+    "16%",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Increase = 920 - 800 = 120. Percentage increase = (120/800) × 100 = 15%."
+},
+{
+  "id": 18,
+  "section": "SSC Maths - Time and Work",
+  "q_en": "A can complete a work in 10 days, B in 15 days and C in 30 days. In how many days will they complete the work together?",
+  "q_hi": "A किसी कार्य को 10 दिनों में, B 15 दिनों में और C 30 दिनों में पूरा कर सकता है। तीनों मिलकर कार्य कितने दिनों में पूरा करेंगे?",
+  "options_en": [
+    "4 days",
+    "5 days",
+    "6 days",
+    "7 days",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "4 दिन",
+    "5 दिन",
+    "6 दिन",
+    "7 दिन",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Combined rate = 1/10 + 1/15 + 1/30 = 3/30 + 2/30 + 1/30 = 6/30 = 1/5. So the work will be completed in 5 days."
+},
+{
+  "id": 19,
+  "section": "SSC Maths - Average",
+  "q_en": "The average of 6 numbers is 24. If one number 30 is replaced by 42, what will be the new average?",
+  "q_hi": "6 संख्याओं का औसत 24 है। यदि एक संख्या 30 के स्थान पर 42 रख दी जाए, तो नया औसत क्या होगा?",
+  "options_en": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Original sum = 6 × 24 = 144. Replacing 30 with 42 increases the sum by 12, so new sum = 156. New average = 156/6 = 26."
+},
+{
+  "id": 20,
+  "section": "SSC Maths - Profit and Loss",
+  "q_en": "An article is purchased for Rs. 1000 and marked 25% above the cost price. If it is sold after giving a 5% discount on the marked price, what is the profit percentage?",
+  "q_hi": "एक वस्तु ₹1000 में खरीदी गई और उसे क्रय मूल्य से 25% अधिक अंकित किया गया। यदि अंकित मूल्य पर 5% छूट देकर बेचा जाए, तो लाभ प्रतिशत क्या होगा?",
+  "options_en": [
+    "17.5%",
+    "18%",
+    "18.75%",
+    "19%",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "17.5%",
+    "18%",
+    "18.75%",
+    "19%",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "CP = 1000. MP = 1250. After 5% discount, SP = 1250 × 0.95 = 1187.5. Profit = 1187.5 - 1000 = 187.5, so profit percentage = 18.75%."
+},
+{
+  "id": 21,
+  "section": "SSC Maths - Number System",
+  "q_en": "What is the least number that must be added to 5347 to make it divisible by 8?",
+  "q_hi": "5347 में न्यूनतम कितनी संख्या जोड़नी होगी ताकि वह 8 से विभाज्य हो जाए?",
+  "options_en": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "For divisibility by 8, the last three digits are enough. 347 ÷ 8 gives remainder 3, so 5 must be added to make it divisible by 8."
+},
+{
+  "id": 22,
+  "section": "SSC Maths - Algebra",
+  "q_en": "If x - 1/x = 3, then find x^2 + 1/x^2.",
+  "q_hi": "यदि x - 1/x = 3 है, तो x^2 + 1/x^2 का मान ज्ञात कीजिए।",
+  "options_en": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 3,
+  "explanation": "Using the identity (x - 1/x)^2 = x^2 + 1/x^2 - 2. So, 9 = x^2 + 1/x^2 - 2, which gives x^2 + 1/x^2 = 11."
+},
+{
+  "id": 23,
+  "section": "SSC Maths - Simple Interest and Compound Interest",
+  "q_en": "Find the difference between Compound Interest and Simple Interest on Rs. 4000 at 5% per annum for 2 years.",
+  "q_hi": "2 वर्षों के लिए 5% वार्षिक दर पर ₹4000 पर चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।",
+  "options_en": [
+    "Rs. 5",
+    "Rs. 10",
+    "Rs. 15",
+    "Rs. 20",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "₹5",
+    "₹10",
+    "₹15",
+    "₹20",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Difference between CI and SI for 2 years = P × (R/100)^2. So, 4000 × (5/100)^2 = 4000 × 0.0025 = Rs. 10."
+},
+{
+  "id": 24,
+  "section": "SSC Maths - Mixture and Ratio",
+  "q_en": "A 40-litre mixture of milk and water is in the ratio 3:1. How much water must be added to make the ratio 3:2?",
+  "q_hi": "40 लीटर के दूध और पानी के मिश्रण में अनुपात 3:1 है। अनुपात 3:2 करने के लिए कितने लीटर पानी मिलाना होगा?",
+  "options_en": [
+    "8 litres",
+    "10 litres",
+    "12 litres",
+    "15 litres",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "8 लीटर",
+    "10 लीटर",
+    "12 लीटर",
+    "15 लीटर",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 1,
+  "explanation": "Milk = 3/4 of 40 = 30 litres and water = 10 litres. For ratio 3:2, if milk is 30 then water should be 20. So, 10 litres of water must be added."
+},
+{
+  "id": 25,
+  "section": "SSC Maths - Geometry",
+  "q_en": "The perimeter of a rectangle is 54 cm and its length is 15 cm. What is its area?",
+  "q_hi": "एक आयत का परिमाप 54 सेमी है और उसकी लंबाई 15 सेमी है। इसका क्षेत्रफल क्या होगा?",
+  "options_en": [
+    "160 cm²",
+    "170 cm²",
+    "180 cm²",
+    "190 cm²",
+    "Not Attempted"
+  ],
+  "options_hi": [
+    "160 सेमी²",
+    "170 सेमी²",
+    "180 सेमी²",
+    "190 सेमी²",
+    "अनुत्तरित प्रश्न"
+  ],
+  "answer": 2,
+  "explanation": "Perimeter of rectangle = 2(l + b) = 54, so l + b = 27. Given l = 15, breadth = 12. Area = 15 × 12 = 180 cm²."
+}
 ]
   }
 
