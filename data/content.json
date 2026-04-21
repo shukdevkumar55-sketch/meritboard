@@ -1,5 +1,28 @@
 [
-
+  {
+    "id": "SSC-Maths-Chapter-Wise-Quiz-Free-Mock-Test-1",
+    "type": "quiz",
+    "title": "SSC Maths Chapter Wise Quiz - Free Mock Test 1",
+    "thumbnail": "/assets/default-thumb.webp",
+    "category": "SSC Exams",
+    "tags": [
+      "SSC Maths",
+      "Chapter Wise Quiz",
+      "Free Mock Test",
+      "Topic Wise Practice",
+      "Previous Year Questions",
+      "Simplification",
+      "Percentage",
+      "Ratio and Proportion",
+      "Time and Work",
+      "Profit and Loss"
+    ],
+    "date_added": "2026-04-21",
+    "author": "MeritBoard Team",
+    "is_featured": true,
+    "meta_info": "Chapter-wise • Topic-wise • Free Practice • Detailed Solutions",
+    "source_url": "data/quizzes/SSC-Maths-Chapter-Wise-Quiz-Free-Mock-Test-1.json"
+  },
 {
   "id": "HSSC-CET-Mains-Practice-Set-Mock-Test-1",
   "type": "quiz",
